@@ -303,71 +303,53 @@
 			"reprintedAs": [
 				"Dragonborn (Gem)|EARL"
 			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
 			"ability": [
 				{
-					"con": 2,
 					"int": 1
 				}
 			],
-			"age": {
-				"mature": 15,
-				"max": 80
-			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"draconic": true
-				}
-			],
 			"entries": [
-				{
-					"name": "Age",
-					"entries": [
-						"Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Speed",
-					"entries": [
-						"Your base walking speed is 30 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Ancestry",
-					"entries": [
-						"You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Breath Weapon",
-					"entries": [
-						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
-						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of d10s equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
-						"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Resilience",
-					"entries": [
-						"You have resistance to the damage type associated with your draconic ancestry."
-					]
-				},
+			{
+							"type": "table",
+							"caption": "Draconic Ancestry",
+							"colLabels": [
+								"Dragon",
+								"Damage Type",
+								"Breath Weapon"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Amethyst",
+									"Force",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Crystal",
+									"Radiant",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Emerald",
+									"Psychic",
+									"15 ft. cone (Int. save)"
+								],
+								[
+									"Sapphire",
+									"Thunder",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Topaz",
+									"Necrotic",
+									"15 ft. cone (Con. save)"
+								]
+							]
+						},
 				{
 					"type": "entries",
 					"name": "Psionic Mind",
@@ -392,84 +374,68 @@
 			]
 		},
 		{
-			"name": "Dragonborn (Metallic)",
+			"name": "Metallic",
 			"source": "EntrancedRaces",
-			"page": 4,
+			"raceName": "Dragonborn",
+			"raceSource": "EntrancedRaces",
+			"page": 3,
 			"reprintedAs": [
 				"Dragonborn (Metallic)|EARL"
 			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
 			"ability": [
 				{
-					"con": 2,
 					"wis": 1
 				}
 			],
-			"age": {
-				"mature": 15,
-				"max": 80
-			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"draconic": true
-				}
-			],
 			"entries": [
-				{
-					"name": "Age",
-					"entries": [
-						"Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
-					],
-					"type": "entries"
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Speed",
-					"entries": [
-						"Your base walking speed is 30 feet."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Ancestry",
-					"entries": [
-						"You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Breath Weapon",
-					"entries": [
-						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
-						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of d10s equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
-						"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Draconic Resilience",
-					"entries": [
-						"You have resistance to the damage type associated with your draconic ancestry."
-					]
-				},
+			{
+							"type": "table",
+							"caption": "Draconic Ancestry",
+							"colLabels": [
+								"Dragon",
+								"Damage Type",
+								"Breath Weapon"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Brass",
+									"Fire",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Bronze",
+									"Lightning",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Copper",
+									"Acid",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Gold",
+									"Fire",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Silver",
+									"Cold",
+									"15 ft. cone (Con. save)"
+								]
+							]
+						},
 				{
 					"type": "entries",
 					"name": "Metallic Breath Weapon",
 					"entries": [
 						"At 5th level, you gain a second breath weapon. When you take the Attack action on your turn, you can replace one of your attacks with an exhalation in a 15-foot cone. The save DC for this breath is 8 + your Constitution modifier + your proficiency bonus. Whenever you use this trait, choose one:",
-						"Enervating Breath. Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.",
-						"Repulsion Breath. Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone."
+						"{@b Enervating Breath}. Each creature in the cone must succeed on a Constitution saving throw or become incapacitated until the start of your next turn.",
+						"{@b Repulsion Breath}. Each creature in the cone must succeed on a Strength saving throw or be pushed 20 feet away from you and be knocked prone."
 					]
 				},
 				{
@@ -480,7 +446,9 @@
 					"type": "entries"
 				}
 			]
-		},
+		}
+	],
+	"race": [
 		{
 			"name": "Dwarf (Duergar)",
 			"source": "EntrancedRaces",
