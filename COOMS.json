@@ -3023,7 +3023,7 @@
 
 			],
 			"entries": [
-				"Whenever you take damage from a magic missile, attack roll, or are forced to make a saving throw against an attack that deals damage other than psychic in an area of effect, you may use your reaction to reduce the incoming damage by {@dice 3d4} + spellcasting modifier as you force the attack to curve around you, potentially missing you.",
+				"Whenever you take damage from a magic missile, attack roll, or are forced to make a saving throw against an attack that deals damage other than psychic in an area of effect, you may use your reaction to reduce the incoming damage roll's outcome (before vulnerability or resistance is calculated) by {@dice 3d4} + spellcasting modifier as you force the attack to curve around you, potentially missing you.",
 				"If the incoming damage is from a melee attack and you completely negate the incoming damage, the attacker becomes {@condition Wide Open} as a result of this spell. If you negate the incoming damage by matching their damage roll exactly, the attacker is prevented from attacking for the remainder of their turn, ending an ongoing multiattack or series of attacks granted by the Extra Attack feature.",
 				"If the incoming damage is from a ranged attack (including {@spell magic missile}) and you completely negate the incoming damage, you can direct the attack to one creature within 5 feet of you as the shot wraps around you towards them. If the attack roll would hit the creature, the creature takes damage equal to the remainder of the potential damage that you could have negated."
 			],
