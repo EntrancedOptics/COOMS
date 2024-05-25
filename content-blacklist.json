@@ -1,0 +1,288 @@
+{
+  "siteVersion": "1.200.0",
+  "fileType": "content-blocklist",
+  "blocklist": [
+    {
+      "displayName": "Air Bubble",
+      "hash": "air%20bubble_aag",
+      "category": "spell",
+      "source": "AAG"
+    },
+    {
+      "displayName": "Motivational Speech",
+      "hash": "motivational%20speech_ai",
+      "category": "spell",
+      "source": "AI"
+    },
+    {
+      "displayName": "Alter Self",
+      "hash": "alter%20self_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Armor of Agathys",
+      "hash": "armor%20of%20agathys_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Bane",
+      "hash": "bane_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Bestow Curse",
+      "hash": "bestow%20curse_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Blade Barrier",
+      "hash": "blade%20barrier_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Bless",
+      "hash": "bless_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Cloud of Daggers",
+      "hash": "cloud%20of%20daggers_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Create or Destroy Water",
+      "hash": "create%20or%20destroy%20water_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Druidcraft",
+      "hash": "druidcraft_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Enhance Ability",
+      "hash": "enhance%20ability_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "False Life",
+      "hash": "false%20life_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Grease",
+      "hash": "grease_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Guidance",
+      "hash": "guidance_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Illusory Script",
+      "hash": "illusory%20script_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Lightning Arrow",
+      "hash": "lightning%20arrow_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Message",
+      "hash": "message_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Prestidigitation",
+      "hash": "prestidigitation_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Protection from Evil and Good",
+      "hash": "protection%20from%20evil%20and%20good_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ray of Enfeeblement",
+      "hash": "ray%20of%20enfeeblement_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Regenerate",
+      "hash": "regenerate_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Reincarnate",
+      "hash": "reincarnate_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Remove Curse",
+      "hash": "remove%20curse_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Resistance",
+      "hash": "resistance_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Shield",
+      "hash": "shield_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Sleet Storm",
+      "hash": "sleet%20storm_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Thaumaturgy",
+      "hash": "thaumaturgy_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "True Strike",
+      "hash": "true%20strike_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Wall of Force",
+      "hash": "wall%20of%20force_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Wind Wall",
+      "hash": "wind%20wall_phb",
+      "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Vortex Warp",
+      "hash": "vortex%20warp_scc",
+      "category": "spell",
+      "source": "SCC"
+    },
+    {
+      "displayName": "Sword Burst",
+      "hash": "sword%20burst_tce",
+      "category": "spell",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Aganazzar's Scorcher",
+      "hash": "aganazzar's%20scorcher_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Bones of the Earth",
+      "hash": "bones%20of%20the%20earth_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Ceremony",
+      "hash": "ceremony_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Control Flames",
+      "hash": "control%20flames_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Create Bonfire",
+      "hash": "create%20bonfire_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Dragon's Breath",
+      "hash": "dragon's%20breath_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Dust Devil",
+      "hash": "dust%20devil_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Gust",
+      "hash": "gust_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Mold Earth",
+      "hash": "mold%20earth_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Shape Water",
+      "hash": "shape%20water_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Steel Wind Strike",
+      "hash": "steel%20wind%20strike_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Wall of Sand",
+      "hash": "wall%20of%20sand_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Wall of Water",
+      "hash": "wall%20of%20water_xge",
+      "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "displayName": "Silvery Barbs",
+      "hash": "silvery%20barbs_scc",
+      "category": "spell",
+      "source": "SCC"
+    }
+  ]
+}
