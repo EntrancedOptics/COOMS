@@ -63,7 +63,7 @@
 			"savingThrow": [
 				"dexterity"
 			],
-			"areaTags": ["L"],
+			"areaTags": [ "L" ],
 			"classes": {
 				"fromClassList": [
 					{
@@ -83,8 +83,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -94,8 +94,106 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Air Bubble",
+			"source": "COOMS",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 24
+					}
+				}
+			],
+			"entries": [
+				"You create an orb of fresh air that is 1-foot in diameter at a point you can see within range. The orb sticks to the point and follows it for the duration of the spell. That point can be, for example, a creature's head. If the creature breathes air and has multiple heads only one needs to be submerged in the bubble to avoid suffocation, assuming all of the creature's heads share the same respiratory system.",
+				"If you wish to cast this spell on an unwilling creature, the duration of the spell changes to concentration, up to 1 minute as you attempt to force it to stay on the point. The target must make a Dexterity saving throw against your spell save DC to avoid the spell. While its head is submerged in the air, the creature must hold its breath unless it can breathe air.",
+				"A creature may attempt to momentarily escape by using an action to make a Dexterity saving throw against your spell save DC. On a success, they are able to get a breath in, resetting their suffocation time.",
+				"If this spell is cast on a creature currently under the effects of a {@spell Water Bubble|COOMS} spell, it is dispelled before the effects of this spell take hold."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell on a willing creature using a spell slot of 3rd level or higher, you can create two additional globes of fresh air on willing creatures for each slot level above 2nd. When you cast this spell on an unwilling creature using a spell slot of 3rd level or higher, the duration increases by one minute for each slot level above 2nd."
+					],
+					"type": "entries"
+				}
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -204,8 +302,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -215,8 +313,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -226,9 +324,9 @@
 						},
 						"subclass": {
 							"name": "Lunar Sorcerery",
-					"shortName": "Lunar",
-					"source": "DSotDQ",
-					"subSubclass": "Crescent Moon"
+							"shortName": "Lunar",
+							"source": "DSotDQ",
+							"subSubclass": "Crescent Moon"
 						}
 					}
 				]
@@ -298,8 +396,8 @@
 						},
 						"subclass": {
 							"name": "Oath of Conquest",
-					"shortName": "Conquest",
-					"source": "XGE"
+							"shortName": "Conquest",
+							"source": "XGE"
 						}
 					}
 				]
@@ -394,8 +492,8 @@
 						},
 						"subclass": {
 							"name": "The Undead",
-					"shortName": "Undead",
-					"source": "VRGR"
+							"shortName": "Undead",
+							"source": "VRGR"
 						}
 					},
 					{
@@ -405,8 +503,8 @@
 						},
 						"subclass": {
 							"name": "Oath of Vengeance",
-					"shortName": "Vengeance",
-					"source": "PHB"
+							"shortName": "Vengeance",
+							"source": "PHB"
 						}
 					},
 					{
@@ -416,8 +514,8 @@
 						},
 						"subclass": {
 							"name": "Divine Soul",
-					"shortName": "Divine Soul",
-					"source": "XGE"
+							"shortName": "Divine Soul",
+							"source": "XGE"
 						}
 					},
 					{
@@ -427,8 +525,8 @@
 						},
 						"subclass": {
 							"name": "Grave Domain",
-					"shortName": "Grave",
-					"source": "XGE"
+							"shortName": "Grave",
+							"source": "XGE"
 						}
 					}
 				]
@@ -493,7 +591,8 @@
 				"charisma",
 				"wisdom"
 			],
-			"areaTags": [ "ST"
+			"areaTags": [
+				"ST"
 			],
 			"classes": {
 				"fromClassList": [
@@ -526,8 +625,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -537,8 +636,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -548,8 +647,8 @@
 						},
 						"subclass": {
 							"name": "Oath of Conquest",
-					"shortName": "Conquest",
-					"source": "XGE"
+							"shortName": "Conquest",
+							"source": "XGE"
 						}
 					},
 					{
@@ -559,8 +658,8 @@
 						},
 						"subclass": {
 							"name": "Oathbreaker",
-					"shortName": "Oathbreaker",
-					"source": "DMG"
+							"shortName": "Oathbreaker",
+							"source": "DMG"
 						}
 					}
 				]
@@ -684,7 +783,7 @@
 					"type": "entries"
 				}
 			],
-			"areaTags": ["MT"],
+			"areaTags": [ "MT" ],
 			"classes": {
 				"fromClassList": [
 					{
@@ -708,8 +807,8 @@
 						},
 						"subclass": {
 							"name": "Life Domain",
-					"shortName": "Life",
-					"source": "PHB"
+							"shortName": "Life",
+							"source": "PHB"
 						}
 					},
 					{
@@ -719,8 +818,8 @@
 						},
 						"subclass": {
 							"name": "Community Domain",
-					"shortName": "Community",
-					"source": "HWCS"
+							"shortName": "Community",
+							"source": "HWCS"
 						}
 					},
 					{
@@ -730,8 +829,8 @@
 						},
 						"subclass": {
 							"name": "Divine Soul",
-					"shortName": "Divine Soul",
-					"source": "XGE"
+							"shortName": "Divine Soul",
+							"source": "XGE"
 						}
 					}
 				]
@@ -809,8 +908,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -820,8 +919,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -1028,8 +1127,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -1039,8 +1138,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -1202,8 +1301,8 @@
 						},
 						"subclass": {
 							"name": "Divine Soul",
-					"shortName": "Divine Soul",
-					"source": "PHB"
+							"shortName": "Divine Soul",
+							"source": "PHB"
 						}
 					}
 				]
@@ -1259,10 +1358,12 @@
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
-					},{
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
-					},{
+					},
+					{
 						"name": "Witch",
 						"source": "VRCR"
 					},
@@ -1279,8 +1380,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -1290,8 +1391,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -1463,8 +1564,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -1474,8 +1575,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -1556,8 +1657,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -1567,8 +1668,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -1684,10 +1785,12 @@
 					{
 						"name": "Artificer",
 						"source": "TCE"
-					},{
+					},
+					{
 						"name": "Druid",
 						"source": "PHB"
-					},{
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
@@ -1704,8 +1807,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -1715,8 +1818,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -1793,8 +1896,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -1804,8 +1907,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -1868,7 +1971,7 @@
 						"name": "Ranger",
 						"source": "PHB"
 					}
-				]				
+				]
 			}
 		},
 		{
@@ -1942,8 +2045,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -1953,11 +2056,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -1994,7 +2097,7 @@
 				}
 			],
 			"entries": [
-				"You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.",	
+				"You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -2074,8 +2177,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -2085,11 +2188,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -2167,8 +2270,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -2178,11 +2281,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -2302,7 +2405,7 @@
 						"name": "Wizard",
 						"source": "PHB"
 					}
-				]				
+				]
 			}
 		},
 		{
@@ -2362,7 +2465,7 @@
 						"name": "Ranger",
 						"source": "PHB"
 					}
-				]				
+				]
 			}
 		},
 		{
@@ -2442,8 +2545,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -2453,11 +2556,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]				
+				]
 			}
 		},
 		{
@@ -2535,8 +2638,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -2546,11 +2649,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -2623,7 +2726,7 @@
 						"name": "Witch",
 						"source": "VRCR"
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -2646,7 +2749,7 @@
 			},
 			"components": {
 				"s": true
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -2699,8 +2802,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -2710,8 +2813,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -2738,7 +2841,7 @@
 			"components": {
 				"v": true,
 				"s": true
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -2748,7 +2851,7 @@
 					},
 					"concentration": true
 				}
-				
+
 			],
 			"entries": [
 				"You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature that starts its turn in the bonfire's space or moves into the bonfire's space for the first time on a turn must succeed on a Dexterity saving throw or take {@damage 1d8} fire damage.",
@@ -2791,8 +2894,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -2802,8 +2905,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -2831,7 +2934,7 @@
 				"v": true,
 				"s": true,
 				"m": "a drop of water if creating water or a few grains of sand if destroying it"
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -2886,8 +2989,8 @@
 						},
 						"subclass": {
 							"name": "The Fathomless",
-					"shortName": "Fathomless",
-					"source": "TCE"
+							"shortName": "Fathomless",
+							"source": "TCE"
 						}
 					}
 				]
@@ -2912,12 +3015,12 @@
 			},
 			"components": {
 				"s": true
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
 				}
-				
+
 			],
 			"entries": [
 				"Whenever you take damage from a magic missile, attack roll, or are forced to make a saving throw against an attack that deals damage other than psychic in an area of effect, you may use your reaction to reduce the incoming damage by {@dice 3d4} + spellcasting modifier as you force the attack to curve around you, potentially missing you.",
@@ -2952,8 +3055,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -2963,8 +3066,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -2992,7 +3095,7 @@
 				"v": true,
 				"s": true,
 				"m": "a foot of adamantine chain"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -3002,7 +3105,7 @@
 					},
 					"concentration": true
 				}
-				
+
 			],
 			"entries": [
 				"You intertwine your fate with that of another. Choose one creature within range to make a Charisma saving throw, which they can choose to fail. On a failed save, they are cursed with one of these two effects (your choice):",
@@ -3062,8 +3165,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -3073,8 +3176,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -3101,7 +3204,7 @@
 			"components": {
 				"v": true,
 				"s": true
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -3214,8 +3317,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -3225,8 +3328,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -3252,7 +3355,7 @@
 			},
 			"components": {
 				"v": true
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -3349,8 +3452,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -3360,8 +3463,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -3400,7 +3503,7 @@
 				}
 			],
 			"entries": [
-				"You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose a dragon type from the table below. Until the spell ends, the creature can use an action to exhale energy in the area listed for the chosen type. Each creature in that area must make a saving throw of the type specified, taking {@damage 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one.",	
+				"You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose a dragon type from the table below. Until the spell ends, the creature can use an action to exhale energy in the area listed for the chosen type. Each creature in that area must make a saving throw of the type specified, taking {@damage 3d6} damage of the chosen type on a failed save, or half as much damage on a successful one.",
 				{
 					"type": "table",
 					"caption": "Dragon Types",
@@ -3476,91 +3579,91 @@
 					"entries": [
 						"When you cast this spell using a spell slot of 3rd level or higher, you are able to choose from the Extended Dragon Types table below (provided you know of the given dragon type's existence) and the damage increases by {@scaledamage 1d6|3-9|1d6} for each slot level above 2nd. When you cast this spell using a spell slot of 6th level or higher, the range of the breath weapons increase to a 30 ft. cone and a 5 by 60 foot line respectively. When you cast this spell using a spell slot of 9th level, the range of the breath weapons increase to a 60 ft. cone and a 10 by 120 foot line respectively.",
 						{
-					"type": "table",
-					"caption": "Extended Dragon Types",
-					"colLabels": [
-						"Dragon",
-						"Damage Type",
-						"Breath Weapon"
-					],
-					"colStyles": [
-						"col-2",
-						"col-2",
-						"col-6"
-					],
-					"rows": [
-						[
-							"Amethyst",
-							"Force",
-							"15 ft. cone (Dex. save)"
-						],
-						[
-							"Deep",
-							"Psychic",
-							"15 ft. cone (Wis. save)"
-						],
-						[
-							"Crystal",
-							"Radiant",
-							"15 ft. cone (Con. save)"
-						],
-						[
-							"Emerald",
-							"Psychic",
-							"15 ft. cone (Int. save)"
-						],
-						[
-							"Faerie",
-							"Psychic",
-							"15 ft. cone (Wis. save)"
-						],
-						[
-							"Lunar",
-							"Cold",
-							"15 ft. cone (Con. save)"
-						],
-						[
-							"Moonstone",
-							"Radiant",
-							"15 ft. cone (Dex. save)"
-						],
-						[
-							"Obsidian",
-							"Fire",
-							"15 ft. cone (Dex. save)"
-						],
-						[
-							"Sapphire",
-							"Thunder",
-							"15 ft. cone (Con. save)"
-						],
-						[
-							"Sea Serpent",
-							"Cold",
-							"15 ft. cone (Con. save)"
-						],
-						[
-							"Solar",
-							"Radiant",
-							"15 ft. cone (Con. save)"
-						],
-						[
-							"Time",
-							"Force",
-							"15 ft. cone (Con. save)"
-						],
-						[
-							"Topaz",
-							"Necrotic",
-							"15 ft. cone (Con. save)"
-						],
-						[
-							"Turtle",
-							"Fire",
-							"15 ft. cone (Con. save)"
-						]
-					]
-				}
+							"type": "table",
+							"caption": "Extended Dragon Types",
+							"colLabels": [
+								"Dragon",
+								"Damage Type",
+								"Breath Weapon"
+							],
+							"colStyles": [
+								"col-2",
+								"col-2",
+								"col-6"
+							],
+							"rows": [
+								[
+									"Amethyst",
+									"Force",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Deep",
+									"Psychic",
+									"15 ft. cone (Wis. save)"
+								],
+								[
+									"Crystal",
+									"Radiant",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Emerald",
+									"Psychic",
+									"15 ft. cone (Int. save)"
+								],
+								[
+									"Faerie",
+									"Psychic",
+									"15 ft. cone (Wis. save)"
+								],
+								[
+									"Lunar",
+									"Cold",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Moonstone",
+									"Radiant",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Obsidian",
+									"Fire",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Sapphire",
+									"Thunder",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Sea Serpent",
+									"Cold",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Solar",
+									"Radiant",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Time",
+									"Force",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Topaz",
+									"Necrotic",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Turtle",
+									"Fire",
+									"15 ft. cone (Con. save)"
+								]
+							]
+						}
 					],
 					"type": "entries"
 				}
@@ -3584,8 +3687,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -3595,11 +3698,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -3672,7 +3775,7 @@
 				"v": true,
 				"s": true,
 				"m": "a drop of water if creating water or a few grains of sand if destroying it"
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -3741,8 +3844,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -3752,11 +3855,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -3779,7 +3882,7 @@
 			"components": {
 				"s": true,
 				"m": "an herbalism kit or a healer's kit, a use of which the spell consumes'"
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -3795,7 +3898,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d6} and the lingering injury time reduces by an extra 4 hours for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d6} and the lingering injury time reduces by an extra 4 hours for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -3843,8 +3946,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -3854,11 +3957,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -3883,7 +3986,7 @@
 				"v": true,
 				"s": true,
 				"m": "a pinch of dust"
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -3895,7 +3998,7 @@
 						"amount": 1
 					}
 				}
-				
+
 			],
 			"entries": [
 				"Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell's duration.",
@@ -3906,7 +4009,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|3-9|1d8} for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|3-9|1d8} for each slot level above 2nd."
 					],
 					"type": "entries"
 				}
@@ -3938,8 +4041,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -3949,8 +4052,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -4000,7 +4103,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 1d8|5-9|1d8} for each slot level above 4th."
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@scaledamage 1d8|5-9|1d8} for each slot level above 4th."
 					],
 					"type": "entries"
 				}
@@ -4038,8 +4141,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4049,8 +4152,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -4077,7 +4180,7 @@
 				"v": true,
 				"s": true,
 				"m": "a chili pepper and a sprig of mint"
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -4089,7 +4192,7 @@
 						"amount": 8
 					}
 				}
-				
+
 			],
 			"entries": [
 				"You touch a creature and offer it a temperature ward, making it suffer no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit. On top of this, any acid, cold, fire, lightning, or thunder damage the warded creature takes is reduced by 1. Any non-creature being worn or carried is likewise protected.",
@@ -4099,7 +4202,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -4139,8 +4242,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4150,8 +4253,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -4178,7 +4281,7 @@
 				"v": true,
 				"s": true,
 				"m": "fur or a feather from a beast"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -4188,7 +4291,7 @@
 					},
 					"concentration": true
 				}
-				
+
 			],
 			"entries": [
 				"You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.",
@@ -4239,7 +4342,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, you raise the Ability Score increase by 1 for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, you raise the Ability Score increase by 1 for each slot level above 2nd."
 					],
 					"type": "entries"
 				}
@@ -4287,8 +4390,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4298,8 +4401,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4309,8 +4412,8 @@
 						},
 						"subclass": {
 							"name": "Oath of Glory",
-					"shortName": "Glory",
-					"source": "TCE"
+							"shortName": "Glory",
+							"source": "TCE"
 						}
 					}
 				]
@@ -4338,12 +4441,12 @@
 				"v": true,
 				"s": true,
 				"m": "a quill and writing within range"
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
 				}
-				
+
 			],
 			"meta": {
 				"ritual": true
@@ -4355,7 +4458,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, you may automatically erase and dispel magical text if the spell's level is equal to or less than the level of the spell slot you used."
+						"When you cast this spell using a spell slot of 2nd level or higher, you may automatically erase and dispel magical text if the spell's level is equal to or less than the level of the spell slot you used."
 					],
 					"type": "entries"
 				}
@@ -4383,8 +4486,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4394,8 +4497,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -4422,7 +4525,7 @@
 				"v": true,
 				"s": true,
 				"m": "a small amount of alcohol or distilled spirits"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -4439,7 +4542,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, you gain {@scaledice 1d8|2-9|1d8} additional temporary hit points for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, you gain {@scaledice 1d8|2-9|1d8} additional temporary hit points for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -4471,8 +4574,8 @@
 						},
 						"subclass": {
 							"name": "The Undying",
-					"shortName": "Undying",
-					"source": "VRGR"
+							"shortName": "Undying",
+							"source": "VRGR"
 						}
 					},
 					{
@@ -4482,8 +4585,8 @@
 						},
 						"subclass": {
 							"name": "The Undead",
-					"shortName": "Undead",
-					"source": "VRGR"
+							"shortName": "Undead",
+							"source": "VRGR"
 						}
 					},
 					{
@@ -4493,8 +4596,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4504,8 +4607,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4515,8 +4618,8 @@
 						},
 						"subclass": {
 							"name": "Death Domain",
-					"shortName": "Death",
-					"source": "DMG"
+							"shortName": "Death",
+							"source": "DMG"
 						}
 					},
 					{
@@ -4526,8 +4629,8 @@
 						},
 						"subclass": {
 							"name": "Grave Domain",
-					"shortName": "Grave",
-					"source": "XGE"
+							"shortName": "Grave",
+							"source": "XGE"
 						}
 					}
 				]
@@ -4566,7 +4669,7 @@
 				}
 			],
 			"entries": [
-				"You create the ghostly image of a hand, which you can send to find a creature within 5 miles. The hand then beckons to that creature and leads it to you if the creature is willing to follow.",	
+				"You create the ghostly image of a hand, which you can send to find a creature within 5 miles. The hand then beckons to that creature and leads it to you if the creature is willing to follow.",
 				{
 					"type": "table",
 					"colLabels": [
@@ -4643,8 +4746,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4654,11 +4757,11 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
-				]	
+				]
 			}
 		},
 		{
@@ -4681,7 +4784,7 @@
 			"components": {
 				"v": true,
 				"s": true
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -4701,7 +4804,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, you conjure an additional familiar for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, you conjure an additional familiar for each slot level above 2nd."
 					],
 					"type": "entries"
 				}
@@ -4725,8 +4828,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4736,8 +4839,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -4765,7 +4868,7 @@
 				"v": true,
 				"s": true,
 				"m": "a spool of thread made of refined metal"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -4785,7 +4888,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a 4th level spell slot, the duration increases to 10 minutes. When you cast this spell using a 5th level spell slot, the duration increases to an hour. When you cast this spell using a spell slot of 6th level or higher, the spell is no longer {@status concentration||concentration}. When you cast this spell using a spell slot of 7th level, the duration is 8 hours. When you cast this spell using a spell slot of 8th level, the duration is 24 hours. When you cast this spell using a spell slot of 9th level, the spell lasts until dispelled."
+						"When you cast this spell using a 4th level spell slot, the duration increases to 10 minutes. When you cast this spell using a 5th level spell slot, the duration increases to an hour. When you cast this spell using a spell slot of 6th level or higher, the spell is no longer {@status concentration||concentration}. When you cast this spell using a spell slot of 7th level, the duration is 8 hours. When you cast this spell using a spell slot of 8th level, the duration is 24 hours. When you cast this spell using a spell slot of 9th level, the spell lasts until dispelled."
 					],
 					"type": "entries"
 				}
@@ -4809,8 +4912,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4820,8 +4923,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -4849,7 +4952,7 @@
 				"v": true,
 				"s": true,
 				"m": "a bit of pork rind or butter"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -4867,7 +4970,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the size increases by 5 feet for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the size increases by 5 feet for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -4895,8 +4998,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -4906,8 +5009,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -4933,7 +5036,7 @@
 			"components": {
 				"v": true,
 				"s": true
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -4991,8 +5094,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -5002,8 +5105,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -5013,8 +5116,8 @@
 						},
 						"subclass": {
 							"name": "Circle of Stars",
-					"shortName": "Stars",
-					"source": "TCE"
+							"shortName": "Stars",
+							"source": "TCE"
 						}
 					},
 					{
@@ -5024,8 +5127,8 @@
 						},
 						"subclass": {
 							"name": "College of Spirits",
-					"shortName": "Spirits",
-					"source": "VRGR"
+							"shortName": "Spirits",
+							"source": "VRGR"
 						}
 					}
 				]
@@ -5051,7 +5154,7 @@
 			},
 			"components": {
 				"s": true
-				},
+			},
 			"duration": [
 				{
 					"type": "instant"
@@ -5095,8 +5198,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -5106,8 +5209,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -5134,7 +5237,7 @@
 				"v": true,
 				"s": true,
 				"m": "a holy relic of your faith"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -5153,7 +5256,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the energy burst done at the end of the spell increases its range by 5 ft and its damage by {@scaledamage 2d4|2-9|2d4} for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the energy burst done at the end of the spell increases its range by 5 ft and its damage by {@scaledamage 2d4|2-9|2d4} for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -5198,7 +5301,7 @@
 				"v": true,
 				"s": true,
 				"m": "a pair of shoes with feathers sticking out on both sides"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -5227,7 +5330,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
 					],
 					"type": "entries"
 				}
@@ -5251,8 +5354,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -5262,8 +5365,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -5290,7 +5393,7 @@
 				"v": true,
 				"s": true,
 				"m": "a piece of cotton cloth folded 4 times"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -5307,7 +5410,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the duration increases by one hour for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the duration increases by one hour for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -5351,8 +5454,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -5362,8 +5465,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -5415,21 +5518,21 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, you are able to trap the {@spell Illusory Script|COOMS} with a magical effect that targets any unauthorized readers when they attempt to read the script. Simply glancing at the script is not enough to trigger the magical effect. The magical effect can either be a small suggestion or a spell script.",
-						 {
-							  "type": "entries",
-							  "name": "Small Suggestion",
-							  "entries": [
-							  "An unauthorized creature attempting to read the text triggers a potent illusory effect and must make a Wisdom saving throw. A creature that succeeds feels mildly disorientated, but otherwise still sees the illusion as intended. A creature that fails the saving throw is subject to a Small Suggestion implanted in the script by you at the time the {@spell Illusory Script|COOMS} was cast. The Small Suggestion functions like the spell of the similar name, though it only lasts 30 minutes. Typical Small Suggestions include \"Close the book and leave\", \"Forget the existence of the book\", and so forth. Once triggered, the Small Suggestion becomes inactive for 10 minutes, after which it is able to activate on the next creature to attempt to read the {@spell Illusory Script|COOMS}."
-							  ]
-						 },
-						 {
-							  "type": "entries",
-							  "name": "Spell Glyph",
-							  "entries": [
-							  "When you choose this magical effect, the spell's casting time increases to 8 hours. You can store a prepared spell of a level equal to or less than the level you cast {@spell Illusory Script|COOMS} at to be casted on the reader. The spell must not be of the Abjuration or Evocation schools of magic. When you inscribe the spell, you must also expend an amount of Kraken Ink that would be required for the spell's inscription on a scroll if you were to inscribe it. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the script is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the reader and attack them. If the spell requires {@status concentration||concentration}, it lasts until the end of its full duration. Once the spell's duration is up, the spell can not be triggered in this way again."
-							  ]
-						 }
+						"When you cast this spell using a spell slot of 3rd level or higher, you are able to trap the {@spell Illusory Script|COOMS} with a magical effect that targets any unauthorized readers when they attempt to read the script. Simply glancing at the script is not enough to trigger the magical effect. The magical effect can either be a small suggestion or a spell script.",
+						{
+							"type": "entries",
+							"name": "Small Suggestion",
+							"entries": [
+								"An unauthorized creature attempting to read the text triggers a potent illusory effect and must make a Wisdom saving throw. A creature that succeeds feels mildly disorientated, but otherwise still sees the illusion as intended. A creature that fails the saving throw is subject to a Small Suggestion implanted in the script by you at the time the {@spell Illusory Script|COOMS} was cast. The Small Suggestion functions like the spell of the similar name, though it only lasts 30 minutes. Typical Small Suggestions include \"Close the book and leave\", \"Forget the existence of the book\", and so forth. Once triggered, the Small Suggestion becomes inactive for 10 minutes, after which it is able to activate on the next creature to attempt to read the {@spell Illusory Script|COOMS}."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Spell Glyph",
+							"entries": [
+								"When you choose this magical effect, the spell's casting time increases to 8 hours. You can store a prepared spell of a level equal to or less than the level you cast {@spell Illusory Script|COOMS} at to be casted on the reader. The spell must not be of the Abjuration or Evocation schools of magic. When you inscribe the spell, you must also expend an amount of Kraken Ink that would be required for the spell's inscription on a scroll if you were to inscribe it. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the script is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the reader and attack them. If the spell requires {@status concentration||concentration}, it lasts until the end of its full duration. Once the spell's duration is up, the spell can not be triggered in this way again."
+							]
+						}
 					],
 					"type": "entries"
 				}
@@ -5464,8 +5567,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -5475,8 +5578,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -5524,8 +5627,8 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 9th level, every ability check made for the duration of the spell is treated as a nat 20. When casted in this way, its material component changes to",
-						 "\"a focal stone worth at least 100,000 gp, which the spell consumes\""
+						"When you cast this spell using a spell slot of 9th level, every ability check made for the duration of the spell is treated as a nat 20. When casted in this way, its material component changes to",
+						"\"a focal stone worth at least 100,000 gp, which the spell consumes\""
 					],
 					"type": "entries"
 				}
@@ -5605,8 +5708,8 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 9th level, every saving throw made for the duration of the spell is treated as a nat 20. When casted in this way, its material component changes to",
-						 "\"a focal stone worth at least 500,000 gp, which the spell consumes\""
+						"When you cast this spell using a spell slot of 9th level, every saving throw made for the duration of the spell is treated as a nat 20. When casted in this way, its material component changes to",
+						"\"a focal stone worth at least 500,000 gp, which the spell consumes\""
 					],
 					"type": "entries"
 				}
@@ -5686,8 +5789,8 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 9th level, every attack roll made for the duration of the spell is treated as a nat 20. When casted in this way, its material component changes to",
-						 "\"a focal stone worth at least 1,000,000 gp, which the spell consumes\""
+						"When you cast this spell using a spell slot of 9th level, every attack roll made for the duration of the spell is treated as a nat 20. When casted in this way, its material component changes to",
+						"\"a focal stone worth at least 1,000,000 gp, which the spell consumes\""
 					],
 					"type": "entries"
 				}
@@ -5762,7 +5865,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 1d12|6-9|1d12} for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 1d12|6-9|1d12} for each slot level above 5th."
 					],
 					"type": "entries"
 				}
@@ -5829,7 +5932,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by {@scaledamage 1d8|4-9|1d8} for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by {@scaledamage 1d8|4-9|1d8} for each slot level above 3rd."
 					],
 					"type": "entries"
 				}
@@ -5883,7 +5986,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d12|4-9|1d12} for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d12|4-9|1d12} for each slot level above 3rd."
 					],
 					"type": "entries"
 				}
@@ -5913,8 +6016,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -5924,8 +6027,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -5982,8 +6085,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -5993,8 +6096,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6053,8 +6156,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6064,8 +6167,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6109,7 +6212,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, the bonus increases to +2. When you use a spell slot of 5th level or higher, the bonus increases to +3. When you use a spell slot of 7th level or higher, the bonus increases to +4. When you use a spell slot of 9th level or higher, the bonus increases to +5."
+						"When you cast this spell using a spell slot of 3rd level or higher, the bonus increases to +2. When you use a spell slot of 5th level or higher, the bonus increases to +3. When you use a spell slot of 7th level or higher, the bonus increases to +4. When you use a spell slot of 9th level or higher, the bonus increases to +5."
 					],
 					"type": "entries"
 				}
@@ -6145,8 +6248,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6156,8 +6259,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6201,7 +6304,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 5th level or higher, the bonus increases to +2. When you use a spell slot of 7th level or higher, the bonus increases to +3. When you use a spell slot of 9th level or higher, the bonus increases to +4."
+						"When you cast this spell using a spell slot of 5th level or higher, the bonus increases to +2. When you use a spell slot of 7th level or higher, the bonus increases to +3. When you use a spell slot of 9th level or higher, the bonus increases to +4."
 					],
 					"type": "entries"
 				}
@@ -6241,8 +6344,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6252,8 +6355,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6293,7 +6396,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 2d4|6-9|2d4} for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 2d4|6-9|2d4} for each slot level above 5th."
 					],
 					"type": "entries"
 				}
@@ -6351,7 +6454,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 2d8|6-9|2d8} for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 2d8|6-9|2d8} for each slot level above 5th."
 					],
 					"type": "entries"
 				}
@@ -6409,7 +6512,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d10|4-9|1d10} for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d10|4-9|1d10} for each slot level above 3rd."
 					],
 					"type": "entries"
 				}
@@ -6439,8 +6542,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6450,8 +6553,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6491,7 +6594,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 3d4|6-9|3d4} for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 3d4|6-9|3d4} for each slot level above 5th."
 					],
 					"type": "entries"
 				}
@@ -6549,7 +6652,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 2d4|4-9|2d4} for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 2d4|4-9|2d4} for each slot level above 3rd."
 					],
 					"type": "entries"
 				}
@@ -6579,8 +6682,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6590,8 +6693,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6631,7 +6734,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d8|2-9|1d8} for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d8|2-9|1d8} for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -6661,8 +6764,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6672,8 +6775,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6713,7 +6816,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d6|2-9|1d6} for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d6|2-9|1d6} for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -6743,8 +6846,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6754,8 +6857,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6795,7 +6898,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 1d10|6-9|1d10} for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@scaledamage 1d10|6-9|1d10} for each slot level above 5th."
 					],
 					"type": "entries"
 				}
@@ -6853,7 +6956,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d6|4-9|1d6} for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d6|4-9|1d6} for each slot level above 3rd."
 					],
 					"type": "entries"
 				}
@@ -6883,8 +6986,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6894,8 +6997,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -6935,7 +7038,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d10|2-9|1d10} for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 1d10|2-9|1d10} for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -6965,8 +7068,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -6976,8 +7079,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -7017,7 +7120,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d4|2-9|2d4} for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@scaledamage 2d4|2-9|2d4} for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -7047,8 +7150,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -7058,8 +7161,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -7086,7 +7189,7 @@
 				"v": true,
 				"s": true,
 				"m": "fur or a feather from a beast"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -7146,7 +7249,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th."
 					],
 					"type": "entries"
 				}
@@ -7208,7 +7311,7 @@
 			},
 			"components": {
 				"v": true
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -7248,8 +7351,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -7259,8 +7362,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -7288,7 +7391,7 @@
 				"v": true,
 				"s": true,
 				"m": "a short piece of copper wire"
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -7333,8 +7436,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -7344,8 +7447,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -7371,7 +7474,7 @@
 			},
 			"components": {
 				"v": true
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -7389,7 +7492,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
+						"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd. The creatures must be within 30 feet of each other when you target them."
 					],
 					"type": "entries"
 				}
@@ -7419,8 +7522,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -7430,8 +7533,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -7509,8 +7612,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -7520,8 +7623,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -7547,7 +7650,7 @@
 			},
 			"components": {
 				"v": true
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -7564,7 +7667,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, the number of creatures you can target increases by 5 and the temporary hit points increase by {@scaledice 1d8|3-9|1d8} for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, the number of creatures you can target increases by 5 and the temporary hit points increase by {@scaledice 1d8|3-9|1d8} for each slot level above 2nd."
 					],
 					"type": "entries"
 				}
@@ -7666,7 +7769,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the number of openings you may affect increases by 10 for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the number of openings you may affect increases by 10 for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -7714,8 +7817,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -7725,8 +7828,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -7805,8 +7908,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -7816,8 +7919,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -7972,8 +8075,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -7983,8 +8086,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8049,8 +8152,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8060,8 +8163,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8105,7 +8208,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. If you cast this spell using a spell slot of 3rd level or higher, you may cast this spell on creatures with the Sunlight Sensitivity feature. For the duration of the spell, they may ignore the Sunlight Sensitivity feature. If you cast this spell using a spell slot of 5th level or higher, you may cast this spell on creatures with the Sun Sickness feature. For the duration of the spell, they may ignore the Sun Sickness feature."
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. If you cast this spell using a spell slot of 3rd level or higher, you may cast this spell on creatures with the Sunlight Sensitivity feature. For the duration of the spell, they may ignore the Sunlight Sensitivity feature. If you cast this spell using a spell slot of 5th level or higher, you may cast this spell on creatures with the Sun Sickness feature. For the duration of the spell, they may ignore the Sun Sickness feature."
 					],
 					"type": "entries"
 				}
@@ -8183,8 +8286,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8194,8 +8297,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8271,8 +8374,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8282,8 +8385,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8366,8 +8469,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8377,8 +8480,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8427,7 +8530,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -8474,8 +8577,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8485,8 +8588,8 @@
 						},
 						"subclass": {
 							"name": "Oath of Devotion",
-					"shortName": "Devotion",
-					"source": "PHB"
+							"shortName": "Devotion",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8496,8 +8599,8 @@
 						},
 						"subclass": {
 							"name": "Horizon Walker",
-					"shortName": "Horizon Walker",
-					"source": "XGE"
+							"shortName": "Horizon Walker",
+							"source": "XGE"
 						}
 					},
 					{
@@ -8507,8 +8610,8 @@
 						},
 						"subclass": {
 							"name": "Monster Slayer",
-					"shortName": "Monster Slayer",
-					"source": "XGE"
+							"shortName": "Monster Slayer",
+							"source": "XGE"
 						}
 					},
 					{
@@ -8518,8 +8621,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8529,8 +8632,8 @@
 						},
 						"subclass": {
 							"name": "Divine Soul",
-					"shortName": "Divine Soul",
-					"source": "XGE"
+							"shortName": "Divine Soul",
+							"source": "XGE"
 						}
 					},
 					{
@@ -8540,8 +8643,8 @@
 						},
 						"subclass": {
 							"name": "Clockwork Soul",
-					"shortName": "Clockwork Soul",
-					"source": "TCE"
+							"shortName": "Clockwork Soul",
+							"source": "TCE"
 						}
 					},
 					{
@@ -8551,8 +8654,8 @@
 						},
 						"subclass": {
 							"name": "Runechild",
-					"shortName": "Runechild",
-					"source": "TDCSR"
+							"shortName": "Runechild",
+							"source": "TDCSR"
 						}
 					}
 				]
@@ -8591,7 +8694,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d8|4-9|1d8} for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d8|4-9|1d8} for each slot level above 3rd."
 					],
 					"type": "entries"
 				}
@@ -8607,10 +8710,12 @@
 					{
 						"name": "Bard",
 						"source": "PHB"
-					},{
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
-					},{
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -8627,8 +8732,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8638,8 +8743,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8705,8 +8810,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8716,8 +8821,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8755,7 +8860,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, your number of attacks you can make with this {@action Opportunity Attack} increases by 1 for every slot level above 1st, but no more than the maximum number of attacks you can make with a weapon in a given turn."
+						"When you cast this spell using a spell slot of 2nd level or higher, your number of attacks you can make with this {@action Opportunity Attack} increases by 1 for every slot level above 1st, but no more than the maximum number of attacks you can make with a weapon in a given turn."
 					],
 					"type": "entries"
 				}
@@ -8783,8 +8888,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8794,8 +8899,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8839,7 +8944,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 3rd level or higher, the initial damage increases by {@scaledamage 2d4|3-9|2d4} for each slot level above 2nd."
+						"When you cast this spell using a spell slot of 3rd level or higher, the initial damage increases by {@scaledamage 2d4|3-9|2d4} for each slot level above 2nd."
 					],
 					"type": "entries"
 				}
@@ -8908,7 +9013,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 2nd level or higher, the rate at which bolts are produced speeds up, allowing you to create one additional bolt per turn when you use your action to fire them for each slot level above 1st."
+						"When you cast this spell using a spell slot of 2nd level or higher, the rate at which bolts are produced speeds up, allowing you to create one additional bolt per turn when you use your action to fire them for each slot level above 1st."
 					],
 					"type": "entries"
 				}
@@ -8935,8 +9040,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -8946,8 +9051,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -8993,7 +9098,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When cast this spell using a spell slot of 3rd level or higher, the ability scores decrease by an additional point for each slot level above 2nd."
+						"When cast this spell using a spell slot of 3rd level or higher, the ability scores decrease by an additional point for each slot level above 2nd."
 					],
 					"type": "entries"
 				}
@@ -9024,8 +9129,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -9035,8 +9140,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -9046,8 +9151,8 @@
 						},
 						"subclass": {
 							"name": "Death Domain",
-					"shortName": "Death",
-					"source": "DMG"
+							"shortName": "Death",
+							"source": "DMG"
 						}
 					},
 					{
@@ -9057,8 +9162,8 @@
 						},
 						"subclass": {
 							"name": "Grave Domain",
-					"shortName": "Grave",
-					"source": "XGE"
+							"shortName": "Grave",
+							"source": "XGE"
 						}
 					}
 				]
@@ -9165,8 +9270,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -9176,8 +9281,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -9292,135 +9397,1296 @@
 						"col-1 text-center"
 					],
 					"rows": [
-						[{"type": "cell", "roll": {"min": 1, "max": 95}},"Aarakocra"],
-						[{"type": "cell", "roll": {"min": 96, "max": 99}},"Fallen Aasimar"],
-						[{"type": "cell", "roll": {"min": 100, "max": 194}},"Protector Aasimar"],
-						[{"type": "cell", "roll": {"min": 195, "max": 201}},"Scourge Aasimar"],
-						[{"type": "cell", "roll": {"min": 202, "max": 205}},"Astral Elf"],
-						[{"type": "cell", "roll": {"min": 206, "max": 295}},"Bugbear"],
-						[{"type": "cell", "roll": {"min": 296, "max": 335}},"Centaur"],
-						[{"type": "cell", "roll": {"min": 336, "max": 385}},"Changeling"],
-						[{"type": "cell", "roll": {"min": 386, "max": 387}},"Amethyst Dragonborn"],
-						[{"type": "cell", "roll": {"min": 388, "max": 417}},"Black Dragonborn"],
-						[{"type": "cell", "roll": {"min": 418, "max": 447}},"Blue Dragonborn"],
-						[{"type": "cell", "roll": {"min": 448, "max": 477}},"Brass Dragonborn"],
-						[{"type": "cell", "roll": {"min": 478, "max": 507}},"Bronze Dragonborn"],
-						[{"type": "cell", "roll": {"min": 508, "max": 537}},"Copper Dragonborn"],
-						[{"type": "cell", "roll": {"min": 538, "max": 539}},"Crystal Dragonborn"],
-						[{"type": "cell", "roll": {"min": 540, "max": 541}},"Emerald Dragonborn"],
-						[{"type": "cell", "roll": {"min": 542, "max": 571}},"Gold Dragonborn"],
-						[{"type": "cell", "roll": {"min": 572, "max": 601}},"Green Dragonborn"],
-						[{"type": "cell", "roll": {"min": 602, "max": 631}},"Red Dragonborn"],
-						[{"type": "cell", "roll": {"min": 632, "max": 633}},"Sapphire Dragonborn"],
-						[{"type": "cell", "roll": {"min": 634, "max": 663}},"Silver Dragonborn"],
-						[{"type": "cell", "roll": {"min": 664, "max": 665}},"Topaz Dragonborn"],
-						[{"type": "cell", "roll": {"min": 666, "max": 695}},"White Dragonborn"],
-						[{"type": "cell", "roll": {"min": 696, "max": 795}},"Duergar"],
-						[{"type": "cell", "roll": {"min": 796, "max": 1135}},"Hill Dwarf"],
-						[{"type": "cell", "roll": {"min": 1136, "max": 1465}},"Mountain Dwarf"],
-						[{"type": "cell", "roll": {"min": 1466, "max": 1467}},"Dwelf"],
-						[{"type": "cell", "roll": {"min": 1468, "max": 1717}},"Drow"],
-						[{"type": "cell", "roll": {"min": 1718, "max": 1726}},"Eladrin"],
-						[{"type": "cell", "roll": {"min": 1727, "max": 2076}},"High Elf"],
-						[{"type": "cell", "roll": {"min": 2077, "max": 2077}},"Pallid Elf (Moon Elf)"],
-						[{"type": "cell", "roll": {"min": 2078, "max": 2084}},"Sea Elf"],
-						[{"type": "cell", "roll": {"min": 2085, "max": 2086}},"Shadar-kai"],
-						[{"type": "cell", "roll": {"min": 2087, "max": 2406}},"Wood Elf"],
-						[{"type": "cell", "roll": {"min": 2407, "max": 2486}},"Fairy"],
-						[{"type": "cell", "roll": {"min": 2487, "max": 2536}},"Firbolg"],
-						[{"type": "cell", "roll": {"min": 2537, "max": 2542}},"Giff"],
-						[{"type": "cell", "roll": {"min": 2543, "max": 2567}},"Githyanki"],
-						[{"type": "cell", "roll": {"min": 2568, "max": 2592}},"Githzerai"],
-						[{"type": "cell", "roll": {"min": 2593, "max": 2702}},"Gnoll"],
-						[{"type": "cell", "roll": {"min": 2703, "max": 2797}},"Deep Gnome"],
-						[{"type": "cell", "roll": {"min": 2798, "max": 2917}},"Forest Gnome"],
-						[{"type": "cell", "roll": {"min": 2918, "max": 3217}},"Rock Gnome"],
-						[{"type": "cell", "roll": {"min": 3218, "max": 3722}},"Goblin"],
-						[{"type": "cell", "roll": {"min": 3723, "max": 3822}},"Goliath"],
-						[{"type": "cell", "roll": {"min": 3823, "max": 3922}},"Grung"],
-						[{"type": "cell", "roll": {"min": 3923, "max": 3927}},"Hadozee"],
-						[{"type": "cell", "roll": {"min": 3928, "max": 3929}},"Duergar Halfblood"],
-						[{"type": "cell", "roll": {"min": 3930, "max": 4028}},"Hill Halfblood"],
-						[{"type": "cell", "roll": {"min": 4029, "max": 4112}},"Mountain Halfblood"],
-						[{"type": "cell", "roll": {"min": 4113, "max": 4212}},"Ghostwise Halfling"],
-						[{"type": "cell", "roll": {"min": 4213, "max": 4502}},"Lightfoot Halfling"],
-						[{"type": "cell", "roll": {"min": 4503, "max": 4552}},"Lotusden Halfling"],
-						[{"type": "cell", "roll": {"min": 4553, "max": 4902}},"Stout Halfling"],
-						[{"type": "cell", "roll": {"min": 4903, "max": 4917}},"Half-Bugbear"],
-						[{"type": "cell", "roll": {"min": 4918, "max": 4919}},"Half-Dragon (Drow)"],
-						[{"type": "cell", "roll": {"min": 4920, "max": 4920}},"Half-Dragon (Deurgar)"],
-						[{"type": "cell", "roll": {"min": 4921, "max": 4924}},"Half-Dragon (Dwarf)"],
-						[{"type": "cell", "roll": {"min": 4925, "max": 4928}},"Half-Dragon (Elf)"],
-						[{"type": "cell", "roll": {"min": 4929, "max": 4929}},"Half-Dragon (Gnome)"],
-						[{"type": "cell", "roll": {"min": 4930, "max": 4932}},"Half-Dragon (Halfling)"],
-						[{"type": "cell", "roll": {"min": 4933, "max": 4937}},"Half-Dragon (Human)"],
-						[{"type": "cell", "roll": {"min": 4938, "max": 4939}},"Aquatic Half-Elf"],
-						[{"type": "cell", "roll": {"min": 4940, "max": 4944}},"Drow Half-Elf"],
-						[{"type": "cell", "roll": {"min": 4945, "max": 5059}},"High Half-Elf"],
-						[{"type": "cell", "roll": {"min": 5060, "max": 5169}},"Wood Half-Elf"],
-						[{"type": "cell", "roll": {"min": 5170, "max": 5209}},"Half-Goblin"],
-						[{"type": "cell", "roll": {"min": 5210, "max": 5259}},"Half-Harengon"],
-						[{"type": "cell", "roll": {"min": 5260, "max": 5279}},"Half-Hobgoblin"],
-						[{"type": "cell", "roll": {"min": 5280, "max": 5364}},"Half-Orc"],
-						[{"type": "cell", "roll": {"min": 5365, "max": 5444}},"Half-Tabaxi"],
-						[{"type": "cell", "roll": {"min": 5445, "max": 5514}},"Harengon"],
-						[{"type": "cell", "roll": {"min": 5515, "max": 5664}},"Hobgoblin"],
-						[{"type": "cell", "roll": {"min": 5665, "max": 6464}},"Human"],
-						[{"type": "cell", "roll": {"min": 6465, "max": 6465}},"Kalashtar"],
-						[{"type": "cell", "roll": {"min": 6466, "max": 6540}},"Kenku"],
-						[{"type": "cell", "roll": {"min": 6541, "max": 6630}},"Kitsune"],
-						[{"type": "cell", "roll": {"min": 6631, "max": 7135}},"Kobold"],
-						[{"type": "cell", "roll": {"min": 7136, "max": 7165}},"Leonin"],
-						[{"type": "cell", "roll": {"min": 7166, "max": 7205}},"Cactus Leshy"],
-						[{"type": "cell", "roll": {"min": 7206, "max": 7215}},"Flytrap Leshy"],
-						[{"type": "cell", "roll": {"min": 7216, "max": 7290}},"Fruit Leshy"],
-						[{"type": "cell", "roll": {"min": 7291, "max": 7375}},"Fungus Leshy"],
-						[{"type": "cell", "roll": {"min": 7376, "max": 7405}},"Gourd Leshy"],
-						[{"type": "cell", "roll": {"min": 7406, "max": 7485}},"Leaf Leshy"],
-						[{"type": "cell", "roll": {"min": 7486, "max": 7510}},"Lotus Leshy"],
-						[{"type": "cell", "roll": {"min": 7511, "max": 7545}},"Pine Leshy"],
-						[{"type": "cell", "roll": {"min": 7546, "max": 7590}},"Root Leshy"],
-						[{"type": "cell", "roll": {"min": 7591, "max": 7660}},"Seaweed Leshy"],
-						[{"type": "cell", "roll": {"min": 7661, "max": 7675}},"Sunflower Leshy"],
-						[{"type": "cell", "roll": {"min": 7676, "max": 7693}},"Vine Leshy"],
-						[{"type": "cell", "roll": {"min": 7694, "max": 7768}},"Lizardfolk"],
-						[{"type": "cell", "roll": {"min": 7769, "max": 7778}},"Locathah"],
-						[{"type": "cell", "roll": {"min": 7779, "max": 7801}},"Loxodon"],
-						[{"type": "cell", "roll": {"min": 7802, "max": 7891}},"Minotaur"],
-						[{"type": "cell", "roll": {"min": 7892, "max": 7893}},"Duergar M'jol"],
-						[{"type": "cell", "roll": {"min": 7894, "max": 7898}},"Hill M'jol"],
-						[{"type": "cell", "roll": {"min": 7899, "max": 7902}},"Mountain M'jol"],
-						[{"type": "cell", "roll": {"min": 7903, "max": 8222}},"Myconid"],
-						[{"type": "cell", "roll": {"min": 8223, "max": 8772}},"Orc"],
-						[{"type": "cell", "roll": {"min": 8773, "max": 8777}},"Owlin"],
-						[{"type": "cell", "roll": {"min": 8778, "max": 8872}},"Satyr"],
-						[{"type": "cell", "roll": {"min": 8873, "max": 8897}},"Beasthide Shifter"],
-						[{"type": "cell", "roll": {"min": 8898, "max": 8922}},"Longtooth Shifter"],
-						[{"type": "cell", "roll": {"min": 8923, "max": 8947}},"Swiftstride Shifter"],
-						[{"type": "cell", "roll": {"min": 8948, "max": 8972}},"Wildhunt Shifter"],
-						[{"type": "cell", "roll": {"min": 8973, "max": 9052}},"Skaven"],
-						[{"type": "cell", "roll": {"min": 9053, "max": 9182}},"Tabaxi"],
-						[{"type": "cell", "roll": {"min": 9183, "max": 9185}},"Thri-kreen"],
-						[{"type": "cell", "roll": {"min": 9186, "max": 9235}},"Tribal Thri-kreen"],
-						[{"type": "cell", "roll": {"min": 9236, "max": 9268}},"Asmodeus Tiefling"],
-						[{"type": "cell", "roll": {"min": 9269, "max": 9301}},"Baalzebul Tiefling"],
-						[{"type": "cell", "roll": {"min": 9302, "max": 9334}},"Dispater Tiefling"],
-						[{"type": "cell", "roll": {"min": 9335, "max": 9367}},"Fierna Tiefling"],
-						[{"type": "cell", "roll": {"min": 9368, "max": 9400}},"Glasya Tiefling"],
-						[{"type": "cell", "roll": {"min": 9401, "max": 9433}},"Levistus Tiefling"],
-						[{"type": "cell", "roll": {"min": 9434, "max": 9466}},"Mammon Tiefling"],
-						[{"type": "cell", "roll": {"min": 9467, "max": 9499}},"Mephistopheles Tiefling"],
-						[{"type": "cell", "roll": {"min": 9500, "max": 9532}},"Devil’s Tongue Tiefling"],
-						[{"type": "cell", "roll": {"min": 9533, "max": 9565}},"Hellfire Tiefling"],
-						[{"type": "cell", "roll": {"min": 9566, "max": 9598}},"Infernal Legacy Tiefling"],
-						[{"type": "cell", "roll": {"min": 9599, "max": 9631}},"Winged Tiefling"],
-						[{"type": "cell", "roll": {"min": 9632, "max": 9664}},"Zariel Tiefling"],
-						[{"type": "cell", "roll": {"min": 9665, "max": 9741}},"Tortle"],
-						[{"type": "cell", "roll": {"min": 9742, "max": 9876}},"Triton"],
-						[{"type": "cell", "roll": {"min": 9877, "max": 9936}},"Troglodyte"],
-						[{"type": "cell", "roll": {"min": 9937, "max": 9937}},"Vedalken"],
-						[{"type": "cell", "roll": {"min": 9938, "max": 9940}},"Verdan"],
-						[{"type": "cell", "roll": {"min": 9941, "max": 10000}},"Yuan-ti Pureblood"]
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1,
+									"max": 95
+								}
+							},
+							"Aarakocra"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 96,
+									"max": 99
+								}
+							},
+							"Fallen Aasimar"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 100,
+									"max": 194
+								}
+							},
+							"Protector Aasimar"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 195,
+									"max": 201
+								}
+							},
+							"Scourge Aasimar"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 202,
+									"max": 205
+								}
+							},
+							"Astral Elf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 206,
+									"max": 295
+								}
+							},
+							"Bugbear"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 296,
+									"max": 335
+								}
+							},
+							"Centaur"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 336,
+									"max": 385
+								}
+							},
+							"Changeling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 386,
+									"max": 387
+								}
+							},
+							"Amethyst Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 388,
+									"max": 417
+								}
+							},
+							"Black Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 418,
+									"max": 447
+								}
+							},
+							"Blue Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 448,
+									"max": 477
+								}
+							},
+							"Brass Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 478,
+									"max": 507
+								}
+							},
+							"Bronze Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 508,
+									"max": 537
+								}
+							},
+							"Copper Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 538,
+									"max": 539
+								}
+							},
+							"Crystal Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 540,
+									"max": 541
+								}
+							},
+							"Emerald Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 542,
+									"max": 571
+								}
+							},
+							"Gold Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 572,
+									"max": 601
+								}
+							},
+							"Green Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 602,
+									"max": 631
+								}
+							},
+							"Red Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 632,
+									"max": 633
+								}
+							},
+							"Sapphire Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 634,
+									"max": 663
+								}
+							},
+							"Silver Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 664,
+									"max": 665
+								}
+							},
+							"Topaz Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 666,
+									"max": 695
+								}
+							},
+							"White Dragonborn"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 696,
+									"max": 795
+								}
+							},
+							"Duergar"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 796,
+									"max": 1135
+								}
+							},
+							"Hill Dwarf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1136,
+									"max": 1465
+								}
+							},
+							"Mountain Dwarf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1466,
+									"max": 1467
+								}
+							},
+							"Dwelf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1468,
+									"max": 1717
+								}
+							},
+							"Drow"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1718,
+									"max": 1726
+								}
+							},
+							"Eladrin"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 1727,
+									"max": 2076
+								}
+							},
+							"High Elf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2077,
+									"max": 2077
+								}
+							},
+							"Pallid Elf (Moon Elf)"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2078,
+									"max": 2084
+								}
+							},
+							"Sea Elf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2085,
+									"max": 2086
+								}
+							},
+							"Shadar-kai"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2087,
+									"max": 2406
+								}
+							},
+							"Wood Elf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2407,
+									"max": 2486
+								}
+							},
+							"Fairy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2487,
+									"max": 2536
+								}
+							},
+							"Firbolg"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2537,
+									"max": 2542
+								}
+							},
+							"Giff"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2543,
+									"max": 2567
+								}
+							},
+							"Githyanki"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2568,
+									"max": 2592
+								}
+							},
+							"Githzerai"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2593,
+									"max": 2702
+								}
+							},
+							"Gnoll"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2703,
+									"max": 2797
+								}
+							},
+							"Deep Gnome"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2798,
+									"max": 2917
+								}
+							},
+							"Forest Gnome"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 2918,
+									"max": 3217
+								}
+							},
+							"Rock Gnome"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 3218,
+									"max": 3722
+								}
+							},
+							"Goblin"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 3723,
+									"max": 3822
+								}
+							},
+							"Goliath"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 3823,
+									"max": 3922
+								}
+							},
+							"Grung"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 3923,
+									"max": 3927
+								}
+							},
+							"Hadozee"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 3928,
+									"max": 3929
+								}
+							},
+							"Duergar Halfblood"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 3930,
+									"max": 4028
+								}
+							},
+							"Hill Halfblood"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4029,
+									"max": 4112
+								}
+							},
+							"Mountain Halfblood"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4113,
+									"max": 4212
+								}
+							},
+							"Ghostwise Halfling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4213,
+									"max": 4502
+								}
+							},
+							"Lightfoot Halfling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4503,
+									"max": 4552
+								}
+							},
+							"Lotusden Halfling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4553,
+									"max": 4902
+								}
+							},
+							"Stout Halfling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4903,
+									"max": 4917
+								}
+							},
+							"Half-Bugbear"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4918,
+									"max": 4919
+								}
+							},
+							"Half-Dragon (Drow)"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4920,
+									"max": 4920
+								}
+							},
+							"Half-Dragon (Deurgar)"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4921,
+									"max": 4924
+								}
+							},
+							"Half-Dragon (Dwarf)"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4925,
+									"max": 4928
+								}
+							},
+							"Half-Dragon (Elf)"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4929,
+									"max": 4929
+								}
+							},
+							"Half-Dragon (Gnome)"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4930,
+									"max": 4932
+								}
+							},
+							"Half-Dragon (Halfling)"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4933,
+									"max": 4937
+								}
+							},
+							"Half-Dragon (Human)"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4938,
+									"max": 4939
+								}
+							},
+							"Aquatic Half-Elf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4940,
+									"max": 4944
+								}
+							},
+							"Drow Half-Elf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 4945,
+									"max": 5059
+								}
+							},
+							"High Half-Elf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5060,
+									"max": 5169
+								}
+							},
+							"Wood Half-Elf"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5170,
+									"max": 5209
+								}
+							},
+							"Half-Goblin"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5210,
+									"max": 5259
+								}
+							},
+							"Half-Harengon"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5260,
+									"max": 5279
+								}
+							},
+							"Half-Hobgoblin"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5280,
+									"max": 5364
+								}
+							},
+							"Half-Orc"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5365,
+									"max": 5444
+								}
+							},
+							"Half-Tabaxi"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5445,
+									"max": 5514
+								}
+							},
+							"Harengon"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5515,
+									"max": 5664
+								}
+							},
+							"Hobgoblin"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 5665,
+									"max": 6464
+								}
+							},
+							"Human"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 6465,
+									"max": 6465
+								}
+							},
+							"Kalashtar"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 6466,
+									"max": 6540
+								}
+							},
+							"Kenku"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 6541,
+									"max": 6630
+								}
+							},
+							"Kitsune"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 6631,
+									"max": 7135
+								}
+							},
+							"Kobold"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7136,
+									"max": 7165
+								}
+							},
+							"Leonin"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7166,
+									"max": 7205
+								}
+							},
+							"Cactus Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7206,
+									"max": 7215
+								}
+							},
+							"Flytrap Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7216,
+									"max": 7290
+								}
+							},
+							"Fruit Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7291,
+									"max": 7375
+								}
+							},
+							"Fungus Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7376,
+									"max": 7405
+								}
+							},
+							"Gourd Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7406,
+									"max": 7485
+								}
+							},
+							"Leaf Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7486,
+									"max": 7510
+								}
+							},
+							"Lotus Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7511,
+									"max": 7545
+								}
+							},
+							"Pine Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7546,
+									"max": 7590
+								}
+							},
+							"Root Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7591,
+									"max": 7660
+								}
+							},
+							"Seaweed Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7661,
+									"max": 7675
+								}
+							},
+							"Sunflower Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7676,
+									"max": 7693
+								}
+							},
+							"Vine Leshy"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7694,
+									"max": 7768
+								}
+							},
+							"Lizardfolk"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7769,
+									"max": 7778
+								}
+							},
+							"Locathah"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7779,
+									"max": 7801
+								}
+							},
+							"Loxodon"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7802,
+									"max": 7891
+								}
+							},
+							"Minotaur"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7892,
+									"max": 7893
+								}
+							},
+							"Duergar M'jol"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7894,
+									"max": 7898
+								}
+							},
+							"Hill M'jol"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7899,
+									"max": 7902
+								}
+							},
+							"Mountain M'jol"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 7903,
+									"max": 8222
+								}
+							},
+							"Myconid"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 8223,
+									"max": 8772
+								}
+							},
+							"Orc"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 8773,
+									"max": 8777
+								}
+							},
+							"Owlin"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 8778,
+									"max": 8872
+								}
+							},
+							"Satyr"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 8873,
+									"max": 8897
+								}
+							},
+							"Beasthide Shifter"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 8898,
+									"max": 8922
+								}
+							},
+							"Longtooth Shifter"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 8923,
+									"max": 8947
+								}
+							},
+							"Swiftstride Shifter"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 8948,
+									"max": 8972
+								}
+							},
+							"Wildhunt Shifter"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 8973,
+									"max": 9052
+								}
+							},
+							"Skaven"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9053,
+									"max": 9182
+								}
+							},
+							"Tabaxi"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9183,
+									"max": 9185
+								}
+							},
+							"Thri-kreen"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9186,
+									"max": 9235
+								}
+							},
+							"Tribal Thri-kreen"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9236,
+									"max": 9268
+								}
+							},
+							"Asmodeus Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9269,
+									"max": 9301
+								}
+							},
+							"Baalzebul Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9302,
+									"max": 9334
+								}
+							},
+							"Dispater Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9335,
+									"max": 9367
+								}
+							},
+							"Fierna Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9368,
+									"max": 9400
+								}
+							},
+							"Glasya Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9401,
+									"max": 9433
+								}
+							},
+							"Levistus Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9434,
+									"max": 9466
+								}
+							},
+							"Mammon Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9467,
+									"max": 9499
+								}
+							},
+							"Mephistopheles Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9500,
+									"max": 9532
+								}
+							},
+							"Devil’s Tongue Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9533,
+									"max": 9565
+								}
+							},
+							"Hellfire Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9566,
+									"max": 9598
+								}
+							},
+							"Infernal Legacy Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9599,
+									"max": 9631
+								}
+							},
+							"Winged Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9632,
+									"max": 9664
+								}
+							},
+							"Zariel Tiefling"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9665,
+									"max": 9741
+								}
+							},
+							"Tortle"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9742,
+									"max": 9876
+								}
+							},
+							"Triton"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9877,
+									"max": 9936
+								}
+							},
+							"Troglodyte"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9937,
+									"max": 9937
+								}
+							},
+							"Vedalken"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9938,
+									"max": 9940
+								}
+							},
+							"Verdan"
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"min": 9941,
+									"max": 10000
+								}
+							},
+							"Yuan-ti Pureblood"
+						]
 					]
 				}
 			],
@@ -9502,8 +10768,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -9513,8 +10779,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -9603,8 +10869,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -9614,8 +10880,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -9700,8 +10966,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -9711,8 +10977,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -9900,8 +11166,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -9911,8 +11177,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -9991,8 +11257,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10002,8 +11268,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -10028,8 +11294,8 @@
 			"range": {
 				"type": "point",
 				"distance": {
-				"type": "feet",
-				"amount": 30
+					"type": "feet",
+					"amount": 30
 				}
 			},
 			"components": {
@@ -10069,8 +11335,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10080,8 +11346,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10091,8 +11357,8 @@
 						},
 						"subclass": {
 							"name": "The Hexblade",
-					"shortName": "Hexblade",
-					"source": "XGE"
+							"shortName": "Hexblade",
+							"source": "XGE"
 						}
 					},
 					{
@@ -10102,9 +11368,9 @@
 						},
 						"subclass": {
 							"name": "Lunar Sorcerery",
-					"shortName": "Lunar",
-					"source": "DSotDQ",
-					"subSubclass": "Full Moon"
+							"shortName": "Lunar",
+							"source": "DSotDQ",
+							"subSubclass": "Full Moon"
 						}
 					},
 					{
@@ -10114,8 +11380,8 @@
 						},
 						"subclass": {
 							"name": "Artillerist",
-					"shortName": "Artillerist",
-					"source": "TCE"
+							"shortName": "Artillerist",
+							"source": "TCE"
 						}
 					},
 					{
@@ -10125,8 +11391,8 @@
 						},
 						"subclass": {
 							"name": "Battle Smith",
-					"shortName": "Battle Smith",
-					"source": "TCE"
+							"shortName": "Battle Smith",
+							"source": "TCE"
 						}
 					}
 				]
@@ -10213,8 +11479,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10224,8 +11490,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10235,8 +11501,8 @@
 						},
 						"subclass": {
 							"name": "The Fathomless",
-					"shortName": "Fathomless",
-					"source": "TCE"
+							"shortName": "Fathomless",
+							"source": "TCE"
 						}
 					},
 					{
@@ -10246,9 +11512,9 @@
 						},
 						"subclass": {
 							"name": "The Genie",
-					"shortName": "Genie",
-					"source": "TCE",
-					"subSubclass": "Marid"
+							"shortName": "Genie",
+							"source": "TCE",
+							"subSubclass": "Marid"
 						}
 					},
 					{
@@ -10258,9 +11524,9 @@
 						},
 						"subclass": {
 							"name": "Circle of the Land",
-					"shortName": "Land",
-					"source": "PHB",
-					"subSubclass": "Arctic"
+							"shortName": "Land",
+							"source": "PHB",
+							"subSubclass": "Arctic"
 						}
 					},
 					{
@@ -10270,8 +11536,8 @@
 						},
 						"subclass": {
 							"name": "Tempest Domain",
-					"shortName": "Tempest",
-					"source": "PHB"
+							"shortName": "Tempest",
+							"source": "PHB"
 						}
 					}
 				]
@@ -10346,8 +11612,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10357,8 +11623,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -10384,7 +11650,7 @@
 			"components": {
 				"v": true,
 				"s": true
-				},
+			},
 			"duration": [
 				{
 					"type": "timed",
@@ -10411,7 +11677,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						 "When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
 					],
 					"type": "entries"
 				}
@@ -10451,8 +11717,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10462,8 +11728,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -10619,8 +11885,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10630,8 +11896,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -10892,8 +12158,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10903,8 +12169,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -10925,7 +12191,7 @@
 				"type": "line",
 				"distance": {
 					"type": "feet",
-					"amount":10
+					"amount": 10
 				}
 			},
 			"components": {
@@ -10973,8 +12239,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -10984,8 +12250,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -11221,8 +12487,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -11232,8 +12498,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -11309,8 +12575,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -11320,8 +12586,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -11411,8 +12677,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -11422,8 +12688,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -11512,8 +12778,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -11523,8 +12789,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -11655,8 +12921,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -11666,8 +12932,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -11751,8 +13017,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -11762,8 +13028,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -11883,8 +13149,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -11894,8 +13160,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -11964,8 +13230,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -11975,8 +13241,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -12033,8 +13299,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -12044,8 +13310,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -12103,8 +13369,8 @@
 						},
 						"subclass": {
 							"name": "Clockwork Soul",
-					"shortName": "Clockwork Soul",
-					"source": "TCE"
+							"shortName": "Clockwork Soul",
+							"source": "TCE"
 						}
 					},
 					{
@@ -12114,8 +13380,8 @@
 						},
 						"subclass": {
 							"name": "Oath of Redemption",
-					"shortName": "Redemption",
-					"source": "XGE"
+							"shortName": "Redemption",
+							"source": "XGE"
 						}
 					},
 					{
@@ -12125,8 +13391,8 @@
 						},
 						"subclass": {
 							"name": "Armorer",
-					"shortName": "Armorer",
-					"source": "TCE"
+							"shortName": "Armorer",
+							"source": "TCE"
 						}
 					},
 					{
@@ -12136,8 +13402,8 @@
 						},
 						"subclass": {
 							"name": "Artillerist",
-					"shortName": "Artillerist",
-					"source": "TCE"
+							"shortName": "Artillerist",
+							"source": "TCE"
 						}
 					}
 				]
@@ -12211,8 +13477,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -12222,8 +13488,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -12296,8 +13562,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -12307,8 +13573,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					},
 					{
@@ -12318,9 +13584,9 @@
 						},
 						"subclass": {
 							"name": "The Genie",
-					"shortName": "Genie",
-					"source": "TCE",
-					"subSubclass": "Djinni"
+							"shortName": "Genie",
+							"source": "TCE",
+							"subSubclass": "Djinni"
 						}
 					},
 					{
@@ -12330,8 +13596,8 @@
 						},
 						"subclass": {
 							"name": "Nature Domain",
-					"shortName": "Nature",
-					"source": "PHB"
+							"shortName": "Nature",
+							"source": "PHB"
 						}
 					},
 					{
@@ -12341,8 +13607,8 @@
 						},
 						"subclass": {
 							"name": "Artillerist",
-					"shortName": "Artillerist",
-					"source": "TCE"
+							"shortName": "Artillerist",
+							"source": "TCE"
 						}
 					}
 				]
@@ -12423,8 +13689,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -12434,8 +13700,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -12512,8 +13778,8 @@
 						},
 						"subclass": {
 							"name": "Eldritch Knight",
-					"shortName": "Eldritch Knight",
-					"source": "PHB"
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
 						}
 					},
 					{
@@ -12523,8 +13789,8 @@
 						},
 						"subclass": {
 							"name": "Arcane Trickster",
-					"shortName": "Arcane Trickster",
-					"source": "PHB"
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
 						}
 					}
 				]
@@ -12692,5 +13958,5 @@
 				]
 			}
 		}
-		]
+	]
 	}
