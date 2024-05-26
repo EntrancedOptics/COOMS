@@ -410,7 +410,7 @@
 					]
 				},
 				{
-					"type": "entries",
+					"type": "inset",
 					"name": "Abomination",
 					"entries": [
 						"You are generally regarded as a monstrosity, though you are a humanoid. You are seen as an elf by dwarves and a dwarf by elves. You have more than likely encountered bigotry and discrimination from whatever society you grew up in, causing you to have to adapt in some way.",
@@ -422,7 +422,7 @@
 					]
 				},
 				{
-					"type": "entries",
+					"type": "inset",
 					"name": "Dwarven Heritage",
 					"entries": [
 						"Choose an option from the following list:",
@@ -432,7 +432,7 @@
 					]
 				},
 				{
-					"type": "entries",
+					"type": "inset",
 					"name": "Elven Heritage",
 					"entries": [
 						"Choose an option from the following list:",
@@ -454,7 +454,7 @@
 					]
 				},
 				{
-					"type": "entries",
+					"type": "inset",
 					"name": "Societal Feature",
 					"entries": [
 						"Choose an option from the following list:",
@@ -462,7 +462,7 @@
 						"{@b Elven}: You learn Sylvan and one additional language of your choice. You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
 						"{@b Human}: You gain two skill proficiencies and one additional language of your choice.",
 						"{@b Sea}: You can speak, read, and write Aquan. Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed. You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
-						"{@b Underdark}: You gain {@i Superior Darkvision} and {@i Sunlight Sensitivity}. You have proficiency with {@item battleaxe|phb}, {@item handaxe|phb}, {@item hand crossbow|phb}, {@item light hammer|phb}, {@item longbow|phb}, {@item longsword|phb}, {@item rapier|phb}, {@item shortbow|phb}, {@item shortsword|phb}, and {@item warhammer|phb}."
+						"{@b Underdark}: You gain {@i Superior Darkvision} and {@i Sunlight Sensitivity}. You have proficiency with {@item battleaxe|phb|battleaxes}, {@item handaxe|phb|handaxes}, {@item hand crossbow|phb|hand crossbows}, {@item light hammer|phb|light hammers}, {@item longbow|phb|longbows}, {@item longsword|phb|longswords}, {@item rapier|phb|rapiers}, {@item shortbow|phb|shortbows}, {@item shortsword|phb|shortswords}, and {@item warhammer|phb|warhammers}."
 					]
 				},
 				{
