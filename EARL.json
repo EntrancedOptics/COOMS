@@ -146,7 +146,13 @@
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"heightAndWeight": {
+				"baseHeight": 69,
+				"heightMod": "3d5",
+				"baseWeight": 200,
+				"weightMod": "2d6"
+			}
 		},
 		{
 			"name": "Dragonborn",
@@ -219,7 +225,13 @@
 						"You have resistance to the damage type associated with your draconic ancestry."
 					]
 				}
-			]
+			],
+			"heightAndWeight": {
+				"baseHeight": 66,
+				"heightMod": "2d8",
+				"baseWeight": 175,
+				"weightMod": "2d6"
+			}
 		},
 		{
 			"name": "Dwarf",
@@ -325,7 +337,13 @@
 						"You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse."
 					]
 				}
-			]
+			],
+			"heightAndWeight": {
+				"baseHeight": 44,
+				"heightMod": "2d4",
+				"baseWeight": 115,
+				"weightMod": "2d6"
+			}
 		},
 		{
 			"name": "Dwelf",
@@ -479,7 +497,13 @@
 						"You can speak, read, and write Common, Dwarvish, and Elvish."
 					]
 				}
-			]
+			],
+			"heightAndWeight": {
+				"baseHeight": 58,
+				"heightMod": "2d8",
+				"baseWeight": 200,
+				"weightMod": "2d6"
+			}
 		},
 		{
 			"name": "Genasi",
@@ -558,7 +582,13 @@
 						"You are an elemental."
 					]
 				}
-			]
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			}
 		}
 	],
 	"subrace": [
