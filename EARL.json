@@ -258,6 +258,9 @@
 					}
 				}
 			],
+			"resist": [
+				"poison"
+			],
 			"weaponProficiencies": [
 				{
 					"battleaxe|phb": true,
@@ -359,6 +362,9 @@
 				"Tool Proficiency",
 				"Magic Resistance",
 				"Amphibious"
+			],
+			"resist": [
+				"poison"
 			],
 			"languageProficiencies": [
 				{
@@ -471,6 +477,85 @@
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common, Dwarvish, and Elvish."
+					]
+				}
+			]
+		},
+		{
+			"name": "Genasi",
+			"source": "EntrancedRaces",
+			"page": 13,
+			"reprintedAs": [
+				"Genasi|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2
+				}
+			],
+			"age": {
+				"mature": 18,
+				"max": 120
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Spellcasting",
+				"Uncommon Race"
+			],
+			"creatureTypes": [
+				"Elemental"
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Independent and self-reliant, genasi tend toward a neutral alignment."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an elemental."
 					]
 				}
 			]
@@ -729,17 +814,25 @@
 			],
 			"additionalSpells": [
 				{
-						"ability": "int",
-						"innate": {
-						"1": {
+					"innate": {
+						"3": {
 							"daily": {
-							"1": [
-								"enlarge/reduce",
-								"invisibility"
-							]
+								"1": [
+									"enlarge/reduce"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"invisibility"
+								]
+							}
 						}
-						}
-						}
+					},
+					"ability": [
+						"int"
+					]
 				}
 			],
 			"entries": [
@@ -876,6 +969,372 @@
 						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
 					],
 					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Air",
+			"source": "EntrancedRaces",
+			"raceName": "Genasi",
+			"raceSource": "EntrancedRaces",
+			"page": 13,
+			"reprintedAs": [
+				"Genasi (Air)|EARL"
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"resist": [
+				"lightning"
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"gust#c"
+						]
+					},
+					"ability": [
+						"con"
+					]
+				},
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+							"feather fall"
+							]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"gust of wind"
+								]
+							}
+						}
+					},
+					"ability": [
+						"con"
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"auran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Unending Breath",
+					"entries": [
+						"You naturally produce the air that you breathe, and can share this air by locking lips with a creature. This also means that you can hold their breath indefinitely."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Lightning Resistance",
+					"entries": [
+						"You have resistance to lightning damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Mingle with the Wind",
+					"entries": [
+						"You know the {@spell gust|xge} cantrip. Starting at 3rd level, you can cast the {@spell feather fall|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell gust of wind|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common and Auran."
+					]
+				}
+			]
+		},
+		{
+			"name": "Earth",
+			"source": "EntrancedRaces",
+			"raceName": "Genasi",
+			"raceSource": "EntrancedRaces",
+			"page": 14,
+			"reprintedAs": [
+				"Genasi (Earth)|EARL"
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"mold earth#c"
+						]
+					},
+					"ability": [
+						"con"
+					]
+				},
+				{
+					"known": {
+						"1": {
+							"daily": {
+								"2": [
+									"blade ward#c"
+								]
+							}
+						}
+					},
+					"ability": [
+						"con"
+					]
+				},
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+							"earth tremor"
+							]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"pass without trace"
+								]
+							}
+						}
+					},
+					"ability": [
+						"con"
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"terran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Earth Walk",
+					"entries": [
+						"You can move across difficult terrain made of earth or stone without expending extra movement."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Stone Resistance",
+					"entries": [
+						"You learn the {@spell blade ward|phb} cantrip and can cast it as a bonus action a number of times equal to your proficiency bonus per long rest, as you cause your rough skin to momentarily turn to stone. On top of this, you have advantage on saving throws against being {@condition petrified}."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Merge with Stone",
+					"entries": [
+						"You know the {@spell mold earth|xge} cantrip. Starting at 3rd level, you can cast the {@spell earth tremor|xge} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell pass without trace|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common and Terran."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fire",
+			"source": "EntrancedRaces",
+			"raceName": "Genasi",
+			"raceSource": "EntrancedRaces",
+			"page": 15,
+			"reprintedAs": [
+				"Genasi (Fire)|EARL"
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"resist": [
+				"fire"
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"control flames#c"
+						]
+					},
+					"ability": [
+						"con"
+					]
+				},
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+							"burning hands"
+							]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"flame blade"
+								]
+							}
+						}
+					},
+					"ability": [
+						"con"
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"ignan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Flaming Hair",
+					"entries": [
+						"Fire genasi sport a head of hair that is either made of fire or constantly aflame. They shed bright light out to 10 feet and dim light an additional 10 feet, and can choose to dim their hair at will to half the light they produce."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fire Resistance",
+					"entries": [
+						"You have resistance to fire damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Reach to the Blaze",
+					"entries": [
+						"You know the {@spell control flames|xge} cantrip. Starting at 3rd level, you can cast the {@spell burning hands|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell flame blade|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common and Ignan."
+					]
+				}
+			]
+		},
+		{
+			"name": "Water",
+			"source": "EntrancedRaces",
+			"raceName": "Genasi",
+			"raceSource": "EntrancedRaces",
+			"page": 16,
+			"reprintedAs": [
+				"Genasi (Water)|EARL"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"resist": [
+				"acid"
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"shape water#c"
+						]
+					},
+					"ability": [
+						"con"
+					]
+				},
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+							"create or destroy water"
+							]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"misty step"
+								]
+							}
+						}
+					},
+					"ability": [
+						"con"
+					]
+				}
+			],
+			"languageProficiencies": [
+				{
+					"aquan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Acid Resistance",
+					"entries": [
+						"You have resistance to acid damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Call to the Wave",
+					"entries": [
+						"You know the {@spell shape water|xge} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell misty step|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common and Aquan."
+					]
 				}
 			]
 		}
