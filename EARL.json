@@ -148,8 +148,8 @@
 				}
 			],
 			"heightAndWeight": {
-				"baseHeight": 69,
-				"heightMod": "3d5",
+				"baseHeight": 68,
+				"heightMod": "4d6",
 				"baseWeight": 200,
 				"weightMod": "2d6"
 			}
@@ -501,7 +501,7 @@
 			"heightAndWeight": {
 				"baseHeight": 58,
 				"heightMod": "2d8",
-				"baseWeight": 200,
+				"baseWeight": 100,
 				"weightMod": "2d6"
 			}
 		},
@@ -588,6 +588,139 @@
 				"heightMod": "2d10",
 				"baseWeight": 110,
 				"weightMod": "2d4"
+			}
+		},
+		{
+			"name": "Gnoll",
+			"source": "EntrancedRaces",
+			"page": 17,
+			"reprintedAs": [
+				"Gnoll|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"dex": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 80
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Natural Weapon",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"gnoll": true,
+					"abyssal": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Gnolls reach adulthood by the age of 20 and live to around 80."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Gnolls are usually chaotic neutral or evil, though there are exceptions."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Most gnolls are between 6 and 7 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodsense",
+					"entries": [
+						"If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. {@filter constructs|bestiary|type=construct}, {@filter elementals|bestiary|type=elemental}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, and {@filter undead|bestiary|type=undead} are immune to the effects of this sense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"You are proficient with your bite attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Endless Hunger",
+					"entries": [
+						"You can eat and drink as well as retain the benefits of 5 times more food and drink than an equivalent creature of your size, but must eat and drink 3 times more than the average person to not starve.",
+						"When under the effects of starvation, you are frenzied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rampage",
+					"entries": [
+						"When you reduce a creature to 0 hit points with a melee attack on your turn, you may use a bonus action to move up to half your speed and make a bite attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frightful Appearance",
+					"entries": [
+						"You are proficient in the {@skill intimidation} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common, Gnoll, and Abyssal."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 70,
+				"heightMod": "2d10",
+				"baseWeight": 270,
+				"weightMod": "1d4"
 			}
 		}
 	],
