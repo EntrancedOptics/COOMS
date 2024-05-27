@@ -149,7 +149,7 @@
 			],
 			"heightAndWeight": {
 				"baseHeight": 68,
-				"heightMod": "4d6",
+				"heightMod": "4d4",
 				"baseWeight": 200,
 				"weightMod": "2d6"
 			}
@@ -440,10 +440,10 @@
 					"entries": [
 						"You are generally regarded as a monstrosity, though you are a humanoid. You are seen as an elf by dwarves and a dwarf by elves. You have more than likely encountered bigotry and discrimination from whatever society you grew up in, causing you to have to adapt in some way.",
 						"Choose an option from the following list:",
-						"{@b Abandoned}: You have retreated away from society altogether and become a shut-in. You may reduce your Charisma ability score by 2 to 5 points and redistribute those points as you see fit.",
-						"{@b Abused}: What doesn't kill you makes you stronger, and boy have you ever taken a beating while younger. It's a miracle you're still alive! Your hit point maximum increases by 1, and it increases by 1 every time you gain a level, though your Strength and Wisdom decrease by 1.",
-						"{@b Neglected}: Being shunned from your community, you were denied basic education and had to steal to survive, only furthering the bigotry towards your kind. Your movement speed increases to 35 feet, though your Intelligence ability score decreases by 2 and your Wisdom or Charisma (your choice) decreases by 1.",
-						"{@b Ridiculed}: You developed thick skin, and learned to shrug off what people say, though if pushed hard enough you will snap. You have a bonus to Wisdom saving throws equal to your proficiency bonus, though you have disadvantage on all saves regarding sanity."
+						"{@b Abandoned.} You have retreated away from society altogether and become a shut-in. You may reduce your Charisma ability score by 2 to 5 points and redistribute those points as you see fit.",
+						"{@b Abused.} What doesn't kill you makes you stronger, and boy have you ever taken a beating while younger. It's a miracle you're still alive! Your hit point maximum increases by 1, and it increases by 1 every time you gain a level, though your Strength and Wisdom decrease by 1.",
+						"{@b Neglected.} Being shunned from your community, you were denied basic education and had to steal to survive, only furthering the bigotry towards your kind. Your movement speed increases to 35 feet, though your Intelligence ability score decreases by 2 and your Wisdom or Charisma (your choice) decreases by 1.",
+						"{@b Ridiculed.} You developed thick skin, and learned to shrug off what people say, though if pushed hard enough you will snap. You have a bonus to Wisdom saving throws equal to your proficiency bonus, though you have disadvantage on all saves regarding sanity."
 					]
 				},
 				{
@@ -451,9 +451,9 @@
 					"name": "Dwarven Heritage",
 					"entries": [
 						"Choose an option from the following list:",
-						"{@b Duergar}: When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells.",
-						"{@b Hill}: Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
-						"{@b Mountain}: You have proficiency with light and medium armor."
+						"{@b Duergar.} When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+						"{@b Hill.} Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+						"{@b Mountain.} You have proficiency with light and medium armor."
 					]
 				},
 				{
@@ -461,21 +461,21 @@
 					"name": "Elven Heritage",
 					"entries": [
 						"Choose an option from the following list:",
-						"{@b Drow}: You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells.",
-						"{@b Eladrin (Spring)}: As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
+						"{@b Drow.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+						"{@b Eladrin (Spring).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
 						"When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.",
-						"{@b Eladrin (Summer)}: As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
+						"{@b Eladrin (Summer).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
 						"Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage).",
-						"{@b Eladrin (Autumn)}: As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
+						"{@b Eladrin (Autumn).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
 						"Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition charmed} by you for 1 minute, or until you or your companions deal any damage to it.",
-						"{@b Eladrin (Winter)}: As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
+						"{@b Eladrin (Winter).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
 						"When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition frightened} of you until the end of your next turn.",
-						"{@b High}: You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Intelligence is your spellcasting ability for it.",
-						"{@b Pallid}: You know the {@spell light|phb} cantrip. When you reach 3rd level, you can cast the {@spell sleep|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Constitution is your spellcasting ability for these spells.",
-						"{@b Sea}: You have a swimming speed of 30 feet, and you can breathe air and water.",
-						"{@b Shadar-kai}: As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.",
+						"{@b High.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Intelligence is your spellcasting ability for it.",
+						"{@b Pallid.} You know the {@spell light|phb} cantrip. When you reach 3rd level, you can cast the {@spell sleep|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Constitution is your spellcasting ability for these spells.",
+						"{@b Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
+						"{@b Shadar-kai.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.",
 						"Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.",
-						"{@b Wood}: You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+						"{@b Wood.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 					]
 				},
 				{
@@ -483,11 +483,11 @@
 					"name": "Societal Feature",
 					"entries": [
 						"Choose an option from the following list:",
-						"{@b Dwarvern}: You gain {@i Stonecunning}. You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}. You also either gain the {@i Talented Miner} feature or you gain proficiency in either {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
-						"{@b Elven}: You learn Sylvan and one additional language of your choice. You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
-						"{@b Human}: You gain two skill proficiencies and one additional language of your choice.",
-						"{@b Sea}: You can speak, read, and write Aquan. Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed. You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
-						"{@b Underdark}: You gain {@i Superior Darkvision} and {@i Sunlight Sensitivity}. You have proficiency with {@item battleaxe|phb|battleaxes}, {@item handaxe|phb|handaxes}, {@item hand crossbow|phb|hand crossbows}, {@item light hammer|phb|light hammers}, {@item longbow|phb|longbows}, {@item longsword|phb|longswords}, {@item rapier|phb|rapiers}, {@item shortbow|phb|shortbows}, {@item shortsword|phb|shortswords}, and {@item warhammer|phb|warhammers}."
+						"{@b Dwarvern.} You gain {@i Stonecunning}. You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}. You also either gain the {@i Talented Miner} feature or you gain proficiency in either {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Elven.} You learn Sylvan and one additional language of your choice. You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
+						"{@b Human.} You gain two skill proficiencies and one additional language of your choice.",
+						"{@b Sea.} You can speak, read, and write Aquan. Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed. You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
+						"{@b Underdark.} You gain {@i Superior Darkvision} and {@i Sunlight Sensitivity}. You have proficiency with {@item battleaxe|phb|battleaxes}, {@item handaxe|phb|handaxes}, {@item hand crossbow|phb|hand crossbows}, {@item light hammer|phb|light hammers}, {@item longbow|phb|longbows}, {@item longsword|phb|longswords}, {@item rapier|phb|rapiers}, {@item shortbow|phb|shortbows}, {@item shortsword|phb|shortswords}, and {@item warhammer|phb|warhammers}."
 					]
 				},
 				{
@@ -838,6 +838,83 @@
 				"heightMod": "2d4",
 				"baseWeight": 35,
 				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Halfblood",
+			"source": "EntrancedRaces",
+			"page": 19,
+			"reprintedAs": [
+				"Halfblood|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 50,
+				"max": 350
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Weapon Proficiency",
+				"Tool Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"resist": [
+				{
+				"poison": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Halfbloods mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Halfbloods are 4.5-5.5 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stonecunning",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 50,
+				"heightMod": "4d4",
+				"baseWeight": 100,
+				"weightMod": "2d4"
 			}
 		}
 	],
@@ -1614,6 +1691,165 @@
 					"name": "Languages",
 					"entries": [
 						"You can understand and speak Common and Aquan."
+					]
+				}
+			]
+		},
+		{
+			"name": "Duergar",
+			"source": "EntrancedRaces",
+			"raceName": "Halfblood",
+			"raceSource": "EntrancedRaces",
+			"page": 19,
+			"reprintedAs": [
+				"Halfblood (Duergar)|EARL"
+			],
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"traitTags": [
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Duergar Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}.",
+						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
+						"{@b Duergar Magic.} When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Dwarvish."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hill",
+			"source": "EntrancedRaces",
+			"raceName": "Halfblood",
+			"raceSource": "EntrancedRaces",
+			"page": 20,
+			"reprintedAs": [
+				"Halfblood (Hill)|EARL"
+			],
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dwarven Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}.",
+						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
+						"{@b Dwarven Toughness.} Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Dwarvish."
+					]
+				}
+			]
+		},
+		{
+			"name": "Mountain",
+			"source": "EntrancedRaces",
+			"raceName": "Halfblood",
+			"raceSource": "EntrancedRaces",
+			"page": 21,
+			"reprintedAs": [
+				"Halfblood (Mountain)|EARL"
+			],
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dwarven Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, and {@item warhammer|phb}.",
+						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
+						"{@b Dwarven Armor Training.} You have proficiency with light and medium armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Dwarvish."
 					]
 				}
 			]
