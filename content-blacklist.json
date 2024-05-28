@@ -1,5 +1,5 @@
 {
-  "siteVersion": "1.200.0",
+  "siteVersion": "1.207.2",
   "fileType": "content-blocklist",
   "blocklist": [
     {
@@ -13,6 +13,228 @@
       "hash": "motivational%20speech_ai",
       "category": "spell",
       "source": "AI"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi",
+      "hash": "genasi_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Air)",
+      "hash": "genasi%20(air)_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Earth)",
+      "hash": "genasi%20(earth)_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Fire)",
+      "hash": "genasi%20(fire)_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Water)",
+      "hash": "genasi%20(water)_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Draconblood)",
+      "hash": "dragonborn%20(draconblood)_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Ravenite)",
+      "hash": "dragonborn%20(ravenite)_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "race",
+      "displayName": "Orc",
+      "hash": "orc_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "race",
+      "displayName": "Bugbear",
+      "hash": "bugbear_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf (Mark of Warding)",
+      "hash": "dwarf%20(mark%20of%20warding)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Elf (Mark of Shadow)",
+      "hash": "elf%20(mark%20of%20shadow)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Gnome (Mark of Scribing)",
+      "hash": "gnome%20(mark%20of%20scribing)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Goblin",
+      "hash": "goblin_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Variant; Mark of Detection)",
+      "hash": "half-elf%20(variant%3b%20mark%20of%20detection)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Variant; Mark of Storm)",
+      "hash": "half-elf%20(variant%3b%20mark%20of%20storm)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Orc (Variant; Mark of Finding)",
+      "hash": "half-orc%20(variant%3b%20mark%20of%20finding)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Halfling (Mark of Healing)",
+      "hash": "halfling%20(mark%20of%20healing)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Halfling (Mark of Hospitality)",
+      "hash": "halfling%20(mark%20of%20hospitality)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Hobgoblin",
+      "hash": "hobgoblin_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Mark of Handling)",
+      "hash": "human%20(mark%20of%20handling)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Mark of Making)",
+      "hash": "human%20(mark%20of%20making)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Mark of Passage)",
+      "hash": "human%20(mark%20of%20passage)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Mark of Sentinel)",
+      "hash": "human%20(mark%20of%20sentinel)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Variant; Mark of Finding)",
+      "hash": "human%20(variant%3b%20mark%20of%20finding)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Orc",
+      "hash": "orc_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Chromatic)",
+      "hash": "dragonborn%20(chromatic)_ftd",
+      "source": "FTD"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Gem)",
+      "hash": "dragonborn%20(gem)_ftd",
+      "source": "FTD"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Metallic)",
+      "hash": "dragonborn%20(metallic)_ftd",
+      "source": "FTD"
+    },
+    {
+      "category": "race",
+      "displayName": "Goblin",
+      "hash": "goblin_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "race",
+      "displayName": "Minotaur",
+      "hash": "minotaur_mot",
+      "source": "MOT"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf (Duergar)",
+      "hash": "dwarf%20(duergar)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Gnome (Deep)",
+      "hash": "gnome%20(deep)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn",
+      "hash": "dragonborn_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Base)",
+      "hash": "dragonborn%20(base)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf",
+      "hash": "dwarf_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf (Hill)",
+      "hash": "dwarf%20(hill)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf (Mountain)",
+      "hash": "dwarf%20(mountain)_phb",
+      "source": "PHB"
     },
     {
       "displayName": "Alter Self",
@@ -189,16 +411,94 @@
       "source": "PHB"
     },
     {
+      "category": "race",
+      "displayName": "Tiefling (Variant; Devil's Tongue)",
+      "hash": "tiefling%20(variant%3b%20devil's%20tongue)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Variant; Hellfire)",
+      "hash": "tiefling%20(variant%3b%20hellfire)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Variant; Infernal Legacy)",
+      "hash": "tiefling%20(variant%3b%20infernal%20legacy)_scag",
+      "source": "SCAG"
+    },
+    {
+      "displayName": "Silvery Barbs",
+      "hash": "silvery%20barbs_scc",
+      "category": "spell",
+      "source": "SCC"
+    },
+    {
       "displayName": "Vortex Warp",
       "hash": "vortex%20warp_scc",
       "category": "spell",
       "source": "SCC"
     },
     {
+      "category": "race",
+      "displayName": "Custom Lineage",
+      "hash": "custom%20lineage_tce",
+      "source": "TCE"
+    },
+    {
       "displayName": "Sword Burst",
       "hash": "sword%20burst_tce",
       "category": "spell",
       "source": "TCE"
+    },
+    {
+      "category": "race",
+      "displayName": "Bugbear",
+      "hash": "bugbear_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Goblin",
+      "hash": "goblin_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Hobgoblin",
+      "hash": "hobgoblin_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Orc",
+      "hash": "orc_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Triton",
+      "hash": "triton_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Dhampir",
+      "hash": "dhampir_vrgr",
+      "source": "VRGR"
+    },
+    {
+      "category": "race",
+      "displayName": "Hexblood",
+      "hash": "hexblood_vrgr",
+      "source": "VRGR"
+    },
+    {
+      "category": "race",
+      "displayName": "Reborn",
+      "hash": "reborn_vrgr",
+      "source": "VRGR"
     },
     {
       "displayName": "Aganazzar's Scorcher",
@@ -277,12 +577,6 @@
       "hash": "wall%20of%20water_xge",
       "category": "spell",
       "source": "XGE"
-    },
-    {
-      "displayName": "Silvery Barbs",
-      "hash": "silvery%20barbs_scc",
-      "category": "spell",
-      "source": "SCC"
     }
   ]
 }
