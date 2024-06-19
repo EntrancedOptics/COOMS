@@ -10,7 +10,8 @@
 					"Entranced Optics"
 				],
 				"convertedBy": [
-					"Menzue"
+					"Menzue",
+					"Entranced Optics"
 				],
 				"color": "#18b300"
 		}
@@ -2961,7 +2962,7 @@
 				{
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot level above 1st. Additionally, you may automatically dispel magical water if the spell's level is equal to or less than the level of the spell slot you used."
+						"When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 15 feet, for each slot level above 1st. Additionally, you may automatically dispel magical water if the spell's level is equal to or less than the level of the spell slot you used."
 					],
 					"type": "entries"
 				}
@@ -3648,6 +3649,11 @@
 									"15 ft. cone (Con. save)"
 								],
 								[
+									"Steel",
+									"Acid",
+									"30 ft. line (Dex. save)"
+								],
+								[
 									"Time",
 									"Force",
 									"15 ft. cone (Con. save)"
@@ -4020,6 +4026,90 @@
 						"name": "Druid",
 						"source": "PHB"
 					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "VRCR"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Electric Current",
+			"source": "COOMS",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a bit of fur and nails connected by copper thread"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You shoot a stream of lightning that flows from one target of your choice within range to another. The target must succeed on a Dexterity saving throw or else they take {@dice 5d8} lightning damage as electricity jolts through them. The stream then arcs to a different target of your choice within 30 feet of the original target. The new target must then succeed on a Dexterity saving throw or they suffer the same damage and trigger the same effect as the original target. You do not need to see the target for the stream to arc to them, but you need to know of their existence. The stream of lightning may only hit a maximum of 5 creatures or objects in total throughout the spell's duration, and may not target the same creature twice. If a creature ever succeeds the saving throw, they take half damage and the spell ends. If the spell ever deals no damage to a creature or targets a creature outside of the reach that the lightning can jump to, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the amount of maximum targets the stream can jump to increases by 1 for each slot level above 4th."
+					],
+					"type": "entries"
+				}
+			],
+			"classes": {
+				"fromClassList": [
 					{
 						"name": "Sorcerer",
 						"source": "PHB"
@@ -11399,6 +11489,89 @@
 			}
 		},
 		{
+			"name": "Shock Pulse",
+			"source": "COOMS",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": false
+			},
+			"entries": [
+				"You shoot out a ball of lightning that flies towards a target of your choosing within range. Make a ranged spell attack, dealing {@dice 3d4} lightning damage on a hit as the ball shocks them. The ball then leaps to a different target of your choice within 30 feet of the original target. Make a ranged spell attack against the new target, triggering the same damage and effect on a hit. You do not need to see the target for the ball to jump to them, but you need to know of their existence. The ball may only hit a maximum of 5 creatures or objects in total throughout the spell's duration, counting repeats. If the ball ever misses, deals no damage, or targets a creature outside the ball's range, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the amount of maximum targets the ball can jump to increases by 2 for each slot level above 2nd."
+					],
+					"type": "entries"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "VRCR"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Sleet Storm",
 			"source": "COOMS",
 			"level": 3,
@@ -13445,7 +13618,7 @@
 			"entries": [
 				"You create a wall of water on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends.",
 				"Any ranged weapon attack that enters the wall's space has disadvantage on the attack roll. Any acid, cold, fire, or lightning damage is halved if the effect passes through the wall to reach its target.",
-				"Spells that deal lightning damage electrify the wall. Any creature that enters the wall or starts its turn in it next must make a Dexterity saving throw or take {@damage 1d8} lightning damage.",
+				"Spells that deal lightning damage that pass through the wall electrify the wall. Any creature that enters the wall or starts its turn in it next must make a Dexterity saving throw or take {@damage 1d8} lightning damage.",
 				"Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot-square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall's water doesn't fill it."
 			],
 			"damageInflict": [

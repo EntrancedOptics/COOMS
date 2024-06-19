@@ -1,7 +1,19 @@
 {
-  "siteVersion": "1.200.0",
+  "siteVersion": "1.207.2",
   "fileType": "content-blocklist",
   "blocklist": [
+    {
+      "category": "background",
+      "displayName": "Astral Drifter",
+      "hash": "astral%20drifter_aag",
+      "source": "AAG"
+    },
+    {
+      "category": "background",
+      "displayName": "Wildspacer",
+      "hash": "wildspacer_aag",
+      "source": "AAG"
+    },
     {
       "displayName": "Air Bubble",
       "hash": "air%20bubble_aag",
@@ -13,6 +25,510 @@
       "hash": "motivational%20speech_ai",
       "category": "spell",
       "source": "AI"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Acolyte",
+      "hash": "baldur's%20gate%20acolyte_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Charlatan",
+      "hash": "baldur's%20gate%20charlatan_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Criminal",
+      "hash": "baldur's%20gate%20criminal_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Entertainer",
+      "hash": "baldur's%20gate%20entertainer_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Folk Hero",
+      "hash": "baldur's%20gate%20folk%20hero_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Guild Artisan",
+      "hash": "baldur's%20gate%20guild%20artisan_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Hermit",
+      "hash": "baldur's%20gate%20hermit_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Noble",
+      "hash": "baldur's%20gate%20noble_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Outlander",
+      "hash": "baldur's%20gate%20outlander_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Sage",
+      "hash": "baldur's%20gate%20sage_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Sailor",
+      "hash": "baldur's%20gate%20sailor_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Soldier",
+      "hash": "baldur's%20gate%20soldier_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Baldur's Gate Urchin",
+      "hash": "baldur's%20gate%20urchin_bgdia",
+      "source": "BGDIA"
+    },
+    {
+      "category": "background",
+      "displayName": "Rewarded",
+      "hash": "rewarded_bmt",
+      "source": "BMT"
+    },
+    {
+      "category": "background",
+      "displayName": "Ruined",
+      "hash": "ruined_bmt",
+      "source": "BMT"
+    },
+    {
+      "category": "background",
+      "displayName": "Knight of Solamnia",
+      "hash": "knight%20of%20solamnia_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "background",
+      "displayName": "Mage of High Sorcery",
+      "hash": "mage%20of%20high%20sorcery_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "background",
+      "displayName": "Continental Nobility",
+      "hash": "continental%20nobility_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Devoted Missionary",
+      "hash": "devoted%20missionary_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Mageborn",
+      "hash": "mageborn_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Survivor",
+      "hash": "survivor_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Treasure Seeker",
+      "hash": "treasure%20seeker_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Variant Continental Nobility (Last of the Line)",
+      "hash": "variant%20continental%20nobility%20(last%20of%20the%20line)_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Variant Devoted Missionary (Stargazer)",
+      "hash": "variant%20devoted%20missionary%20(stargazer)_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Variant Mageborn (Malfeasant Mage)",
+      "hash": "variant%20mageborn%20(malfeasant%20mage)_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Variant Survivor (Veteran of the Civil War)",
+      "hash": "variant%20survivor%20(veteran%20of%20the%20civil%20war)_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "background",
+      "displayName": "Variant Treasure Seeker (Soldier of Fortune)",
+      "hash": "variant%20treasure%20seeker%20(soldier%20of%20fortune)_dodk",
+      "source": "DoDk"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi",
+      "hash": "genasi_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Air)",
+      "hash": "genasi%20(air)_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Earth)",
+      "hash": "genasi%20(earth)_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Fire)",
+      "hash": "genasi%20(fire)_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Water)",
+      "hash": "genasi%20(water)_eepc",
+      "source": "EEPC"
+    },
+    {
+      "category": "background",
+      "displayName": "Augen Trust (Spy)",
+      "hash": "augen%20trust%20(spy)_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "background",
+      "displayName": "Cobalt Scholar (Sage)",
+      "hash": "cobalt%20scholar%20(sage)_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "background",
+      "displayName": "Grinner",
+      "hash": "grinner_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "background",
+      "displayName": "Luxonborn (Acolyte)",
+      "hash": "luxonborn%20(acolyte)_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "background",
+      "displayName": "Myriad Operative (Criminal)",
+      "hash": "myriad%20operative%20(criminal)_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "background",
+      "displayName": "Volstrucker Agent",
+      "hash": "volstrucker%20agent_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Draconblood)",
+      "hash": "dragonborn%20(draconblood)_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Ravenite)",
+      "hash": "dragonborn%20(ravenite)_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "race",
+      "displayName": "Orc",
+      "hash": "orc_egw",
+      "source": "EGW"
+    },
+    {
+      "category": "background",
+      "displayName": "House Agent",
+      "hash": "house%20agent_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Bugbear",
+      "hash": "bugbear_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf (Mark of Warding)",
+      "hash": "dwarf%20(mark%20of%20warding)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Elf (Mark of Shadow)",
+      "hash": "elf%20(mark%20of%20shadow)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Gnome (Mark of Scribing)",
+      "hash": "gnome%20(mark%20of%20scribing)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Goblin",
+      "hash": "goblin_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Variant; Mark of Detection)",
+      "hash": "half-elf%20(variant%3b%20mark%20of%20detection)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Variant; Mark of Storm)",
+      "hash": "half-elf%20(variant%3b%20mark%20of%20storm)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Orc (Variant; Mark of Finding)",
+      "hash": "half-orc%20(variant%3b%20mark%20of%20finding)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Halfling (Mark of Healing)",
+      "hash": "halfling%20(mark%20of%20healing)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Halfling (Mark of Hospitality)",
+      "hash": "halfling%20(mark%20of%20hospitality)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Hobgoblin",
+      "hash": "hobgoblin_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Mark of Handling)",
+      "hash": "human%20(mark%20of%20handling)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Mark of Making)",
+      "hash": "human%20(mark%20of%20making)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Mark of Passage)",
+      "hash": "human%20(mark%20of%20passage)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Mark of Sentinel)",
+      "hash": "human%20(mark%20of%20sentinel)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Variant; Mark of Finding)",
+      "hash": "human%20(variant%3b%20mark%20of%20finding)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Orc",
+      "hash": "orc_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Chromatic)",
+      "hash": "dragonborn%20(chromatic)_ftd",
+      "source": "FTD"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Gem)",
+      "hash": "dragonborn%20(gem)_ftd",
+      "source": "FTD"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Metallic)",
+      "hash": "dragonborn%20(metallic)_ftd",
+      "source": "FTD"
+    },
+    {
+      "category": "background",
+      "displayName": "Azorius Functionary",
+      "hash": "azorius%20functionary_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Boros Legionnaire",
+      "hash": "boros%20legionnaire_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Dimir Operative",
+      "hash": "dimir%20operative_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Golgari Agent",
+      "hash": "golgari%20agent_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Gruul Anarch",
+      "hash": "gruul%20anarch_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Izzet Engineer",
+      "hash": "izzet%20engineer_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Orzhov Representative",
+      "hash": "orzhov%20representative_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Rakdos Cultist",
+      "hash": "rakdos%20cultist_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Selesnya Initiate",
+      "hash": "selesnya%20initiate_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Simic Scientist",
+      "hash": "simic%20scientist_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "race",
+      "displayName": "Goblin",
+      "hash": "goblin_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "background",
+      "displayName": "Grounded",
+      "hash": "grounded_hwcs",
+      "source": "HWCS"
+    },
+    {
+      "category": "background",
+      "displayName": "Wind-Touched",
+      "hash": "wind-touched_hwcs",
+      "source": "HWCS"
+    },
+    {
+      "category": "race",
+      "displayName": "Minotaur",
+      "hash": "minotaur_mot",
+      "source": "MOT"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf (Duergar)",
+      "hash": "dwarf%20(duergar)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Gnome (Deep)",
+      "hash": "gnome%20(deep)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "background",
+      "displayName": "Custom Background",
+      "hash": "custom%20background_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn",
+      "hash": "dragonborn_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dragonborn (Base)",
+      "hash": "dragonborn%20(base)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf",
+      "hash": "dwarf_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf (Hill)",
+      "hash": "dwarf%20(hill)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Dwarf (Mountain)",
+      "hash": "dwarf%20(mountain)_phb",
+      "source": "PHB"
     },
     {
       "displayName": "Alter Self",
@@ -189,16 +705,178 @@
       "source": "PHB"
     },
     {
+      "category": "race",
+      "displayName": "Tiefling (Variant; Devil's Tongue)",
+      "hash": "tiefling%20(variant%3b%20devil's%20tongue)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Variant; Hellfire)",
+      "hash": "tiefling%20(variant%3b%20hellfire)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Variant; Infernal Legacy)",
+      "hash": "tiefling%20(variant%3b%20infernal%20legacy)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "background",
+      "displayName": "Lorehold Student",
+      "hash": "lorehold%20student_scc",
+      "source": "SCC"
+    },
+    {
+      "category": "background",
+      "displayName": "Prismari Student",
+      "hash": "prismari%20student_scc",
+      "source": "SCC"
+    },
+    {
+      "category": "background",
+      "displayName": "Quandrix Student",
+      "hash": "quandrix%20student_scc",
+      "source": "SCC"
+    },
+    {
+      "category": "background",
+      "displayName": "Silverquill Student",
+      "hash": "silverquill%20student_scc",
+      "source": "SCC"
+    },
+    {
+      "category": "background",
+      "displayName": "Witherbloom Student",
+      "hash": "witherbloom%20student_scc",
+      "source": "SCC"
+    },
+    {
+      "displayName": "Silvery Barbs",
+      "hash": "silvery%20barbs_scc",
+      "category": "spell",
+      "source": "SCC"
+    },
+    {
       "displayName": "Vortex Warp",
       "hash": "vortex%20warp_scc",
       "category": "spell",
       "source": "SCC"
     },
     {
+      "category": "background",
+      "displayName": "Gate Warden",
+      "hash": "gate%20warden_sato",
+      "source": "SatO"
+    },
+    {
+      "category": "background",
+      "displayName": "Planar Philosopher",
+      "hash": "planar%20philosopher_sato",
+      "source": "SatO"
+    },
+    {
+      "category": "race",
+      "displayName": "Custom Lineage",
+      "hash": "custom%20lineage_tce",
+      "source": "TCE"
+    },
+    {
       "displayName": "Sword Burst",
       "hash": "sword%20burst_tce",
       "category": "spell",
       "source": "TCE"
+    },
+    {
+      "category": "background",
+      "displayName": "Ashari",
+      "hash": "ashari_tdcsr",
+      "source": "TDCSR"
+    },
+    {
+      "category": "background",
+      "displayName": "Clasp Member",
+      "hash": "clasp%20member_tdcsr",
+      "source": "TDCSR"
+    },
+    {
+      "category": "background",
+      "displayName": "Lyceum Scholar",
+      "hash": "lyceum%20scholar_tdcsr",
+      "source": "TDCSR"
+    },
+    {
+      "category": "background",
+      "displayName": "Reformed Cultist",
+      "hash": "reformed%20cultist_tdcsr",
+      "source": "TDCSR"
+    },
+    {
+      "category": "background",
+      "displayName": "Variant Clasp Member (Myriad Operative)",
+      "hash": "variant%20clasp%20member%20(myriad%20operative)_tdcsr",
+      "source": "TDCSR"
+    },
+    {
+      "category": "background",
+      "displayName": "Variant Whitestone Rifle Corps (Grey Hunter)",
+      "hash": "variant%20whitestone%20rifle%20corps%20(grey%20hunter)_tdcsr",
+      "source": "TDCSR"
+    },
+    {
+      "category": "background",
+      "displayName": "Whitestone Rifle Corps",
+      "hash": "whitestone%20rifle%20corps_tdcsr",
+      "source": "TDCSR"
+    },
+    {
+      "category": "race",
+      "displayName": "Bugbear",
+      "hash": "bugbear_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Goblin",
+      "hash": "goblin_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Hobgoblin",
+      "hash": "hobgoblin_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Orc",
+      "hash": "orc_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Triton",
+      "hash": "triton_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Dhampir",
+      "hash": "dhampir_vrgr",
+      "source": "VRGR"
+    },
+    {
+      "category": "race",
+      "displayName": "Hexblood",
+      "hash": "hexblood_vrgr",
+      "source": "VRGR"
+    },
+    {
+      "category": "race",
+      "displayName": "Reborn",
+      "hash": "reborn_vrgr",
+      "source": "VRGR"
     },
     {
       "displayName": "Aganazzar's Scorcher",
@@ -277,12 +955,6 @@
       "hash": "wall%20of%20water_xge",
       "category": "spell",
       "source": "XGE"
-    },
-    {
-      "displayName": "Silvery Barbs",
-      "hash": "silvery%20barbs_scc",
-      "category": "spell",
-      "source": "SCC"
     }
   ]
 }
