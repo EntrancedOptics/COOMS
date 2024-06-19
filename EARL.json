@@ -431,7 +431,7 @@
 					"type": "entries",
 					"name": "Fey Ancestry",
 					"entries": [
-						"You have advantage on saving throws against being charmed, and magic can't put you to sleep."
+						"You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
 					]
 				},
 				{
@@ -916,6 +916,272 @@
 				"baseWeight": 100,
 				"weightMod": "2d4"
 			}
+		},
+		{
+			"name": "Half-Bugbear",
+			"source": "EntrancedRaces",
+			"page": 22,
+			"reprintedAs": [
+				"Half-Bugbear|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 17,
+				"max": 90
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Powerful Build",
+				"Skill Proficiency",
+				"Uncommon Race"
+
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Bugbears mature at 17 years of age and can live to be about 90 years old."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Bugbears are between 6 and 7 feet tall and weigh between 200 and 300 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sneaky",
+					"entries": [
+						"You are proficient in the {@skill Stealth} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Surprise Attack",
+					"entries": [
+						"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra {@dice 2d6} damage to it. You can use this trait only once per combat."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1):",
+					"entries": [
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+						"{@b Long-Limbed.} When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Goblin."
+					],
+					"type": "entries"
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 68,
+				"heightMod": "4d4",
+				"baseWeight": 200,
+				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Half-Dragon",
+			"source": "EntrancedRaces",
+			"page": 22,
+			"reprintedAs": [
+				"Half-Dragon|EARL"
+			],
+			"ability": [
+				{
+					"con": 2
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"creatureTypes": [
+				"Dragon"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Dragons mature at the same rate as their non-dragon parent, but can live to the length of their draconic ancestry."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"entries": [
+						"You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+					]
+				},
+				{
+							"type": "table",
+							"caption": "Draconic Ancestry",
+							"colLabels": [
+								"Dragon",
+								"Damage Type",
+								"Breath Weapon"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Amethyst",
+									"Force",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Black",
+									"Acid",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Blue",
+									"Lightning",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Brass",
+									"Fire",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Bronze",
+									"Lightning",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Copper",
+									"Acid",
+									"5 by 30 ft. line (Dex. save)"
+								],
+								[
+									"Crystal",
+									"Radiant",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Emerald",
+									"Psychic",
+									"15 ft. cone (Int. save)"
+								],
+								[
+									"Gold",
+									"Fire",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Green",
+									"Poison",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Red",
+									"Fire",
+									"15 ft. cone (Dex. save)"
+								],
+								[
+									"Sapphire",
+									"Thunder",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Silver",
+									"Cold",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"Topaz",
+									"Necrotic",
+									"15 ft. cone (Con. save)"
+								],
+								[
+									"White",
+									"Cold",
+									"15 ft. cone (Con. save)"
+								]
+							]
+				},
+				{
+					"type": "entries",
+					"name": "Breath Weapon",
+					"entries": [
+						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice 1d10} equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+						"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a dragon."
+					]
+				}
+			]
 		}
 	],
 	"subrace": [
@@ -1850,6 +2116,358 @@
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and Dwarvish."
+					]
+				}
+			]
+		},
+		{
+			"name": "Drow",
+			"source": "EntrancedRaces",
+			"raceName": "Half-Dragon",
+			"raceSource": "EntrancedRaces",
+			"page": 22,
+			"reprintedAs": [
+				"Half-Dragon (Drow)|EARL"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 120,
+			"traitTags": [
+				"Superior Darkvision",
+				"Spellcasting",
+				"Sunlight Sensitivity",
+				"Weapon Proficiency",
+				"Magic Resistance",
+				"Blindsight"
+			],
+			"languageProficiencies": [
+				{
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dragons have the same size as their non-dragon parent. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Half-Dragons have a base speed equal to their non-dragon parent's base speed. Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Undercommon, and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
+						"{@b Fey Ancestry.} You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
+						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|phb|rapiers}, {@item shortsword|phb|shortswords}, and {@item hand crossbow|phb|hand crossbows}.",
+						"{@b Drow Magic.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Duergar",
+			"source": "EntrancedRaces",
+			"raceName": "Half-Dragon",
+			"raceSource": "EntrancedRaces",
+			"page": 25,
+			"reprintedAs": [
+				"Half-Dragon (Duergar)|EARL"
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 25,
+			"darkvision": 120,
+			"traitTags": [
+				"Superior Darkvision",
+				"Spellcasting",
+				"Sunlight Sensitivity",
+				"Weapon Proficiency",
+				"Blindsight"
+			],
+			"languageProficiencies": [
+				{
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dragons have the same size as their non-dragon parent. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Half-Dragons have a base speed equal to their non-dragon parent's base speed. Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Undercommon, and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
+						"{@b Duergar Resilience.} You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stonecunning",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
+						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
+						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
+						"{@b Duergar Magic.} When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dwarf",
+			"source": "EntrancedRaces",
+			"raceName": "Half-Dragon",
+			"raceSource": "EntrancedRaces",
+			"page": 28,
+			"reprintedAs": [
+				"Half-Dragon (Dwarf)|EARL"
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 25,
+			"traitTags": [
+				"Tool Proficiency",
+				"Weapon Proficiency",
+				"Armor Proficiency",
+				"Blindsight"
+			],
+			"languageProficiencies": [
+				{
+					"dwarvish": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dragons have the same size as their non-dragon parent. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Half-Dragons have a base speed equal to their non-dragon parent's base speed. Your base walking speed is 25 feet. Your speed is not reduced by wearing heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Dwarvish, and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
+						"{@b Dwarven Resilience.} You have advantage on saving throws against poison, and you have resistance against poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stonecunning",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
+						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
+						"{@b Dwarven Armor Training.} You have proficiency with light and medium armor.",
+						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
+						"{@b Dwarven Toughness.} Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elf",
+			"source": "EntrancedRaces",
+			"raceName": "Half-Dragon",
+			"raceSource": "EntrancedRaces",
+			"page": 30,
+			"reprintedAs": [
+				"Half-Dragon (Elf)|EARL"
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Tool Proficiency",
+				"Sunlight Sensitivity",
+				"Weapon Proficiency",
+				"Blindsight",
+				"Magic Resistance",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"elvish": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dragons have the same size as their non-dragon parent. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Half-Dragons have a base speed equal to their non-dragon parent's base speed. Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Elvish, and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
+						"{@b Fey Ancestry.} You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
+						"{@b Sea Elf Training.} You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
+						"{@b Swim.} You gain a swimming speed of 30 ft.",
+						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
+						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
+						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Constitution is your spellcasting ability for it."
 					]
 				}
 			]
