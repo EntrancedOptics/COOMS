@@ -2533,7 +2533,7 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1)",
+					"name": "Variant Resilience (Choose 1)",
 					"entries": [
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Gnome Cunning.} You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
