@@ -2190,7 +2190,7 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1)",
+					"name": "Variant Resilience (Choose 1)",
 					"entries": [
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Fey Ancestry.} You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
@@ -2276,7 +2276,7 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1)",
+					"name": "Variant Resilience (Choose 1)",
 					"entries": [
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Duergar Resilience.} You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
