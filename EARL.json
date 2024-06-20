@@ -1010,6 +1010,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1):",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
 						"{@b Long-Limbed.} When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
@@ -1179,6 +1180,122 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Half-Goblin",
+			"source": "EntrancedRaces",
+			"page": 40,
+			"reprintedAs": [
+				"Half-Goblin|EARL"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 10,
+				"max": 80
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true,
+					"choose": {
+						"from": [
+							"animal handling",
+							"deception",
+							"slight of hand",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Goblins mature at 10 years of age and can live to be about 80 years old."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Goblins are between 3½  and 4½ feet tall and weigh between 60 and 100 pounds. Your size is Small. The only noticeable difference between half-goblins and goblins is their ears are short, but still pointed, and their eye colors are human colors."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Cowards",
+					"entries": [
+						"You have proficiency in {@skill Stealth}, and prefer underhanded tactics, allowing you to additionally gain proficiency in either {@skill Animal Handling}, {@skill Deception}, {@skill Sleight of Hand}, or {@skill Survival}."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Fury of the Small.} When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
+						"{@b Nimble Escape.} You can take the Disengage or Hide action as a bonus action on each of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common and Goblin."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
 		}
 	],
 	"subrace": [
@@ -1997,6 +2114,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
 						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
@@ -2049,6 +2167,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
 						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
@@ -2101,6 +2220,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
 						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
@@ -2189,6 +2309,7 @@
 					"type": "inset",
 					"name": "Variant Resilience (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Fey Ancestry.} You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
 					]
@@ -2197,6 +2318,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
 						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|phb|rapiers}, {@item shortsword|phb|shortswords}, and {@item hand crossbow|phb|hand crossbows}.",
 						"{@b Drow Magic.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
@@ -2275,6 +2397,7 @@
 					"type": "inset",
 					"name": "Variant Resilience (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Duergar Resilience.} You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
 					]
@@ -2290,6 +2413,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
 						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
 						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
@@ -2359,8 +2483,9 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1)",
+					"name": "Variant Resilience (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Dwarven Resilience.} You have advantage on saving throws against poison, and you have resistance against poison damage."
 					]
@@ -2376,6 +2501,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
 						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
 						"{@b Dwarven Armor Training.} You have proficiency with light and medium armor.",
@@ -2449,6 +2575,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Fey Ancestry.} You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
 					]
@@ -2457,6 +2584,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
 						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
 						"{@b Sea Elf Training.} You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
@@ -2532,6 +2660,7 @@
 					"type": "inset",
 					"name": "Variant Resilience (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Gnome Cunning.} You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
 					]
@@ -2540,6 +2669,7 @@
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
+						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
 						"{@b Superior Darkvision.} Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.",
 						"{@b Stone Camouflage.} You have advantage on Dexterity (Stealth) checks to hide in rocky terrain.",
@@ -2555,6 +2685,193 @@
 							"{@b Music Box.} When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
 						]
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Halfling",
+			"source": "EntrancedRaces",
+			"raceName": "Half-Dragon",
+			"raceSource": "EntrancedRaces",
+			"page": 35,
+			"reprintedAs": [
+				"Half-Dragon (Halfling)|EARL"
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"traitTags": [
+				"Blindsight",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"halfling": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dragons have the same size as their non-dragon parent. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Half-Dragons have a base speed equal to their non-dragon parent's base speed. Your base walking speed is 25 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Halfling, and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Resilience (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
+						"{@b Brave.} You have advantage on saving throws against being {@condition frightened|phb}."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
+						"{@b Lucky.} When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.",
+						"{@b Halfling Nimbleness.} You can move through the space of any creature that is of a size larger than yours.",
+						"{@b Silent Speech.} You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time.",
+						"{@b Naturally Stealthy.} You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you.",
+						"{@b Child of the Wood.} You know the {@spell druidcraft|phb} cantrip. When you reach 3rd level, you can cast the {@spell entangle|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell spike growth|phb} spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells.",
+						"{@b Timberwalk.} Ability checks made to track you have disadvantage, and you can move across difficult terrain made of nonmagical plants and undergrowth without expending extra movement.",
+						"{@b Stout Resilience.} You have advantage on saving throws against poison, and you have resistance against poison damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Human",
+			"source": "EntrancedRaces",
+			"raceName": "Half-Dragon",
+			"raceSource": "EntrancedRaces",
+			"page": 38,
+			"reprintedAs": [
+				"Half-Dragon (Human)|EARL"
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Blindsight",
+				"Skill Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"animal handling",
+							"arcana",
+							"athletics",
+							"deception",
+							"history",
+							"insight",
+							"intimidation",
+							"investigation",
+							"medicine",
+							"nature",
+							"perception",
+							"perfromance",
+							"persuasion",
+							"religion",
+							"sleight of hand",
+							"stealth",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dragons have the same size as their non-dragon parent. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Half-Dragons have a base speed equal to their non-dragon parent's base speed. Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Resilience.",
+					"entries": [
+						"You have resistance to the damage type associated with your draconic ancestry."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you."
 					]
 				}
 			]
