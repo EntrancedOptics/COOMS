@@ -1180,6 +1180,122 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Half-Goblin",
+			"source": "EntrancedRaces",
+			"page": 40,
+			"reprintedAs": [
+				"Half-Goblin|EARL"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 10,
+				"max": 80
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true,
+					"choose": {
+						"from": [
+							"animal handling",
+							"deception",
+							"slight of hand",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Goblins mature at 10 years of age and can live to be about 80 years old."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Goblins are between 3½  and 4½ feet tall and weigh between 60 and 100 pounds. Your size is Small. The only noticeable difference between half-goblins and goblins is their ears are short, but still pointed, and their eye colors are human colors."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Cowards",
+					"entries": [
+						"You have proficiency in {@skill Stealth}, and prefer underhanded tactics, allowing you to additionally gain proficiency in either {@skill Animal Handling}, {@skill Deception}, {@skill Sleight of Hand}, or {@skill Survival}."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Fury of the Small.} When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
+						"{@b Nimble Escape.} You can take the Disengage or Hide action as a bonus action on each of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common and Goblin."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
 		}
 	],
 	"subrace": [
