@@ -85,7 +85,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you are prone, standing up uses only 5 feet of your movement.",
+						"When you are {@condition prone|phb}, standing up uses only 5 feet of your movement.",
 						"You gain a climbing and swimming speed equal to your walking speed.",
 						"You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
 					]
@@ -231,6 +231,24 @@
 				}
 			]
 		},
+		{
+			"name": "Drow High Magic",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"reprintedAs": [
+				"Drow High Magic|OOF"
+			],
+			"prerequisite": [
+				{
+					"race":[
+						{
+							"name": "Elf (drow)"
+						}
+					]
+				}
+			],
+			
+		}
 		{
 			"name": "Fey Teleportation",
 			"source": "EntrancedFeats",
