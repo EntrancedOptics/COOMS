@@ -1,0 +1,22 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "EntrancedRaces",
+				"abbreviation": "OOF",
+				"full": "Optic's Official Feats",
+				"authors": [
+					"Entranced Optics"
+				],
+				"convertedBy": [
+					"Nun",
+					"Entranced Optics"
+				],
+				"version": "1.0.0",
+				"url": "https://docs.google.com/document/d/1Pde1uXQlHb-teY8Ab5aWyjkLlKTHG7gO6Lj4KTnkcMk",
+				"color": "#18b300"
+			}
+		]
+	},
+
+}

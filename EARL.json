@@ -9,17 +9,14 @@
 					"Entranced Optics"
 				],
 				"convertedBy": [
-					"Beasty"
+					"Beasty",
+					"Entranced Optics"
 				],
 				"version": "1.0.0",
 				"url": "https://docs.google.com/document/d/1c8aZFEpGUrM5BEoHMLVzUlmD3Rz0Y78kv4wAFYXr338",
-				"dateReleased": "2024-05-25",
 				"color": "#18b300"
 			}
-		],
-		"dateAdded": 1701616429,
-		"dateLastModified": 1701618486,
-		"_dateLastModifiedHash": "88bb9e0634"
+		]
 	},
 	"race": [
 		{
@@ -2190,7 +2187,7 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1)",
+					"name": "Variant Resilience (Choose 1)",
 					"entries": [
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Fey Ancestry.} You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
@@ -2276,7 +2273,7 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1)",
+					"name": "Variant Resilience (Choose 1)",
 					"entries": [
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Duergar Resilience.} You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
@@ -2533,7 +2530,7 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1)",
+					"name": "Variant Resilience (Choose 1)",
 					"entries": [
 						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
 						"{@b Gnome Cunning.} You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
