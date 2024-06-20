@@ -20,6 +20,223 @@
 	},
 	"feat": [
 		{
+			"name": "Alchemist",
+			"source": "EntrancedFeats",
+			"Page": 1,
+			"reprintedAs": [
+				"Alchemist|OOF"
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"alchemist's supplies": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have studied the secrets of alchemy and are an expert in its practice, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with {@item alchemist's supplies|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a potion of healing, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have {@item alchemist's supplies|phb} with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
+					]
+				}
+			]
+		},
+		{
+			"name": "Athlete",
+			"source": "EntrancedFeats",
+			"Page": 1,
+			"reprintedAs": [
+				"Athlete|OOF"
+			],
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"speed": {
+				"swim": true,
+				"climb": true
+			},
+			"entries": [
+				{
+					"entries": [
+						"You have undergone extensive physical training to gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you are prone, standing up uses only 5 feet of your movement.",
+						"You gain a climbing and swimming speed equal to your walking speed.",
+						"You can make a running long jump or a running high jump after moving only 5 feet on foot, rather than 10 feet."
+					]
+				}
+			]
+		},
+		{
+			"name": "Bountiful Luck",
+			"source": "EntrancedFeats",
+			"page": 1,
+			"reprintedAs": [
+				"Bountiful Luck|OOF"
+			],
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Halfling"
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your people have extraordinary luck, which you have learned to mystically lend to your companions when you see them falter. You're not sure how you do it; you just wish it, and it happens. Surely a sign of fortune's favor!"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"When an ally you can see within 30 feet of you rolls a 1 on the {@dice 1d20} for an attack roll, an ability check, or a saving throw, you can use your reaction to let the ally reroll the die. The ally must use the new roll.",
+						"When you use this ability, you can't use your Lucky racial trait before the end of your next turn. You can only use this feat a number of times per short rest equal to your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Burglar",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Burglar|OOF"
+			],
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"thieves' tools": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You pride yourself on your quickness and your close study of certain clandestine activities. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with thieves' tools. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"You can pick up items as a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Crossbow Expert",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Crossbow Expert|OOF"
+			],
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Thanks to extensive practice with the crossbow, you gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You ignore the loading quality of crossbows with which you are proficient.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
+						"When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a hand crossbow you are holding.",
+						"Bracing on a wall or table no longer costs any movement."
+					]
+				}
+			]
+		},
+		{
+			"name": "Defensive Duelist",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Defensive Duelist|OOF"
+			],
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"dex": "13 or higher"
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"When you are wielding a finesse weapon with which you are proficient and another creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you. If you use this reaction and successfully block an attack, it is counted as a successful parry against a creature."
+					],
+					"type": "entries"
+				}
+			]			
+		},
+		{
+			"name": "Double Weapon Master",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Double Weapon Master|OOF"
+			],
+			"entries": [
+				{
+					"entries":[
+						"You have mastered double-ended weaponry, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"While wielding a weapon with the Double property, you gain +1 AC.",
+						"When you attack using a weapon with the Double property, you can make the weapon’s secondary attack for free as a part of the attack that you make instead of doing so as a bonus action. You may not attack using the weapon’s secondary attack more than once per turn.",
+						"If you hit a pair of creatures flanking you using a weapon with the Double property in one turn, they do not gain the benefits of flanking you until the start of your next turn."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fey Teleportation",
 			"source": "EntrancedFeats",
 			"page": 3,
