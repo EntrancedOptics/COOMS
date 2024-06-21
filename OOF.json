@@ -569,7 +569,7 @@
 			],
 			"prerequisite":[
 				{
-					"other": "Medium Armor proficiency"
+					"armor": "medium"
 				}
 			],
 			"entries":[
