@@ -146,7 +146,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with thieves' tools. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"You gain proficiency with @{item thieves' tools}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
 						"You can pick up items as a bonus action."
 					]
 				}
