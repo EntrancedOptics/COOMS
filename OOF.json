@@ -567,6 +567,11 @@
 			"reprintedAs":[
 				"Medium Armor Master|OOF"
 			],
+			"prerequisite":[
+				{
+					"other": "Medium Armor proficiency"
+				}
+			],
 			"entries":[
 				{
 					"entries":[
@@ -835,6 +840,11 @@
 			"page": 9,
 			"reprintedAs":[
 				"War Caster|OOF"
+			],
+			"prerequisite":[
+				{
+					"spellcasting": "true"
+				}
 			],
 			"entries":[
 				{
