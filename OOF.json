@@ -434,7 +434,7 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency with firearms (see 'Firearms' in the Dungeon Master's Guide).",
-						"You can use a tinderbox as a free action.",
+						"You can use a {@item tinderbox} as a free action.",
 						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
 						"Bracing on a wall or table no longer costs any movement."
 					]
