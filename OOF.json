@@ -247,8 +247,60 @@
 					]
 				}
 			],
-			
-		}
+			"additionalSpells":[
+				{
+					"known": [
+						"detect magic"
+					]
+				},
+				{
+					"inate":{
+						"daily":{
+							"1":[
+								"levitate",
+								"dispel magic"
+							]
+						},
+						"ability":[
+							"con"
+						]
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries": [
+						"You learn more of the magic typical of dark elves. You learn the {@spell detect magic|pbh} spell and can cast it at will, without expending a spell slot. You also learn {@spell levitate|pbh} and {@spell dispel magic|pbh}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Constitution is your spellcasting ability for all three spells"
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Fell Handed",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"reprintedAs": [
+				"Fell Handed|OOF"
+			],
+			"entries":[
+				{
+					"entries": [
+						"You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain a +1 bonus to attack rolls you make with the weapon.",
+						"Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target prone if the lower of the two d20 rolls would also hit the target.",
+						"Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two d20 rolls would have hit.",
+						"You may use a bonus action to target one enemy within range and kick their shield or stance, leaving them Wide Open and thus giving them -1 to their AC until the start of their next turn."
+					]
+				}
+			]
+		},
 		{
 			"name": "Fey Teleportation",
 			"source": "EntrancedFeats",
@@ -307,6 +359,84 @@
 					"items": [
 						"You learn to speak, read, and write Sylvan. If you already know the language, you may learn a different one instead.",
 						"You learn the {@spell misty step|phb} spell and can cast it once without expending a spell slot or its verbal component. You regain the ability to cast it in this way when you finish a short or long rest. Constitution is your spellcasting ability for this spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fey Touched",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"reprintedAs": [
+				"Fey Touched|OOF"
+			],
+			"ability":[
+				{
+					"choose": {
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"additionalSpells":[
+				{
+					"innate": {
+						"daily": {
+						"1": [
+							"misty step"
+						]
+					},
+					"ability": [
+						"con"
+					]
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your exposure to the Feywild's magic has changed you, granting you the following benefits:",
+						"You learn the {@spell misty step|pbh} spell and one {@filter 1st-level spell|spells|level=1|school=D;E} of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot or its somatic and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Gunner",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"reprintedAs": [
+				"Gunner|OOF"
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"weaponProficiencies":[
+				{
+					"Firearms":"true"
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have a quick hand and keen eye when employing firearms, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with firearms (see 'Firearms' in the Dungeon Master's Guide).",
+						"You can use a tinderbox as a free action.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
+						"Bracing on a wall or table no longer costs any movement."
 					]
 				}
 			]
