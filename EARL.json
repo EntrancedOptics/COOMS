@@ -1487,7 +1487,7 @@
 				{
 					"name": "Age",
 					"entries": [
-						"Half-Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs. "
+						"Half-Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs."
 					],
 					"type": "entries"
 				},
@@ -1549,6 +1549,129 @@
 				"heightMod": "2d4",
 				"baseWeight": 35,
 				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Half-Orc",
+			"source": "EntrancedRaces",
+			"page": 42,
+			"reprintedAs": [
+				"Half-Orc|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 14,
+				"max": 75
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"They are torn between the rage that naturally flows through their veins and the humanity within them. Raised in orc culture, they tend towards chaos and evil. Raised in human culture, they tend towards lawful neutral, or even sometimes good."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Menacing",
+					"entries": [
+						"You gain proficiency in the {@skill Intimidation} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+						"{@b Aggressive.} As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
+						"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 58,
+				"heightMod": "2d10",
+				"baseWeight": 140,
+				"weightMod": "2d6"
 			}
 		}
 	],
