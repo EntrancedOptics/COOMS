@@ -758,7 +758,7 @@
 					"type":"list",
 					"items":[
 						"You have advantage on Constitution saving throws against pain, including holding your breath when taking damage, concentration saves, and spells such as {@spell Power Word Pain|phb}.",
-						"You have advantage on all {@dice 1d20} rolls for determining the severity of a system shock, lingering injury, or fumble."
+						"You have advantage on all {@dice d20} rolls for determining the severity of a system shock, lingering injury, or fumble."
 					]
 				}
 			]
