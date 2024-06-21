@@ -299,7 +299,7 @@
 						"You may use a bonus action to target one enemy within range and kick their shield or stance, leaving them Wide Open and thus giving them -1 to their AC until the start of their next turn."
 					]
 				}
-			]
+			]//you will never read this
 		},
 		{
 			"name": "Fey Teleportation",
