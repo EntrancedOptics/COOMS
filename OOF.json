@@ -860,7 +860,7 @@
 				{
 					"type":"list",
 					"items":[
-						"You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.",
+						"You have advantage on Constitution saving throws that you make to maintain your {@condition concentration} on a spell when you take damage.",
 						"You can perform somatic components with non-focus weapons or shields in hand as well.",
 						"When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
 					]
