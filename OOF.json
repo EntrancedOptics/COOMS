@@ -623,7 +623,7 @@
 			"entries":[
 				{
 					"entries":[
-						"You have gotten quite good at parrying, so much so that one might even describe you as a “Parry King”... you gain the following benefits:"
+						"You have gotten quite good at parrying, so much so that one might even describe you as a 'Parry King'... you gain the following benefits:"
 					],
 					"type":"entries"
 				},
@@ -657,7 +657,7 @@
 					"items":[
 						"All polearms count as Reach weapons for you.",
 						"All polearms gain the Double property for you. Polearms that did not have the Double property allow you to use a bonus action to make a melee attack with the opposite end of the weapon whenever you take the attack action with said weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and it deals bludgeoning damage.",
-						"When you use a spear or trident, its damage die changes from a {@dice 1d6} to a {@dice 1d8}, and from a {@dice 1d8} to a {@dice 1d10} when wielded with two hands. When you use a quarterstaff, both its regular attack and secondary attack’s damage die increase from {@dice 1d4} to {@dice 1d6}. When you use a javelin, its damage increases to a {@dice d8} and its range increases to (80/320). When you use a yklwa, its damage increases to a {@dice 1d10} and its range increases to (20/60). ",
+						"When you use a spear or trident, its damage die changes from a {@dice 1d6} to a {@dice 1d8}, and from a {@dice 1d8} to a {@dice 1d10} when wielded with two hands. When you use a quarterstaff, both its regular attack and secondary attack's damage die increase from {@dice 1d4} to {@dice 1d6}. When you use a javelin, its damage increases to a {@dice d8} and its range increases to (80/320). When you use a yklwa, its damage increases to a {@dice 1d10} and its range increases to (20/60). ",
 						"While you are wielding a polearm, other creatures provoke an {@action opportunity attack|phb} from you when they enter the reach you have with that weapon. If you hit them with that {@action opportunity attack|phb}, they cannot move within 5 feet of you for the duration of their turn."
 					]
 				}
@@ -777,7 +777,7 @@
 					"type":"list",
 					"items":[
 						"If you are a prepared caster, your maximum prepared spells increases by an amount equal to your proficiency bonus.",
-						"If you are a spontaneous caster, you learn an amount of spells equal to half your proficiency bonus (rounded down) from your class’ spell list. If you are multiclassed, you may only pick spells from the classes in which you spontaneously cast.",
+						"If you are a spontaneous caster, you learn an amount of spells equal to half your proficiency bonus (rounded down) from your class' spell list. If you are multiclassed, you may only pick spells from the classes in which you spontaneously cast.",
 						"You learn either the {@spell Magic Dagger|cooms}, {@spell Magic Dart|cooms}, or {@spell Prestidigitation|cooms} cantrip."
 					]
 				}
@@ -822,7 +822,7 @@
 			"entries":[
 				{
 					"entries":[
-						"Your body can take a beating; it takes a lot before you’re willing to throw in the towel. You gain the following benefits:"
+						"Your body can take a beating; it takes a lot before you're willing to throw in the towel. You gain the following benefits:"
 					],
 					"type":"entries"
 				},
