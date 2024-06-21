@@ -286,7 +286,7 @@
 			"entries": [
 				{
 					"entries": [
-						"You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:"
+						"You master the {@item handaxe}, {@item battleaxe}, {@item greataxe}, {@item warhammer}, and {@item maul}. You gain the following benefits when using any of them:"
 					],
 					"type": "entries"
 				},
