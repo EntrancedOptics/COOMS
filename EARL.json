@@ -2050,7 +2050,7 @@
 			"speed": 30,
 			"age": {
 				"mature": 20,
-				"max": 100
+				"max": 2000
 			},
 			"ability": [
 				{
@@ -2232,6 +2232,182 @@
 				"heightMod": "2d10",
 				"baseWeight": 110,
 				"weightMod": "2d4"
+			}
+		},
+		{
+			"name": "Human (Giantblood)",
+			"source": "EntrancedRaces",
+			"page": 47,
+			"reprintedAs": [
+				"Human (Giantblood)|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 200
+			},
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Language Proficiency",
+				"Powerful Build",
+				"Spellcasting",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"You tend to age slower than a regular human, though you still mature at the same rate. Your life expectancy can easily exceed 200 years, or even up to triple that depending on the Giant's Blood flowing through your veins."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Giant's Blood humans tend to be taller and sometimes wider than regular humans. They range from 6.5 to 8 feet tall in adulthood."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Human Versatility",
+					"entries": [
+						"You may choose either an additional proficiency in a tool or the ability to speak an additional language."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Titan's Body",
+					"entries": [
+						"You have proficiency in {@skill Athletics}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Giant's Blood",
+					"entries": [
+						"You have the blood of a giant flowing through your veins, touched by the primordials that once ruled the prime material plane. This can be from heritage or from more nefarious means. Regardless, this manifests in many different ways, from differing hair and eye color to a series of intricate birthmarks that decorate your skin like a prideful tattoo.",
+						"You also gain a bonus proficiency and a spell you can cast innately a number of times per long rest equal to your proficiency bonus using Constitution as your spellcasting modifier based on the origin of your Giant's Blood, as described below in the following table:"
+					]
+				},
+				{
+							"type": "table",
+							"caption": "Giant's Blood",
+							"colLabels": [
+								"Giant",
+								"Innate Spellcasting",
+								"Bonus Proficiency"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Cloud",
+									"{@spell Fog Cloud|phb}",
+									"{@skill Insight}"
+								],
+								[
+									"Ettin",
+									"{@spell Sudden Awakening|cooms}",
+									"{@skill Perception}"
+								],
+								[
+									"Fire",
+									"{@spell Searing Smite|phb}",
+									"{@item smith's tools|phb|Smith's Tools}"
+								],
+								[
+									"Fog",
+									"{@spell Zephyr Strike|xge}",
+									"{@skill Stealth}"
+								],
+								[
+									"Hill",
+									"{@spell Longstrider|phb}",
+									"{@skill Animal Handling}"
+								],
+								[
+									"Mountain",
+									"{@spell Wrathful Smite|phb}",
+									"{@skill Intimidation}"
+								],
+								[
+									"Stone",
+									"{@spell Thunderous Smite|phb}",
+									"{@item mason's tools|phb|Mason's Tools}"
+								],
+								[
+									"Storm",
+									"{@spell Thunderwave|phb}",
+									"{@skill Arcana}"
+								],
+								[
+									"Titan",
+									"{@spell Enlarge/Reduce|phb|Enlarge}",
+									"{@skill History}"
+								]
+							]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Giant."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 74,
+				"heightMod": "2d10",
+				"baseWeight": 180,
+				"weightMod": "2d6"
 			}
 		}
 	],
