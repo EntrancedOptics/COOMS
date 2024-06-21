@@ -1673,6 +1673,289 @@
 				"baseWeight": 140,
 				"weightMod": "2d6"
 			}
+		},
+		{
+			"name": "Half-Tabaxi",
+			"source": "EntrancedRaces",
+			"page": 43,
+			"reprintedAs": [
+				"Half-Tabaxi|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Natural Weapon",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": {
+						"from": [
+							"dwarvish",
+							"elvish",
+							"giant",
+							"gnomish",
+							"halfling",
+							"orc",
+							"abyssal",
+							"celestial",
+							"draconic",
+							"deep speech",
+							"infernal",
+							"primordial",
+							"sylvan",
+							"undercommon"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"perception",
+							"persuasion",
+							"performance",
+							"stealth"
+						],
+						"count": 3
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Tabaxi age and mature at the same rate as humans."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Tabaxi are 5-7 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Top Cat",
+					"entries": [
+						"Your natural popularity mixes well with your feline instincts. You gain proficiency in three of the following skills: {@skill Deception}, {@skill Perception}, {@skill Persuasion}, {@skill Performance}, or {@skill Stealth}."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Feline Agility.} Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
+						"{@b Cat’s Claws.} Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 58,
+				"heightMod": "2d10",
+				"baseWeight": 140,
+				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "EntrancedRaces",
+			"page": 44,
+			"reprintedAs": [
+				"Hobgoblin|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"con": 2,
+					"int": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Weapon Proficiency",
+				"Armor Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true
+				}
+			],
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"battleaxe",
+							"blowgun",
+							"flail",
+							"glaive",
+							"greataxe",
+							"greatsword",
+							"halberd",
+							"hand crossbow",
+							"heavy crossbow",
+							"lance",
+							"longbow",
+							"longsword",
+							"maul",
+							"morningstar",
+							"net",
+							"pike",
+							"rapier",
+							"scimitar",
+							"trident",
+							"war pick",
+							"warhammer",
+							"whip"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Hobgoblins are between 5 and 6 feet tall and weigh between 150 and 200 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Strategists",
+					"entries": [
+						"You are proficient in the {@skill History} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Training",
+					"entries": [
+						"You are proficient with two {@filter Martial Weapons|items|source=phb|category=basic|type=martial weapon} of your choice and with light armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, you can deal extra damage to a creature that you hit with a weapon attack if that creature is within 5 feet of an ally of yourself that isn't incapacitated. The extra damage is a number of d6s equal to their proficiency bonus. You may use this feature a number of times per long rest equal to your Intelligence modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Face",
+					"entries": [
+						"Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Goblin."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
 		}
 	],
 	"subrace": [
