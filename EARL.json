@@ -2019,7 +2019,7 @@
 					"type": "entries",
 					"name": "Curse",
 					"entries": [
-						"For whatever reason, your being is inflicted with a curse. This could be the result of a devil’s contract, some unholy circumstance surrounding your birth, or some other affliction. You and your DM can craft a curse together and make an origin, effects, and any potential benefits that the curse unintentionally brings. Because this curse is intertwined with your very being, much like naturally born lycanthropes, this curse can only be cured with the use of the {@spell Wish|phb} spell."
+						"For whatever reason, your being is inflicted with a curse. This could be the result of a devil's contract, some unholy circumstance surrounding your birth, or some other affliction. You and your DM can craft a curse together and make an origin, effects, and any potential benefits that the curse unintentionally brings. Because this curse is intertwined with your very being, much like naturally born lycanthropes, this curse can only be cured with the use of the {@spell Wish|phb} spell."
 					]
 				},
 				{
@@ -2027,6 +2027,203 @@
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and one other language of your choice."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			}
+		},
+		{
+			"name": "Human (Dragonheart)",
+			"source": "EntrancedRaces",
+			"page": 46,
+			"reprintedAs": [
+				"Human (Dragonheart)|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Language Proficiency",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"You tend to age slower than a regular human, though you still mature at the same rate. Your life expectancy can easily exceed 2,000 years, or even double that depending on the color of your Dragon's Heart."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Human Versatility",
+					"entries": [
+						"You may choose either an additional proficiency in a skill, tool, or the ability to speak an additional language."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Ability",
+					"entries": [
+						"You have proficiency in {@skill Perception}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragon's Heart",
+					"entries": [
+						"You have the heart of a dragon at the core of your being, touched by the ancients that once dominated the prime material plane. This can be from heritage or from more nefarious means. Regardless, this manifests in many different ways, from differing hair and eye color to a series of intricate birthmarks that decorate your skin like a prideful tattoo.",
+						"You also gain damage resistance and a bonus proficiency based on the origin of your Dragon's Heart, as described below in the following table:"
+					]
+				},
+				{
+							"type": "table",
+							"caption": "Draconic Ancestry",
+							"colLabels": [
+								"Dragon",
+								"Damage Type",
+								"Bonus Proficiency"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Amethyst",
+									"Force",
+									"{@skill Arcana}"
+								],
+								[
+									"Black",
+									"Acid",
+									"{@skill Stealth}"
+								],
+								[
+									"Blue",
+									"Lightning",
+									"{@skill Deception}"
+								],
+								[
+									"Brass",
+									"Fire",
+									"{@skill Persuasion}"
+								],
+								[
+									"Bronze",
+									"Lightning",
+									"{@skill Investigation}"
+								],
+								[
+									"Copper",
+									"Acid",
+									"{@skill Performance}"
+								],
+								[
+									"Crystal",
+									"Radiant",
+									"{@skill Survival}"
+								],
+								[
+									"Emerald",
+									"Psychic",
+									"{@skill Sleight of Hand}"
+								],
+								[
+									"Gold",
+									"Fire",
+									"{@skill Insight}"
+								],
+								[
+									"Green",
+									"Poison",
+									"{@skill Acrobatics}"
+								],
+								[
+									"Red",
+									"Fire",
+									"{@skill Athletics}"
+								],
+								[
+									"Sapphire",
+									"Thunder",
+									"{@skill Intimidation}"
+								],
+								[
+									"Silver",
+									"Cold",
+									"{@skill Medicine}"
+								],
+								[
+									"Topaz",
+									"Necrotic",
+									"{@skill Nature}"
+								],
+								[
+									"White",
+									"Cold",
+									"{@skill History}"
+								]
+							]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Draconic."
 					]
 				}
 			],
