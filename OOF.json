@@ -270,7 +270,7 @@
 			"entries":[
 				{
 					"entries": [
-						"You learn more of the magic typical of dark elves. You learn the {@spell detect magic|pbh} spell and can cast it at will, without expending a spell slot. You also learn {@spell levitate|pbh} and {@spell dispel magic|pbh}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Constitution is your spellcasting ability for all three spells"
+						"You learn more of the magic typical of dark elves. You learn the {@spell detect magic|phb} spell and can cast it at will, without expending a spell slot. You also learn {@spell levitate|phb} and {@spell dispel magic|phb}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Constitution is your spellcasting ability for all three spells"
 					],
 					"type": "entries"
 				}
@@ -357,7 +357,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn to speak, read, and write Sylvan. If you already know the language, you may learn a different one instead.",
+						"You learn to speak, read, and write @{language Sylvan}. If you already know the language, you may learn a different one instead.",
 						"You learn the {@spell misty step|phb} spell and can cast it once without expending a spell slot or its verbal component. You regain the ability to cast it in this way when you finish a short or long rest. Constitution is your spellcasting ability for this spell."
 					]
 				}
@@ -400,7 +400,7 @@
 				{
 					"entries": [
 						"Your exposure to the Feywild's magic has changed you, granting you the following benefits:",
-						"You learn the {@spell misty step|pbh} spell and one {@filter 1st-level spell|spells|level=1|school=D;E} of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot or its somatic and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
+						"You learn the {@spell misty step|phb} spell and one {@filter 1st-level spell|spells|level=1|school=D;E} of your choice. The 1st-level spell must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot or its somatic and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
 					],
 					"type": "entries"
 				}
