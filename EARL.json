@@ -529,7 +529,7 @@
 				"Uncommon Race"
 			],
 			"creatureTypes": [
-				"Elemental"
+				"elemental"
 			],
 			"languageProficiencies": [
 				{
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"creatureTypes": [
-				"Dragon"
+				"dragon"
 			],
 			"entries": [
 				{
@@ -1248,7 +1248,7 @@
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"Half-Goblins are between 3½  and 4½ feet tall and weigh between 60 and 100 pounds. Your size is Small. The only noticeable difference between half-goblins and goblins is their ears are short, but still pointed, and their eye colors are human colors."
+						"Half-Goblins are between 3.5  and 4.5 feet tall and weigh between 60 and 100 pounds. Your size is Small. The only noticeable difference between half-goblins and goblins is their ears are short, but still pointed, and their eye colors are human colors."
 					]
 				},
 				{
@@ -1279,7 +1279,7 @@
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Fury of the Small.} When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
-						"{@b Nimble Escape.} You can take the Disengage or Hide action as a bonus action on each of your turns."
+						"{@b Nimble Escape.} You can take the {@action Disengage|phb} or {@action Hide|phb} action as a bonus action on each of your turns."
 					]
 				},
 				{
@@ -1287,6 +1287,666 @@
 					"name": "Languages",
 					"entries": [
 						"You can understand and speak Common and Goblin."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Half-Harengon",
+			"source": "EntrancedRaces",
+			"page": 41,
+			"reprintedAs": [
+				"Half-Harengon|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": {
+						"from": [
+							"dwarvish",
+							"elvish",
+							"giant",
+							"gnomish",
+							"halfling",
+							"orc",
+							"abyssal",
+							"celestial",
+							"draconic",
+							"deep speech",
+							"infernal",
+							"primordial",
+							"sylvan",
+							"undercommon"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"persuasion",
+							"performance",
+							"perception"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Harengon age and mature at the same rate as humans."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Harengon are 4-6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Naturally Cute",
+					"entries": [
+						"You gain proficiency in one of the following skills: {@skill Persuasion}, {@skill Performance}, or {@skill Perception}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innocent Look",
+					"entries": [
+						"When you fail a {@skill Deception}, {@skill Persuasion}, or {@skill Performance} check, you may use this feature to reroll the {@dice d20}, potentially resulting in a success. You may use this feature a number of times per long rest equal to your Charisma modifier (minimum of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hare-Trigger",
+					"entries": [
+						"You can add your proficiency bonus to your initiative rolls."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Lucky Footwork.} When you fail a Dexterity saving throw, you can use your reaction to roll a {@dice d4} and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're {@condition prone|phb} or your speed is 0.",
+						"{@b Rabbit Hop.} As a bonus action, you can jump a number of feet equal to five times your Dexterity modifier (minimum of 10 feet), without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Half-Hobgoblin",
+			"source": "EntrancedRaces",
+			"page": 41,
+			"reprintedAs": [
+				"Half-Hobgoblin|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"int": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Weapon Proficiency",
+				"Armor Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Hobgoblins are between 5 and 6 feet tall and weigh between 100 and 200 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Strategists",
+					"entries": [
+						"You are proficient in the {@skill History} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, you can deal extra damage to a creature that you hit with a weapon attack if that creature is within 5 feet of an ally of yourself that isn't incapacitated. The extra damage is a number of d6s equal to their proficiency bonus. You may use this feature a number of times per long rest equal to your Intelligence modifier."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Martial Training.} You are proficient with two {@filter Martial Weapons|items|source=phb|category=basic|type=martial weapon} of your choice and with light armor.",
+						"{@b Saving Face.} Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Goblin."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Half-Orc",
+			"source": "EntrancedRaces",
+			"page": 42,
+			"reprintedAs": [
+				"Half-Orc|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 14,
+				"max": 75
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"They are torn between the rage that naturally flows through their veins and the humanity within them. Raised in orc culture, they tend towards chaos and evil. Raised in human culture, they tend towards lawful neutral, or even sometimes good."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Menacing",
+					"entries": [
+						"You gain proficiency in the {@skill Intimidation} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+						"{@b Aggressive.} As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
+						"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 58,
+				"heightMod": "2d10",
+				"baseWeight": 140,
+				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Half-Tabaxi",
+			"source": "EntrancedRaces",
+			"page": 43,
+			"reprintedAs": [
+				"Half-Tabaxi|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Natural Weapon",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": {
+						"from": [
+							"dwarvish",
+							"elvish",
+							"giant",
+							"gnomish",
+							"halfling",
+							"orc",
+							"abyssal",
+							"celestial",
+							"draconic",
+							"deep speech",
+							"infernal",
+							"primordial",
+							"sylvan",
+							"undercommon"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"perception",
+							"persuasion",
+							"performance",
+							"stealth"
+						],
+						"count": 3
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Tabaxi age and mature at the same rate as humans."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Tabaxi are 5-7 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Top Cat",
+					"entries": [
+						"Your natural popularity mixes well with your feline instincts. You gain proficiency in three of the following skills: {@skill Deception}, {@skill Perception}, {@skill Persuasion}, {@skill Performance}, or {@skill Stealth}."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Feline Agility.} Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
+						"{@b Cat’s Claws.} Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 58,
+				"heightMod": "2d10",
+				"baseWeight": 140,
+				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "EntrancedRaces",
+			"page": 44,
+			"reprintedAs": [
+				"Hobgoblin|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"con": 2,
+					"int": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Weapon Proficiency",
+				"Armor Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true
+				}
+			],
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"battleaxe",
+							"blowgun",
+							"flail",
+							"glaive",
+							"greataxe",
+							"greatsword",
+							"halberd",
+							"hand crossbow",
+							"heavy crossbow",
+							"lance",
+							"longbow",
+							"longsword",
+							"maul",
+							"morningstar",
+							"net",
+							"pike",
+							"rapier",
+							"scimitar",
+							"trident",
+							"war pick",
+							"warhammer",
+							"whip"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Hobgoblins are between 5 and 6 feet tall and weigh between 150 and 200 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Strategists",
+					"entries": [
+						"You are proficient in the {@skill History} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Training",
+					"entries": [
+						"You are proficient with two {@filter Martial Weapons|items|source=phb|category=basic|type=martial weapon} of your choice and with light armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, you can deal extra damage to a creature that you hit with a weapon attack if that creature is within 5 feet of an ally of yourself that isn't incapacitated. The extra damage is a number of d6s equal to their proficiency bonus. You may use this feature a number of times per long rest equal to your Intelligence modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Face",
+					"entries": [
+						"Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Goblin."
 					]
 				}
 			],
