@@ -193,7 +193,7 @@
 				{
 					"ability": [
 						{
-							"dex": "13 or higher"
+							"dex": "13"
 						}
 					]
 				}
@@ -477,7 +477,7 @@
 				{
 					"ability":[
 						{
-							"cha": "13 or higher"
+							"cha": "13"
 						}
 					]
 				}
