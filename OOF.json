@@ -309,14 +309,14 @@
 				"Fey Teleportation|OOF"
 			],
 			"prerequisite": [
-				{
-					"race": [
-						{
-							"name": "Elf (high)"
-						}
-					]
-				}
-			],
+                {
+                    "race": [
+                        {
+                            "name": "Elf (high)"
+                        }
+                    ]
+                }
+            ],
 			"ability": [
 				{
 					"choose": {

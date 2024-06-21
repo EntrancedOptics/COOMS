@@ -1334,25 +1334,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"choose": {
-						"from": [
-							"dwarvish",
-							"elvish",
-							"giant",
-							"gnomish",
-							"halfling",
-							"orc",
-							"abyssal",
-							"celestial",
-							"draconic",
-							"deep speech",
-							"infernal",
-							"primordial",
-							"sylvan",
-							"undercommon"
-						],
-						"count": 1
-					}
+					"anyStandard": 1
 				}
 			],
 			"skillProficiencies": [
@@ -1714,25 +1696,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"choose": {
-						"from": [
-							"dwarvish",
-							"elvish",
-							"giant",
-							"gnomish",
-							"halfling",
-							"orc",
-							"abyssal",
-							"celestial",
-							"draconic",
-							"deep speech",
-							"infernal",
-							"primordial",
-							"sylvan",
-							"undercommon"
-						],
-						"count": 1
-					}
+					"anyStandard": 1
 				}
 			],
 			"skillProficiencies": [
@@ -1792,7 +1756,7 @@
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Feline Agility.} Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
-						"{@b Cat’s Claws.} Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"{@b Cat's Claws.} Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 					]
 				},
 				{
@@ -1955,6 +1919,122 @@
 				"heightMod": "2d4",
 				"baseWeight": 35,
 				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Human (Cursevein)",
+			"source": "EntrancedRaces",
+			"page": 45,
+			"reprintedAs": [
+				"Human (Cursevein)|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+						"str",
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+						],
+						"amount": -2
+					},
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2,
+						"amount": -1
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Ability Score Decrease",
+					"entries": [
+						"Decrease an ability score by 2 or two unique ability scores by 1."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Age",
+					"entries": [
+						"You mature at the same rate of a human and age similarly unless your curse interferes with this."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You have a similar height and size of a human, that being 5 to 6 feet and Medium, unless your curse interferes with this."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skills",
+					"entries": [
+						"You gain proficiency in two skills or tools of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"For whatever reason, your being is inflicted with a curse. This could be the result of a devil’s contract, some unholy circumstance surrounding your birth, or some other affliction. You and your DM can craft a curse together and make an origin, effects, and any potential benefits that the curse unintentionally brings. Because this curse is intertwined with your very being, much like naturally born lycanthropes, this curse can only be cured with the use of the {@spell Wish|phb} spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
 			}
 		}
 	],
@@ -3464,29 +3544,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"choose": {
-						"from": [
-							"acrobatics",
-							"animal handling",
-							"arcana",
-							"athletics",
-							"deception",
-							"history",
-							"insight",
-							"intimidation",
-							"investigation",
-							"medicine",
-							"nature",
-							"perception",
-							"perfromance",
-							"persuasion",
-							"religion",
-							"sleight of hand",
-							"stealth",
-							"survival"
-						],
-						"count": 2
-					}
+					"any": 2
 				}
 			],
 			"entries": [
