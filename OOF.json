@@ -275,7 +275,7 @@
 					"type": "entries"
 				}
 			]
-		},
+		},/*
 		{
 			"name": "Fell Handed",
 			"source": "EntrancedFeats",
@@ -283,7 +283,7 @@
 			"reprintedAs": [
 				"Fell Handed|OOF"
 			],
-			"entries":[
+			"entries": [
 				{
 					"entries": [
 						"You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:"
@@ -300,7 +300,7 @@
 					]
 				}
 			]
-		},
+		},*/
 		{
 			"name": "Fey Teleportation",
 			"source": "EntrancedFeats",
