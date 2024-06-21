@@ -753,6 +753,145 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Synchronized",
+			"source": "EntrancedFeats",
+			"page": 8,
+			"reprintedAs":[
+				"Syncronized|OOF"
+			],
+			"entries":[
+				{
+					"entries":[
+						"You achieve a profound connection with The Weave, allowing you to further understand your own spellcasting as well as connect with any magical items you may come across. Your maximum attuned items increases by an amount equal to half your proficiency bonus (rounded down). Additionally, choose one of the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"If you are a prepared caster, your maximum prepared spells increases by an amount equal to your proficiency bonus.",
+						"If you are a spontaneous caster, you learn an amount of spells equal to half your proficiency bonus (rounded down) from your class’ spell list. If you are multiclassed, you may only pick spells from the classes in which you spontaneously cast.",
+						"You learn either the {@spell Magic Dagger|cooms}, {@spell Magic Dart|cooms}, or {@spell Prestidigitation|cooms} cantrip."
+					]
+				}
+			]
+		},
+		{
+			"name": "Thrown Weapon Master",
+			"source": "EntrancedFeats",
+			"page": 8,
+			"reprintedAs":[
+				"Thrown Weapon Master|OOF"
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have mastered the art of throwing weapons while fighting, causing your hands to be quick when it comes to equipping and aiming a weapon."
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"Weapons with the thrown property have their normal range extended to their maximum range for you.",
+						"Weapons are a lot harder to lose than ammunition, and you’ve learned to keep a keen eye out for weapons you throw. When you attack using a weapon with the thrown property and miss, the weapon becomes a physical object on the map that can be picked up or interacted with. Thrown weapons that hit are instead always able to be looted off of the enemy that you hit them with.",
+						"Because you are so accustomed to swapping held items constantly, you have learned how to keep weapons on your person ready to be used. You can draw items into your hands or stow items onto your person as a free action during your turn up to a number of times equal to your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tough",
+			"source": "EntrancedFeats",
+			"page": 8,
+			"reprintedAs":[
+				"Tough|OOF"
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your body can take a beating; it takes a lot before you’re willing to throw in the towel. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "War Caster",
+			"source": "EntrancedFeats",
+			"page": 9,
+			"reprintedAs":[
+				"War Caster|OOF"
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You have advantage on Constitution saving throws that you make to maintain your concentration on a spell when you take damage.",
+						"You can perform somatic components with non-focus weapons or shields in hand as well.",
+						"When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wood Elf Magic",
+			"source": "EntrancedFeats",
+			"page": 9,
+			"reprintedAs":[
+				"Wood Elf Magic|OOF"
+			],
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name":"Elf (wood)"
+						}
+					]
+				}
+			],
+			"additionalSpells":[
+				{
+					"innate": {
+						"daily": {
+						"1": [
+							"longstrider",
+							"pass without a trace"
+						]
+					},
+					"ability": [
+						"con"
+					]
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the {@spell longstrider|phb} and {@spell pass without trace|phb} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Constitution is your spellcasting ability for all three spells."
+					]
+				}
+			]
+
 		}
 	]
 }
