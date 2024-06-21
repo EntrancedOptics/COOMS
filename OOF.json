@@ -569,7 +569,11 @@
 			],
 			"prerequisite":[
 				{
-					"armor": "medium"
+					"proficiency":[
+						{
+							"armor":"medium"
+						}
+					]
 				}
 			],
 			"entries":[
