@@ -48,7 +48,7 @@
 					"items": [
 						"You gain proficiency with {@item alchemist's supplies|phb}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
 						"As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
-						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a potion of healing, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have {@item alchemist's supplies|phb} with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a {@item potion of healing}, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have {@item alchemist's supplies|phb} with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
 					]
 				}
 			]
@@ -146,7 +146,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with @{item thieves' tools}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"You gain proficiency with {@item thieves' tools}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
 						"You can pick up items as a bonus action."
 					]
 				}
@@ -357,7 +357,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn to speak, read, and write @{language Sylvan}. If you already know the language, you may learn a different one instead.",
+						"You learn to speak, read, and write {@language Sylvan}. If you already know the language, you may learn a different one instead.",
 						"You learn the {@spell misty step|phb} spell and can cast it once without expending a spell slot or its verbal component. You regain the ability to cast it in this way when you finish a short or long rest. Constitution is your spellcasting ability for this spell."
 					]
 				}
