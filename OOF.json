@@ -225,7 +225,7 @@
 					"type":"list",
 					"items":[
 						"While wielding a weapon with the Double property, you gain +1 AC.",
-						"When you attack using a weapon with the Double property, you can make the weapon’s secondary attack for free as a part of the attack that you make instead of doing so as a bonus action. You may not attack using the weapon’s secondary attack more than once per turn.",
+						"When you attack using a weapon with the Double property, you can make the weapon's secondary attack for free as a part of the attack that you make instead of doing so as a bonus action. You may not attack using the weapon's secondary attack more than once per turn.",
 						"If you hit a pair of creatures flanking you using a weapon with the Double property in one turn, they do not gain the benefits of flanking you until the start of your next turn."
 					]
 				}
