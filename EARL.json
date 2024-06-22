@@ -1966,7 +1966,8 @@
 			"traitTags": [
 				"Skill Proficiency",
 				"Tool Proficiency",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Uncommon Race"
 			],
 			"languageProficiencies": [
 				{
@@ -2408,6 +2409,176 @@
 				"heightMod": "2d10",
 				"baseWeight": 180,
 				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Kitsune",
+			"source": "EntrancedRaces",
+			"page": 48,
+			"reprintedAs": [
+				"Kitsune|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"int": 2,
+					"dex": 1
+				}
+			],
+			"age": {
+				"mature": 100,
+				"max": 750
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Natural Weapon",
+				"Spellcasting",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"deception",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"minor illusion#c"
+						]
+					},
+					"ability": [
+						"con"
+					]
+				},
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+							"charm person"
+							]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"suggestion"
+								]
+							}
+						}
+					},
+					"ability": [
+						"con"
+					]
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Kitsunes have a similar lifespan to elves."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kitsune are between 4 to 5 feet tall and weigh around 100 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Due to hunting at night you have superior vision in the dark. You can see dim light within 60 feet of you as bright light and in darkness as if it was in dim light. You can't discern color in darkness, only shades of grey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kitsune Shapeshift",
+					"entries": [
+						"As an action, you can assume the appearance of a single specific human form of the same sex that always remains consistent with every use of this ability. In order for anyone to see your true nature, they have to succeed on an {@skill Investigation} check against your {@skill Deception} check, as you still need to hide your ears and tail. This change ends if you reach 0 hp or if you use an action to revert to your normal form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tails",
+					"entries": [
+						"You have a number of tails equal to the highest level spell you can cast (minimum of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trickster Spirit",
+					"entries": [
+						"You gain proficiency in {@skill Acrobatics}, {@skill Deception}, {@skill Sleight of Hand}, or {@skill Stealth}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kitsune Magic",
+					"entries": [
+						"You know the {@spell Minor Illusion|phb} cantrip. When you reach 3rd level, you can cast the {@spell Charm Person|phb} spell once with this trait; you gain the ability to cast it again when you finish a long rest. When you reach 5th level, you can also cast the {@spell Suggestion|phb} spell once with this trait; you gain the ability to cast it again when you finish a long rest. Constitution is the spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"You may sprout claws in your natural form or your humanoid form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"Kitsunes can speak Common and Sylvan."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 46,
+				"heightMod": "2d6",
+				"baseWeight": 85,
+				"weightMod": "1d4"
 			}
 		}
 	],
