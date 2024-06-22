@@ -2580,6 +2580,165 @@
 				"baseWeight": 85,
 				"weightMod": "1d4"
 			}
+		},
+		{
+			"name": "Kobold",
+			"source": "EntrancedRaces",
+			"page": 49,
+			"reprintedAs": [
+				"Kobold|EARL"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"dex": 2,
+					"int": 1
+				}
+			],
+			"age": {
+				"mature": 6,
+				"max": 1000
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Sunlight Sensitivity"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"creatureTypes": [
+				"dragon"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"history",
+							"investigation",
+							"nature",
+							"religion",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Kobolds reach adulthood at age 6 and can live up to 1,000 years but rarely do so. However, those lucky few metamorphosize into a dragon wyrmling based on their color, and begin a dragon's life cycle. This transformation is divine in nature, and normally is accomplished by gaining favor from Bahamut or Tiamat to be worthy of status as a dragon. "
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Kobolds tend to be fairly disorganized by themselves, hence why they gravitate towards dragons as figures of authority and protection. This desire for strong leadership makes them tend towards lawful good, neutral, or evil depending upon the dragon they follow."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"Because their patron deity has been trapped in a labyrinth for centuries, kobolds have deteriorated in consistent form, allowing them to come in many different shapes and designs; though their coloring is always based on a dragon's coloring, typically being the same as the one they follow."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kobolds are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Naturally Curious",
+					"entries": [
+						"You are proficient in one of the following skills: {@skill Animal Handling}, {@skill History}, {@skill Investigation}, {@skill Nature}, {@skill Religion}, {@skill Sleight of Hand}, or {@skill Stealth}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Talented Miner",
+					"entries": [
+						"You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Makeshift Cunning",
+					"entries": [
+						"Kobolds excel at making the most out of what limited resources they have, especially in the field of traps. Knowing they are outmatched in terms of power, most kobolds use their creativity to get the upper hand in combat. Unless forced, most kobolds prefer to flee towards a trap they've set to get an edge in a fight rather than fighting directly. By spending an hour gathering resources from your backpack and surroundings, you are able to make a rudimentary trap, tool, weapon, or piece of armor that only you are able to use, as others can't make sense of how it functions in the way you intend. For example, a kobold might jam a kitchen knife through a plank of wood to make a rudimentary war pick for themselves, or tie kitchenware to their body to simulate a breastplate. You can have a number of functional traps and items created with this feature equal to your Intelligence modifier (minimum of 1). If you create something new with this feature while at capacity, your oldest created item or trap breaks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grovel, Cower, and Beg",
+					"entries": [
+						"As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that you can see. Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a dragon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common and Draconic."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 25,
+				"heightMod": "2d4",
+				"baseWeight": 25,
+				"weightMod": "1"
+			}
 		}
 	],
 	"subrace": [
