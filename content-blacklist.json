@@ -106,6 +106,18 @@
     },
     {
       "category": "background",
+      "displayName": "Giant Foundling",
+      "hash": "giant%20foundling_bgg",
+      "source": "BGG"
+    },
+    {
+      "category": "background",
+      "displayName": "Rune Carver",
+      "hash": "rune%20carver_bgg",
+      "source": "BGG"
+    },
+    {
+      "category": "background",
       "displayName": "Rewarded",
       "hash": "rewarded_bmt",
       "source": "BMT"
@@ -126,6 +138,60 @@
       "category": "background",
       "displayName": "Mage of High Sorcery",
       "hash": "mage%20of%20high%20sorcery_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Adept of the Black Robes",
+      "hash": "adept%20of%20the%20black%20robes_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Adept of the Red Robes",
+      "hash": "adept%20of%20the%20red%20robes_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Adept of the White Robes",
+      "hash": "adept%20of%20the%20white%20robes_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Divinely Favored",
+      "hash": "divinely%20favored_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Initiate of High Sorcery",
+      "hash": "initiate%20of%20high%20sorcery_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Knight of the Crown",
+      "hash": "knight%20of%20the%20crown_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Knight of the Rose",
+      "hash": "knight%20of%20the%20rose_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Knight of the Sword",
+      "hash": "knight%20of%20the%20sword_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "feat",
+      "displayName": "Squire of Solamnia",
+      "hash": "squire%20of%20solamnia_dsotdq",
       "source": "DSotDQ"
     },
     {
@@ -501,6 +567,30 @@
       "source": "PHB"
     },
     {
+      "category": "feat",
+      "displayName": "Athlete",
+      "hash": "athlete_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Crossbow Expert",
+      "hash": "crossbow%20expert_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Defensive Duelist",
+      "hash": "defensive%20duelist_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Healer",
+      "hash": "healer_phb",
+      "source": "PHB"
+    },
+    {
       "category": "race",
       "displayName": "Dragonborn",
       "hash": "dragonborn_phb",
@@ -753,6 +843,18 @@
       "source": "SCC"
     },
     {
+      "category": "feat",
+      "displayName": "Strixhaven Initiate",
+      "hash": "strixhaven%20initiate_scc",
+      "source": "SCC"
+    },
+    {
+      "category": "feat",
+      "displayName": "Strixhaven Mascot",
+      "hash": "strixhaven%20mascot_scc",
+      "source": "SCC"
+    },
+    {
       "displayName": "Silvery Barbs",
       "hash": "silvery%20barbs_scc",
       "category": "spell",
@@ -775,6 +877,18 @@
       "displayName": "Planar Philosopher",
       "hash": "planar%20philosopher_sato",
       "source": "SatO"
+    },
+    {
+      "category": "feat",
+      "displayName": "Fey Touched",
+      "hash": "fey%20touched_tce",
+      "source": "TCE"
+    },
+    {
+      "category": "feat",
+      "displayName": "Gunner",
+      "hash": "gunner_tce",
+      "source": "TCE"
     },
     {
       "category": "race",
@@ -831,6 +945,24 @@
       "source": "TDCSR"
     },
     {
+      "category": "feat",
+      "displayName": "Alchemist",
+      "hash": "alchemist_uafeats",
+      "source": "UAFeats"
+    },
+    {
+      "category": "feat",
+      "displayName": "Burglar",
+      "hash": "burglar_uafeats",
+      "source": "UAFeats"
+    },
+    {
+      "category": "feat",
+      "displayName": "Fell Handed",
+      "hash": "fell%20handed_uafeats",
+      "source": "UAFeats"
+    },
+    {
       "category": "race",
       "displayName": "Bugbear",
       "hash": "bugbear_vgm",
@@ -877,6 +1009,24 @@
       "displayName": "Reborn",
       "hash": "reborn_vrgr",
       "source": "VRGR"
+    },
+    {
+      "category": "feat",
+      "displayName": "Bountiful Luck",
+      "hash": "bountiful%20luck_xge",
+      "source": "XGE"
+    },
+    {
+      "category": "feat",
+      "displayName": "Drow High Magic",
+      "hash": "drow%20high%20magic_xge",
+      "source": "XGE"
+    },
+    {
+      "category": "feat",
+      "displayName": "Fey Teleportation",
+      "hash": "fey%20teleportation_xge",
+      "source": "XGE"
     },
     {
       "displayName": "Aganazzar's Scorcher",

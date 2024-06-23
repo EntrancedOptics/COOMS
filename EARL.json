@@ -529,7 +529,7 @@
 				"Uncommon Race"
 			],
 			"creatureTypes": [
-				"Elemental"
+				"elemental"
 			],
 			"languageProficiencies": [
 				{
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"creatureTypes": [
-				"Dragon"
+				"dragon"
 			],
 			"entries": [
 				{
@@ -1248,7 +1248,7 @@
 					"type": "entries",
 					"name": "Size",
 					"entries": [
-						"Half-Goblins are between 3½  and 4½ feet tall and weigh between 60 and 100 pounds. Your size is Small. The only noticeable difference between half-goblins and goblins is their ears are short, but still pointed, and their eye colors are human colors."
+						"Half-Goblins are between 3.5  and 4.5 feet tall and weigh between 60 and 100 pounds. Your size is Small. The only noticeable difference between half-goblins and goblins is their ears are short, but still pointed, and their eye colors are human colors."
 					]
 				},
 				{
@@ -1279,7 +1279,7 @@
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Fury of the Small.} When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
-						"{@b Nimble Escape.} You can take the Disengage or Hide action as a bonus action on each of your turns."
+						"{@b Nimble Escape.} You can take the {@action Disengage|phb} or {@action Hide|phb} action as a bonus action on each of your turns."
 					]
 				},
 				{
@@ -1294,6 +1294,1449 @@
 				"baseHeight": 41,
 				"heightMod": "2d4",
 				"baseWeight": 35,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Half-Harengon",
+			"source": "EntrancedRaces",
+			"page": 41,
+			"reprintedAs": [
+				"Half-Harengon|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"persuasion",
+							"performance",
+							"perception"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Harengon age and mature at the same rate as humans."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Harengon are 4-6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Naturally Cute",
+					"entries": [
+						"You gain proficiency in one of the following skills: {@skill Persuasion}, {@skill Performance}, or {@skill Perception}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Innocent Look",
+					"entries": [
+						"When you fail a {@skill Deception}, {@skill Persuasion}, or {@skill Performance} check, you may use this feature to reroll the {@dice d20}, potentially resulting in a success. You may use this feature a number of times per long rest equal to your Charisma modifier (minimum of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hare-Trigger",
+					"entries": [
+						"You can add your proficiency bonus to your initiative rolls."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Lucky Footwork.} When you fail a Dexterity saving throw, you can use your reaction to roll a {@dice d4} and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're {@condition prone|phb} or your speed is 0.",
+						"{@b Rabbit Hop.} As a bonus action, you can jump a number of feet equal to five times your Dexterity modifier (minimum of 10 feet), without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Half-Hobgoblin",
+			"source": "EntrancedRaces",
+			"page": 41,
+			"reprintedAs": [
+				"Half-Hobgoblin|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"int": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Weapon Proficiency",
+				"Armor Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Hobgoblins are between 5 and 6 feet tall and weigh between 100 and 200 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Strategists",
+					"entries": [
+						"You are proficient in the {@skill History} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, you can deal extra damage to a creature that you hit with a weapon attack if that creature is within 5 feet of an ally of yourself that isn't incapacitated. The extra damage is a number of d6s equal to their proficiency bonus. You may use this feature a number of times per long rest equal to your Intelligence modifier."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Martial Training.} You are proficient with two {@filter Martial Weapons|items|source=phb|category=basic|type=martial weapon} of your choice and with light armor.",
+						"{@b Saving Face.} Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Goblin."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Half-Orc",
+			"source": "EntrancedRaces",
+			"page": 42,
+			"reprintedAs": [
+				"Half-Orc|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 14,
+				"max": 75
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"They are torn between the rage that naturally flows through their veins and the humanity within them. Raised in orc culture, they tend towards chaos and evil. Raised in human culture, they tend towards lawful neutral, or even sometimes good."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Menacing",
+					"entries": [
+						"You gain proficiency in the {@skill Intimidation} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
+						"{@b Aggressive.} As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
+						"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Orc. Orc is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 58,
+				"heightMod": "2d10",
+				"baseWeight": 140,
+				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Half-Tabaxi",
+			"source": "EntrancedRaces",
+			"page": 43,
+			"reprintedAs": [
+				"Half-Tabaxi|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Natural Weapon",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"perception",
+							"persuasion",
+							"performance",
+							"stealth"
+						],
+						"count": 3
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-Tabaxi age and mature at the same rate as humans."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Tabaxi are 5-7 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Top Cat",
+					"entries": [
+						"Your natural popularity mixes well with your feline instincts. You gain proficiency in three of the following skills: {@skill Deception}, {@skill Perception}, {@skill Persuasion}, {@skill Performance}, or {@skill Stealth}."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Feline Agility.} Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.",
+						"{@b Cat's Claws.} Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 58,
+				"heightMod": "2d10",
+				"baseWeight": 140,
+				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Hobgoblin",
+			"source": "EntrancedRaces",
+			"page": 44,
+			"reprintedAs": [
+				"Hobgoblin|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"con": 2,
+					"int": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Weapon Proficiency",
+				"Armor Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"history": true
+				}
+			],
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"battleaxe",
+							"blowgun",
+							"flail",
+							"glaive",
+							"greataxe",
+							"greatsword",
+							"halberd",
+							"hand crossbow",
+							"heavy crossbow",
+							"lance",
+							"longbow",
+							"longsword",
+							"maul",
+							"morningstar",
+							"net",
+							"pike",
+							"rapier",
+							"scimitar",
+							"trident",
+							"war pick",
+							"warhammer",
+							"whip"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Hobgoblins mature at the same rate as humans and have lifespans similar in length to theirs."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Hobgoblins are between 5 and 6 feet tall and weigh between 150 and 200 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Strategists",
+					"entries": [
+						"You are proficient in the {@skill History} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Training",
+					"entries": [
+						"You are proficient with two {@filter Martial Weapons|items|source=phb|category=basic|type=martial weapon} of your choice and with light armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Advantage",
+					"entries": [
+						"Once per turn, you can deal extra damage to a creature that you hit with a weapon attack if that creature is within 5 feet of an ally of yourself that isn't incapacitated. The extra damage is a number of d6s equal to their proficiency bonus. You may use this feature a number of times per long rest equal to your Intelligence modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Saving Face",
+					"entries": [
+						"Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Goblin."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 41,
+				"heightMod": "2d4",
+				"baseWeight": 35,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Human (Cursevein)",
+			"source": "EntrancedRaces",
+			"page": 45,
+			"reprintedAs": [
+				"Human (Cursevein)|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+						"str",
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+						],
+						"amount": -2
+					},
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2,
+						"amount": -1
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Language Proficiency",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Ability Score Decrease",
+					"entries": [
+						"Decrease an ability score by 2 or two unique ability scores by 1."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Age",
+					"entries": [
+						"You mature at the same rate of a human and age similarly unless your curse interferes with this."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You have a similar height and size of a human, that being 5 to 6 feet and Medium, unless your curse interferes with this."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skills",
+					"entries": [
+						"You gain proficiency in two skills or tools of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Curse",
+					"entries": [
+						"For whatever reason, your being is inflicted with a curse. This could be the result of a devil's contract, some unholy circumstance surrounding your birth, or some other affliction. You and your DM can craft a curse together and make an origin, effects, and any potential benefits that the curse unintentionally brings. Because this curse is intertwined with your very being, much like naturally born lycanthropes, this curse can only be cured with the use of the {@spell Wish|phb} spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and one other language of your choice."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			}
+		},
+		{
+			"name": "Human (Dragonheart)",
+			"source": "EntrancedRaces",
+			"page": 46,
+			"reprintedAs": [
+				"Human (Dragonheart)|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 2000
+			},
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Language Proficiency",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"You tend to age slower than a regular human, though you still mature at the same rate. Your life expectancy can easily exceed 2,000 years, or even double that depending on the color of your Dragon's Heart."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Human Versatility",
+					"entries": [
+						"You may choose either an additional proficiency in a skill, tool, or the ability to speak an additional language."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Ability",
+					"entries": [
+						"You have proficiency in {@skill Perception}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dragon's Heart",
+					"entries": [
+						"You have the heart of a dragon at the core of your being, touched by the ancients that once dominated the prime material plane. This can be from heritage or from more nefarious means. Regardless, this manifests in many different ways, from differing hair and eye color to a series of intricate birthmarks that decorate your skin like a prideful tattoo.",
+						"You also gain damage resistance and a bonus proficiency based on the origin of your Dragon's Heart, as described below in the following table:"
+					]
+				},
+				{
+							"type": "table",
+							"caption": "Draconic Ancestry",
+							"colLabels": [
+								"Dragon",
+								"Damage Type",
+								"Bonus Proficiency"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Amethyst",
+									"Force",
+									"{@skill Arcana}"
+								],
+								[
+									"Black",
+									"Acid",
+									"{@skill Stealth}"
+								],
+								[
+									"Blue",
+									"Lightning",
+									"{@skill Deception}"
+								],
+								[
+									"Brass",
+									"Fire",
+									"{@skill Persuasion}"
+								],
+								[
+									"Bronze",
+									"Lightning",
+									"{@skill Investigation}"
+								],
+								[
+									"Copper",
+									"Acid",
+									"{@skill Performance}"
+								],
+								[
+									"Crystal",
+									"Radiant",
+									"{@skill Survival}"
+								],
+								[
+									"Emerald",
+									"Psychic",
+									"{@skill Sleight of Hand}"
+								],
+								[
+									"Gold",
+									"Fire",
+									"{@skill Insight}"
+								],
+								[
+									"Green",
+									"Poison",
+									"{@skill Acrobatics}"
+								],
+								[
+									"Red",
+									"Fire",
+									"{@skill Athletics}"
+								],
+								[
+									"Sapphire",
+									"Thunder",
+									"{@skill Intimidation}"
+								],
+								[
+									"Silver",
+									"Cold",
+									"{@skill Medicine}"
+								],
+								[
+									"Topaz",
+									"Necrotic",
+									"{@skill Nature}"
+								],
+								[
+									"White",
+									"Cold",
+									"{@skill History}"
+								]
+							]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Draconic."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			}
+		},
+		{
+			"name": "Human (Giantblood)",
+			"source": "EntrancedRaces",
+			"page": 47,
+			"reprintedAs": [
+				"Human (Giantblood)|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 200
+			},
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency",
+				"Language Proficiency",
+				"Powerful Build",
+				"Spellcasting",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"You tend to age slower than a regular human, though you still mature at the same rate. Your life expectancy can easily exceed 200 years, or even up to triple that depending on the Giant's Blood flowing through your veins."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Giant's Blood humans tend to be taller and sometimes wider than regular humans. They range from 6.5 to 8 feet tall in adulthood."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Human Versatility",
+					"entries": [
+						"You may choose either an additional proficiency in a tool or the ability to speak an additional language."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Titan's Body",
+					"entries": [
+						"You have proficiency in {@skill Athletics}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Giant's Blood",
+					"entries": [
+						"You have the blood of a giant flowing through your veins, touched by the primordials that once ruled the prime material plane. This can be from heritage or from more nefarious means. Regardless, this manifests in many different ways, from differing hair and eye color to a series of intricate birthmarks that decorate your skin like a prideful tattoo.",
+						"You also gain a bonus proficiency and a spell you can cast innately a number of times per long rest equal to your proficiency bonus using Constitution as your spellcasting modifier based on the origin of your Giant's Blood, as described below in the following table:"
+					]
+				},
+				{
+							"type": "table",
+							"caption": "Giant's Blood",
+							"colLabels": [
+								"Giant",
+								"Innate Spellcasting",
+								"Bonus Proficiency"
+							],
+							"colStyles": [
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"Cloud",
+									"{@spell Fog Cloud|phb}",
+									"{@skill Insight}"
+								],
+								[
+									"Ettin",
+									"{@spell Sudden Awakening|cooms}",
+									"{@skill Perception}"
+								],
+								[
+									"Fire",
+									"{@spell Searing Smite|phb}",
+									"{@item smith's tools|phb|Smith's Tools}"
+								],
+								[
+									"Fog",
+									"{@spell Zephyr Strike|xge}",
+									"{@skill Stealth}"
+								],
+								[
+									"Hill",
+									"{@spell Longstrider|phb}",
+									"{@skill Animal Handling}"
+								],
+								[
+									"Mountain",
+									"{@spell Wrathful Smite|phb}",
+									"{@skill Intimidation}"
+								],
+								[
+									"Stone",
+									"{@spell Thunderous Smite|phb}",
+									"{@item mason's tools|phb|Mason's Tools}"
+								],
+								[
+									"Storm",
+									"{@spell Thunderwave|phb}",
+									"{@skill Arcana}"
+								],
+								[
+									"Titan",
+									"{@spell Enlarge/Reduce|phb|Enlarge}",
+									"{@skill History}"
+								]
+							]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Giant."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 74,
+				"heightMod": "2d10",
+				"baseWeight": 180,
+				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Kitsune",
+			"source": "EntrancedRaces",
+			"page": 48,
+			"reprintedAs": [
+				"Kitsune|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"int": 2,
+					"dex": 1
+				}
+			],
+			"age": {
+				"mature": 100,
+				"max": 750
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Natural Weapon",
+				"Spellcasting",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"deception",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"minor illusion#c"
+						]
+					},
+					"ability": [
+						"con"
+					]
+				},
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+							"charm person"
+							]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"suggestion"
+								]
+							}
+						}
+					},
+					"ability": [
+						"con"
+					]
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Kitsunes have a similar lifespan to elves."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kitsune are between 4 to 5 feet tall and weigh around 100 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Due to hunting at night you have superior vision in the dark. You can see dim light within 60 feet of you as bright light and in darkness as if it was in dim light. You can't discern color in darkness, only shades of grey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kitsune Shapeshift",
+					"entries": [
+						"As an action, you can assume the appearance of a single specific human form of the same sex that always remains consistent with every use of this ability. In order for anyone to see your true nature, they have to succeed on an {@skill Investigation} check against your {@skill Deception} check, as you still need to hide your ears and tail. This change ends if you reach 0 hp or if you use an action to revert to your normal form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tails",
+					"entries": [
+						"You have a number of tails equal to the highest level spell you can cast (minimum of 1)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trickster Spirit",
+					"entries": [
+						"You gain proficiency in {@skill Acrobatics}, {@skill Deception}, {@skill Sleight of Hand}, or {@skill Stealth}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kitsune Magic",
+					"entries": [
+						"You know the {@spell Minor Illusion|phb} cantrip. When you reach 3rd level, you can cast the {@spell Charm Person|phb} spell once with this trait; you gain the ability to cast it again when you finish a long rest. When you reach 5th level, you can also cast the {@spell Suggestion|phb} spell once with this trait; you gain the ability to cast it again when you finish a long rest. Constitution is the spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"You may sprout claws in your natural form or your humanoid form."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"Kitsunes can speak Common and Sylvan."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 46,
+				"heightMod": "2d6",
+				"baseWeight": 85,
+				"weightMod": "1d4"
+			}
+		},
+		{
+			"name": "Kobold",
+			"source": "EntrancedRaces",
+			"page": 49,
+			"reprintedAs": [
+				"Kobold|EARL"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"ability": [
+				{
+					"dex": 2,
+					"int": 1
+				}
+			],
+			"age": {
+				"mature": 6,
+				"max": 1000
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Sunlight Sensitivity"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"creatureTypes": [
+				"dragon"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"history",
+							"investigation",
+							"nature",
+							"religion",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Kobolds reach adulthood at age 6 and can live up to 1,000 years but rarely do so. However, those lucky few metamorphosize into a dragon wyrmling based on their color, and begin a dragon's life cycle. This transformation is divine in nature, and normally is accomplished by gaining favor from Bahamut or Tiamat to be worthy of status as a dragon. "
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Kobolds tend to be fairly disorganized by themselves, hence why they gravitate towards dragons as figures of authority and protection. This desire for strong leadership makes them tend towards lawful good, neutral, or evil depending upon the dragon they follow."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"Because their patron deity has been trapped in a labyrinth for centuries, kobolds have deteriorated in consistent form, allowing them to come in many different shapes and designs; though their coloring is always based on a dragon's coloring, typically being the same as the one they follow."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kobolds are between 2 and 3 feet tall and weigh between 25 and 35 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Naturally Curious",
+					"entries": [
+						"You are proficient in one of the following skills: {@skill Animal Handling}, {@skill History}, {@skill Investigation}, {@skill Nature}, {@skill Religion}, {@skill Sleight of Hand}, or {@skill Stealth}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Talented Miner",
+					"entries": [
+						"You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Makeshift Cunning",
+					"entries": [
+						"Kobolds excel at making the most out of what limited resources they have, especially in the field of traps. Knowing they are outmatched in terms of power, most kobolds use their creativity to get the upper hand in combat. Unless forced, most kobolds prefer to flee towards a trap they've set to get an edge in a fight rather than fighting directly. By spending an hour gathering resources from your backpack and surroundings, you are able to make a rudimentary trap, tool, weapon, or piece of armor that only you are able to use, as others can't make sense of how it functions in the way you intend. For example, a kobold might jam a kitchen knife through a plank of wood to make a rudimentary war pick for themselves, or tie kitchenware to their body to simulate a breastplate. You can have a number of functional traps and items created with this feature equal to your Intelligence modifier (minimum of 1). If you create something new with this feature while at capacity, your oldest created item or trap breaks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Grovel, Cower, and Beg",
+					"entries": [
+						"As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that you can see. Once you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a dragon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak Common and Draconic."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 25,
+				"heightMod": "2d4",
+				"baseWeight": 25,
 				"weightMod": "1"
 			}
 		}
@@ -2804,29 +4247,7 @@
 			],
 			"skillProficiencies": [
 				{
-					"choose": {
-						"from": [
-							"acrobatics",
-							"animal handling",
-							"arcana",
-							"athletics",
-							"deception",
-							"history",
-							"insight",
-							"intimidation",
-							"investigation",
-							"medicine",
-							"nature",
-							"perception",
-							"perfromance",
-							"persuasion",
-							"religion",
-							"sleight of hand",
-							"stealth",
-							"survival"
-						],
-						"count": 2
-					}
+					"any": 2
 				}
 			],
 			"entries": [
