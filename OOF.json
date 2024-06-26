@@ -277,6 +277,35 @@
 			]
 		},
 		{
+			"name": "Durable",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"reprintedAs":[
+				"Durable|OOF"
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have gotten quite used to being injured, and pain rarely phases you anymore. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
+						"You have advantage on Constitution saving throws against pain, including holding your breath when taking damage, concentration saves, and spells such as {@spell Power Word Pain|phb}.",
+						"You have advantage on all {@dice d20} rolls for determining the severity of a system shock, lingering injury, or fumble."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fell Handed",
 			"source": "EntrancedFeats",
 			"page": 3,
@@ -736,34 +765,6 @@
 			]
 		},
 		{
-			"name": "Sturdy",
-			"source": "EntrancedFeats",
-			"page": 7,
-			"reprintedAs":[
-				"Sturdy|OOF"
-			],
-			"ability": [
-				{
-					"con": 1
-				}
-			],
-			"entries":[
-				{
-					"entries":[
-						"You have gotten quite used to being injured, and pain rarely phases you anymore. You gain the following benefits:"
-					],
-					"type":"entries"
-				},
-				{
-					"type":"list",
-					"items":[
-						"You have advantage on Constitution saving throws against pain, including holding your breath when taking damage, concentration saves, and spells such as {@spell Power Word Pain|phb}.",
-						"You have advantage on all {@dice d20} rolls for determining the severity of a system shock, lingering injury, or fumble."
-					]
-				}
-			]
-		},
-		{
 			"name": "Synchronized",
 			"source": "EntrancedFeats",
 			"page": 8,
@@ -836,6 +837,18 @@
 						"Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points."
 					]
 				}
+			],
+			"effects": [
+				{
+					"name": "HP Increase",
+					"changes": [
+						{
+							"key": "data.attributes.hp.max",
+							"mode": "ADD",
+							"value": "2 * @details.level"
+						}
+					]
+				}
 			]
 		},
 		{
@@ -901,7 +914,7 @@
 			"entries":[
 				{
 					"entries":[
-						"You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid cantrip of your choice. You also learn the {@spell longstrider|phb} and {@spell pass without trace|phb} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Constitution is your spellcasting ability for all three spells."
+						"You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid {@filter cantrip|spells|level=0|class=druid} of your choice. You also learn the {@spell longstrider|phb} and {@spell pass without trace|phb} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Constitution is your spellcasting ability for all three spells."
 					]
 				}
 			]
