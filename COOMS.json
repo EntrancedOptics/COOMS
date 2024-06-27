@@ -5222,7 +5222,8 @@
 			],
 			"entries": [
 				"You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it. You do not need to see the target, but you must know of their existence. If the creature is within 30 feet of the vine, the creature must succeed on a Strength saving throw or be pulled in a straight line to the closest unoccupied space within 5 feet of the vine and become Restrained. A creature wishing to cut themselves free or untangle themselves from the vine must succeed on an Athletics check against your Spell Save DC to free themselves as an action.",
-				"Until the spell ends, you can use a bonus action to have the vine strike a new target, letting go of any target it is currently holding onto, if any."
+				"Until the spell ends, you can use a bonus action to have the vine strike a new target, letting go of any target it is currently holding onto, if any.",
+				"While the vine is active, it occupies its space but creatures can pass through its space as if it were difficult terrain."
 			],
 			"areaTags": [ "MT" ],
 			"classes": {
