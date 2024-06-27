@@ -2233,9 +2233,9 @@
 			}
 		},
 		{
-			"name": "Demons",
+			"name": "Conjure Lesser Demons",
 			"source": "COOMS",
-			"level": 4,
+			"level": 3,
 			"school": "C",
 			"time": [
 				{
