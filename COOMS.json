@@ -13695,7 +13695,8 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a black pearl"
+				"m": "a black pearl worth 500 gp",
+				"cost": 50000
 			},
 			"duration": [
 				{
