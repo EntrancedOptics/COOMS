@@ -12043,14 +12043,14 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "bonus"
 				}
 			],
 			"range": {
 				"type": "point",
 				"distance": {
 					"type": "feet",
-					"amount": 90
+					"amount": 60
 				}
 			},
 			"components": {
