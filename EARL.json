@@ -2919,6 +2919,92 @@
 				"baseWeight": 25,
 				"weightMod": "1"
 			}
+		},
+		{
+			"name": "Leshy",
+			"source": "EARL",
+			"page": 55,
+			"reprintedAs": [
+				"Leshy|EARL"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"skillProficiencies": [
+				{
+					"nature": true
+				}
+			],
+			"age": {
+				"mature": 6,
+				"max": 1000
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true,
+					"terran": true
+				}
+			],
+			"creatureTypes": [
+				"plant"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Leshies sprout from the ground after a year of being planted, and can walk around freely, but still need to plant themselves into the ground to sleep at night until they are 6 years of age, where they are considered to be ripe, their version of maturity. Leshies can live to be several hundred to a thousand years old depending on species."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Native to forests in the feywild, leshies are little goobers, and they range from 2 to 4 feet tall. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leshy Lore",
+					"entries": [
+						"You deeply understand the natural world and your place within it. You have proficiency in Nature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Plant Nourishment",
+					"entries": [
+						"You gain nourishment in the same way that the plants or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food. If you normally rely on photosynthesis and go without sunlight for 1 week, you begin to starve."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Plant."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Sylvan, and Terran."
+					]
+				}
+			]
 		}
 	],
 	"subrace": [
@@ -4551,6 +4637,202 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Cactus",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 55,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Drought Resistance",
+					"type": "entries",
+					"entries": [
+						"Due to your natural proclivity towards areas with little to no water, you can go up to a month without water. You also take half damage from spells that drain moisture like {@spell Blight|COOMS}."
+					]
+				},
+				{
+					"name": "Spiny",
+					"type": "entries",
+					"entries": [
+						"Spines cover your body. Your unarmed attack deals piercing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. On top of this, anybody who attacks you with an unarmed strike takes {@dice 1d4} piercing damage."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Flytrap",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 56,
+			"ability": [
+				{
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true,
+					"stealth": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Freakish Appearance",
+					"type": "entries",
+					"entries": [
+						"Flytrap Leshies normally hunt in pacts and scare their prey into accidentally scurrying into a trap set by them. You have proficiency in {@skill Intimidation} and {@skill Stealth}."
+					]
+				},
+				{
+					"name": "Acidic Bite",
+					"type": "entries",
+					"entries": [
+						"Your mouth is lined with digestive acids, allowing you to eat even if your teeth aren't too sharp. Your unarmed attack deals acid damage equal to {@dice 1d6} + your Constitution modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Fruit",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 57,
+			"ability": [
+				{
+					"con": 2,
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Spellcasting"
+			],
+			"skillProficiencies": [
+				{
+					"medicine": true,
+					"stealth": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate": {
+						"daily": {
+							"1": [
+								"goodberry"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Reclusive",
+					"type": "entries",
+					"entries": [
+						"Because of the value your body naturally provides as a source of food and curative magics, most Fruit Leshies are recluses, and tend to live in small, hidden communities out of fear of exploitation by outsiders. You gain proficiency in {@skill Medicine} and {@skill Stealth}."
+					]
+				},
+				{
+					"name": "Nourishing",
+					"type": "entries",
+					"entries": [
+						"Your body naturally bears nutritious and flavorful fruit. You can cast {@spell Goodberry|phb} once per long rest innately, using Constitution as your spellcasting ability modifier. Additionally, any creature that eats a majority of your corpse within a tenday of your death absorbs your natural healing and nourishing magic, and gains the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"They regain {@dice 5d8} hit points.",
+								"They lose all tiers of exhaustion currently affecting them.",
+								"One disease or lingering injury affecting the target is immediately cured."
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Fungus",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 58,
+			"ability": [
+				{
+					"wis": 2,
+					"con": 1
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Spellcasting"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"toxic mist"
+								]
+							}
+						},
+						"5": {
+							"lower": {
+								"1": [
+									"toxic mist"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"poison spray#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Sporecasting",
+					"type": "entries",
+					"entries": [
+						"You know the {@spell Poison Spray|phb} cantrip. When you reach 3rd level, you can cast the {@spell Toxic Mist|COOMS} spell once with this trait; you gain the ability to cast it again when you finish a long rest. When you reach 5th level, you regain your ability to cast {@spell Toxic Mist|COOMS} on a short or long rest. Constitution is the spellcasting ability for these spells."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
