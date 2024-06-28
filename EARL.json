@@ -58,6 +58,9 @@
 					"celestial": true
 				}
 			],
+			"creatureTypes": [
+				"celestial"
+			],
 			"resist": [
 				"necrotic",
 				"radiant"
@@ -118,6 +121,13 @@
 						"You know the {@spell light} cantrip. Constitution is your spellcasting ability for it."
 					],
 					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an Celestial."
+					]
 				},
 				{
 					"name": "Languages",
@@ -1148,7 +1158,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Variant Feature (Choose 1):",
 							"items": {
 								"name": "Variant Feature; Skill Versatility",
 								"type": "entries",
@@ -1171,7 +1181,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Variant Feature (Choose 1):",
 							"items": {
 								"name": "Variant Feature; Powerful Build",
 								"type": "entries",
@@ -1188,7 +1198,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1)",
+							"replace": "Variant Feature (Choose 1):",
 							"items": {
 								"name": "Variant Feature; Long-Limbed",
 								"type": "entries",
@@ -2912,6 +2922,81 @@
 		}
 	],
 	"subrace": [
+		{
+			"name": "Fallen",
+			"source": "EARL",
+			"raceName": "Aasimar",
+			"raceSource": "EARL",
+			"page": 1,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Necrotic Shroud",
+					"entries": [
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened} of you until the end of your next turn.",
+						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Protector",
+			"source": "EARL",
+			"raceName": "Aasimar",
+			"raceSource": "EARL",
+			"page": 2,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Radiant Soul",
+					"entries": [
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.",
+						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Scourge",
+			"source": "EARL",
+			"raceName": "Aasimar",
+			"raceSource": "EARL",
+			"page": 2,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Radiant Consumption",
+					"entries": [
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
+						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
 		{
 			"name": "Chromatic",
 			"source": "EntrancedRaces",
