@@ -1129,7 +1129,7 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1):",
+					"name": "Variant Feature (Choose 1)",
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
@@ -1158,7 +1158,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1):",
+							"replace": "Variant Feature (Choose 1)",
 							"items": {
 								"name": "Variant Feature; Skill Versatility",
 								"type": "entries",
@@ -1181,7 +1181,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1):",
+							"replace": "Variant Feature (Choose 1)",
 							"items": {
 								"name": "Variant Feature; Powerful Build",
 								"type": "entries",
@@ -1198,7 +1198,7 @@
 					"_mod": {
 						"entries": {
 							"mode": "replaceArr",
-							"replace": "Variant Feature (Choose 1):",
+							"replace": "Variant Feature (Choose 1)",
 							"items": {
 								"name": "Variant Feature; Long-Limbed",
 								"type": "entries",
