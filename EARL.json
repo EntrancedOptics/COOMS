@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "EntrancedRaces",
+				"json": "EARL",
 				"abbreviation": "EARL",
 				"full": "Entranced's Added Race List",
 				"authors": [
@@ -21,7 +21,7 @@
 	"race": [
 		{
 			"name": "Aasimar",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 1,
 			"otherSources": [
 				{
@@ -142,7 +142,7 @@
 		},
 		{
 			"name": "Bugbear",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 1,
 			"reprintedAs": [
 				"Bugbear|EARL"
@@ -274,7 +274,7 @@
 		},
 		{
 			"name": "Dragonborn",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 1,
 			"reprintedAs": [
 				"Dragonborn|EARL"
@@ -353,7 +353,7 @@
 		},
 		{
 			"name": "Dwarf",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 6,
 			"reprintedAs": [
 				"Dwarf|EARL"
@@ -465,7 +465,7 @@
 		},
 		{
 			"name": "Dwelf",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 9,
 			"reprintedAs": [
 				"Dwelf|EARL"
@@ -625,7 +625,7 @@
 		},
 		{
 			"name": "Genasi",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 13,
 			"reprintedAs": [
 				"Genasi|EARL"
@@ -710,7 +710,7 @@
 		},
 		{
 			"name": "Gnoll",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 17,
 			"reprintedAs": [
 				"Gnoll|EARL"
@@ -843,7 +843,7 @@
 		},
 		{
 			"name": "Goblin",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 18,
 			"reprintedAs": [
 				"Goblin|EARL"
@@ -960,7 +960,7 @@
 		},
 		{
 			"name": "Halfblood",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 19,
 			"reprintedAs": [
 				"Halfblood|EARL"
@@ -1037,7 +1037,7 @@
 		},
 		{
 			"name": "Half-Bugbear",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 22,
 			"reprintedAs": [
 				"Half-Bugbear|EARL"
@@ -1213,7 +1213,7 @@
 		},
 		{
 			"name": "Half-Dragon",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 22,
 			"reprintedAs": [
 				"Half-Dragon|EARL"
@@ -1363,7 +1363,7 @@
 		},
 		{
 			"name": "Half-Goblin",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 40,
 			"reprintedAs": [
 				"Half-Goblin|EARL"
@@ -1479,7 +1479,7 @@
 		},
 		{
 			"name": "Half-Harengon",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 41,
 			"reprintedAs": [
 				"Half-Harengon|EARL"
@@ -1599,7 +1599,7 @@
 		},
 		{
 			"name": "Half-Hobgoblin",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 41,
 			"reprintedAs": [
 				"Half-Hobgoblin|EARL"
@@ -1715,7 +1715,7 @@
 		},
 		{
 			"name": "Half-Orc",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 42,
 			"reprintedAs": [
 				"Half-Orc|EARL"
@@ -1838,7 +1838,7 @@
 		},
 		{
 			"name": "Half-Tabaxi",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 43,
 			"reprintedAs": [
 				"Half-Tabaxi|EARL"
@@ -1956,7 +1956,7 @@
 		},
 		{
 			"name": "Hobgoblin",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 44,
 			"reprintedAs": [
 				"Hobgoblin|EARL"
@@ -2103,7 +2103,7 @@
 		},
 		{
 			"name": "Human (Cursevein)",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 45,
 			"reprintedAs": [
 				"Human (Cursevein)|EARL"
@@ -2220,7 +2220,7 @@
 		},
 		{
 			"name": "Human (Dragonheart)",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 46,
 			"reprintedAs": [
 				"Human (Dragonheart)|EARL"
@@ -2417,7 +2417,7 @@
 		},
 		{
 			"name": "Human (Giantblood)",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 47,
 			"reprintedAs": [
 				"Human (Giantblood)|EARL"
@@ -2593,7 +2593,7 @@
 		},
 		{
 			"name": "Kitsune",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 48,
 			"reprintedAs": [
 				"Kitsune|EARL"
@@ -2763,7 +2763,7 @@
 		},
 		{
 			"name": "Kobold",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 49,
 			"reprintedAs": [
 				"Kobold|EARL"
@@ -2999,9 +2999,9 @@
 		},
 		{
 			"name": "Chromatic",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dragonborn",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 1,
 			"reprintedAs": [
 				"Dragonborn (Chromatic)|EARL"
@@ -3071,9 +3071,9 @@
 		},
 		{
 			"name": "Gem",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dragonborn",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 3,
 			"reprintedAs": [
 				"Dragonborn (Gem)|EARL"
@@ -3150,9 +3150,9 @@
 		},
 		{
 			"name": "Metallic",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dragonborn",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 3,
 			"reprintedAs": [
 				"Dragonborn (Metallic)|EARL"
@@ -3224,9 +3224,9 @@
 		},
 		{
 			"name": "Duergar",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dwarf",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 6,
 			"reprintedAs": [
 				"Dwarf (Duergar)|EARL"
@@ -3310,9 +3310,9 @@
 		},
 		{
 			"name": "Hill",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dwarf",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 6,
 			"reprintedAs": [
 				"Dwarf (Hill)|EARL"
@@ -3355,9 +3355,9 @@
 		},
 		{
 			"name": "Mountain",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dwarf",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 6,
 			"reprintedAs": [
 				"Dwarf (Mountain)|EARL"
@@ -3409,9 +3409,9 @@
 		},
 		{
 			"name": "Air",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Genasi",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 13,
 			"reprintedAs": [
 				"Genasi (Air)|EARL"
@@ -3496,9 +3496,9 @@
 		},
 		{
 			"name": "Earth",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Genasi",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 14,
 			"reprintedAs": [
 				"Genasi (Earth)|EARL"
@@ -3594,9 +3594,9 @@
 		},
 		{
 			"name": "Fire",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Genasi",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 15,
 			"reprintedAs": [
 				"Genasi (Fire)|EARL"
@@ -3681,9 +3681,9 @@
 		},
 		{
 			"name": "Water",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Genasi",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 16,
 			"reprintedAs": [
 				"Genasi (Water)|EARL"
@@ -3775,9 +3775,9 @@
 		},
 		{
 			"name": "Duergar",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Halfblood",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 19,
 			"reprintedAs": [
 				"Halfblood (Duergar)|EARL"
@@ -3831,9 +3831,9 @@
 		},
 		{
 			"name": "Hill",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Halfblood",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 20,
 			"reprintedAs": [
 				"Halfblood (Hill)|EARL"
@@ -3884,9 +3884,9 @@
 		},
 		{
 			"name": "Mountain",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Halfblood",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 21,
 			"reprintedAs": [
 				"Halfblood (Mountain)|EARL"
@@ -3937,9 +3937,9 @@
 		},
 		{
 			"name": "Drow",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 22,
 			"reprintedAs": [
 				"Half-Dragon (Drow)|EARL"
@@ -4026,9 +4026,9 @@
 		},
 		{
 			"name": "Duergar",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 25,
 			"reprintedAs": [
 				"Half-Dragon (Duergar)|EARL"
@@ -4123,9 +4123,9 @@
 		},
 		{
 			"name": "Dwarf",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 28,
 			"reprintedAs": [
 				"Half-Dragon (Dwarf)|EARL"
@@ -4212,9 +4212,9 @@
 		},
 		{
 			"name": "Elf",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 30,
 			"reprintedAs": [
 				"Half-Dragon (Elf)|EARL"
@@ -4296,9 +4296,9 @@
 		},
 		{
 			"name": "Gnome",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 32,
 			"reprintedAs": [
 				"Half-Dragon (Gnome)|EARL"
@@ -4389,9 +4389,9 @@
 		},
 		{
 			"name": "Halfling",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 35,
 			"reprintedAs": [
 				"Half-Dragon (Halfling)|EARL"
@@ -4471,9 +4471,9 @@
 		},
 		{
 			"name": "Human",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 38,
 			"reprintedAs": [
 				"Half-Dragon (Human)|EARL"
