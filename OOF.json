@@ -569,7 +569,7 @@
 					"type":"entries"
 				},
 				{
-					"type":"lists",
+					"type":"list",
 					"items":[
 						"You always know which way is north.",
 						"You always know the number of hours left before the next sunrise or sunset.",
