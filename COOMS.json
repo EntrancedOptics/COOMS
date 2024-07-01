@@ -9364,9 +9364,28 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "THICC"
 					}
 				],
 				"fromSubclass": [
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Alchemist",
+							"shortName": "Alchemist",
+							"source": "TCE"
+						}
+					},
 					{
 						"class": {
 							"name": "Sorcerer",
@@ -9375,6 +9394,28 @@
 						"subclass": {
 							"name": "Divine Soul",
 							"shortName": "Divine Soul",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave Domain",
+							"shortName": "Grave",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Life Domain",
+							"shortName": "Life",
 							"source": "PHB"
 						}
 					}
@@ -11460,28 +11501,9 @@
 					{
 						"name": "Cleric",
 						"source": "PHB"
-					},
-					{
-						"name": "Paladin",
-						"source": "PHB"
-					},
-					{
-						"name": "Witch",
-						"source": "THICC"
 					}
 				],
 				"fromSubclass": [
-					{
-						"class": {
-							"name": "Artificer",
-							"source": "TCE"
-						},
-						"subclass": {
-							"name": "Alchemist",
-							"shortName": "Alchemist",
-							"source": "TCE"
-						}
-					},
 					{
 						"class": {
 							"name": "Sorcerer",
@@ -11490,28 +11512,6 @@
 						"subclass": {
 							"name": "Divine Soul",
 							"shortName": "Divine Soul",
-							"source": "PHB"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Grave Domain",
-							"shortName": "Grave",
-							"source": "XGE"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Life Domain",
-							"shortName": "Life",
 							"source": "PHB"
 						}
 					}
