@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "EntrancedRaces",
+				"json": "EARL",
 				"abbreviation": "EARL",
 				"full": "Entranced's Added Race List",
 				"authors": [
@@ -20,8 +20,129 @@
 	},
 	"race": [
 		{
+			"name": "Aasimar",
+			"source": "EARL",
+			"page": 1,
+			"otherSources": [
+				{
+					"source": "VGM",
+					"page": 104
+				}
+			],
+			"reprintedAs": [
+				"Aasimar|EARL"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 160
+			},
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"celestial": true
+				}
+			],
+			"creatureTypes": [
+				"celestial"
+			],
+			"resist": [
+				"necrotic",
+				"radiant"
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/aasimar.mp3"
+			},
+			"additionalSpells": [
+				{
+					"ability": "cha",
+					"known": {
+						"1": [
+							"light#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Aasimar mature at the same rate as humans, but they can live up to 160 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Aasimar have the same range of height and weight as humans."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Celestial Resistance",
+					"entries": [
+						"You have resistance to necrotic damage and radiant damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Healing Hands",
+					"entries": [
+						"As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Light Bearer",
+					"entries": [
+						"You know the {@spell light} cantrip. Constitution is your spellcasting ability for it."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an Celestial."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Celestial."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Bugbear",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 1,
 			"reprintedAs": [
 				"Bugbear|EARL"
@@ -153,7 +274,7 @@
 		},
 		{
 			"name": "Dragonborn",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 1,
 			"reprintedAs": [
 				"Dragonborn|EARL"
@@ -232,7 +353,7 @@
 		},
 		{
 			"name": "Dwarf",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 6,
 			"reprintedAs": [
 				"Dwarf|EARL"
@@ -344,7 +465,7 @@
 		},
 		{
 			"name": "Dwelf",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 9,
 			"reprintedAs": [
 				"Dwelf|EARL"
@@ -504,7 +625,7 @@
 		},
 		{
 			"name": "Genasi",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 13,
 			"reprintedAs": [
 				"Genasi|EARL"
@@ -589,7 +710,7 @@
 		},
 		{
 			"name": "Gnoll",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 17,
 			"reprintedAs": [
 				"Gnoll|EARL"
@@ -722,7 +843,7 @@
 		},
 		{
 			"name": "Goblin",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 18,
 			"reprintedAs": [
 				"Goblin|EARL"
@@ -839,7 +960,7 @@
 		},
 		{
 			"name": "Halfblood",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 19,
 			"reprintedAs": [
 				"Halfblood|EARL"
@@ -916,7 +1037,7 @@
 		},
 		{
 			"name": "Half-Bugbear",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 22,
 			"reprintedAs": [
 				"Half-Bugbear|EARL"
@@ -1008,7 +1129,7 @@
 				},
 				{
 					"type": "inset",
-					"name": "Variant Feature (Choose 1):",
+					"name": "Variant Feature (Choose 1)",
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
@@ -1029,11 +1150,70 @@
 				"heightMod": "4d4",
 				"baseWeight": 200,
 				"weightMod": "2d6"
-			}
+			},
+			"_versions": [
+				{
+					"name": "Half-Bugbear; Skill Versatility",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Variant Feature (Choose 1)",
+							"items": {
+								"name": "Variant Feature; Skill Versatility",
+								"type": "entries",
+								"entries": [
+									"You gain proficiency in two skills of your choice."
+								]
+							}
+						}
+					},
+					"skillProficiencies": [
+						{
+							"stealth": true,
+							"any": 2
+						}
+					]
+				},
+				{
+					"name": "Half-Bugbear; Powerful Build",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Variant Feature (Choose 1)",
+							"items": {
+								"name": "Variant Feature; Powerful Build",
+								"type": "entries",
+								"entries": [
+									"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Half-Bugbear; Long-Limbed",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Variant Feature (Choose 1)",
+							"items": {
+								"name": "Variant Feature; Long-Limbed",
+								"type": "entries",
+								"entries": [
+									"When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+								]
+							}
+						}
+					}
+				}
+			]
 		},
 		{
 			"name": "Half-Dragon",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 22,
 			"reprintedAs": [
 				"Half-Dragon|EARL"
@@ -1183,7 +1363,7 @@
 		},
 		{
 			"name": "Half-Goblin",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 40,
 			"reprintedAs": [
 				"Half-Goblin|EARL"
@@ -1299,7 +1479,7 @@
 		},
 		{
 			"name": "Half-Harengon",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 41,
 			"reprintedAs": [
 				"Half-Harengon|EARL"
@@ -1419,7 +1599,7 @@
 		},
 		{
 			"name": "Half-Hobgoblin",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 41,
 			"reprintedAs": [
 				"Half-Hobgoblin|EARL"
@@ -1535,7 +1715,7 @@
 		},
 		{
 			"name": "Half-Orc",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 42,
 			"reprintedAs": [
 				"Half-Orc|EARL"
@@ -1658,7 +1838,7 @@
 		},
 		{
 			"name": "Half-Tabaxi",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 43,
 			"reprintedAs": [
 				"Half-Tabaxi|EARL"
@@ -1776,7 +1956,7 @@
 		},
 		{
 			"name": "Hobgoblin",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 44,
 			"reprintedAs": [
 				"Hobgoblin|EARL"
@@ -1923,7 +2103,7 @@
 		},
 		{
 			"name": "Human (Cursevein)",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 45,
 			"reprintedAs": [
 				"Human (Cursevein)|EARL"
@@ -2040,7 +2220,7 @@
 		},
 		{
 			"name": "Human (Dragonheart)",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 46,
 			"reprintedAs": [
 				"Human (Dragonheart)|EARL"
@@ -2237,7 +2417,7 @@
 		},
 		{
 			"name": "Human (Giantblood)",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 47,
 			"reprintedAs": [
 				"Human (Giantblood)|EARL"
@@ -2413,7 +2593,7 @@
 		},
 		{
 			"name": "Kitsune",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 48,
 			"reprintedAs": [
 				"Kitsune|EARL"
@@ -2583,7 +2763,7 @@
 		},
 		{
 			"name": "Kobold",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"page": 49,
 			"reprintedAs": [
 				"Kobold|EARL"
@@ -2739,14 +2919,175 @@
 				"baseWeight": 25,
 				"weightMod": "1"
 			}
+		},
+		{
+			"name": "Leshy",
+			"source": "EARL",
+			"page": 55,
+			"reprintedAs": [
+				"Leshy|EARL"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"skillProficiencies": [
+				{
+					"nature": true
+				}
+			],
+			"age": {
+				"mature": 6,
+				"max": 1000
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true,
+					"terran": true
+				}
+			],
+			"creatureTypes": [
+				"plant"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Leshies sprout from the ground after a year of being planted, and can walk around freely, but still need to plant themselves into the ground to sleep at night until they are 6 years of age, where they are considered to be ripe, their version of maturity. Leshies can live to be several hundred to a thousand years old depending on species."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Native to forests in the feywild, leshies are little goobers, and they range from 2 to 4 feet tall. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leshy Lore",
+					"entries": [
+						"You deeply understand the natural world and your place within it. You have proficiency in Nature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Plant Nourishment",
+					"entries": [
+						"You gain nourishment in the same way that the plants or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food. If you normally rely on photosynthesis and go without sunlight for 1 week, you begin to starve."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Plant."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Sylvan, and Terran."
+					]
+				}
+			]
 		}
 	],
 	"subrace": [
 		{
+			"name": "Fallen",
+			"source": "EARL",
+			"raceName": "Aasimar",
+			"raceSource": "EARL",
+			"page": 1,
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Necrotic Shroud",
+					"entries": [
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened} of you until the end of your next turn.",
+						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Protector",
+			"source": "EARL",
+			"raceName": "Aasimar",
+			"raceSource": "EARL",
+			"page": 2,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Radiant Soul",
+					"entries": [
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.",
+						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Scourge",
+			"source": "EARL",
+			"raceName": "Aasimar",
+			"raceSource": "EARL",
+			"page": 2,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Radiant Consumption",
+					"entries": [
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.",
+						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Chromatic",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dragonborn",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 1,
 			"reprintedAs": [
 				"Dragonborn (Chromatic)|EARL"
@@ -2816,9 +3157,9 @@
 		},
 		{
 			"name": "Gem",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dragonborn",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 3,
 			"reprintedAs": [
 				"Dragonborn (Gem)|EARL"
@@ -2895,9 +3236,9 @@
 		},
 		{
 			"name": "Metallic",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dragonborn",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 3,
 			"reprintedAs": [
 				"Dragonborn (Metallic)|EARL"
@@ -2969,9 +3310,9 @@
 		},
 		{
 			"name": "Duergar",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dwarf",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 6,
 			"reprintedAs": [
 				"Dwarf (Duergar)|EARL"
@@ -3055,9 +3396,9 @@
 		},
 		{
 			"name": "Hill",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dwarf",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 6,
 			"reprintedAs": [
 				"Dwarf (Hill)|EARL"
@@ -3100,9 +3441,9 @@
 		},
 		{
 			"name": "Mountain",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Dwarf",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 6,
 			"reprintedAs": [
 				"Dwarf (Mountain)|EARL"
@@ -3154,9 +3495,9 @@
 		},
 		{
 			"name": "Air",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Genasi",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 13,
 			"reprintedAs": [
 				"Genasi (Air)|EARL"
@@ -3241,9 +3582,9 @@
 		},
 		{
 			"name": "Earth",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Genasi",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 14,
 			"reprintedAs": [
 				"Genasi (Earth)|EARL"
@@ -3339,9 +3680,9 @@
 		},
 		{
 			"name": "Fire",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Genasi",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 15,
 			"reprintedAs": [
 				"Genasi (Fire)|EARL"
@@ -3426,9 +3767,9 @@
 		},
 		{
 			"name": "Water",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Genasi",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 16,
 			"reprintedAs": [
 				"Genasi (Water)|EARL"
@@ -3520,9 +3861,9 @@
 		},
 		{
 			"name": "Duergar",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Halfblood",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 19,
 			"reprintedAs": [
 				"Halfblood (Duergar)|EARL"
@@ -3576,9 +3917,9 @@
 		},
 		{
 			"name": "Hill",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Halfblood",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 20,
 			"reprintedAs": [
 				"Halfblood (Hill)|EARL"
@@ -3629,9 +3970,9 @@
 		},
 		{
 			"name": "Mountain",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Halfblood",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 21,
 			"reprintedAs": [
 				"Halfblood (Mountain)|EARL"
@@ -3682,9 +4023,9 @@
 		},
 		{
 			"name": "Drow",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 22,
 			"reprintedAs": [
 				"Half-Dragon (Drow)|EARL"
@@ -3771,9 +4112,9 @@
 		},
 		{
 			"name": "Duergar",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 25,
 			"reprintedAs": [
 				"Half-Dragon (Duergar)|EARL"
@@ -3868,9 +4209,9 @@
 		},
 		{
 			"name": "Dwarf",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 28,
 			"reprintedAs": [
 				"Half-Dragon (Dwarf)|EARL"
@@ -3957,9 +4298,9 @@
 		},
 		{
 			"name": "Elf",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 30,
 			"reprintedAs": [
 				"Half-Dragon (Elf)|EARL"
@@ -4041,9 +4382,9 @@
 		},
 		{
 			"name": "Gnome",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 32,
 			"reprintedAs": [
 				"Half-Dragon (Gnome)|EARL"
@@ -4134,9 +4475,9 @@
 		},
 		{
 			"name": "Halfling",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 35,
 			"reprintedAs": [
 				"Half-Dragon (Halfling)|EARL"
@@ -4216,9 +4557,9 @@
 		},
 		{
 			"name": "Human",
-			"source": "EntrancedRaces",
+			"source": "EARL",
 			"raceName": "Half-Dragon",
-			"raceSource": "EntrancedRaces",
+			"raceSource": "EARL",
 			"page": 38,
 			"reprintedAs": [
 				"Half-Dragon (Human)|EARL"
@@ -4296,6 +4637,202 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Cactus",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 55,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Drought Resistance",
+					"type": "entries",
+					"entries": [
+						"Due to your natural proclivity towards areas with little to no water, you can go up to a month without water. You also take half damage from spells that drain moisture like {@spell Blight|COOMS}."
+					]
+				},
+				{
+					"name": "Spiny",
+					"type": "entries",
+					"entries": [
+						"Spines cover your body. Your unarmed attack deals piercing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. On top of this, anybody who attacks you with an unarmed strike takes {@dice 1d4} piercing damage."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Flytrap",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 56,
+			"ability": [
+				{
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true,
+					"stealth": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Freakish Appearance",
+					"type": "entries",
+					"entries": [
+						"Flytrap Leshies normally hunt in pacts and scare their prey into accidentally scurrying into a trap set by them. You have proficiency in {@skill Intimidation} and {@skill Stealth}."
+					]
+				},
+				{
+					"name": "Acidic Bite",
+					"type": "entries",
+					"entries": [
+						"Your mouth is lined with digestive acids, allowing you to eat even if your teeth aren't too sharp. Your unarmed attack deals acid damage equal to {@dice 1d6} + your Constitution modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Fruit",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 57,
+			"ability": [
+				{
+					"con": 2,
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Spellcasting"
+			],
+			"skillProficiencies": [
+				{
+					"medicine": true,
+					"stealth": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate": {
+						"daily": {
+							"1": [
+								"goodberry"
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Reclusive",
+					"type": "entries",
+					"entries": [
+						"Because of the value your body naturally provides as a source of food and curative magics, most Fruit Leshies are recluses, and tend to live in small, hidden communities out of fear of exploitation by outsiders. You gain proficiency in {@skill Medicine} and {@skill Stealth}."
+					]
+				},
+				{
+					"name": "Nourishing",
+					"type": "entries",
+					"entries": [
+						"Your body naturally bears nutritious and flavorful fruit. You can cast {@spell Goodberry|phb} once per long rest innately, using Constitution as your spellcasting ability modifier. Additionally, any creature that eats a majority of your corpse within a tenday of your death absorbs your natural healing and nourishing magic, and gains the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"They regain {@dice 5d8} hit points.",
+								"They lose all tiers of exhaustion currently affecting them.",
+								"One disease or lingering injury affecting the target is immediately cured."
+							]
+						}
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Fungus",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 58,
+			"ability": [
+				{
+					"wis": 2,
+					"con": 1
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Spellcasting"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"toxic mist"
+								]
+							}
+						},
+						"5": {
+							"lower": {
+								"1": [
+									"toxic mist"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"poison spray#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Sporecasting",
+					"type": "entries",
+					"entries": [
+						"You know the {@spell Poison Spray|phb} cantrip. When you reach 3rd level, you can cast the {@spell Toxic Mist|COOMS} spell once with this trait; you gain the ability to cast it again when you finish a long rest. When you reach 5th level, you regain your ability to cast {@spell Toxic Mist|COOMS} on a short or long rest. Constitution is the spellcasting ability for these spells."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }

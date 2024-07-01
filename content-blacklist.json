@@ -1,5 +1,5 @@
 {
-  "siteVersion": "1.207.2",
+  "siteVersion": "1.208.0",
   "fileType": "content-blocklist",
   "blocklist": [
     {
@@ -567,6 +567,534 @@
       "source": "PHB"
     },
     {
+      "displayName": "Fighter",
+      "hash": "fighter_phb",
+      "category": "class",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger",
+      "hash": "ranger_phb",
+      "category": "class",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue",
+      "hash": "rogue_phb",
+      "category": "class",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock",
+      "hash": "warlock_phb",
+      "category": "class",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 10: Martial Archetype feature",
+      "hash": "martial%20archetype%20feature_fighter_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 11: Extra Attack (2)",
+      "hash": "extra%20attack%20(2)_fighter_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 13: Indomitable (two uses)",
+      "hash": "indomitable%20(two%20uses)_fighter_phb_13_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 14: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 15: Martial Archetype feature",
+      "hash": "martial%20archetype%20feature_fighter_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 17: Action Surge (two uses)",
+      "hash": "action%20surge%20(two%20uses)_fighter_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 17: Indomitable (three uses)",
+      "hash": "indomitable%20(three%20uses)_fighter_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 18: Martial Archetype feature",
+      "hash": "martial%20archetype%20feature_fighter_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 1: Fighting Style",
+      "hash": "fighting%20style_fighter_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 1: Second Wind",
+      "hash": "second%20wind_fighter_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 20: Extra Attack (3)",
+      "hash": "extra%20attack%20(3)_fighter_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 2: Action Surge",
+      "hash": "action%20surge_fighter_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 3: Martial Archetype",
+      "hash": "martial%20archetype_fighter_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 5: Extra Attack",
+      "hash": "extra%20attack_fighter_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 6: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 7: Martial Archetype feature",
+      "hash": "martial%20archetype%20feature_fighter_phb_7_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Fighter 9: Indomitable",
+      "hash": "indomitable_fighter_phb_9_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 10: Hide in Plain Sight",
+      "hash": "hide%20in%20plain%20sight_ranger_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 10: Natural Explorer improvement",
+      "hash": "natural%20explorer%20improvement_ranger_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 11: Ranger Archetype feature",
+      "hash": "ranger%20archetype%20feature_ranger_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_ranger_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 14: Favored Enemy improvement",
+      "hash": "favored%20enemy%20improvement_ranger_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 14: Vanish",
+      "hash": "vanish_ranger_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 15: Ranger Archetype feature",
+      "hash": "ranger%20archetype%20feature_ranger_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_ranger_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 18: Feral Senses",
+      "hash": "feral%20senses_ranger_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_ranger_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 1: Favored Enemy",
+      "hash": "favored%20enemy_ranger_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 1: Natural Explorer",
+      "hash": "natural%20explorer_ranger_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 20: Foe Slayer",
+      "hash": "foe%20slayer_ranger_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 2: Fighting Style",
+      "hash": "fighting%20style_ranger_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 2: Spellcasting",
+      "hash": "spellcasting_ranger_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 3: Primeval Awareness",
+      "hash": "primeval%20awareness_ranger_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 3: Ranger Archetype",
+      "hash": "ranger%20archetype_ranger_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_ranger_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 5: Extra Attack",
+      "hash": "extra%20attack_ranger_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 6: Favored Enemy and Natural Explorer improvements",
+      "hash": "favored%20enemy%20and%20natural%20explorer%20improvements_ranger_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 7: Ranger Archetype feature",
+      "hash": "ranger%20archetype%20feature_ranger_phb_7_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_ranger_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Ranger 8: Land's Stride",
+      "hash": "land's%20stride_ranger_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 10: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 11: Reliable Talent",
+      "hash": "reliable%20talent_rogue_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 13: Roguish Archetype feature",
+      "hash": "roguish%20archetype%20feature_rogue_phb_13_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 14: Blindsense",
+      "hash": "blindsense_rogue_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 15: Slippery Mind",
+      "hash": "slippery%20mind_rogue_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 17: Roguish Archetype feature",
+      "hash": "roguish%20archetype%20feature_rogue_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 18: Elusive",
+      "hash": "elusive_rogue_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 1: Expertise",
+      "hash": "expertise_rogue_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 1: Sneak Attack",
+      "hash": "sneak%20attack_rogue_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 1: Thieves' Cant",
+      "hash": "thieves'%20cant_rogue_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 20: Stroke of Luck",
+      "hash": "stroke%20of%20luck_rogue_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 2: Cunning Action",
+      "hash": "cunning%20action_rogue_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 3: Roguish Archetype",
+      "hash": "roguish%20archetype_rogue_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 5: Uncanny Dodge",
+      "hash": "uncanny%20dodge_rogue_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 6: Expertise",
+      "hash": "expertise_rogue_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 7: Evasion",
+      "hash": "evasion_rogue_phb_7_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Rogue 9: Roguish Archetype feature",
+      "hash": "roguish%20archetype%20feature_rogue_phb_9_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 10: Otherworldly Patron feature",
+      "hash": "otherworldly%20patron%20feature_warlock_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 11: Mystic Arcanum (6th level)",
+      "hash": "mystic%20arcanum%20(6th%20level)_warlock_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_warlock_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 13: Mystic Arcanum (7th level)",
+      "hash": "mystic%20arcanum%20(7th%20level)_warlock_phb_13_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 14: Otherworldly Patron feature",
+      "hash": "otherworldly%20patron%20feature_warlock_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 15: Mystic Arcanum (8th level)",
+      "hash": "mystic%20arcanum%20(8th%20level)_warlock_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_warlock_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 17: Mystic Arcanum (9th level)",
+      "hash": "mystic%20arcanum%20(9th%20level)_warlock_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_warlock_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 1: Otherworldly Patron",
+      "hash": "otherworldly%20patron_warlock_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 1: Pact Magic",
+      "hash": "pact%20magic_warlock_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 20: Eldritch Master",
+      "hash": "eldritch%20master_warlock_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 2: Eldritch Invocations",
+      "hash": "eldritch%20invocations_warlock_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 3: Pact Boon",
+      "hash": "pact%20boon_warlock_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_warlock_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 6: Otherworldly Patron feature",
+      "hash": "otherworldly%20patron%20feature_warlock_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
+      "displayName": "Warlock 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_warlock_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB"
+    },
+    {
       "category": "feat",
       "displayName": "Athlete",
       "hash": "athlete_phb",
@@ -586,8 +1114,56 @@
     },
     {
       "category": "feat",
+      "displayName": "Durable",
+      "hash": "durable_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
       "displayName": "Healer",
       "hash": "healer_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Inspiring Leader",
+      "hash": "inspiring%20leader_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Martial Adept",
+      "hash": "martial%20adept_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Medium Armor Master",
+      "hash": "medium%20armor%20master_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Polearm Master",
+      "hash": "polearm%20master_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Shield Master",
+      "hash": "shield%20master_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Tough",
+      "hash": "tough_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "War Caster",
+      "hash": "war%20caster_phb",
       "source": "PHB"
     },
     {
@@ -618,6 +1194,18 @@
       "category": "race",
       "displayName": "Dwarf (Mountain)",
       "hash": "dwarf%20(mountain)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Orc",
+      "hash": "half-orc_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Orc (Base)",
+      "hash": "half-orc%20(base)_phb",
       "source": "PHB"
     },
     {
@@ -657,6 +1245,12 @@
       "source": "PHB"
     },
     {
+      "category": "spell",
+      "displayName": "Blight",
+      "hash": "blight_phb",
+      "source": "PHB"
+    },
+    {
       "displayName": "Cloud of Daggers",
       "hash": "cloud%20of%20daggers_phb",
       "category": "spell",
@@ -684,6 +1278,12 @@
       "displayName": "False Life",
       "hash": "false%20life_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Grasping Vine",
+      "hash": "grasping%20vine_phb",
       "source": "PHB"
     },
     {
@@ -768,6 +1368,12 @@
       "displayName": "Sleet Storm",
       "hash": "sleet%20storm_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Spiritual Weapon",
+      "hash": "spiritual%20weapon_phb",
       "source": "PHB"
     },
     {
@@ -879,6 +1485,72 @@
       "source": "SatO"
     },
     {
+      "displayName": "Fighter 4: Martial Versatility",
+      "hash": "martial%20versatility_fighter_phb_4_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Ranger 10: Deft Explorer Improvement",
+      "hash": "deft%20explorer%20improvement_ranger_phb_10_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Ranger 10: Nature's Veil",
+      "hash": "nature's%20veil_ranger_phb_10_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Ranger 1: Deft Explorer",
+      "hash": "deft%20explorer_ranger_phb_1_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Ranger 1: Favored Foe",
+      "hash": "favored%20foe_ranger_phb_1_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Ranger 2: Spellcasting Focus",
+      "hash": "spellcasting%20focus_ranger_phb_2_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Ranger 3: Primal Awareness",
+      "hash": "primal%20awareness_ranger_phb_3_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Ranger 4: Martial Versatility",
+      "hash": "martial%20versatility_ranger_phb_4_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Ranger 6: Deft Explorer Improvement",
+      "hash": "deft%20explorer%20improvement_ranger_phb_6_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Rogue 3: Steady Aim",
+      "hash": "steady%20aim_rogue_phb_3_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
+      "displayName": "Warlock 4: Eldritch Versatility",
+      "hash": "eldritch%20versatility_warlock_phb_4_tce",
+      "category": "classFeature",
+      "source": "TCE"
+    },
+    {
       "category": "feat",
       "displayName": "Fey Touched",
       "hash": "fey%20touched_tce",
@@ -888,6 +1560,12 @@
       "category": "feat",
       "displayName": "Gunner",
       "hash": "gunner_tce",
+      "source": "TCE"
+    },
+    {
+      "category": "feat",
+      "displayName": "Shadow Touched",
+      "hash": "shadow%20touched_tce",
       "source": "TCE"
     },
     {
@@ -963,6 +1641,18 @@
       "source": "UAFeats"
     },
     {
+      "category": "feat",
+      "displayName": "Medic",
+      "hash": "medic_uafeatsforskills",
+      "source": "UAFeatsForSkills"
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "UATheMysticClass"
+    },
+    {
       "category": "race",
       "displayName": "Bugbear",
       "hash": "bugbear_vgm",
@@ -1029,6 +1719,12 @@
       "source": "XGE"
     },
     {
+      "category": "feat",
+      "displayName": "Wood Elf Magic",
+      "hash": "wood%20elf%20magic_xge",
+      "source": "XGE"
+    },
+    {
       "displayName": "Aganazzar's Scorcher",
       "hash": "aganazzar's%20scorcher_xge",
       "category": "spell",
@@ -1092,6 +1788,18 @@
       "displayName": "Steel Wind Strike",
       "hash": "steel%20wind%20strike_xge",
       "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "category": "spell",
+      "displayName": "Summon Greater Demon",
+      "hash": "summon%20greater%20demon_xge",
+      "source": "XGE"
+    },
+    {
+      "category": "spell",
+      "displayName": "Summon Lesser Demons",
+      "hash": "summon%20lesser%20demons_xge",
       "source": "XGE"
     },
     {

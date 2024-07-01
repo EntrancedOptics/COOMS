@@ -838,6 +838,174 @@
 			}
 		},
 		{
+			"name": "Blight",
+			"source": "COOMS",
+			"level": 4,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a Constitution saving throw. The target takes {@dice 8d8} necrotic damage and gains a Tier of Exhaustion on a failed save, or half as much damage with no additional effects on a successful one. This spell has no effect on undead or constructs.",
+				"If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.",
+				"If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d8} for each slot level above 4th."
+					],
+					"type": "entries"
+				}
+			],
+			"areaTags": [ "MT" ],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "THICC"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Alchemist",
+							"shortName": "Alchemist",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Blood Domain",
+							"shortName": "Blood",
+							"source": "TDCSR"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of Spores",
+							"shortName": "Spores",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land (Desert)",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Death Domain",
+							"shortName": "Death",
+							"source": "DMG"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave Domain",
+							"shortName": "Grave",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oathbreaker",
+							"shortName": "Oathbreaker",
+							"source": "DMG"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Bloodletting",
 			"source": "COOMS",
 			"level": 0,
@@ -2065,9 +2233,9 @@
 			}
 		},
 		{
-			"name": "Demons",
+			"name": "Conjure Lesser Demons",
 			"source": "COOMS",
-			"level": 4,
+			"level": 3,
 			"school": "C",
 			"time": [
 				{
@@ -4008,7 +4176,7 @@
 			],
 			"entries": [
 				"Choose an unoccupied 5-foot cube of air that you can see within range. An elemental force that resembles a dust devil appears in the cube and lasts for the spell's duration.",
-				"Any creature that starts its turn within 5 feet of the dust devil must make a Strength saving throw. On a failed save, the creature takes {@damage 1d8} bludgeoning damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed.",
+				"Any creature that starts its turn within 5 feet of the dust devil or enters its cube for the first time on a turn must make a Strength saving throw. On a failed save, the creature takes {@damage 1d8} bludgeoning damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed. The dust devil's cube counts as difficult terrain.",
 				"As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
 			],
 			"entriesHigherLevel": [
@@ -5016,6 +5184,70 @@
 							"shortName": "Arcane Trickster",
 							"source": "PHB"
 						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Grasping Vine",
+			"source": "COOMS",
+			"level": 2,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it. You do not need to see the target, but you must know of their existence. If the creature is within 30 feet of the vine, the creature must succeed on a Strength saving throw or be hooked by the barbed vine and pulled in a straight line to the closest unoccupied space within 5 feet of the vine and become {@condition Restrained}. A creature that starts its turn {@condition Restrained} by the vine takes {@dice 1d8} piercing damage as the thorns dig into it. A creature wishing to cut free or untangle the target from the vine must succeed on an Athletics check against your Spell Save DC to free them as an action.",
+				"Until the spell ends, you can use a bonus action to have the vine strike a new target, letting go of any target it is currently holding onto, if any.",
+				"While the vine is active, it occupies its space but creatures can pass through its space as if it were difficult terrain."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|3-9|1d8} for each slot level above 2nd."
+					],
+					"type": "entries"
+				}
+			],
+			"areaTags": [ "MT" ],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "THICC"
 					}
 				]
 			}
@@ -9059,6 +9291,138 @@
 			}
 		},
 		{
+			"name": "Raise Dead",
+			"source": "COOMS",
+			"page": 65,
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a diamond worth at least 500 gp, which the spell consumes",
+					"cost": 50000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.",
+				"This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.",
+				"This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival\u2014its head, for instance\u2014the spell automatically fails.",
+				"Coming back from the dead is an ordeal, causing the target to return to life with 7 Tiers of Exhaustion as the body along with its connection to the soul was weakened during their prolonged separation."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 6th level or higher, the Tiers of Exhaustion suffered by the target are reduced by 2 for each slot level above 5th."
+					],
+					"type": "entries"
+				}
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"construct",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "THICC"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Artificer",
+							"source": "TCE"
+						},
+						"subclass": {
+							"name": "Alchemist",
+							"shortName": "Alchemist",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave Domain",
+							"shortName": "Grave",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Life Domain",
+							"shortName": "Life",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Rapid Fire",
 			"source": "COOMS",
 			"level": 1,
@@ -11075,6 +11439,86 @@
 			}
 		},
 		{
+			"name": "Resurrection",
+			"source": "COOMS",
+			"page": 72,
+			"level": 7,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a diamond worth at least 1,000 gp, which the spell consumes",
+					"cost": 100000,
+					"consume": true
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points.",
+				"This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to casting the spell, they afflict the target on its return to life.",
+				"This spell closes all mortal wounds and restores any missing body parts.",
+				"Coming back from the dead is an ordeal, causing the target to return to life with 7 Tiers of Exhaustion as the body along with its connection to the soul was weakened during their prolonged separation.",
+				"Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 8th level or higher, the Tiers of Exhaustion suffered by the target are reduced by 3 for each slot level above 7th."
+					],
+					"type": "entries"
+				}
+			],
+			"affectsCreatureType": [
+				"undead"
+			],
+			"miscTags": [
+				"HL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Rusting Grasp",
 			"source": "COOMS",
 			"level": 3,
@@ -11797,6 +12241,108 @@
 						"subclass": {
 							"name": "Arcane Trickster",
 							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Spiritual Weapon",
+			"source": "COOMS",
+			"level": 2,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to {@dice 1d8} + your spellcasting ability modifier.",
+				"As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.",
+				"While the weapon is active, it occupies its space but creatures can pass through its space. The first time a creature enters the weapon's space on a turn or if it starts its turn there, the weapon attacks them.",
+				"The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|3-9|1d8} for each slot level above 2nd."
+					],
+					"type": "entries"
+				}
+			],
+			"areaTags": [ "MT" ],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Life Domain",
+							"shortName": "Life",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Conquest",
+							"shortName": "Conquest",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "War Domain",
+							"shortName": "War",
 							"source": "PHB"
 						}
 					}
@@ -13361,7 +13907,8 @@
 			"components": {
 				"v": true,
 				"s": true,
-				"m": "a black pearl"
+				"m": "a black pearl worth 500 gp",
+				"cost": 50000
 			},
 			"duration": [
 				{
