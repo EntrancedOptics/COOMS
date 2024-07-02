@@ -3384,6 +3384,143 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Poppet",
+			"source": "EARL",
+			"page": 73,
+			"size": [
+				"S"
+			],
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"speed": 25,
+			"skillProficiencies": [
+				{
+					"nature": true
+				}
+			],
+			"age": {
+				"mature": 0,
+				"max": 2000
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Language Proficiency",
+				"Uncommon Race",
+				"Darkvision"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"creatureTypes": [
+				"construct"
+			],
+			"immune": [
+				"poison",
+				"necrotic"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned",
+				"paralyzed",
+				"petrified",
+				"charmed"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"As long as you don't get killed, you are likely to live very long as you can't die of old age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Poppets are typically Lawful Neutral, carrying out the orders of their masters unerringly."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Most sentient poppets are between 2 to 3 feet tall. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Construct."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harmless Appearance",
+					"entries": [
+						"While motionless, if you match your surroundings, you are indistinguishable from a regular doll. If your form makes no sense or stands out in its surroundings, you must make a {@skill Stealth} check contested by any onlookers' {@skill Perception} checks, with advantage or disadvantage given out based on how far-fetched your appearance is given the surroundings. If the onlooker(s) are actively looking for you or are attempting to figure out whether or not an object is you, this check may become {@skill Investigation} rather than {@skill Perception}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Living Doll",
+					"entries": [
+						"The spark of life that differentiates you from nonsentient Poppets allows you to talk. However, still, as a construct:",
+						{
+							"type": "list",
+							"items": [
+								"You have vulnerability to Fire damage.",
+								"You are immune to Poison and Necrotic damage",
+								"You are immune to being Asleep, {@condition Charmed}, Diseased, {@condition Exhausted}, {@condition Paralyzed}, {@condition Petrified}, and {@condition Poisoned}.",
+								"You don't have to and cannot eat or drink, meaning you can't gain the benefits of potions or food.",
+								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Loose Ties",
+					"entries": [
+						"You have disadvantage on Death Saves, as your life is loosely bound to the thread you walk in."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common} and one other language of its master."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	],
 	"subrace": [
