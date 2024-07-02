@@ -3104,6 +3104,151 @@
 				"baseWeight": 200,
 				"weightMod": "2d6"
 			}
+		},
+		{
+			"name": "Myconid",
+			"source": "EARL",
+			"page": 70,
+			"ability": [
+				{
+					"wis": 2,
+					"dex": 1
+				}
+			],
+			"creatureTypes": [
+				"plant"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 25,
+			"age": {
+				"min": 16,
+				"max": 1000
+			},
+			"darkvision": 120,
+			"traitTags": [
+				"Superior Darkvision",
+				"Uncommon Race",
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Myconids reach maturity at 16 years old and can live to be a little over 1000 with the oldest ones becoming sovereigns. Their early life cycle consists of 6 stages every four years. At 24 years old they die unless they undergo a special regiment process to become a sovereign."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most myconids are True Neutral with good myconids are fairly common and evil myconids are very rare."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Myconids range from 4 to 6 feet and weigh 70 to 120 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to the darkness of the underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colors in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sun Sickness",
+					"entries": [
+						"While in sunlight, you have disadvantage on all ability checks, attack rolls, and saving throws. If you have been in direct sunlight for a minute, you must make a DC 15 Con Save or take {@dice 1d4} radiant damage, with half as much on a successful save. You make this at the end of every minute you spend under the sun."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Distress Spores",
+					"entries": [
+						"When the myconid takes damage, all other myconids within 240 feet of it can sense its pain."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rapport Spores",
+					"entries": [
+						"As an action, you may extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pacifying Spores",
+					"entries": [
+						"As an action, you can eject spores at one creature you can see within 5 feet of you. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You regain use of this trait once you have completed a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Additional Spore Choice",
+					"entries": [
+						"At 3rd level, you know one additional spore feature from the following list that you can use once per long rest:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Animating Spores.} As an action, you can target one corpse of a humanoid or a Large or smaller beast within 5 feet and release spores at the corpse. In 24 hours, the corpse rises as a {@creature Quaggoth Spore Servant|MM|spore servant} (MM p.231). The corpse stays animated for {@dice 1d4 + 1} days or until destroyed, and it can't be animated again in this way. You can have a number of spore servants under your control at any given time equal to your proficiency bonus.",
+								"{@b Caustic Spores.} As an action, you release spores in a 30-foot cone. Each creature inside the cone must succeed on a Dexterity saving throw equal to 8 + your proficiency modifier + your Constitution modifier or take {@dice 1d6} acid damage at the start of their turns for up to 10 minutes. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success.",
+								"{@b Euphoria Spores.} As an action, you release a cloud of spores in a 20 ft. radius sphere centered on yourself. Other creatures in that area must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition poisoned} for up to 1 hour. While {@condition poisoned} in this way, a creature experiences a successive onslaught of raw pleasure. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success. When the effect ends on a creature, the creature gains 1 level of exhaustion.",
+								"{@b Hallucination Spores.} As an action, you release a trail of spores in a 30-foot line from yourself. Other creatures in that area must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition poisoned} for up to 1 minute. While {@condition poisoned} in this way, they hallucinate. Each creature affected must flip a coin. On a heads, the creature experiences a good trip, and becomes stunned while it hallucinates. On a tails, the creature experiences a bad trip, and becomes frenzied, seeing threats everywhere while it hallucinates. While frenzied, the creature randomly attacks anything close to it, determined by the DM. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poisonous Punch",
+					"entries": [
+						"Anyone you hit with an unarmed attack must make a Constitution Saving throw equal to 8 + your proficiency modifier + your Constitution modifier or suffer an amount of poison damage equal to the die of your unarmed strike, taking no damage upon a success. For example, a regular mycanoid may only do {@dice 1d2} with this feature, but a mycanoid monk may do a {@dice d4}, {@dice d6}, etc."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Plant Nourishment",
+					"entries": [
+						"You gain nourishment in the same way that the plants or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Plant."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand, read and write Common and Undercommon but not speak them."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	],
 	"subrace": [
