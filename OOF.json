@@ -54,6 +54,52 @@
 			]
 		},
 		{
+			"name": "Angelic Wings",
+			"source": "EntrancedFeats",
+			"Page": 1,
+			"reprintedAs": [
+				"Angelic Wings|OOF"
+			],
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Aasimar"
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your connection with the outer planes has increased, allowing your planetouched nature to manifest more readily and obviously, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Your healing hands now heals an additional amount equal to your Constitution modifier (minimum of 0).",
+						"You grow a pair of feathered, angelic wings from your back, giving you a flight speed equal to your walking speed. For Fallen Aasimar, these wings are batlike."
+					]
+				},
+				{
+					"entries":[
+						"You also gain an additional benefit depending on what type of Aasimar you are:"
+					],
+					"type": "entries"
+				},
+				{
+					"type":"list",
+					"items": [
+						"Fallen Aasimar's Necrotic Shroud's frighten now lasts for 1 minute, and creatures can save at the end of their turns, ending the effect early on a success. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
+						"Protector Aasimar's Radiant Soul now increases your flight speed by 30 feet while it is active. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
+						"Scourge Aasimar's Radiant Consumption no longer damages you. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0)."
+					]
+				}
+			]
+		},
+		{
 			"name": "Athlete",
 			"source": "EntrancedFeats",
 			"Page": 1,
@@ -779,6 +825,72 @@
 						"All polearms gain the Double property for you. Polearms that did not have the Double property allow you to use a bonus action to make a melee attack with the opposite end of the weapon whenever you take the attack action with said weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and it deals bludgeoning damage.",
 						"When you use a bardiche, spear, trident, or war scythe, its damage die changes from a {@dice 1d6} to a {@dice 1d8}, and from a {@dice 1d8} to a {@dice 1d10} when wielded with two hands. When you use a quarterstaff, both its regular attack and secondary attack's damage die increase from {@dice 1d4} to {@dice 1d6}. When you use a javelin, its damage increases to a {@dice d8} and its range increases to (80/320). When you use a yklwa, its damage increases to a {@dice 1d10} and its range increases to (20/60). ",
 						"While you are wielding a polearm, other creatures provoke an {@action opportunity attack|phb} from you when they enter the reach you have with that weapon. If you hit them with that {@action opportunity attack|phb}, they cannot move within 5 feet of you for the duration of their turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Potent Breath Weapon",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Potent Breath Weapon|OOF"
+			],
+			"prerequisite":[
+				{
+					"other":"Breath Weapon Attack"
+				}
+			],
+			"ability":[
+				{
+					"con":"1"
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Much like a dragon as they grow older, your breath weapon has increased in power as you have gotten stronger, granting you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"The range of your Breath Weapon doubles. If it was a 15-foot cone, it would beome a 30-foot cone. If it was a 5 by 30 foot line, it would become a 5 by 60 foot line.",
+						"You may add your Constitution modifier to the damage of your Breath Weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primordial Breath Weapon",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Primordial Breath Weapon|OOF"
+			],
+			"prerequisite":[
+				{
+					"other":"Breath Weapon Attack"
+				}
+			],
+			"ability":[
+				{
+					"con":"1"
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your natural affinity with primordial magic has increased, and your connection to your Breath Weapon's damage type has granted you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You now regain all uses of your Breath Weapon on a short or long rest.",
+						"Whenever you use your Breath Weapon, you gain immunity to its damage type until the end of your next turn."
 					]
 				}
 			]
