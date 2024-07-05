@@ -352,6 +352,43 @@
 			]
 		},
 		{
+			"name": "Dwarven Recovery",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"reprintedAs":[
+				"Dwarven Recovery|OOF"
+			],
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Dwarf, Halfblood, or M'jol"
+						}
+					]
+				}
+			],
+			"ability":[
+				{
+					"con": "1"
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have the blood of dwarven heroes flowing through your veins. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"While under the effects of alcohol, your hit point maximum increases to a number equal to your current level.",
+						"You can use an action to perform a healing surge by expending a hit die, gaining hit points equal to the number you rolled plus your Constitution modifier."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fell Handed",
 			"source": "EntrancedFeats",
 			"page": 3,
@@ -918,7 +955,7 @@
 					"type":"list",
 					"items":[
 						"Whenever you are raised from the dead, you do not suffer any of the penalties that other creatures do as a result of being raised.",
-						"IWhenever you regain hit points from any source, including from when you wake up and gain 1 hit point after being knocked unconscious or raised from the dead, you can choose to perform a healing surge by expending a hit die, gaining hit points equal to the number rolled plus your Constitution modifier."
+						"Whenever you regain hit points from any source, including from when you wake up and gain 1 hit point after being knocked unconscious or raised from the dead, you can choose to perform a healing surge by expending a hit die, gaining hit points equal to the number rolled plus your Constitution modifier."
 					]
 				}
 			]
@@ -1011,6 +1048,41 @@
 						"If you are a prepared caster, your maximum prepared spells increases by an amount equal to your proficiency bonus.",
 						"If you are a spontaneous caster, you learn an amount of spells equal to half your proficiency bonus (rounded down) from your class' spell list. If you are multiclassed, you may only pick spells from the classes in which you spontaneously cast.",
 						"You learn either the {@spell Magic Dagger|cooms}, {@spell Magic Dart|cooms}, or {@spell Prestidigitation|cooms} cantrip."
+					]
+				}
+			]
+		},
+		{
+			"name": "Tactician",
+			"source": "EntrancedFeats",
+			"page": 8,
+			"reprintedAs":[
+				"Tactician|OOF"
+			],
+			"ability":[
+					{
+					"choose":{
+						"from": [
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+				"entries":[
+				{
+					"entries":[
+						"Through masterful planning, perceptive cunning, or the ability to throw yourself headfirst into any situation you come across, you gain the ability to assert yourself in combat more precisely. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain a bonus to your initiative equal to the modifier of the chosen ability score increase",
+						"Before combat starts, after everybody has rolled initiative, you may choose to willingly lower your initiative by any amount. If there is an ability that affects you if you have not taken your first turn in combat yet, it instead counts your original initiative before you lowered it as being your first turn in combat."
 					]
 				}
 			]
