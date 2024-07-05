@@ -3192,7 +3192,7 @@
 					"type": "entries",
 					"name": "Rapport Spores",
 					"entries": [
-						"As an action, you may extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't undead, constructs, or elementals. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+						"As an action, you may extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't {@filter undead|bestiary|type=undead}, {@filter constructs|bestiary|type=construct}, or {@filter elementals|bestiary|type=elemental}. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
 					]
 				},
 				{
@@ -3229,21 +3229,21 @@
 					"type": "entries",
 					"name": "Plant Nourishment",
 					"entries": [
-						"You gain nourishment in the same way that the plants or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food."
+						"You gain nourishment in the same way that the {@filter plants|bestiary|type=plant} or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Creature Type",
 					"entries": [
-						"You are a Plant."
+						"You are a {@filter Plant|bestiary|type=plant}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand, read and write Common and Undercommon but not speak them."
+						"You can understand, read and write {@language Common} and {@language Undercommon} but not speak them."
 					]
 				}
 			],
@@ -3497,7 +3497,7 @@
 							"items": [
 								"You have vulnerability to Fire damage.",
 								"You are immune to Poison and Necrotic damage",
-								"You are immune to being Asleep, {@condition Charmed}, Diseased, {@condition Exhausted}, {@condition Paralyzed}, {@condition Petrified}, and {@condition Poisoned}.",
+								"You are immune to being Asleep, {@condition Charmed}, Diseased, {@condition Exhaustion|phb|Exhausted}, {@condition Paralyzed}, {@condition Petrified}, and {@condition Poisoned}.",
 								"You don't have to and cannot eat or drink, meaning you can't gain the benefits of potions or food.",
 								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas."
 							]
@@ -3516,6 +3516,134 @@
 					"name": "Languages",
 					"entries": [
 						"You can understand and speak {@language Common} and one other language of its master."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Skaven",
+			"source": "EARL",
+			"page": 74,
+			"ability": [
+				{
+					"con": 2,
+					"dex": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"min": 4,
+				"max": 30
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Uncommon Race",
+				"Natural Weapon",
+				"Skill Proficiency",
+				"Sunlight Sensitivity"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"insight",
+							"perception",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Due to their extremely fast metabolism Skaven can live naturally to the ages of 20 to 30. However, due to their tendency to stab and kill co-workers, they normally live to the age of 4 if they're lucky, where they are finally considered an adult. This short lifespan often causes the more evil or intelligent to waste their later years trying to extend it via dark pacts or magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Skaven, due to their backstabbing nature, will most often turn out Chaotic Evil, as other Skaven take advantage of traits like sympathy and empathy in Skaven culture."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Most Skaven are between 4 to 6 feet tall.Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodsense",
+					"entries": [
+						"If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. {@filter constructs|bestiary|type=construct}, {@filter elementals|bestiary|type=elemental}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, and {@filter undead|bestiary|type=undead} are immune to the effects of this sense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conniving",
+					"entries": [
+						"You are proficient in two of the following skills: {@skill Deception}, {@skill Insight}, {@skill Perception}, {@skill Sleight of Hand}, and {@skill Stealth}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"You are proficient with your bite attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Filthy Plaguebearer",
+					"entries": [
+						"Growing up and spawning in filth has its advantages. You are resistant to poison, have advantage against poison saving throws, and are immune to the effects of diseases. However, you can still spread them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand, read and write {@language Common} and {@language Undercommon}."
 					]
 				}
 			],
