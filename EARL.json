@@ -3005,6 +3005,650 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "M'jol",
+			"source": "EARL",
+			"page": 66,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 20,
+				"max": 50
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Powerful Build"
+			],
+			"resist": [
+				"poison"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"dwarvish": true,
+					"giant": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"M'jols are born with an unfortunate defect that only allows them half the lifespan of humans, even though they age at around the same rate. M'jols that make it past age 50 are considered to be extremely fortunate."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"M'jols are 7-8 feet tall and as wide as any dwarf. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dwarven Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stonecunning",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impotent",
+					"entries": [
+						"Your unique heritage has left you with the unfortunate inability to breed or produce offspring. On top of this, any roll you make for virility is made at disadvantage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Dwarvish, and Giant."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 74,
+				"heightMod": "2d10",
+				"baseWeight": 200,
+				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Myconid",
+			"source": "EARL",
+			"page": 70,
+			"ability": [
+				{
+					"wis": 2,
+					"dex": 1
+				}
+			],
+			"creatureTypes": [
+				"plant"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 25,
+			"age": {
+				"min": 16,
+				"max": 1000
+			},
+			"darkvision": 120,
+			"traitTags": [
+				"Superior Darkvision",
+				"Uncommon Race",
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Myconids reach maturity at 16 years old and can live to be a little over 1000 with the oldest ones becoming sovereigns. Their early life cycle consists of 6 stages every four years. At 24 years old they die unless they undergo a special regiment process to become a sovereign."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most myconids are True Neutral with good myconids are fairly common and evil myconids are very rare."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Myconids range from 4 to 6 feet and weigh 70 to 120 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to the darkness of the underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern colors in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sun Sickness",
+					"entries": [
+						"While in sunlight, you have disadvantage on all ability checks, attack rolls, and saving throws. If you have been in direct sunlight for a minute, you must make a DC 15 Con Save or take {@dice 1d4} radiant damage, with half as much on a successful save. You make this at the end of every minute you spend under the sun."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Distress Spores",
+					"entries": [
+						"When the myconid takes damage, all other myconids within 240 feet of it can sense its pain."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rapport Spores",
+					"entries": [
+						"As an action, you may extend rapport spores in a 20-foot radius. These spores can go around corners and affect only creatures with an Intelligence of 2 or higher that aren't {@filter undead|bestiary|type=undead}, {@filter constructs|bestiary|type=construct}, or {@filter elementals|bestiary|type=elemental}. Affected creatures can communicate telepathically with one another while they are within 30 feet of each other. The effect lasts for 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pacifying Spores",
+					"entries": [
+						"As an action, you can eject spores at one creature you can see within 5 feet of you. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or be stunned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You regain use of this trait once you have completed a short or long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Additional Spore Choice",
+					"entries": [
+						"At 3rd level, you know one additional spore feature from the following list that you can use once per long rest:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Animating Spores.} As an action, you can target one corpse of a humanoid or a Large or smaller beast within 5 feet and release spores at the corpse. In 24 hours, the corpse rises as a {@creature Quaggoth Spore Servant|MM|spore servant} (MM p.231). The corpse stays animated for {@dice 1d4 + 1} days or until destroyed, and it can't be animated again in this way. You can have a number of spore servants under your control at any given time equal to your proficiency bonus.",
+								"{@b Caustic Spores.} As an action, you release spores in a 30-foot cone. Each creature inside the cone must succeed on a Dexterity saving throw equal to 8 + your proficiency modifier + your Constitution modifier or take {@dice 1d6} acid damage at the start of their turns for up to 10 minutes. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success.",
+								"{@b Euphoria Spores.} As an action, you release a cloud of spores in a 20 ft. radius sphere centered on yourself. Other creatures in that area must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition poisoned} for up to 1 hour. While {@condition poisoned} in this way, a creature experiences a successive onslaught of raw pleasure. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success. When the effect ends on a creature, the creature gains 1 level of exhaustion.",
+								"{@b Hallucination Spores.} As an action, you release a trail of spores in a 30-foot line from yourself. Other creatures in that area must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition poisoned} for up to 1 minute. While {@condition poisoned} in this way, they hallucinate. Each creature affected must flip a coin. On a heads, the creature experiences a good trip, and becomes stunned while it hallucinates. On a tails, the creature experiences a bad trip, and becomes frenzied, seeing threats everywhere while it hallucinates. While frenzied, the creature randomly attacks anything close to it, determined by the DM. An affected creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poisonous Punch",
+					"entries": [
+						"Anyone you hit with an unarmed attack must make a Constitution Saving throw equal to 8 + your proficiency modifier + your Constitution modifier or suffer an amount of poison damage equal to the die of your unarmed strike, taking no damage upon a success. For example, a regular mycanoid may only do {@dice 1d2} with this feature, but a mycanoid monk may do a {@dice d4}, {@dice d6}, etc."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Plant Nourishment",
+					"entries": [
+						"You gain nourishment in the same way that the {@filter plants|bestiary|type=plant} or fungi that match your body type normally do, through some combination of photosynthesis, absorbing minerals with your roots, or scavenging decaying matter. You typically do not need to pay for food."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a {@filter Plant|bestiary|type=plant}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand, read and write {@language Common} and {@language Undercommon} but not speak them."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Orc",
+			"source": "EARL",
+			"page": 72,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 12,
+				"max": 50
+			},
+			"darkvision": 60,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"insight",
+							"intimidation",
+							"medicine",
+							"nature",
+							"perception",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"orc": true
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Powerful Build"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Orcs reach adulthood at age 12 and live up to 50 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Orcs tend strongly toward chaos and evil, but some, such as in the case of the Many-Arrows tribe, tend toward law."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Orcs are usually over 6 feet tall and weigh between 230 and 280 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Primal Intuition",
+					"entries": [
+						"You have proficiency in two of the following skills of your choice: {@skill Animal Handling}, {@skill Insight}, {@skill Intimidation}, {@skill Medicine}, {@skill Nature}, {@skill Perception}, and {@skill Survival}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Relentless Endurance",
+					"entries": [
+						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+					]
+				},
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Orc|phb}. {@language Orc|phb} is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Poppet",
+			"source": "EARL",
+			"page": 73,
+			"size": [
+				"S"
+			],
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"speed": 25,
+			"skillProficiencies": [
+				{
+					"nature": true
+				}
+			],
+			"age": {
+				"mature": 0,
+				"max": 2000
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Language Proficiency",
+				"Uncommon Race",
+				"Darkvision"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"creatureTypes": [
+				"construct"
+			],
+			"immune": [
+				"poison",
+				"necrotic"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned",
+				"paralyzed",
+				"petrified",
+				"charmed"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"As long as you don't get killed, you are likely to live very long as you can't die of old age."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Poppets are typically Lawful Neutral, carrying out the orders of their masters unerringly."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Most sentient poppets are between 2 to 3 feet tall. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Construct."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harmless Appearance",
+					"entries": [
+						"While motionless, if you match your surroundings, you are indistinguishable from a regular doll. If your form makes no sense or stands out in its surroundings, you must make a {@skill Stealth} check contested by any onlookers' {@skill Perception} checks, with advantage or disadvantage given out based on how far-fetched your appearance is given the surroundings. If the onlooker(s) are actively looking for you or are attempting to figure out whether or not an object is you, this check may become {@skill Investigation} rather than {@skill Perception}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Living Doll",
+					"entries": [
+						"The spark of life that differentiates you from nonsentient Poppets allows you to talk. However, still, as a construct:",
+						{
+							"type": "list",
+							"items": [
+								"You have vulnerability to Fire damage.",
+								"You are immune to Poison and Necrotic damage",
+								"You are immune to being Asleep, {@condition Charmed}, Diseased, {@condition Exhaustion|phb|Exhausted}, {@condition Paralyzed}, {@condition Petrified}, and {@condition Poisoned}.",
+								"You don't have to and cannot eat or drink, meaning you can't gain the benefits of potions or food.",
+								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Loose Ties",
+					"entries": [
+						"You have disadvantage on Death Saves, as your life is loosely bound to the thread you walk in."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common} and one other language of its master."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Skaven",
+			"source": "EARL",
+			"page": 74,
+			"ability": [
+				{
+					"con": 2,
+					"dex": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"min": 4,
+				"max": 30
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Uncommon Race",
+				"Natural Weapon",
+				"Skill Proficiency",
+				"Sunlight Sensitivity"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"insight",
+							"perception",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Due to their extremely fast metabolism Skaven can live naturally to the ages of 20 to 30. However, due to their tendency to stab and kill co-workers, they normally live to the age of 4 if they're lucky, where they are finally considered an adult. This short lifespan often causes the more evil or intelligent to waste their later years trying to extend it via dark pacts or magic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Skaven, due to their backstabbing nature, will most often turn out Chaotic Evil, as other Skaven take advantage of traits like sympathy and empathy in Skaven culture."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Most Skaven are between 4 to 6 feet tall.Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodsense",
+					"entries": [
+						"If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. {@filter constructs|bestiary|type=construct}, {@filter elementals|bestiary|type=elemental}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, and {@filter undead|bestiary|type=undead} are immune to the effects of this sense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Conniving",
+					"entries": [
+						"You are proficient in two of the following skills: {@skill Deception}, {@skill Insight}, {@skill Perception}, {@skill Sleight of Hand}, and {@skill Stealth}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"You are proficient with your bite attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Filthy Plaguebearer",
+					"entries": [
+						"Growing up and spawning in filth has its advantages. You are resistant to poison, have advantage against poison saving throws, and are immune to the effects of diseases. However, you can still spread them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand, read and write {@language Common} and {@language Undercommon}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	],
 	"subrace": [
@@ -4833,6 +5477,471 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Gourd",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 59,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Hard Rind",
+					"type": "entries",
+					"entries": [
+						"Your gourd, though expressive and articulable to you, is still incredibly hard to others. Whenever you are hit with a critical strike, you may reduce the damage you take by a number of {@dice d4} equal to your proficiency bonus."
+					]
+				},
+				{
+					"name": "Hollow Head",
+					"type": "entries",
+					"entries": [
+						"You have a large, hollow gourd for a skull that you use to store things in. You can store up to 10 lbs worth of items within your head. Additionally, if you store only one object within your head, you can draw it effortlessly into your hand as part of the Use an Object or Attack action."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Leaf",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 60,
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Favorable Winds",
+					"type": "entries",
+					"entries": [
+						"When you dash, you are carried away by winds, and can move an additional amount of feet equal to 5 times your proficiency bonus."
+					]
+				},
+				{
+					"name": "Graceful Falls",
+					"type": "entries",
+					"entries": [
+						"Your body is made mostly from natural foliage, and like a leaf tumbling from a tree, you land from falls with particular grace. You have proficiency in the {@skill Acrobatics} skill and the maximum damage you can take from any fall is {@dice 1d6}, as you reach your terminal velocity at 10 feet of falling."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lotus",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 61,
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true,
+					"performance": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Natural Beauty",
+					"type": "entries",
+					"entries": [
+						"Your grace and elegance flows in every move you do. You have proficiency in {@skill Acrobatics} and {@skill Performance}."
+					]
+				},
+				{
+					"name": "Water Walking",
+					"type": "entries",
+					"entries": [
+						"You can walk on the surface of still water, and it counts as difficult terrain for you. Flowing water requires an {@skill Acrobatics} check to balance on it with a DC equal to its DC to swim with an {@skill Athletics} check."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pine",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 61,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Natural Armor"
+			],
+			"entries": [
+				{
+					"name": "Natural Armor",
+					"type": "entries",
+					"entries": [
+						"Your body is covered in tough bark and littered with needles. When you aren't wearing armor, your AC is 13 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+						"On top of this, anybody who attacks you with an unarmed strike takes {@dice 1d4} piercing damage."
+					]
+				},
+				{
+					"name": "Sticky Sap",
+					"type": "entries",
+					"entries": [
+						"You have a sticky sap that excretes from your body, making climbing, grappling, and holding onto your gear easier. You have a bonus to {@skill Athletics} checks and Strength saving throws equal to your Constitution modifier, minimum of 0. This bonus does not apply while you are underwater or airborne."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Root",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 62,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Hearty Roots",
+					"type": "entries",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					]
+				},
+				{
+					"name": "Sure Footing",
+					"type": "entries",
+					"entries": [
+						"You have proficiency in {@skill Athletics} and, while you are not airborne, swimming, or mounting a creature, you have advantage on Strength saving throws."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Seaweed",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 63,
+			"ability": [
+				{
+					"con": 2,
+					"dex": 1
+				}
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"entries": [
+				{
+					"name": "Tangled Form",
+					"type": "entries",
+					"entries": [
+						"You have advantage on all grapple checks."
+					]
+				},
+				{
+					"name": "Underwater Habitat",
+					"type": "entries",
+					"entries": [
+						"You are used to life in the water, and gain a swimming speed equal to your walking speed. You can also breathe underwater."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sunflower",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 64,
+			"ability": [
+				{
+					"int": 2,
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Sun Sense",
+					"type": "entries",
+					"entries": [
+						"Sunflower Leshies have an innate obsession with the sun that affords them many benefits. You always know what direction is north and you always know what time it is, as you can sense the sun's location in the sky even without seeing it."
+					]
+				},
+				{
+					"name": "Seed Spray",
+					"type": "entries",
+					"entries": [
+						"When you take the attack action on your turn, you can replace one of your attacks with an attack unique to your kind. You launch a deluge of seeds from your head in a 15-foot cone. Creatures in the area must make a Dexterity saving throw versus your Constitution DC or take a number of {@dice d6} bludgeoning damage equal to your proficiency bonus, with half as much on a successful save. You can use this feature a number of times per long rest equal to your Constitution modifier (minimum of 1)."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Vine",
+			"source": "EARL",
+			"raceName": "Leshy",
+			"raceSource": "EARL",
+			"page": 65,
+			"ability": [
+				{
+					"dex": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Spellcasting"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"additionalSpells": [
+				{
+					"ability": "dex",
+					"known": {
+						"1": [
+							"thorn whip#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Lashing Vines",
+					"type": "entries",
+					"entries": [
+						"You know the {@spell Thorn Whip|phb} cantrip and can cast it innately using Dexterity as your spellcasting ability."
+					]
+				},
+				{
+					"name": "Creeping Climbers",
+					"type": "entries",
+					"entries": [
+						"You gain a climbing speed equal to your walking speed, and climbing for you does not require hands."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Duergar",
+			"source": "EARL",
+			"raceName": "M'jol",
+			"raceSource": "EARL",
+			"page": 66,
+			"ability": [
+				{
+					"con": 2,
+					"cha": 1
+				}
+			],
+			"traitTags": [
+				"Spellcasting",
+				"Weapon Proficiency",
+				"Tool Proficiency"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"enlarge/reduce"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"invisibility"
+								]
+							}
+						}
+					},
+					"ability": "con"
+				}
+			],
+			"entries": [
+				{
+					"name": "Duergar Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
+					],
+					"data": {
+						"overwrite": "Dwarven Resilience"
+					},
+					"type": "entries"
+				},
+				{
+					"name": "Duergar Magic",
+					"entries": [
+						"When you reach 3rd level, you can cast the {@spell Enlarge/Reduce} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell Invisibility} spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Natural Athlete.} You have proficiency in the {@skill Athletics} skill.",
+						"{@b Mountain Born.} You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet.",
+						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
+						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
+						"{@b Stone's Endurance.} You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": false
+		},
+		{
+			"name": "Hill",
+			"source": "EARL",
+			"raceName": "M'jol",
+			"raceSource": "EARL",
+			"page": 67,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"traitTags": [
+				"Weapon Proficiency",
+				"Tool Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Natural Athlete",
+					"entries": [
+						"You have proficiency in the {@skill Athletics} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dwarven Toughness",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Mountain Born.} You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet.",
+						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
+						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
+						"{@b Stone's Endurance.} You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": false
+		},
+		{
+			"name": "Mountain",
+			"source": "EARL",
+			"raceName": "M'jol",
+			"raceSource": "EARL",
+			"page": 69,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Weapon Proficiency",
+				"Tool Proficiency"
+			],
+			"entries": [
+				{
+					"name": "Mountain Born",
+					"entries": [
+						"You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dwarven Toughness",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Natural Athlete.} You have proficiency in the {@skill Athletics} skill.",
+						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
+						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
+						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
+						"{@b Stone's Endurance.} You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.",
+						"{@b Dwarven Armor Training.} You have proficiency with light and medium armor."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": false
 		}
 	]
 }

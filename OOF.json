@@ -54,6 +54,52 @@
 			]
 		},
 		{
+			"name": "Angelic Wings",
+			"source": "EntrancedFeats",
+			"Page": 1,
+			"reprintedAs": [
+				"Angelic Wings|OOF"
+			],
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Aasimar"
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your connection with the outer planes has increased, allowing your planetouched nature to manifest more readily and obviously, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Your healing hands now heals an additional amount equal to your Constitution modifier (minimum of 0).",
+						"You grow a pair of feathered, angelic wings from your back, giving you a flight speed equal to your walking speed. For Fallen Aasimar, these wings are batlike."
+					]
+				},
+				{
+					"entries":[
+						"You also gain an additional benefit depending on what type of Aasimar you are:"
+					],
+					"type": "entries"
+				},
+				{
+					"type":"list",
+					"items": [
+						"Fallen Aasimar's Necrotic Shroud's frighten now lasts for 1 minute, and creatures can save at the end of their turns, ending the effect early on a success. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
+						"Protector Aasimar's Radiant Soul now increases your flight speed by 30 feet while it is active. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
+						"Scourge Aasimar's Radiant Consumption no longer damages you. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0)."
+					]
+				}
+			]
+		},
+		{
 			"name": "Athlete",
 			"source": "EntrancedFeats",
 			"Page": 1,
@@ -436,6 +482,34 @@
 			]
 		},
 		{
+			"name": "Fortitude",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"reprintedAs": [
+				"Fortitude|OOF"
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You're filled with vigor, and cling on to the life you live with every fiber of your being. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on Constitution saving throws when attempting to Bestir.",
+						"When you are reduced to zero hit points but are not killed outright, you can make a Constitution saving throw whose DC is equal to the damage taken. On a success, you may perform a healing surge by expending a hit die, gaining hit points equal to the number rolled plus your Constitution modifier. You may do this a number of times per long rest equal to your proficiency bonus. However, if you successfully do this two or more times before finishing your next long rest, you gain a Tier of {@condition exhaustion|phb} for each time you succeed after the first."
+					]
+				}
+			]
+		},
+		{
 			"name": "Gunner",
 			"source": "EntrancedFeats",
 			"page": 4,
@@ -518,6 +592,36 @@
 						"When you use this feature, you may simultaneously cast {@spell Motivational Speech|cooms} if you have it as a spell. When you do so, you may additively stack the temporary hit points given by the Motivational Speech with those given by this feat if the targets of the spell and feat intersect."
 					],
 					"type": "entries"
+				}
+			]
+		},
+		{
+		"name": "Keen Mind",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"reprintedAs":[
+				"Keen Mind|OOF"
+			],
+			"ability":[
+				{
+					"int":1
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You always know which way is north.",
+						"You always know the number of hours left before the next sunrise or sunset.",
+						"You can accurately recall anything you have seen or heard within the past month.",
+						"If you have the ability to Restudy, you can do so with a bonus action once per long rest. This counts towards your maximum number of Restudies for the day, and is instantaneous instead of over the course of an hour."
+					]
 				}
 			]
 		},
@@ -623,6 +727,35 @@
 			]
 		},
 		{
+			"name": "Name-Brand Crafter",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Name-Brand Crafter|OOF"
+			],
+			"prerequisite":[
+				{
+					"other":"Proficiency with a tool"
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You've become efficient with the tools of your trade, and are well on the way to being recognized locally for your skills. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"The time it takes to create an item using your proficient tools is halved.",
+						"If you fail to successfully craft a nonmagical item with your proficient tools and would lose the components, you retain the components instead.",
+						"Whenever you craft an item using tools that you are proficient in, the item can be marked by your signature at your discretion. This can be a logo, crest, or other form of marking to indicate its origin was yours."
+					]
+				}
+			]
+		},
+		{
 			"name": "Opportunist",
 			"source": "EntrancedFeats",
 			"page": 6,
@@ -692,6 +825,100 @@
 						"All polearms gain the Double property for you. Polearms that did not have the Double property allow you to use a bonus action to make a melee attack with the opposite end of the weapon whenever you take the attack action with said weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and it deals bludgeoning damage.",
 						"When you use a bardiche, spear, trident, or war scythe, its damage die changes from a {@dice 1d6} to a {@dice 1d8}, and from a {@dice 1d8} to a {@dice 1d10} when wielded with two hands. When you use a quarterstaff, both its regular attack and secondary attack's damage die increase from {@dice 1d4} to {@dice 1d6}. When you use a javelin, its damage increases to a {@dice d8} and its range increases to (80/320). When you use a yklwa, its damage increases to a {@dice 1d10} and its range increases to (20/60). ",
 						"While you are wielding a polearm, other creatures provoke an {@action opportunity attack|phb} from you when they enter the reach you have with that weapon. If you hit them with that {@action opportunity attack|phb}, they cannot move within 5 feet of you for the duration of their turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Potent Breath Weapon",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Potent Breath Weapon|OOF"
+			],
+			"prerequisite":[
+				{
+					"other":"Breath Weapon Attack"
+				}
+			],
+			"ability":[
+				{
+					"con":"1"
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Much like a dragon as they grow older, your breath weapon has increased in power as you have gotten stronger, granting you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"The range of your Breath Weapon doubles. If it was a 15-foot cone, it would beome a 30-foot cone. If it was a 5 by 30 foot line, it would become a 5 by 60 foot line.",
+						"You may add your Constitution modifier to the damage of your Breath Weapon."
+					]
+				}
+			]
+		},
+		{
+			"name": "Primordial Breath Weapon",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Primordial Breath Weapon|OOF"
+			],
+			"prerequisite":[
+				{
+					"other":"Breath Weapon Attack"
+				}
+			],
+			"ability":[
+				{
+					"con":"1"
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your natural affinity with primordial magic has increased, and your connection to your Breath Weapon's damage type has granted you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You now regain all uses of your Breath Weapon on a short or long rest.",
+						"Whenever you use your Breath Weapon, you gain immunity to its damage type until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Remarkable Recovery",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"reprintedAs":[
+				"Remarkable Recovery|OOF"
+			],
+			"ability":[
+				{
+					"con":"1"
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your body has the ability to recover quickly from mortal wounds, and is unusually receptive to healing magic. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"Whenever you are raised from the dead, you do not suffer any of the penalties that other creatures do as a result of being raised.",
+						"IWhenever you regain hit points from any source, including from when you wake up and gain 1 hit point after being knocked unconscious or raised from the dead, you can choose to perform a healing surge by expending a hit die, gaining hit points equal to the number rolled plus your Constitution modifier."
 					]
 				}
 			]
