@@ -3203,7 +3203,7 @@
 					]
 				},
 				{
-					"type": "entries",
+					"type": "inset",
 					"name": "Additional Spore Choice",
 					"entries": [
 						"At 3rd level, you know one additional spore feature from the following list that you can use once per long rest:",
