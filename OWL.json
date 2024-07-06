@@ -1,0 +1,194 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "OWL",
+				"abbreviation": "OWL",
+				"full": "Optic's Weapons List",
+				"authors": [
+					"Entranced Optics"
+				],
+				"convertedBy": [
+					"Beasty"
+				],
+				"version": "1.0.0",
+				"url": "https://docs.google.com/document/d/1c8aZFEpGUrM5BEoHMLVzUlmD3Rz0Y78kv4wAFYXr338",
+				"color": "#18b300"
+			}
+		]
+	},
+	"baseitem": [
+		{
+			"name": "Bagh Nakh",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 700,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "2d2",
+			"dmgType": "S",
+			"bagh nakh": true,
+			"weapon": true
+		},
+		{
+			"name": "Blackjack",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 20,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d2",
+			"dmgType": "B",
+			"blackjack": true,
+			"weapon": true
+		},
+		{
+			"name": "Bo Staff",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 50,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "B",
+			"dmg2": "1d8",
+			"bo staff": true,
+			"weapon": true
+		},
+		{
+			"name": "Brass Knuckles",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2.5,
+			"value": 85,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "2d2",
+			"dmgType": "B",
+			"brass knuckles": true,
+			"weapon": true
+		},
+		{
+			"name": "Cane",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"cane": true,
+			"weapon": true
+		},
+		{
+			"name": "Claw Hammer",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d2",
+			"dmgType": "B",
+			"claw hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Club",
+			"source": "OWL",
+			"page": 1,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"L"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"club": true,
+			"weapon": true
+		},
+		{
+			"name": "Crowbar",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"dmg2": "1d6",
+			"crowbar": true,
+			"weapon": true
+		},
+		{
+			"name": "Dagger",
+			"source": "OWL",
+			"page": 1,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1,
+			"value": 200,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dagger": true,
+			"weapon": true
+		}
+	]
+}
