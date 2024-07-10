@@ -3435,6 +3435,7 @@
 				"poisoned",
 				"paralyzed",
 				"petrified",
+				"disease",
 				"charmed"
 			],
 			"entries": [
@@ -3645,6 +3646,253 @@
 					"entries": [
 						"You can understand, read and write {@language Common} and {@language Undercommon}."
 					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Thri-kreen (Tribal)",
+			"source": "EARL",
+			"page": 75,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 5,
+				"max": 35
+			},
+			"darkvision": 60,
+			"weaponProficiencies": [
+				{
+					"Gythka": true,
+					"Chatkcha": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Language Proficiency",
+				"Uncommon Race",
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chameleon Carapace",
+					"entries": [
+						"While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.",
+						"As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity ({@skill Stealth}) checks made to hide in those surroundings."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Standing Leap",
+					"entries": [
+						"While you aren't wearing heavy or medium armor, your long jump is up to 30 feet and your high jump is up to 15 feet, with or without a running start."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sleepless",
+					"entries": [
+						"You do not require sleep, are incapable of doing so, and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Secondary Arms",
+					"entries": [
+						"You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property. You may also use your primary and secondary arms to make an unarmed attack. When you do so, you roll twice the die you normally do, and the damage type is changed to slashing. For example, a regular thri-kreen may deal {@dice 2d2} slashing damage with their unarmed strike, but a monk may deal {@dice 2d4} or higher as their die increases."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Insect Mouth",
+					"entries": [
+						"Without the assistance of magic, you can't speak the non-thri-kreen languages you know. However, your mouth enables you to make a special unarmed attack in which you use your poisonous bite. A creature hit by your bite takes {@dice 1d6} piercing damage and must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition Poisoned} for 1 minute. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success. At level 5, your bite becomes so toxic that enemies {@condition Poisoned} in this way are also {@condition Paralyzed}."
+					]
+				},
+				{
+					"name": "Thri-kreen Weapon Training",
+					"entries": [
+						"You have proficiency with the Gythka and the Chatkcha."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Troglodyte",
+			"source": "EARL",
+			"page": 77,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"age": {
+				"mature": 15,
+				"max": 50
+			},
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"troglodyte": true
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Uncommon Race",
+				"Natural Weapon",
+				"Sunlight Sensitivity"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Due to their tribal lifestyle, they are considered adults at the age of 15 and usually live to a maximum of 50 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Troglodytes constantly war with nearby settlements, convinced the world was full of creatures seeking to kill them, a self-fulfilling prophecy that leads them towards Chaotic Evil."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"type": "entries",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodsense",
+					"entries": [
+						"If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. {@filter constructs|bestiary|type=construct}, {@filter elementals|bestiary|type=elemental}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, and {@filter undead|bestiary|type=undead} are immune to the effects of this sense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fearsmell",
+					"entries": [
+						"Your ability to smell is so refined that you can literally smell the fear given off nearby creatures. Among the creatures affected by your bloodsense, you are able to determine which among them has the lowest HP, as you can smell who is most afraid. Any creatures immune to being {@condition frightened} are likewise exempt from this ability. This ability is also disrupted if any of those creatures are {@condition frightened}, as you always smell them as being the most afraid. If multiple creatures within your bloodsense are {@condition frightened}, the creature with the lowest HP is who you can smell as being the most afraid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"You are proficient with your claw attack, which is a melee weapon attack that deals {@dice 1d4} piercing damage plus your Strength modifier, and can be made to attack as a bonus action if one is free to do so."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Stench",
+					"entries": [
+						"Any creature that can smell other than a troglodyte that starts its turn within 5 feet of you must succeed on a Constitution saving throw versus your Constitution DC (8 + Proficiency Bonus + Constitution modifier) or be {@condition poisoned} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour."
+					]
+				},
+				{
+					"name": "Chameleon Skin",
+					"entries": [
+						"You have advantage on Dexterity ({@skill Stealth}) checks made to hide."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Violent Savagery",
+					"type": "entries",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"type": "entries",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Troglodyte|mm}."
+					],
+					"type": "entries"
 				}
 			],
 			"hasFluff": true,
