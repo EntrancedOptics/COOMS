@@ -382,7 +382,7 @@
 				{
 					"type": "list",
 					"items":[
-						"While under the effects of alcohol, your hit point maximum increases to a number equal to your current level.",
+						"While under the effects of alcohol, your hit point maximum increases by a number equal to your current level.",
 						"You can use an action to perform a healing surge by expending a hit die, gaining hit points equal to the number you rolled plus your Constitution modifier."
 					]
 				}
