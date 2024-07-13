@@ -293,23 +293,21 @@
 					]
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"known": [
-						"detect magic"
-					]
-				},
-				{
-					"inate":{
-						"daily":{
-							"1":[
-								"levitate",
-								"dispel magic"
-							]
-						},
-						"ability":[
-							"con"
-						]
+					"ability": "cha",
+					"innate": {
+						"_": {
+							"will": [
+								"detect magic"
+							],
+							"daily": {
+								"1e": [
+									"levitate",
+									"dispel magic"
+								]
+							}
+						}
 					}
 				}
 			],
@@ -394,6 +392,15 @@
 			"page": 3,
 			"reprintedAs": [
 				"Fell Handed|OOF"
+			],
+			"weaponProficiencies": [
+				{
+					"handaxe": true,
+					"battleaxe": true,
+					"greataxe": true,
+					"warhammer": true,
+					"maul": true
+				}
 			],
 			"entries": [
 				{
@@ -679,7 +686,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the {@filter 1st-level spell|spells|level=1|school=D;E} archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the Battlemaster archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
 						"You gain two superiority dice, which are {@dice d6} (this die is added to any superiority dice you have from another source). The dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
 					]
 				}
