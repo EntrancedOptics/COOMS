@@ -567,7 +567,7 @@
 			],
 			"weaponProficiencies":[
 				{
-					"Firearms":"true"
+					"Firearms": true
 				}
 			],
 			"entries": [
