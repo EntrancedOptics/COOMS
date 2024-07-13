@@ -709,13 +709,15 @@
 					"medicine": true
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"dote"
-						]
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"dote"
+								]
+							}
 						}
 					}
 				}
@@ -986,17 +988,17 @@
 					}
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"invisibility"
-						]
-					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"invisibility"
+								]
+							}
+						}
 					}
 				}
 			],
@@ -1202,18 +1204,25 @@
 					]
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"longstrider",
-							"pass without a trace"
-						]
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"longstrider",
+									"pass without trace"
+								]
+							}
+						}
 					},
-					"ability": [
-						"con"
-					]
+					"known":{
+						"_":[
+							{
+								"choose": "level=0|class=druid"
+							}
+						]
 					}
 				}
 			],
