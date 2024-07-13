@@ -454,16 +454,16 @@
 			],
 			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"misty step"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				}
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"misty step"
+								]
+							}
+						}
+					}
 				}
 			],
 			"entries": [
