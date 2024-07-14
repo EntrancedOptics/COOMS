@@ -1038,6 +1038,48 @@
 			]
 		},
 		{
+			"name": "Svirfneblin Magic",
+			"source": "EntrancedFeats",
+			"page": 8,
+			"reprintedAs":[
+				"Svirfneblin Magic|OOF"
+			],
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Gnome (deep)"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"blindness/deafness",
+									"blur",
+									"disguise self"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast nondetection on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: {@spell blindness/deafness|phb}, {@spell blur|phb}, and {@spell disguise self|phb}. You regain the ability to cast these spells when you finish a long rest.",
+						"Constitution is your spellcasting ability for these spells, and you cast them at their lowest possible levels."
+					],
+					"type":"entries"
+				}
+			]
+		},
+		{
 			"name": "Synchronized",
 			"source": "EntrancedFeats",
 			"page": 8,
