@@ -153,6 +153,28 @@
 			"weapon": true
 		},
 		{
+			"name": "Composite Shortbow",
+			"source": "OWL",
+			"page": 2,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "100/400",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
 			"name": "Crowbar",
 			"source": "OWL",
 			"page": 1,
@@ -191,6 +213,28 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"dagger": true,
+			"weapon": true
+		},
+		{
+			"name": "Dart",
+			"source": "OWL",
+			"page": 2,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "2d2",
+			"dmgType": "P",
+			"dart": true,
 			"weapon": true
 		},
 		{
@@ -336,6 +380,29 @@
 			"weapon": true
 		},
 		{
+			"name": "Light Crossbow",
+			"source": "OWL",
+			"page": 2,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"LD",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
 			"name": "Light Hammer",
 			"source": "OWL",
 			"page": 1,
@@ -370,6 +437,28 @@
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Needle",
+			"source": "OWL",
+			"page": 2,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 5,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"needle": true,
 			"weapon": true
 		},
 		{
@@ -475,6 +564,28 @@
 			"weapon": true
 		},
 		{
+			"name": "Shortbow",
+			"source": "OWL",
+			"page": 2,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "simple",
+			"property": [
+				"A",
+				"2H"
+			],
+			"range": "80/320",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
+		},
+		{
 			"name": "Shovel",
 			"source": "OWL",
 			"page": 1,
@@ -492,6 +603,28 @@
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"shovel": true,
+			"weapon": true
+		},
+		{
+			"name": "Shuriken",
+			"source": "OWL",
+			"page": 2,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.45,
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"shuriken": true,
 			"weapon": true
 		},
 		{
@@ -532,6 +665,27 @@
 			"dmgType": "B",
 			"sledgehammer": true,
 			"weapon": true
+		},
+		{
+			"name": "Sling",
+			"source": "OWL",
+			"page": 2,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 0.01,
+			"value": 10,
+			"weaponCategory": "simple",
+			"property": [
+				"A"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"sling": true,
+			"weapon": true,
+			"ammoType": "sling bullet|phb"
 		},
 		{
 			"name": "Small Knife",
