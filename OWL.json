@@ -120,6 +120,29 @@
 			"weapon": true
 		},
 		{
+			"name": "Blowgun",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"AD",
+				"A",
+				"LD"
+			],
+			"range": "25/100",
+			"dmg1": "1d2",
+			"dmgType": "P",
+			"blowgun": true,
+			"weapon": true,
+			"ammoType": "blowgun needle|phb"
+		},
+		{
 			"name": "Bo Staff",
 			"source": "OWL",
 			"page": 1,
@@ -137,6 +160,27 @@
 			"dmgType": "B",
 			"dmg2": "1d8",
 			"staff": true,
+			"weapon": true
+		},
+		{
+			"name": "Bolas",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 1,
+			"value": 25,
+			"weaponCategory": "martial",
+			"property": [
+				"TRI",
+				"T"
+			],
+			"range": "5/15",
+			"dmg1": "0",
+			"dmgType": "P",
+			"bolas": true,
 			"weapon": true
 		},
 		{
@@ -221,6 +265,28 @@
 			"weapon": true
 		},
 		{
+			"name": "Chatkcha",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 0.65,
+			"value": 400,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"chatkcha": true,
+			"weapon": true
+		},
+		{
 			"name": "Claw Hammer",
 			"source": "OWL",
 			"page": 1,
@@ -256,6 +322,29 @@
 			"dmgType": "B",
 			"club": true,
 			"weapon": true
+		},
+		{
+			"name": "Composite Longbow",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 10000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "200/800",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
 		},
 		{
 			"name": "Composite Shortbow",
@@ -697,6 +786,29 @@
 			"weapon": true
 		},
 		{
+			"name": "Hand Crossbow",
+			"source": "OWL",
+			"page": 5,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 7500,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"L",
+				"LD"
+			],
+			"range": "30/120",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
+		},
+		{
 			"name": "Handaxe",
 			"source": "OWL",
 			"page": 1,
@@ -716,6 +828,30 @@
 			"dmgType": "S",
 			"handaxe": true,
 			"weapon": true
+		},
+		{
+			"name": "Heavy Crossbow",
+			"source": "OWL",
+			"page": 5,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "none",
+			"weight": 18,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"LD",
+				"2H"
+			],
+			"range": "100/400",
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"crossbow": true,
+			"weapon": true,
+			"ammoType": "crossbow bolt|phb"
 		},
 		{
 			"name": "Hoe",
@@ -916,7 +1052,7 @@
 			"property": [
 				"F",
 				"R",
-				"TR",
+				"TRI",
 				"2H",
 				"V"
 			],
@@ -989,6 +1125,29 @@
 			"dmgType": "B",
 			"light hammer": true,
 			"weapon": true
+		},
+		{
+			"name": "Longbow",
+			"source": "OWL",
+			"page": 5,
+			"srd": true,
+			"basicRules": true,
+			"type": "R",
+			"rarity": "none",
+			"weight": 2,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"A",
+				"H",
+				"2H"
+			],
+			"range": "150/600",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"bow": true,
+			"weapon": true,
+			"ammoType": "arrow|phb"
 		},
 		{
 			"name": "Longsword",
@@ -1104,6 +1263,25 @@
 			"dmg1": "1d4",
 			"dmgType": "P",
 			"needle": true,
+			"weapon": true
+		},
+		{
+			"name": "Net",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 100,
+			"weaponCategory": "martial",
+			"property": [
+				"TRA",
+				"T"
+			],
+			"range": "5/15",
+			"net": true,
 			"weapon": true
 		},
 		{
@@ -1872,6 +2050,20 @@
 	],
 	"itemProperty": [
 		{
+			"abbreviation": "AD",
+			"source": "OWL",
+			"page": 11,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Administrative",
+					"entries": [
+						"The ammunition for this weapon is made specifically for the purpose of delivering poisons. When you coat the ammunition for this weapon in a poison or oil, you are able to apply the substance to 10 pieces of its ammunition instead of the amount listed on the given coating."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "D",
 			"source": "OWL",
 			"page": 11,
@@ -1942,7 +2134,21 @@
 			]
 		},
 		{
-			"abbreviation": "TR",
+			"abbreviation": "TRA",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Trapping",
+					"entries": [
+						"A Large or smaller creature hit by a trapping weapon is Restrained until it is freed. A trapping weapon has no Effect on Creatures that are formless, or Creatures that are Huge or larger. A creature can use its Action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the trapping weapon (AC 10) also frees the creature without harming it, Ending the Effect and destroying the trapping weapon. When you use an Action, bonus Action, or Reaction to Attack with a trapping weapon, you can make only one Attack regardless of the number of attacks you can normally make."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "TRI",
 			"source": "OWL",
 			"page": 12,
 			"entries": [
