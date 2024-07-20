@@ -68,8 +68,8 @@
 			"page": 6,
 			"type": "AF",
 			"rarity": "none",
-			"weight": 0.2,
-			"value": 30
+			"weight": 0.3,
+			"value": 50
 		},
 		{
 			"name": "Bardiche",
@@ -202,8 +202,8 @@
 			"page": 6,
 			"type": "AF",
 			"rarity": "none",
-			"weight": 0.2,
-			"value": 30
+			"weight": 0.01,
+			"value": 2
 		},
 		{
 			"name": "Bo Staff",
@@ -265,6 +265,25 @@
 			"weapon": true
 		},
 		{
+			"name": "Breastplate",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "none",
+			"weight": 20,
+			"value": 40000,
+			"ac": 14,
+			"armor": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+			]
+		},
+		{
 			"name": "Cane",
 			"source": "OWL",
 			"page": 1,
@@ -311,8 +330,48 @@
 			"page": 6,
 			"type": "AF",
 			"rarity": "none",
-			"weight": 0.2,
-			"value": 30
+			"weight": 8,
+			"value": 100
+		},
+		{
+			"name": "Chain Mail",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "none",
+			"weight": 55,
+			"value": 7500,
+			"ac": 16,
+			"strength": "13",
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit includes gauntlets."
+			]
+		},
+		{
+			"name": "Chain Shirt",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "none",
+			"weight": 20,
+			"value": 5000,
+			"ac": 13,
+			"armor": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers."
+			]
 		},
 		{
 			"name": "Chakram",
@@ -895,6 +954,26 @@
 			"weapon": true
 		},
 		{
+			"name": "Half Plate Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "none",
+			"weight": 40,
+			"value": 75000,
+			"ac": 15,
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"Half plate consists of shaped metal plates that cover most of the wearer's body. It does not include leg protection beyond simple greaves that are attached with leather straps."
+			]
+		},
+		{
 			"name": "Hand Cannon",
 			"source": "OWL",
 			"page": 6,
@@ -983,6 +1062,25 @@
 			"crossbow": true,
 			"weapon": true,
 			"ammoType": "crossbow bolt|phb"
+		},
+		{
+			"name": "Hide Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "none",
+			"weight": 12,
+			"value": 1000,
+			"ac": 12,
+			"armor": true,
+			"property": [
+				"LEATHER"
+			],
+			"entries": [
+				"This crude armor consists of thick furs and pelts. It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor."
+			]
 		},
 		{
 			"name": "Hoe",
@@ -1212,6 +1310,25 @@
 			"dmgType": "P",
 			"lance": true,
 			"weapon": true
+		},
+		{
+			"name": "Leather Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "LA",
+			"rarity": "none",
+			"weight": 10,
+			"value": 1000,
+			"ac": 11,
+			"armor": true,
+			"property": [
+				"LEATHER"
+			],
+			"entries": [
+				"The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials."
+			]
 		},
 		{
 			"name": "Light Crossbow",
@@ -1499,6 +1616,26 @@
 			]
 		},
 		{
+			"name": "Padded Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "LA",
+			"rarity": "none",
+			"weight": 8,
+			"value": 500,
+			"ac": 11,
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"CLOTH"
+			],
+			"entries": [
+				"Padded armor consists of quilted layers of cloth and batting."
+			]
+		},
+		{
 			"name": "Pickaxe",
 			"source": "OWL",
 			"page": 1,
@@ -1580,6 +1717,27 @@
 			"dmgType": "P",
 			"pitchfork": true,
 			"weapon": true
+		},
+		{
+			"name": "Plate Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "none",
+			"weight": 65,
+			"value": 150000,
+			"ac": 18,
+			"strength": "15",
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body."
+			]
 		},
 		{
 			"name": "Quarterstaff",
@@ -1678,6 +1836,26 @@
 			]
 		},
 		{
+			"name": "Ring Mail",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "none",
+			"weight": 40,
+			"value": 3000,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"This armor is leather armor with heavy rings sewn into it. The rings help reinforce the armor against blows from swords and axes. Ring mail is inferior to chain mail, and it's usually worn only by those who can't afford better armor."
+			]
+		},
+		{
 			"name": "Rod",
 			"source": "OWL",
 			"page": 7,
@@ -1710,6 +1888,26 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true
+		},
+		{
+			"name": "Scale Mail",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "MA",
+			"rarity": "none",
+			"weight": 45,
+			"value": 5000,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish. The suit includes gauntlets."
+			]
 		},
 		{
 			"name": "Scimitar",
@@ -1941,6 +2139,24 @@
 			"weapon": true
 		},
 		{
+			"name": "Spiked Armor",
+			"source": "OWL",
+			"page": 8,
+			"type": "MA",
+			"rarity": "none",
+			"weight": 45,
+			"value": 7500,
+			"ac": 14,
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"LEATHER"
+			],
+			"entries": [
+				"Spiked armor is a rare type of medium armor made by dwarves. It consists of a leather coat and leggings covered with spikes that are usually made of metal."
+			]
+		},
+		{
 			"name": "Spiked Knuckles",
 			"source": "OWL",
 			"page": 2,
@@ -1958,6 +2174,67 @@
 			"dmgType": "P",
 			"spiked knuckles": true,
 			"weapon": true
+		},
+		{
+			"name": "Spiked Leather Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": false,
+			"basicRules": false,
+			"type": "LA",
+			"rarity": "none",
+			"weight": 15,
+			"value": 6000,
+			"ac": 12,
+			"armor": true,
+			"property": [
+				"LEATHER"
+			],
+			"entries": [
+				"Made from tough but flexible leather by dwarves, spiked leather consists of a leather coat and leggings covered with spikes that are usually made of metal."
+			]
+		},
+		{
+			"name": "Spiked Mail Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "none",
+			"weight": 70,
+			"value": 175000,
+			"ac": 18,
+			"strength": "15",
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. The suit is made by dwarves to include spikes in the rivets, along with a pair of gauntlets."
+			]
+		},
+		{
+			"name": "Splint Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "HA",
+			"rarity": "none",
+			"weight": 60,
+			"value": 20000,
+			"ac": 17,
+			"strength": "15",
+			"armor": true,
+			"stealth": true,
+			"property": [
+				"METAL"
+			],
+			"entries": [
+				"This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. Flexible chain mail protects the joints."
+			]
 		},
 		{
 			"name": "Staff",
@@ -1980,6 +2257,25 @@
 			"dmgType": "B",
 			"dmg2": "1d6",
 			"staff": true
+		},
+		{
+			"name": "Studded Leather Armor",
+			"source": "OWL",
+			"page": 8,
+			"srd": true,
+			"basicRules": true,
+			"type": "LA",
+			"rarity": "none",
+			"weight": 13,
+			"value": 4500,
+			"ac": 12,
+			"armor": true,
+			"property": [
+				"LEATHER"
+			],
+			"entries": [
+				"Made from tough but flexible leather, studded leather is reinforced with close-set rivets or spikes."
+			]
 		},
 		{
 			"name": "Tanto",
@@ -2411,6 +2707,20 @@
 			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)"
 		},
 		{
+			"abbreviation": "CLOTH",
+			"source": "OWL",
+			"page": 8,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Cloth",
+					"entries": [
+						"This item is made out of cloth."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "CRYSTAL",
 			"source": "OWL",
 			"page": 7,
@@ -2476,6 +2786,20 @@
 					"name": "Half-Sword",
 					"entries": [
 						"This weapon allows the user to wield the sword partly up the blade for use in hilt strikes within close-range combat. While a target is within 5 feet of the wielder, they can choose to make a melee weapon attack for {@dice 1d4} damage, ignoring the Distance property of the weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LEATHER",
+			"source": "OWL",
+			"page": 8,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Leather",
+					"entries": [
+						"This item is made out of leather."
 					]
 				}
 			]
