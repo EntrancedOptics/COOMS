@@ -41,6 +41,67 @@
 			"weapon": true
 		},
 		{
+			"name": "Bardiche",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3.5,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"dmg2": "1d8",
+			"bardiche": true,
+			"weapon": true
+		},
+		{
+			"name": "Bastard Sword",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2.5,
+			"value": 1400,
+			"weaponCategory": "martial",
+			"property": [
+				"L",
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "2d4",
+			"bastard sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Battleaxe",
+			"source": "OWL",
+			"page": 3,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"axe": true,
+			"weapon": true
+		},
+		{
 			"name": "Blackjack",
 			"source": "OWL",
 			"page": 1,
@@ -113,6 +174,50 @@
 			"dmg1": "1d4",
 			"dmgType": "B",
 			"cane": true,
+			"weapon": true
+		},
+		{
+			"name": "Canesword",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"HD",
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"dmg2": "1d8",
+			"canesword": true,
+			"weapon": true
+		},
+		{
+			"name": "Chakram",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1.5,
+			"value": 1200,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "30/120",
+			"dmg1": "2d2",
+			"dmgType": "S",
+			"chakram": true,
 			"weapon": true
 		},
 		{
@@ -194,6 +299,43 @@
 			"weapon": true
 		},
 		{
+			"name": "Curved Greatsword",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 7.5,
+			"value": 12500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"curved greatsword": true,
+			"weapon": true
+		},
+		{
+			"name": "Cutlass",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2800,
+			"weaponCategory": "martial",
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"cutlass": true,
+			"weapon": true
+		},
+		{
 			"name": "Dagger",
 			"source": "OWL",
 			"page": 1,
@@ -238,6 +380,198 @@
 			"weapon": true
 		},
 		{
+			"name": "Dire Flail",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 8,
+			"value": 9000,
+			"weaponCategory": "martial",
+			"property": [
+				"D",
+				"F",
+				"H",
+				"2H"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d4",
+			"dire flail": true,
+			"weapon": true
+		},
+		{
+			"name": "Double Axe",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 6000,
+			"weaponCategory": "martial",
+			"property": [
+				"D",
+				"H",
+				"2H"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"double axe": true,
+			"weapon": true
+		},
+		{
+			"name": "Double-Bladed Scimitar",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 10000,
+			"weaponCategory": "martial",
+			"property": [
+				"D",
+				"F",
+				"2H"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"double-bladed scimitar": true,
+			"weapon": true
+		},
+		{
+			"name": "Dual-Pronged Spear",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 4000,
+			"weaponCategory": "martial",
+			"property": [
+				"D",
+				"F",
+				"T",
+				"2H"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d6",
+			"dual-pronged spear": true,
+			"weapon": true
+		},
+		{
+			"name": "Estoc",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2.5,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"dmg2": "1d10",
+			"estoc": true,
+			"weapon": true
+		},
+		{
+			"name": "Falchion",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"H"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"falchion": true,
+			"weapon": true
+		},
+		{
+			"name": "Flail",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"flail": true,
+			"weapon": true
+		},
+		{
+			"name": "Glaive",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "S",
+			"polearm": true,
+			"weapon": true
+		},
+		{
+			"name": "Greataxe",
+			"source": "OWL",
+			"page": 3,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 7,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "S",
+			"axe": true,
+			"weapon": true
+		},
+		{
 			"name": "Greatclub",
 			"source": "OWL",
 			"page": 1,
@@ -254,6 +588,112 @@
 			"dmg1": "1d8",
 			"dmgType": "B",
 			"greatclub": true,
+			"weapon": true
+		},
+		{
+			"name": "Greatmace",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "B",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Greatscythe",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d10",
+			"dmgType": "P",
+			"polearm": true,
+			"weapon": true
+		},
+		{
+			"name": "Greatsword",
+			"source": "OWL",
+			"page": 3,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Gythka",
+			"source": "OWL",
+			"page": 3,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 5500,
+			"weaponCategory": "martial",
+			"property": [
+				"D",
+				"F",
+				"2H"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"dmg2": "1d4",
+			"gythka": true,
+			"weapon": true
+		},
+		{
+			"name": "Halberd",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "2d5",
+			"dmgType": "S",
+			"polearm": true,
 			"weapon": true
 		},
 		{
@@ -294,6 +734,27 @@
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"hoe": true,
+			"weapon": true
+		},
+		{
+			"name": "Hooked Hammer",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 8,
+			"value": 6000,
+			"weaponCategory": "martial",
+			"property": [
+				"D",
+				"2H"
+			],
+			"dmg1": "2d4",
+			"dmgType": "P",
+			"dmg2": "1d4",
+			"hooked hammer": true,
 			"weapon": true
 		},
 		{
@@ -380,6 +841,112 @@
 			"weapon": true
 		},
 		{
+			"name": "Katana",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2.5,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "2d5",
+			"katana": true,
+			"weapon": true
+		},
+		{
+			"name": "Khopesh",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2.5,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "2d3",
+			"dmgType": "S",
+			"khopesh": true,
+			"weapon": true
+		},
+		{
+			"name": "Kukri",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"kukri": true,
+			"weapon": true
+		},
+		{
+			"name": "Kusarigama",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 5,
+			"value": 4500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R",
+				"TR",
+				"2H",
+				"V"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dmg2": "0",
+			"kusarigama": true,
+			"weapon": true
+		},
+		{
+			"name": "Lance",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"DS",
+				"MO",
+				"R"
+			],
+			"dmg1": "3d4",
+			"dmgType": "P",
+			"lance": true,
+			"weapon": true
+		},
+		{
 			"name": "Light Crossbow",
 			"source": "OWL",
 			"page": 2,
@@ -424,6 +991,26 @@
 			"weapon": true
 		},
 		{
+			"name": "Longsword",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"sword": true,
+			"weapon": true
+		},
+		{
 			"name": "Mace",
 			"source": "OWL",
 			"page": 1,
@@ -436,6 +1023,64 @@
 			"weaponCategory": "simple",
 			"dmg1": "1d6",
 			"dmgType": "B",
+			"mace": true,
+			"weapon": true
+		},
+		{
+			"name": "Mambele",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3.5,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "30/120",
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"mambele": true,
+			"weapon": true
+		},
+		{
+			"name": "Maul",
+			"source": "OWL",
+			"page": 4,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 10,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "B",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Morningstar",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"dmg1": "2d4",
+			"dmgType": "P",
 			"mace": true,
 			"weapon": true
 		},
@@ -462,6 +1107,28 @@
 			"weapon": true
 		},
 		{
+			"name": "Nunchaku",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L",
+				"V"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"dmg2": "2d4",
+			"nunchaku": true,
+			"weapon": true
+		},
+		{
 			"name": "Pickaxe",
 			"source": "OWL",
 			"page": 1,
@@ -482,9 +1149,30 @@
 			"weapon": true
 		},
 		{
+			"name": "Pike",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 18,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "1d12",
+			"dmgType": "P",
+			"pike": true,
+			"weapon": true
+		},
+		{
 			"name": "Pitchfork",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -506,7 +1194,7 @@
 		{
 			"name": "Quarterstaff",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -515,8 +1203,8 @@
 			"value": 20,
 			"weaponCategory": "simple",
 			"property": [
-				"F",
-				"D"
+				"D",
+				"F"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -527,7 +1215,7 @@
 		{
 			"name": "Rake",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -544,9 +1232,89 @@
 			"weapon": true
 		},
 		{
+			"name": "Ranseur",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 6,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "2d5",
+			"dmgType": "P",
+			"ranseur": true,
+			"weapon": true
+		},
+		{
+			"name": "Rapier",
+			"source": "OWL",
+			"page": 4,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Sabre",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3.5,
+			"value": 3000,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
+			"name": "Scimitar",
+			"source": "OWL",
+			"page": 4,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"sword": true,
+			"weapon": true
+		},
+		{
 			"name": "Scythe",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -586,9 +1354,29 @@
 			"ammoType": "arrow|phb"
 		},
 		{
+			"name": "Shortsword",
+			"source": "OWL",
+			"page": 4,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"sword": true,
+			"weapon": true
+		},
+		{
 			"name": "Shovel",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -630,7 +1418,7 @@
 		{
 			"name": "Sickle",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"type": "M",
 			"rarity": "none",
@@ -649,7 +1437,7 @@
 		{
 			"name": "Sledgehammer",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -690,7 +1478,7 @@
 		{
 			"name": "Small Knife",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -712,7 +1500,7 @@
 		{
 			"name": "Spear",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -735,7 +1523,7 @@
 		{
 			"name": "Spiked Knuckles",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -752,9 +1540,51 @@
 			"weapon": true
 		},
 		{
+			"name": "Tanto",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1.5,
+			"value": 350,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L",
+				"V"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dmg2": "1d6",
+			"tanto": true,
+			"weapon": true
+		},
+		{
+			"name": "Tessen",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "2d2",
+			"dmgType": "S",
+			"tessen": true,
+			"weapon": true
+		},
+		{
 			"name": "Tongs",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -771,9 +1601,212 @@
 			"weapon": true
 		},
 		{
+			"name": "Trident",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"V",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "1d6",
+			"dmgType": "P",
+			"dmg2": "1d8",
+			"trident": true,
+			"weapon": true
+		},
+		{
+			"name": "Urgosh",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 12,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"D",
+				"H",
+				"2H"
+			],
+			"dmg1": "2d4",
+			"dmgType": "S",
+			"dmg2": "1d4",
+			"urgosh": true,
+			"weapon": true
+		},
+		{
+			"name": "Urumi",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 5500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "3d2",
+			"dmgType": "S",
+			"urumi": true,
+			"weapon": true
+		},
+		{
+			"name": "Wakizashi",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"L",
+				"V"
+			],
+			"dmg1": "2d2",
+			"dmgType": "S",
+			"dmg2": "1d6",
+			"wakizashi": true,
+			"weapon": true
+		},
+		{
+			"name": "War Cleaver",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 2000,
+			"weaponCategory": "martial",
+			"property": [
+				"H",
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"war cleaver": true,
+			"weapon": true
+		},
+		{
+			"name": "War Fan",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 4,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"F"
+			],
+			"dmg1": "2d3",
+			"dmgType": "S",
+			"war fan": true,
+			"weapon": true
+		},
+		{
+			"name": "War Pick",
+			"source": "OWL",
+			"page": 5,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "martial",
+			"dmg1": "1d8",
+			"dmgType": "P",
+			"war pick": true,
+			"weapon": true
+		},
+		{
+			"name": "War Scythe",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 500,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"V"
+			],
+			"dmg1": "1d6",
+			"dmgType": "S",
+			"dmg2": "1d8",
+			"war scythe": true,
+			"weapon": true
+		},
+		{
+			"name": "Warhammer",
+			"source": "OWL",
+			"page": 5,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1500,
+			"weaponCategory": "martial",
+			"property": [
+				"V"
+			],
+			"dmg1": "1d8",
+			"dmgType": "B",
+			"dmg2": "1d10",
+			"hammer": true,
+			"weapon": true
+		},
+		{
+			"name": "Whip",
+			"source": "OWL",
+			"page": 5,
+			"srd": true,
+			"basicRules": true,
+			"type": "M",
+			"rarity": "none",
+			"weight": 3,
+			"value": 200,
+			"weaponCategory": "martial",
+			"property": [
+				"F",
+				"R"
+			],
+			"dmg1": "1d4",
+			"dmgType": "S",
+			"whip": true,
+			"weapon": true
+		},
+		{
 			"name": "Wrench",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -794,7 +1827,7 @@
 		{
 			"name": "Yklwa",
 			"source": "OWL",
-			"page": 1,
+			"page": 2,
 			"srd": false,
 			"basicRules": false,
 			"type": "M",
@@ -811,19 +1844,113 @@
 			"dmgType": "P",
 			"yklwa": true,
 			"weapon": true
+		},
+		{
+			"name": "Zweihander",
+			"source": "OWL",
+			"page": 5,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 8,
+			"value": 8000,
+			"weaponCategory": "martial",
+			"property": [
+				"DS",
+				"HS",
+				"H",
+				"R",
+				"2H"
+			],
+			"dmg1": "2d6",
+			"dmgType": "S",
+			"dmg2": "1d4",
+			"Zweihander": true,
+			"weapon": true
 		}
 	],
 	"itemProperty": [
 		{
 			"abbreviation": "D",
 			"source": "OWL",
-			"page": 10,
+			"page": 11,
 			"entries": [
 				{
 					"type": "entries",
 					"name": "Double",
 					"entries": [
 						"If you attack with a double weapon as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it, dealing less damage than the original hit."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DS",
+			"source": "OWL",
+			"page": 11,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Distance",
+					"entries": [
+						"You have disadvantage when you use a distance weapon to Attack a target within 5 feet of you."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "HD",
+			"source": "OWL",
+			"page": 11,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hidden",
+					"entries": [
+						"This weapon is easily concealable. Any creature attempting to discern that this item is a weapon does so at disadvantage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "HS",
+			"source": "OWL",
+			"page": 11,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Half-Sword",
+					"entries": [
+						"This weapon allows the user to wield the sword partly up the blade for use in hilt strikes within close-range combat. While a target is within 5 feet of the wielder, they can choose to make a melee weapon attack for {@dice 1d4} damage, ignoring the Distance property of the weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MO",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mounted",
+					"entries": [
+						"This weapon requires two hands to wield when you aren’t mounted."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "TR",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tripping",
+					"entries": [
+						"A Large or smaller creature hit by a tripping weapon is Prone until it is freed. A tripping weapon has no Effect on Creatures that are formless, or Creatures that are Huge or larger. A creature can use its Action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the tripping weapon (AC 10) also frees the creature without harming it, Ending the Effect and destroying the tripping weapon."
 					]
 				}
 			]
