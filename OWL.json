@@ -22,6 +22,28 @@
 	},
 	"baseitem": [
 		{
+			"name": "Arquebus",
+			"source": "OWL",
+			"page": 6,
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 800000,
+			"weaponCategory": "martial",
+			"property": [
+				"AFS",
+				"H",
+				"2H",
+				"RE"
+			],
+			"range": "40/120",
+			"dmg1": "5d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "musket ball|owl"
+		},
+		{
 			"name": "Bagh Nakh",
 			"source": "OWL",
 			"page": 1,
@@ -39,6 +61,15 @@
 			"dmgType": "S",
 			"bagh nakh": true,
 			"weapon": true
+		},
+		{
+			"name": "Ballet",
+			"source": "OWL",
+			"page": 6,
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.2,
+			"value": 30
 		},
 		{
 			"name": "Bardiche",
@@ -143,6 +174,38 @@
 			"ammoType": "blowgun needle|phb"
 		},
 		{
+			"name": "Blunderbuss",
+			"source": "OWL",
+			"page": 6,
+			"type": "R",
+			"rarity": "none",
+			"weight": 12,
+			"value": 3000000,
+			"weaponCategory": "martial",
+			"property": [
+				"AFS",
+				"H",
+				"2H",
+				"REB"
+			],
+			"range": "25/75",
+			"reload": 8,
+			"dmg1": "8d4",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "blunderbuss shot|owl"
+		},
+		{
+			"name": "Blunderbuss Shot",
+			"source": "OWL",
+			"page": 6,
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.2,
+			"value": 30
+		},
+		{
 			"name": "Bo Staff",
 			"source": "OWL",
 			"page": 1,
@@ -241,6 +304,15 @@
 			"dmg2": "1d8",
 			"canesword": true,
 			"weapon": true
+		},
+		{
+			"name": "Cannonball",
+			"source": "OWL",
+			"page": 6,
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.2,
+			"value": 30
 		},
 		{
 			"name": "Chakram",
@@ -641,6 +713,28 @@
 			"weapon": true
 		},
 		{
+			"name": "Gonne",
+			"source": "OWL",
+			"page": 6,
+			"type": "R",
+			"rarity": "none",
+			"weight": 35,
+			"value": 150000,
+			"weaponCategory": "martial",
+			"property": [
+				"AFS",
+				"H",
+				"2H",
+				"REG"
+			],
+			"range": "35/105",
+			"dmg1": "3d8",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "ballet|owl"
+		},
+		{
 			"name": "Greataxe",
 			"source": "OWL",
 			"page": 3,
@@ -784,6 +878,28 @@
 			"dmgType": "S",
 			"polearm": true,
 			"weapon": true
+		},
+		{
+			"name": "Hand Cannon",
+			"source": "OWL",
+			"page": 6,
+			"type": "R",
+			"rarity": "none",
+			"weight": 50,
+			"value": 4500000,
+			"weaponCategory": "martial",
+			"property": [
+				"AFS",
+				"H",
+				"2H",
+				"REC"
+			],
+			"range": "45/135",
+			"dmg1": "8d8",
+			"dmgType": "B",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "cannonball|owl"
 		},
 		{
 			"name": "Hand Crossbow",
@@ -1244,6 +1360,37 @@
 			"weapon": true
 		},
 		{
+			"name": "Musket",
+			"source": "OWL",
+			"page": 6,
+			"type": "R",
+			"rarity": "none",
+			"weight": 10,
+			"value": 2500000,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"H",
+				"2H",
+				"RE"
+			],
+			"range": "40/120",
+			"dmg1": "5d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "musket ball|owl"
+		},
+		{
+			"name": "Musket Ball",
+			"source": "OWL",
+			"page": 6,
+			"type": "AF",
+			"rarity": "none",
+			"weight": 0.2,
+			"value": 30
+		},
+		{
 			"name": "Needle",
 			"source": "OWL",
 			"page": 2,
@@ -1346,6 +1493,26 @@
 			"dmgType": "P",
 			"pike": true,
 			"weapon": true
+		},
+		{
+			"name": "Pistol",
+			"source": "OWL",
+			"page": 6,
+			"type": "R",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2000000,
+			"weaponCategory": "martial",
+			"property": [
+				"AF",
+				"RE"
+			],
+			"range": "30/90",
+			"dmg1": "4d6",
+			"dmgType": "P",
+			"firearm": true,
+			"weapon": true,
+			"ammoType": "musket ball|owl"
 		},
 		{
 			"name": "Pitchfork",
@@ -2064,6 +2231,23 @@
 			]
 		},
 		{
+			"abbreviation": "AFS",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ammunition (Slowmatch dependant)",
+					"entries": [
+						"You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack. Loading a one-handed weapon requires a free hand. The ammunition of a firearm is destroyed upon use.",
+						"If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon. A sling must be loaded to deal any damage when used in this way.",
+						"Making a ranged attack with a weapon that has the (slowmatch dependant) property requires slowmatch to be used."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)"
+		},
+		{
 			"abbreviation": "D",
 			"source": "OWL",
 			"page": 11,
@@ -2129,6 +2313,63 @@
 					"name": "Mounted",
 					"entries": [
 						"This weapon requires two hands to wield when you aren’t mounted."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RE",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. This weapon takes 1 minute to reload in which black powder from a powderhorn and a musket ball are used."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REB",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. This weapon takes 1 minute to reload in which black powder from a powderhorn and 8 blunderbuss shots are used."
+					]
+				}
+			],
+			"template": "{{prop_name}} ({{item.reload}} shots)"
+		},
+		{
+			"abbreviation": "REC",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. This weapon takes 1 minute to reload in which black powder from a powderhorn, a cannonball, and a ram rod are used."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REG",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make. This weapon takes 1 minute to reload in which black powder from a powderhorn, a ballet, and a ram rod are used."
 					]
 				}
 			]
