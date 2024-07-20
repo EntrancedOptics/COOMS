@@ -460,6 +460,21 @@
 			"weapon": true
 		},
 		{
+			"name": "Crystal",
+			"source": "OWL",
+			"page": 7,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"property": [
+				"CRYSTAL"
+			]
+		},
+		{
 			"name": "Curved Greatsword",
 			"source": "OWL",
 			"page": 3,
@@ -1344,6 +1359,21 @@
 			"weapon": true
 		},
 		{
+			"name": "Mistletoe Sprig",
+			"source": "OWL",
+			"page": 7,
+			"srd": false,
+			"basicRules": false,
+			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "none",
+			"weight": 0.03,
+			"value": 100,
+			"property": [
+				"WOOD"
+			]
+		},
+		{
 			"name": "Morningstar",
 			"source": "OWL",
 			"page": 4,
@@ -1452,6 +1482,21 @@
 			"dmg2": "2d4",
 			"nunchaku": true,
 			"weapon": true
+		},
+		{
+			"name": "Orb",
+			"source": "OWL",
+			"page": 7,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2000,
+			"property": [
+				"CRYSTAL"
+			]
 		},
 		{
 			"name": "Pickaxe",
@@ -1616,6 +1661,36 @@
 			"dmgType": "P",
 			"sword": true,
 			"weapon": true
+		},
+		{
+			"name": "Reliquary",
+			"source": "OWL",
+			"page": 7,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "holy",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"property": [
+				"METAL"
+			]
+		},
+		{
+			"name": "Rod",
+			"source": "OWL",
+			"page": 7,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 2,
+			"value": 1000,
+			"property": [
+				"METAL"
+			]
 		},
 		{
 			"name": "Sabre",
@@ -1885,6 +1960,28 @@
 			"weapon": true
 		},
 		{
+			"name": "Staff",
+			"source": "OWL",
+			"page": 7,
+			"srd": false,
+			"basicRules": false,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"METAL",
+				"F",
+				"V"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"dmg2": "1d6",
+			"staff": true
+		},
+		{
 			"name": "Tanto",
 			"source": "OWL",
 			"page": 4,
@@ -1944,6 +2041,21 @@
 			"dmgType": "B",
 			"tongs": true,
 			"weapon": true
+		},
+		{
+			"name": "Totem",
+			"source": "OWL",
+			"page": 7,
+			"srd": false,
+			"basicRules": false,
+			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "none",
+			"weight": 4,
+			"value": 100,
+			"property": [
+				"WOOD"
+			]
 		},
 		{
 			"name": "Trident",
@@ -2030,6 +2142,21 @@
 			"dmg2": "1d6",
 			"wakizashi": true,
 			"weapon": true
+		},
+		{
+			"name": "Wand",
+			"source": "OWL",
+			"page": 7,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"property": [
+				"WOOD"
+			]
 		},
 		{
 			"name": "War Cleaver",
@@ -2149,6 +2276,27 @@
 			"weapon": true
 		},
 		{
+			"name": "Wooden Staff",
+			"source": "OWL",
+			"page": 7,
+			"srd": false,
+			"basicRules": false,
+			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "none",
+			"weight": 2,
+			"value": 500,
+			"weaponCategory": "simple",
+			"property": [
+				"WOOD",
+				"F",
+				"V"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"dmg2": "1d6"
+		},
+		{
 			"name": "Wrench",
 			"source": "OWL",
 			"page": 2,
@@ -2168,6 +2316,21 @@
 			"dmgType": "B",
 			"wrench": true,
 			"weapon": true
+		},
+		{
+			"name": "Yew Wand",
+			"source": "OWL",
+			"page": 7,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "none",
+			"weight": 1,
+			"value": 1000,
+			"property": [
+				"WOOD"
+			]
 		},
 		{
 			"name": "Yklwa",
@@ -2248,6 +2411,20 @@
 			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)"
 		},
 		{
+			"abbreviation": "CRYSTAL",
+			"source": "OWL",
+			"page": 7,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Crystal",
+					"entries": [
+						"This item is made out of Crystal."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "D",
 			"source": "OWL",
 			"page": 11,
@@ -2299,6 +2476,20 @@
 					"name": "Half-Sword",
 					"entries": [
 						"This weapon allows the user to wield the sword partly up the blade for use in hilt strikes within close-range combat. While a target is within 5 feet of the wielder, they can choose to make a melee weapon attack for {@dice 1d4} damage, ignoring the Distance property of the weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "METAL",
+			"source": "OWL",
+			"page": 7,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Metal",
+					"entries": [
+						"This item is made out of metal."
 					]
 				}
 			]
@@ -2398,6 +2589,20 @@
 					"name": "Tripping",
 					"entries": [
 						"A Large or smaller creature hit by a tripping weapon is Prone until it is freed. A tripping weapon has no Effect on Creatures that are formless, or Creatures that are Huge or larger. A creature can use its Action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the tripping weapon (AC 10) also frees the creature without harming it, Ending the Effect and destroying the tripping weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "WOOD",
+			"source": "OWL",
+			"page": 7,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Wood",
+					"entries": [
+						"This item is made out of Wood."
 					]
 				}
 			]
