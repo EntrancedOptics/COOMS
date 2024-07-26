@@ -164,7 +164,8 @@
 			"property": [
 				"AD",
 				"A",
-				"LD"
+				"LD",
+				"S"
 			],
 			"range": "25/100",
 			"dmg1": "1d2",
@@ -183,7 +184,7 @@
 			"value": 3000000,
 			"weaponCategory": "martial",
 			"property": [
-				"AFS",
+				"AF",
 				"H",
 				"2H",
 				"REB"
@@ -238,7 +239,8 @@
 			"weaponCategory": "martial",
 			"property": [
 				"TRI",
-				"T"
+				"T",
+				"S"
 			],
 			"range": "5/15",
 			"dmg1": "0",
@@ -281,6 +283,53 @@
 			],
 			"entries": [
 				"This armor consists of a fitted metal chest piece worn with supple leather. Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered."
+			]
+		},
+		{
+			"name": "Buckler",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 2,
+			"value": 200,
+			"ac": 0,
+			"property": [
+				"PARRY",
+				"WO",
+				"METAL",
+				"PS"
+			],
+			"dmg1": "1d2",
+			"dmgType": "B",
+			"entries": [
+				"A buckler is a small metal shield and is carried in one hand. Whilst it provides no benefit to armor class, it can be used to parry attacks. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"name": "Caestus",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 0.5,
+			"value": 75,
+			"ac": 0,
+			"property": [
+				"L",
+				"PARRY",
+				"WO",
+				"LEATHER",
+				"PS"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"A caestus is a padded glove made of hard leather straps and metal rivets worn by one hand. Whilst it provides no benefit to armor class, it can be used to parry attacks. You can benefit from only one shield at a time."
 			]
 		},
 		{
@@ -500,6 +549,50 @@
 			"ammoType": "arrow|phb"
 		},
 		{
+			"name": "Crest Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 6,
+			"value": 1000,
+			"ac": 2,
+			"property": [
+				"WO",
+				"METAL",
+				"MS"
+			],
+			"dmg1": "1d2",
+			"dmgType": "B",
+			"entries": [
+				"A crest shield is made from metal and is carried in one hand. Wielding a medium shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
+			"name": "Cross Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 5.5,
+			"value": 1200,
+			"ac": 2,
+			"property": [
+				"WO",
+				"WOOD",
+				"MS"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"A cross shield is a wooden shield with a metal cross in the middle. Wielding a medium shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
 			"name": "Crowbar",
 			"source": "OWL",
 			"page": 1,
@@ -629,7 +722,8 @@
 				"D",
 				"F",
 				"H",
-				"2H"
+				"2H",
+				"S"
 			],
 			"dmg1": "1d8",
 			"dmgType": "B",
@@ -651,7 +745,8 @@
 			"property": [
 				"D",
 				"H",
-				"2H"
+				"2H",
+				"S"
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
@@ -673,7 +768,8 @@
 			"property": [
 				"D",
 				"F",
-				"2H"
+				"2H",
+				"S"
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
@@ -696,7 +792,8 @@
 				"D",
 				"F",
 				"T",
-				"2H"
+				"2H",
+				"S"
 			],
 			"range": "20/60",
 			"dmg1": "1d6",
@@ -890,6 +987,26 @@
 			"weapon": true
 		},
 		{
+			"name": "Greatshield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 18,
+			"value": 10000,
+			"ac": 3,
+			"strength": "15",
+			"property": [
+				"METAL",
+				"HVS"
+			],
+			"entries": [
+				"A greatshield is a large metal shield covering most of the body. Wielding a heavy shield increases your Armor Class by 3. You can benefit from only one shield at a time."
+			]
+		},
+		{
 			"name": "Greatsword",
 			"source": "OWL",
 			"page": 3,
@@ -923,7 +1040,8 @@
 			"property": [
 				"D",
 				"F",
-				"2H"
+				"2H",
+				"S"
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
@@ -1040,6 +1158,29 @@
 			"weapon": true
 		},
 		{
+			"name": "Heater Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 4,
+			"value": 500,
+			"ac": 1,
+			"property": [
+				"LPARRY",
+				"WO",
+				"METAL",
+				"LS"
+			],
+			"dmg1": "1d2",
+			"dmgType": "B",
+			"entries": [
+				"A heater shield is slightly smaller metal shield shaped as a reuleaux triangle and is carried in one hand. Wielding a light shield increases your Armor Class by 1. You can benefit from only one shield at a time."
+			]
+		},
+		{
 			"name": "Heavy Crossbow",
 			"source": "OWL",
 			"page": 5,
@@ -1114,7 +1255,8 @@
 			"weaponCategory": "martial",
 			"property": [
 				"D",
-				"2H"
+				"2H",
+				"S"
 			],
 			"dmg1": "2d4",
 			"dmgType": "P",
@@ -1191,7 +1333,7 @@
 			"basicRules": false,
 			"type": "M",
 			"rarity": "none",
-			"weight": 0.6,
+			"weight": 0.60,
 			"value": 300,
 			"weaponCategory": "simple",
 			"property": [
@@ -1246,6 +1388,28 @@
 			"weapon": true
 		},
 		{
+			"name": "Kite Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 5,
+			"value": 800,
+			"ac": 2,
+			"property": [
+				"WO",
+				"WOOD",
+				"MS"
+			],
+			"dmg1": "1d2",
+			"dmgType": "B",
+			"entries": [
+				"A kite shield is made from wood and is carried in one hand. Wielding a medium shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
 			"name": "Kukri",
 			"source": "OWL",
 			"page": 4,
@@ -1283,7 +1447,8 @@
 				"R",
 				"TRI",
 				"2H",
-				"V"
+				"V",
+				"S"
 			],
 			"dmg1": "1d4",
 			"dmgType": "P",
@@ -1304,12 +1469,38 @@
 			"property": [
 				"DS",
 				"MO",
-				"R"
+				"R",
+				"S"
 			],
 			"dmg1": "3d4",
 			"dmgType": "P",
 			"lance": true,
 			"weapon": true
+		},
+		{
+			"name": "Lantern Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 12,
+			"value": 5000,
+			"ac": 1,
+			"strength": "13",
+			"property": [
+				"LANTERN",
+				"LPARRY",
+				"WO",
+				"METAL",
+				"LS"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"A lantern shield is a small round metal shield with a lantern integrated on its inside with a hook. The lantern can be used similar to a hooded lantern whilst the shield is wielded. Wielding a light shield increases your Armor Class by 1. You can benefit from only one shield at a time."
+			]
 		},
 		{
 			"name": "Leather Armor",
@@ -1432,6 +1623,31 @@
 			"dmgType": "B",
 			"mace": true,
 			"weapon": true
+		},
+		{
+			"name": "Main-gauche",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 1,
+			"value": 250,
+			"ac": 0,
+			"property": [
+				"F",
+				"HO",
+				"LPARRY",
+				"WO",
+				"METAL",
+				"PS"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"A main-gauche is a small metal dagger with a slightly larger guard than normal. Whilst it provides no benefit to armor class, it can be used to parry attacks. You can benefit from only one shield at a time."
+			]
 		},
 		{
 			"name": "Mambele",
@@ -1572,7 +1788,8 @@
 			"weaponCategory": "martial",
 			"property": [
 				"TRA",
-				"T"
+				"T",
+				"S"
 			],
 			"range": "5/15",
 			"net": true,
@@ -1654,6 +1871,29 @@
 			"dmg2": "1d8",
 			"pickaxe": true,
 			"weapon": true
+		},
+		{
+			"name": "Pierce Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 3.5,
+			"value": 600,
+			"ac": 1,
+			"property": [
+				"LPARRY",
+				"WO",
+				"WOOD",
+				"LS"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"A pierce shield is a round wooden shield with a large protrusion in the center. Wielding a light shield increases your Armor Class by 1. You can benefit from only one shield at a time."
+			]
 		},
 		{
 			"name": "Pike",
@@ -1752,7 +1992,8 @@
 			"weaponCategory": "simple",
 			"property": [
 				"D",
-				"F"
+				"F",
+				"S"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -1821,6 +2062,30 @@
 			"weapon": true
 		},
 		{
+			"name": "Reaper",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 8,
+			"value": 9500,
+			"weaponCategory": "martial",
+			"property": [
+				"D",
+				"F",
+				"H",
+				"2H",
+				"S"
+			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d4",
+			"sword": true,
+			"weapon": true
+		},
+		{
 			"name": "Reliquary",
 			"source": "OWL",
 			"page": 7,
@@ -1871,6 +2136,29 @@
 			]
 		},
 		{
+			"name": "Round Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 3,
+			"value": 300,
+			"ac": 1,
+			"property": [
+				"LPARRY",
+				"WO",
+				"WOOD",
+				"LS"
+			],
+			"dmg1": "1d2",
+			"dmgType": "B",
+			"entries": [
+				"A round shield is a round wooden shield. Wielding a light shield increases your Armor Class by 1. You can benefit from only one shield at a time."
+			]
+		},
+		{
 			"name": "Sabre",
 			"source": "OWL",
 			"page": 4,
@@ -1888,6 +2176,31 @@
 			"dmgType": "S",
 			"sword": true,
 			"weapon": true
+		},
+		{
+			"name": "Sai",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 1.5,
+			"value": 300,
+			"ac": 0,
+			"property": [
+				"F",
+				"HO",
+				"LPARRY",
+				"WO",
+				"METAL",
+				"PS"
+			],
+			"dmg1": "2d2",
+			"dmgType": "P",
+			"entries": [
+				"A sai is a pointed metal dagger with a large two pronged guard called a yoku. Whilst it provides no benefit to armor class, it can be used to parry attacks. You can benefit from only one shield at a time."
+			]
 		},
 		{
 			"name": "Scale Mail",
@@ -2216,6 +2529,28 @@
 			]
 		},
 		{
+			"name": "Spiked Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 8,
+			"value": 1500,
+			"ac": 2,
+			"property": [
+				"WO",
+				"METAL",
+				"MS"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"entries": [
+				"A spiked shield is made from metal with spikes sticking out from it, whilst being carried in one hand. Wielding a medium shield increases your Armor Class by 2. You can benefit from only one shield at a time."
+			]
+		},
+		{
 			"name": "Splint Armor",
 			"source": "OWL",
 			"page": 8,
@@ -2300,6 +2635,30 @@
 			"weapon": true
 		},
 		{
+			"name": "Targe",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 1.5,
+			"value": 100,
+			"ac": 0,
+			"property": [
+				"PARRY",
+				"WO",
+				"WOOD",
+				"LEATHER",
+				"PS"
+			],
+			"dmg1": "1d2",
+			"dmgType": "B",
+			"entries": [
+				"A targe is a small round shield made of either wood or leather. Whilst it provides no benefit to armor class, it can be used to parry attacks. You can benefit from only one shield at a time."
+			]
+		},
+		{
 			"name": "Tessen",
 			"source": "OWL",
 			"page": 4,
@@ -2354,6 +2713,26 @@
 			]
 		},
 		{
+			"name": "Tower Shield",
+			"source": "OWL",
+			"page": 9,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 12,
+			"value": 2500,
+			"ac": 3,
+			"strength": "13",
+			"property": [
+				"WOOD",
+				"HVS"
+			],
+			"entries": [
+				"A tower shield is a large wooden shield shaped like a tower to cover most of the body. Wielding a heavy shield increases your Armor Class by 3. You can benefit from only one shield at a time."
+			]
+		},
+		{
 			"name": "Trident",
 			"source": "OWL",
 			"page": 4,
@@ -2390,7 +2769,8 @@
 			"property": [
 				"D",
 				"H",
-				"2H"
+				"2H",
+				"S"
 			],
 			"dmg1": "2d4",
 			"dmgType": "S",
@@ -2665,7 +3045,8 @@
 				"HS",
 				"H",
 				"R",
-				"2H"
+				"2H",
+				"S"
 			],
 			"dmg1": "2d6",
 			"dmgType": "S",
@@ -2777,6 +3158,20 @@
 			]
 		},
 		{
+			"abbreviation": "HO",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Holstered",
+					"entries": [
+						"This shield is actually a weapon kept in a sheath or holster, and thus can be drawn as a bonus action. This means that the shield is qualified as being held, rather than equipped, meaning it can be disarmed and dropped."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "HS",
 			"source": "OWL",
 			"page": 11,
@@ -2791,6 +3186,34 @@
 			]
 		},
 		{
+			"abbreviation": "HVS",
+			"source": "OWL",
+			"page": 9,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Heavy Shield",
+					"entries": [
+						"This item is a heavy shield."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LANTERN",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lantern",
+					"entries": [
+						"This shield may be held with a lamp or lantern in the same hand hooked onto the shield."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "LEATHER",
 			"source": "OWL",
 			"page": 8,
@@ -2800,6 +3223,34 @@
 					"name": "Leather",
 					"entries": [
 						"This item is made out of leather."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LPARRY",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light Parrying",
+					"entries": [
+						"If you have proficiency in light shields, while using this shield, you may make a reaction against a melee attack roll that hits you, allowing you to reduce the damage roll's outcome (before vulnerability or resistance is calculated) by a number of {@dice d2} equal to your proficiency bonus plus your Dexterity modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LS",
+			"source": "OWL",
+			"page": 9,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Light Shield",
+					"entries": [
+						"This item is a light shield."
 					]
 				}
 			]
@@ -2827,7 +3278,49 @@
 					"type": "entries",
 					"name": "Mounted",
 					"entries": [
-						"This weapon requires two hands to wield when you aren’t mounted."
+						"This weapon requires two hands to wield when you aren't mounted."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MS",
+			"source": "OWL",
+			"page": 9,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Medium Shield",
+					"entries": [
+						"This item is a medium shield."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "PARRY",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Parrying",
+					"entries": [
+						"If you have proficiency in parrying shields, while using this shield, you may make a reaction against a melee attack roll that hits you, allowing you to reduce the damage roll's outcome (before vulnerability or resistance is calculated) by a number of {@dice d4} equal to your proficiency bonus plus your Dexterity modifier."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "PS",
+			"source": "OWL",
+			"page": 9,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Parry Shield",
+					"entries": [
+						"This item is a parry shield."
 					]
 				}
 			]
@@ -2913,6 +3406,20 @@
 					"name": "Tripping",
 					"entries": [
 						"A Large or smaller creature hit by a tripping weapon is Prone until it is freed. A tripping weapon has no Effect on Creatures that are formless, or Creatures that are Huge or larger. A creature can use its Action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the tripping weapon (AC 10) also frees the creature without harming it, Ending the Effect and destroying the tripping weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "WO",
+			"source": "OWL",
+			"page": 12,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Wide Open",
+					"entries": [
+						"This shield is offensive, and allows you to attack with it using your bonus action. Doing so, however, leaves you more open to attack than if you hadn't. Until the start of your next turn, you have -1 to your AC. You may still attack with the shield by substituting an attack for one made with the shield, which does not give you a penalty to your AC."
 					]
 				}
 			]
