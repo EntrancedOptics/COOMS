@@ -29,7 +29,7 @@
 			"rarity": "none",
 			"weight": 10,
 			"value": 800000,
-			"weaponCategory": "martial",
+			"weaponCategory": "firearm",
 			"property": [
 				"AFS",
 				"H",
@@ -39,7 +39,7 @@
 			"range": "40/120",
 			"dmg1": "5d6",
 			"dmgType": "P",
-			"firearm": true,
+			"arquebus": true,
 			"weapon": true,
 			"ammoType": "musket ball|owl"
 		},
@@ -129,7 +129,7 @@
 			"dmg1": "1d8",
 			"dmgType": "S",
 			"dmg2": "1d10",
-			"axe": true,
+			"battleaxe": true,
 			"weapon": true
 		},
 		{
@@ -182,7 +182,7 @@
 			"rarity": "none",
 			"weight": 12,
 			"value": 3000000,
-			"weaponCategory": "martial",
+			"weaponCategory": "firearm",
 			"property": [
 				"AF",
 				"H",
@@ -193,7 +193,7 @@
 			"reload": 8,
 			"dmg1": "8d4",
 			"dmgType": "P",
-			"firearm": true,
+			"blunderbuss": true,
 			"weapon": true,
 			"ammoType": "blunderbuss shot|owl"
 		},
@@ -223,7 +223,7 @@
 			"dmg1": "1d6",
 			"dmgType": "B",
 			"dmg2": "1d8",
-			"staff": true,
+			"bo staff": true,
 			"weapon": true
 		},
 		{
@@ -522,7 +522,7 @@
 			"range": "200/800",
 			"dmg1": "1d8",
 			"dmgType": "P",
-			"bow": true,
+			"longbow": true,
 			"weapon": true,
 			"ammoType": "arrow|phb"
 		},
@@ -544,7 +544,7 @@
 			"range": "100/400",
 			"dmg1": "1d6",
 			"dmgType": "P",
-			"bow": true,
+			"shortbow": true,
 			"weapon": true,
 			"ammoType": "arrow|phb"
 		},
@@ -880,7 +880,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "S",
-			"polearm": true,
+			"glaive": true,
 			"weapon": true
 		},
 		{
@@ -891,7 +891,7 @@
 			"rarity": "none",
 			"weight": 35,
 			"value": 150000,
-			"weaponCategory": "martial",
+			"weaponCategory": "firearm",
 			"property": [
 				"AFS",
 				"H",
@@ -901,7 +901,7 @@
 			"range": "35/105",
 			"dmg1": "3d8",
 			"dmgType": "P",
-			"firearm": true,
+			"gonne": true,
 			"weapon": true,
 			"ammoType": "ballet|owl"
 		},
@@ -922,7 +922,7 @@
 			],
 			"dmg1": "1d12",
 			"dmgType": "S",
-			"axe": true,
+			"greataxe": true,
 			"weapon": true
 		},
 		{
@@ -961,7 +961,7 @@
 			],
 			"dmg1": "1d12",
 			"dmgType": "B",
-			"mace": true,
+			"greatmace": true,
 			"weapon": true
 		},
 		{
@@ -983,7 +983,7 @@
 			],
 			"dmg1": "1d10",
 			"dmgType": "P",
-			"polearm": true,
+			"greatscythe": true,
 			"weapon": true
 		},
 		{
@@ -1023,7 +1023,7 @@
 			],
 			"dmg1": "2d6",
 			"dmgType": "S",
-			"sword": true,
+			"greatsword": true,
 			"weapon": true
 		},
 		{
@@ -1068,7 +1068,7 @@
 			],
 			"dmg1": "2d5",
 			"dmgType": "S",
-			"polearm": true,
+			"halberd": true,
 			"weapon": true
 		},
 		{
@@ -1099,7 +1099,7 @@
 			"rarity": "none",
 			"weight": 50,
 			"value": 4500000,
-			"weaponCategory": "martial",
+			"weaponCategory": "firearm",
 			"property": [
 				"AFS",
 				"H",
@@ -1109,7 +1109,7 @@
 			"range": "45/135",
 			"dmg1": "8d8",
 			"dmgType": "B",
-			"firearm": true,
+			"hand cannon": true,
 			"weapon": true,
 			"ammoType": "cannonball|owl"
 		},
@@ -1132,7 +1132,7 @@
 			"range": "30/120",
 			"dmg1": "1d6",
 			"dmgType": "P",
-			"crossbow": true,
+			"hand crossbow": true,
 			"weapon": true,
 			"ammoType": "crossbow bolt|phb"
 		},
@@ -1200,7 +1200,7 @@
 			"range": "100/400",
 			"dmg1": "1d10",
 			"dmgType": "P",
-			"crossbow": true,
+			"heavy crossbow": true,
 			"weapon": true,
 			"ammoType": "crossbow bolt|phb"
 		},
@@ -1540,7 +1540,7 @@
 			"range": "80/320",
 			"dmg1": "1d8",
 			"dmgType": "P",
-			"crossbow": true,
+			"light crossbow": true,
 			"weapon": true,
 			"ammoType": "crossbow bolt|phb"
 		},
@@ -1584,7 +1584,7 @@
 			"range": "150/600",
 			"dmg1": "1d8",
 			"dmgType": "P",
-			"bow": true,
+			"longbow": true,
 			"weapon": true,
 			"ammoType": "arrow|phb"
 		},
@@ -1605,7 +1605,7 @@
 			"dmg1": "2d4",
 			"dmgType": "S",
 			"dmg2": "1d10",
-			"sword": true,
+			"longsword": true,
 			"weapon": true
 		},
 		{
@@ -1688,7 +1688,7 @@
 			],
 			"dmg1": "2d6",
 			"dmgType": "B",
-			"hammer": true,
+			"maul": true,
 			"weapon": true
 		},
 		{
@@ -1719,7 +1719,7 @@
 			"weaponCategory": "martial",
 			"dmg1": "2d4",
 			"dmgType": "P",
-			"mace": true,
+			"morningstar": true,
 			"weapon": true
 		},
 		{
@@ -1730,7 +1730,7 @@
 			"rarity": "none",
 			"weight": 10,
 			"value": 2500000,
-			"weaponCategory": "martial",
+			"weaponCategory": "firearm",
 			"property": [
 				"AF",
 				"H",
@@ -1740,7 +1740,7 @@
 			"range": "40/120",
 			"dmg1": "5d6",
 			"dmgType": "P",
-			"firearm": true,
+			"musket": true,
 			"weapon": true,
 			"ammoType": "musket ball|owl"
 		},
@@ -1924,7 +1924,7 @@
 			"rarity": "none",
 			"weight": 3,
 			"value": 2000000,
-			"weaponCategory": "martial",
+			"weaponCategory": "firearm",
 			"property": [
 				"AF",
 				"RE"
@@ -1932,7 +1932,7 @@
 			"range": "30/90",
 			"dmg1": "4d6",
 			"dmgType": "P",
-			"firearm": true,
+			"pistol": true,
 			"weapon": true,
 			"ammoType": "musket ball|owl"
 		},
@@ -2058,7 +2058,7 @@
 			],
 			"dmg1": "1d8",
 			"dmgType": "P",
-			"sword": true,
+			"rapier": true,
 			"weapon": true
 		},
 		{
@@ -2082,7 +2082,7 @@
 			"dmg1": "1d8",
 			"dmgType": "S",
 			"dmg2": "1d4",
-			"sword": true,
+			"reaper": true,
 			"weapon": true
 		},
 		{
@@ -2174,7 +2174,7 @@
 			],
 			"dmg1": "1d8",
 			"dmgType": "S",
-			"sword": true,
+			"sabre": true,
 			"weapon": true
 		},
 		{
@@ -2239,7 +2239,7 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "S",
-			"sword": true,
+			"scimitar": true,
 			"weapon": true
 		},
 		{
@@ -2280,7 +2280,7 @@
 			"range": "80/320",
 			"dmg1": "1d6",
 			"dmgType": "P",
-			"bow": true,
+			"shortbow": true,
 			"weapon": true,
 			"ammoType": "arrow|phb"
 		},
@@ -2301,7 +2301,7 @@
 			],
 			"dmg1": "1d6",
 			"dmgType": "P",
-			"sword": true,
+			"shortsword": true,
 			"weapon": true
 		},
 		{
@@ -2425,7 +2425,7 @@
 			"range": "20/60",
 			"dmg1": "1d2",
 			"dmgType": "P",
-			"karambit": true,
+			"small knife": true,
 			"weapon": true
 		},
 		{
@@ -2928,7 +2928,7 @@
 			"dmg1": "1d8",
 			"dmgType": "B",
 			"dmg2": "1d10",
-			"hammer": true,
+			"warhammer": true,
 			"weapon": true
 		},
 		{
