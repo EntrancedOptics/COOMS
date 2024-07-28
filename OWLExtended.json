@@ -147,8 +147,8 @@
 			],
 			"entries": [
 				"{@note * This generic variant has the same name and source as the item {@item +1 shield|owl}}.",
-				"While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
-					"{@b Magical.} This item is magical."
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
 			],
 			"inherits": {
 				"namePrefix": "+1 ",
@@ -159,8 +159,9 @@
 				"rarity": "uncommon",
 				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
 				"bonusAc": "+1",
+				"bonusWeapon": "+1",
 				"entries": [
-					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
 					"{@b Magical.} This item is magical."
 				]
 			}
@@ -376,8 +377,8 @@
 			],
 			"entries": [
 				"{@note * This generic variant has the same name and source as the item {@item +2 shield|owl}}.",
-				"While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
-					"{@b Magical} This item is magical."
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical} This item is magical."
 			],
 			"inherits": {
 				"namePrefix": "+2 ",
@@ -388,8 +389,9 @@
 				"rarity": "rare",
 				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
 				"bonusAc": "+2",
+				"bonusWeapon": "+2",
 				"entries": [
-					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
 					"{@b Magical.} This item is magical."
 				]
 			}
@@ -601,7 +603,7 @@
 			],
 			"entries": [
 				"{@note * This generic variant has the same name and source as the item {@item +3 shield|owl}}.",
-				"While holding this shield, you have a +3 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
 				"{@b Magical.} This item is magical."
 			],
 			"inherits": {
@@ -612,8 +614,9 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"bonusAc": "+3",
+				"bonusWeapon": "+3",
 				"entries": [
-					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
 					"{@b Magical.} This item is magical."
 				]
 			}
