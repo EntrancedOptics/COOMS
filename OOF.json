@@ -526,6 +526,86 @@
 			]
 		},
 		{
+			"name": "Fiendish Constitution",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"reprintedAs": [
+				"Fiendish Constitution|OOF"
+			],
+			"prerequisite": [
+                {
+					"level":8,
+                    "race": [
+                        {
+                            "name": "Tiefling"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Unholy blood runs strong in you, unlocking a resilience akin to that possessed by the type of fiend you most represent. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"If you have the Abyssal Resistance, Daemonic Resistance, or Pandemonic Resistance feature, you gain resistance to the two damage types that you did not select from that feature.",
+						"If you have the Acheronic Resistance feature, you gain advantage on saving throws against the {@spell Confusion|phb} spell, madness, poison, and resistance to poison damage.",
+						"If you have the Carceric Resistance feature, you gain resistance to cold and fire damage.",
+						"If you have the Gehennic Resistance feature, you gain resistance to cold and lightning damage.",
+						"If you have the Hellish Resistance feature, you gain resistance to cold damage as well as bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered.",
+						"If you have the Necrotic Consumption feature, it no longer damages you. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fiendish Wings",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"reprintedAs": [
+				"Fiendish Wings|OOF"
+			],
+			"prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Tiefling"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your connection with the outer planes has increased, allowing your planetouched nature to manifest more readily and obviously, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You grow a pair of leathery, batlike wings from your back, giving you a flight speed equal to your walking speed. For Achaierai Tieflings, these wings are birdlike.",
+						"You gain an additional physical characteristic, choose one of the following features that you do not already have: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.",
+						"During your turn, if you make a melee attack against a creature while you are flying, that creature can't make {@action opportunity attacks|phb} against you for the rest of your turn."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fortitude",
 			"source": "EntrancedFeats",
 			"page": 4,
