@@ -1,0 +1,720 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"item"
+		],
+		"sources": [
+			{
+				"json": "OWLExtended",
+				"abbreviation": "OWL",
+				"full": "Optic's Weapons List Extended",
+				"authors": [
+					"Entranced Optics"
+				],
+				"convertedBy": [
+					"Beasty"
+				],
+				"version": "1.0.0",
+				"url": "https://docs.google.com/document/d/1c8aZFEpGUrM5BEoHMLVzUlmD3Rz0Y78kv4wAFYXr338",
+				"color": "#18b300"
+			}
+		]
+	},
+	"magicvariant": [
+		{
+			"name": "+1 Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"rock": true,
+				"whittled arrow": true,
+				"whittled bolt": true
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*11)+955)/10)*100",
+				"bonusWeapon": "+1",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+1 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
+				"bonusAc": "+1",
+				"entries": [
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+1 Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+1 Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"MAG"
+				],
+				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"You have a +1 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "+1 Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item +1 shield|owl}}.",
+				"While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+					"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
+				"bonusAc": "+1",
+				"entries": [
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+1 Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"MAG"
+				],
+				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"You have a +1 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "+1 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"bolas": true,
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
+				"bonusWeapon": "+1",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+1 Weapon (no damage)",
+			"type": "GV",
+			"requires": [
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+1 ",
+				"source": "OWL",
+				"page": 56,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
+				"bonusWeaponAttack": "+1",
+				"entries": [
+					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+2 Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"rock": true,
+				"whittled arrow": true,
+				"whittled bolt": true
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"tier": "minor",
+				"rarity": "rare",
+				"valueExpression": "((((([[baseItem.value]]/100)*52)+10840)/10)*100)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+2 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
+				"bonusAc": "+2",
+				"entries": [
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+2 Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
+				"bonusWeapon": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+2 Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
+				"bonusAbilityCheck": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"You have a +2 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "+2 Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item +2 shield|owl}}.",
+				"While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+					"{@b Magical} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
+				"bonusAc": "+2",
+				"entries": [
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+2 Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
+				"bonusAbilityCheck": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"You have a +2 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "+2 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"bolas": true,
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+2 Weapon (no damage)",
+			"type": "GV",
+			"requires": [
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+2 ",
+				"source": "OWL",
+				"page": 56,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
+				"bonusWeaponAttack": "+2",
+				"entries": [
+					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+3 Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"rock": true,
+				"whittled arrow": true,
+				"whittled bolt": true
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"tier": "minor",
+				"rarity": "very rare",
+				"bonusWeapon": "+3",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+3 Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"bonusAc": "+3",
+				"entries": [
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+3 Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"bonusWeapon": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+3 Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"MAG"
+				],
+				"bonusAbilityCheck": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"You have a +3 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "+3 Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item +3 shield|owl}}.",
+				"While holding this shield, you have a +3 bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusAc": "+3",
+				"entries": [
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+3 Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"MAG"
+				],
+				"bonusAbilityCheck": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"You have a +3 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "+3 Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"bolas": true,
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeapon": "+3",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "+3 Weapon (no damage)",
+			"type": "GV",
+			"requires": [
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "+3 ",
+				"source": "OWL",
+				"page": 56,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeaponAttack": "+3",
+				"entries": [
+					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		}
+	],
+	"itemProperty": [
+		{
+			"abbreviation": "MAG",
+			"source": "OWL",
+			"page": 11,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Magical",
+					"entries": [
+						"This item is magical."
+					]
+				}
+			]
+		}
+	]
+}
