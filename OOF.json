@@ -293,23 +293,21 @@
 					]
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"known": [
-						"detect magic"
-					]
-				},
-				{
-					"inate":{
-						"daily":{
-							"1":[
-								"levitate",
-								"dispel magic"
-							]
-						},
-						"ability":[
-							"con"
-						]
+					"ability": "cha",
+					"innate": {
+						"_": {
+							"will": [
+								"detect magic"
+							],
+							"daily": {
+								"1e": [
+									"levitate",
+									"dispel magic"
+								]
+							}
+						}
 					}
 				}
 			],
@@ -369,7 +367,7 @@
 			],
 			"ability":[
 				{
-					"con": "1"
+					"con": 1
 				}
 			],
 			"entries":[
@@ -394,6 +392,15 @@
 			"page": 3,
 			"reprintedAs": [
 				"Fell Handed|OOF"
+			],
+			"weaponProficiencies": [
+				{
+					"handaxe": true,
+					"battleaxe": true,
+					"greataxe": true,
+					"warhammer": true,
+					"maul": true
+				}
 			],
 			"entries": [
 				{
@@ -447,16 +454,16 @@
 			],
 			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"misty step"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				}
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"misty step"
+								]
+							}
+						}
+					}
 				}
 			],
 			"entries": [
@@ -494,17 +501,17 @@
 					}
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"misty step"
-						]
-					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"misty step"
+								]
+							}
+						}
 					}
 				}
 			],
@@ -515,6 +522,86 @@
 						"You learn the {@spell misty step|phb} spell and one {@filter 1st-level spell|spells|level=1|school=D;E} of your choice. The {@filter 1st-level spell|spells|level=1|school=D;E} must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot or its somatic and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
 					],
 					"type": "list"
+				}
+			]
+		},
+		{
+			"name": "Fiendish Constitution",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"reprintedAs": [
+				"Fiendish Constitution|OOF"
+			],
+			"prerequisite": [
+                {
+					"level":8,
+                    "race": [
+                        {
+                            "name": "Tiefling"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Unholy blood runs strong in you, unlocking a resilience akin to that possessed by the type of fiend you most represent. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"If you have the Abyssal Resistance, Daemonic Resistance, or Pandemonic Resistance feature, you gain resistance to the two damage types that you did not select from that feature.",
+						"If you have the Acheronic Resistance feature, you gain advantage on saving throws against the {@spell Confusion|phb} spell, madness, poison, and resistance to poison damage.",
+						"If you have the Carceric Resistance feature, you gain resistance to cold and fire damage.",
+						"If you have the Gehennic Resistance feature, you gain resistance to cold and lightning damage.",
+						"If you have the Hellish Resistance feature, you gain resistance to cold damage as well as bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered.",
+						"If you have the Necrotic Consumption feature, it no longer damages you. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0)."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fiendish Wings",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"reprintedAs": [
+				"Fiendish Wings|OOF"
+			],
+			"prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Tiefling"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your connection with the outer planes has increased, allowing your planetouched nature to manifest more readily and obviously, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You grow a pair of leathery, batlike wings from your back, giving you a flight speed equal to your walking speed. For Achaierai Tieflings, these wings are birdlike.",
+						"You gain an additional physical characteristic, choose one of the following features that you do not already have: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.",
+						"During your turn, if you make a melee attack against a creature while you are flying, that creature can't make {@action opportunity attacks|phb} against you for the rest of your turn."
+					]
 				}
 			]
 		},
@@ -560,7 +647,7 @@
 			],
 			"weaponProficiencies":[
 				{
-					"Firearms":"true"
+					"Firearms": true
 				}
 			],
 			"entries": [
@@ -679,7 +766,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the {@filter 1st-level spell|spells|level=1|school=D;E} archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the le to the {@class fighter|phb|Battle Master|Battle Mast archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
 						"You gain two superiority dice, which are {@dice d6} (this die is added to any superiority dice you have from another source). The dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
 					]
 				}
@@ -702,13 +789,15 @@
 					"medicine": true
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"dote"
-						]
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"dote"
+								]
+							}
 						}
 					}
 				}
@@ -880,7 +969,7 @@
 			],
 			"ability":[
 				{
-					"con":"1"
+					"con": 1
 				}
 			],
 			"entries":[
@@ -913,7 +1002,7 @@
 			],
 			"ability":[
 				{
-					"con":"1"
+					"con": 1
 				}
 			],
 			"entries":[
@@ -941,7 +1030,7 @@
 			],
 			"ability":[
 				{
-					"con":"1"
+					"con": 1
 				}
 			],
 			"entries":[
@@ -979,17 +1068,17 @@
 					}
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"invisibility"
-						]
-					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"invisibility"
+								]
+							}
+						}
 					}
 				}
 			],
@@ -1025,6 +1114,51 @@
 						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
 						"You may ignore the Wide Open property of shields."
 					]
+				}
+			]
+		},
+		{
+			"name": "Svirfneblin Magic",
+			"source": "EntrancedFeats",
+			"page": 8,
+			"reprintedAs":[
+				"Svirfneblin Magic|OOF"
+			],
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Gnome (deep)"
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"blindness/deafness",
+									"blur",
+									"disguise self"
+								]
+							},
+							"will":[
+								"nondetection"
+							]
+						}
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast {@spell nondetection|phb} on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: {@spell blindness/deafness|phb}, {@spell blur|phb}, and {@spell disguise self|phb}. You regain the ability to cast these spells when you finish a long rest.",
+						"Constitution is your spellcasting ability for these spells, and you cast them at their lowest possible levels."
+					],
+					"type":"entries"
 				}
 			]
 		},
@@ -1195,18 +1329,25 @@
 					]
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
-					"innate": {
-						"daily": {
-						"1": [
-							"longstrider",
-							"pass without a trace"
-						]
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"longstrider",
+									"pass without trace"
+								]
+							}
+						}
 					},
-					"ability": [
-						"con"
-					]
+					"known":{
+						"_":[
+							{
+								"choose": "level=0|class=druid"
+							}
+						]
 					}
 				}
 			],
