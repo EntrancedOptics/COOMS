@@ -702,6 +702,222 @@
 					"{@b Magical.} This item is magical."
 				]
 			}
+		},
+		{
+			"name": "Adamantine Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used."
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"tier": "minor",
+				"rarity": "unknown",
+				"valueExpression": "((((([[baseItem.value]]/100)*115)+1650)/10)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
+				"entries": [
+					"This suit of armor is reinforced with adamantine, enabling it to go to a net of 9 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine Armor has a passive DR against non-magical physical damage depending on their weight class, that scales with their enchantment bonus."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This focus is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This shield is reinforced with adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine shields has a passive DR against non-magical physical damage depending on their weight class, as well as an increased chance to score a critical hit that scales with their enchantment bonus."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This weapon is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Weapons made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon."
+				]
+			}
 		}
 	],
 	"itemProperty": [
