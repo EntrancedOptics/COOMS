@@ -3842,6 +3842,24 @@
 					"type": "entries"
 				}
 			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"force",
+				"lightning",
+				"necrotic",
+				"poison",
+				"psychic",
+				"radiant",
+				"thunder"
+			],
+			"savingThrow": [
+				"dexterity",
+				"constitution",
+				"intelligence",
+				"wisdom"
+			],
 			"classes": {
 				"fromClassList": [
 					{
