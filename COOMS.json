@@ -11603,7 +11603,7 @@
 				}
 			],
 			"entries": [
-				"You touch a piece of metal and cause it to wither and warp, tarnishing it. When you cast this spell on a creature, make a melee spell attack against that creature. On a hit, if the target is made of metal, you can choose to deal {@damage 10d6} necrotic damage to them. Otherwise, you may instead choose to target one piece of nonmagical metal equipment the target is wearing or carrying. On a hit, roll a {@damage d6}, or {@damage 2d6} on a crit.",
+				"You touch a piece of metal and cause it to wither and warp, tarnishing it. When you cast this spell on a creature, make a melee spell attack against that creature. On a hit, if the target is made of metal, you can choose to deal {@damage 10d6} acid damage to them. Otherwise, you may instead choose to target one piece of nonmagical metal equipment the target is wearing or carrying. On a hit, roll a {@damage d6}, or {@damage 2d6} on a crit.",
 				"If the target was a piece of armor, the armor receives a permanent and cumulative penalty to the AC it offers equal to the number rolled. The armor is destroyed if the penalty reduces its AC to 10.",
 				"If the target was a shield, the shield receives a permanent and cumulative penalty to the AC, attack, damage, and parrying it offers equal to the number rolled. The shield is destroyed if the penalty reduces its AC to 0.",
 				"If the target was a weapon, the weapon receives a permanent and cumulative penalty to its attack and damage rolls equal to the number rolled. If this penalty drops to -5, the weapon is destroyed."
@@ -11618,7 +11618,7 @@
 				}
 			],
 			"damageInflict": [
-				"necrotic"
+				"acid"
 			],
 			"classes": {
 				"fromClassList": [
