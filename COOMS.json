@@ -4276,6 +4276,12 @@
 					"type": "entries"
 				}
 			],
+			"damageInflict": [
+				"lightning"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
 			"classes": {
 				"fromClassList": [
 					{
@@ -12024,6 +12030,9 @@
 					],
 					"type": "entries"
 				}
+			],
+			"damageInflict": [
+				"lightning"
 			],
 			"classes": {
 				"fromClassList": [
