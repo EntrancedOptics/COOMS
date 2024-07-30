@@ -3739,7 +3739,7 @@
 						]
 					]
 				},
-				"If this spell is cast on a {@race dragonborn}, {@race dragonheart}, {@race half-dragon}, {@race kobold}, or {@race urd} who is of the same type as the one chosen during the spell's casting, they can use the breath weapon of this spell by substituting an attack, rather than as an action.",
+				"If this spell is cast on a {@race dragonborn|earl}, {@race Human (Dragonheart)|earl|dragonheart}, {@race half-dragon|earl}, {@race kobold|earl}, or {@race Kobold (Winged)|earl|urd} who is of the same type as the one chosen during the spell's casting, they can use the breath weapon of this spell by substituting an attack, rather than as an action.",
 				"If this spell is cast on a {@filter dragon|bestiary|type=dragon} who is of the same type as the one chosen during the spell's casting, the dragon's breath weapon recharges automatically for the duration of the spell."
 			],
 			"entriesHigherLevel": [
@@ -8733,7 +8733,7 @@
 				}
 			],
 			"entries": [
-				"For the duration, a creature you touch can read, write, speak, and understand every common or exotic language as if you are fluent in that language. If you lack the parts to write or speak a language, such as not having an ink and quill or not having the split-jaw of a {@race thri-kreen}, you are still unable to write and speak those languages for which you physically lack the ability to do so.",
+				"For the duration, a creature you touch can read, write, speak, and understand every common or exotic language as if you are fluent in that language. If you lack the parts to write or speak a language, such as not having an ink and quill or not having the split-jaw of a {@race thri-kreen|earl}, you are still unable to write and speak those languages for which you physically lack the ability to do so.",
 				"This spell doesn't decode secret messages, ciphers, arcane text, or any other secret languages like {@language Thieves' Cant} and {@language Druidic}."
 			],
 			"classes": {
