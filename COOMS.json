@@ -4901,7 +4901,7 @@
 			}
 		},
 		{
-			"name": "Fetch Hand",
+			"name": "Fetching Hand",
 			"source": "COOMS",
 			"level": 3,
 			"school": "D",
