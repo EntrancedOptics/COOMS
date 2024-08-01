@@ -3724,7 +3724,7 @@
 			"name": "Dispelling Smite",
 			"source": "COOMS",
 			"level": 4,
-			"school": "V",
+			"school": "A",
 			"time": [
 				{
 					"number": 1,
