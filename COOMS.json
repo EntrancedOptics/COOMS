@@ -536,7 +536,6 @@
 		{
 			"name": "Banishing Smite",
 			"source": "COOMS",
-			"page": 17,
 			"level": 5,
 			"school": "A",
 			"time": [
@@ -1061,7 +1060,6 @@
 		{
 			"name": "Blinding Smite",
 			"source": "COOMS",
-			"page": 19,
 			"level": 3,
 			"school": "V",
 			"time": [
@@ -1327,7 +1325,6 @@
 		{
 			"name": "Branding Smite",
 			"source": "COOMS",
-			"page": 20,
 			"srd": true,
 			"level": 2,
 			"school": "V",
@@ -5262,7 +5259,6 @@
 		{
 			"name": "Find Familiar",
 			"source": "COOMS",
-			"page": 40,
 			"level": 1,
 			"school": "C",
 			"time": [
@@ -9581,7 +9577,6 @@
 		{
 			"name": "Raise Dead",
 			"source": "COOMS",
-			"page": 65,
 			"level": 5,
 			"school": "N",
 			"time": [
@@ -11729,7 +11724,6 @@
 		{
 			"name": "Resurrection",
 			"source": "COOMS",
-			"page": 72,
 			"level": 7,
 			"school": "N",
 			"time": [
@@ -11925,7 +11919,6 @@
 		{
 			"name": "Searing Smite",
 			"source": "COOMS",
-			"page": 79,
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -12801,7 +12794,6 @@
 		{
 			"name": "Staggering Smite",
 			"source": "COOMS",
-			"page": 83,
 			"level": 4,
 			"school": "V",
 			"time": [
@@ -13614,7 +13606,6 @@
 		{
 			"name": "Thunderous Smite",
 			"source": "COOMS",
-			"page": 282,
 			"level": 1,
 			"school": "V",
 			"time": [
@@ -15058,8 +15049,7 @@
 		},
 		{
 			"name": "Wrathful Smite",
-			"source": "PHB",
-			"page": 289,
+			"source": "COOMS",
 			"level": 1,
 			"school": "V",
 			"time": [
