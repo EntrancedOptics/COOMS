@@ -583,7 +583,15 @@
 			],
 			"miscTags": [
 				"AAD"
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		},
 		{
 			"name": "Bestow Curse",
@@ -1111,7 +1119,15 @@
 			],
 			"miscTags": [
 				"AAD"
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		},
 		{
 			"name": "Bloodletting",
@@ -1371,7 +1387,15 @@
 			"miscTags": [
 				"AAD",
 				"LGT"
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		},
 		{
 			"name": "Brutality",
@@ -11966,7 +11990,43 @@
 			],
 			"miscTags": [
 				"AAD"
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Forge Domain",
+							"shortName": "Forge",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Zeal Domain (PSA)",
+							"shortName": "Zeal (PSA)",
+							"source": "PSA"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Sense Emotion",
@@ -12836,7 +12896,15 @@
 			],
 			"miscTags": [
 				"AAD"
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		},
 		{
 			"name": "Starburst",
@@ -13652,7 +13720,28 @@
 			"miscTags": [
 				"AAD",
 				"FMV"
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Zeal Domain (PSA)",
+							"shortName": "Zeal (PSA)",
+							"source": "PSA"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Touch of Idiocy",
@@ -15103,7 +15192,15 @@
 			],
 			"miscTags": [
 				"AAD"
-			]
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
 		},
 		{
 			"name": "Zealous Accusation",
