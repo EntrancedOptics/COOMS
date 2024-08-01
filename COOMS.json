@@ -12708,7 +12708,7 @@
 			"time": [
 				{
 					"number": 1,
-					"unit": "action"
+					"unit": "bonus action"
 				}
 			],
 			"range": {
@@ -13074,14 +13074,10 @@
 			"components": {
 				"v": true
 			},
+
 			"duration": [
 				{
-					"type": "timed",
-					"duration": {
-						"type": "minute",
-						"amount": 1
-					},
-					"concentration": true
+					"type": "instant"
 				}
 			],
 			"entries": [
