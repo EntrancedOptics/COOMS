@@ -482,7 +482,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					}
 				],
 				"fromSubclass": [
@@ -671,7 +671,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -857,7 +857,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					}
 				],
 				"fromSubclass": [
@@ -1186,7 +1186,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -1333,7 +1333,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					}
 				]
 			}
@@ -1464,7 +1464,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -1717,7 +1717,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -1901,7 +1901,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -2084,7 +2084,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					}
 				]
 			}
@@ -2382,7 +2382,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -2514,7 +2514,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -2882,7 +2882,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -3076,7 +3076,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					}
 				]
 			}
@@ -3139,7 +3139,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -3330,7 +3330,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					}
 				],
 				"fromSubclass": [
@@ -3502,7 +3502,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -3654,7 +3654,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -3840,7 +3840,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -4255,7 +4255,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -4357,7 +4357,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -4452,7 +4452,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -4542,7 +4542,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -4743,7 +4743,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -4891,7 +4891,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -5075,7 +5075,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -5379,7 +5379,7 @@
 				"fromClassList": [
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -5647,6 +5647,84 @@
 			}
 		},
 		{
+			"name": "Grin",
+			"source": "COOMS",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"When you make an ability check to interact socially with a creature within range, you flash them a big, wide smile to help gain their favor. The creature must make a Wisdom saving throw. On a failure, you have advantage on the ability check towards that creature. On a success, you have disadvantage on the roll, as the creature knows you attempted to charm it, and the creature is immune to the effects of this spell for 24 hours."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Witch",
+						"source": "THICC"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Guidance",
 			"source": "COOMS",
 			"level": 0,
@@ -5709,7 +5787,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -5813,7 +5891,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -6069,7 +6147,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -6182,7 +6260,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -6287,7 +6365,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -6368,7 +6446,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -6449,7 +6527,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -6518,7 +6596,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -6863,7 +6941,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -6959,7 +7037,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -7912,7 +7990,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -8051,7 +8129,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -8227,7 +8305,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -8432,7 +8510,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -8523,7 +8601,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -8767,7 +8845,7 @@
 				"fromClassList": [
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -8989,7 +9067,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -9185,7 +9263,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -9425,7 +9503,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -9875,7 +9953,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -10016,7 +10094,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -11514,7 +11592,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -11712,7 +11790,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -11877,7 +11955,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					}
 				]
 			}
@@ -12079,7 +12157,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -12170,7 +12248,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -12379,7 +12457,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -12478,7 +12556,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -12818,7 +12896,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -13041,7 +13119,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -13252,7 +13330,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -13314,7 +13392,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -13798,7 +13876,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -13900,7 +13978,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -14001,7 +14079,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -14144,7 +14222,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -14240,7 +14318,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
@@ -14372,7 +14450,7 @@
 					},
 					{
 						"name": "Witch",
-						"source": "VRCR"
+						"source": "THICC"
 					},
 					{
 						"name": "Wizard",
