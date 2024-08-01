@@ -12676,7 +12676,7 @@
 				}
 			],
 			"entries": [
-				"You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to {@dice 1d8} + your spellcasting ability modifier.",
+				"You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes damage equal to {@dice 1d8} + your spellcasting ability modifier. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil.",
 				"As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.",
 				"While the weapon is active, it occupies its space but creatures can pass through its space. The first time a creature enters the weapon's space on a turn or if it starts its turn there, the weapon attacks them.",
 				"The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon."
