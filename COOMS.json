@@ -3562,6 +3562,57 @@
 			}
 		},
 		{
+			"name": "Dispelling Smite",
+			"source": "COOMS",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true
+			},
+
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"The next time you hit a creature with a melee weapon attack during this spell's duration, your weapon shatters the ambient magic surrounding the creature, and the attack deals an extra {@damage 4d6} force damage. If the creature is reduced to 50 hit points or fewer and is concentrating on a spell, that concentration is broken.",
+				"In addition, any spell of 4th level or lower on the target ends. For each spell of 5th level or higher on the target, make an Arcana check. The DC equals 10 + the spells' level. On a successful check, the spell ends."
+			],
+			"entriesHigherLevel": [
+				{
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 5th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used and the extra damage increases by {@scaledamage 1d6|5-9|1d6} for each slot level above 4th."
+					],
+					"type": "entries"
+				}
+			],
+			"damageInflict": [
+				"force"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				]
+			}
+		},
+		{
 			"name": "Displacement",
 			"source": "COOMS",
 			"level": 1,
