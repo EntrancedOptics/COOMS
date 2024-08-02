@@ -4591,7 +4591,7 @@
 				{
 					"known": {
 						"1": {
-							"daily": {
+							"rest": {
 								"2": [
 									"blade ward#c"
 								]
@@ -4640,7 +4640,7 @@
 				{
 					"name": "Stone Resistance",
 					"entries": [
-						"You learn the {@spell blade ward|phb} cantrip and can cast it as a bonus action a number of times equal to your proficiency bonus per long rest, as you cause your rough skin to momentarily turn to stone. On top of this, you have advantage on saving throws against being {@condition petrified}."
+						"You learn the {@spell blade ward|phb} cantrip and can cast it as a bonus action a number of times equal to your proficiency bonus per short rest, as you cause your rough skin to momentarily turn to stone. On top of this, you have advantage on saving throws against being {@condition petrified}."
 					],
 					"type": "entries"
 				},
