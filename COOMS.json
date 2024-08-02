@@ -11263,7 +11263,27 @@
                 "type": "cell",
                 "roll": {
                   "min": 336,
-                  "max": 385
+                  "max": 355
+                }
+              },
+              "Grove Cervine"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 356,
+                  "max": 375
+                }
+              },
+              "Pronghorn Cervine"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 376,
+                  "max": 425
                 }
               },
               "Changeling"
@@ -11272,8 +11292,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 386,
-                  "max": 387
+                  "min": 426,
+                  "max": 427
                 }
               },
               "Amethyst Dragonborn"
@@ -11282,8 +11302,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 388,
-                  "max": 417
+                  "min": 428,
+                  "max": 457
                 }
               },
               "Black Dragonborn"
@@ -11292,8 +11312,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 418,
-                  "max": 447
+                  "min": 458,
+                  "max": 487
                 }
               },
               "Blue Dragonborn"
@@ -11302,8 +11322,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 448,
-                  "max": 477
+                  "min": 488,
+                  "max": 517
                 }
               },
               "Brass Dragonborn"
@@ -11312,8 +11332,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 478,
-                  "max": 507
+                  "min": 518,
+                  "max": 547
                 }
               },
               "Bronze Dragonborn"
@@ -11322,8 +11342,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 508,
-                  "max": 537
+                  "min": 548,
+                  "max": 577
                 }
               },
               "Copper Dragonborn"
@@ -11332,8 +11352,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 538,
-                  "max": 539
+                  "min": 578,
+                  "max": 579
                 }
               },
               "Crystal Dragonborn"
@@ -11342,8 +11362,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 540,
-                  "max": 541
+                  "min": 580,
+                  "max": 581
                 }
               },
               "Emerald Dragonborn"
@@ -11352,8 +11372,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 542,
-                  "max": 571
+                  "min": 582,
+                  "max": 611
                 }
               },
               "Gold Dragonborn"
@@ -11362,8 +11382,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 572,
-                  "max": 601
+                  "min": 612,
+                  "max": 641
                 }
               },
               "Green Dragonborn"
@@ -11372,8 +11392,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 602,
-                  "max": 631
+                  "min": 642,
+                  "max": 671
                 }
               },
               "Red Dragonborn"
@@ -11382,8 +11402,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 632,
-                  "max": 633
+                  "min": 672,
+                  "max": 673
                 }
               },
               "Sapphire Dragonborn"
@@ -11392,8 +11412,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 634,
-                  "max": 663
+                  "min": 674,
+                  "max": 703
                 }
               },
               "Silver Dragonborn"
@@ -11402,8 +11422,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 664,
-                  "max": 665
+                  "min": 704,
+                  "max": 705
                 }
               },
               "Topaz Dragonborn"
@@ -11412,8 +11432,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 666,
-                  "max": 695
+                  "min": 706,
+                  "max": 735
                 }
               },
               "White Dragonborn"
@@ -11422,8 +11442,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 696,
-                  "max": 795
+                  "min": 736,
+                  "max": 835
                 }
               },
               "Duergar"
@@ -11432,8 +11452,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 796,
-                  "max": 1135
+                  "min": 836,
+                  "max": 1175
                 }
               },
               "Hill Dwarf"
@@ -11442,8 +11462,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 1136,
-                  "max": 1465
+                  "min": 1176,
+                  "max": 1505
                 }
               },
               "Mountain Dwarf"
@@ -11452,8 +11472,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 1466,
-                  "max": 1467
+                  "min": 1506,
+                  "max": 1507
                 }
               },
               "Dwelf"
@@ -11462,8 +11482,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 1468,
-                  "max": 1717
+                  "min": 1508,
+                  "max": 1757
                 }
               },
               "Drow"
@@ -11472,8 +11492,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 1718,
-                  "max": 1726
+                  "min": 1758,
+                  "max": 1766
                 }
               },
               "Eladrin"
@@ -11482,8 +11502,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 1727,
-                  "max": 2076
+                  "min": 1767,
+                  "max": 2116
                 }
               },
               "High Elf"
@@ -11492,8 +11512,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2077,
-                  "max": 2077
+                  "min": 2117,
+                  "max": 2117
                 }
               },
               "Pallid Elf (Moon Elf)"
@@ -11502,8 +11522,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2078,
-                  "max": 2084
+                  "min": 2118,
+                  "max": 2124
                 }
               },
               "Sea Elf"
@@ -11512,8 +11532,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2085,
-                  "max": 2086
+                  "min": 2125,
+                  "max": 2126
                 }
               },
               "Shadar-kai"
@@ -11522,8 +11542,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2087,
-                  "max": 2406
+                  "min": 2127,
+                  "max": 2446
                 }
               },
               "Wood Elf"
@@ -11532,8 +11552,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2407,
-                  "max": 2486
+                  "min": 2447,
+                  "max": 2481
+                }
+              },
+              "Erlidi"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 2482,
+                  "max": 2561
                 }
               },
               "Fairy"
@@ -11542,8 +11572,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2487,
-                  "max": 2536
+                  "min": 2562,
+                  "max": 2611
                 }
               },
               "Firbolg"
@@ -11552,8 +11582,48 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2537,
-                  "max": 2542
+                  "min": 2612,
+                  "max": 2636
+                }
+              },
+              "Air Genasi"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 2637,
+                  "max": 2661
+                }
+              },
+              "Earth Genasi"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 2662,
+                  "max": 2686
+                }
+              },
+              "Fire Genasi"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 2687,
+                  "max": 2711
+                }
+              },
+              "Water Genasi"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 2712,
+                  "max": 2717
                 }
               },
               "Giff"
@@ -11562,8 +11632,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2543,
-                  "max": 2567
+                  "min": 2718,
+                  "max": 2742
                 }
               },
               "Githyanki"
@@ -11572,8 +11642,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2568,
-                  "max": 2592
+                  "min": 2743,
+                  "max": 2767
                 }
               },
               "Githzerai"
@@ -11582,8 +11652,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2593,
-                  "max": 2702
+                  "min": 2768,
+                  "max": 2877
                 }
               },
               "Gnoll"
@@ -11592,8 +11662,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2703,
-                  "max": 2797
+                  "min": 2878,
+                  "max": 2972
                 }
               },
               "Deep Gnome"
@@ -11602,8 +11672,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2798,
-                  "max": 2917
+                  "min": 2973,
+                  "max": 3092
                 }
               },
               "Forest Gnome"
@@ -11612,8 +11682,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 2918,
-                  "max": 3217
+                  "min": 3093,
+                  "max": 3392
                 }
               },
               "Rock Gnome"
@@ -11622,8 +11692,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 3218,
-                  "max": 3722
+                  "min": 3393,
+                  "max": 3897
                 }
               },
               "Goblin"
@@ -11632,8 +11702,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 3723,
-                  "max": 3822
+                  "min": 3898,
+                  "max": 3997
                 }
               },
               "Goliath"
@@ -11642,8 +11712,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 3823,
-                  "max": 3922
+                  "min": 3998,
+                  "max": 4097
                 }
               },
               "Grung"
@@ -11652,8 +11722,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 3923,
-                  "max": 3927
+                  "min": 4098,
+                  "max": 4102
                 }
               },
               "Hadozee"
@@ -11662,8 +11732,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 3928,
-                  "max": 3929
+                  "min": 4103,
+                  "max": 4104
                 }
               },
               "Duergar Halfblood"
@@ -11672,8 +11742,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 3930,
-                  "max": 4028
+                  "min": 4105,
+                  "max": 4191
                 }
               },
               "Hill Halfblood"
@@ -11682,8 +11752,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4029,
-                  "max": 4112
+                  "min": 4192,
+                  "max": 4266
                 }
               },
               "Mountain Halfblood"
@@ -11692,8 +11762,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4113,
-                  "max": 4212
+                  "min": 4267,
+                  "max": 4366
                 }
               },
               "Ghostwise Halfling"
@@ -11702,8 +11772,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4213,
-                  "max": 4502
+                  "min": 4367,
+                  "max": 4616
                 }
               },
               "Lightfoot Halfling"
@@ -11712,8 +11782,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4503,
-                  "max": 4552
+                  "min": 4617,
+                  "max": 4666
                 }
               },
               "Lotusden Halfling"
@@ -11722,8 +11792,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4553,
-                  "max": 4902
+                  "min": 4667,
+                  "max": 5016
                 }
               },
               "Stout Halfling"
@@ -11732,8 +11802,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4903,
-                  "max": 4917
+                  "min": 5017,
+                  "max": 5031
                 }
               },
               "Half-Bugbear"
@@ -11742,8 +11812,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4918,
-                  "max": 4919
+                  "min": 5032,
+                  "max": 5033
                 }
               },
               "Half-Dragon (Drow)"
@@ -11752,8 +11822,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4920,
-                  "max": 4920
+                  "min": 5034,
+                  "max": 5034
                 }
               },
               "Half-Dragon (Deurgar)"
@@ -11762,8 +11832,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4921,
-                  "max": 4924
+                  "min": 5035,
+                  "max": 5038
                 }
               },
               "Half-Dragon (Dwarf)"
@@ -11772,8 +11842,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4925,
-                  "max": 4928
+                  "min": 5039,
+                  "max": 5042
                 }
               },
               "Half-Dragon (Elf)"
@@ -11782,8 +11852,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4929,
-                  "max": 4929
+                  "min": 5043,
+                  "max": 5043
                 }
               },
               "Half-Dragon (Gnome)"
@@ -11792,8 +11862,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4930,
-                  "max": 4932
+                  "min": 5044,
+                  "max": 5046
                 }
               },
               "Half-Dragon (Halfling)"
@@ -11802,8 +11872,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4933,
-                  "max": 4937
+                  "min": 5047,
+                  "max": 5051
                 }
               },
               "Half-Dragon (Human)"
@@ -11812,8 +11882,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4938,
-                  "max": 4939
+                  "min": 5052,
+                  "max": 5053
                 }
               },
               "Aquatic Half-Elf"
@@ -11822,8 +11892,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4940,
-                  "max": 4944
+                  "min": 5054,
+                  "max": 5058
                 }
               },
               "Drow Half-Elf"
@@ -11832,8 +11902,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 4945,
-                  "max": 5059
+                  "min": 5059,
+                  "max": 5173
                 }
               },
               "High Half-Elf"
@@ -11842,8 +11912,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5060,
-                  "max": 5169
+                  "min": 5174,
+                  "max": 5283
                 }
               },
               "Wood Half-Elf"
@@ -11852,8 +11922,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5170,
-                  "max": 5209
+                  "min": 5284,
+                  "max": 5323
                 }
               },
               "Half-Goblin"
@@ -11862,8 +11932,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5210,
-                  "max": 5259
+                  "min": 5324,
+                  "max": 5373
                 }
               },
               "Half-Harengon"
@@ -11872,8 +11942,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5260,
-                  "max": 5279
+                  "min": 5374,
+                  "max": 5393
                 }
               },
               "Half-Hobgoblin"
@@ -11882,8 +11952,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5280,
-                  "max": 5364
+                  "min": 5394,
+                  "max": 5478
                 }
               },
               "Half-Orc"
@@ -11892,8 +11962,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5365,
-                  "max": 5444
+                  "min": 5479,
+                  "max": 5558
                 }
               },
               "Half-Tabaxi"
@@ -11902,8 +11972,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5445,
-                  "max": 5514
+                  "min": 5559,
+                  "max": 5628
                 }
               },
               "Harengon"
@@ -11912,8 +11982,28 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5515,
-                  "max": 5664
+                  "min": 5629,
+                  "max": 5629
+                }
+              },
+              "Hunker Hedge"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 5630,
+                  "max": 5630
+                }
+              },
+              "Roller Hedge"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 5631,
+                  "max": 5780
                 }
               },
               "Hobgoblin"
@@ -11922,8 +12012,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 5665,
-                  "max": 6464
+                  "min": 5781,
+                  "max": 6580
                 }
               },
               "Human"
@@ -11932,8 +12022,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 6465,
-                  "max": 6465
+                  "min": 6581,
+                  "max": 6590
+                }
+              },
+              "Jerbeen"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 6591,
+                  "max": 6591
                 }
               },
               "Kalashtar"
@@ -11942,8 +12042,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 6466,
-                  "max": 6540
+                  "min": 6592,
+                  "max": 6606
+                }
+              },
+              "Kender"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 6607,
+                  "max": 6681
                 }
               },
               "Kenku"
@@ -11952,8 +12062,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 6541,
-                  "max": 6630
+                  "min": 6682,
+                  "max": 6771
                 }
               },
               "Kitsune"
@@ -11962,8 +12072,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 6631,
-                  "max": 7135
+                  "min": 6772,
+                  "max": 7191
                 }
               },
               "Kobold"
@@ -11972,8 +12082,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7136,
-                  "max": 7165
+                  "min": 7192,
+                  "max": 7271
+                }
+              },
+              "Winged Kobold"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 7272,
+                  "max": 7301
                 }
               },
               "Leonin"
@@ -11982,8 +12102,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7166,
-                  "max": 7205
+                  "min": 7302,
+                  "max": 7341
                 }
               },
               "Cactus Leshy"
@@ -11992,8 +12112,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7206,
-                  "max": 7215
+                  "min": 7342,
+                  "max": 7351
                 }
               },
               "Flytrap Leshy"
@@ -12002,8 +12122,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7216,
-                  "max": 7290
+                  "min": 7352,
+                  "max": 7421
                 }
               },
               "Fruit Leshy"
@@ -12012,8 +12132,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7291,
-                  "max": 7375
+                  "min": 7422,
+                  "max": 7501
                 }
               },
               "Fungus Leshy"
@@ -12022,8 +12142,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7376,
-                  "max": 7405
+                  "min": 7502,
+                  "max": 7531
                 }
               },
               "Gourd Leshy"
@@ -12032,8 +12152,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7406,
-                  "max": 7485
+                  "min": 7532,
+                  "max": 7606
                 }
               },
               "Leaf Leshy"
@@ -12042,8 +12162,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7486,
-                  "max": 7510
+                  "min": 7607,
+                  "max": 7631
                 }
               },
               "Lotus Leshy"
@@ -12052,8 +12172,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7511,
-                  "max": 7545
+                  "min": 7632,
+                  "max": 7666
                 }
               },
               "Pine Leshy"
@@ -12062,8 +12182,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7546,
-                  "max": 7590
+                  "min": 7667,
+                  "max": 7711
                 }
               },
               "Root Leshy"
@@ -12072,8 +12192,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7591,
-                  "max": 7660
+                  "min": 7712,
+                  "max": 7781
                 }
               },
               "Seaweed Leshy"
@@ -12082,8 +12202,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7661,
-                  "max": 7675
+                  "min": 7782,
+                  "max": 7796
                 }
               },
               "Sunflower Leshy"
@@ -12092,8 +12212,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7676,
-                  "max": 7693
+                  "min": 7797,
+                  "max": 7814
                 }
               },
               "Vine Leshy"
@@ -12102,8 +12222,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7694,
-                  "max": 7768
+                  "min": 7815,
+                  "max": 7886
                 }
               },
               "Lizardfolk"
@@ -12112,8 +12232,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7769,
-                  "max": 7778
+                  "min": 7887,
+                  "max": 7891
                 }
               },
               "Locathah"
@@ -12122,8 +12242,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7779,
-                  "max": 7801
+                  "min": 7892,
+                  "max": 7914
                 }
               },
               "Loxodon"
@@ -12132,8 +12252,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7802,
-                  "max": 7891
+                  "min": 7915,
+                  "max": 7954
+                }
+              },
+              "Mapach"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 7955,
+                  "max": 8044
                 }
               },
               "Minotaur"
@@ -12142,8 +12272,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7892,
-                  "max": 7893
+                  "min": 8045,
+                  "max": 8046
                 }
               },
               "Duergar M'jol"
@@ -12152,8 +12282,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7894,
-                  "max": 7898
+                  "min": 8047,
+                  "max": 8051
                 }
               },
               "Hill M'jol"
@@ -12162,8 +12292,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7899,
-                  "max": 7902
+                  "min": 8052,
+                  "max": 8055
                 }
               },
               "Mountain M'jol"
@@ -12172,8 +12302,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 7903,
-                  "max": 8222
+                  "min": 8056,
+                  "max": 8355
                 }
               },
               "Myconid"
@@ -12182,8 +12312,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 8223,
-                  "max": 8772
+                  "min": 8356,
+                  "max": 8905
                 }
               },
               "Orc"
@@ -12192,8 +12322,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 8773,
-                  "max": 8777
+                  "min": 8906,
+                  "max": 8910
                 }
               },
               "Owlin"
@@ -12202,8 +12332,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 8778,
-                  "max": 8872
+                  "min": 8911,
+                  "max": 8920
+                }
+              },
+              "Plasmoid"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 8921,
+                  "max": 9015
                 }
               },
               "Satyr"
@@ -12212,8 +12352,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 8873,
-                  "max": 8897
+                  "min": 9016,
+                  "max": 9016
+                }
+              },
+              "Shadar-blaidd"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9017,
+                  "max": 9041
                 }
               },
               "Beasthide Shifter"
@@ -12222,8 +12372,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 8898,
-                  "max": 8922
+                  "min": 9042,
+                  "max": 9066
                 }
               },
               "Longtooth Shifter"
@@ -12232,8 +12382,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 8923,
-                  "max": 8947
+                  "min": 9067,
+                  "max": 9091
                 }
               },
               "Swiftstride Shifter"
@@ -12242,8 +12392,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 8948,
-                  "max": 8972
+                  "min": 9092,
+                  "max": 9116
                 }
               },
               "Wildhunt Shifter"
@@ -12252,8 +12402,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 8973,
-                  "max": 9052
+                  "min": 9117,
+                  "max": 9196
                 }
               },
               "Skaven"
@@ -12262,8 +12412,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9053,
-                  "max": 9182
+                  "min": 9197,
+                  "max": 9311
                 }
               },
               "Tabaxi"
@@ -12272,8 +12422,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9183,
-                  "max": 9185
+                  "min": 9312,
+                  "max": 9314
                 }
               },
               "Thri-kreen"
@@ -12282,8 +12432,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9186,
-                  "max": 9235
+                  "min": 9315,
+                  "max": 9364
                 }
               },
               "Tribal Thri-kreen"
@@ -12292,8 +12442,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9236,
-                  "max": 9268
+                  "min": 9365,
+                  "max": 9368
+                }
+              },
+              "Achaierai Tiefling"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9369,
+                  "max": 9388
                 }
               },
               "Asmodeus Tiefling"
@@ -12302,8 +12462,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9269,
-                  "max": 9301
+                  "min": 9389,
+                  "max": 9408
                 }
               },
               "Baalzebul Tiefling"
@@ -12312,8 +12472,38 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9302,
-                  "max": 9334
+                  "min": 9409,
+                  "max": 9413
+                }
+              },
+              "Barghest Tiefling"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9414,
+                  "max": 9423
+                }
+              },
+              "Demodand Tiefling"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9424,
+                  "max": 9523
+                }
+              },
+              "Demon Tiefling"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9524,
+                  "max": 9543
                 }
               },
               "Dispater Tiefling"
@@ -12322,8 +12512,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9335,
-                  "max": 9367
+                  "min": 9544,
+                  "max": 9563
                 }
               },
               "Fierna Tiefling"
@@ -12332,8 +12522,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9368,
-                  "max": 9400
+                  "min": 9564,
+                  "max": 9583
                 }
               },
               "Glasya Tiefling"
@@ -12342,8 +12532,18 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9401,
-                  "max": 9433
+                  "min": 9584,
+                  "max": 9587
+                }
+              },
+              "Howler Tiefling"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9588,
+                  "max": 9607
                 }
               },
               "Levistus Tiefling"
@@ -12352,8 +12552,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9434,
-                  "max": 9466
+                  "min": 9608,
+                  "max": 9627
                 }
               },
               "Mammon Tiefling"
@@ -12362,8 +12562,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9467,
-                  "max": 9499
+                  "min": 9628,
+                  "max": 9647
                 }
               },
               "Mephistopheles Tiefling"
@@ -12372,48 +12572,28 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9500,
-                  "max": 9532
+                  "min": 9648,
+                  "max": 9654
                 }
               },
-              "Devil�s Tongue Tiefling"
+              "Scourge Tiefling"
             ],
             [
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9533,
-                  "max": 9565
-                }
-              },
-              "Hellfire Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9566,
-                  "max": 9598
-                }
-              },
-              "Infernal Legacy Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9599,
-                  "max": 9631
-                }
-              },
-              "Winged Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9632,
+                  "min": 9655,
                   "max": 9664
+                }
+              },
+              "Yugoloth Tiefling"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9665,
+                  "max": 9684
                 }
               },
               "Zariel Tiefling"
@@ -12422,8 +12602,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9665,
-                  "max": 9741
+                  "min": 9685,
+                  "max": 9748
                 }
               },
               "Tortle"
@@ -12432,8 +12612,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9742,
-                  "max": 9876
+                  "min": 9749,
+                  "max": 9873
                 }
               },
               "Triton"
@@ -12442,8 +12622,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9877,
-                  "max": 9936
+                  "min": 9874,
+                  "max": 9933
                 }
               },
               "Troglodyte"
@@ -12452,18 +12632,8 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9937,
-                  "max": 9937
-                }
-              },
-              "Vedalken"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9938,
-                  "max": 9940
+                  "min": 9934,
+                  "max": 9936
                 }
               },
               "Verdan"
@@ -12472,11 +12642,21 @@
               {
                 "type": "cell",
                 "roll": {
-                  "min": 9941,
-                  "max": 10000
+                  "min": 9937,
+                  "max": 9996
                 }
               },
               "Yuan-ti Pureblood"
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9997,
+                  "max": 10000
+                }
+              },
+              "Wendigo"
             ]
           ]
         }
