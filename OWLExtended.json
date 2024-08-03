@@ -22,7 +22,7 @@
 	},
 	"magicvariant": [
 		{
-			"name": "+1 Ammunition",
+			"name": "Ammunition +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -41,7 +41,7 @@
 			},
 			"ammo": true,
 			"inherits": {
-				"namePrefix": "+1 ",
+				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -56,7 +56,7 @@
 			}
 		},
 		{
-			"name": "+1 Armor",
+			"name": "Armor +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -65,13 +65,13 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+1 ",
+				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "rare",
+				"rarity": "uncommon",
 				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
 				"bonusAc": "+1",
 				"entries": [
@@ -81,7 +81,7 @@
 			}
 		},
 		{
-			"name": "+1 Focus",
+			"name": "Focus +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -90,7 +90,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+1 ",
+				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -108,7 +108,7 @@
 			}
 		},
 		{
-			"name": "+1 Instrument",
+			"name": "Instrument +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -117,7 +117,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+1 ",
+				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -137,7 +137,7 @@
 			}
 		},
 		{
-			"name": "+1 Shield (*)",
+			"name": "Shield (*) +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -146,12 +146,12 @@
 				}
 			],
 			"entries": [
-				"{@note * This generic variant has the same name and source as the item {@item +1 shield|owl}}.",
+				"{@note * This generic variant has the same name and source as the item {@item shield +1|owl}}.",
 				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
 				"{@b Magical.} This item is magical."
 			],
 			"inherits": {
-				"namePrefix": "+1 ",
+				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -167,7 +167,7 @@
 			}
 		},
 		{
-			"name": "+1 Tool",
+			"name": "Tool +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -176,7 +176,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+1 ",
+				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -196,7 +196,7 @@
 			}
 		},
 		{
-			"name": "+1 Weapon",
+			"name": "Weapon +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -209,7 +209,7 @@
 				"net": true
 			},
 			"inherits": {
-				"namePrefix": "+1 ",
+				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -225,7 +225,7 @@
 			}
 		},
 		{
-			"name": "+1 Weapon (no damage)",
+			"name": "Weapon (no damage) +1",
 			"type": "GV",
 			"requires": [
 				{
@@ -238,7 +238,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+1 ",
+				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 56,
 				"tier": "major",
@@ -252,7 +252,342 @@
 			}
 		},
 		{
-			"name": "+2 Ammunition",
+			"name": "Adamantine Ammunition +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used."
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 28,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "((((([[baseItem.value]]/100)*126)+2605)/10)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"bonusWeapon": "+1",
+				"entries": [
+					"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Armor +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
+				"bonusAc": "+1",
+				"entries": [
+					"This suit of armor is reinforced with adamantine, enabling it to go to a net of 9 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine Armor has a passive DR against non-magical physical damage depending on their weight class, that scales with their enchantment bonus.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Focus +1",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This focus is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Instrument +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"ADAMAN",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This instruments parts are made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus.",
+					"You have a +1 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Shield (*) +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item adamantine shield +1|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This shield is reinforced with adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine shields has a passive DR against non-magical physical damage depending on their weight class, as well as an increased chance to score a critical hit that scales with their enchantment bonus.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Tool +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamatine ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"ADAMAN",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"You have a +1 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Weapon +1",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
+				"bonusWeapon": "+1",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This weapon is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Weapons made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Ammunition +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -271,7 +606,7 @@
 			},
 			"ammo": true,
 			"inherits": {
-				"namePrefix": "+2 ",
+				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -286,7 +621,7 @@
 			}
 		},
 		{
-			"name": "+2 Armor",
+			"name": "Armor +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -295,13 +630,13 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+2 ",
+				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "very rare",
+				"rarity": "rare",
 				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
 				"bonusAc": "+2",
 				"entries": [
@@ -311,7 +646,7 @@
 			}
 		},
 		{
-			"name": "+2 Focus",
+			"name": "Focus +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -320,13 +655,13 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+2 ",
+				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "rare",
 				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
 				"bonusWeapon": "+2",
 				"bonusSpellAttack": "+2",
@@ -338,7 +673,7 @@
 			}
 		},
 		{
-			"name": "+2 Instrument",
+			"name": "Instrument +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -347,7 +682,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+2 ",
+				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -367,7 +702,7 @@
 			}
 		},
 		{
-			"name": "+2 Shield (*)",
+			"name": "Shield (*) +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -381,7 +716,7 @@
 				"{@b Magical} This item is magical."
 			],
 			"inherits": {
-				"namePrefix": "+2 ",
+				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -397,7 +732,7 @@
 			}
 		},
 		{
-			"name": "+2 Tool",
+			"name": "Tool +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -406,13 +741,13 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+2 ",
+				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "rare",
 				"property": [
 					"MAG"
 				],
@@ -426,7 +761,7 @@
 			}
 		},
 		{
-			"name": "+2 Weapon",
+			"name": "Weapon +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -439,7 +774,7 @@
 				"net": true
 			},
 			"inherits": {
-				"namePrefix": "+2 ",
+				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -455,7 +790,7 @@
 			}
 		},
 		{
-			"name": "+2 Weapon (no damage)",
+			"name": "Weapon (no damage) +2",
 			"type": "GV",
 			"requires": [
 				{
@@ -468,7 +803,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+2 ",
+				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 56,
 				"tier": "major",
@@ -482,7 +817,342 @@
 			}
 		},
 		{
-			"name": "+3 Ammunition",
+			"name": "Adamantine Ammunition +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used."
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 28,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "((((([[baseItem.value]]/100)*167)+12490)/10)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"bonusWeapon": "+2",
+				"entries": [
+					"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Armor +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
+				"bonusAc": "+2",
+				"entries": [
+					"This suit of armor is reinforced with adamantine, enabling it to go to a net of 9 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine Armor has a passive DR against non-magical physical damage depending on their weight class, that scales with their enchantment bonus.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Focus +2",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
+				"bonusWeapon": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This focus is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Instrument +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"ADAMAN",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
+				"bonusWeapon": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This instruments parts are made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus.",
+					"You have a +2 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Shield (*) +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item adamantine shield +1|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
+				"bonusAc": "+2",
+				"bonusWeapon": "+2",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This shield is reinforced with adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine shields has a passive DR against non-magical physical damage depending on their weight class, as well as an increased chance to score a critical hit that scales with their enchantment bonus.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Tool +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamatine ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"ADAMAN",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
+				"bonusAbilityCheck": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"You have a +2 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Weapon +2",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
+				"bonusWeapon": "+2",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This weapon is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Weapons made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Ammunition +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -501,7 +1171,7 @@
 			},
 			"ammo": true,
 			"inherits": {
-				"namePrefix": "+3 ",
+				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -515,7 +1185,7 @@
 			}
 		},
 		{
-			"name": "+3 Armor",
+			"name": "Armor +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -524,7 +1194,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+3 ",
+				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -539,7 +1209,7 @@
 			}
 		},
 		{
-			"name": "+3 Focus",
+			"name": "Focus +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -548,7 +1218,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+3 ",
+				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -565,7 +1235,7 @@
 			}
 		},
 		{
-			"name": "+3 Instrument",
+			"name": "Instrument +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -574,7 +1244,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+3 ",
+				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -593,7 +1263,7 @@
 			}
 		},
 		{
-			"name": "+3 Shield (*)",
+			"name": "Shield (*) +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -607,7 +1277,7 @@
 				"{@b Magical.} This item is magical."
 			],
 			"inherits": {
-				"namePrefix": "+3 ",
+				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -622,7 +1292,7 @@
 			}
 		},
 		{
-			"name": "+3 Tool",
+			"name": "Tool +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -631,7 +1301,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+3 ",
+				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -650,7 +1320,7 @@
 			}
 		},
 		{
-			"name": "+3 Weapon",
+			"name": "Weapon +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -663,7 +1333,7 @@
 				"net": true
 			},
 			"inherits": {
-				"namePrefix": "+3 ",
+				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 56,
 				"srd": false,
@@ -678,7 +1348,7 @@
 			}
 		},
 		{
-			"name": "+3 Weapon (no damage)",
+			"name": "Weapon (no damage) +3",
 			"type": "GV",
 			"requires": [
 				{
@@ -691,7 +1361,7 @@
 				}
 			],
 			"inherits": {
-				"namePrefix": "+3 ",
+				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 56,
 				"tier": "major",
@@ -699,6 +1369,334 @@
 				"bonusWeaponAttack": "+3",
 				"entries": [
 					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Ammunition +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used."
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 28,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"ADAMAN"
+				],
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"bonusWeapon": "+3",
+				"entries": [
+					"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Armor +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"ADAMAN"
+				],
+				"bonusAc": "+3",
+				"entries": [
+					"This suit of armor is reinforced with adamantine, enabling it to go to a net of 9 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine Armor has a passive DR against non-magical physical damage depending on their weight class, that scales with their enchantment bonus.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Focus +3",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"ADAMAN"
+				],
+				"bonusWeapon": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This focus is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Instrument +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"ADAMAN",
+					"MAG"
+				],
+				"bonusWeapon": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This instruments parts are made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus.",
+					"You have a +3 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Shield (*) +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item adamantine shield +1|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"ADAMAN"
+				],
+				"bonusAc": "+3",
+				"bonusWeapon": "+3",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This shield is reinforced with adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine shields has a passive DR against non-magical physical damage depending on their weight class, as well as an increased chance to score a critical hit that scales with their enchantment bonus.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Tool +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamatine ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 56,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"ADAMAN",
+					"MAG"
+				],
+				"bonusAbilityCheck": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"You have a +3 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Weapon +3",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"ADAMAN"
+				],
+				"bonusWeapon": "+3",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This weapon is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Weapons made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
 					"{@b Magical.} This item is magical."
 				]
 			}
@@ -732,7 +1730,10 @@
 				"source": "OWL",
 				"page": 28,
 				"tier": "minor",
-				"rarity": "unknown",
+				"rarity": "none",
+				"property": [
+					"ADAMAN"
+				],
 				"valueExpression": "((((([[baseItem.value]]/100)*115)+1650)/10)*100)",
 				"effects": [
 					{
@@ -781,7 +1782,10 @@
 				"page": 28,
 				"srd": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "none",
+				"property": [
+					"ADAMAN"
+				],
 				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
 				"entries": [
 					"This suit of armor is reinforced with adamantine, enabling it to go to a net of 9 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine Armor has a passive DR against non-magical physical damage depending on their weight class, that scales with their enchantment bonus."
@@ -811,7 +1815,10 @@
 				"page": 28,
 				"srd": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "none",
+				"property": [
+					"ADAMAN"
+				],
 				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
 				"effects": [
 					{
@@ -827,6 +1834,44 @@
 				],
 				"entries": [
 					"This focus is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This instruments parts are made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus."
 				]
 			}
 		},
@@ -854,7 +1899,10 @@
 				"page": 28,
 				"srd": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "none",
+				"property": [
+					"ADAMAN"
+				],
 				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
 				"effects": [
 					{
@@ -870,6 +1918,44 @@
 				],
 				"entries": [
 					"This shield is reinforced with adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine shields has a passive DR against non-magical physical damage depending on their weight class, as well as an increased chance to score a critical hit that scales with their enchantment bonus."
+				]
+			}
+		},
+		{
+			"name": "Adamantine Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Adamatine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"ADAMAN"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon."
 				]
 			}
 		},
@@ -900,7 +1986,10 @@
 				"page": 28,
 				"srd": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "none",
+				"property": [
+					"ADAMAN"
+				],
 				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
 				"effects": [
 					{
@@ -921,6 +2010,20 @@
 		}
 	],
 	"itemProperty": [
+		{
+			"abbreviation": "ADAMAN",
+			"source": "OWL",
+			"page": 28,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Adamantine",
+					"entries": [
+						"This item is made of adamantine."
+					]
+				}
+			]
+		},
 		{
 			"abbreviation": "MAG",
 			"source": "OWL",

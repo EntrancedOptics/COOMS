@@ -963,9 +963,13 @@
 					"goblin": true
 				}
 			],
+			"expertise": [
+				{
+					"stealth": true
+				}
+			],
 			"skillProficiencies": [
 				{
-					"stealth": true,
 					"choose": {
 						"from": [
 							"animal handling",
