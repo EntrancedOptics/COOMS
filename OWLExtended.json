@@ -2174,7 +2174,7 @@
 				"valueExpression": "(((([[baseItem.value]]/100)*38)+985)*100)",
 				"weightExpression": "([[baseItem.weight]]/2)",
 				"entries": [
-					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}."
+					"This weapon is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}."
 				]
 			}
 		},
@@ -2439,7 +2439,7 @@
 				"weightExpression": "([[baseItem.weight]]/2)",
 				"bonusWeapon": "+1",
 				"entries": [
-					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
+					"This weapon is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
 					"{@b Magical.} This item is magical."
 				]
@@ -2706,7 +2706,7 @@
 				"weightExpression": "([[baseItem.weight]]/2)",
 				"bonusWeapon": "+2",
 				"entries": [
-					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
+					"This weapon is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
 					"{@b Magical.} This item is magical."
 				]
@@ -2966,7 +2966,7 @@
 				"weightExpression": "([[baseItem.weight]]/2)",
 				"bonusWeapon": "+3",
 				"entries": [
-					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
+					"This weapon is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
 					"{@b Magical.} This item is magical."
 				]
