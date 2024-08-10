@@ -280,7 +280,7 @@
 				"nameSuffix": " +1",
 				"source": "OWL",
 				"page": 28,
-				"tier": "major",
+				"tier": "minor",
 				"rarity": "rare",
 				"property": [
 					"ADAMAN"
@@ -528,7 +528,7 @@
 				"bonusSpellAttack": "+1",
 				"bonusSpellSaveDc": "+1",
 				"entries": [
-					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to roll a critical that scales with the enchantment bonus of the tool.",
 					"You have a +1 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +1 arcane focus for you."
 				]
 			}
@@ -581,6 +581,281 @@
 				],
 				"entries": [
 					"This weapon is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Weapons made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Ammunition +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of tempered steel is capable of going to a net of -1 without breaking."
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "((((([[baseItem.value]]/100)*17)+960)/10)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"Ammunition made of tempered steel is capable of going to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Armor +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
+				"bonusAc": "+1",
+				"entries": [
+					"This suit of armor is reinforced with tempered steel, enabling it to go to a net of 9 without breaking.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Focus +1",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This focus is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Instrument +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"TEMPS",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This instruments parts are made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a +1 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Shield (*) +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item tempered steel shield +1|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This shield is reinforced with tempered steel, enabling it to go to a net of -1 without breaking.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Tool +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"TEMPS",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This tool is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a +1 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Weapon +1",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking.",
 					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
 					"{@b Magical.} This item is magical."
 				]
@@ -688,7 +963,7 @@
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "rare",
 				"property": [
 					"MAG"
 				],
@@ -845,7 +1120,7 @@
 				"nameSuffix": " +2",
 				"source": "OWL",
 				"page": 28,
-				"tier": "major",
+				"tier": "minor",
 				"rarity": "very rare",
 				"property": [
 					"ADAMAN"
@@ -1093,7 +1368,7 @@
 				"bonusSpellAttack": "+2",
 				"bonusSpellSaveDc": "+2",
 				"entries": [
-					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to roll a critical that scales with the enchantment bonus of the tool.",
 					"You have a +2 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +2 arcane focus for you."
 				]
 			}
@@ -1152,6 +1427,281 @@
 			}
 		},
 		{
+			"name": "Tempered Steel Ammunition +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of tempered steel is capable of going to a net of -1 without breaking."
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "((((([[baseItem.value]]/100)*58)+10845)/10)*100)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"Ammunition made of tempered steel is capable of going to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Armor +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
+				"bonusAc": "+2",
+				"entries": [
+					"This suit of armor is reinforced with tempered steel, enabling it to go to a net of 9 without breaking.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Focus +2",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
+				"bonusWeapon": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This focus is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Instrument +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"TEMPS",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
+				"bonusWeapon": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This instruments parts are made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a +2 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Shield (*) +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item tempered steel shield +2|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
+				"bonusAc": "+2",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This shield is reinforced with tempered steel, enabling it to go to a net of -1 without breaking.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Tool +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"TEMPS",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
+				"bonusAbilityCheck": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This tool is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a +2 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Weapon +2",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
 			"name": "Ammunition +3",
 			"type": "GV",
 			"requires": [
@@ -1200,7 +1750,7 @@
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "legendary",
+				"rarity": "very rare",
 				"bonusAc": "+3",
 				"entries": [
 					"You have a {=bonusAc} bonus to AC while wearing this armor.",
@@ -1224,7 +1774,7 @@
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "very rare",
 				"bonusWeapon": "+3",
 				"bonusSpellAttack": "+3",
 				"bonusSpellSaveDc": "+3",
@@ -1250,7 +1800,7 @@
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "very rare",
 				"property": [
 					"MAG"
 				],
@@ -1307,7 +1857,7 @@
 				"srd": false,
 				"basicRules": false,
 				"tier": "major",
-				"rarity": "uncommon",
+				"rarity": "very rare",
 				"property": [
 					"MAG"
 				],
@@ -1402,7 +1952,7 @@
 				"nameSuffix": " +3",
 				"source": "OWL",
 				"page": 28,
-				"tier": "major",
+				"tier": "minor",
 				"rarity": "legendary",
 				"property": [
 					"ADAMAN"
@@ -1644,7 +2194,7 @@
 				"bonusSpellAttack": "+3",
 				"bonusSpellSaveDc": "+3",
 				"entries": [
-					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to roll a critical that scales with the enchantment bonus of the tool.",
 					"You have a +3 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +3 arcane focus for you."
 				]
 			}
@@ -1955,7 +2505,7 @@
 					}
 				],
 				"entries": [
-					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon."
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to roll a critical that scales with the enchantment bonus of the tool."
 				]
 			}
 		},
@@ -2007,6 +2557,512 @@
 					"This weapon is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Weapons made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon."
 				]
 			}
+		},
+		{
+			"name": "Tempered Steel Ammunition +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of tempered steel is capable of going to a net of -1 without breaking."
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "very rare",
+				"property": [
+					"TEMPS"
+				],
+				"bonusWeapon": "+3",
+				"entries": [
+					"Ammunition made of tempered steel is capable of going to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Armor +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"TEMPS"
+				],
+				"bonusAc": "+3",
+				"entries": [
+					"This suit of armor is reinforced with tempered steel, enabling it to go to a net of 9 without breaking.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Focus +3",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"TEMPS"
+				],
+				"bonusWeapon": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This focus is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Instrument +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"TEMPS",
+					"MAG"
+				],
+				"bonusWeapon": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This instruments parts are made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a +3 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Shield (*) +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item tempered steel shield +1|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"TEMPS"
+				],
+				"bonusAc": "+3",
+				"bonusWeapon": "+3",
+				"entries": [
+					"This shield is reinforced with tempered steel, enabling it to go to a net of -1 without breaking.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Tool +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"TEMPS",
+					"MAG"
+				],
+				"bonusAbilityCheck": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This tool is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a +3 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Weapon +3",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"TEMPS"
+				],
+				"bonusWeapon": "+3",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of tempered steel is capable of going to a net of -1 without breaking."
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "none",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "((((([[baseItem.value]]/100)*6)+5)/10)*100)",
+				"entries": [
+					"Ammunition made of tempered steel is capable of going to a net of -1 without breaking."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
+				"entries": [
+					"This suit of armor is reinforced with tempered steel, enabling it to go to a net of 9 without breaking."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
+				"entries": [
+					"This focus is made of tempered steel, enabling it to go to a net of -1 without breaking."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
+				"entries": [
+					"This instruments parts are made of tempered steel, enabling it to go to a net of -1 without breaking."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item tempered steel shield|owl}}."
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
+				"entries": [
+					"This shield is reinforced with tempered steel, enabling it to go to a net of -1 without breaking."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
+				"entries": [
+					"This tool is made of tempered steel, enabling it to go to a net of -1 without breaking."
+				]
+			}
+		},
+		{
+			"name": "Tempered Steel Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"TEMPS"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking."
+				]
+			}
 		}
 	],
 	"itemProperty": [
@@ -2034,6 +3090,20 @@
 					"name": "Magical",
 					"entries": [
 						"This item is magical."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "TEMPS",
+			"source": "OWL",
+			"page": 13,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tempered Steel",
+					"entries": [
+						"This item is made of tempered steel."
 					]
 				}
 			]
