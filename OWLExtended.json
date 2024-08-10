@@ -282,9 +282,6 @@
 				"page": 28,
 				"tier": "minor",
 				"rarity": "rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "((((([[baseItem.value]]/100)*126)+2605)/10)*100)",
 				"effects": [
 					{
@@ -338,9 +335,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
 				"bonusAc": "+1",
 				"entries": [
@@ -375,9 +369,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
 				"bonusWeapon": "+1",
 				"bonusSpellAttack": "+1",
@@ -476,9 +467,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
 				"bonusAc": "+1",
 				"bonusWeapon": "+1",
@@ -562,9 +550,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
 				"bonusWeapon": "+1",
 				"effects": [
@@ -617,9 +602,6 @@
 				"page": 13,
 				"tier": "minor",
 				"rarity": "uncommon",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "((((([[baseItem.value]]/100)*17)+960)/10)*100)",
 				"bonusWeapon": "+1",
 				"entries": [
@@ -661,9 +643,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "uncommon",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
 				"bonusAc": "+1",
 				"entries": [
@@ -698,9 +677,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "uncommon",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
 				"bonusWeapon": "+1",
 				"bonusSpellAttack": "+1",
@@ -775,9 +751,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "uncommon",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
 				"bonusAc": "+1",
 				"bonusWeapon": "+1",
@@ -849,9 +822,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "uncommon",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
 				"bonusWeapon": "+1",
 				"entries": [
@@ -1122,9 +1092,6 @@
 				"page": 28,
 				"tier": "minor",
 				"rarity": "very rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "((((([[baseItem.value]]/100)*167)+12490)/10)*100)",
 				"effects": [
 					{
@@ -1178,9 +1145,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "very rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
 				"bonusAc": "+2",
 				"entries": [
@@ -1215,9 +1179,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "very rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
 				"bonusWeapon": "+2",
 				"bonusSpellAttack": "+2",
@@ -1316,9 +1277,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "very rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
 				"bonusAc": "+2",
 				"bonusWeapon": "+2",
@@ -1402,9 +1360,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "very rare",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
 				"bonusWeapon": "+2",
 				"effects": [
@@ -1457,9 +1412,6 @@
 				"page": 13,
 				"tier": "minor",
 				"rarity": "uncommon",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "((((([[baseItem.value]]/100)*58)+10845)/10)*100)",
 				"bonusWeapon": "+2",
 				"entries": [
@@ -1501,9 +1453,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "rare",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
 				"bonusAc": "+2",
 				"entries": [
@@ -1538,9 +1487,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "rare",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
 				"bonusWeapon": "+2",
 				"bonusSpellAttack": "+2",
@@ -1615,9 +1561,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "rare",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
 				"bonusAc": "+2",
 				"bonusWeapon": "+2",
@@ -1689,9 +1632,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "rare",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
 				"bonusWeapon": "+2",
 				"entries": [
@@ -1954,9 +1894,6 @@
 				"page": 28,
 				"tier": "minor",
 				"rarity": "legendary",
-				"property": [
-					"ADAMAN"
-				],
 				"effects": [
 					{
 						"transfer": true,
@@ -2009,9 +1946,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "legendary",
-				"property": [
-					"ADAMAN"
-				],
 				"bonusAc": "+3",
 				"entries": [
 					"This suit of armor is reinforced with adamantine, enabling it to go to a net of 9 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine Armor has a passive DR against non-magical physical damage depending on their weight class, that scales with their enchantment bonus.",
@@ -2045,9 +1979,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "legendary",
-				"property": [
-					"ADAMAN"
-				],
 				"bonusWeapon": "+3",
 				"bonusSpellAttack": "+3",
 				"bonusSpellSaveDc": "+3",
@@ -2144,9 +2075,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "legendary",
-				"property": [
-					"ADAMAN"
-				],
 				"bonusAc": "+3",
 				"bonusWeapon": "+3",
 				"effects": [
@@ -2228,9 +2156,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "legendary",
-				"property": [
-					"ADAMAN"
-				],
 				"bonusWeapon": "+3",
 				"effects": [
 					{
@@ -2281,9 +2206,6 @@
 				"page": 28,
 				"tier": "minor",
 				"rarity": "none",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "((((([[baseItem.value]]/100)*115)+1650)/10)*100)",
 				"effects": [
 					{
@@ -2333,9 +2255,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "none",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
 				"entries": [
 					"This suit of armor is reinforced with adamantine, enabling it to go to a net of 9 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine Armor has a passive DR against non-magical physical damage depending on their weight class, that scales with their enchantment bonus."
@@ -2366,9 +2285,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "none",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
 				"effects": [
 					{
@@ -2450,9 +2366,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "none",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
 				"effects": [
 					{
@@ -2537,9 +2450,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "none",
-				"property": [
-					"ADAMAN"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*115)+1650)*100)",
 				"effects": [
 					{
@@ -2555,6 +2465,236 @@
 				],
 				"entries": [
 					"This weapon is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Weapons made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon."
+				]
+			}
+		},
+		{
+			"name": "Mithral Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition."
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"tier": "minor",
+				"rarity": "none",
+				"valueExpression": "((((([[baseItem.value]]/100)*38)+985)/10)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"entries": [
+					"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition."
+				]
+			}
+		},
+		{
+			"name": "Mithral Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*38)+985)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"entries": [
+					"This suit of armor is reinforced with mithral, enabling it to go to a net of 9 without breaking. It weighs half as much as regular armor. Mithral armor is one size class lower than their normal counterparts (Heavy -> Medium -> Light). This armor suffers no stealth disadvantage, even if its normal counterpart would."
+				]
+			}
+		},
+		{
+			"name": "Mithral Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*38)+985)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"entries": [
+					"This focus is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular focus."
+				]
+			}
+		},
+		{
+			"name": "Mithral Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"MITHRAL"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*38)+985)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"entries": [
+					"This instruments parts are made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular instrument."
+				]
+			}
+		},
+		{
+			"name": "Mithral Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item mithral shield|owl}}."
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*38)+985)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"entries": [
+					"This shield is reinforced with mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular shield. A Mithral shield is one size class lower than their normal counterparts (Heavy -> Medium -> Light -> Parrying)."
+				]
+			}
+		},
+		{
+			"name": "Mithral Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"MITHRAL"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*38)+985)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"entries": [
+					"This tool is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular tool."
+				]
+			}
+		},
+		{
+			"name": "Mithral Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*38)+985)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}."
 				]
 			}
 		},
@@ -2589,9 +2729,6 @@
 				"page": 13,
 				"tier": "minor",
 				"rarity": "very rare",
-				"property": [
-					"TEMPS"
-				],
 				"bonusWeapon": "+3",
 				"entries": [
 					"Ammunition made of tempered steel is capable of going to a net of -1 without breaking.",
@@ -2632,9 +2769,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "very rare",
-				"property": [
-					"TEMPS"
-				],
 				"bonusAc": "+3",
 				"entries": [
 					"This suit of armor is reinforced with tempered steel, enabling it to go to a net of 9 without breaking.",
@@ -2668,9 +2802,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "very rare",
-				"property": [
-					"TEMPS"
-				],
 				"bonusWeapon": "+3",
 				"bonusSpellAttack": "+3",
 				"bonusSpellSaveDc": "+3",
@@ -2743,9 +2874,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "very rare",
-				"property": [
-					"TEMPS"
-				],
 				"bonusAc": "+3",
 				"bonusWeapon": "+3",
 				"entries": [
@@ -2815,9 +2943,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "very rare",
-				"property": [
-					"TEMPS"
-				],
 				"bonusWeapon": "+3",
 				"entries": [
 					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking.",
@@ -2856,9 +2981,6 @@
 				"page": 13,
 				"tier": "minor",
 				"rarity": "none",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "((((([[baseItem.value]]/100)*6)+5)/10)*100)",
 				"entries": [
 					"Ammunition made of tempered steel is capable of going to a net of -1 without breaking."
@@ -2896,9 +3018,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "none",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
 				"entries": [
 					"This suit of armor is reinforced with tempered steel, enabling it to go to a net of 9 without breaking."
@@ -2929,9 +3048,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "none",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
 				"entries": [
 					"This focus is made of tempered steel, enabling it to go to a net of -1 without breaking."
@@ -2992,9 +3108,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "none",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
 				"entries": [
 					"This shield is reinforced with tempered steel, enabling it to go to a net of -1 without breaking."
@@ -3055,9 +3168,6 @@
 				"srd": false,
 				"tier": "major",
 				"rarity": "none",
-				"property": [
-					"TEMPS"
-				],
 				"valueExpression": "(((([[baseItem.value]]/100)*6)+5)*100)",
 				"entries": [
 					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking."
@@ -3090,6 +3200,20 @@
 					"name": "Magical",
 					"entries": [
 						"This item is magical."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MITHRAL",
+			"source": "OWL",
+			"page": 21,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mithral",
+					"entries": [
+						"This item is made of mithral."
 					]
 				}
 			]
