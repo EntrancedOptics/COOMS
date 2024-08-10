@@ -2179,6 +2179,800 @@
 			}
 		},
 		{
+			"name": "Mithral Ammunition +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition."
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 21,
+				"tier": "minor",
+				"rarity": "rare",
+				"valueExpression": "((((([[baseItem.value]]/100)*49)+1940)/10)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Armor +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*49)+1940)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAc": "+1",
+				"entries": [
+					"This suit of armor is reinforced with mithral, enabling it to go to a net of 9 without breaking. It weighs half as much as regular armor. Mithral armor is one size class lower than their normal counterparts (Heavy -> Medium -> Light). This armor suffers no stealth disadvantage, even if its normal counterpart would.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Focus +1",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*49)+1940)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This focus is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular focus.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Instrument +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"MAG",
+					"MITHRAL"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*49)+1940)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This instruments parts are made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular instrument.",
+					"You have a +1 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Mithral Shield (*) +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item mithral shield +1|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*49)+1940)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This shield is reinforced with mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular shield. A Mithral shield is one size class lower than their normal counterparts (Heavy -> Medium -> Light -> Parrying).",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Tool +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"MAG",
+					"MITHRAL"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*49)+1940)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This tool is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular tool.",
+					"You have a +1 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Mithral Weapon +1",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*49)+1940)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Ammunition +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition."
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 21,
+				"tier": "minor",
+				"rarity": "rare",
+				"valueExpression": "((((([[baseItem.value]]/100)*90)+11825)/10)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Armor +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*90)+11825)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAc": "+2",
+				"entries": [
+					"This suit of armor is reinforced with mithral, enabling it to go to a net of 9 without breaking. It weighs half as much as regular armor. Mithral armor is one size class lower than their normal counterparts (Heavy -> Medium -> Light). This armor suffers no stealth disadvantage, even if its normal counterpart would.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Focus +2",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*90)+11825)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This focus is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular focus.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Instrument +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"MAG",
+					"MITHRAL"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*90)+11825)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAbilityCheck": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This instruments parts are made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular instrument.",
+					"You have a +2 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Mithral Shield (*) +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item mithral shield +2|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*90)+11825)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAc": "+2",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This shield is reinforced with mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular shield. A Mithral shield is one size class lower than their normal counterparts (Heavy -> Medium -> Light -> Parrying).",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Tool +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"MAG",
+					"MITHRAL"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*90)+11825)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAbilityCheck": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This tool is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular tool.",
+					"You have a +2 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Mithral Weapon +2",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*90)+11825)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Ammunition +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition."
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 21,
+				"tier": "minor",
+				"rarity": "legendary",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+3",
+				"entries": [
+					"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Armor +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAc": "+3",
+				"entries": [
+					"This suit of armor is reinforced with mithral, enabling it to go to a net of 9 without breaking. It weighs half as much as regular armor. Mithral armor is one size class lower than their normal counterparts (Heavy -> Medium -> Light). This armor suffers no stealth disadvantage, even if its normal counterpart would.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Focus +3",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This focus is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular focus.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Instrument +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"MAG",
+					"MITHRAL"
+				],
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAbilityCheck": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This instruments parts are made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular instrument.",
+					"You have a +3 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Mithral Shield (*) +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item mithral shield +3|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAc": "+3",
+				"bonusWeapon": "+3",
+				"entries": [
+					"This shield is reinforced with mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular shield. A Mithral shield is one size class lower than their normal counterparts (Heavy -> Medium -> Light -> Parrying).",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Mithral Tool +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"property": [
+					"MAG",
+					"MITHRAL"
+				],
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAbilityCheck": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This tool is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular tool.",
+					"You have a +3 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Mithral Weapon +3",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Mithral ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "legendary",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+3",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
 			"name": "Tempered Steel Ammunition",
 			"type": "GV",
 			"requires": [
