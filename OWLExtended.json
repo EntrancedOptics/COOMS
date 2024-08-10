@@ -2752,6 +2752,259 @@
 			}
 		},
 		{
+			"name": "Masterwork Silvered Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "none",
+				"valueExpression": "((((([[baseItem.value]]/100)*10)+500)/10)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of masterwork ammunition.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Silvered Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Masterwork Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*10)+500)*100)",
+				"bonusAc": "+1",
+				"entries": [
+					"This suit of armor is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Masterwork.} This armor is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Silvered Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*10)+500)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This focus is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this masterwork focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Silvered Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"SILVER",
+					"MASW"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*10)+500)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This instruments parts are made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a +1 bonus to all checks made using this masterwork instrument. If you are a bard and proficient with the instrument, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Silvered Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item masterwork silvered shield|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Masterwork.} This item is crafted incredibly well."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*10)+500)*100)",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This shield is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Silvered Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"SILVER",
+					"MASW"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*10)+500)*100)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This tool is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a +1 bonus to all checks made using this masterwork tool. If you are an artificer and proficient with the tool, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Silvered Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Masterwork Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*10)+500)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this masterwork weapon.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
 			"name": "Masterwork Tempered Steel Ammunition",
 			"type": "GV",
 			"requires": [
@@ -4029,6 +4282,1002 @@
 			}
 		},
 		{
+			"name": "Silvered Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver."
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "none",
+				"valueExpression": "((((([[baseItem.value]]/100)*1)+100)/10)*100)",
+				"entries": [
+					"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver."
+				]
+			}
+		},
+		{
+			"name": "Silvered Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*1)+100)*100)",
+				"entries": [
+					"This suit of armor is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver."
+				]
+			}
+		},
+		{
+			"name": "Silvered Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*1)+100)*100)",
+				"entries": [
+					"This focus is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver."
+				]
+			}
+		},
+		{
+			"name": "Silvered Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"SILVER"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*1)+100)*100)",
+				"entries": [
+					"This instruments parts are made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver."
+				]
+			}
+		},
+		{
+			"name": "Silvered Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item silvered shield|owl}}."
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*1)+100)*100)",
+				"entries": [
+					"This shield is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver."
+				]
+			}
+		},
+		{
+			"name": "Silvered Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"SILVER"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*1)+100)*100)",
+				"entries": [
+					"This tool is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver."
+				]
+			}
+		},
+		{
+			"name": "Silvered Steel Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*1)+100)*100)",
+				"entries": [
+					"This weapon is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver."
+				]
+			}
+		},
+		{
+			"name": "Silvered Ammunition +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver."
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "uncommon",
+				"valueExpression": "((((([[baseItem.value]]/100)*11)+1055)/10)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Armor +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*11)+1055)*100)",
+				"bonusAc": "+1",
+				"entries": [
+					"This suit of armor is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Focus +1",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*11)+1055)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This focus is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Instrument +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"SILVER",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*11)+1055)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This instruments parts are made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a +1 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Silvered Shield (*) +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item silvered shield +1|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*11)+1055)*100)",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This shield is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Tool +1",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"property": [
+					"SILVER",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*11)+1055)*100)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This tool is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a +1 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +1 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Silvered Weapon +1",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*11)+1055)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Ammunition +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver."
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "rare",
+				"valueExpression": "((((([[baseItem.value]]/100)*52)+10940)/10)*100)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Armor +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10940)*100)",
+				"bonusAc": "+2",
+				"entries": [
+					"This suit of armor is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Focus +2",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10940)*100)",
+				"bonusWeapon": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This focus is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Instrument +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"SILVER",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10940)*100)",
+				"bonusWeapon": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This instruments parts are made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a +2 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Silvered Shield (*) +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item silvered shield +2|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10940)*100)",
+				"bonusAc": "+2",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This shield is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Tool +2",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "rare",
+				"property": [
+					"SILVER",
+					"MAG"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10940)*100)",
+				"bonusAbilityCheck": "+2",
+				"bonusSpellAttack": "+2",
+				"bonusSpellSaveDc": "+2",
+				"entries": [
+					"This tool is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a +2 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +2 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Silvered Weapon +2",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+10940)*100)",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This weapon is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Ammunition +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver."
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "very rare",
+				"bonusWeapon": "+3",
+				"entries": [
+					"Ammunition made of or coated in silver are capable of bypassing immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Armor +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusAc": "+3",
+				"entries": [
+					"This suit of armor is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Focus +3",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeapon": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This focus is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this magic focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Instrument +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"SILVER",
+					"MAG"
+				],
+				"bonusWeapon": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This instruments parts are made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a +3 bonus to all checks made using this magic instrument. If you are a bard and proficient with the instrument, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Silvered Shield (*) +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item silvered shield +3|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Magical.} This item is magical."
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusAc": "+3",
+				"bonusWeapon": "+3",
+				"entries": [
+					"This shield is reinforced with silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Silvered Tool +3",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"property": [
+					"SILVER",
+					"MAG"
+				],
+				"bonusAbilityCheck": "+3",
+				"bonusSpellAttack": "+3",
+				"bonusSpellSaveDc": "+3",
+				"entries": [
+					"This tool is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a +3 bonus to all checks made using this magic tool. If you are an artificer and proficient with the tool, it counts as a +3 arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Silvered Weapon +3",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Silvered ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeapon": "+3",
+				"entries": [
+					"This weapon is made of silver, enabling it to bypass immunities or resistances of creatures susceptible to silver.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
 			"name": "Tempered Steel Ammunition",
 			"type": "GV",
 			"requires": [
@@ -5078,6 +6327,20 @@
 					"name": "Mithral",
 					"entries": [
 						"This item is made of mithral."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SILVER",
+			"source": "OWL",
+			"page": 21,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Silvered",
+					"entries": [
+						"This item is made of silver."
 					]
 				}
 			]
