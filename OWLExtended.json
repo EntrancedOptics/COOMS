@@ -1949,6 +1949,1062 @@
 			}
 		},
 		{
+			"name": "Masterwork Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"rock": true,
+				"whittled arrow": true,
+				"whittled bolt": true
+			},
+			"ammo": true,
+			"inherits": {
+				"namePrefix": "Masterwork ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"tier": "minor",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*10)+400)/10)*100",
+				"bonusWeapon": "+1",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of masterwork ammunition.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"armor": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "((([[baseItem.value]]/100)*10)+400)*100",
+				"bonusAc": "+1",
+				"entries": [
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Masterwork.} This armor is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "SCF",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "((([[baseItem.value]]/100)*10)+400)*100",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this masterwork focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"MASW"
+				],
+				"valueExpression": "((([[baseItem.value]]/100)*10)+400)*100",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"You have a +1 bonus to all checks made using this masterwork instrument. If you are a bard and proficient with the instrument, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item masterwork shield|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Masterwork.} This item is crafted incredibly well."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "((([[baseItem.value]]/100)*10)+400)*100",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"entries": [
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"MASW"
+				],
+				"valueExpression": "((([[baseItem.value]]/100)*10)+400)*100",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"You have a +1 bonus to all checks made using this masterwork tool. If you are an artificer and proficient with the tool, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"bolas": true,
+				"net": true
+			},
+			"inherits": {
+				"namePrefix": "Masterwork ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "((([[baseItem.value]]/100)*10)+400)*100",
+				"bonusWeapon": "+1",
+				"entries": [
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this masterwork weapon.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Weapon (no damage)",
+			"type": "GV",
+			"requires": [
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork ",
+				"source": "OWL",
+				"page": 40,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "((([[baseItem.value]]/100)*10)+400)*100",
+				"bonusWeaponAttack": "+1",
+				"entries": [
+					"You have a {=bonusWeaponAttack} bonus to attack rolls made with this weapon.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Adamantine Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"tier": "minor",
+				"rarity": "none",
+				"valueExpression": "((((([[baseItem.value]]/100)*125)+2050)/10)*100)",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"bonusWeapon": "+1",
+				"entries": [
+					"Ammunition made of adamantine is capable of going to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Ammunition made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon used.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of masterwork ammunition.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Adamantine Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Masterwork Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*125)+2050)*100)",
+				"bonusAc": "+1",
+				"entries": [
+					"This suit of armor is reinforced with adamantine, enabling it to go to a net of 9 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine Armor has a passive DR against non-magical physical damage depending on their weight class, that scales with their enchantment bonus.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Masterwork.} This armor is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Adamantine Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*125)+2050)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This focus is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this masterwork focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Adamantine Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Adamantine ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"ADAMAN",
+					"MASW"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*125)+2050)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This instruments parts are made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine focuses have an increased chance to score a critical hit when used as a weapon that scales with their enchantment bonus.",
+					"You have a +1 bonus to all checks made using this masterwork instrument. If you are a bard and proficient with the instrument, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Adamantine Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item masterwork adamantine shield|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Masterwork.} This item is crafted incredibly well."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*125)+2050)*100)",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This shield is reinforced with adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Adamantine shields has a passive DR against non-magical physical damage depending on their weight class, as well as an increased chance to score a critical hit that scales with their enchantment bonus.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Adamantine Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Adamatine ",
+				"source": "OWL",
+				"page": 40,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"ADAMAN",
+					"MASW"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*125)+2050)*100)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This tool is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Tools made of adamantine have an increased chance to roll a critical that scales with the enchantment bonus of the tool.",
+					"You have a +1 bonus to all checks made using this masterwork tool. If you are an artificer and proficient with the tool, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Adamantine Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Masterwork Adamantine ",
+				"source": "OWL",
+				"page": 28,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*125)+2050)*100)",
+				"bonusWeapon": "+1",
+				"effects": [
+					{
+						"transfer": true,
+						"changes": [
+							{
+								"key": "flags.dnd5e.weaponCriticalThreshold",
+								"mode": "UPGRADE",
+								"value": 19
+							}
+						]
+					}
+				],
+				"entries": [
+					"This weapon is made of adamantine, enabling it to go to a net of -1 without breaking. It can't break, chip, or be damaged by most mundane means. Weapons made of adamantine have an increased chance to score a critical hit that scales with the enchantment bonus of the weapon.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this masterwork weapon.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Mithral Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"tier": "minor",
+				"rarity": "none",
+				"valueExpression": "((((([[baseItem.value]]/100)*48)+1385)/10)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"Ammunition made of mithral is capable of going to a net of -1 without breaking. It weighs half as much as regular ammunition.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of masterwork ammunition.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Mithral Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Masterwork Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*48)+1385)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAc": "+1",
+				"entries": [
+					"This suit of armor is reinforced with mithral, enabling it to go to a net of 9 without breaking. It weighs half as much as regular armor. Mithral armor is one size class lower than their normal counterparts (Heavy -> Medium -> Light). This armor suffers no stealth disadvantage, even if its normal counterpart would.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Masterwork.} This armor is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Mithral Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*48)+1385)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This focus is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular focus.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this masterwork focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Mithral Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"MASW",
+					"MITHRAL"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*48)+1385)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This instruments parts are made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular instrument.",
+					"You have a +1 bonus to all checks made using this masterwork instrument. If you are a bard and proficient with the instrument, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Mithral Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item masterwork mithral shield|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Masterwork.} This item is crafted incredibly well."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*48)+1385)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This shield is reinforced with mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular shield. A Mithral shield is one size class lower than their normal counterparts (Heavy -> Medium -> Light -> Parrying).",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Mithral Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"MASW",
+					"MITHRAL"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*48)+1385)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This tool is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular tool.",
+					"You have a +1 bonus to all checks made using this masterwork tool. If you are an artificer and proficient with the tool, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Mithral Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Masterwork Mithral ",
+				"source": "OWL",
+				"page": 21,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*48)+1385)*100)",
+				"weightExpression": "([[baseItem.weight]]/2)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made of mithral, enabling it to go to a net of -1 without breaking. It weighs half as much as a regular weapon. It has an increased range with the {@b Thrown} property. A mithral weapon is one weight class lower than their normal counterpart (Heavy -> Normal -> Light). A mithral weapon that is normally {@b Light} and non-finesse becomes {@b Light} and {@b Finesse}.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this masterwork weapon.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Tempered Steel Ammunition",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "A",
+					"source": "OWL"
+				},
+				{
+					"type": "AF",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Rock",
+					"Whittled Arrow",
+					"Whittled Bolt"
+				]
+			},
+			"ammo": true,
+			"entries": [
+				"Ammunition made of tempered steel is capable of going to a net of -1 without breaking."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"tier": "minor",
+				"rarity": "none",
+				"valueExpression": "((((([[baseItem.value]]/100)*16)+405)/10)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"Ammunition made of tempered steel is capable of going to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this piece of masterwork ammunition.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Tempered Steel Armor",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "HA",
+					"source": "OWL"
+				},
+				{
+					"type": "MA",
+					"source": "OWL"
+				},
+				{
+					"type": "LA",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Leather Armor",
+					"Padded Armor",
+					"Hide Armor"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Masterwork Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*16)+405)*100)",
+				"bonusAc": "+1",
+				"entries": [
+					"This suit of armor is reinforced with tempered steel, enabling it to go to a net of 9 without breaking.",
+					"You have a {=bonusAc} bonus to AC while wearing this armor.",
+					"{@b Masterwork.} This armor is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Tempered Steel Focus",
+			"type": "GV",
+			"requires": [
+				{
+					"name": "Reliquary",
+					"source": "OWL"
+				},
+				{
+					"name": "Rod",
+					"source": "OWL"
+				},
+				{
+					"name": "Staff",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*16)+405)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This focus is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to all attack, damage, and healing rolls made using this masterwork focus. Additionally, you have a {=bonusSpellSaveDc} bonus to your Spell Save DC on spells cast using this focus.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Tempered Steel Instrument",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "INS",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"TEMPS",
+					"MASW"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*16)+405)*100)",
+				"bonusWeapon": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This instruments parts are made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a +1 bonus to all checks made using this masterwork instrument. If you are a bard and proficient with the instrument, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Tempered Steel Shield (*)",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "S",
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Caestus",
+					"Targe",
+					"Pierce Shield",
+					"Round Shield",
+					"Tower Shield"
+				]
+			},
+			"entries": [
+				"{@note * This generic variant has the same name and source as the item {@item masterwork tempered steel shield|owl}}.",
+				"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+				"{@b Masterwork.} This item is crafted incredibly well."
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*16)+405)*100)",
+				"bonusAc": "+1",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This shield is reinforced with tempered steel, enabling it to go to a net of -1 without breaking.",
+					"While holding this shield, you have a {=bonusAc} bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a {=bonusAc} bonus to the result of any parrying roll made by it.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Tempered Steel Tool",
+			"type": "GV",
+			"requires": [
+				{
+					"type": "AT",
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"basicRules": false,
+				"tier": "major",
+				"rarity": "none",
+				"property": [
+					"TEMPS",
+					"MASW"
+				],
+				"valueExpression": "(((([[baseItem.value]]/100)*16)+405)*100)",
+				"bonusAbilityCheck": "+1",
+				"bonusSpellAttack": "+1",
+				"bonusSpellSaveDc": "+1",
+				"entries": [
+					"This tool is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a +1 bonus to all checks made using this masterwork tool. If you are an artificer and proficient with the tool, it counts as a masterwork arcane focus for you."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Tempered Steel Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"weapon": true,
+					"source": "OWL"
+				}
+			],
+			"excludes": {
+				"name": [
+					"Composite Shortbow",
+					"Shortbow",
+					"Sling",
+					"Whip",
+					"Bolas",
+					"Composite Longbow",
+					"Longbow",
+					"Net"
+				]
+			},
+			"inherits": {
+				"namePrefix": "Masterwork Tempered Steel ",
+				"source": "OWL",
+				"page": 13,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*16)+405)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made of tempered steel, enabling it to go to a net of -1 without breaking.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this masterwork weapon.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
 			"name": "Mithral Ammunition",
 			"type": "GV",
 			"requires": [
@@ -3994,6 +5050,20 @@
 					"name": "Magical",
 					"entries": [
 						"This item is magical."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "MASW",
+			"source": "OWL",
+			"page": 40,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Masterwork",
+					"entries": [
+						"This item is crafted incredibly well."
 					]
 				}
 			]
