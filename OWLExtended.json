@@ -20,6 +20,357 @@
 			}
 		]
 	},
+	"item": [
+		{
+			"name": "Masterwork Spidersilk Armor",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "LA",
+			"rarity": "none",
+			"weight": 4,
+			"value": 227000,
+			"ac": 14,
+			"bonusAc": "+1",
+			"armor": true,
+			"property": [
+				"SPIDERSILK"
+			],
+			"entries": [
+				"The basis of this armor is made of spidersilk that has been weaved to be both light and durable whilst offering ample protection. It can go to a net of 9 without breaking, whilst providing ample AC benefit.",
+				"You have a +1 bonus to AC while wearing this armor.",
+				"{@b Masterwork.} This armor is crafted incredibly well."
+			]
+		},
+		{
+			"name": "Masterwork Spidersilk Caestus",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 1,
+			"value": 169650,
+			"ac": 2,
+			"bonusAc": "+1",
+			"bonusWeapon": "+1",
+			"property": [
+				"L",
+				"F",
+				"PARRY",
+				"WO",
+				"SPIDERSILK",
+				"PS"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"A caestus made from spidersilk, worn by one hand. it provides a benefit to armor class and can be used to parry attacks. You can benefit from only one shield at a time. It can go to a net of -1 without breaking.",
+				"While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a +1 bonus to the result of any parrying roll made by it.",
+				"{@b Masterwork.} This item is crafted incredibly well."
+			]
+		},
+		{
+			"name": "Masterwork Spidersilk Clothing",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"type": "G",
+			"tier": "major",
+			"rarity": "none",
+			"weight": 2.5,
+			"value": 196000,
+			"ac": 12,
+			"bonusAc": "+1",
+			"armor": true,
+			"property": [
+				"SPIDERSILK"
+			],
+			"entries": [
+				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
+				"You have a +1 bonus to AC while wearing this clothing.",
+				"{@b Masterwork.} This armor is crafted incredibly well."
+			]
+		},
+		{
+			"name": "Spidersilk Armor",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "LA",
+			"rarity": "none",
+			"weight": 4,
+			"value": 177000,
+			"ac": 14,
+			"armor": true,
+			"property": [
+				"SPIDERSILK"
+			],
+			"entries": [
+				"The basis of this armor is made of spidersilk that has been weaved to be both light and durable whilst offering ample protection. It can go to a net of 9 without breaking, whilst providing ample AC benefit."
+			]
+		},
+		{
+			"name": "Spidersilk Caestus",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "none",
+			"weight": 1,
+			"value": 128900,
+			"ac": 2,
+			"property": [
+				"L",
+				"F",
+				"PARRY",
+				"WO",
+				"SPIDERSILK",
+				"PS"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"A caestus made from spidersilk, worn by one hand. it provides a benefit to armor class and can be used to parry attacks. You can benefit from only one shield at a time. It can go to a net of -1 without breaking."
+			]
+		},
+		{
+			"name": "Spidersilk Clothing",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"type": "G",
+			"tier": "major",
+			"rarity": "none",
+			"weight": 2.5,
+			"value": 151000,
+			"ac": 12,
+			"armor": true,
+			"property": [
+				"SPIDERSILK"
+			],
+			"entries": [
+				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing."
+			]
+		},
+		{
+			"name": "Spidersilk Armor +1",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "LA",
+			"rarity": "uncommon",
+			"weight": 4,
+			"value": 283500,
+			"ac": 14,
+			"bonusAc": "+1",
+			"armor": true,
+			"property": [
+				"SPIDERSILK",
+				"MAG"
+			],
+			"entries": [
+				"The basis of this armor is made of spidersilk that has been weaved to be both light and durable whilst offering ample protection. It can go to a net of 9 without breaking, whilst providing ample AC benefit.",
+				"You have a +1 bonus to AC while wearing this armor."
+			]
+		},
+		{
+			"name": "Spidersilk Caestus +1",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 225230,
+			"ac": 2,
+			"bonusAc": "+1",
+			"bonusWeapon": "+1",
+			"property": [
+				"L",
+				"F",
+				"PARRY",
+				"WO",
+				"SPIDERSILK",
+				"PS",
+				"MAG"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"A caestus made from spidersilk, worn by one hand. it provides a benefit to armor class and can be used to parry attacks. You can benefit from only one shield at a time. It can go to a net of -1 without breaking.",
+				"While holding this shield, you have a +1 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a +1 bonus to the result of any parrying roll made by it."
+			]
+		},
+		{
+			"name": "Spidersilk Clothing +1",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"type": "G",
+			"tier": "major",
+			"rarity": "uncommon",
+			"weight": 2.5,
+			"value": 252000,
+			"ac": 12,
+			"bonusAc": "+1",
+			"armor": true,
+			"property": [
+				"SPIDERSILK",
+				"MAG"
+			],
+			"entries": [
+				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
+				"You have a +1 bonus to AC while wearing this clothing."
+			]
+		},
+		{
+			"name": "Spidersilk Armor +2",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "LA",
+			"rarity": "rare",
+			"weight": 4,
+			"ac": 14,
+			"bonusAc": "+2",
+			"armor": true,
+			"property": [
+				"SPIDERSILK",
+				"MAG"
+			],
+			"entries": [
+				"The basis of this armor is made of spidersilk that has been weaved to be both light and durable whilst offering ample protection. It can go to a net of 9 without breaking, whilst providing ample AC benefit.",
+				"You have a +2 bonus to AC while wearing this armor."
+			]
+		},
+		{
+			"name": "Spidersilk Caestus +2",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "rare",
+			"weight": 1,
+			"ac": 2,
+			"bonusAc": "+2",
+			"bonusWeapon": "+2",
+			"property": [
+				"L",
+				"F",
+				"PARRY",
+				"WO",
+				"SPIDERSILK",
+				"PS",
+				"MAG"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"A caestus made from spidersilk, worn by one hand. it provides a benefit to armor class and can be used to parry attacks. You can benefit from only one shield at a time. It can go to a net of -1 without breaking.",
+				"While holding this shield, you have a +2 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a +2 bonus to the result of any parrying roll made by it."
+			]
+		},
+		{
+			"name": "Spidersilk Clothing +2",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"type": "G",
+			"tier": "major",
+			"rarity": "rare",
+			"weight": 2.5,
+			"ac": 12,
+			"bonusAc": "+2",
+			"armor": true,
+			"property": [
+				"SPIDERSILK",
+				"MAG"
+			],
+			"entries": [
+				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
+				"You have a +2 bonus to AC while wearing this clothing."
+			]
+		},
+		{
+			"name": "Spidersilk Armor +3",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "LA",
+			"rarity": "very rare",
+			"weight": 4,
+			"ac": 14,
+			"bonusAc": "+3",
+			"armor": true,
+			"property": [
+				"SPIDERSILK",
+				"MAG"
+			],
+			"entries": [
+				"The basis of this armor is made of spidersilk that has been weaved to be both light and durable whilst offering ample protection. It can go to a net of 9 without breaking, whilst providing ample AC benefit.",
+				"You have a +3 bonus to AC while wearing this armor."
+			]
+		},
+		{
+			"name": "Spidersilk Caestus +3",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"basicRules": false,
+			"type": "S",
+			"rarity": "very rare",
+			"weight": 1,
+			"ac": 2,
+			"bonusAc": "+3",
+			"bonusWeapon": "+3",
+			"property": [
+				"L",
+				"F",
+				"PARRY",
+				"WO",
+				"SPIDERSILK",
+				"PS",
+				"MAG"
+			],
+			"dmg1": "1d4",
+			"dmgType": "B",
+			"entries": [
+				"A caestus made from spidersilk, worn by one hand. it provides a benefit to armor class and can be used to parry attacks. You can benefit from only one shield at a time. It can go to a net of -1 without breaking.",
+				"While holding this shield, you have a +3 bonus to AC. This bonus is in addition to the shield's normal bonus to AC. If the shield has the ability to parry, it gains a +3 bonus to the result of any parrying roll made by it."
+			]
+		},
+		{
+			"name": "Spidersilk Clothing +3",
+			"source": "OWL",
+			"page": 40,
+			"srd": false,
+			"type": "G",
+			"tier": "major",
+			"rarity": "very rare",
+			"weight": 2.5,
+			"ac": 12,
+			"bonusAc": "+3",
+			"armor": true,
+			"property": [
+				"SPIDERSILK",
+				"MAG"
+			],
+			"entries": [
+				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
+				"You have a +3 bonus to AC while wearing this clothing."
+			]
+		}
+	],
 	"magicvariant": [
 		{
 			"name": "Ammunition +1",
@@ -3005,6 +3356,96 @@
 			}
 		},
 		{
+			"name": "Masterwork Spidersilk Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"composite shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"light crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"sling": true,
+					"source": "OWL"
+				},
+				{
+					"kusarigama": true,
+					"source": "OWL"
+				},
+				{
+					"composite longbow": true,
+					"source": "OWL"
+				},
+				{
+					"hand crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"heavy crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"longbow": true,
+					"source": "OWL"
+				},
+				{
+					"whip": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Spidersilk ",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*62)+1650)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this masterwork weapon.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
+			"name": "Masterwork Spidersilk Weapon (no damage)",
+			"type": "GV",
+			"requires": [
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Masterwork Spidersilk ",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*62)+1650)*100)",
+				"bonusWeaponAttack": "+1",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property.",
+					"You have a {=bonusWeaponAttack} bonus to attack and damage rolls made with this masterwork weapon.",
+					"{@b Masterwork.} This item is crafted incredibly well."
+				]
+			}
+		},
+		{
 			"name": "Masterwork Tempered Steel Ammunition",
 			"type": "GV",
 			"requires": [
@@ -5278,6 +5719,344 @@
 			}
 		},
 		{
+			"name": "Spidersilk Weapon",
+			"type": "GV",
+			"requires": [
+				{
+					"composite shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"light crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"sling": true,
+					"source": "OWL"
+				},
+				{
+					"kusarigama": true,
+					"source": "OWL"
+				},
+				{
+					"whip": true,
+					"source": "OWL"
+				},
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"composite longbow": true,
+					"source": "OWL"
+				},
+				{
+					"hand crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"heavy crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"longbow": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Spidersilk ",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "none",
+				"valueExpression": "(((([[baseItem.value]]/100)*52)+1250)*100)",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property."
+				]
+			}
+		},
+		{
+			"name": "Spidersilk Weapon +1",
+			"type": "GV",
+			"requires": [
+				{
+					"composite shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"light crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"sling": true,
+					"source": "OWL"
+				},
+				{
+					"kusarigama": true,
+					"source": "OWL"
+				},
+				{
+					"composite longbow": true,
+					"source": "OWL"
+				},
+				{
+					"hand crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"heavy crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"longbow": true,
+					"source": "OWL"
+				},
+				{
+					"whip": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Spidersilk ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*63)+2205)*100)",
+				"bonusWeapon": "+1",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Spidersilk Weapon (no damage) +1",
+			"type": "GV",
+			"requires": [
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Spidersilk ",
+				"nameSuffix": " +1",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "uncommon",
+				"valueExpression": "(((([[baseItem.value]]/100)*63)+2205)*100)",
+				"bonusWeaponAttack": "+1",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property.",
+					"You have a {=bonusWeaponAttack} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Spidersilk Weapon +2",
+			"type": "GV",
+			"requires": [
+				{
+					"composite shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"light crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"sling": true,
+					"source": "OWL"
+				},
+				{
+					"kusarigama": true,
+					"source": "OWL"
+				},
+				{
+					"composite longbow": true,
+					"source": "OWL"
+				},
+				{
+					"hand crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"heavy crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"longbow": true,
+					"source": "OWL"
+				},
+				{
+					"whip": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Spidersilk ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeapon": "+2",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Spidersilk Weapon (no damage) +2",
+			"type": "GV",
+			"requires": [
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Spidersilk ",
+				"nameSuffix": " +2",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "rare",
+				"bonusWeaponAttack": "+2",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property.",
+					"You have a {=bonusWeaponAttack} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Spidersilk Weapon +3",
+			"type": "GV",
+			"requires": [
+				{
+					"composite shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"light crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"shortbow": true,
+					"source": "OWL"
+				},
+				{
+					"sling": true,
+					"source": "OWL"
+				},
+				{
+					"kusarigama": true,
+					"source": "OWL"
+				},
+				{
+					"composite longbow": true,
+					"source": "OWL"
+				},
+				{
+					"hand crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"heavy crossbow": true,
+					"source": "OWL"
+				},
+				{
+					"longbow": true,
+					"source": "OWL"
+				},
+				{
+					"whip": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Spidersilk ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeapon": "+3",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property.",
+					"You have a {=bonusWeapon} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
+			"name": "Spidersilk Weapon (no damage) +3",
+			"type": "GV",
+			"requires": [
+				{
+					"bolas": true,
+					"source": "OWL"
+				},
+				{
+					"net": true,
+					"source": "OWL"
+				}
+			],
+			"inherits": {
+				"namePrefix": "Spidersilk ",
+				"nameSuffix": " +3",
+				"source": "OWL",
+				"page": 39,
+				"srd": false,
+				"tier": "major",
+				"rarity": "very rare",
+				"bonusWeaponAttack": "+3",
+				"entries": [
+					"This weapon is made of spidersilk, enabling it to go to a net of -1 without breaking. If the weapon has the {@b ammunition} or the {@b Thrown} property, it has an increased range. The weapon has a DC of 20 for weapons with the {@b Tripping} or {@b Trapping} property.",
+					"You have a {=bonusWeaponAttack} bonus to attack and damage rolls made with this magic weapon.",
+					"{@b Magical.} This item is magical."
+				]
+			}
+		},
+		{
 			"name": "Tempered Steel Ammunition",
 			"type": "GV",
 			"requires": [
@@ -6341,6 +7120,20 @@
 					"name": "Silvered",
 					"entries": [
 						"This item is made of silver."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SPIDERSILK",
+			"source": "OWL",
+			"page": 39,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Spidersilk",
+					"entries": [
+						"This item is made of spidersilk."
 					]
 				}
 			]
