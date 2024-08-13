@@ -581,7 +581,7 @@
 				"OIL"
 			],
 			"entries": [
-				"When applied to a construct's wounds, heals {@dice 6d10} hit points. The oil's purple liquid quickly vanishes when poured."
+				"When applied to a construct's wounds, heals {@dice 8d10} hit points. The oil's purple liquid quickly vanishes when poured."
 			]
 		},
 		{
@@ -615,7 +615,7 @@
 				"OIL"
 			],
 			"entries": [
-				"When applied to a construct's wounds, heals {@dice 13d10} hit points. The oil's purple liquid quickly vanishes when poured."
+				"When applied to a construct's wounds, heals {@dice 16d10} hit points. The oil's purple liquid quickly vanishes when poured."
 			]
 		},
 		{
