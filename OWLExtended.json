@@ -22,6 +22,86 @@
 	},
 	"item": [
 		{
+			"name": "Antitoxin",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.6,
+			"value": 11000,
+			"entries": [
+				"A creature that drinks this pink vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."
+			]
+		},
+		{
+			"name": "Bottle of Good-Vibes",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 0.4,
+			"value": 12500,
+			"entries": [
+				"This green vial has bits of some sort of herb floating around inside it. The bottle is made of degradable and burnable material.",
+				"When drunk, this potion grants the drinker a euphoria that is quite pleasant, while the taste is less so. This hits the user instantly and lasts {@dice 1d4} hours.",
+				"When left open, this potion bubbles and smoke starts releasing from the bottle. this may be passed around and enjoyed for {@dice 1d10 + 3} minutes of enjoyment.",
+				"When thrown, the potion and all of its contents burst out. The bottle ignites and its contents boil away, leaving a cloud of smoke in a 15-foot radius centered on where the bottle was thrown. Creatures that start their turn in the smoke make a DC 10 Con Save or have disadvantage on saves regarding illusions or charms for 1 minute.",
+				"Addictive 3"
+			]
+		},
+		{
+			"name": "Cannabis Tincture",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.38,
+			"value": 3500,
+			"entries": [
+				"This bitter, oily golden liquid warms the mouth wherever it touches. While under the effects of a Cannabis Tincture you gain {@dice 3d4} TempHP, you have a +1 to Constitution and Wisdom saving throws. Lasts 3 hours.",
+				"Used as a medium-strength painkiller. Has five doses, enough for 1 day of pain relief.",
+				"Addictive 2."
+			]
+		},
+		{
+			"name": "Flask of Oral Hygeine",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 0.4,
+			"value": 4500,
+			"entries": [
+				"Smelling of mint and alcohol, this bottle is designated with a clear label disclosing its purpose and directions. When swished around the mouth, makes you feel minty fresh.",
+				"+1 TempHP",
+				"+1 to {@skill Persuasion}"
+			]
+		},
+		{
+			"name": "Laudanum",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.68,
+			"value": 20000,
+			"entries": [
+				"This extremely bitter liquid is faintly red when held up to a bright light. While under the effects of a Laudanum, you gain {@dice 1d4} HP and {@dice 1d8} TempHP, you have a +3 to Constitution and Wisdom saving throws, and you lose one tier of exhaustion. If the tier of exhaustion is gained from a Disease or Lingering Injury and is normally incurable until said disease or injury is removed, the tier of exhaustion is surpressed, losing it temporarily and regaining it at the end of the potion's duration. Lasts 4 hours.",
+				"Used as a painkiller and surpressant for the symptoms of disease or injury. Typically taken with some form of sugar to help it stay down. A single bottle of Laudanum is good for three doses, evenly spread throughout the day.",
+				"Addictive 3"
+			]
+		},
+		{
 			"name": "Masterwork Spidersilk Armor",
 			"source": "OWL",
 			"page": 40,
@@ -92,6 +172,1346 @@
 				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
 				"You have a +1 bonus to AC while wearing this clothing.",
 				"{@b Masterwork.} This armor is crafted incredibly well."
+			]
+		},
+		{
+			"name": "Milk of the Poppy",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.32,
+			"value": 8500,
+			"entries": [
+				"This tiny vial of white liquid tastes bitter; though the ability to taste quickly vanishes along with any other sensation as you drink it. You gain {@dice 5d4 + 5} tempHP from drinking this tiny vial of white liquid. While under the drink's effects, the creature is numb to all but severe magical pain, giving them +5 to Constitution saving throws. They also temporarily gain one tier of exhaustion during the potion's duration from being drowsy, and can fall asleep if given 1 minute to do so uninterupted. A creature immune to being {@condition poisoned} does not gain the tier of exhaustion. While asleep, the creature can not wake up until the potion has expired. Lasts 3 hours.",
+				"Used as a severe painkiller ad sedative for especially painful surgeries and during war.",
+				"Addictive 5"
+			]
+		},
+		{
+			"name": "Oil (Flask)",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "G",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 1,
+			"value": 10,
+			"range": "20/60",
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet normally, or up to 60 feet at disadvantage, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an adition {@dice 1d8} fire damage from the burning oil. Alternatively or should the oil miss, it covers a five-foot square. Any fire damage that hits the oil causes it to burn for 1 minute. Anything that enters or starts its turn in the burning oil must make a DC 14 Dexterity save or suffer {@dice 1d8} fire damage if they have not already suffered the damage from being covered in burning oil."
+			]
+		},
+		{
+			"name": "Oil (Jug)",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "G",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 7.5,
+			"value": 22,
+			"poison": true,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This jug contains 1 gallon of oil. Can be used to fill 8 clay flasks."
+			]
+		},
+		{
+			"name": "Oil of Acid",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.1,
+			"value": 450000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This sour fizzy liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Acid damage."
+			]
+		},
+		{
+			"name": "Oil of Cold",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 0.9,
+			"value": 500000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This slippery minty liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Cold damage."
+			]
+		},
+		{
+			"name": "Oil of Defence",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.75,
+			"value": 1000000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This sluggish thick liquid bubbles and oozes with energy. The oil can coat one piece of armor, natural or otherwise, or shield. If you apply this to natural armor that you are not using, this confers no benefit to you. Applying the oil takes 10 minutes. For 1 hour, the coated item is magical and has a +1 bonus to AC."
+			]
+		},
+		{
+			"name": "Oil of Etherealness",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 0.78,
+			"value": 2457500,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"Beads of this cloudy gray oil form on the outside of its container and quickly evaporate. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying this oil takes 10 minutes. The affected creature then gains the effect of the {@spell etherealness|phb} spell for 1 hour."
+			]
+		},
+		{
+			"name": "Oil of Fire",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.05,
+			"value": 550000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This thin spicy liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Fire damage."
+			]
+		},
+		{
+			"name": "Oil of Force",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 2.1,
+			"value": 1500000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This evaporating sweet liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Force damage."
+			]
+		},
+		{
+			"name": "Oil of Greater Repair",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 25000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"When applied to a construct's wounds, heals {@dice 2d10} hit points. The oil's purple liquid quickly vanishes when poured."
+			]
+		},
+		{
+			"name": "Oil of Lesser Repair",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.25,
+			"value": 1000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"When applied to a construct's wounds, heals {@dice 1d4} hit points. The oil's purple liquid quickly vanishes when poured."
+			]
+		},
+		{
+			"name": "Oil of Lightning",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1,
+			"value": 750000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This jittery fizzy liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Lightning damage."
+			]
+		},
+		{
+			"name": "Oil of Magic",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 100000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This fizzy thick liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls."
+			]
+		},
+		{
+			"name": "Oil of Mending",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.65,
+			"value": 12500,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This sticky white paste may ment two things together when held in place for at least 1 round, acting as if conjoined by the {@spell mending|phb} spell. When poured onto a construct's wounds, they heal {@dice 2d6} hp."
+			]
+		},
+		{
+			"name": "Oil of Necrosis",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 1200000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This sickly putrid liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Necrotic damage."
+			]
+		},
+		{
+			"name": "Oil of Petrification Revival",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 0.55,
+			"value": 1257500,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This murky brown miracle fluid can be extremely rarely found naturally dripping in caves where bats are present. A creature can spend 1 minute applying the oil to another creature that has been {@condition petrified}, causing the {@condition petrified} condition on that creature to end at the start of what would be that creature's next turn."
+			]
+		},
+		{
+			"name": "Oil of Poison",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 0.95,
+			"value": 350000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This bitter slimy liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Poison damage."
+			]
+		},
+		{
+			"name": "Oil of Psychosis",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.3,
+			"value": 850000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This sticky bitter liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Psychic damage."
+			]
+		},
+		{
+			"name": "Oil of Radiance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.15,
+			"value": 1000000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This glowing metallic liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Radiant damage."
+			]
+		},
+		{
+			"name": "Oil of Repair",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.5,
+			"value": 5000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"When applied to a construct's wounds, heals {@dice 1d10} hit points. The oil's purple liquid quickly vanishes when poured."
+			]
+		},
+		{
+			"name": "Oil of Sharpness",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 1.25,
+			"value": 5750000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This clear, gelatinous oil sparkles with tiny, ultrathin silver shards. The oil can coat one slashing or piercing weapon, natural or otherwise, or up to 5 pieces of slashing or piercing ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +3 bonus to attack and damage rolls."
+			]
+		},
+		{
+			"name": "Oil of Slipperiness",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.85,
+			"value": 185000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This sticky black unguent is thick and heavy in the container, but it flows quickly when poured. The oil can cover a Medium or smaller creature, along with the equipment it's wearing and carrying (one additional vial is required for each size category above Medium). Applying the oil takes 10 minutes. The affected creature then gains he effect of a {@spell freedom of movement|phb} spell for 8 hours.",
+				"Alternatively, the oil can be poured on the ground as an action, where it covers a 10-foot square, duplicating the effect of the {@spell grease|cooms} spell in that area for 8 hours."
+			]
+		},
+		{
+			"name": "Oil of Superior Repair",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 250000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"When applied to a construct's wounds, heals {@dice 4d10} hit points. The oil's purple liquid quickly vanishes when poured."
+			]
+		},
+		{
+			"name": "Oil of Supreme Repair",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 2,
+			"value": 2500000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"When applied to a construct's wounds, heals {@dice 6d10} hit points. The oil's purple liquid quickly vanishes when poured."
+			]
+		},
+		{
+			"name": "Oil of Thunder",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.1,
+			"value": 650000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"This warbling fizzy liquid bubbles and oozes with energy. The oil can coat one weapon, natural or otherwise, or up to 5 pieces of ammuntion. Applying the oil takes 1 minute. For 1 hour, the coated item is magical and has a +1 bonus to attack and damage rolls and deals {@dice 1d4} Thunder damage."
+			]
+		},
+		{
+			"name": "Oil of Ultimate Repair",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 25000000,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"When applied to a construct's wounds, heals {@dice 13d10} hit points. The oil's purple liquid quickly vanishes when poured."
+			]
+		},
+		{
+			"name": "Perfume (Flask)",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 1,
+			"value": 10000,
+			"entries": [
+				"With a few spritzes of this beautiful aroma placed on your person, people tend to like you more.",
+				"+3 to {@skill Persuasion}",
+				"+3 to {@skill Deception}"
+			]
+		},
+		{
+			"name": "Perfume (Vial)",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 0.25,
+			"value": 2500,
+			"entries": [
+				"With a few spritzes of this beautiful aroma placed on your person, people tend to like you more.",
+				"+3 to {@skill Persuasion}",
+				"+3 to {@skill Deception}"
+			]
+		},
+		{
+			"name": "Potion of Acid Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.6,
+			"value": 45000,
+			"entries": [
+				"When you drink this potion, you gain resistance to acid damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Awakening",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.4,
+			"value": 9500,
+			"entries": [
+				"A creature that drinks this vial of liquid gains advantage on saving throws against sleep and exhaustion for 1 hour. It confers no benefit to undead or constructs."
+			]
+		},
+		{
+			"name": "Potion of Climbing",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.65,
+			"value": 11500,
+			"entries": [
+				"When you drink this potion, you gain a climbing speed equal to your walking speed for 1 hour. During that time, you have advantage on Strength ({@skill Athletics}) checks you make to climb. The potion is seperated into brown, silver, and grey layers resembling bands of stone. Shaking the bottle fails to mix the colors."
+			]
+		},
+		{
+			"name": "Potion of Cold Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.4,
+			"value": 50000,
+			"entries": [
+				"When you drink this potion, you gain resistance to cold damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Fire Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.55,
+			"value": 55000,
+			"entries": [
+				"When you drink this potion, you gain resistance to fire damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Force Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1.6,
+			"value": 150000,
+			"entries": [
+				"When you drink this potion, you gain resistance to force damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Greater Healing",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 25000,
+			"entries": [
+				"You regain {@dice 4d4 + 4} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+			]
+		},
+		{
+			"name": "Potion of Greater Health",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1,
+			"value": 1500000,
+			"entries": [
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 4d4 + 4} hit points, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions."
+			]
+		},
+		{
+			"name": "Potion of Greater Magic",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 25000,
+			"entries": [
+				"You can recover a total number of combined spell slot levels equal to or less than {@dice 1d4 + 1} when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The level of spell slots gained may not exceed 3. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
+				"Sorcerers may divy up the number rolled into sorcery points as well.",
+				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
+				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 2 spell slot for their pact magic back."
+			]
+		},
+		{
+			"name": "Potion of Greater Regeneration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 1,
+			"value": 13500000,
+			"entries": [
+				"A creature who drinks this lavander brew has their natural healing ability both stimulated and accelerated. For 1 hour, the target regains 1 hit point at the start of each of their turns (10 hit points each minute). In addition, once per turn for the duration of the potion, the drinker can choose to perform a healing surge, rolling a hit die to recover HP.",
+				"The imbiber's severed body members (fingers, legs, tails, and so on), if any, are restored by the end of the potion. If they have the severed part and hold it to the stump, the potion instantaneously causes the limb to knit to the stump."
+			]
+		},
+		{
+			"name": "Potion of Greater Restoration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1,
+			"value": 1275000,
+			"entries": [
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions."
+			]
+		},
+		{
+			"name": "Potion of Greater Spirit",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 25000,
+			"entries": [
+				"You restore {@dice 2d2 + 1} expended uses of a resource or ability (e.g. Action Surge, Ki, Channel Divinity, Wild Shape, etc.) that regains on a short rest. Alternatively, should you wish to regain a long rest ability, the cost is doubled (e.g. Rage, Arcane Recovery, Breath Weapon, Relentless Endurance, Innate Spellcasting, etc.). This potion's yellow liquid glows when disturbed."
+			]
+		},
+		{
+			"name": "Potion of Greater Stamina",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 25000,
+			"entries": [
+				"You gain {@dice 2d8} temporary hit points and lose {@dice 1d2 + 1} tiers of exhaustion when you drink this potion. You may exchange 3 exhaustion tier recoveries to instead recover an expent hit die. On top of this, any lingering injury sustained by the drinker is reduced by a number of hours equal to {@dice 1d20}. This potion's green liquid fizzes if shaken or opened."
+			]
+		},
+		{
+			"name": "Potion of Healing",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.5,
+			"value": 5000,
+			"entries": [
+				"You regain {@dice 2d4 + 2} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+			]
+		},
+		{
+			"name": "Potion of Health",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 0.5,
+			"value": 625000,
+			"entries": [
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 2d4 + 2} hit points, and it either cures any disease afflicting you, or it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions."
+			]
+		},
+		{
+			"name": "Potion of Lesser Healing",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.25,
+			"value": 1000,
+			"entries": [
+				"You regain {@dice 1d4 + 1} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+			]
+		},
+		{
+			"name": "Potion of Lesser Health",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.25,
+			"value": 157500,
+			"entries": [
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 1d4 + 1} hit points, and it can end either one disease or one condition afflicting you. The condition can be {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}."
+			]
+		},
+		{
+			"name": "Potion of Lesser Magic",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.25,
+			"value": 1000,
+			"entries": [
+				"You can recover a level 1 spell slot when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
+				"Sorcerers may instead gain a sorcery point.",
+				"Paladins may instead gain 5 lay on hands points back.",
+				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron. They must then roll a {@dice 1d2}, gaining a spell slot back on a 2."
+			]
+		},
+		{
+			"name": "Potion of Lesser Regeneration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.25,
+			"value": 35000,
+			"entries": [
+				"A creature who drinks this lavander brew has their natural healing ability both stimulated and accelerated. For 1 minute, the target regains 1 hit point at the start of each of their turns (10 hit points total). In addition, once per turn for the duration of the potion, the drinker can choose to perform a healing surge, rolling a hit die to recover HP."
+			]
+		},
+		{
+			"name": "Potion of Lesser Restoration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.25,
+			"value": 150000,
+			"entries": [
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it can end either one disease or one condition afflicting you. The condition can be {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned}."
+			]
+		},
+		{
+			"name": "Potion of Lesser Spirit",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.25,
+			"value": 1000,
+			"entries": [
+				"You restore an expended use of a resource or ability (e.g. Action Surge, Ki, Channel Divinity, Wild Shape, etc.) that regains on a short rest. This potion's yellow liquid glows when disturbed."
+			]
+		},
+		{
+			"name": "Potion of Lesser Stamina",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.25,
+			"value": 1000,
+			"entries": [
+				"You gain {@dice 1d4} temporary hit points and lose {@dice 1d2 - 1} tiers of exhaustion when you drink this potion. On top of this, any lingering injury sustained by the drinker is reduced by an hour. This potion's green liquid fizzes if shaken or opened."
+			]
+		},
+		{
+			"name": "Potion of lightning Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.5,
+			"value": 75000,
+			"entries": [
+				"When you drink this potion, you gain resistance to lightning damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Magic",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.5,
+			"value": 5000,
+			"entries": [
+				"You can recover {@dice 1d2} level 1 spell slots when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
+				"Sorcerers may divy up the number rolled into sorcery points as well.",
+				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
+				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 1 spell slot for their pact magic back."
+			]
+		},
+		{
+			"name": "Potion of Natural Ability",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 0.55,
+			"value": 17500,
+			"entries": [
+				"This magical potion seems to contain floating scales, feathers, and small tufts of fur. Opening the cork reveals a musky odor. Drinking this potion recovers all expended uses of your racial abilities."
+			]
+		},
+		{
+			"name": "Potion of Natural Magic",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 0.85,
+			"value": 175000,
+			"entries": [
+				"This magical blue potion is corked with the claw of a dire wolf. Opening the cork reveals a musky odor. Drinking this potion recovers all expended uses of your innate spellcasting."
+			]
+		},
+		{
+			"name": "Potion of Necrotic Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 120000,
+			"entries": [
+				"When you drink this potion, you gain resistance to necrotic damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Poison Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.45,
+			"value": 35000,
+			"entries": [
+				"When you drink this potion, you gain resistance to poison damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Psychic Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.8,
+			"value": 85000,
+			"entries": [
+				"When you drink this potion, you gain resistance to psychic damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Radiant Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.65,
+			"value": 100000,
+			"entries": [
+				"When you drink this potion, you gain resistance to radiant damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Regeneration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 0.5,
+			"value": 3500000,
+			"entries": [
+				"A creature who drinks this lavander brew has their natural healing ability both stimulated and accelerated. For 10 minutes, the target regains 1 hit point at the start of each of their turns (10 hit points each minute). In addition, once per turn for the duration of the potion, the drinker can choose to perform a healing surge, rolling a hit die to recover HP."
+			]
+		},
+		{
+			"name": "Potion of Restoration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 0.5,
+			"value": 550000,
+			"entries": [
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it either cures any disease afflicting you, or it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions."
+			]
+		},
+		{
+			"name": "Potion of Spirit",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.5,
+			"value": 5000,
+			"entries": [
+				"You restore {@dice 1d2} expended uses of a resource or ability (e.g. Action Surge, Ki, Channel Divinity, Wild Shape, etc.) that regains on a short rest. Alternatively, should you wish to regain a long rest ability, the cost is doubled (e.g. Rage, Arcane Recovery, Breath Weapon, Relentless Endurance, Innate Spellcasting, etc.). This potion's yellow liquid glows when disturbed."
+			]
+		},
+		{
+			"name": "Potion of Stamina",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.5,
+			"value": 5000,
+			"entries": [
+				"You gain {@dice 1d6} temporary hit points and lose {@dice 1d2} tiers of exhaustion when you drink this potion. On top of this, any lingering injury sustained by the drinker is reduced by a number of hours equal to {@dice 1d4}. This potion's green liquid fizzes if shaken or opened."
+			]
+		},
+		{
+			"name": "Potion of Superior Healing",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 250000,
+			"entries": [
+				"You regain {@dice 8d4 + 8} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+			]
+		},
+		{
+			"name": "Potion of Superior Health",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 2000000,
+			"entries": [
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 8d4 + 8} hit points, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you can reduce your {@condition exhaustion} level by one, or end one of the following effects on yourself:",
+				"One effect that {@condition charmed} or {@condition petrified} yourself.",
+				"One curse, including your attunement to a cursed magic item.",
+				"Any reduction to one of your ability scores.",
+				"One effect reducing your hit point maximum."
+			]
+		},
+		{
+			"name": "Potion of Superior Magic",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 250000,
+			"entries": [
+				"You can recover a total number of combined spell slot levels equal to or less than {@dice 1d8 + 2} when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The level of spell slots gained may not exceed 5. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
+				"Sorcerers may divy up the number rolled into sorcery points as well.",
+				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
+				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 3 spell slot for their pact magic back."
+			]
+		},
+		{
+			"name": "Potion of Superior Regeneration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 1.5,
+			"value": 35000000,
+			"entries": [
+				"A creature who drinks this lavander brew has their natural healing ability both stimulated and accelerated. For 10 minutes, the target regains 6 hit points at the start of each of their turns (60 hit points each minute). In addition, once per turn for the duration of the potion, the drinker can choose to perform a healing surge, rolling a hit die to recover HP.",
+				"The imbiber's severed body members (fingers, legs, tails, and so on), if any, are restored by the end of the potion. If they have the severed part and hold it to the stump, the potion instantaneously causes the limb to knit to the stump."
+			]
+		},
+		{
+			"name": "Potion of Superior Restoration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 1575000,
+			"entries": [
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you can reduce your {@condition exhaustion} level by one, or end one of the following effects on yourself:",
+				"One effect that {@condition charmed} or {@condition petrified} yourself.",
+				"One curse, including your attunement to a cursed magic item.",
+				"Any reduction to one of your ability scores.",
+				"One effect reducing your hit point maximum."
+			]
+		},
+		{
+			"name": "Potion of Superior Spirit",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 250000,
+			"entries": [
+				"You restore {@dice 2d4 + 2} expended uses of a resource or ability (e.g. Action Surge, Ki, Channel Divinity, Wild Shape, etc.) that regains on a short rest. Alternatively, should you wish to regain a long rest ability, the cost is doubled (e.g. Rage, Arcane Recovery, Breath Weapon, Relentless Endurance, Innate Spellcasting, etc.). This potion's yellow liquid glows when disturbed."
+			]
+		},
+		{
+			"name": "Potion of Superior Stamina",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 250000,
+			"entries": [
+				"You gain {@dice 3d10} temporary hit points and lose {@dice 1d4 + 1} tiers of exhaustion when you drink this potion. You may exchange 3 exhaustion tier recoveries to instead recover an expent hit die, or 4 exhaustion tier recoveries to recover a single tier of {@i bestir exhaustion} following the normal rules for recovering such a tier. On top of this, any lingering injury sustained by the drinker is reduced by a number of days equal to {@dice 2d4}. This potion's green liquid fizzes if shaken or opened."
+			]
+		},
+		{
+			"name": "Potion of Supreme Healing",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 2,
+			"value": 2500000,
+			"entries": [
+				"You regain {@dice 10d4 + 20} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+			]
+		},
+		{
+			"name": "Potion of Supreme Health",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 2,
+			"value": 5500000,
+			"entries": [
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 10d4 + 20} hit points, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you can reduce your {@condition exhaustion} level by two, or end one of the following effects on yourself:",
+				"One effect that {@condition charmed} or {@condition petrified} yourself.",
+				"One curse, including your attunement to a cursed magic item.",
+				"Any reduction to one of your ability scores.",
+				"One effect reducing your hit point maximum."
+			]
+		},
+		{
+			"name": "Potion of Supreme Magic",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 2,
+			"value": 2500000,
+			"entries": [
+				"You can recover a total number of combined spell slot levels equal to or less than {@dice 1d12 + 8} when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The level of spell slots gained may not exceed 7. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
+				"Sorcerers may divy up the number rolled into sorcery points as well.",
+				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
+				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 4 spell slot for their pact magic back."
+			]
+		},
+		{
+			"name": "Potion of Supreme Regeneration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2,
+			"value": 135000000,
+			"entries": [
+				"A creature who drinks this lavander brew has their natural healing ability both stimulated and accelerated. For 1 minutes, the target regains 60 hit points at the start of each of their turns (600 hit points each minute). In addition, once per turn for the duration of the potion, the drinker can choose to perform a healing surge, rolling a hit die to recover HP.",
+				"The imbiber's severed body members (fingers, legs, tails, and so on), if any, are restored by the end of the potion. If they have the severed part and hold it to the stump, the potion instantaneously causes the limb to knit to the stump."
+			]
+		},
+		{
+			"name": "Potion of Supreme Restoration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 2,
+			"value": 2875000,
+			"entries": [
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you can reduce your {@condition exhaustion} level by two, or end one of the following effects on yourself:",
+				"One effect that {@condition charmed} or {@condition petrified} yourself.",
+				"One curse, including your attunement to a cursed magic item.",
+				"Any reduction to one of your ability scores.",
+				"One effect reducing your hit point maximum."
+			]
+		},
+		{
+			"name": "Potion of Supreme Spirit",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 2,
+			"value": 2500000,
+			"entries": [
+				"You restore {@dice 3d4 + 4} expended uses of a resource or ability (e.g. Action Surge, Ki, Channel Divinity, Wild Shape, etc.) that regains on a short rest. Alternatively, should you wish to regain a long rest ability, the cost is doubled (e.g. Rage, Arcane Recovery, Breath Weapon, Relentless Endurance, Innate Spellcasting, etc.). This potion's yellow liquid glows when disturbed."
+			]
+		},
+		{
+			"name": "Potion of Supreme Stamina",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 2,
+			"value": 2500000,
+			"entries": [
+				"You gain {@dice 4d12} temporary hit points and lose {@dice 2d4 + 2} tiers of exhaustion when you drink this potion. You may exchange 3 exhaustion tier recoveries to instead recover an expent hit die, or 4 exhaustion tier recoveries to recover a single tier of {@i bestir exhaustion} following the normal rules for recovering such a tier, or 6 exhaustion tier recoveries to cure yourself of a single disease. On top of this, any lingering injury sustained by the drinker is reduced by a number of days equal to {@dice 4d6}. This potion's green liquid fizzes if shaken or opened."
+			]
+		},
+		{
+			"name": "Potion of Thunder Resistance",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.6,
+			"value": 65000,
+			"entries": [
+				"When you drink this potion, you gain resistance to thunder damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Ultimate Healing",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 25000000,
+			"entries": [
+				"You regain {@dice 20d4 + 50} hit points when you drink this potion. The potion's red liquid glimmers when agitated."
+			]
+		},
+		{
+			"name": "Potion of Ultimate Health",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 75000000,
+			"entries": [
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 20d4 + 50} hit points, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you remove all {@condition exhaustion} affecting you and end any of the following effects on yourself:",
+				"One effect that {@condition charmed} or {@condition petrified} yourself.",
+				"One curse, including your attunement to a cursed magic item.",
+				"Any reduction to one of your ability scores.",
+				"One effect reducing your hit point maximum."
+			]
+		},
+		{
+			"name": "Potion of Ultimate Magic",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 25000000,
+			"entries": [
+				"You can recover a total number of combined spell slot levels equal to or less than {@dice 1d20 + 10} when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
+				"Sorcerers may divy up the number rolled into sorcery points as well.",
+				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
+				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 4 spell slot for their pact magic back as well as 1 use of an expent Mystic Arcanum."
+			]
+		},
+		{
+			"name": "Potion of Ultimate Regeneration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 350000000,
+			"entries": [
+				"A creature who drinks this lavander brew has their natural healing ability both stimulated and accelerated. The drinker immediately gains 600 hit points, and may additionally choose to roll a hit die to gain more hp.",
+				"The imbiber's severed body members (fingers, legs, tails, and so on), if any, are instantly restored."
+			]
+		},
+		{
+			"name": "Potion of Ultimate Restoration",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 45000000,
+			"entries": [
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you remove all {@condition exhaustion} affecting you and end any of the following effects on yourself:",
+				"One effect that {@condition charmed} or {@condition petrified} yourself.",
+				"One curse, including your attunement to a cursed magic item.",
+				"Any reduction to one of your ability scores.",
+				"One effect reducing your hit point maximum."
+			]
+		},
+		{
+			"name": "Potion of Ultimate Spirit",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 25000000,
+			"entries": [
+				"You restore {@dice 4d6 + 8} expended uses of a resource or ability (e.g. Action Surge, Ki, Channel Divinity, Wild Shape, etc.) that regains on a short rest. Alternatively, should you wish to regain a long rest ability, the cost is doubled (e.g. Rage, Arcane Recovery, Breath Weapon, Relentless Endurance, Innate Spellcasting, etc.). This potion's yellow liquid glows when disturbed."
+			]
+		},
+		{
+			"name": "Potion of Ultimate Stamina",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 25000000,
+			"entries": [
+				"You gain {@dice 5d20} temporary hit points and lose {@dice 4d4 + 4} tiers of exhaustion when you drink this potion. You may exchange 3 exhaustion tier recoveries to instead recover an expent hit die, or 4 exhaustion tier recoveries to recover a single tier of {@i bestir exhaustion} following the normal rules for recovering such a tier, or 6 exhaustion tier recoveries to cure yourself of a single disease. On top of this, any lingering injury sustained by the drinker is reduced by a number of days equal to {@dice 8d6}. This potion's green liquid fizzes if shaken or opened."
+			]
+		},
+		{
+			"name": "Potion of Watchful Rest",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 0.45,
+			"value": 200000,
+			"entries": [
+				"When you drink this potion, you gain the following benefits for the next 8 hours: magic can't put you to sleep, and you can remain awake during a long rest and still gain its benefits. This sweet, amber-colored brew has no effect on creatures that don't require sleep, such as elves."
+			]
+		},
+		{
+			"name": "Potion of Water Breathing",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 86700,
+			"entries": [
+				"You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it."
 			]
 		},
 		{
@@ -368,6 +1788,23 @@
 			"entries": [
 				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
 				"You have a +3 bonus to AC while wearing this clothing."
+			]
+		},
+		{
+			"name": "Willowshade Oil",
+			"source": "OWL",
+			"page": 50,
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 1.2,
+			"value": 21500,
+			"property": [
+				"OIL"
+			],
+			"entries": [
+				"A dark blue oil can be extracted from the rare fruit of the willowshade plant. A creature can use its action to apply the oil to another creature that has been {@condition petrified} for less than 1 minute, causing the {@condition petrified} condition on that creature to end at the start of what would be that creature's next turn."
 			]
 		}
 	],
@@ -7106,6 +8543,20 @@
 					"name": "Mithral",
 					"entries": [
 						"This item is made of mithral."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "OIL",
+			"source": "OWL",
+			"page": 50,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Oil",
+					"entries": [
+						"This item is an oil."
 					]
 				}
 			]
