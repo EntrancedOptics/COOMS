@@ -162,7 +162,7 @@
 			},
 			"additionalSpells": [
 				{
-					"ability": "cha",
+					"ability": "con",
 					"known": {
 						"1": [
 							"light#c"
@@ -226,6 +226,467 @@
 						"You can speak, read, and write Common and Celestial."
 					],
 					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Celestial Revelation",
+					"entries": [
+						"When you reach 3rd level, choose one of the revelation options below. Thereafter, you can use a bonus action to unleash the celestial energy within yourself, gaining the benefits of that revelation. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation below, you can't use it again until you finish a long rest.",
+						{
+							"type": "list",
+							"items": [
+								{
+									"type": "item",
+									"name": "Necrotic Shroud",
+									"entry": "Your eyes turn into pools of darkness and two skeletal, ghostly, flightless wings sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened} of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level."
+								},
+								{
+									"type": "item",
+									"name": "Radiant Consumption",
+									"entry": "Searing light temporarily radiates from your eyes and mouth, threatening to char you. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you takes radiant damage equal to half your level (rounded up). Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level."
+								},
+								{
+									"type": "item",
+									"name": "Radiant Soul",
+									"entry": "Your eyes glimmer and two luminous, incorporeal wings sprout from your back. Until the transformation ends, you have a flying speed of 30ft, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level."
+								}
+							],
+							"style": "list-hang-notitle"
+						}
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Aasimar; Necrotic Shroud",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Celestial Revelation",
+							"items": {
+								"name": "Celestial Revelation (Necrotic Shroud)",
+								"type": "entries",
+								"entries": [
+									"When you reach 3rd level, you can use a bonus action to transform yourself. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation, you can't use it again until you finish a long rest.",
+									"Your eyes turn into pools of darkness and two skeletal, ghostly, flightless wings sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened} of you until the end of your next turn. Until the transformation ends, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level."
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Aasimar; Radiant Consumption",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Celestial Revelation",
+							"items": {
+								"name": "Celestial Revelation (Radiant Consumption)",
+								"type": "entries",
+								"entries": [
+									"When you reach 3rd level, you can use a bonus action to transform yourself. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation, you can't use it again until you finish a long rest.",
+									"Searing light temporarily radiates from your eyes and mouth, threatening to char you. For the duration, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you takes radiant damage equal to half your level (rounded up). Until the transformation ends, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level."
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Aasimar; Radiant Soul",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Celestial Revelation",
+							"items": {
+								"name": "Celestial Revelation (Radiant Soul)",
+								"type": "entries",
+								"entries": [
+									"When you reach 3rd level, you can use a bonus action to transform yourself. Your transformation lasts for 1 minute or until you end it as a bonus action. Once you transform using your revelation, you can't use it again until you finish a long rest.",
+									"Your eyes glimmer and two luminous, incorporeal wings sprout from your back. Until the transformation ends, you have a flying speed of 30ft, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level."
+								]
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"name": "Axani",
+			"source": "EARL",
+			"page": 3,
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"ability": [
+				{
+					"int": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 120
+			},
+			"resist": [
+				{
+					"choose": {
+						"from": [
+							"acid",
+							"cold",
+							"fire",
+							"lightning",
+							"thunder"
+						],
+						"count": 1
+					}
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Uncommon Race",
+				"Spellcasting",
+				"Skill Proficiency",
+				"Planetouched",
+				"Damage Resistance"
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"mending#c"
+						]
+					},
+					"ability": [
+						"con"
+					]
+				},
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+							"command"
+							]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"calm emotions"
+								]
+							}
+						}
+					},
+					"ability": [
+						"con"
+					]
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"investigation",
+							"persuasion"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"modron": true
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Axani mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Axani are planetouched by the Lawful planes, and they tend to stick to Lawful Neutral. There are about equal portions of Axani as Lawful Evil and Good. Neutral Axani are extremely rare, and Chaotic Axani are almost unheard of."
+					]
+				},
+				{
+					"name": "Appearence",
+					"type": "entries",
+					"entries": [
+						"Axani typically have overly neat, orderly appearances; often favoring simple but elegant clothing and hairstyles. Their faces can be seen as traditionally attractive, with symmetrical, well-placed and portioned features, with no body or facial hair. Rarely, an Axani might have a metallic tint to their skin or hair."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Axani are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Scrupulous",
+					"entries": [
+						"Axani have an intense eye for detail, able to pick out flaws in anything if given the opportunity. They are also very thorough in arguments, leaving no room for misinterpretation. You gain proficiency in either {@skill Investigation} or {@skill Persuasion}."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Lawful Resistance",
+					"entries": [
+						"You have resistance to either Acid, Cold, Fire, Lightning, or Thunder damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Establish Order",
+					"entries": [
+						"You know the {@spell mending} cantrip. Starting at 3rd level, you can cast the {@spell command} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell calm emotions} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					]
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can understand and speak {@language Common} and Modron."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": false,
+			"hasFluffImages": false
+		},
+		{
+			"name": "Astral Elf",
+			"source": "EARL",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"creatureTypeTags": [
+				"elf"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"max": 750
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"dancing lights#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"con"
+						]
+					}
+				},
+				{
+					"known": {
+						"1": [
+							"light#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"con"
+						]
+					}
+				},
+				{
+					"known": {
+						"1": [
+							"sacred flame#c"
+						]
+					},
+					"ability": {
+						"choose": [
+							"con"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Fire",
+					"entries": [
+						"You know one of the following cantrips of your choice: {@spell dancing lights}, {@spell light}, or {@spell sacred flame}. Constitution is your spellcasting ability for it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the {@condition charmed} condition on yourself."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Starlight Step",
+					"entries": [
+						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Trance",
+					"entries": [
+						"You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.",
+						"Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the {@book Player's Handbook|PHB}. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Autognome",
+			"source": "EARL",
+			"creatureTypes": [
+				"construct"
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"int": 1
+				}
+			],
+			"traitTags": [
+				"Improved Resting",
+				"Natural Armor"
+			],
+			"toolProficiencies": [
+				{
+					"any": 2
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"conditionImmune": [
+				"disease"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Construct."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Armored Casing",
+					"entries": [
+						"You are encased in thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Built for Success",
+					"entries": [
+						"You can add a {@dice d4} to one attack roll, ability check, or saving throw you make, and you can do so after seeing the {@dice d20} roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Healing Machine",
+					"entries": [
+						"If the {@spell mending} spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).",
+						"In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: {@spell cure wounds}, {@spell healing word}, {@spell mass cure wounds}, {@spell mass healing word}, and {@spell spare the dying}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mechanical Nature",
+					"entries": [
+						"You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being {@condition paralyzed} or {@condition poisoned}. You don't need to eat, drink, or breathe."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentry's Rest",
+					"entries": [
+						"When you take a long rest, you spend at least 6 hours in an inactive, motionless state, instead of sleeping. In this state, you appear inert, but you remain conscious."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Specialized Design",
+					"entries": [
+						"You gain two tool proficiencies of your choice, selected from the {@book Player's Handbook|PHB}."
+					]
 				}
 			],
 			"hasFluff": true,
