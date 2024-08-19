@@ -4484,6 +4484,65 @@
       }
     },
     {
+        "name": "Drown",
+        "source": "COOMS",
+        "level": 7,
+        "school": "C",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 30
+            }
+        },
+        "components": {
+            "v": true,
+            "s": true,
+            "m": "a short piece of flotsam or seaweed"
+        },
+        "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+        ],
+        "entries": [
+            "You point at a creature within range. The creature must make a Charisma saving throw or its lungs fill with seawater. Any water the creature hacks or expels from their lungs is immediately recycled back into their lungs. If the creature can't breathe underwater, the creature begins suffocating. A suffocating creature can’t speak or perform verbal spell components, and can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round), after which it drops to 0 hit points and is dying. At the end of the creature's turns thereafter, the creature can remake the Charisma saving throw, ending the effect on a success."
+        ],
+        "spellAttack": [
+            "R"
+        ],
+        "savingThrow": [
+            "Charisma"
+        ],
+        "areaTags": [
+            "ST"
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Druid",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Druid",
+                    "source": "THICC"
+                }
+            ]
+        }
+    },
+    {
       "name": "Druidcraft",
       "source": "COOMS",
       "level": 0,
