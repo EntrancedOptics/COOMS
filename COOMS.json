@@ -384,9 +384,9 @@
         "s": true,
         "m": "a playing card depicting a rogue"
       },
-      "duration": [
+       "duration": [
         {
-          "type": "Instant"
+          "type": "instant"
         }
       ],
       "entries": [
