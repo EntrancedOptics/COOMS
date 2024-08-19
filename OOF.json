@@ -350,6 +350,53 @@
 			]
 		},
 		{
+			"name": "Dragon Breath",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"reprintedAs":[
+				"Dragon Breath|OOF"
+			],
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Human (Dragonheart)"
+						}
+					]
+				},
+				{
+					"level":{
+						"level": 1,
+						"class": {
+							"name": "Draconic Bloodline Sorcerer",
+							"visible": true
+						}
+					}
+				}
+			],
+			"ability":[
+				{
+					"con": 1
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have awakened the latent dragon blood that flows within you, allowing you to mimick the breath weapons of dragons. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike.",
+						"You gain the ability to use the Breath Weapon associated with your draconic ancestry.",
+						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of d10s equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage. You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
 			"name": "Dwarven Recovery",
 			"source": "EntrancedFeats",
 			"page": 3,
@@ -522,6 +569,50 @@
 						"You learn the {@spell misty step|phb} spell and one {@filter 1st-level spell|spells|level=1|school=D;E} of your choice. The {@filter 1st-level spell|spells|level=1|school=D;E} must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot or its somatic and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
 					],
 					"type": "list"
+				}
+			]
+		},
+		{
+			"name": "Fiendish Connection",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"reprintedAs": [
+				"Fiendish Connection|OOF"
+			],
+			"prerequisite": [
+                {
+					"level":8,
+                    "race": [
+                        {
+                            "name": "Tiefling"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You possess a special connection to the creatures of the plane you hail from, manifesting in your natural abilities as they increase in power. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"If you have the Abyssal Resistance feature, you gain two more Variant Features from the selection you had when you became this race, as well as either an additional Variant Head or Variant Body feature.",
+						"If you have the Archeronic Resistance feature, creatures that are Poisoned by your Black Cloud act as though they were under the effects of the {@spell Confusion|phb} spell.",
+						"If you have the Carceric Resistance feature, you learn the {@spell Freedom of Movement|phb} spell and can cast it innately with a range of self and without expending any components a number of times per long rest equal to your proficiency bonus.",
+						"If you have the Daemonic Resistance feature, you learn the {@spell Far Step|XGE} spell and can cast it innately as an action a number of times per long rest equal to your proficiency bonus. When cast in this way, it takes an action for you to teleport instead of a bonus action.",
+						"If you have the Gehennic Resistance feature, you gain the ability to speak, read, and write in goblin. In addition, you learn the {@spell Polymorph|phb} spell and can cast it innately with a range of self and without expending any components a number of times per long rest equal to your proficiency bonus. When cast in this way, you can only choose the form of a Wolf or, if there is space to grow, Dire Wolf.",
+						"If you have the Hellish Resistance feature, you may now cast the innate spellcasting given to you from your legacy feature at 3rd and 5th level a number of times per short or long rest equal to your proficiency modifier and a number of times per long rest equal to your proficiency modifier respectively.",
+						"If you have the Necrotic Consumption feature, Necrotic Consumption no longer damages you. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0)",
+						"If you have the Pandemonic Resistance feature, your Mind-Breaking Howl now extends to 30 feet and creatures {@condition frightened|phb} by it become {@condition incapacitated|phb} and have their speed halved"
+					]
 				}
 			]
 		},
