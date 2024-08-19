@@ -386,7 +386,7 @@
       },
       "duration": [
         {
-          "type": "Instant",
+          "type": "Instant"
         }
       ],
       "entries": [
