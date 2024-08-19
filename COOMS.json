@@ -362,6 +362,102 @@
       }
     },
     {
+      "name": "Antagonize",
+      "source": "COOMS",
+      "level": 3,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a playing card depicting a rogue"
+      },
+      "duration": [
+        {
+          "type": "Instant",
+        }
+      ],
+      "entries": [
+        "You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw, treating it as a saving throw against being Frenzied. On a failed save, the target takes 4d4 psychic damage and must immediately use its reaction to make a melee attack against another creature of your choice that you can see. If the target can't make this attack (for example, because there is no one within its reach or because its reaction is unavailable), the target instead has disadvantage on the next attack roll it makes before the start of your next turn. On a successful save, the target takes half as much damage only."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 2d4 for each slot level above 3rd."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "Psychic"
+      ],
+      "conditionInflict": [
+        "Frenzy"
+      ],
+      "spellAttack": [
+        "R"
+      ],
+      "savingThrow": [
+        "Wisdom"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Armor of Agathys",
       "source": "COOMS",
       "level": 1,
