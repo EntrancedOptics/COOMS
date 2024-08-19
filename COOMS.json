@@ -449,6 +449,85 @@
           "source": "PHB"
         }
       ]
+    },  
+    {
+        "name": "Avasculate",
+        "source": "COOMS",
+        "level": 9,
+        "school": "N",
+        "time": [
+            {
+                "number": 1,
+                "unit": "action"
+            }
+        ],
+        "range": {
+            "type": "point",
+            "distance": {
+                "type": "feet",
+                "amount": 30
+            }
+        },
+        "components": {
+            "v": true,
+            "s": true,
+            "m": "a short length of rope stained with blood"
+        },
+        "duration": [
+            {
+                "type": "instant"
+            }
+        ],
+        "entries": [
+            "You shoot a ray of necromantic energy from your outstretched hand, causing any living creature struck by the ray to violently purge blood (or some other life force, like an elemental's element, a construct's oil, an undead's ichor, etc) is forcefully drawn out through its exterior (on a being with flesh, this may be its skin, but a construct might be its iron body, etc.) Make a ranged spell attack against the creature to forcefully expel the creature's life essence. On a hit, the creature takes necrotic damage equal to half its current hit points (rounded down) and the creature must make a successful Constitution saving throw or become stunned until the end of its next turn."
+        ],
+        "damageInflict": [
+            "necrotic"
+        ],
+        "conditionInflict": [
+            "stunned"
+        ],
+        "spellAttack": [
+            "R"
+        ],
+        "savingThrow": [
+            "constitution"
+        ],
+        "areaTags": [
+            "ST"
+        ],
+        "classes": {
+            "fromClassList": [
+                {
+                    "name": "Sorcerer",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Sorcerer",
+                    "source": "THICC"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Warlock",
+                    "source": "THICC"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "PHB"
+                },
+                {
+                    "name": "Wizard",
+                    "source": "THICC"
+                },
+                {
+                    "name": "Witch",
+                    "source": "THICC"
+                }
+            ]
+        }
     },
     {
       "name": "Bane",
