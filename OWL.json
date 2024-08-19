@@ -15,7 +15,7 @@
 					"Beasty"
 				],
 				"version": "1.0.0",
-				"url": "https://docs.google.com/document/d/1c8aZFEpGUrM5BEoHMLVzUlmD3Rz0Y78kv4wAFYXr338",
+				"url": "https://docs.google.com/document/d/1UZrwBXMPfjGFMWW2vuidqk_1XIvuB7bNlu2bJ4KZSAc",
 				"color": "#18b300"
 			}
 		]
@@ -2199,6 +2199,26 @@
 			"weapon": true
 		},
 		{
+			"name": "Katar",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 2,
+			"value": 150,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L"
+			],
+			"dmg1": "2d2",
+			"dmgType": "P",
+			"katar": true,
+			"weapon": true
+		},
+		{
 			"name": "Khopesh",
 			"source": "OWL",
 			"page": 4,
@@ -2259,6 +2279,28 @@
 			"dmg1": "1d6",
 			"dmgType": "S",
 			"kukri": true,
+			"weapon": true
+		},
+		{
+			"name": "Kunai",
+			"source": "OWL",
+			"page": 1,
+			"srd": false,
+			"basicRules": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 1.2,
+			"value": 250,
+			"weaponCategory": "simple",
+			"property": [
+				"F",
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"dmg1": "2d2",
+			"dmgType": "P",
+			"kunai": true,
 			"weapon": true
 		},
 		{
