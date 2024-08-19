@@ -1766,10 +1766,29 @@
 					}
 				}
 			],
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
 			"entries":[
 				{
 					"entries":[
-						"You learn the magic of the primeval woods, which are revered and protected by your people. You learn one druid {@filter cantrip|spells|level=0|class=druid} of your choice. You also learn the {@spell longstrider|phb} and {@spell pass without trace|phb} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast these two spells in this way when you finish a long rest. Constitution is your spellcasting ability for all three spells."
+						"You learn the magic of the primeval woods, which are revered and protected by your people."
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You learn two druid cantrips of your choice. You also learn the {@spell longstrider|phb} and {@spell pass without trace|phb} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast {@spell longstrider|phb} in this way when you finish a short or long rest, and you regain the ability to cast {@spell pass without trace|phb} in this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			]
