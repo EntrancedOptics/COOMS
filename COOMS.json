@@ -6,8 +6,8 @@
         "abbreviation": "COOMS",
         "full": "Collection of Optics' Magical Spells",
         "url": "https://docs.google.com/document/d/1h1nwENfT-kE5fBEa92kvQgxch0-tzdewZFTahzMjqx4",
-        "authors": ["Entranced Optics"],
-        "convertedBy": ["Menzue", "Entranced Optics"],
+        "authors": [ "Entranced Optics" ],
+        "convertedBy": [ "Menzue", "Entranced Optics" ],
         "color": "#18b300"
       }
     ]
@@ -53,9 +53,9 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["fire"],
-      "savingThrow": ["dexterity"],
-      "areaTags": ["L"],
+      "damageInflict": [ "fire" ],
+      "savingThrow": [ "dexterity" ],
+      "areaTags": [ "L" ],
       "classes": {
         "fromClassList": [
           {
@@ -146,7 +146,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["dexterity"],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -287,7 +287,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["bludgeoning", "piercing", "slashing"],
+      "damageInflict": [ "bludgeoning", "piercing", "slashing" ],
       "classes": {
         "fromClassList": [
           {
@@ -404,8 +404,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["cold"],
-      "miscTags": ["THP"],
+      "damageInflict": [ "cold" ],
+      "miscTags": [ "THP" ],
       "classes": {
         "fromClassList": [
           {
@@ -449,85 +449,85 @@
           "source": "PHB"
         }
       ]
-    },  
+    },
     {
-        "name": "Avasculate",
-        "source": "COOMS",
-        "level": 9,
-        "school": "N",
-        "time": [
-            {
-                "number": 1,
-                "unit": "action"
-            }
-        ],
-        "range": {
-            "type": "point",
-            "distance": {
-                "type": "feet",
-                "amount": 30
-            }
-        },
-        "components": {
-            "v": true,
-            "s": true,
-            "m": "a short length of rope stained with blood"
-        },
-        "duration": [
-            {
-                "type": "instant"
-            }
-        ],
-        "entries": [
-            "You shoot a ray of necromantic energy from your outstretched hand, causing any living creature struck by the ray to violently purge blood (or some other life force, like an elemental's element, a construct's oil, an undead's ichor, etc) is forcefully drawn out through its exterior (on a being with flesh, this may be its skin, but a construct might be its iron body, etc.) Make a ranged spell attack against the creature to forcefully expel the creature's life essence. On a hit, the creature takes necrotic damage equal to half its current hit points (rounded down) and the creature must make a successful Constitution saving throw or become stunned until the end of its next turn."
-        ],
-        "damageInflict": [
-            "necrotic"
-        ],
-        "conditionInflict": [
-            "stunned"
-        ],
-        "spellAttack": [
-            "R"
-        ],
-        "savingThrow": [
-            "constitution"
-        ],
-        "areaTags": [
-            "ST"
-        ],
-        "classes": {
-            "fromClassList": [
-                {
-                    "name": "Sorcerer",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Sorcerer",
-                    "source": "THICC"
-                },
-                {
-                    "name": "Warlock",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Warlock",
-                    "source": "THICC"
-                },
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                },
-                {
-                    "name": "Wizard",
-                    "source": "THICC"
-                },
-                {
-                    "name": "Witch",
-                    "source": "THICC"
-                }
-            ]
+      "name": "Avasculate",
+      "source": "COOMS",
+      "level": 9,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
         }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a short length of rope stained with blood"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You shoot a ray of necromantic energy from your outstretched hand, causing any living creature struck by the ray to violently purge blood (or some other life force, like an elemental's element, a construct's oil, an undead's ichor, etc) is forcefully drawn out through its exterior (on a being with flesh, this may be its skin, but a construct might be its iron body, etc.) Make a ranged spell attack against the creature to forcefully expel the creature's life essence. On a hit, the creature takes necrotic damage equal to half its current hit points (rounded down) and the creature must make a successful Constitution saving throw or become stunned until the end of its next turn."
+      ],
+      "damageInflict": [
+        "necrotic"
+      ],
+      "conditionInflict": [
+        "stunned"
+      ],
+      "spellAttack": [
+        "R"
+      ],
+      "savingThrow": [
+        "constitution"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
     },
     {
       "name": "Bane",
@@ -574,7 +574,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["charisma"],
+      "savingThrow": [ "charisma" ],
       "classes": {
         "fromClassList": [
           {
@@ -688,9 +688,9 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "conditionInflict": ["incapacitated"],
-      "miscTags": ["AAD"],
+      "damageInflict": [ "force" ],
+      "conditionInflict": [ "incapacitated" ],
+      "miscTags": [ "AAD" ],
       "classes": {
         "fromClassList": [
           {
@@ -756,9 +756,9 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["necrotic"],
-      "savingThrow": ["charisma", "wisdom"],
-      "areaTags": ["ST"],
+      "damageInflict": [ "necrotic" ],
+      "savingThrow": [ "charisma", "wisdom" ],
+      "areaTags": [ "ST" ],
       "classes": {
         "fromClassList": [
           {
@@ -891,7 +891,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["slashing"],
+      "damageInflict": [ "slashing" ],
       "classes": {
         "fromClassList": [
           {
@@ -982,7 +982,7 @@
           "type": "entries"
         }
       ],
-      "areaTags": ["MT"],
+      "areaTags": [ "MT" ],
       "classes": {
         "fromClassList": [
           {
@@ -1084,7 +1084,7 @@
           "type": "entries"
         }
       ],
-      "areaTags": ["MT"],
+      "areaTags": [ "MT" ],
       "classes": {
         "fromClassList": [
           {
@@ -1270,10 +1270,10 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["radiant"],
-      "conditionInflict": ["blinded"],
-      "savingThrow": ["constitution"],
-      "miscTags": ["AAD"],
+      "damageInflict": [ "radiant" ],
+      "conditionInflict": [ "blinded" ],
+      "savingThrow": [ "constitution" ],
+      "miscTags": [ "AAD" ],
       "classes": {
         "fromClassList": [
           {
@@ -1326,8 +1326,8 @@
         "You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and must make a Constitution save. On a failed save, the target takes necrotic damage equal to your spellcasting ability modifier (minimum of 1) as blood (or some other life force, like an elemental's element, a construct's oil, an undead's ichor, etc) is forcefully drawn out. A creature immune to necrotic damage automatically succeeds this save. At the end of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes this damage again. On a successful save, or if the creature receives any sort of healing, the spell ends.",
         "This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 1d4} + mod), 11th level ({@dice 2d4} + mod), and 17th level ({@dice 3d4} + mod)."
       ],
-      "damageInflict": ["necrotic"],
-      "savingThrow": ["constitution"],
+      "damageInflict": [ "necrotic" ],
+      "savingThrow": [ "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -1426,8 +1426,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["bludgeoning"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "bludgeoning" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -1481,8 +1481,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["necrotic"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "necrotic" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -1551,8 +1551,8 @@
           ]
         }
       ],
-      "damageInflict": ["radiant"],
-      "miscTags": ["AAD", "LGT"],
+      "damageInflict": [ "radiant" ],
+      "miscTags": [ "AAD", "LGT" ],
       "classes": {
         "fromClassList": [
           {
@@ -2013,8 +2013,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["fire", "poison"],
-      "savingThrow": ["constitution"],
+      "damageInflict": [ "fire", "poison" ],
+      "savingThrow": [ "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -2090,8 +2090,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["charisma"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "charisma" ],
       "classes": {
         "fromClassList": [
           {
@@ -2218,7 +2218,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["slashing"],
+      "damageInflict": [ "slashing" ],
       "classes": {
         "fromClassList": [
           {
@@ -2397,7 +2397,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["fire", "thunder"],
+      "damageInflict": [ "fire", "thunder" ],
       "classes": {
         "fromClassList": [
           {
@@ -2504,7 +2504,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["intelligence"],
+      "savingThrow": [ "intelligence" ],
       "classes": {
         "fromClassList": [
           {
@@ -2760,8 +2760,8 @@
         "You utter foul words, summoning demons from the chaos of the Abyss. Roll on the following table to determine what appears.",
         {
           "type": "table",
-          "colLabels": ["{@dice d6}", "Demons Summoned"],
-          "colStyles": ["col-1 text-center", "col-11"],
+          "colLabels": [ "{@dice d6}", "Demons Summoned" ],
+          "colStyles": [ "col-1 text-center", "col-11" ],
           "rows": [
             [
               {
@@ -3594,8 +3594,8 @@
         "You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature that starts its turn in the bonfire's space or moves into the bonfire's space for the first time on a turn must succeed on a Dexterity saving throw or take {@damage 1d8} fire damage.",
         "If you cast this spell multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as an action."
       ],
-      "damageInflict": ["fire"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "fire" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -4006,8 +4006,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["fire"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "fire" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -4172,8 +4172,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["lightning"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "lightning" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -4234,7 +4234,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
+      "damageInflict": [ "force" ],
       "classes": {
         "fromClassList": [
           {
@@ -4375,19 +4375,19 @@
         {
           "type": "table",
           "caption": "Dragon Types",
-          "colLabels": ["Dragon", "Damage Type", "Breath Weapon"],
-          "colStyles": ["col-2", "col-2", "col-6"],
+          "colLabels": [ "Dragon", "Damage Type", "Breath Weapon" ],
+          "colStyles": [ "col-2", "col-2", "col-6" ],
           "rows": [
-            ["Black", "Acid", "5 by 30 ft. line (Dex. save)"],
-            ["Blue", "Lightning", "5 by 30 ft. line (Dex. save)"],
-            ["Brass", "Fire", "5 by 30 ft. line (Dex. save)"],
-            ["Bronze", "Lightning", "5 by 30 ft. line (Dex. save)"],
-            ["Copper", "Acid", "5 by 30 ft. line (Dex. save)"],
-            ["Gold", "Fire", "15 ft. cone (Dex. Save)"],
-            ["Green", "Poison", "15 ft. cone (Con. Save)"],
-            ["Red", "Fire", "15 ft. cone (Dex. Save)"],
-            ["Silver", "Cold", "15 ft. cone (Con. Save)"],
-            ["White", "Cold", "15 ft. cone (Con. Save)"]
+            [ "Black", "Acid", "5 by 30 ft. line (Dex. save)" ],
+            [ "Blue", "Lightning", "5 by 30 ft. line (Dex. save)" ],
+            [ "Brass", "Fire", "5 by 30 ft. line (Dex. save)" ],
+            [ "Bronze", "Lightning", "5 by 30 ft. line (Dex. save)" ],
+            [ "Copper", "Acid", "5 by 30 ft. line (Dex. save)" ],
+            [ "Gold", "Fire", "15 ft. cone (Dex. Save)" ],
+            [ "Green", "Poison", "15 ft. cone (Con. Save)" ],
+            [ "Red", "Fire", "15 ft. cone (Dex. Save)" ],
+            [ "Silver", "Cold", "15 ft. cone (Con. Save)" ],
+            [ "White", "Cold", "15 ft. cone (Con. Save)" ]
           ]
         },
         "If this spell is cast on a {@race dragonborn|earl}, {@race Human (Dragonheart)|earl|dragonheart}, {@race half-dragon|earl}, {@race kobold|earl}, or {@race Kobold (Winged)|earl|urd} who is of the same type as the one chosen during the spell's casting, they can use the breath weapon of this spell by substituting an attack, rather than as an action.",
@@ -4401,24 +4401,24 @@
             {
               "type": "table",
               "caption": "Extended Dragon Types",
-              "colLabels": ["Dragon", "Damage Type", "Breath Weapon"],
-              "colStyles": ["col-2", "col-2", "col-6"],
+              "colLabels": [ "Dragon", "Damage Type", "Breath Weapon" ],
+              "colStyles": [ "col-2", "col-2", "col-6" ],
               "rows": [
-                ["Amethyst", "Force", "15 ft. cone (Dex. save)"],
-                ["Deep", "Psychic", "15 ft. cone (Wis. save)"],
-                ["Crystal", "Radiant", "15 ft. cone (Con. save)"],
-                ["Emerald", "Psychic", "15 ft. cone (Int. save)"],
-                ["Faerie", "Psychic", "15 ft. cone (Wis. save)"],
-                ["Lunar", "Cold", "15 ft. cone (Con. save)"],
-                ["Moonstone", "Radiant", "15 ft. cone (Dex. save)"],
-                ["Obsidian", "Fire", "15 ft. cone (Dex. save)"],
-                ["Sapphire", "Thunder", "15 ft. cone (Con. save)"],
-                ["Sea Serpent", "Cold", "15 ft. cone (Con. save)"],
-                ["Solar", "Radiant", "15 ft. cone (Con. save)"],
-                ["Steel", "Acid", "30 ft. line (Dex. save)"],
-                ["Time", "Force", "15 ft. cone (Con. save)"],
-                ["Topaz", "Necrotic", "15 ft. cone (Con. save)"],
-                ["Turtle", "Fire", "15 ft. cone (Con. save)"]
+                [ "Amethyst", "Force", "15 ft. cone (Dex. save)" ],
+                [ "Deep", "Psychic", "15 ft. cone (Wis. save)" ],
+                [ "Crystal", "Radiant", "15 ft. cone (Con. save)" ],
+                [ "Emerald", "Psychic", "15 ft. cone (Int. save)" ],
+                [ "Faerie", "Psychic", "15 ft. cone (Wis. save)" ],
+                [ "Lunar", "Cold", "15 ft. cone (Con. save)" ],
+                [ "Moonstone", "Radiant", "15 ft. cone (Dex. save)" ],
+                [ "Obsidian", "Fire", "15 ft. cone (Dex. save)" ],
+                [ "Sapphire", "Thunder", "15 ft. cone (Con. save)" ],
+                [ "Sea Serpent", "Cold", "15 ft. cone (Con. save)" ],
+                [ "Solar", "Radiant", "15 ft. cone (Con. save)" ],
+                [ "Steel", "Acid", "30 ft. line (Dex. save)" ],
+                [ "Time", "Force", "15 ft. cone (Con. save)" ],
+                [ "Topaz", "Necrotic", "15 ft. cone (Con. save)" ],
+                [ "Turtle", "Fire", "15 ft. cone (Con. save)" ]
               ]
             }
           ],
@@ -4437,7 +4437,7 @@
         "radiant",
         "thunder"
       ],
-      "savingThrow": ["dexterity", "constitution", "intelligence", "wisdom"],
+      "savingThrow": [ "dexterity", "constitution", "intelligence", "wisdom" ],
       "classes": {
         "fromClassList": [
           {
@@ -4951,8 +4951,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["lightning"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "lightning" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -5051,8 +5051,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["acid", "cold", "fire", "lightning", "thunder"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "acid", "cold", "fire", "lightning", "thunder" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -5688,16 +5688,16 @@
         "You create the ghostly image of a hand, which you can send to find a creature within 5 miles. The hand then beckons to that creature and leads it to you if the creature is willing to follow.",
         {
           "type": "table",
-          "colLabels": ["Distance", "Time to Locate"],
-          "colStyles": ["col-1 text-center", "col-1 text-center"],
+          "colLabels": [ "Distance", "Time to Locate" ],
+          "colStyles": [ "col-1 text-center", "col-1 text-center" ],
           "rows": [
-            ["100 ft. or less", "1 Round"],
-            ["1,000 ft.", "1 Minute"],
-            ["1 Mile", "10 Minutes"],
-            ["2 Miles", "1 Hour"],
-            ["3 Miles", "2 Hours"],
-            ["4 Miles", "3 Hours"],
-            ["5 Miles", "4 Hours"]
+            [ "100 ft. or less", "1 Round" ],
+            [ "1,000 ft.", "1 Minute" ],
+            [ "1 Mile", "10 Minutes" ],
+            [ "2 Miles", "1 Hour" ],
+            [ "3 Miles", "2 Hours" ],
+            [ "4 Miles", "3 Hours" ],
+            [ "5 Miles", "4 Hours" ]
           ]
         },
         "When the spell is cast, the hand appears in front of you. You then specify a person (or any creature) by physical description, which can include race, gender, and appearance but not ambiguous factors such as level, alignment, or class. When the description is complete, the hand streaks off in search of a subject that fits the description. The amount of time it takes to find the subject depends on how far away they are.",
@@ -5805,7 +5805,7 @@
         "You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
         "Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
       ],
-      "miscTags": ["PRM", "SGT", "SMN"]
+      "miscTags": [ "PRM", "SGT", "SMN" ]
     },
     {
       "name": "Flock of Familiars",
@@ -6031,7 +6031,7 @@
           "type": "entries"
         }
       ],
-      "areaTags": ["MT"],
+      "areaTags": [ "MT" ],
       "classes": {
         "fromClassList": [
           {
@@ -6534,8 +6534,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["radiant"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "radiant" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -6809,7 +6809,7 @@
       "duration": [
         {
           "type": "permanent",
-          "ends": ["dispel"]
+          "ends": [ "dispel" ]
         }
       ],
       "meta": {
@@ -6844,7 +6844,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["wisdom"],
+      "savingThrow": [ "wisdom" ],
       "classes": {
         "fromClassList": [
           {
@@ -7259,8 +7259,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["necrotic"],
-      "savingThrow": ["constitution"],
+      "damageInflict": [ "necrotic" ],
+      "savingThrow": [ "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -7334,8 +7334,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["lightning"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "lightning" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -7388,8 +7388,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -7464,7 +7464,7 @@
         "You temporarily manifest a dagger made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. If you hit, the target takes {@damage 1d4} force damage. You may attack with this spell as many times as you can with a weapon in a given turn.",
         "This spell's damage increases by {@damage 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
       ],
-      "damageInflict": ["force"],
+      "damageInflict": [ "force" ],
       "classes": {
         "fromClassList": [
           {
@@ -7541,7 +7541,7 @@
         "A small pellet of magical force glowing with energy seeks towards your foes. Make a ranged spell attack against the target at advantage. On a hit, the target takes {@damage 1d4} force damage.",
         "This spell's damage increases by {@damage 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
       ],
-      "damageInflict": ["force"],
+      "damageInflict": [ "force" ],
       "classes": {
         "fromClassList": [
           {
@@ -7850,8 +7850,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -7912,8 +7912,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -7974,8 +7974,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -8060,8 +8060,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -8122,8 +8122,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -8208,8 +8208,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -8294,8 +8294,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -8380,8 +8380,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -8442,8 +8442,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -8528,8 +8528,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -8614,8 +8614,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -9050,8 +9050,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["psychic"],
-      "savingThrow": ["intelligence"],
+      "damageInflict": [ "psychic" ],
+      "savingThrow": [ "intelligence" ],
       "classes": {
         "fromClassList": [
           {
@@ -9320,12 +9320,12 @@
         "The following table gives example DCs for forcing open or breaking down any part of wood, stone, and metal openings that are being held shut by the spell. Bear in mind that these DCs vary depending on a variety of factors, including whether a door is barred, locked, or stuck in any way.",
         {
           "type": "table",
-          "colLabels": ["Material", "DC to Break"],
-          "colStyles": ["col-1 text-center", "col-1 text-center"],
+          "colLabels": [ "Material", "DC to Break" ],
+          "colStyles": [ "col-1 text-center", "col-1 text-center" ],
           "rows": [
-            ["Wood", "12 + mod"],
-            ["Stone", "15 + mod"],
-            ["Metal", "20 + mod"]
+            [ "Wood", "12 + mod" ],
+            [ "Stone", "15 + mod" ],
+            [ "Metal", "20 + mod" ]
           ]
         },
         "As an action, you may choose to end the effects of this spell on any number of doors it is currently affecting.",
@@ -9562,7 +9562,7 @@
       "duration": [
         {
           "type": "permanent",
-          "ends": ["dispel"]
+          "ends": [ "dispel" ]
         }
       ],
       "entries": [
@@ -9588,26 +9588,26 @@
         {
           "type": "table",
           "caption": "Dispelling Permanency",
-          "colLabels": ["Amount Over DC", "Length Suppressed"],
-          "colStyles": ["col-1 text-center", "col-1 text-center"],
+          "colLabels": [ "Amount Over DC", "Length Suppressed" ],
+          "colStyles": [ "col-1 text-center", "col-1 text-center" ],
           "rows": [
-            ["0", "1 Second"],
-            ["1", "1 Round"],
-            ["2", "1 Minute"],
-            ["3", "10 Minutes"],
-            ["4", "1 Hour"],
-            ["5", "8 Hours"],
-            ["6", "1 Day"],
-            ["7", "1 Tenday"],
-            ["8", "1 Month"],
-            ["9", "91 Days"],
-            ["10", "1 Year"],
-            ["11", "5 Years"],
-            ["12", "1 Decade"],
-            ["13", "5 Decades"],
-            ["14", "1 Century"],
-            ["15", "2 Centuries"],
-            ["16+", "Permanently Dispelled"]
+            [ "0", "1 Second" ],
+            [ "1", "1 Round" ],
+            [ "2", "1 Minute" ],
+            [ "3", "10 Minutes" ],
+            [ "4", "1 Hour" ],
+            [ "5", "8 Hours" ],
+            [ "6", "1 Day" ],
+            [ "7", "1 Tenday" ],
+            [ "8", "1 Month" ],
+            [ "9", "91 Days" ],
+            [ "10", "1 Year" ],
+            [ "11", "5 Years" ],
+            [ "12", "1 Decade" ],
+            [ "13", "5 Decades" ],
+            [ "14", "1 Century" ],
+            [ "15", "2 Centuries" ],
+            [ "16+", "Permanently Dispelled" ]
           ]
         }
       ],
@@ -9676,7 +9676,7 @@
       "duration": [
         {
           "type": "permanent",
-          "ends": ["dispel"]
+          "ends": [ "dispel" ]
         }
       ],
       "meta": {
@@ -10336,8 +10336,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["strength"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "strength" ],
       "classes": {
         "fromClassList": [
           {
@@ -10429,7 +10429,7 @@
       "entries": [
         "Your gesture forces one humanoid you can see within range to make a Wisdom saving throw. On a failed save, the target must move up to its speed in a direction you choose. In addition, you can cause the target to either a.) make a single attack against a creature within its range other than itself that you can see, after which the spell ends, or b.) drop whatever it is holding. This spell breaks if the target takes any damage. If you try to force the target onto a point that will cause it direct harm, such as off a cliff or into a pit of spikes, right before they reach the point, the target remakes the save. On a success, the target breaks free of the spell before it moves to the point. This spell has no effect on creatures that are immune to being {@condition charmed}."
       ],
-      "savingThrow": ["wisdom"],
+      "savingThrow": [ "wisdom" ],
       "classes": {
         "fromClassList": [
           {
@@ -10620,8 +10620,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["piercing"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "piercing" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -10704,7 +10704,7 @@
         "ooze",
         "plant"
       ],
-      "miscTags": ["HL"],
+      "miscTags": [ "HL" ],
       "classes": {
         "fromClassList": [
           {
@@ -10834,7 +10834,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["fire"],
+      "damageInflict": [ "fire" ],
       "classes": {
         "fromClassList": [
           {
@@ -10925,7 +10925,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["constitution"],
+      "savingThrow": [ "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -13161,8 +13161,8 @@
           "type": "entries"
         }
       ],
-      "affectsCreatureType": ["undead"],
-      "miscTags": ["HL"],
+      "affectsCreatureType": [ "undead" ],
+      "miscTags": [ "HL" ],
       "classes": {
         "fromClassList": [
           {
@@ -13239,7 +13239,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["acid"],
+      "damageInflict": [ "acid" ],
       "classes": {
         "fromClassList": [
           {
@@ -13361,9 +13361,9 @@
           ]
         }
       ],
-      "damageInflict": ["fire"],
-      "savingThrow": ["constitution"],
-      "miscTags": ["AAD"],
+      "damageInflict": [ "fire" ],
+      "savingThrow": [ "constitution" ],
+      "miscTags": [ "AAD" ],
       "classes": {
         "fromClassList": [
           {
@@ -13785,7 +13785,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["lightning"],
+      "damageInflict": [ "lightning" ],
       "classes": {
         "fromClassList": [
           {
@@ -13882,8 +13882,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["cold"],
-      "savingThrow": ["dexterity", "constitution"],
+      "damageInflict": [ "cold" ],
+      "savingThrow": [ "dexterity", "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -14136,7 +14136,7 @@
           "type": "entries"
         }
       ],
-      "areaTags": ["MT"],
+      "areaTags": [ "MT" ],
       "classes": {
         "fromClassList": [
           {
@@ -14358,9 +14358,9 @@
           ]
         }
       ],
-      "damageInflict": ["psychic"],
-      "savingThrow": ["wisdom"],
-      "miscTags": ["AAD"],
+      "damageInflict": [ "psychic" ],
+      "savingThrow": [ "wisdom" ],
+      "miscTags": [ "AAD" ],
       "classes": {
         "fromClassList": [
           {
@@ -14425,8 +14425,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["fire", "thunder"],
-      "savingThrow": ["dexterity", "constitution"],
+      "damageInflict": [ "fire", "thunder" ],
+      "savingThrow": [ "dexterity", "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -14500,7 +14500,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["lightning"],
+      "damageInflict": [ "lightning" ],
       "classes": {
         "fromClassList": [
           {
@@ -14600,8 +14600,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["lightning"],
-      "savingThrow": ["constitution"],
+      "damageInflict": [ "lightning" ],
+      "savingThrow": [ "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -14729,7 +14729,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["constitution"],
+      "savingThrow": [ "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -14911,8 +14911,8 @@
         "You create four spectral blades that shoot out of your front, sides, and back out to 10 feet before vanishing. Create four 10-foot lines at 90-degree angles. Creatures within those lines must make a Dexterity saving throw or take {@damage 1d6} force damage.",
         "This spell's damage increases by {@damage 1d6} when you reach 5th level ({@damage 2d6}), 11th level ({@damage 3d6}), and 17th level ({@damage 4d6})."
       ],
-      "damageInflict": ["force"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -15011,7 +15011,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["acid"],
+      "damageInflict": [ "acid" ],
       "classes": {
         "fromClassList": [
           {
@@ -15123,7 +15123,7 @@
         "You play a magical tune on your instrument, and a series of arcane notes streak from your instrument towards a target of your choice. Make a ranged spell attack against the target. On a hit, the target takes {@damage 1d4} force damage and you gain advantage on your next attack roll during the spell's duration.",
         "This spell's damage increases by {@damage 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
       ],
-      "damageInflict": ["force"],
+      "damageInflict": [ "force" ],
       "classes": {
         "fromClassList": [
           {
@@ -15278,10 +15278,10 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["thunder"],
-      "conditionInflict": ["prone"],
-      "savingThrow": ["strength"],
-      "miscTags": ["AAD", "FMV"],
+      "damageInflict": [ "thunder" ],
+      "conditionInflict": [ "prone" ],
+      "savingThrow": [ "strength" ],
+      "miscTags": [ "AAD", "FMV" ],
       "classes": {
         "fromClassList": [
           {
@@ -15352,7 +15352,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["wisdom"],
+      "savingThrow": [ "wisdom" ],
       "classes": {
         "fromClassList": [
           {
@@ -15445,8 +15445,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["poison"],
-      "savingThrow": ["constitution"],
+      "damageInflict": [ "poison" ],
+      "savingThrow": [ "constitution" ],
       "classes": {
         "fromClassList": [
           {
@@ -15741,8 +15741,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["slashing"],
-      "savingThrow": ["strength"],
+      "damageInflict": [ "slashing" ],
+      "savingThrow": [ "strength" ],
       "classes": {
         "fromClassList": [
           {
@@ -16114,7 +16114,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["charisma"],
+      "savingThrow": [ "charisma" ],
       "classes": {
         "fromClassList": [
           {
@@ -16368,8 +16368,8 @@
         "Spells that deal lightning damage that pass through the wall electrify the wall. Any creature that enters the wall or starts its turn in it next must make a Dexterity saving throw or take {@damage 1d8} lightning damage.",
         "Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot-square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall's water doesn't fill it."
       ],
-      "damageInflict": ["lightning"],
-      "savingThrow": ["dexterity"],
+      "damageInflict": [ "lightning" ],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -16461,8 +16461,8 @@
         "When a creature moves through the wall for the first time on its turn or starts its turn there, they must make a Strength saving throw or be flung up to 30 feet, taking falling damage and landing {@condition prone} as necessary. A creature flung into a ceiling takes {@damage 3d6} bludgeoning damage, regardless of distance.",
         "The strong wind keeps fog, smoke, and other gasses at bay. Small or smaller flying creatures or objects can't pass through the wall. Loose, lightweight materials brought into the wall fly upward. {@item Arrow|PHB|Arrows}, {@item Crossbow Bolt|PHB|bolts}, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically miss. (Boulders hurled by giants or siege engines, and similar projectiles, are unaffected.) Creatures in gaseous form can't pass through it."
       ],
-      "damageInflict": ["bludgeoning"],
-      "savingThrow": ["strength"],
+      "damageInflict": [ "bludgeoning" ],
+      "savingThrow": [ "strength" ],
       "classes": {
         "fromClassList": [
           {
@@ -16595,7 +16595,7 @@
           "type": "entries"
         }
       ],
-      "savingThrow": ["dexterity"],
+      "savingThrow": [ "dexterity" ],
       "classes": {
         "fromClassList": [
           {
@@ -16697,7 +16697,7 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["bludgeoning", "piercing"],
+      "damageInflict": [ "bludgeoning", "piercing" ],
       "classes": {
         "fromClassList": [
           {
@@ -16918,11 +16918,11 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["psychic"],
-      "conditionInflict": ["frightened"],
-      "savingThrow": ["wisdom"],
-      "abilityCheck": ["wisdom"],
-      "miscTags": ["AAD"],
+      "damageInflict": [ "psychic" ],
+      "conditionInflict": [ "frightened" ],
+      "savingThrow": [ "wisdom" ],
+      "abilityCheck": [ "wisdom" ],
+      "miscTags": [ "AAD" ],
       "classes": {
         "fromClassList": [
           {
@@ -16976,8 +16976,8 @@
           "type": "entries"
         }
       ],
-      "damageInflict": ["radiant", "force", "necrotic"],
-      "savingThrow": ["charisma"],
+      "damageInflict": [ "radiant", "force", "necrotic" ],
+      "savingThrow": [ "charisma" ],
       "classes": {
         "fromClassList": [
           {
