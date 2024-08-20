@@ -7171,6 +7171,71 @@
         ]
       }
     },
+     {
+      "name": "Immovable Object",
+      "source": "COOMS",
+      "level": 8,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "hour"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "gold dust worth at least 25 gp, which the spell consumes"
+      },
+       "duration": [
+       {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": "8"
+          }
+       }
+      ],
+      "entries": [
+        "You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.",
+        "If the object is fixed in the air, it can hold up to 8,000 pounds of weight. More weight causes the object to fall."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            " If you cast this spell using a spell slot of 9th level, the duration increases to 24 hours."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
     {
       "name": "Legendary Guidance",
       "source": "COOMS",
