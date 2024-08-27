@@ -333,6 +333,39 @@
 			]
 		},
 		{
+			"name": "Brawny",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Brawny|OOF"
+			],
+			"ability":[
+				{
+					"str": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"athletics": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You become stronger, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the Athletics skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			]
+		},
+		{
 			"name": "Burglar",
 			"source": "EntrancedFeats",
 			"page": 2,
@@ -419,6 +452,54 @@
 					"type": "entries"
 				}
 			]			
+		},
+		{
+			"name": "Diplomat",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Diplomat|OOF"
+			],
+			"ability":[
+				{
+					"cha": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
+									"charm person"
+								]
+							}
+						}
+					}
+				}
+			],
+			"skillProficiencies":[
+				{
+					"Persuation": true
+				}
+			],
+			"entries": [
+				{
+					"entries":[
+						"You master the arts of diplomacy, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the Persuasion skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma (Persuasion) check contested by the creature's Wisdom saving throw. If you or your companions are fighting the creature, the creature automatically succeeds. On a failure, the target is {@condtion charmed} by you as long as it remains within 60 feet of you and for 1 minute thereafter. On a success, the target is immune to the effects of this feat for 24 hours.",
+						"You learn {@spell Charm Person|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
+					]
+				}
+			]
 		},
 		{
 			"name": "Double Weapon Master",
@@ -635,6 +716,39 @@
 			]
 		},
 		{
+			"name": "Empathic",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Empathic|OOF"
+			],
+			"ability":[
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"insight": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You possess keen insight into the world around you. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the Insight skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You can replace any Intelligence or Wisdom skill check with an Insight check. You can use this feat a number of times per short or long rest equal to your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fey Teleportation",
 			"source": "EntrancedFeats",
 			"page": 3,
@@ -691,7 +805,7 @@
 					"type": "list",
 					"items": [
 						"You learn to speak, read, and write {@language Sylvan}. If you already know the language, you may learn a different one instead.",
-						"You learn the {@spell misty step|phb} spell and can cast it once without expending a spell slot or its verbal component. You regain the ability to cast it in this way when you finish a short or long rest. Constitution is your spellcasting ability for this spell."
+						"You learn one {@filter wizard|spell|spells|level=1|class=wizard} cantrip of your choice.You also learn the {@spell misty step|phb} spell and can cast it once without expending a spell slot or its verbal component. You regain the ability to cast it in this way when you finish a short or long rest. Constitution is your spellcasting ability for this spell."
 					]
 				}
 			]
@@ -722,7 +836,10 @@
 						"_":{
 							"daily":{
 								"1":[
-									"misty step"
+									"misty step",
+									{
+										"choose":"level=1|school=D;E"
+									}
 								]
 							}
 						}
@@ -733,6 +850,7 @@
 				"Your exposure to the Feywild's magic has changed you, granting you the following benefits:",
 				{
 					"items": [
+						"You have advantage on saving throws against being charmed.",
 						"You learn the {@spell misty step|phb} spell and one {@filter 1st-level spell|spells|level=1|school=D;E} of your choice. The {@filter 1st-level spell|spells|level=1|school=D;E} must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot or its somatic and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
 					],
 					"type": "list"
@@ -952,6 +1070,39 @@
 			]
 		},
 		{
+			"name": "Historian",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Historian|OOF"
+			],
+			"ability":[
+				{
+					"int": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"history": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your study of history rewards you with the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the History skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"When you take the Help action to aid another creature, the creature gains a bonus to the roll equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying."
+					]
+				}
+			]
+		},
+		{
 			"name": "Inspiring Leader",
 			"source": "EntrancedFeats",
 			"page": 4,
@@ -974,6 +1125,54 @@
 						"When you use this feature, you may simultaneously cast {@spell Motivational Speech|cooms} if you have it as a spell. When you do so, you may additively stack the temporary hit points given by the Motivational Speech with those given by this feat if the targets of the spell and feat intersect."
 					],
 					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Investigator",
+			"source": "EntrancedFeats",
+			"page": 2,
+			"reprintedAs": [
+				"Investigator|OOF"
+			],
+			"ability":[
+				{
+					"int":1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"investigation": true
+				}
+			],
+			"additionalspells":[
+				{
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"identify"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have an eye for detail and can pick out the smallest clues. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in the Investigation skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You can take the Search action as a bonus action.",
+						"You can use Investigation instead of Survival for tracking a creature's whereabouts.",
+						"You learn the {@spell identify|phb} spell and can cast it once per long rest without expending a spell slot or material components."
+					]
 				}
 			]
 		},
@@ -1227,8 +1426,8 @@
 				{
 					"type":"list",
 					"items":[
-						"You gain proficiency in the Medicine skill. If you are already proficient in the skill, you add double your proficiency bonus to checks you make with it.",
-						"During a short rest, you can clean and bind the wounds of up to six willing beasts and humanoids. Make a DC 15 Wisdom (Medicine) check for each creature. On a success, if a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends.",
+						"You gain proficiency in the Medicine skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"During a short rest, you can clean and bind the wounds of up to a number of willing beasts and humanoids equal to twice your proficiency bonus. Any additional creatures you wish to do this to requires a usage of a healer's kit to be expent per additional creature. If a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends",
 						"You learn the {@spell dote|cooms} spell and can cast it as a ritual. On top of this, if you cast Dote by expending a charge of a healer's kit, the casting time changes to 10 minutes. This means that ritual casting Dote while expending a charge of a healer's kit makes the casting time 20 minutes."
 					]
 				}
@@ -1268,6 +1467,54 @@
 			]
 		},
 		{
+			"name": "Menacing",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Menacing|OOF"
+			],
+			"ability":[
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"intimidaiton": true
+				}
+			],
+			"additionalSpells":[
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1e":[
+									"cause fear"
+								]
+							}
+						}
+					}
+				}
+			],
+				"entries":[
+				{
+					"entries":[
+						"You become fearsome to others, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the Intimidation skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You can use a bonus action to attempt to demoralize one creature you can see within 60 feet of you that can see and hear you. Make a Charisma (Intimidation) check contested by the target's Wisdom saving throw. A construct or an undead automatically succeeds the save. If the target fails, they are {@condition frightened} of you for 1 minute, remaking the save at the end of each of their turns. Once the target succeeds the saving throw, they can't be {@condition frightened} by you in this way for 24 hours.",
+						"You learn {@spell Cause Fear|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
+					]
+				}
+			]
+		},
+		{
 			"name": "Name-Brand Crafter",
 			"source": "EntrancedFeats",
 			"page": 6,
@@ -1292,6 +1539,39 @@
 						"The time it takes to create an item using your proficient tools is halved.",
 						"If you fail to successfully craft a nonmagical item with your proficient tools and would lose the components, you retain the components instead.",
 						"Whenever you craft an item using tools that you are proficient in, the item can be marked by your signature at your discretion. This can be a logo, crest, or other form of marking to indicate its origin was yours."
+					]
+				}
+			]
+		},
+		{
+			"name": "Naturalist",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Naturalist|OOF"
+			],
+			"ability":[
+				{
+					"int": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"nature": true
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your extensive study of nature rewards you with the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the Nature skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You learn the {@spell druidcraft|phb} and {@spell detect poison and disease|phb} spells, along with one other 1st-level spell from the Druid spell list. If you already know druidcraft, you may instead learn any cantrip from the Druid's spell list. You can cast detect poison and disease once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. You can cast the 1st-level spell you chose once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. Constitution is your spellcasting ability modifier for these spells."
 					]
 				}
 			]
@@ -1343,6 +1623,22 @@
 						"You can parry or intercept without using your reaction a number of times equal to your proficiency bonus. You regain all expent usages of this feature when you finish a short rest."
 					]
 				}
+			]
+		},
+		{
+			"name": "Perceptive",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Perceptive|OOF"
+			]
+		},
+		{
+			"name": "Performer",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Performer|OOF"
 			]
 		},
 		{
@@ -1465,6 +1761,14 @@
 			]
 		},
 		{
+			"name": "Quick-Fingered",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Quick-Fingered|OOF"
+			]
+		},
+		{
 			"name": "Shadow Touched",
 			"source": "EntrancedFeats",
 			"page": 7,
@@ -1489,8 +1793,11 @@
 					"innate":{
 						"_":{
 							"daily":{
-								"1":[
-									"invisibility"
+								"1e":[
+									"invisibility",
+									{
+										"choose":"level=1|school=I;N"
+									}
 								]
 							}
 						}
@@ -1501,6 +1808,7 @@
 				"Your exposure to the Shadowfell's magic has changed you, granting you the following benefits:",
 				{
 					"items": [
+						"You gain 60 feet of {@sense darkvision}, which is added onto any existing darkvision you have, if any.",
 						"You learn the {@spell invisibility|phb} spell and one {@filter 1st-level spell|spells|level=1|school=I;N} of your choice. The {@filter 1st-level spell|spells|level=1|school=I;N} must be from the illusion or necromancy school of magic. You can cast each of these spells without expending a spell slot or its verbal and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
 					],
 					"type": "list"
@@ -1530,6 +1838,22 @@
 						"You may ignore the Wide Open property of shields."
 					]
 				}
+			]
+		},
+		{
+			"name": "Silver-Tongued",
+			"source": "EntrancedFeats",
+			"page": 8,
+			"reprintedAs":[
+				"Silver-Tongued|OOF"
+			]
+		},
+		{
+			"name": "Survivalist",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Survivalist|OOF"
 			]
 		},
 		{
@@ -1634,6 +1958,14 @@
 						"Before combat starts, after everybody has rolled initiative, you may choose to willingly lower your initiative by any amount. If there is an ability that affects you if you have not taken your first turn in combat yet, it instead counts your original initiative before you lowered it as being your first turn in combat."
 					]
 				}
+			]
+		},
+		{
+			"name": "Theologian",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"reprintedAs":[
+				"Theologian|OOF"
 			]
 		},
 		{
