@@ -4845,7 +4845,7 @@
       },
       "components": {
         "s": true,
-        "m": "an herbalism kit or a healer's kit, a use of which the spell consumes'"
+        "m": "an herbalism kit or a healer's kit, a use of which the spell consumes"
       },
       "duration": [
         {
@@ -13618,7 +13618,7 @@
         }
       ],
       "entries": [
-        "You jab a creature within range, sapping their vitality. Make a melee spell attack against the target. On a hit, the target takes {@dice 1d4} necrotic damage and falls prone.",
+        "You jab a creature within range, sapping their vitality. Make a melee spell attack against the target. On a hit, the target takes {@dice 1d4} necrotic damage and falls {@condition Proned|phb|prone}.",
         "This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
       ],
       "damageInflict": [ "necrotic" ],
