@@ -75,6 +75,9 @@
 			"rarity": "none",
 			"weight": 10,
 			"value": 2500,
+			"property": [
+				"HEALER KIT"
+			],
 			"entries": [
 				"This kit is a cloth bag containing bandages, salves, and splints. The kit has 60 uses. As an action, you can expend one use of the kit to stabalize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Medicine}) check."
 			]
@@ -88,6 +91,9 @@
 			"rarity": "none",
 			"weight": 30,
 			"value": 7500,
+			"property": [
+				"REPAIR KIT"
+			],
 			"entries": [
 				"This kit is a metallic pack containing tools, wires, conductors, fixtures, fasteners, and other gadgets and gizmos used in repairs. The kit has 200 uses. As an action, you can expend one use of the kit to stabalize a construct that has 0 hit points, without needing to make a Intelligence ({@skill Arcana}) check.",
 				"One or more uses of this kit may be used to repair weapons, equipment, or other contraptions with the use of a successful tool check related to the equipment being repaired and ten minutes of time."
@@ -117,6 +123,9 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 300,
+			"property": [
+				"HEALER KIT"
+			],
 			"entries": [
 				"This kit is a small chest containing bandages, salves, and splints. The kit has 5 uses. As an action, you can expend one use of the kit to stabalize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Medicine}) check."
 			]
@@ -130,6 +139,9 @@
 			"rarity": "none",
 			"weight": 4,
 			"value": 1000,
+			"property": [
+				"HEALER KIT"
+			],
 			"entries": [
 				"This kit is a leather case containing bandages, salves, and splints. The kit has 25 uses. As an action, you can expend one use of the kit to stabalize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Medicine}) check."
 			]
@@ -231,6 +243,10 @@
 			"rarity": "none",
 			"weight": 8,
 			"value": 1000,
+			"property": [
+				"REPAIR KIT",
+				"SUPPLIES"
+			],
 			"entries": [
 				"This kit is a collection of conductors, plates, springs, fasteners, and other pieces of scrap metal for use in general repairs. Over the course of a short rest, you may transfer over supplies from this box to a mechanical kit of your choice. The kit has enough supplies to refil 50 charges.",
 				"One of more uses of this kit may be used to repair weapons, equipment, or other contraptions with the use of a successful tool check related to the equipment being repaired and ten minutes of time."
@@ -245,6 +261,10 @@
 			"rarity": "none",
 			"weight": 20,
 			"value": 5000,
+			"property": [
+				"HEALER KIT",
+				"SUPPLIES"
+			],
 			"entries": [
 				"This kit is a big leather and cloth box containing bandages, salves, and splints. Over the course of a short rest, you may transfer over supplies from this box to a medical kit of your choice. The kit has enough supplies to refil 125 charges."
 			]
@@ -258,6 +278,9 @@
 			"rarity": "none",
 			"weight": 3,
 			"value": 500,
+			"property": [
+				"HEALER KIT"
+			],
 			"entries": [
 				"This kit is a aluminum box containing bandages, salves, and splints. The kit has 12 uses. As an action, you can expend one use of the kit to stabalize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Medicine}) check."
 			]
@@ -1526,6 +1549,9 @@
 			"rarity": "none",
 			"weight": 1,
 			"value": 300,
+			"property": [
+				"REPAIR KIT"
+			],
 			"entries": [
 				"This kit is a small clamping box that contains enough materials for a few small repairs. The kit has 5 uses. As an action, you can expend one use of the kit to stabalize a construct that has 0 hit points, without needing to make a Intelligence ({@skill Arcana}) check.",
 				"One or more uses of this kit may be used to repair weapons, equipment, or other contraptions with the use of a successful tool check related to the equipment being repaired and ten minutes of time."
@@ -1816,6 +1842,9 @@
 			"rarity": "none",
 			"weight": 12,
 			"value": 3000,
+			"property": [
+				"REPAIR KIT"
+			],
 			"entries": [
 				"This kit is a metal case containing tools, fasteners, conductors, and other scrap metal used for repairs. The kit has 75 uses. As an action, you can expend one use of the kit to stabalize a construct that has 0 hit points, without needing to make a Intelligence ({@skill Arcana}) check.",
 				"One or more uses of this kit may be used to repair weapons, equipment, or other contraptions with the use of a successful tool check related to the equipment being repaired and ten minutes of time."
@@ -1830,6 +1859,9 @@
 			"rarity": "none",
 			"weight": 5,
 			"value": 1200,
+			"property": [
+				"REPAIR KIT"
+			],
 			"entries": [
 				"This kit is a aluminum box that contains tools, fasteners, and scrap metal used for general repairs. The kit has 30 uses. As an action, you can expend one use of the kit to stabalize a construct that has 0 hit points, without needing to make a Intelligence ({@skill Arcana}) check.",
 				"One or more uses of this kit may be used to repair weapons, equipment, or other contraptions with the use of a successful tool check related to the equipment being repaired and ten minutes of time."
@@ -8550,6 +8582,20 @@
 			]
 		},
 		{
+			"abbreviation": "HEALER KIT",
+			"source": "OWL",
+			"page": 40,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Healer's Kit",
+					"entries": [
+						"This item is used as a healer's kit."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "MAG",
 			"source": "OWL",
 			"page": 11,
@@ -8606,6 +8652,20 @@
 			]
 		},
 		{
+			"abbreviation": "REPAIR KIT",
+			"source": "OWL",
+			"page": 40,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Repair Kit",
+					"entries": [
+						"This item is used as a repair kit."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "SILVER",
 			"source": "OWL",
 			"page": 21,
@@ -8629,6 +8689,20 @@
 					"name": "Spidersilk",
 					"entries": [
 						"This item is made of spidersilk."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "SUPPLIES",
+			"source": "OWL",
+			"page": 40,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Supplies",
+					"entries": [
+						"This item is used to refil a kit."
 					]
 				}
 			]
