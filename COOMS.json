@@ -362,6 +362,102 @@
       }
     },
     {
+      "name": "Antagonize",
+      "source": "COOMS",
+      "level": 3,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a playing card depicting a rogue"
+      },
+       "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You whisper magical words that antagonize one creature of your choice within range. The target must make a Wisdom saving throw, treating it as a saving throw against being Frenzied. On a failed save, the target takes {@dice 4d4} psychic damage and must immediately use its reaction to make a melee attack against another creature of your choice that you can see. If the target can't make this attack (for example, because there is no one within its reach or because its reaction is unavailable), the target instead has disadvantage on the next attack roll it makes before the start of your next turn. On a successful save, the target takes half as much damage only."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 2d4} for each slot level above 3rd."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "Psychic"
+      ],
+      "conditionInflict": [
+        "Frenzy"
+      ],
+      "spellAttack": [
+        "R"
+      ],
+      "savingThrow": [
+        "Wisdom"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Armor of Agathys",
       "source": "COOMS",
       "level": 1,
@@ -537,7 +633,7 @@
         }
       ],
       "entries": [
-        "You shoot a ray of necromantic energy from your outstretched hand, causing any living creature struck by the ray to violently purge blood (or some other life force, like an elemental's element, a construct's oil, an undead's ichor, etc) is forcefully drawn out through its exterior (on a being with flesh, this may be its skin, but a construct might be its iron body, etc.) Make a ranged spell attack against the creature to forcefully expel the creature's life essence. On a hit, the creature takes necrotic damage equal to half its current hit points (rounded down) and the creature must make a successful Constitution saving throw or become stunned until the end of its next turn."
+        "You shoot a ray of necromantic energy from your outstretched hand, causing any living creature struck by the ray to violently purge blood (or some other life force, like an elemental's element, a construct's oil, an undead's ichor, etc) is forcefully drawn out through its exterior (on a being with flesh, this may be its skin, but a construct might be its iron body, etc.) Make a ranged spell attack against the creature to forcefully expel the creature's life essence. On a hit, the creature takes necrotic damage equal to half its current hit points (rounded down) and the creature must make a successful Constitution saving throw or become {@condition stunned} until the end of its next turn."
       ],
       "damageInflict": [
         "necrotic"
@@ -4542,6 +4638,64 @@
       }
     },
     {
+     "name": "Drown",
+     "source": "COOMS",
+     "level": 7,
+     "school": "C",
+     "time": [
+       {
+         "number": 1,
+         "unit": "action"
+       }
+     ],
+     "range": {
+       "type": "point",
+       "distance": {
+         "type": "feet",
+         "amount": 30
+       }
+     },
+     "components": {
+       "v": true,
+       "s": true,
+       "m": "a short piece of flotsam or seaweed"
+     },
+     "duration": [
+       {
+         "type": "timed",
+         "duration": {
+           "type": "minute",
+           "amount": 1
+         },
+         "concentration": true
+       }
+     ],
+     "entries": [
+       "You point at a creature within range. The creature must make a Charisma saving throw or its lungs fill with seawater. Any water the creature hacks or expels from their lungs is immediately recycled back into their lungs. If the creature can't breathe underwater, the creature begins suffocating. A suffocating creature can't speak or perform verbal spell components, and can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round), after which it drops to 0 hit points and is dying. At the end of the creature's turns thereafter, the creature can remake the Charisma saving throw, ending the effect on a success."
+     ],
+     "spellAttack": [
+       "R"
+     ],
+     "savingThrow": [
+       "Charisma"
+     ],
+     "areaTags": [
+       "ST"
+     ],
+     "classes": {
+       "fromClassList": [
+         {
+           "name": "Druid",
+           "source": "PHB"
+         },
+         {
+           "name": "Druid",
+           "source": "THICC"
+         }
+       ]
+     }
+    },
+    {
       "name": "Druidcraft",
       "source": "COOMS",
       "level": 0,
@@ -4749,7 +4903,7 @@
       },
       "components": {
         "s": true,
-        "m": "an herbalism kit or a healer's kit, a use of which the spell consumes'"
+        "m": "an herbalism kit or a healer's kit, a use of which the spell consumes"
       },
       "duration": [
         {
@@ -6043,6 +6197,121 @@
         ]
       }
     },
+        {
+      "name": "Glyph of Warding",
+      "source": "COOMS",
+      "level": 3,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "hour"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "Incense and powdered diamond worth at least 200 gp, which the spell consumes"
+      },
+       "duration": [
+       {
+          "type": "permanent",
+          "ends": [ 
+            "dispel",
+            "trigger"
+          ]
+       }
+      ],
+      "entries": [
+        "When you cast this spell, you inscribe a glyph that later unleashes a magical effect. You inscribe it either on a surface (such as a table or a section of floor or wall) or within an object that can be closed (such as a book, a scroll, or a treasure chest) to conceal the glyph. The glyph can cover an area no larger than 10 feet in diameter. If the surface or object is moved more than 10 feet from where you cast this spell, the glyph is broken, and the spell ends without being triggered.",
+        "The glyph is nearly invisible and requires a successful Intelligence ({@skill Investigation}) check against your spell save DC to be found.",
+        "You decide what triggers the glyph when you cast the spell. For glyphs inscribed on a surface, the most typical triggers include touching or standing on the glyph, removing another object covering the glyph, approaching within a certain distance of the glyph, or manipulating the object on which the glyph is inscribed. For glyphs inscribed within an object, the most common triggers include opening that object, approaching within a certain distance of the object, or seeing or reading the glyph. Once a glyph is triggered, this spell ends.",
+        "You can further refine the trigger so the spell activates only under certain circumstances or according to physical characteristics (such as height or weight), creature kind (for example, the ward could be set to affect {@filter aberrations|bestiary|type=aberration} or {@race Elf (Drow)}), or alignment. You can also set conditions for creatures that don't trigger the glyph, such as those who say a certain password.",
+        "When you inscribe the glyph, choose explosive runes, a spell glyph, or a detection glyph.",
+        "{@b Explosive Runes.} When triggered, the glyph erupts with magical energy in a 20-foot-radius sphere centered on the glyph. The sphere spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes {@dice 5d8} acid, cold, fire, lightning, or thunder damage on a failed saving throw (your choice when you create the glyph), or half as much damage on a successful one.",
+        "{@b Spell Glyph.} You can store a prepared spell of 3rd level or lower in the glyph by casting it as part of creating the glyph. The spell must target a single creature or an area. The spell being stored has no immediate effect when cast in this way. When the glyph is triggered, the stored spell is cast. If the spell has a target, it targets the creature that triggered the glyph. If the spell affects an area, the area is centered on that creature. If the spell summons hostile creatures or creates harmful objects or traps, they appear as close as possible to the intruder and attack it. If the spell requires concentration, it lasts until the end of its full duration.",
+        "{@b Detection Glyph.} When you inscribe this glyph, you link it to an already-existing Glyph of Warding or Symbol within 100 feet of it that was cast by you. That Glyph of Warding or Symbol no longer triggers with the trigger that it was given, and it instead triggers when the detection glyph triggers. After it triggers, both glyphs end. If you choose a glyph or symbol that already has a detection glyph linked to it, the old detection glyph ends as you create the new one."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the damage of an explosive runes glyph increases by {@dice 1d8} for each slot level above 3rd. If you create a spell glyph, you can store any spell of up to the same level as the slot you use for the glyph of warding."
+          ]
+        }
+      ],
+      "damageInflict": [
+        "Acid",
+        "Cold",
+        "Fire",
+        "Lightning",
+        "Thunder"
+      ],
+      "spellAttack": [
+        "R"
+      ],
+      "savingThrow": [
+        "Dexterity"
+      ],
+      "areaTags": [
+        "ST"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
     {
       "name": "Grasping Vine",
       "source": "COOMS",
@@ -6956,6 +7225,71 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+     {
+      "name": "Immovable Object",
+      "source": "COOMS",
+      "level": 8,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "hour"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "gold dust worth at least 25 gp, which the spell consumes"
+      },
+       "duration": [
+       {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": "8"
+          }
+       }
+      ],
+      "entries": [
+        "You touch an object that weighs no more than 10 pounds and cause it to become magically fixed in place. You and the creatures you designate when you cast this spell can move the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute.",
+        "If the object is fixed in the air, it can hold up to 8,000 pounds of weight. More weight causes the object to fall."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            " If you cast this spell using a spell slot of 9th level, the duration increases to 24 hours."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -13310,6 +13644,79 @@
           },
           {
             "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+        {
+      "name": "Sapping Sting",
+      "source": "COOMS",
+      "level": 0,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You jab a creature within range, sapping their vitality. Make a melee spell attack against the target. On a hit, the target takes {@dice 1d4} necrotic damage and falls {@condition Proned|phb|prone}.",
+        "This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
+      ],
+      "damageInflict": [ "necrotic" ],
+      "areaTags": [ "ST" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
             "source": "THICC"
           }
         ]
