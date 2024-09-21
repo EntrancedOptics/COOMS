@@ -793,7 +793,7 @@
 			"page": 4,
 			"prerequisite": [
                 {
-					"level":8,
+					"level":12,
                     "race": [
                         {
                             "name": "Tiefling"
@@ -822,7 +822,7 @@
 						"If you have the Daemonic Resistance feature, you learn the {@spell Far Step|XGE} spell and can cast it innately as an action a number of times per long rest equal to your proficiency bonus. When cast in this way, it takes an action for you to teleport instead of a bonus action.",
 						"If you have the Gehennic Resistance feature, you gain the ability to speak, read, and write in {@language goblin|phb}. In addition, you learn the {@spell Polymorph|phb} spell and can cast it innately with a range of self and without expending any components a number of times per long rest equal to your proficiency bonus. When cast in this way, you can only choose the form of a {@creature Wolf|mm} or, if there is space to grow, {@creature Dire Wolf|mm}.",
 						"If you have the Hellish Resistance feature, you may now cast the innate spellcasting given to you from your legacy feature at 3rd and 5th level a number of times per short or long rest equal to your proficiency modifier and a number of times per long rest equal to your proficiency modifier respectively.",
-						"If you have the Necrotic Consumption feature, Necrotic Consumption no longer damages you. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0)",
+						"If you have the Necrotic Consumption feature, you learn the Negative Energy Flood spell and can cast it innately without expending material components a number of times per long rest equal to your proficiency bonus.",
 						"If you have the Pandemonic Resistance feature, your Mind-Breaking Howl now extends to 30 feet and creatures {@condition frightened|phb} by it become {@condition incapacitated|phb} and have their speed halved"
 					]
 				}
@@ -897,7 +897,7 @@
 					"items": [
 						"You grow a pair of leathery, batlike wings from your back, giving you a flight speed equal to your walking speed. For Achaierai Tieflings, these wings are birdlike.",
 						"You gain an additional physical characteristic, choose one of the following features that you do not already have: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.",
-						"During your turn, if you make a melee attack against a creature while you are flying, that creature can't make {@action opportunity attack|phb|opportunity attacks} against you for the rest of your turn."
+						"You don’t provoke {@action opportunity attack|phb|opportunity attacks} when you fly out of a creature’s reach."
 					]
 				}
 			]
@@ -1501,12 +1501,78 @@
 		{
 			"name": "Perceptive",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 6,
+			"ability":[
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"perception": true
+				}
+			],
+			"entries":[
+				{
+					"entries": [
+						"You hone your senses until they become razor sharp. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items": [
+						"You gain proficiency in the {@skill Perception|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You can take the Search action as a bonus action.",
+						"Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear."
+					]
+				}
+			]
 		},
 		{
 			"name": "Performer",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 6,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"performance": true
+				}
+			],
+			"additionalSpells":[
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1e":[
+									"Tasha's Hideous Laughter"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries": [
+						"You master performance so that you can command any stage. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items": [
+						"You gain proficiency in the {@skill Performance|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"While performing, you can try to distract one nonhostile creature within 60 feet of you can see who can see and hear you. Make a Charisma (Performance) check contested by the creature's Wisdom saving throw. On a failure, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing. On a success, the target is immune to the effects of this feat for 24 hours.",
+						"You learn {@spell Tasha's Hideous Laughter|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
+					]
+				}
+			]
 		},
 		{
 			"name": "Polearm Master",
@@ -1593,7 +1659,32 @@
 		{
 			"name": "Quick-Fingered",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 6,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"Sleight of Hand": true
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Sleight of Hand|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"As a bonus action, you can make a Dexterity (Sleight of Hand) check to tie or untie a rope, plant something on someone else, conceal an object on a creature, lift a purse, or take/interact with something from a container on a person, including a holstered weapon, arrows from a quiver, or igniting a bomb."
+					]
+				}
+			]
 		},
 		{
 			"name": "Remarkable Recovery",
@@ -1689,12 +1780,110 @@
 		{
 			"name": "Silver-Tongued",
 			"source": "EntrancedFeats",
-			"page": 8
+			"page": 8,
+			"ability":[
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"deception": true
+				}
+			],
+			"additionalSpells":[
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1e":[
+									"Disguise Self"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You develop your conversational skill to better deceive others. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Deception|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You may use a bonus action to attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Deception) check contested by the target's Wisdom saving throw. On a failure, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your turn. On a success, the target can't be deceived by you in this way for 24 hours.",
+						"You learn {@spell Disguise Self|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stealthy",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"stealth": true
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You know how best to hide. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Stealth|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible."
+					]
+				}
+			]
 		},
 		{
 			"name": "Survivalist",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 6,
+			"ability":[
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"survival": true
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You master wilderness lore, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Survival|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+						"If you are traveling alone, you can move stealthily at a normal pace.",
+						"When you forage, you find twice as much food as you normally would.",
+						"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+					]
+				}
+			]
 		},
 		{
 			"name": "Svirfneblin Magic",
@@ -1794,7 +1983,45 @@
 		{
 			"name": "Theologian",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 6,
+			"ability":[
+				{
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"detect evil and good",
+									"thaumaturgy",
+									{
+										"choose":"level=1|class=cleric"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your extensive study of religion rewards you with the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Religion|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice",
+						"You learn the {@spell thaumaturgy|phb} and {@spell detect evil and good|phb} spells, along with one other {@filter 1st-level spell|spells|level=1|class=cleric} from the Cleric spell list. If you already know thaumaturgy, you may instead learn any cantrip from the Cleric's spell list. You can cast detect evil and good once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. You can cast the 1st-level spell you chose once without expending a spell slot, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability modifier for these spells."
+					]
+				}
+			]
 		},
 		{
 			"name": "Thrown Weapon Master",
