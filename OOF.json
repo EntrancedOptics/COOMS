@@ -128,7 +128,7 @@
 		{
 			"name": "Animal Handler",
 			"source": "EntrancedFeats",
-			"Page": 1,
+			"Page": 2,
 			"ability":[
 				{
 					"wis":1
@@ -158,7 +158,7 @@
 		{
 			"name": "Arcanist",
 			"source": "EntrancedFeats",
-			"Page": 1,
+			"Page": 2,
 			"additionalSpells": [
 				{
 					"innate": {
@@ -206,7 +206,7 @@
 		{
 			"name": "Artificer Initiate",
 			"source": "EntrancedFeats",
-			"Page": 1,
+			"Page": 3,
 			"additionalspells":[
 				{
 					"ability": "int",
@@ -251,7 +251,7 @@
 		{
 			"name": "Athlete",
 			"source": "EntrancedFeats",
-			"Page": 1,
+			"Page": 3,
 			"ability": [
 				{
 					"choose":{
@@ -287,7 +287,7 @@
 		{
 			"name": "Bountiful Luck",
 			"source": "EntrancedFeats",
-			"page": 1,
+			"page": 3,
 			"prerequisite": [
 				{
 					"race": [
@@ -311,7 +311,7 @@
 		{
 			"name": "Brawny",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 4,
 			"ability":[
 				{
 					"str": 1
@@ -341,7 +341,7 @@
 		{
 			"name": "Burglar",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 4,
 			"ability":[
 				{
 					"dex": 1
@@ -371,7 +371,7 @@
 		{
 			"name": "Crossbow Expert",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 4,
 			"ability":[
 				{
 					"dex": 1
@@ -398,7 +398,7 @@
 		{
 			"name": "Defensive Duelist",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 4,
 			"prerequisite": [
 				{
 					"ability": [
@@ -420,7 +420,7 @@
 		{
 			"name": "Diplomat",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 5,
 			"ability":[
 				{
 					"cha": 1
@@ -465,7 +465,7 @@
 		{
 			"name": "Double Weapon Master",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 5,
 			"entries": [
 				{
 					"entries":[
@@ -486,7 +486,7 @@
 		{
 			"name": "Dragon Breath",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 5,
 			"prerequisite":[
 				{
 					"race":[
@@ -530,7 +530,7 @@
 		{
 			"name": "Drow High Magic",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 6,
 			"prerequisite": [
 				{
 					"race":[
@@ -570,7 +570,7 @@
 		{
 			"name": "Durable",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 6,
 			"ability": [
 				{
 					"con": 1
@@ -596,7 +596,7 @@
 		{
 			"name": "Dwarven Recovery",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 6,
 			"prerequisite":[
 				{
 					"race":[
@@ -630,7 +630,7 @@
 		{
 			"name": "Empathic",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 7,
 			"ability":[
 				{
 					"wis": 1
@@ -660,7 +660,7 @@
 		{
 			"name": "Fell Handed",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 7,
 			"weaponProficiencies": [
 				{
 					"handaxe": true,
@@ -691,7 +691,7 @@
 		{
 			"name": "Fey Teleportation",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 7,
 			"prerequisite": [
                 {
                     "race": [
@@ -746,7 +746,7 @@
 		{
 			"name": "Fey Touched",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 8,
 			"ability":[
 				{
 					"choose": {
@@ -790,7 +790,7 @@
 		{
 			"name": "Fiendish Connection",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 8,
 			"prerequisite": [
                 {
 					"level":12,
@@ -831,7 +831,7 @@
 		{
 			"name": "Fiendish Constitution",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 9,
 			"prerequisite": [
                 {
 					"level":8,
@@ -870,7 +870,7 @@
 		{
 			"name": "Fiendish Wings",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 9,
 			"prerequisite": [
                 {
                     "race": [
@@ -905,7 +905,7 @@
 		{
 			"name": "Fortitude",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 10,
 			"ability": [
 				{
 					"con": 1
@@ -928,9 +928,43 @@
 			]
 		},
 		{
+			"name": "Grappler",
+			"source": "EntrancedFeats",
+			"page": 10,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"str": "13"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on attack rolls against a creature you are grappling.",
+						"You have advantage on all ability checks made to grapple, avoid being grappled, and improve your stance."
+					]
+				}
+			]
+		},
+		{
 			"name": "Gunner",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 10,
 			"ability": [
 				{
 					"dex": 1
@@ -962,7 +996,7 @@
 		{
 			"name": "Healer",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 10,
 			"entries": [
 				{
 					"entries": [
@@ -984,7 +1018,7 @@
 		{
 			"name": "Historian",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 11,
 			"ability":[
 				{
 					"int": 1
@@ -1014,7 +1048,7 @@
 		{
 			"name": "Inspiring Leader",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 11,
 			"prerequisite":[
 				{
 					"ability":[
@@ -1037,7 +1071,7 @@
 		{
 			"name": "Investigator",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 11,
 			"ability":[
 				{
 					"int":1
@@ -1082,7 +1116,7 @@
 		{
 		"name": "Keen Mind",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 12,
 			"ability":[
 				{
 					"int":1
@@ -1109,7 +1143,7 @@
 		{
 			"name": "Magic Initiate",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 12,
 			"entries":[
 				{
 					"entries":[
@@ -1123,7 +1157,7 @@
 		{
 			"name": "Martial Adept",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 12,
 			"additionalSpells": [
 				{
 					"name": "Bard Spells",
@@ -1283,7 +1317,7 @@
 		{
 			"name": "Medic",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 13,
 			"ability":[
 				{
 					"wis":1
@@ -1327,7 +1361,7 @@
 		{
 			"name": "Medium Armor Master",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 13,
 			"prerequisite":[
 				{
 					"proficiency":[
@@ -1357,7 +1391,7 @@
 		{
 			"name": "Menacing",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 13,
 			"ability":[
 				{
 					"cha": 1
@@ -1402,7 +1436,7 @@
 		{
 			"name": "Name-Brand Crafter",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 14,
 			"prerequisite":[
 				{
 					"other":"Proficiency with a tool"
@@ -1428,7 +1462,7 @@
 		{
 			"name": "Naturalist",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 14,
 			"ability":[
 				{
 					"int": 1
@@ -1458,7 +1492,7 @@
 		{
 			"name": "Opportunist",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 15,
 			"entries":[
 				{
 					"entries":[
@@ -1479,7 +1513,7 @@
 		{
 			"name": "Parry Master",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 15,
 			"entries":[
 				{
 					"entries":[
@@ -1501,7 +1535,7 @@
 		{
 			"name": "Perceptive",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 15,
 			"ability":[
 				{
 					"wis": 1
@@ -1532,7 +1566,7 @@
 		{
 			"name": "Performer",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 16,
 			"ability":[
 				{
 					"dex": 1
@@ -1577,7 +1611,7 @@
 		{
 			"name": "Polearm Master",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 16,
 			"entries":[
 				{
 					"entries": [
@@ -1599,7 +1633,7 @@
 		{
 			"name": "Potent Breath Weapon",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 16,
 			"prerequisite":[
 				{
 					"other":"Breath Weapon Attack"
@@ -1629,7 +1663,7 @@
 		{
 			"name": "Primordial Breath Weapon",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 17,
 			"prerequisite":[
 				{
 					"other":"Breath Weapon Attack"
@@ -1659,7 +1693,7 @@
 		{
 			"name": "Quick-Fingered",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 17,
 			"ability":[
 				{
 					"dex": 1
@@ -1689,7 +1723,7 @@
 		{
 			"name": "Remarkable Recovery",
 			"source": "EntrancedFeats",
-			"page": 7,
+			"page": 17,
 			"ability":[
 				{
 					"con": 1
@@ -1714,7 +1748,7 @@
 		{
 			"name": "Shadow Touched",
 			"source": "EntrancedFeats",
-			"page": 7,
+			"page": 18,
 			"ability":[
 				{
 					"choose": {
@@ -1758,7 +1792,7 @@
 		{
 			"name": "Shield Master",
 			"source": "EntrancedFeats",
-			"page": 7,
+			"page": 18,
 			"entries":[
 				{
 					"entries":[
@@ -1780,7 +1814,7 @@
 		{
 			"name": "Silver-Tongued",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 18,
 			"ability":[
 				{
 					"cha": 1
@@ -1825,7 +1859,7 @@
 		{
 			"name": "Stealthy",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 19,
 			"ability":[
 				{
 					"dex": 1
@@ -1855,7 +1889,7 @@
 		{
 			"name": "Survivalist",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 19,
 			"ability":[
 				{
 					"wis": 1
@@ -1888,7 +1922,7 @@
 		{
 			"name": "Svirfneblin Magic",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 19,
 			"prerequisite":[
 				{
 					"race":[
@@ -1930,7 +1964,7 @@
 		{
 			"name": "Synchronized",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 20,
 			"entries":[
 				{
 					"entries":[
@@ -1951,7 +1985,7 @@
 		{
 			"name": "Tactician",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 20,
 			"ability":[
 					{
 					"choose":{
@@ -1983,7 +2017,7 @@
 		{
 			"name": "Theologian",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 20,
 			"ability":[
 				{
 					"int": 1
@@ -2026,7 +2060,7 @@
 		{
 			"name": "Thrown Weapon Master",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 21,
 			"entries":[
 				{
 					"entries":[
@@ -2047,7 +2081,7 @@
 		{
 			"name": "Tough",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 21,
 			"ability": [
 				{
 					"con": 1
@@ -2083,7 +2117,7 @@
 		{
 			"name": "War Caster",
 			"source": "EntrancedFeats",
-			"page": 9,
+			"page": 21,
 			"prerequisite":[
 				{
 					"spellcasting": "true"
@@ -2109,7 +2143,7 @@
 		{
 			"name": "Wood Elf Magic",
 			"source": "EntrancedFeats",
-			"page": 9,
+			"page": 22,
 			"prerequisite":[
 				{
 					"race":[
