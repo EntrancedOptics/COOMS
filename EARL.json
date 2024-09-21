@@ -209,7 +209,7 @@
 				{
 					"name": "Light Bearer",
 					"entries": [
-						"You know the {@spell light} cantrip. Constitution is your spellcasting ability for it."
+						"You know the {@spell light|phb} cantrip. Constitution is your spellcasting ability for it."
 					],
 					"type": "entries"
 				},
