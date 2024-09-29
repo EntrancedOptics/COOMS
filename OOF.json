@@ -128,7 +128,7 @@
 		{
 			"name": "Animal Handler",
 			"source": "EntrancedFeats",
-			"Page": 1,
+			"Page": 2,
 			"ability":[
 				{
 					"wis":1
@@ -158,7 +158,7 @@
 		{
 			"name": "Arcanist",
 			"source": "EntrancedFeats",
-			"Page": 1,
+			"Page": 2,
 			"additionalSpells": [
 				{
 					"innate": {
@@ -206,7 +206,7 @@
 		{
 			"name": "Artificer Initiate",
 			"source": "EntrancedFeats",
-			"Page": 1,
+			"Page": 3,
 			"additionalspells":[
 				{
 					"ability": "int",
@@ -251,7 +251,7 @@
 		{
 			"name": "Athlete",
 			"source": "EntrancedFeats",
-			"Page": 1,
+			"Page": 3,
 			"ability": [
 				{
 					"choose":{
@@ -287,7 +287,7 @@
 		{
 			"name": "Bountiful Luck",
 			"source": "EntrancedFeats",
-			"page": 1,
+			"page": 3,
 			"prerequisite": [
 				{
 					"race": [
@@ -311,7 +311,7 @@
 		{
 			"name": "Brawny",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 4,
 			"ability":[
 				{
 					"str": 1
@@ -341,7 +341,7 @@
 		{
 			"name": "Burglar",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 4,
 			"ability":[
 				{
 					"dex": 1
@@ -371,7 +371,7 @@
 		{
 			"name": "Crossbow Expert",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 4,
 			"ability":[
 				{
 					"dex": 1
@@ -398,7 +398,7 @@
 		{
 			"name": "Defensive Duelist",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 4,
 			"prerequisite": [
 				{
 					"ability": [
@@ -420,7 +420,7 @@
 		{
 			"name": "Diplomat",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 5,
 			"ability":[
 				{
 					"cha": 1
@@ -465,7 +465,7 @@
 		{
 			"name": "Double Weapon Master",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 5,
 			"entries": [
 				{
 					"entries":[
@@ -486,7 +486,7 @@
 		{
 			"name": "Dragon Breath",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 5,
 			"prerequisite":[
 				{
 					"race":[
@@ -530,7 +530,7 @@
 		{
 			"name": "Drow High Magic",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 6,
 			"prerequisite": [
 				{
 					"race":[
@@ -570,7 +570,7 @@
 		{
 			"name": "Durable",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 6,
 			"ability": [
 				{
 					"con": 1
@@ -596,7 +596,7 @@
 		{
 			"name": "Dwarven Recovery",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 6,
 			"prerequisite":[
 				{
 					"race":[
@@ -630,7 +630,7 @@
 		{
 			"name": "Empathic",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 7,
 			"ability":[
 				{
 					"wis": 1
@@ -660,7 +660,7 @@
 		{
 			"name": "Fell Handed",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 7,
 			"weaponProficiencies": [
 				{
 					"handaxe": true,
@@ -691,7 +691,7 @@
 		{
 			"name": "Fey Teleportation",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 7,
 			"prerequisite": [
                 {
                     "race": [
@@ -746,7 +746,7 @@
 		{
 			"name": "Fey Touched",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 8,
 			"ability":[
 				{
 					"choose": {
@@ -790,10 +790,10 @@
 		{
 			"name": "Fiendish Connection",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 8,
 			"prerequisite": [
                 {
-					"level":8,
+					"level":12,
                     "race": [
                         {
                             "name": "Tiefling"
@@ -822,7 +822,7 @@
 						"If you have the Daemonic Resistance feature, you learn the {@spell Far Step|XGE} spell and can cast it innately as an action a number of times per long rest equal to your proficiency bonus. When cast in this way, it takes an action for you to teleport instead of a bonus action.",
 						"If you have the Gehennic Resistance feature, you gain the ability to speak, read, and write in {@language goblin|phb}. In addition, you learn the {@spell Polymorph|phb} spell and can cast it innately with a range of self and without expending any components a number of times per long rest equal to your proficiency bonus. When cast in this way, you can only choose the form of a {@creature Wolf|mm} or, if there is space to grow, {@creature Dire Wolf|mm}.",
 						"If you have the Hellish Resistance feature, you may now cast the innate spellcasting given to you from your legacy feature at 3rd and 5th level a number of times per short or long rest equal to your proficiency modifier and a number of times per long rest equal to your proficiency modifier respectively.",
-						"If you have the Necrotic Consumption feature, Necrotic Consumption no longer damages you. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0)",
+						"If you have the Necrotic Consumption feature, you learn the Negative Energy Flood spell and can cast it innately without expending material components a number of times per long rest equal to your proficiency bonus.",
 						"If you have the Pandemonic Resistance feature, your Mind-Breaking Howl now extends to 30 feet and creatures {@condition frightened|phb} by it become {@condition incapacitated|phb} and have their speed halved"
 					]
 				}
@@ -831,7 +831,7 @@
 		{
 			"name": "Fiendish Constitution",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 9,
 			"prerequisite": [
                 {
 					"level":8,
@@ -870,7 +870,7 @@
 		{
 			"name": "Fiendish Wings",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 9,
 			"prerequisite": [
                 {
                     "race": [
@@ -897,7 +897,7 @@
 					"items": [
 						"You grow a pair of leathery, batlike wings from your back, giving you a flight speed equal to your walking speed. For Achaierai Tieflings, these wings are birdlike.",
 						"You gain an additional physical characteristic, choose one of the following features that you do not already have: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.",
-						"During your turn, if you make a melee attack against a creature while you are flying, that creature can't make {@action opportunity attack|phb|opportunity attacks} against you for the rest of your turn."
+						"You don’t provoke {@action opportunity attack|phb|opportunity attacks} when you fly out of a creature’s reach."
 					]
 				}
 			]
@@ -905,7 +905,7 @@
 		{
 			"name": "Fortitude",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 10,
 			"ability": [
 				{
 					"con": 1
@@ -928,9 +928,43 @@
 			]
 		},
 		{
+			"name": "Grappler",
+			"source": "EntrancedFeats",
+			"page": 10,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"str": "13"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on attack rolls against a creature you are grappling.",
+						"You have advantage on all ability checks made to grapple, avoid being grappled, and improve your stance."
+					]
+				}
+			]
+		},
+		{
 			"name": "Gunner",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 10,
 			"ability": [
 				{
 					"dex": 1
@@ -962,7 +996,7 @@
 		{
 			"name": "Healer",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 10,
 			"entries": [
 				{
 					"entries": [
@@ -984,7 +1018,7 @@
 		{
 			"name": "Historian",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 11,
 			"ability":[
 				{
 					"int": 1
@@ -1014,7 +1048,7 @@
 		{
 			"name": "Inspiring Leader",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 11,
 			"prerequisite":[
 				{
 					"ability":[
@@ -1037,7 +1071,7 @@
 		{
 			"name": "Investigator",
 			"source": "EntrancedFeats",
-			"page": 2,
+			"page": 11,
 			"ability":[
 				{
 					"int":1
@@ -1082,7 +1116,7 @@
 		{
 		"name": "Keen Mind",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 12,
 			"ability":[
 				{
 					"int":1
@@ -1109,7 +1143,7 @@
 		{
 			"name": "Magic Initiate",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 12,
 			"entries":[
 				{
 					"entries":[
@@ -1123,7 +1157,7 @@
 		{
 			"name": "Martial Adept",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 12,
 			"additionalSpells": [
 				{
 					"name": "Bard Spells",
@@ -1283,7 +1317,7 @@
 		{
 			"name": "Medic",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 13,
 			"ability":[
 				{
 					"wis":1
@@ -1327,7 +1361,7 @@
 		{
 			"name": "Medium Armor Master",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 13,
 			"prerequisite":[
 				{
 					"proficiency":[
@@ -1357,7 +1391,7 @@
 		{
 			"name": "Menacing",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 13,
 			"ability":[
 				{
 					"cha": 1
@@ -1402,7 +1436,7 @@
 		{
 			"name": "Name-Brand Crafter",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 14,
 			"prerequisite":[
 				{
 					"other":"Proficiency with a tool"
@@ -1428,7 +1462,7 @@
 		{
 			"name": "Naturalist",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 14,
 			"ability":[
 				{
 					"int": 1
@@ -1458,7 +1492,7 @@
 		{
 			"name": "Opportunist",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 15,
 			"entries":[
 				{
 					"entries":[
@@ -1479,7 +1513,7 @@
 		{
 			"name": "Parry Master",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 15,
 			"entries":[
 				{
 					"entries":[
@@ -1501,17 +1535,83 @@
 		{
 			"name": "Perceptive",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 15,
+			"ability":[
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"perception": true
+				}
+			],
+			"entries":[
+				{
+					"entries": [
+						"You hone your senses until they become razor sharp. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items": [
+						"You gain proficiency in the {@skill Perception|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You can take the Search action as a bonus action.",
+						"Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear."
+					]
+				}
+			]
 		},
 		{
 			"name": "Performer",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 16,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"performance": true
+				}
+			],
+			"additionalSpells":[
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1e":[
+									"Tasha's Hideous Laughter"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries": [
+						"You master performance so that you can command any stage. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items": [
+						"You gain proficiency in the {@skill Performance|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"While performing, you can try to distract one nonhostile creature within 60 feet of you can see who can see and hear you. Make a Charisma (Performance) check contested by the creature's Wisdom saving throw. On a failure, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing. On a success, the target is immune to the effects of this feat for 24 hours.",
+						"You learn {@spell Tasha's Hideous Laughter|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
+					]
+				}
+			]
 		},
 		{
 			"name": "Polearm Master",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 16,
 			"entries":[
 				{
 					"entries": [
@@ -1533,7 +1633,7 @@
 		{
 			"name": "Potent Breath Weapon",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 16,
 			"prerequisite":[
 				{
 					"other":"Breath Weapon Attack"
@@ -1563,7 +1663,7 @@
 		{
 			"name": "Primordial Breath Weapon",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 17,
 			"prerequisite":[
 				{
 					"other":"Breath Weapon Attack"
@@ -1593,12 +1693,37 @@
 		{
 			"name": "Quick-Fingered",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 17,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"Sleight of Hand": true
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Sleight of Hand|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"As a bonus action, you can make a Dexterity (Sleight of Hand) check to tie or untie a rope, plant something on someone else, conceal an object on a creature, lift a purse, or take/interact with something from a container on a person, including a holstered weapon, arrows from a quiver, or igniting a bomb."
+					]
+				}
+			]
 		},
 		{
 			"name": "Remarkable Recovery",
 			"source": "EntrancedFeats",
-			"page": 7,
+			"page": 17,
 			"ability":[
 				{
 					"con": 1
@@ -1623,7 +1748,7 @@
 		{
 			"name": "Shadow Touched",
 			"source": "EntrancedFeats",
-			"page": 7,
+			"page": 18,
 			"ability":[
 				{
 					"choose": {
@@ -1667,7 +1792,7 @@
 		{
 			"name": "Shield Master",
 			"source": "EntrancedFeats",
-			"page": 7,
+			"page": 18,
 			"entries":[
 				{
 					"entries":[
@@ -1689,17 +1814,115 @@
 		{
 			"name": "Silver-Tongued",
 			"source": "EntrancedFeats",
-			"page": 8
+			"page": 18,
+			"ability":[
+				{
+					"cha": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"deception": true
+				}
+			],
+			"additionalSpells":[
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1e":[
+									"Disguise Self"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You develop your conversational skill to better deceive others. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Deception|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You may use a bonus action to attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Deception) check contested by the target's Wisdom saving throw. On a failure, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your turn. On a success, the target can't be deceived by you in this way for 24 hours.",
+						"You learn {@spell Disguise Self|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Stealthy",
+			"source": "EntrancedFeats",
+			"page": 19,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"stealth": true
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You know how best to hide. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Stealth|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible."
+					]
+				}
+			]
 		},
 		{
 			"name": "Survivalist",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 19,
+			"ability":[
+				{
+					"wis": 1
+				}
+			],
+			"skillProficiencies":[
+				{
+					"survival": true
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You master wilderness lore, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Survival|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
+						"If you are traveling alone, you can move stealthily at a normal pace.",
+						"When you forage, you find twice as much food as you normally would.",
+						"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+					]
+				}
+			]
 		},
 		{
 			"name": "Svirfneblin Magic",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 19,
 			"prerequisite":[
 				{
 					"race":[
@@ -1741,7 +1964,7 @@
 		{
 			"name": "Synchronized",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 20,
 			"entries":[
 				{
 					"entries":[
@@ -1762,7 +1985,7 @@
 		{
 			"name": "Tactician",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 20,
 			"ability":[
 					{
 					"choose":{
@@ -1794,12 +2017,50 @@
 		{
 			"name": "Theologian",
 			"source": "EntrancedFeats",
-			"page": 6
+			"page": 20,
+			"ability":[
+				{
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"detect evil and good",
+									"thaumaturgy",
+									{
+										"choose":"level=1|class=cleric"
+									}
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"Your extensive study of religion rewards you with the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency in the {@skill Religion|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice",
+						"You learn the {@spell thaumaturgy|phb} and {@spell detect evil and good|phb} spells, along with one other {@filter 1st-level spell|spells|level=1|class=cleric} from the Cleric spell list. If you already know thaumaturgy, you may instead learn any cantrip from the Cleric's spell list. You can cast detect evil and good once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. You can cast the 1st-level spell you chose once without expending a spell slot, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability modifier for these spells."
+					]
+				}
+			]
 		},
 		{
 			"name": "Thrown Weapon Master",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 21,
 			"entries":[
 				{
 					"entries":[
@@ -1820,7 +2081,7 @@
 		{
 			"name": "Tough",
 			"source": "EntrancedFeats",
-			"page": 8,
+			"page": 21,
 			"ability": [
 				{
 					"con": 1
@@ -1856,7 +2117,7 @@
 		{
 			"name": "War Caster",
 			"source": "EntrancedFeats",
-			"page": 9,
+			"page": 21,
 			"prerequisite":[
 				{
 					"spellcasting": "true"
@@ -1882,7 +2143,7 @@
 		{
 			"name": "Wood Elf Magic",
 			"source": "EntrancedFeats",
-			"page": 9,
+			"page": 22,
 			"prerequisite":[
 				{
 					"race":[
