@@ -3935,7 +3935,7 @@
       },
       "duration": [
         {
-          "type": "timed"
+          "type": "timed",
           "duration": {
           "type": "minute",
           "amount": 10
