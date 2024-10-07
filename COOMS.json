@@ -3853,6 +3853,110 @@
         ]
       }
     },
+        {
+      "name": "Dancing Lights",
+      "source": "COOMS",
+      "level": 0,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a bit of phosphorus or wychwood, or a glowworm"
+      },
+      "duration": [
+        {
+          "type": "timed"
+          "duration": {
+          "type": "minute",
+          "amount": 10
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "You create up to four torch-sized lights within range, making them appear as torches, lanterns, or glowing orbs that hover in the air for the duration. You can also combine the four lights into one glowing vaguely humanoid form of Medium size. Whichever form you choose, each light sheds dim light in a 10-foot radius.",
+        "As a bonus action on your turn, you can move the lights up to 60 feet to a new spot within range. A light must be within 20 feet of another light created by this spell, and a light winks out if it exceeds the spell's range.",
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          },
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Cleric",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Arcana",
+              "shortName": "Arcana",
+              "source": "PHB"
+            }
+          },
+           {
+            "class": {
+              "name": "Fighter",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Eldritch Knight",
+              "shortName": "Eldritch Knight",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Rogue",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Arcane Trickster",
+              "shortName": "Arcane Trickster",
+              "source": "PHB"
+            }
+          }
+        ]
+      }
+    },
     {
       "name": "Deflect",
       "source": "COOMS",
