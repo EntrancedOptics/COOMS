@@ -480,6 +480,7 @@
 			"speed": {
 				"walk": 30
 			},
+			"darkvision": 60,
 			"ability": [
 				{
 					"int": 2,
@@ -521,9 +522,7 @@
 					},
 					"ability": [
 						"con"
-					]
-				},
-				{
+					],
 					"innate": {
 						"3": {
 							"daily": {
