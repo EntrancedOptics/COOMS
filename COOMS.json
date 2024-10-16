@@ -9768,6 +9768,86 @@
       }
     },
     {
+      "name": "Nail The Coffin",
+      "source": "COOMS",
+      "level": 0,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "a nail worth at least 3cp",
+          "cost": 3
+        }
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You curse a nail you're holding before attempting to drive it into a creature within range. Make a melee spell attack against a creature within range. On a hit, you deal {@dice 1d8} necrotic damage as the cursed nail is driven into their flesh. The creature must then immediately make a Charisma saving throw. On a failed save, the creature is cursed to have the nail remain in their body. While the nail is driven into the creature, the creature cannot regain hit points and has disadvantage on attack rolls against you. On a successful save, the nail is removed from the creature and the creature is no longer cursed. Any time a creature uses its bonus action to attempt to remove the nail, the cursed creature may remake the save."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}) and 17th level ({dice 4d8})."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Open/Shut",
       "source": "COOMS",
       "level": 1,
