@@ -162,6 +162,23 @@
 			]
 		},
 		{
+			"name": "Leather Collar",
+			"source": "OWL",
+			"srd": false,
+			"type": "G",
+			"tier": "none",
+			"rarity": "none",
+			"weight": 0.75,
+			"value": 30,
+			"property": [
+				"LEATHER",
+				"COLLAR"
+			],
+			"entries": [
+				"Worn by pets and freaks alike."
+			]
+		},
+		{
 			"name": "Masterwork Spidersilk Armor",
 			"source": "OWL",
 			"page": 40,
@@ -283,6 +300,23 @@
 			],
 			"entries": [
 				"This kit is a aluminum box containing bandages, salves, and splints. The kit has 12 uses. As an action, you can expend one use of the kit to stabalize a creature that has 0 hit points, without needing to make a Wisdom ({@skill Medicine|phb}) check."
+			]
+		},
+		{
+			"name": "Metal Collar",
+			"source": "OWL",
+			"srd": false,
+			"type": "G",
+			"tier": "none",
+			"rarity": "none",
+			"weight": 4,
+			"value": 150,
+			"property": [
+				"METAL",
+				"COLLAR"
+			],
+			"entries": [
+				"Perfect for taming creatures that really don't want to be domesticated, whether that be beast or man."
 			]
 		},
 		{
@@ -8577,6 +8611,20 @@
 					"name": "Adamantine",
 					"entries": [
 						"This item is made of adamantine."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "COLLAR",
+			"source": "OWL",
+			"page": 28,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Collar",
+					"entries": [
+						"This item is a collar, can be worn around the neck."
 					]
 				}
 			]
