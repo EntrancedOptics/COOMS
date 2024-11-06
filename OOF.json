@@ -396,6 +396,49 @@
 			]
 		},
 		{
+			"name": "Dagger Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master dagger weapons, which are the dagger, jambiya, karambit, kunai, main-gauche, tanto, sai, and small knife. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you take the {@action attack|phb} action and make a weapon attack with a dagger weapon, you may make one extra attack with the dagger weapon as a part of that {@action attack|phb} action.",
+						"When you score a critical strike with a dagger weapon, you may roll one additional damage die.",
+						"You are easily able to conceal dagger weapons on your person when being pat down. Creatures have disadvantage on {@skill sleight of hand|phb} checks when searching you for dagger weapons."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dart Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master dart weapons, which are the blowgun, chakram, dart, needle, and shuriken. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you take the {@action attack|phb} action and make a weapon attack with a dart weapon, you may make one extra attack with a dart weapon as a part of that {@action attack|phb} action.",
+						"You have techniques of readying multiple dart weapons to be used at once. Whenever you draw or stow a dart weapon, you may draw or stow up to four of them at once, ready for use.",
+						"Anytime you make an attack against a creature with a dart weapon, you do not provoke {@action opportunity attack|phb} from that creature for the rest of the turn, whether you hit or not.",
+						"You are easily able to conceal dart weapons on your person when being pat down. Creatures have disadvantage on {@skill sleight of hand|phb} checks when searching you for dart weapons."
+					]
+				}
+			]
+		},
+		{
 			"name": "Defensive Duelist",
 			"source": "EntrancedFeats",
 			"page": 4,
@@ -1691,6 +1734,27 @@
 			]
 		},
 		{
+			"name": "Punching Weapon Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master punching weapons, which are the bagh nakh, brass knuckles, caestus, katar, and spiked knuckles. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you use a bagh nakh, brass knuckles, katar, or spiked knuckles, its damage die changes from {@dice 2d2} to {@dice 3d2}. WHen you use a caestus, its damage die changes from {@dice 1d4} to {@dice 1d6}.",
+						"Whenever you damage a creature with a punching weapon, you may immediately use a bonus action to attempt to shove that creature.",
+						"You have advantage on attack roles made against creatures {@condition grappled|phb} by you when attacking with a punch weapon."
+					]
+				}
+			]
+		},
+		{
 			"name": "Quick-Fingered",
 			"source": "EntrancedFeats",
 			"page": 17,
@@ -1807,6 +1871,27 @@
 						"If you aren't {@condition incapacitated|phb}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
 						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
 						"You may ignore the Wide Open property of shields."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sickle Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master sickle weapons, which are the sickle, kama, and kusarigama. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you take the {@action attack|phb} action and make a weapon attack with a sickle weapon, you may make one extra attack with the sickle weapon as a part of that {@action attack|phb} action.",
+						"When you score a critical strike with a sickle weapon, you may roll one additional damage die.",
+						"When you prompt a system shock or lingering injury with a sickle weapon, the creature has disadvantage on Constitution saves to avoid it."
 					]
 				}
 			]
@@ -2136,6 +2221,28 @@
 						"You have advantage on Constitution saving throws that you make to maintain your {@condition concentration|phb} on a spell when you take damage.",
 						"You can perform somatic components with non-focus weapons or shields in hand as well.",
 						"When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Whip Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master Whip weapons, which are the whip and urump. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you take the {@action attack|phb} action and make a weapon attack with a whip weapon, you may make one extra attack with the whip weapon as a part of that {@action attack|phb} action.",
+						"Urumi now counts as reach weapons for you.",
+						"When you attempt to disarm a creature with a whip weapon, you are not put at a -5 to hit with the weapon.",
+						"When you successfully disarm a creature using a whip weapon, you are able to immediately grab the item you are disarming as long as you have a free hand equipped that can reasonably carry the object."
 					]
 				}
 			]
