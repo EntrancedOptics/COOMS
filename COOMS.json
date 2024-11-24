@@ -4933,7 +4933,7 @@
       "components": {
         "v": true,
         "s": true,
-        "m": "a drop of water if creating water or a few grains of sand if destroying it"
+        "m": "wearable equipment within range"
       },
       "duration": [
         {
