@@ -7025,7 +7025,7 @@
         }
       ],
       "entries": [
-        "When you make an ability check to interact socially with a creature within range, you flash them a big, wide smile to help gain their favor. The creature must make a Wisdom saving throw. On a failure, you have advantage on the ability check towards that creature. On a success, you have disadvantage on the roll, as the creature knows you attempted to charm it, and the creature is immune to the effects of this spell for 24 hours."
+        "When you make an ability check to interact socially with a creature within range, you flash them a big, wide smile to help gain their favor. The creature must make a Wisdom saving throw against being charmed. On a failure, you have advantage on the ability check towards that creature. On a success, you have disadvantage on the roll, as the creature knows you attempted to charm it, and the creature is immune to the effects of this spell for 24 hours."
       ],
       "classes": {
         "fromClassList": [
