@@ -630,7 +630,7 @@
 					"type":"list",
 					"items":[
 						"When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
-						"You have advantage on Constitution saving throws against pain, including holding your breath when taking damage, concentration saves, and spells such as {@spell Power Word Pain|xge}.",
+						"You have advantage on Constitution saving throws against the effects of pain, including holding your breath when taking damage, concentration saves, and spells such as {@spell Power Word Pain|xge}.",
 						"You have advantage on all {@dice d20} rolls for determining the severity of a system shock, lingering injury, or fumble."
 					]
 				}
@@ -1569,7 +1569,7 @@
 					"items":[
 						"You gain proficiency in Parrying Shields.",
 						"You gain a bonus of {@dice 1d4} to any Parrying or Interception checks you make.",
-						"If you successfully parry a creature's melee attack by reducing its damage to zero, including by means of interception, roll a {@dice 1d4}. If you roll a 4, the creature suffers a fumble. On a perfect parry, this roll is made at advantage.",
+						"You can now parry ranged attack rolls. If you completely negate the incoming damage of a ranged attack roll by means of Parrying, instead of the normal effects for successfully parrying or perfectly parrying a melee attack roll, you may redirect the attack to one creature within 5 feet of you. If the attack roll would hit the creature, the creature takes damage equal to the remainder of the potential damage that you could have negated.",
 						"You can parry or intercept without using your reaction a number of times equal to your proficiency bonus. You regain all expent usages of this feature when you finish a short rest."
 					]
 				}
