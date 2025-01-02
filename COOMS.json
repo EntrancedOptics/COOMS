@@ -14336,14 +14336,6 @@
       "classes": {
         "fromClassList": [
           {
-            "name": "Artificer",
-            "source": "TCE"
-          },
-          {
-            "name": "Artificer",
-            "source": "THICC"
-          },
-          {
             "name": "Ranger",
             "source": "PHB"
           },
