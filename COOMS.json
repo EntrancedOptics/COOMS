@@ -10029,6 +10029,90 @@
         ]
       }
     },
+       {
+      "name": "Mending",
+      "source": "COOMS",
+      "level": 0,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "two loadstones"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.",
+        "This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object. When cast on a construct, the spell restores ({@dice 2d6}) hit points."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
     {
       "name": "Mental Barrier",
       "source": "COOMS",
