@@ -5327,7 +5327,7 @@
         "ritual": true
       },
       "entries": [
-        "Using a learned technique that draws a slight amount of magic, one creature other than you that you tend to over the course of the casting time removes 1 tier of exhaustion and regains hit points equal to 1d6 + your spellcasting ability modifier. Any creature with a lingering injury that has a set duration removes 4 hours off of the duration. This spell has no effect on undead or constructs. If the creature you tend to does anything more strenuous than eating, drinking, or reading during the spell's casting time, the spell fails."
+        "Using a learned technique that draws a slight amount of magic, one non-construct non-undead creature other than you that you tend to over the course of the casting time removes 1 tier of exhaustion and regains hit points equal to 1d6 + your spellcasting ability modifier. Any creature with a lingering injury that has a set duration removes 4 hours off of the duration. This spell has no effect on undead or constructs. If the creature you tend to does anything more strenuous than eating, drinking, or reading during the spell's casting time, the spell fails."
       ],
       "entriesHigherLevel": [
         {
