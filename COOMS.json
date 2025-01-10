@@ -8490,7 +8490,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest an axe made of magic either in your hand or over your focus, using it as its handle. Each creature in a 15-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 2d12} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest an axe made of magic either in your hand or over your focus, using it as its handle. Each creature in a 15-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 2d12} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8574,7 +8574,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a dagger made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. If you hit, the target takes {@damage 1d4} force damage. You may attack with this spell as many times as you can with a weapon in a given turn.",
+        "You temporarily manifest a dagger made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. If you hit, the target takes {@damage 1d4} force damage. You may attack with this spell as many times as you can with a weapon in a given Attack action.",
         "This spell's damage increases by {@damage 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
       ],
       "damageInflict": [ "force" ],
@@ -8952,7 +8952,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a greatsword made of magic either in your hand or over your focus, using it as its handle. Each creature in a 60-foot cone must make a Dexterity saving throw. A creature takes {@damage 6d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a greatsword made of magic either in your hand or over your focus, using it as its handle. Each creature in a 60-foot cone must make a Dexterity saving throw. A creature takes {@damage 6d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9014,7 +9014,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a hammer made of magic either in your hand or over your focus, using it as its handle. As the hammer crashes at a point you see within range, each creature in a 40-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 5d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a hammer made of magic either in your hand or over your focus, using it as its handle. As the hammer crashes at a point you see within range, each creature in a 40-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 5d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9076,7 +9076,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a halberd made of magic either in your hand or over your focus, using it as its handle. Each creature in a 30-foot cone must make a Dexterity saving throw. A creature takes {@damage 3d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a halberd made of magic either in your hand or over your focus, using it as its handle. Each creature in a 30-foot cone must make a Dexterity saving throw. A creature takes {@damage 3d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9162,7 +9162,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a lance made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 100-foot by 15-foot line must make a Dexterity saving throw. A creature takes {@damage 10d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a lance made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 100-foot by 15-foot line must make a Dexterity saving throw. A creature takes {@damage 10d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9224,7 +9224,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a mace made of magic either in your hand or over your focus, using it as its handle. As the mace slams at a point you see within range, each creature in a 20-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 8d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a mace made of magic either in your hand or over your focus, using it as its handle. As the mace slams at a point you see within range, each creature in a 20-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 8d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9310,7 +9310,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a rapier made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 25-foot by 5-foot line must make a Dexterity saving throw. A creature takes {@damage 2d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a rapier made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 25-foot by 5-foot line must make a Dexterity saving throw. A creature takes {@damage 2d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9396,7 +9396,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a scimitar made of magic either in your hand or over your focus, using it as its handle. Each creature in a 7.5-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 2d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a scimitar made of magic either in your hand or over your focus, using it as its handle. Each creature in a 7.5-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 2d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9482,7 +9482,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a scythe made of magic either in your hand or over your focus, using it as its handle. Each creature in a 30-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 4d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a scythe made of magic either in your hand or over your focus, using it as its handle. Each creature in a 30-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 4d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9544,7 +9544,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a spear made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 50-foot by 10-foot line must make a Dexterity saving throw. A creature takes {@damage 5d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a spear made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 50-foot by 10-foot line must make a Dexterity saving throw. A creature takes {@damage 5d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9630,7 +9630,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a sword made of magic either in your hand or over your focus, using it as its handle. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes {@damage 1d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a sword made of magic either in your hand or over your focus, using it as its handle. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes {@damage 1d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9716,7 +9716,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a whip made of magic either in your hand or over your focus, using it as its handle. As the whip cracks at a point you see within range, each creature in a 10-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 3d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a whip made of magic either in your hand or over your focus, using it as its handle. As the whip cracks at a point you see within range, each creature in a 10-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 3d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -11930,7 +11930,7 @@
         {
           "name": "At Higher Levels",
           "entries": [
-            "When you cast this spell using a spell slot of 2nd level or higher, your number of attacks you can make with this {@action Opportunity Attack|phb} increases by 1 for every slot level above 1st, but no more than the maximum number of attacks you can make with a weapon in a given turn."
+            "When you cast this spell using a spell slot of 2nd level or higher, your number of attacks you can make with this {@action Opportunity Attack|phb} increases by 1 for every slot level above 1st, but no more than the maximum number of attacks you can make with a weapon in a given Attack action."
           ],
           "type": "entries"
         }
@@ -14363,7 +14363,7 @@
         }
       ],
       "entries": [
-        "Holding out your weapon, you give yourself a burst of speed before your enemies can react. Choose an unoccupied space within range. You may instantly move to that space while making as many attacks as you can with a weapon in a given turn on every enemy in a line to that space."
+        "Holding out your weapon, you give yourself a burst of speed before your enemies can react. Choose an unoccupied space within range. You may instantly move to that space while making as many attacks as you can with a weapon in a given Attack action on every enemy in a line to that space."
       ],
       "entriesHigherLevel": [
         {
@@ -14983,7 +14983,7 @@
         }
       ],
       "entries": [
-        "You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to ten creatures within range. You may make a number of melee attacks against them equal to the number of times you can attack with a weapon in a given turn.",
+        "You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to ten creatures within range. You may make a number of melee attacks against them equal to the number of times you can attack with a weapon in a given Attack action.",
         "You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
       ],
       "entriesHigherLevel": [
