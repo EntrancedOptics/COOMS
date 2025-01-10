@@ -9001,7 +9001,7 @@
         "type": "point",
         "distance": {
           "type": "feet",
-          "amount": 45
+          "amount": 20
         }
       },
       "components": {
@@ -9014,7 +9014,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a hammer made of magic either in your hand or over your focus, using it as its handle. As the hammer crashes at a point you see within range, each creature in a 40-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 5d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
+        "You temporarily manifest a hammer made of magic either in your hand or over your focus, using it as its handle. As the hammer crashes in a 40-foot square within range, each creature within the area must make a Dexterity saving throw. A creature takes {@dice 5d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9211,7 +9211,7 @@
         "type": "point",
         "distance": {
           "type": "feet",
-          "amount": 25
+          "amount": 10
         }
       },
       "components": {
@@ -9224,7 +9224,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a mace made of magic either in your hand or over your focus, using it as its handle. As the mace slams at a point you see within range, each creature in a 20-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 8d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
+        "You temporarily manifest a mace made of magic either in your hand or over your focus, using it as its handle. As the mace slams in a 20-foot square within range, each creature within the area must make a Dexterity saving throw. A creature takes {dice 8d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9703,7 +9703,7 @@
         "type": "point",
         "distance": {
           "type": "feet",
-          "amount": 15
+          "amount": 5
         }
       },
       "components": {
@@ -9716,7 +9716,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a whip made of magic either in your hand or over your focus, using it as its handle. As the whip cracks at a point you see within range, each creature in a 10-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 3d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
+        "You temporarily manifest a whip made of magic either in your hand or over your focus, using it as its handle. As the whip cracks, it sends a small magic shockwave to those around it, causing each creature in a 10-foot square within range to make a Dexterity saving throw. A creature takes {dice 3d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
