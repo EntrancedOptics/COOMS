@@ -611,6 +611,48 @@
 			]
 		},
 		{
+			"name": "Duergar Dark Magic",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": 8,
+					"race":[
+						{
+							"name": "Duergar"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have honed your unnatural talent to allow you to become as naturally potent as those of your kin born and raised in the clutches of illithids. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"You have advantage on saving throws against spells.",
+						"You regain the ability to cast the spells given to you through your Duergar Magic feature without expending a spell slot on a short or long rest."
+					]
+				}
+			]
+		},
+		{
 			"name": "Durable",
 			"source": "EntrancedFeats",
 			"page": 6,
@@ -1050,8 +1092,8 @@
 				{
 					"type": "list",
 					"items": [
-						"When you use a {@item healer's kit|owl} to stabilize a dying creature, that creature also regains 1 hit point.",
-						"As an action, you can spend one use of a healer's kit to tend to a creature and restore {@dice 1d6 + 4} hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
+						"When you use a {@item healer's kit|owl} to stabilize a dying non-construct non-undead creature, that creature also regains 1 hit point.",
+						"As an action, you can spend one use of a healer's kit to tend to a creature and restore {@dice 1d6} + your level + your Wisdom modifier hit points to it. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
 						"Instead, as an action, you can spend one use of a healer's kit as well as one of the target's remaining hit die and have them roll it, regaining HP equal to the number rolled.",
 						"You learn the {@spell dote|cooms} spell and can cast it as a ritual. "
 					]
@@ -2095,6 +2137,28 @@
 					"items":[
 						"You gain a bonus to your initiative equal to the modifier of the chosen ability score increase",
 						"Before combat starts, after everybody has rolled initiative, you may choose to willingly lower your initiative by any amount. If there is an ability that affects you if you have not taken your first turn in combat yet, it instead counts your original initiative before you lowered it as being your first turn in combat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Technician",
+			"source": "EntrancedFeats",
+			"page": 20,
+			"entries":[
+				{
+					"entries":[
+						"You are an able repairman, allowing you to fix your construct allies with haste. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"When you use a technician's kit to stabilize a dying Construct, that creature also regains 1 hit point.",
+						"As an action, you can spend one use of a technician's kit to tend to a Construct and restore {@dice 1d6} + your Intelligence modifier + your level hit points to it. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
+						"Instead, as an action, you can spend one use of a technician's kit as well as one of the target's remaining hit die and have them roll it, regaining HP equal to the number rolled.",
+						"You learn the {@spell mending|cooms} cantrip. If you already knew this cantrip from a class, you may select another cantrip from that class to replace it as you gain it from this feat. Intelligence is your spellcasting ability for this spell."
 					]
 				}
 			]
