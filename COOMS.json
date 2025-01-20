@@ -2655,6 +2655,76 @@
       }
     },
     {
+      "name": "Cone of Cold",
+      "source": "COOMS",
+      "level": 5,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a small crystal or glass cone"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "A blast of freezing energy erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. On a failed save, a creature takes {@dice 8d8} cold damage and is encased in ice for the duration of the spell. On a successful save, the creature takes half as much damage and is not encased in ice.",
+        "A creature encased in ice is incapacitated, and it can't move, speak, eat, drink, or breathe. An encased creature also automatically fails Dexterity and Strength saving throws (other than the saving throw to break free of the ice), and attack rolls against the creature have advantage to hit. Additionally, a creature encased in ice also has resistance to all non-psychic damage. Finally, a creature encased in ice must make a Strength saving throw at the end of each of their turns, breaking out of the ice on a successful save.",
+        "The creature can also be broken free from the ice by taking 30 cumulative fire damage from the point at which they were first encased, at which point the ice around the creature melts.",
+        "A creature killed by this spell becomes a frozen statue until it thaws."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 6th level or higher, the initial damage increases by 1d8 for each slot level above 5th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "damageInflict": [ "cold" ],
+      "savingThrow": [ "constitution" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Conjure Beast",
       "source": "COOMS",
       "level": 4,
@@ -4101,7 +4171,7 @@
         ]
       }
     },
-        {
+    {
       "name": "Dancing Lights",
       "source": "COOMS",
       "level": 0,
@@ -4206,7 +4276,7 @@
         ]
       }
     },
-            {
+    {
       "name": "Dark Star",
       "source": "COOMS",
       "level": 9,
@@ -7825,6 +7895,86 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ice Storm",
+      "source": "COOMS",
+      "level": 4,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 300
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a pinch of dust and a few drops of water"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "Until the spell ends, a hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. The area is lightly obscured, and exposed flames in the area are doused.",
+        "Hailstones cover the storm's area, making it difficult terrain. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. A creature takes {@dice 2d8} bludgeoning damage and {@dice 4d6} cold damage on a failed save, or half as much damage on a successful one.",
+        "As a bonus action on your turn, you may choose to move the storm 20 feet in any direction."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -14328,6 +14478,73 @@
               "shortName": "Tempest",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snilloc's Snowball Swarm",
+      "source": "COOMS",
+      "level": 2,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a piece of ice or a small white rock chip"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {dice 2d4} cold damage and is blinded by the snow battering its face. On a success, a creature takes half damage and is not blinded. A creature blinded by the snow may use a bonus action to wipe it away, ending the effect on themselves.",
+        "On top of this, until the start of your next turn when it melts, a mound of snow litters the floor underneath the area. When a Large or smaller creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature's walking speed is reduced to 0 for the duration of that turn as its legs get stuck in the magical snow."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d4 for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
