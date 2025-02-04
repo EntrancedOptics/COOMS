@@ -547,6 +547,182 @@
       ]
     },
     {
+      "name": "Aura of Life",
+      "source": "COOMS",
+      "level": 4,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.",
+        "When cast by an undead creature, the aura changes to one of undeath-preserving energy. While any allied undead are in the aura, they have resistance to radiant damage instead of necrotic, their max HP can't be reduced, and if they are killed within the aura, they start their turn with 1 hp."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aura of Purity",
+      "source": "COOMS",
+      "level": 4,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.",
+        "If this spell is casted by an undead creature, tainting energy emerges from them. Every nonhostile undead in the area has advantage against saves that either deal radiant damage or turn."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aura of Vitality",
+      "source": "COOMS",
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain {@dice 2d6} hit points. You may also instead use your bonus action to target one undead and force them to make a Constitution Save. On a failure, the chosen undead takes {@dice 4d8} radiant damage. On a success, they take half that.",
+        "If this spell is casted by an undead creature, the aura becomes an aura of necromantic energy. You can use your bonus action instead to target undead creatures to heal them for {@dice 2d6} hit points, and force any non-undead creature to make a Constitution Save instead. On a failure, the non-undead takes {@dice 4d8} necrotic damage, with half as much on a success."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Avasculate",
       "source": "COOMS",
       "level": 9,
@@ -2119,6 +2295,79 @@
           },
           {
             "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Circle of Death",
+      "source": "COOMS",
+      "level": 6,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 150
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "the powder of a crushed black pearl worth at least 500gp"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A sphere of negative energy ripples out in a 60-foot-radius sphere from a point within range. Each creature in that area must make a Constitution saving throw. A target takes {@dice 8d6} necrotic damage on a failed save, or half as much damage on a successful one. An undead in the sphere instead heals {@dice 3d8} + your spellcasting ability modifier and it ends any turn currently affecting the creatures."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 2d6} and the healing increases by {@dice 1d8} for each slot level above 6th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
             "source": "THICC"
           },
           {
@@ -4167,6 +4416,98 @@
               "shortName": "Fathomless",
               "source": "TCE"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cure Wounds",
+      "source": "COOMS",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A creature you touch regains a number of hit points equal to {@dice 1d8} + your spellcasting ability modifier. This spell has no effect on constructs.",
+        "When an undead creature is targeted with this spell, instead make a melee spell attack. On a hit, the undead takes {@dice 3d10} radiant damage."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d8} and the damage increases by {@dice 1d10} for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
           }
         ]
       }
@@ -6520,6 +6861,80 @@
       }
     },
     {
+      "name": "Finger of Death",
+      "source": "COOMS",
+      "level": 7,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes {@dice 7d8} + 30 necrotic damage on a failed save, or half as much damage on a successful one.",
+        "A target killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability.",
+        "Any undead that has this spell casted on them instead regains {@dice 10d10} + 50 + your spellcasting ability modifier HP. If the undead is of CR 4 or below, they must succeed a Wisdom Save versus your spell save DC or become under your control as if you killed a humanoid with this spell."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 8th level or higher, the damage increases by {@dice 1d8}, the healing increases by {@dice 1d10}, and the CR increases by 4 for each slot level above 7th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Flock of Familiars",
       "source": "COOMS",
       "level": 2,
@@ -7608,6 +8023,254 @@
       }
     },
     {
+      "name": "Harm",
+      "source": "COOMS",
+      "level": 6,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You unleash a virulent disease on a creature that you can see within range. The target must make a Constitution saving throw. On a failed save, it takes {@dice 14d6} necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes.",
+        "If the spell targets an undead, it instead gains 70 HP and 35 TempHP. Any turn currently affecting the undead is ended."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heal",
+      "source": "COOMS",
+      "level": 6,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs.",
+        "When an undead creature is targeted by this spell, they must instead make a Constitution Save or take {@dice 14d6} radiant damage, with half as much damage on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 and the radiant damage increases by {@dice 2d6} for each slot level above 6th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Healing Spirit",
+      "source": "COOMS",
+      "level": 2,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).",
+        "Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore {@dice 1d6} hit points to that creature (no action required). The spirit can't heal constructs or undead. Instead, the spirit can use one of its heals to cause an undead in its space to make a Con Save versus your spell save DC, taking {@dice 3d8} radiant damage on a failed save, with half as much damage on a success. The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.",
+        "As a bonus action on your turn, you can move the spirit up to 30 feet to a space you can see."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 and the radiant damage increases by {@dice 1d8} for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Healing Word",
+      "source": "COOMS",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A creature of your choice that you can see within range regains hit points equal to {@dice 1d4} + your spellcasting ability modifier. This spell has no effect on constructs.",
+        "When an undead creature is targeted by this spell, they must instead make a Constitution Save or take {@dice 3d6} radiant damage, with half as much damage on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d4} and the radiant damage increases by {@dice 1d6} for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Holy Ascension",
       "source": "COOMS",
       "level": 2,
@@ -7670,6 +8333,56 @@
           },
           {
             "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Holy Aura",
+      "source": "COOMS",
+      "level": 8,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a tiny reliquary worth at least 1,000 pg containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text."
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.",
+        "If this spell is cast by an undead, the divine light turns to darkness, which blinds anything in a similar fashion, not just fiends and undead."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
             "source": "THICC"
           }
         ]
@@ -8166,6 +8879,62 @@
       }
     },
     {
+      "name": "Inflict Wounds",
+      "source": "COOMS",
+      "level": 1,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Make a melee spell attack against a creature you can reach. On a hit, the target takes {@dice 3d10} necrotic damage.",
+        "When an undead creature is targeted with this spell, they instead regain a number of hit points equal to {@dice 1d8} + your spellcasting ability modifier and it ends any turn currently affecting the undead."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d10} and the healing increases by {@dice 1d8} for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Legendary Guidance",
       "source": "COOMS",
       "level": 6,
@@ -8463,6 +9232,70 @@
           },
           {
             "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Life Transference",
+      "source": "COOMS",
+      "level": 5,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You sacrifice some of your health to mend another creature's injuries. You take {@dice 4d8} necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take. If this spell is casted by an undead, the creature instead gains temporary hit points, rather than regaining hit points."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
             "source": "THICC"
           },
           {
@@ -9924,7 +10757,7 @@
         ]
       }
     },
-                {
+    {
       "name": "Magnify Gravity",
       "source": "COOMS",
       "level": 1,
@@ -9972,6 +10805,71 @@
           },
           {
             "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mass Cure Wounds",
+      "source": "COOMS",
+      "level": 5,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to {@dice 3d8} + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+        "When an undead creature is targeted by this spell, they must instead make a Constitution Save or take {@dice 5d10} radiant damage, with half as much damage on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 6th level or higher, the healing increases by {@dice 1d8} and the radiant damage increases by {@dice 1d10} for each slot level above 5th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
             "source": "THICC"
           },
           {
@@ -10136,7 +11034,110 @@
         ]
       }
     },
-       {
+    {
+      "name": "Mass Heal",
+      "source": "COOMS",
+      "level": 9,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on constructs. If you choose one or more undead as one of your targets, you can instead substitute 5 hp increments from your total of 700 in order to harm them, dealing {@dice 1d8} radiant damage for every 5 hp you sacrifice, dealing a maximum of {@dice 15d8} radiant damage to any single undead. Any undead that has to take damage from this effect rolls a Con Save, taking half as much radiant damage on a success. For example, if you choose to send 20 hp out of your 700 hp pool to one undead, they must make a Con Save or take {@dice 4d8} radiant damage."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mass Healing Word",
+      "source": "COOMS",
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to {@dice 1d4} + your spellcasting ability modifier. This spell has no effect on constructs.",
+        "When an undead creature is targeted by this spell, they must instead make a Constitution Save or take {@dice 3d6} radiant damage, with half as much damage on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the healing increases by {@dice 1d4} and the radiant damage increases by {@dice 1d6} for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Mending",
       "source": "COOMS",
       "level": 0,
@@ -11473,6 +12474,116 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Power Word Heal",
+      "source": "COOMS",
+      "level": 9,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on constructs. If you target an undead with this spell and it has 100 hp or less, the creature dies immediately and its body turns to ash as light pours out of every orafice of their body. Otherwise, this spell has no effect, as the undead suppresses the healing energy."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prayer of Healing",
+      "source": "COOMS",
+      "level": 2,
+      "school": "V",
+      "time": [
+        {
+          "number": 10,
+          "unit": "minutes"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Up to six creatures of your choice that you can see within range each regain hit points equal to {@dice 2d8} + your spellcasting ability modifier. This spell has no effect on constructs.",
+        "If an undead is targeted by this spell, they instead must make a Con Save if they have been within range of this spell for 10 uninterrupted minutes. They take {@dice 4d10} damage on a failed save and half as much on a successful save. If they are reduced to 0 hit points by this spell, they cannot be brought back to undeath for 5 days."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
           }
         ]
       }
