@@ -15627,14 +15627,14 @@
         }
       ],
       "entries": [
-        "A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {dice 2d4} cold damage and is blinded by the snow battering its face. On a success, a creature takes half damage and is not blinded. A creature blinded by the snow may use a bonus action to wipe it away, ending the effect on themselves.",
+        "A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {@dice 2d4} cold damage and is blinded by the snow battering its face. On a success, a creature takes half damage and is not blinded. A creature blinded by the snow may use a bonus action to wipe it away, ending the effect on themselves.",
         "On top of this, until the start of your next turn when it melts, a mound of snow litters the floor underneath the area. When a Large or smaller creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature's walking speed is reduced to 0 for the duration of that turn as its legs get stuck in the magical snow."
       ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
           "entries": [
-            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d4 for each slot level above 2nd."
+            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d4} for each slot level above 2nd."
           ],
           "type": "entries"
         }
