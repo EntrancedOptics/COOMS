@@ -11717,6 +11717,8 @@
       "entries": [
         "You curse a nail you're holding before attempting to drive it into a creature within range. Make a melee spell attack against a creature within range. On a hit, you deal {@dice 1d8} necrotic damage as the cursed nail is driven into their flesh. The creature must then immediately make a Charisma saving throw. On a failed save, the creature is cursed to have the nail remain in their body. While the nail is driven into the creature, the creature cannot regain hit points and has disadvantage on attack rolls against you. On a successful save, the nail is removed from the creature and the creature is no longer cursed. Any time a creature uses its bonus action to attempt to remove the nail, the cursed creature may remake the save."
       ],
+      "damageInflict": [ "necrotic" ],
+      "savingThrow": [ "charisma" ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
