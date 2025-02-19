@@ -1821,13 +1821,6 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://imgcdn.stablediffusionweb.com/2024/12/30/18109bdf-e439-4457-a8fa-7af4f93dea3e.jpg"
-						}
-					},
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
 							"url": "https://cdnb.artstation.com/p/assets/images/images/018/232/621/large/stephanie-keeline-5c181a22-2a59-44c3-823a-cc5d5148f16e.jpg?1558648706"
 						}
 					}
