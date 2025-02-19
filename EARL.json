@@ -1847,6 +1847,144 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Erlidi",
+			"source": "EARL",
+			"page": 27,
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"wis": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Darkvision",
+				"Uncommon Race",
+				"Sunlight Sensitivity",
+				"Language Proficiency",
+				"Natural Weapon",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Erlidi mature at the same rate as a human, but due to their mixed blood, are considered lucky to live half as long."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Erlidi often feel at home following orders, and are as loyal as any dog, leading them tend towards Lawful alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Erlidi vary wildly in size, shape, and appearance due to their bastardized forms, being anywhere between 2 to 7 feet tall. Your size is Small or Medium, depending on your height."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodsense",
+					"entries": [
+						"If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. {@filter constructs|bestiary|type=construct}, {@filter elementals|bestiary|type=elemental}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, and {@filter undead|bestiary|type=undead} are immune to the effects of this sense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"You are proficient with your bite attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Deformity",
+					"entries": [
+						"Your deformed canid form allows you certain specialities, giving you proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Investigation|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}.",
+						"{@i Additionally, choose one of the deformities based on your canid form from the following list:}",
+						"{@b Anxious.} You get stressed easily, especially when there are loud noises or in social situations with strangers, leading you to act rashly. You may increase your Strength or Dexterity ability score by 1, but you have disadvantage on saving throws against being {@condition Frightened|phb}, including being Frenzied, such as in the case of the spell {@spell Enemies Abound|xge}.",
+						"{@b Complaisant.} You love making people happy, and being told you are wanted or loved. There is nothing better to you than following someone's orders. You may increase your Intelligence or Charisma ability score by 1, but you have disadvantage on saving throws against being Charmed, including being controlled, such as in the case of the spells {@spell Suggestion|phb} and {@spell Puppet|cooms}.",
+						"{@b Misshapen.} Your body resembles that which would normally only be the result of generations of inbreeding. Though your form is terrible for your overall health, you may find it specializes elsewhere. You may reduce your Constitution ability score by 2 to 5 points and redistribute those points as you see fit.",
+						"{@b Shadow-Dregged.} You have the slightest remnants of your Shadar-blaidd heritage. You gain 60 feet of Darkvision, but you also gain Sunlight Sensitivity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://imgcdn.stablediffusionweb.com/2024/12/30/18109bdf-e439-4457-a8fa-7af4f93dea3e.jpg"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdnb.artstation.com/p/assets/images/images/018/232/621/large/stephanie-keeline-5c181a22-2a59-44c3-823a-cc5d5148f16e.jpg?1558648706"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Genasi",
 			"source": "EARL",
 			"page": 13,
