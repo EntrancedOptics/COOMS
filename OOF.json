@@ -396,6 +396,49 @@
 			]
 		},
 		{
+			"name": "Dagger Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master dagger weapons, which are the dagger, jambiya, karambit, kunai, main-gauche, tanto, sai, and small knife. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you take the {@action attack|phb} action and make a weapon attack with a dagger weapon, you may make one extra attack with the dagger weapon as a part of that {@action attack|phb} action.",
+						"When you score a critical strike with a dagger weapon, you may roll one additional damage die.",
+						"You are easily able to conceal dagger weapons on your person when being pat down. Creatures have disadvantage on {@skill sleight of hand|phb} checks when searching you for dagger weapons."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dart Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master dart weapons, which are the blowgun, chakram, dart, needle, and shuriken. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you take the {@action attack|phb} action and make a weapon attack with a dart weapon, you may make one extra attack with a dart weapon as a part of that {@action attack|phb} action.",
+						"You have techniques of readying multiple dart weapons to be used at once. Whenever you draw or stow a dart weapon, you may draw or stow up to four of them at once, ready for use.",
+						"Anytime you make an attack against a creature with a dart weapon, you do not provoke {@action opportunity attack|phb} from that creature for the rest of the turn, whether you hit or not.",
+						"You are easily able to conceal dart weapons on your person when being pat down. Creatures have disadvantage on {@skill sleight of hand|phb} checks when searching you for dart weapons."
+					]
+				}
+			]
+		},
+		{
 			"name": "Defensive Duelist",
 			"source": "EntrancedFeats",
 			"page": 4,
@@ -568,6 +611,48 @@
 			]
 		},
 		{
+			"name": "Duergar Dark Magic",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"prerequisite": [
+				{
+					"level": 8,
+					"race":[
+						{
+							"name": "Duergar"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have honed your unnatural talent to allow you to become as naturally potent as those of your kin born and raised in the clutches of illithids. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"You have advantage on saving throws against spells.",
+						"You regain the ability to cast the spells given to you through your Duergar Magic feature without expending a spell slot on a short or long rest."
+					]
+				}
+			]
+		},
+		{
 			"name": "Durable",
 			"source": "EntrancedFeats",
 			"page": 6,
@@ -587,7 +672,7 @@
 					"type":"list",
 					"items":[
 						"When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
-						"You have advantage on Constitution saving throws against pain, including holding your breath when taking damage, concentration saves, and spells such as {@spell Power Word Pain|xge}.",
+						"You have advantage on Constitution saving throws against the effects of pain, including holding your breath when taking damage, concentration saves, and spells such as {@spell Power Word Pain|xge}.",
 						"You have advantage on all {@dice d20} rolls for determining the severity of a system shock, lingering injury, or fumble."
 					]
 				}
@@ -623,6 +708,44 @@
 					"items":[
 						"While under the effects of alcohol, your hit point maximum increases by a number equal to your current level.",
 						"You can use an action to perform a healing surge by expending a hit die, gaining hit points equal to the number you rolled plus your Constitution modifier."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Adept",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"prerequisite":[
+				{
+					"other":"The ability to cast at least one spell that deals damage of your chosen type."
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
+						"Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, if you roll the maximum face on a die, you can roll that die one additional time and add that to the damage total.",
+						"You can select this feat multiple times. Each time you do so, you must choose a different damage type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Affinity",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"prerequisite":[
+				{
+					"other":"The ability to cast at least one spell that deals damage of your chosen type."
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
+						"You gain resistance to the chosen damage type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can reroll any 1s, but only once for every 1 you roll initially.",
+						"You can select this feat multiple times. Each time you do so, you must choose a different damage type."
 					]
 				}
 			]
@@ -1007,8 +1130,8 @@
 				{
 					"type": "list",
 					"items": [
-						"When you use a {@item healer's kit|owl} to stabilize a dying creature, that creature also regains 1 hit point.",
-						"As an action, you can spend one use of a healer's kit to tend to a creature and restore {@dice 1d6 + 4} hit points to it, plus additional hit points equal to the creature's maximum number of Hit Dice. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
+						"When you use a {@item healer's kit|owl} to stabilize a dying non-construct non-undead creature, that creature also regains 1 hit point.",
+						"As an action, you can spend one use of a healer's kit to tend to a creature and restore {@dice 1d6} + your level + your Wisdom modifier hit points to it. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
 						"Instead, as an action, you can spend one use of a healer's kit as well as one of the target's remaining hit die and have them roll it, regaining HP equal to the number rolled.",
 						"You learn the {@spell dote|cooms} spell and can cast it as a ritual. "
 					]
@@ -1526,7 +1649,7 @@
 					"items":[
 						"You gain proficiency in Parrying Shields.",
 						"You gain a bonus of {@dice 1d4} to any Parrying or Interception checks you make.",
-						"If you successfully parry a creature's melee attack by reducing its damage to zero, including by means of interception, roll a {@dice 1d4}. If you roll a 4, the creature suffers a fumble. On a perfect parry, this roll is made at advantage.",
+						"You can now parry ranged attack rolls. If you completely negate the incoming damage of a ranged attack roll by means of Parrying, instead of the normal effects for successfully parrying or perfectly parrying a melee attack roll, you may redirect the attack to one creature within 5 feet of you. If the attack roll would hit the creature, the creature takes damage equal to the remainder of the potential damage that you could have negated.",
 						"You can parry or intercept without using your reaction a number of times equal to your proficiency bonus. You regain all expent usages of this feature when you finish a short rest."
 					]
 				}
@@ -1691,6 +1814,27 @@
 			]
 		},
 		{
+			"name": "Punching Weapon Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master punching weapons, which are the bagh nakh, brass knuckles, caestus, katar, and spiked knuckles. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you use a bagh nakh, brass knuckles, katar, or spiked knuckles, its damage die changes from {@dice 2d2} to {@dice 3d2}. WHen you use a caestus, its damage die changes from {@dice 1d4} to {@dice 1d6}.",
+						"Whenever you damage a creature with a punching weapon, you may immediately use a bonus action to attempt to shove that creature.",
+						"You have advantage on attack roles made against creatures {@condition grappled|phb} by you when attacking with a punch weapon."
+					]
+				}
+			]
+		},
+		{
 			"name": "Quick-Fingered",
 			"source": "EntrancedFeats",
 			"page": 17,
@@ -1807,6 +1951,27 @@
 						"If you aren't {@condition incapacitated|phb}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
 						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
 						"You may ignore the Wide Open property of shields."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sickle Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master sickle weapons, which are the sickle, kama, and kusarigama. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you take the {@action attack|phb} action and make a weapon attack with a sickle weapon, you may make one extra attack with the sickle weapon as a part of that {@action attack|phb} action.",
+						"When you score a critical strike with a sickle weapon, you may roll one additional damage die.",
+						"When you prompt a system shock or lingering injury with a sickle weapon, the creature has disadvantage on Constitution saves to avoid it."
 					]
 				}
 			]
@@ -2015,6 +2180,28 @@
 			]
 		},
 		{
+			"name": "Technician",
+			"source": "EntrancedFeats",
+			"page": 20,
+			"entries":[
+				{
+					"entries":[
+						"You are an able repairman, allowing you to fix your construct allies with haste. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"When you use a technician's kit to stabilize a dying Construct, that creature also regains 1 hit point.",
+						"As an action, you can spend one use of a technician's kit to tend to a Construct and restore {@dice 1d6} + your Intelligence modifier + your level hit points to it. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
+						"Instead, as an action, you can spend one use of a technician's kit as well as one of the target's remaining hit die and have them roll it, regaining HP equal to the number rolled.",
+						"You learn the {@spell mending|cooms} cantrip. If you already knew this cantrip from a class, you may select another cantrip from that class to replace it as you gain it from this feat. Intelligence is your spellcasting ability for this spell."
+					]
+				}
+			]
+		},
+		{
 			"name": "Theologian",
 			"source": "EntrancedFeats",
 			"page": 20,
@@ -2136,6 +2323,28 @@
 						"You have advantage on Constitution saving throws that you make to maintain your {@condition concentration|phb} on a spell when you take damage.",
 						"You can perform somatic components with non-focus weapons or shields in hand as well.",
 						"When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
+					]
+				}
+			]
+		},
+		{
+			"name": "Whip Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"entries": [
+				{
+					"entries": [
+						"You master Whip weapons, which are the whip and urump. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you take the {@action attack|phb} action and make a weapon attack with a whip weapon, you may make one extra attack with the whip weapon as a part of that {@action attack|phb} action.",
+						"Urumi now counts as reach weapons for you.",
+						"When you attempt to disarm a creature with a whip weapon, you are not put at a -5 to hit with the weapon.",
+						"When you successfully disarm a creature using a whip weapon, you are able to immediately grab the item you are disarming as long as you have a free hand equipped that can reasonably carry the object."
 					]
 				}
 			]

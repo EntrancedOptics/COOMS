@@ -547,10 +547,10 @@
       ]
     },
     {
-      "name": "Drown",
+      "name": "Aura of Life",
       "source": "COOMS",
-      "level": 7,
-      "school": "C",
+      "level": 4,
+      "school": "A",
       "time": [
         {
           "number": 1,
@@ -558,16 +558,126 @@
         }
       ],
       "range": {
-        "type": "point",
+        "type": "radius",
         "distance": {
           "type": "feet",
           "amount": 30
         }
       },
       "components": {
-        "v": true,
-        "s": true,
-        "m": "a short piece of flotsam or seaweed"
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.",
+        "When cast by an undead creature, the aura changes to one of undeath-preserving energy. While any allied undead are in the aura, they have resistance to radiant damage instead of necrotic, their max HP can't be reduced, and if they are killed within the aura, they start their turn with 1 hp."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aura of Purity",
+      "source": "COOMS",
+      "level": 4,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions: blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned.",
+        "If this spell is casted by an undead creature, tainting energy emerges from them. Every nonhostile undead in the area has advantage against saves that either deal radiant damage or turn."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aura of Vitality",
+      "source": "COOMS",
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
       },
       "duration": [
         {
@@ -580,25 +690,33 @@
         }
       ],
       "entries": [
-        "You point at a creature within range. The creature must make a Charisma saving throw or its lungs fill with seawater. Any water the creature hacks or expels from their lungs is immediately recycled back into their lungs. If the creature can't breathe underwater, the creature begins suffocating. A suffocating creature can't speak or perform verbal spell components, and can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round), after which it drops to 0 hit points and is dying. At the end of the creature's turns thereafter, the creature can remake the Charisma saving throw, ending the effect on a success."
-      ],
-      "spellAttack": [
-        "R"
-      ],
-      "savingThrow": [
-        "Charisma"
-      ],
-      "areaTags": [
-        "ST"
+        "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain {@dice 2d6} hit points. You may also instead use your bonus action to target one undead and force them to make a Constitution Save. On a failure, the chosen undead takes {@dice 4d8} radiant damage. On a success, they take half that.",
+        "If this spell is casted by an undead creature, the aura becomes an aura of necromantic energy. You can use your bonus action instead to target undead creatures to heal them for {@dice 2d6} hit points, and force any non-undead creature to make a Constitution Save instead. On a failure, the non-undead takes {@dice 4d8} necrotic damage, with half as much on a success."
       ],
       "classes": {
         "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
           {
             "name": "Druid",
             "source": "PHB"
           },
           {
             "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
             "source": "THICC"
           }
         ]
@@ -2191,6 +2309,79 @@
       }
     },
     {
+      "name": "Circle of Death",
+      "source": "COOMS",
+      "level": 6,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 150
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "the powder of a crushed black pearl worth at least 500gp"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A sphere of negative energy ripples out in a 60-foot-radius sphere from a point within range. Each creature in that area must make a Constitution saving throw. A target takes {@dice 8d6} necrotic damage on a failed save, or half as much damage on a successful one. An undead in the sphere instead heals {@dice 3d8} + your spellcasting ability modifier and it ends any turn currently affecting the creatures."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 2d6} and the healing increases by {@dice 1d8} for each slot level above 6th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Clean/Soil",
       "source": "COOMS",
       "level": 1,
@@ -2708,6 +2899,76 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cone of Cold",
+      "source": "COOMS",
+      "level": 5,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a small crystal or glass cone"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "A blast of freezing energy erupts from your hands. Each creature in a 60-foot cone must make a Constitution saving throw. On a failed save, a creature takes {@dice 8d8} cold damage and is encased in ice for the duration of the spell. On a successful save, the creature takes half as much damage and is not encased in ice.",
+        "A creature encased in ice is incapacitated, and it can't move, speak, eat, drink, or breathe. An encased creature also automatically fails Dexterity and Strength saving throws (other than the saving throw to break free of the ice), and attack rolls against the creature have advantage to hit. Additionally, a creature encased in ice also has resistance to all non-psychic damage. Finally, a creature encased in ice must make a Strength saving throw at the end of each of their turns, breaking out of the ice on a successful save.",
+        "The creature can also be broken free from the ice by taking 30 cumulative fire damage from the point at which they were first encased, at which point the ice around the creature melts.",
+        "A creature killed by this spell becomes a frozen statue until it thaws."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 6th level or higher, the initial damage increases by 1d8 for each slot level above 5th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "damageInflict": [ "cold" ],
+      "savingThrow": [ "constitution" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -3610,6 +3871,254 @@
       }
     },
     {
+      "name": "Conscript Beast",
+      "source": "COOMS",
+      "level": 3,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You attempt to instill a bonding allegiance with a beast that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
+        "While the target is charmed, the target regards you and your friends as its friends, and your enemies as its enemies, regardless of its bonds. The target otherwise retains its personality, ideals, and flaws. The target will fight for and alongside you in combat, acting as your ally. The target does not have to follow your orders if they do not want to, but will die to protect you. While you are not in combat, the target will do its best to guard you, but otherwise will behave as normal.",
+        "Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, you may target one additional creature for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "areaTags": [ "MT" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+                    {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Conscript Monster",
+      "source": "COOMS",
+      "level": 7,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You attempt to instill a bonding allegiance with a creature that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
+        "While the target is charmed, the target regards you and your friends as its friends, and your enemies as its enemies, regardless of its bonds. The target otherwise retains its personality, ideals, and flaws. The target will fight for and alongside you in combat, acting as your ally. The target does not have to follow your orders if they do not want to, but will die to protect you. While you are not in combat, the target will do its best to guard you, but otherwise will behave as normal.",
+        "Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 8th level or higher, you may target one additional creature for each slot level above 7th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "areaTags": [ "MT" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Conscript Person",
+      "source": "COOMS",
+      "level": 4,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You attempt to instill a bonding allegiance with a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.",
+        "While the target is charmed, the target regards you and your friends as its friends, and your enemies as its enemies, regardless of its bonds. The target otherwise retains its personality, ideals, and flaws. The target will fight for and alongside you in combat, acting as your ally. The target does not have to follow your orders if they do not want to, but will die to protect you. While you are not in combat, the target will do its best to guard you, but otherwise will behave as normal.",
+        "Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, you may target one additional creature for each slot level above 4th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "areaTags": [ "MT" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Control Flames",
       "source": "COOMS",
       "level": 0,
@@ -3911,7 +4420,99 @@
         ]
       }
     },
+    {
+      "name": "Cure Wounds",
+      "source": "COOMS",
+      "level": 1,
+      "school": "V",
+      "time": [
         {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A creature you touch regains a number of hit points equal to {@dice 1d8} + your spellcasting ability modifier. This spell has no effect on constructs.",
+        "When an undead creature is targeted with this spell, instead make a melee spell attack. On a hit, the undead takes {@dice 3d10} radiant damage."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d8} and the damage increases by {@dice 1d10} for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Dancing Lights",
       "source": "COOMS",
       "level": 0,
@@ -3967,7 +4568,7 @@
             "source": "PHB"
           },
           {
-            "name": "sorcerer",
+            "name": "Sorcerer",
             "source": "THICC"
           },
           {
@@ -4012,6 +4613,66 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dark Star",
+      "source": "COOMS",
+      "level": 9,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 1000
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a black diamond whorth at least 1300 gp and a vial of the caster's blood, both of which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "You compact the air within a 20-foot-radius sphere centered on a point you see within range until it becomes an unstable black sphere of destructive gravitational force absorbing light around it. For the spell's duration, the sphere and any space within 100 feet of it take twice as much movement to move through, and nonmagical objects fully inside the sphere are destroyed if they aren't being worn or carried.",
+        "No air or light can exist within or escape the sphere, nullifying any light or wind-based effects within the area. Not even creatures with truesight can see within the sphere. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
+        "When the sphere appears and at the start of each of your turns until the spell ends, unsecured objects within 100 feet of the sphere are pulled toward the sphere's center, ending in an unoccupied space as close to the center as possible.",
+        "A creature or object that starts its turn within 100 feet of the sphere must succeed on a Strength saving throw or be pulled straight toward the sphere's center, ending in an unoccupied space as close to the center as possible. A creature that enters the sphere for the first time on a turn or starts its turn there takes ({@dice 8d10}) bludgeoning damage, ({@dice 4d10}) cold damage, is considered to be suffocating if it needs to breathe, and is restrained until it is no longer in the sphere. A creature that ends its turn within 100 feet of the sphere must make a Constitution saving throw or take ({@dice 2d10}) radiant damage. If the sphere is in the air, the restrained creature hovers inside the sphere. A creature can use its action to make an {@filter Athletics} check against your spell save DC, ending this restrained condition on itself or another creature in the sphere that it can reach. A creature reduced to 0 hit points by this spell is annihilated, along with any nonmagical items it is wearing or carrying."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -4873,7 +5534,7 @@
       "components": {
         "v": true,
         "s": true,
-        "m": "a drop of water if creating water or a few grains of sand if destroying it"
+        "m": "wearable equipment within range"
       },
       "duration": [
         {
@@ -5019,7 +5680,7 @@
         "ritual": true
       },
       "entries": [
-        "Using a learned technique that draws a slight amount of magic, one creature of your choice that you tend to over the course of the hour regains hit points equal to {@dice 1d6} + your spellcasting ability modifier. Any creature with a lingering injury that has a set duration removes 4 hours off of the duration. This spell has no effect on undead or constructs."
+        "Using a learned technique that draws a slight amount of magic, one non-construct non-undead creature other than you that you tend to over the course of the casting time removes 1 tier of exhaustion and regains hit points equal to 1d6 + your spellcasting ability modifier. Any creature with a lingering injury that has a set duration removes 4 hours off of the duration. This spell has no effect on undead or constructs. If the creature you tend to does anything more strenuous than eating, drinking, or reading during the spell's casting time, the spell fails."
       ],
       "entriesHigherLevel": [
         {
@@ -5826,6 +6487,66 @@
       }
     },
     {
+          "name": "Faerie Fire",
+      "source": "COOMS",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Charisma saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.",
+        "The affected creature can't benefit from being invisible, allowing creatures to see it by its outline, and any attack roll against the affected creature or object has advantage if the attacker can see it."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "False Life",
       "source": "COOMS",
       "level": 1,
@@ -6116,13 +6837,102 @@
       "entries": [
         "You come into accord with and gain the service of a familiar, a spirit that has a reason to follow you and stay in your service, whether they believe that following you might further their goals or cause, or simply receive some reward from doing so. Familiars take the form of an animal you choose (though the familiar has final say in its form): {@creature bat|mm}, {@creature cat|mm}, {@creature crab|mm}, {@creature frog|mm} (toad), {@creature hawk|mm}, {@creature lizard|mm}, {@creature octopus|mm}, {@creature owl|mm}, {@creature poisonous snake|mm}, fish ({@creature quipper|mm}), {@creature rat|mm}, {@creature raven|mm}, {@creature sea horse|mm}, {@creature spider|mm}, or {@creature weasel|mm}. Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is a celestial, fey, or fiend (depending on the spirit) instead of a beast.",
         "{@note Additional {@filter animal form choices|bestiary|Miscellaneous=Familiar} may be available at the DM's discretion.}",
-        "Your familiar acts independently of you, but it almost always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. A familiar can't attack, but it can take other actions as normal.",
+        "Your familiar acts independently of you, but it almost always obeys your commands. In combat, it rolls its own initiative and acts on its own turn. Should you permit it, a familiar can attack and earn XP alongside you, otherwise it can take actions other than attacking as normal.",
         "When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again. As an action, you can temporarily dismiss the familiar to a pocket dimension. Alternatively, you can dismiss it forever. As an action while it is temporarily dismissed, you can cause it to reappear in any unoccupied space within 30 feet of you. Whenever the familiar drops to 0 hit points or disappears into the pocket dimension, it leaves behind in its space anything it was wearing or carrying.",
         "While your familiar is within 100 feet of you, you can communicate with it telepathically. Additionally, as an action, you can see through your familiar's eyes and hear what it hears until the start of your next turn, gaining the benefits of any special senses that the familiar has. During this time, you are {@condition deafened|phb|deaf} and {@condition blinded|phb|blind} with regard to your own senses.",
         "You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
         "Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
       ],
-      "miscTags": [ "PRM", "SGT", "SMN" ]
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Finger of Death",
+      "source": "COOMS",
+      "level": 7,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You send negative energy coursing through a creature that you can see within range, causing it searing pain. The target must make a Constitution saving throw. It takes {@dice 7d8} + 30 necrotic damage on a failed save, or half as much damage on a successful one.",
+        "A target killed by this spell rises at the start of your next turn as a zombie that is permanently under your command, following your verbal orders to the best of its ability.",
+        "Any undead that has this spell casted on them instead regains {@dice 10d10} + 50 + your spellcasting ability modifier HP. If the undead is of CR 4 or below, they must succeed a Wisdom Save versus your spell save DC or become under your control as if you killed a humanoid with this spell."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 8th level or higher, the damage increases by {@dice 1d8}, the healing increases by {@dice 1d10}, and the CR increases by 4 for each slot level above 7th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
     },
     {
       "name": "Flock of Familiars",
@@ -6298,6 +7108,174 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+        {
+      "name": "Fortune's favor",
+      "source": "COOMS",
+      "level": 2,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a white pearl worth at least 100 gp, which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You impart latent luck to yourself or one willing creature you can see within range. When the chosen creature makes an attack roll, an ability check, or a saving throw before the spell ends, it can dismiss this spell on itself to roll an additional d20 and choose which of the d20s to use. Alternatively, when an attack roll is made against the chosen creature, it can dismiss this spell on itself to roll a d20 and choose which of the d20s to use, the one it rolled or the one the attacker rolled.",
+        "If the original d20 roll has advantage or disadvantage, the creature rolls the additional d20 after advantage or disadvantage has been applied to the original roll."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+        {
+      "name": "Gift of Alacrity",
+      "source": "COOMS",
+      "level": 1,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "entries": [
+        "You touch a willing creature. For the duration, the target can add {@dice 1d8} to its initiative rolls"
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "TCE"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -6489,6 +7467,129 @@
         ]
       }
     },
+        {
+      "name": "Gravity Fissure",
+      "source": "COOMS",
+      "level": 6,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "line",
+        "distance": {
+          "type": "feet",
+          "amount": 100
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a fistful of iron filings"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You manifest a ravine of gravitational energy in a line originating from you that is 100 feet long and 5 feet wide. Each creature in that line must make a Strength saving throw, taking {@dice 8d8} bludgeoning damage on a failed save, or half as much damage on a successful one.",
+        "Each creature within 10 feet of the line but not in it must succeed on a Strength saving throw or take {@dice 8d8} bludgeoning damage and be pulled toward the line until the creature is in its area."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level or higher, the damage increases by {@dice 1d8} for each slot level above 6th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+            {
+      "name": "Gravity Sinkhole",
+      "source": "COOMS",
+      "level": 4,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a black marble"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A 20-foot-radius sphere of crushing force forms at a point you can see within range and tugs at the creatures there. Each creature in the sphere must make a Strength saving throw. On a failed save, the creature takes {@dice 5d10} bludgeoning damage and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). On a successful save, the creature takes half as much damage and isn't pulled."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d10} for each slot level above 4th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
     {
       "name": "Grease",
       "source": "COOMS",
@@ -6614,7 +7715,7 @@
         }
       ],
       "entries": [
-        "When you make an ability check to interact socially with a creature within range, you flash them a big, wide smile to help gain their favor. The creature must make a Wisdom saving throw. On a failure, you have advantage on the ability check towards that creature. On a success, you have disadvantage on the roll, as the creature knows you attempted to charm it, and the creature is immune to the effects of this spell for 24 hours."
+        "When you make an ability check to interact socially with a creature within range, you flash them a big, wide smile to help gain their favor. The creature must make a Wisdom saving throw against being charmed. On a failure, you have advantage on the ability check towards that creature. On a success, you have disadvantage on the roll, as the creature knows you attempted to charm it, and the creature is immune to the effects of this spell for 24 hours."
       ],
       "classes": {
         "fromClassList": [
@@ -6922,6 +8023,254 @@
       }
     },
     {
+      "name": "Harm",
+      "source": "COOMS",
+      "level": 6,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You unleash a virulent disease on a creature that you can see within range. The target must make a Constitution saving throw. On a failed save, it takes {@dice 14d6} necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes.",
+        "If the spell targets an undead, it instead gains 70 HP and 35 TempHP. Any turn currently affecting the undead is ended."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Heal",
+      "source": "COOMS",
+      "level": 6,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs.",
+        "When an undead creature is targeted by this spell, they must instead make a Constitution Save or take {@dice 14d6} radiant damage, with half as much damage on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 and the radiant damage increases by {@dice 2d6} for each slot level above 6th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Healing Spirit",
+      "source": "COOMS",
+      "level": 2,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).",
+        "Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore {@dice 1d6} hit points to that creature (no action required). The spirit can't heal constructs or undead. Instead, the spirit can use one of its heals to cause an undead in its space to make a Con Save versus your spell save DC, taking {@dice 3d8} radiant damage on a failed save, with half as much damage on a success. The spirit can heal a number of times equal to 1 + your spellcasting ability modifier (minimum of twice). After healing that number of times, the spirit disappears.",
+        "As a bonus action on your turn, you can move the spirit up to 30 feet to a space you can see."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 and the radiant damage increases by {@dice 1d8} for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Healing Word",
+      "source": "COOMS",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A creature of your choice that you can see within range regains hit points equal to {@dice 1d4} + your spellcasting ability modifier. This spell has no effect on constructs.",
+        "When an undead creature is targeted by this spell, they must instead make a Constitution Save or take {@dice 3d6} radiant damage, with half as much damage on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by {@dice 1d4} and the radiant damage increases by {@dice 1d6} for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Holy Ascension",
       "source": "COOMS",
       "level": 2,
@@ -6984,6 +8333,56 @@
           },
           {
             "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Holy Aura",
+      "source": "COOMS",
+      "level": 8,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a tiny reliquary worth at least 1,000 pg containing a sacred relic, such as a scrap of cloth from a saint's robe or a piece of parchment from a religious text."
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Divine light washes out from you and coalesces in a soft radiance in a 30-foot radius around you. Creatures of your choice in that radius when you cast this spell shed dim light in a 5-foot radius and have advantage on all saving throws, and other creatures have disadvantage on attack rolls against them until the spell ends. In addition, when a fiend or an undead hits an affected creature with a melee attack, the aura flashes with brilliant light. The attacker must succeed on a Constitution saving throw or be blinded until the spell ends.",
+        "If this spell is cast by an undead, the divine light turns to darkness, which blinds anything in a similar fashion, not just fiends and undead."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
             "source": "THICC"
           }
         ]
@@ -7214,6 +8613,86 @@
       }
     },
     {
+      "name": "Ice Storm",
+      "source": "COOMS",
+      "level": 4,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 300
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a pinch of dust and a few drops of water"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "Until the spell ends, a hail of rock-hard ice pounds to the ground in a 20-foot-radius, 40-foot-high cylinder centered on a point within range. The area is lightly obscured, and exposed flames in the area are doused.",
+        "Hailstones cover the storm's area, making it difficult terrain. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. A creature takes {@dice 2d8} bludgeoning damage and {@dice 4d6} cold damage on a failed save, or half as much damage on a successful one.",
+        "As a bonus action on your turn, you may choose to move the storm 20 feet in any direction."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the bludgeoning damage increases by 1d8 for each slot level above 4th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Illusory Script",
       "source": "COOMS",
       "level": 1,
@@ -7394,6 +8873,62 @@
           },
           {
             "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Inflict Wounds",
+      "source": "COOMS",
+      "level": 1,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Make a melee spell attack against a creature you can reach. On a hit, the target takes {@dice 3d10} necrotic damage.",
+        "When an undead creature is targeted with this spell, they instead regain a number of hit points equal to {@dice 1d8} + your spellcasting ability modifier and it ends any turn currently affecting the undead."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d10} and the healing increases by {@dice 1d8} for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
             "source": "THICC"
           }
         ]
@@ -7715,6 +9250,70 @@
       }
     },
     {
+      "name": "Life Transference",
+      "source": "COOMS",
+      "level": 5,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You sacrifice some of your health to mend another creature's injuries. You take {@dice 4d8} necrotic damage, which can't be reduced in any way, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take. If this spell is casted by an undead, the creature instead gains temporary hit points, rather than regaining hit points."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Lifedrain",
       "source": "COOMS",
       "level": 5,
@@ -7874,7 +9473,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest an axe made of magic either in your hand or over your focus, using it as its handle. Each creature in a 15-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 2d12} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest an axe made of magic either in your hand or over your focus, using it as its handle. Each creature in a 15-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 2d12} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -7958,7 +9557,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a dagger made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. If you hit, the target takes {@damage 1d4} force damage. You may attack with this spell as many times as you can with a weapon in a given turn.",
+        "You temporarily manifest a dagger made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. If you hit, the target takes {@damage 1d4} force damage. You may attack with this spell as many times as you can with a weapon in a given Attack action.",
         "This spell's damage increases by {@damage 1d4} when you reach 5th level ({@damage 2d4}), 11th level ({@damage 3d4}), and 17th level ({@damage 4d4})."
       ],
       "damageInflict": [ "force" ],
@@ -8336,7 +9935,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a greatsword made of magic either in your hand or over your focus, using it as its handle. Each creature in a 60-foot cone must make a Dexterity saving throw. A creature takes {@damage 6d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a greatsword made of magic either in your hand or over your focus, using it as its handle. Each creature in a 60-foot cone must make a Dexterity saving throw. A creature takes {@damage 6d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8385,7 +9984,7 @@
         "type": "point",
         "distance": {
           "type": "feet",
-          "amount": 45
+          "amount": 20
         }
       },
       "components": {
@@ -8398,7 +9997,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a hammer made of magic either in your hand or over your focus, using it as its handle. As the hammer crashes at a point you see within range, each creature in a 40-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 5d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a hammer made of magic either in your hand or over your focus, using it as its handle. As the hammer crashes in a 40-foot square within range, each creature within the area must make a Dexterity saving throw. A creature takes {@dice 5d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8460,7 +10059,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a halberd made of magic either in your hand or over your focus, using it as its handle. Each creature in a 30-foot cone must make a Dexterity saving throw. A creature takes {@damage 3d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a halberd made of magic either in your hand or over your focus, using it as its handle. Each creature in a 30-foot cone must make a Dexterity saving throw. A creature takes {@damage 3d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8546,7 +10145,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a lance made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 100-foot by 15-foot line must make a Dexterity saving throw. A creature takes {@damage 10d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a lance made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 100-foot by 15-foot line must make a Dexterity saving throw. A creature takes {@damage 10d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8595,7 +10194,7 @@
         "type": "point",
         "distance": {
           "type": "feet",
-          "amount": 25
+          "amount": 10
         }
       },
       "components": {
@@ -8608,7 +10207,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a mace made of magic either in your hand or over your focus, using it as its handle. As the mace slams at a point you see within range, each creature in a 20-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 8d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a mace made of magic either in your hand or over your focus, using it as its handle. As the mace slams in a 20-foot square within range, each creature within the area must make a Dexterity saving throw. A creature takes {dice 8d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8694,7 +10293,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a rapier made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 25-foot by 5-foot line must make a Dexterity saving throw. A creature takes {@damage 2d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a rapier made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 25-foot by 5-foot line must make a Dexterity saving throw. A creature takes {@damage 2d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8780,7 +10379,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a scimitar made of magic either in your hand or over your focus, using it as its handle. Each creature in a 7.5-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 2d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a scimitar made of magic either in your hand or over your focus, using it as its handle. Each creature in a 7.5-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 2d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8866,7 +10465,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a scythe made of magic either in your hand or over your focus, using it as its handle. Each creature in a 30-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 4d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a scythe made of magic either in your hand or over your focus, using it as its handle. Each creature in a 30-foot radius (other than you) must make a Dexterity saving throw. A creature takes {@damage 4d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -8928,7 +10527,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a spear made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 50-foot by 10-foot line must make a Dexterity saving throw. A creature takes {@damage 5d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a spear made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 50-foot by 10-foot line must make a Dexterity saving throw. A creature takes {@damage 5d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9014,7 +10613,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a sword made of magic either in your hand or over your focus, using it as its handle. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes {@damage 1d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a sword made of magic either in your hand or over your focus, using it as its handle. Each creature in a 15-foot cone must make a Dexterity saving throw. A creature takes {@damage 1d10} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9087,7 +10686,7 @@
         "type": "point",
         "distance": {
           "type": "feet",
-          "amount": 15
+          "amount": 5
         }
       },
       "components": {
@@ -9100,7 +10699,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a whip made of magic either in your hand or over your focus, using it as its handle. As the whip cracks at a point you see within range, each creature in a 10-foot square centered on that point must make a Dexterity saving throw. A creature takes {@damage 3d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given turn."
+        "You temporarily manifest a whip made of magic either in your hand or over your focus, using it as its handle. As the whip cracks, it sends a small magic shockwave to those around it, causing each creature in a 10-foot square within range to make a Dexterity saving throw. A creature takes {dice 3d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -9154,6 +10753,132 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Magnify Gravity",
+      "source": "COOMS",
+      "level": 1,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "The gravity in a 10-foot-radius sphere centered on a point you can see within range increases for a moment. Each creature in the sphere on the turn when you cast the spell must make a Strength saving throw. On a failed save, a creature takes {@dice 2d8} bludgeoning damage, and the creature is forced {@condition prone|phb|prone}. On a successful save, a creature takes half as much damage and is not knocked prone.",
+        "Until the start of your next turn, any object that isn't being worn or carried in the sphere requires a successful Strength check against your spell save DC to pick up or move. Additionally, the sphere's space counts as difficult terrain."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mass Cure Wounds",
+      "source": "COOMS",
+      "level": 5,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to {@dice 3d8} + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
+        "When an undead creature is targeted by this spell, they must instead make a Constitution Save or take {@dice 5d10} radiant damage, with half as much damage on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 6th level or higher, the healing increases by {@dice 1d8} and the radiant damage increases by {@dice 1d10} for each slot level above 5th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -9296,6 +11021,193 @@
           },
           {
             "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mass Heal",
+      "source": "COOMS",
+      "level": 9,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on constructs. If you choose one or more undead as one of your targets, you can instead substitute 5 hp increments from your total of 700 in order to harm them, dealing {@dice 1d8} radiant damage for every 5 hp you sacrifice, dealing a maximum of {@dice 15d8} radiant damage to any single undead. Any undead that has to take damage from this effect rolls a Con Save, taking half as much radiant damage on a success. For example, if you choose to send 20 hp out of your 700 hp pool to one undead, they must make a Con Save or take {@dice 4d8} radiant damage."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mass Healing Word",
+      "source": "COOMS",
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to {@dice 1d4} + your spellcasting ability modifier. This spell has no effect on constructs.",
+        "When an undead creature is targeted by this spell, they must instead make a Constitution Save or take {@dice 3d6} radiant damage, with half as much damage on a success."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the healing increases by {@dice 1d4} and the radiant damage increases by {@dice 1d6} for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mending",
+      "source": "COOMS",
+      "level": 0,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "two loadstones"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "This spell repairs a single break or tear in an object you touch, such as broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin. As long as the break or tear is no larger than 1 foot in any dimension, you mend it, leaving no trace of the former damage.",
+        "This spell can physically repair a magic item or construct, but the spell can't restore magic to such an object. When cast on a construct, the construct may perform a healing surge by expending one of its hit dice and rolling it, regaining hit points equal to the number rolled plus its Constitution modifier."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
             "source": "THICC"
           },
           {
@@ -9762,6 +11674,88 @@
           },
           {
             "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nail The Coffin",
+      "source": "COOMS",
+      "level": 0,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "a nail worth at least 3cp",
+          "cost": 3
+        }
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You curse a nail you're holding before attempting to drive it into a creature within range. Make a melee spell attack against a creature within range. On a hit, you deal {@dice 1d8} necrotic damage as the cursed nail is driven into their flesh. The creature must then immediately make a Charisma saving throw. On a failed save, the creature is cursed to have the nail remain in their body. While the nail is driven into the creature, the creature cannot regain hit points and has disadvantage on attack rolls against you. On a successful save, the nail is removed from the creature and the creature is no longer cursed. Any time a creature uses its bonus action to attempt to remove the nail, the cursed creature may remake the save."
+      ],
+      "damageInflict": [ "necrotic" ],
+      "savingThrow": [ "charisma" ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "This spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}) and 17th level ({dice 4d8})."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
             "source": "THICC"
           }
         ]
@@ -10487,6 +12481,116 @@
       }
     },
     {
+      "name": "Power Word Heal",
+      "source": "COOMS",
+      "level": 9,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on constructs. If you target an undead with this spell and it has 100 hp or less, the creature dies immediately and its body turns to ash as light pours out of every orafice of their body. Otherwise, this spell has no effect, as the undead suppresses the healing energy."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prayer of Healing",
+      "source": "COOMS",
+      "level": 2,
+      "school": "V",
+      "time": [
+        {
+          "number": 10,
+          "unit": "minutes"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "Up to six creatures of your choice that you can see within range each regain hit points equal to {@dice 2d8} + your spellcasting ability modifier. This spell has no effect on constructs.",
+        "If an undead is targeted by this spell, they instead must make a Con Save if they have been within range of this spell for 10 uninterrupted minutes. They take {@dice 4d10} damage on a failed save and half as much on a successful save. If they are reduced to 0 hit points by this spell, they cannot be brought back to undeath for 5 days."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Prestidigitation",
       "source": "COOMS",
       "level": 0,
@@ -10896,6 +13000,79 @@
         ]
       }
     },
+                    {
+      "name": "Pulse Wave",
+      "source": "COOMS",
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "foot",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You create intense pressure, unleash it in a 30-foot cone, and decide whether the pressure pulls or pushes creatures and objects. Each creature in that cone must make a Strength saving throw. A creature takes {@dice 6d6} bludgeoning damage on a failed save, or half as much damage on a successful one. And every creature that fails the save is either pulled 15 feet toward you or pushed 15 feet away from you, depending on the choice you made for the spell.",
+        "In addition, unsecured objects that are completely within the cone are likewise pulled or pushed 15 feet."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d6} and the distance pulled or pushed increases by 5 feet for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
     {
       "name": "Puppet",
       "source": "COOMS",
@@ -11016,7 +13193,7 @@
         {
           "name": "At Higher Levels",
           "entries": [
-            "When you cast this spell using a spell slot of 2nd level or higher, your number of attacks you can make with this {@action Opportunity Attack|phb} increases by 1 for every slot level above 1st, but no more than the maximum number of attacks you can make with a weapon in a given turn."
+            "When you cast this spell using a spell slot of 2nd level or higher, your number of attacks you can make with this {@action Opportunity Attack|phb} increases by 1 for every slot level above 1st, but no more than the maximum number of attacks you can make with a weapon in a given Attack action."
           ],
           "type": "entries"
         }
@@ -11377,6 +13554,65 @@
         ]
       }
     },
+            {
+      "name": "Ravenous Void",
+      "source": "COOMS",
+      "level": 8,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 150
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a black diamond worth at least 100 gp and a drop of the caster's blood, both of which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.",
+        "For the duration, the spell's area is difficult terrain. A creature with darkvision can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
+        "Any creature or object that enters the spell's area for the first time on a turn or starts its turn there must make a Strength saving throw. The creature takes {@dice 8d10} bludgeoning damage on a failed save and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). Until the spell ends or they next succeed the spell’s saving throw, they are also {@condition restrained|phb|restrained}. On a successful save, the creature takes half as much damage and isn't pulled. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
     {
       "name": "Ray of Enfeeblement",
       "source": "COOMS",
@@ -11650,6 +13886,119 @@
       }
     },
     {
+      "name": "Reality Break",
+      "source": "COOMS",
+      "level": 8,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a crystal prism"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "You shatter the barriers between realities and timelines, thrusting a creature into turmoil and madness. The target must succeed on a Wisdom saving throw, or it can't take reactions until the spell ends. The affected target must also roll a d10 at the start of each of its turns; the number rolled determines what happens to the target, as shown on the Reality Break Effects table.",
+        "At the end of each of its turns, the affected target can repeat the Wisdom saving throw, ending the spell on itself on a success.",
+        {
+          "type": "table",
+          "colLabels": [ "{@dice d10}", "Effect" ],
+          "colStyles": [ "col-1 text-center", "col-1 text-center" ],
+          "rows": [
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 1,
+                  "max": 2
+                }
+              },
+              "{@b Vision of the Far Realm.} The target takes {@dice 6d12} psychic damage, and it is {@condition stunned|phb|stunned} until the end of the turn."
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 3,
+                  "max": 5
+                }
+              },
+              "{@b Rending Rift.} The target must make a Dexterity saving throw, taking {@dice 8d12} force damage on a failed save, or half as much damage on a successful one."
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 6,
+                  "max": 8
+                }
+              },
+              "{@b Wormhole}. The target is teleported, along with everything it is wearing and carrying, up to 30 feet to an unoccupied space of your choice that you can see. The target also takes {@dice 10d12} force damage and is knocked {@condition prone|phb|prone}."
+            ],
+            [
+              {
+                "type": "cell",
+                "roll": {
+                  "min": 9,
+                  "max": 10
+                }
+              },
+              "{@b Chill of the Dark Void.} The target takes {@dice 10d12} cold damage, and it is {@condition blinded|phb|blinded} until the end of the turn"
+              ]
+            ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+                    {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Regenerate",
       "source": "COOMS",
       "level": 6,
@@ -11764,1476 +14113,165 @@
           "colLabels": [ "{@dice d10000}", "Race" ],
           "colStyles": [ "col-1 text-center", "col-1 text-center" ],
           "rows": [
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 1,
-                  "max": 95
-                }
-              },
-              "Aarakocra"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 96,
-                  "max": 99
-                }
-              },
-              "Fallen Aasimar"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 100,
-                  "max": 194
-                }
-              },
-              "Protector Aasimar"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 195,
-                  "max": 201
-                }
-              },
-              "Scourge Aasimar"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 202,
-                  "max": 205
-                }
-              },
-              "Astral Elf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 206,
-                  "max": 295
-                }
-              },
-              "Bugbear"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 296,
-                  "max": 335
-                }
-              },
-              "Centaur"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 336,
-                  "max": 355
-                }
-              },
-              "Grove Cervine"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 356,
-                  "max": 375
-                }
-              },
-              "Pronghorn Cervine"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 376,
-                  "max": 425
-                }
-              },
-              "Changeling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 426,
-                  "max": 427
-                }
-              },
-              "Amethyst Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 428,
-                  "max": 457
-                }
-              },
-              "Black Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 458,
-                  "max": 487
-                }
-              },
-              "Blue Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 488,
-                  "max": 517
-                }
-              },
-              "Brass Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 518,
-                  "max": 547
-                }
-              },
-              "Bronze Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 548,
-                  "max": 577
-                }
-              },
-              "Copper Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 578,
-                  "max": 579
-                }
-              },
-              "Crystal Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 580,
-                  "max": 581
-                }
-              },
-              "Emerald Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 582,
-                  "max": 611
-                }
-              },
-              "Gold Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 612,
-                  "max": 641
-                }
-              },
-              "Green Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 642,
-                  "max": 671
-                }
-              },
-              "Red Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 672,
-                  "max": 673
-                }
-              },
-              "Sapphire Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 674,
-                  "max": 703
-                }
-              },
-              "Silver Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 704,
-                  "max": 705
-                }
-              },
-              "Topaz Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 706,
-                  "max": 735
-                }
-              },
-              "White Dragonborn"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 736,
-                  "max": 835
-                }
-              },
-              "Duergar"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 836,
-                  "max": 1175
-                }
-              },
-              "Hill Dwarf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 1176,
-                  "max": 1505
-                }
-              },
-              "Mountain Dwarf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 1506,
-                  "max": 1507
-                }
-              },
-              "Dwelf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 1508,
-                  "max": 1757
-                }
-              },
-              "Drow"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 1758,
-                  "max": 1766
-                }
-              },
-              "Eladrin"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 1767,
-                  "max": 2116
-                }
-              },
-              "High Elf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2117,
-                  "max": 2117
-                }
-              },
-              "Pallid Elf (Moon Elf)"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2118,
-                  "max": 2124
-                }
-              },
-              "Sea Elf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2125,
-                  "max": 2126
-                }
-              },
-              "Shadar-kai"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2127,
-                  "max": 2446
-                }
-              },
-              "Wood Elf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2447,
-                  "max": 2481
-                }
-              },
-              "Erlidi"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2482,
-                  "max": 2561
-                }
-              },
-              "Fairy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2562,
-                  "max": 2611
-                }
-              },
-              "Firbolg"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2612,
-                  "max": 2636
-                }
-              },
-              "Air Genasi"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2637,
-                  "max": 2661
-                }
-              },
-              "Earth Genasi"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2662,
-                  "max": 2686
-                }
-              },
-              "Fire Genasi"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2687,
-                  "max": 2711
-                }
-              },
-              "Water Genasi"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2712,
-                  "max": 2717
-                }
-              },
-              "Giff"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2718,
-                  "max": 2742
-                }
-              },
-              "Githyanki"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2743,
-                  "max": 2767
-                }
-              },
-              "Githzerai"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2768,
-                  "max": 2877
-                }
-              },
-              "Gnoll"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2878,
-                  "max": 2972
-                }
-              },
-              "Deep Gnome"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 2973,
-                  "max": 3092
-                }
-              },
-              "Forest Gnome"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 3093,
-                  "max": 3392
-                }
-              },
-              "Rock Gnome"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 3393,
-                  "max": 3897
-                }
-              },
-              "Goblin"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 3898,
-                  "max": 3997
-                }
-              },
-              "Goliath"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 3998,
-                  "max": 4097
-                }
-              },
-              "Grung"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 4098,
-                  "max": 4102
-                }
-              },
-              "Hadozee"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 4103,
-                  "max": 4104
-                }
-              },
-              "Duergar Halfblood"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 4105,
-                  "max": 4191
-                }
-              },
-              "Hill Halfblood"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 4192,
-                  "max": 4266
-                }
-              },
-              "Mountain Halfblood"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 4267,
-                  "max": 4366
-                }
-              },
-              "Ghostwise Halfling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 4367,
-                  "max": 4616
-                }
-              },
-              "Lightfoot Halfling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 4617,
-                  "max": 4666
-                }
-              },
-              "Lotusden Halfling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 4667,
-                  "max": 5016
-                }
-              },
-              "Stout Halfling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5017,
-                  "max": 5031
-                }
-              },
-              "Half-Bugbear"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5032,
-                  "max": 5033
-                }
-              },
-              "Half-Dragon (Drow)"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5034,
-                  "max": 5034
-                }
-              },
-              "Half-Dragon (Deurgar)"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5035,
-                  "max": 5038
-                }
-              },
-              "Half-Dragon (Dwarf)"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5039,
-                  "max": 5042
-                }
-              },
-              "Half-Dragon (Elf)"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5043,
-                  "max": 5043
-                }
-              },
-              "Half-Dragon (Gnome)"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5044,
-                  "max": 5046
-                }
-              },
-              "Half-Dragon (Halfling)"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5047,
-                  "max": 5051
-                }
-              },
-              "Half-Dragon (Human)"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5052,
-                  "max": 5053
-                }
-              },
-              "Aquatic Half-Elf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5054,
-                  "max": 5058
-                }
-              },
-              "Drow Half-Elf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5059,
-                  "max": 5173
-                }
-              },
-              "High Half-Elf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5174,
-                  "max": 5283
-                }
-              },
-              "Wood Half-Elf"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5284,
-                  "max": 5323
-                }
-              },
-              "Half-Goblin"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5324,
-                  "max": 5373
-                }
-              },
-              "Half-Harengon"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5374,
-                  "max": 5393
-                }
-              },
-              "Half-Hobgoblin"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5394,
-                  "max": 5478
-                }
-              },
-              "Half-Orc"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5479,
-                  "max": 5558
-                }
-              },
-              "Half-Tabaxi"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5559,
-                  "max": 5628
-                }
-              },
-              "Harengon"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5629,
-                  "max": 5629
-                }
-              },
-              "Hunker Hedge"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5630,
-                  "max": 5630
-                }
-              },
-              "Roller Hedge"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5631,
-                  "max": 5780
-                }
-              },
-              "Hobgoblin"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 5781,
-                  "max": 6580
-                }
-              },
-              "Human"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 6581,
-                  "max": 6590
-                }
-              },
-              "Jerbeen"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 6591,
-                  "max": 6591
-                }
-              },
-              "Kalashtar"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 6592,
-                  "max": 6606
-                }
-              },
-              "Kender"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 6607,
-                  "max": 6681
-                }
-              },
-              "Kenku"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 6682,
-                  "max": 6771
-                }
-              },
-              "Kitsune"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 6772,
-                  "max": 7191
-                }
-              },
-              "Kobold"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7192,
-                  "max": 7271
-                }
-              },
-              "Winged Kobold"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7272,
-                  "max": 7301
-                }
-              },
-              "Leonin"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7302,
-                  "max": 7341
-                }
-              },
-              "Cactus Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7342,
-                  "max": 7351
-                }
-              },
-              "Flytrap Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7352,
-                  "max": 7421
-                }
-              },
-              "Fruit Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7422,
-                  "max": 7501
-                }
-              },
-              "Fungus Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7502,
-                  "max": 7531
-                }
-              },
-              "Gourd Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7532,
-                  "max": 7606
-                }
-              },
-              "Leaf Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7607,
-                  "max": 7631
-                }
-              },
-              "Lotus Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7632,
-                  "max": 7666
-                }
-              },
-              "Pine Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7667,
-                  "max": 7711
-                }
-              },
-              "Root Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7712,
-                  "max": 7781
-                }
-              },
-              "Seaweed Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7782,
-                  "max": 7796
-                }
-              },
-              "Sunflower Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7797,
-                  "max": 7814
-                }
-              },
-              "Vine Leshy"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7815,
-                  "max": 7886
-                }
-              },
-              "Lizardfolk"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7887,
-                  "max": 7891
-                }
-              },
-              "Locathah"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7892,
-                  "max": 7914
-                }
-              },
-              "Loxodon"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7915,
-                  "max": 7954
-                }
-              },
-              "Mapach"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 7955,
-                  "max": 8044
-                }
-              },
-              "Minotaur"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 8045,
-                  "max": 8046
-                }
-              },
-              "Duergar M'jol"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 8047,
-                  "max": 8051
-                }
-              },
-              "Hill M'jol"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 8052,
-                  "max": 8055
-                }
-              },
-              "Mountain M'jol"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 8056,
-                  "max": 8355
-                }
-              },
-              "Myconid"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 8356,
-                  "max": 8905
-                }
-              },
-              "Orc"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 8906,
-                  "max": 8910
-                }
-              },
-              "Owlin"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 8911,
-                  "max": 8920
-                }
-              },
-              "Plasmoid"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 8921,
-                  "max": 9015
-                }
-              },
-              "Satyr"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9016,
-                  "max": 9016
-                }
-              },
-              "Shadar-blaidd"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9017,
-                  "max": 9041
-                }
-              },
-              "Beasthide Shifter"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9042,
-                  "max": 9066
-                }
-              },
-              "Longtooth Shifter"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9067,
-                  "max": 9091
-                }
-              },
-              "Swiftstride Shifter"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9092,
-                  "max": 9116
-                }
-              },
-              "Wildhunt Shifter"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9117,
-                  "max": 9196
-                }
-              },
-              "Skaven"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9197,
-                  "max": 9311
-                }
-              },
-              "Tabaxi"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9312,
-                  "max": 9314
-                }
-              },
-              "Thri-kreen"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9315,
-                  "max": 9364
-                }
-              },
-              "Tribal Thri-kreen"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9365,
-                  "max": 9368
-                }
-              },
-              "Achaierai Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9369,
-                  "max": 9388
-                }
-              },
-              "Asmodeus Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9389,
-                  "max": 9408
-                }
-              },
-              "Baalzebul Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9409,
-                  "max": 9413
-                }
-              },
-              "Barghest Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9414,
-                  "max": 9423
-                }
-              },
-              "Demodand Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9424,
-                  "max": 9523
-                }
-              },
-              "Demon Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9524,
-                  "max": 9543
-                }
-              },
-              "Dispater Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9544,
-                  "max": 9563
-                }
-              },
-              "Fierna Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9564,
-                  "max": 9583
-                }
-              },
-              "Glasya Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9584,
-                  "max": 9587
-                }
-              },
-              "Howler Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9588,
-                  "max": 9607
-                }
-              },
-              "Levistus Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9608,
-                  "max": 9627
-                }
-              },
-              "Mammon Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9628,
-                  "max": 9647
-                }
-              },
-              "Mephistopheles Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9648,
-                  "max": 9654
-                }
-              },
-              "Scourge Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9655,
-                  "max": 9664
-                }
-              },
-              "Yugoloth Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9665,
-                  "max": 9684
-                }
-              },
-              "Zariel Tiefling"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9685,
-                  "max": 9748
-                }
-              },
-              "Tortle"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9749,
-                  "max": 9873
-                }
-              },
-              "Triton"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9874,
-                  "max": 9933
-                }
-              },
-              "Troglodyte"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9934,
-                  "max": 9936
-                }
-              },
-              "Verdan"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9937,
-                  "max": 9996
-                }
-              },
-              "Yuan-ti Pureblood"
-            ],
-            [
-              {
-                "type": "cell",
-                "roll": {
-                  "min": 9997,
-                  "max": 10000
-                }
-              },
-              "Wendigo"
-            ]
+[{"type": "cell", "roll": {"min": 1, "max": 95}},"Aarakocra"],
+[{"type": "cell", "roll": {"min": 96, "max": 99}},"Fallen Aasimar"],
+[{"type": "cell", "roll": {"min": 100, "max": 194}},"Protector Aasimar"],
+[{"type": "cell", "roll": {"min": 195, "max": 201}},"Scourge Aasimar"],
+[{"type": "cell", "roll": {"min": 202, "max": 205}},"Astral Elf"],
+[{"type": "cell", "roll": {"min": 206, "max": 295}},"Bugbear"],
+[{"type": "cell", "roll": {"min": 296, "max": 335}},"Centaur"],
+[{"type": "cell", "roll": {"min": 336, "max": 355}},"Grove Cervine"],
+[{"type": "cell", "roll": {"min": 356, "max": 375}},"Pronghorn Cervine"],
+[{"type": "cell", "roll": {"min": 376, "max": 425}},"Changeling"],
+[{"type": "cell", "roll": {"min": 426, "max": 427}},"Amethyst Dragonborn"],
+[{"type": "cell", "roll": {"min": 428, "max": 457}},"Black Dragonborn"],
+[{"type": "cell", "roll": {"min": 458, "max": 487}},"Blue Dragonborn"],
+[{"type": "cell", "roll": {"min": 488, "max": 517}},"Brass Dragonborn"],
+[{"type": "cell", "roll": {"min": 518, "max": 547}},"Bronze Dragonborn"],
+[{"type": "cell", "roll": {"min": 548, "max": 577}},"Copper Dragonborn"],
+[{"type": "cell", "roll": {"min": 578, "max": 579}},"Crystal Dragonborn"],
+[{"type": "cell", "roll": {"min": 580, "max": 581}},"Emerald Dragonborn"],
+[{"type": "cell", "roll": {"min": 582, "max": 611}},"Gold Dragonborn"],
+[{"type": "cell", "roll": {"min": 612, "max": 641}},"Green Dragonborn"],
+[{"type": "cell", "roll": {"min": 642, "max": 671}},"Red Dragonborn"],
+[{"type": "cell", "roll": {"min": 672, "max": 673}},"Sapphire Dragonborn"],
+[{"type": "cell", "roll": {"min": 674, "max": 703}},"Silver Dragonborn"],
+[{"type": "cell", "roll": {"min": 704, "max": 705}},"Topaz Dragonborn"],
+[{"type": "cell", "roll": {"min": 706, "max": 735}},"White Dragonborn"],
+[{"type": "cell", "roll": {"min": 736, "max": 835}},"Duergar"],
+[{"type": "cell", "roll": {"min": 836, "max": 1175}},"Hill Dwarf"],
+[{"type": "cell", "roll": {"min": 1176, "max": 1505}},"Mountain Dwarf"],
+[{"type": "cell", "roll": {"min": 1506, "max": 1507}},"Dwelf"],
+[{"type": "cell", "roll": {"min": 1508, "max": 1757}},"Drow"],
+[{"type": "cell", "roll": {"min": 1758, "max": 1766}},"Eladrin"],
+[{"type": "cell", "roll": {"min": 1767, "max": 2116}},"High Elf"],
+[{"type": "cell", "roll": {"min": 2117, "max": 2117}},"Pallid Elf (Moon Elf)"],
+[{"type": "cell", "roll": {"min": 2118, "max": 2124}},"Sea Elf"],
+[{"type": "cell", "roll": {"min": 2125, "max": 2126}},"Shadar-kai"],
+[{"type": "cell", "roll": {"min": 2127, "max": 2446}},"Wood Elf"],
+[{"type": "cell", "roll": {"min": 2447, "max": 2481}},"Erlidi"],
+[{"type": "cell", "roll": {"min": 2482, "max": 2561}},"Fairy"],
+[{"type": "cell", "roll": {"min": 2562, "max": 2611}},"Firbolg"],
+[{"type": "cell", "roll": {"min": 2612, "max": 2636}},"Air Genasi"],
+[{"type": "cell", "roll": {"min": 2637, "max": 2661}},"Earth Genasi"],
+[{"type": "cell", "roll": {"min": 2662, "max": 2686}},"Fire Genasi"],
+[{"type": "cell", "roll": {"min": 2687, "max": 2711}},"Water Genasi"],
+[{"type": "cell", "roll": {"min": 2712, "max": 2717}},"Giff"],
+[{"type": "cell", "roll": {"min": 2718, "max": 2742}},"Githyanki"],
+[{"type": "cell", "roll": {"min": 2743, "max": 2767}},"Githzerai"],
+[{"type": "cell", "roll": {"min": 2768, "max": 2877}},"Gnoll"],
+[{"type": "cell", "roll": {"min": 2878, "max": 2972}},"Deep Gnome"],
+[{"type": "cell", "roll": {"min": 2973, "max": 3092}},"Forest Gnome"],
+[{"type": "cell", "roll": {"min": 3093, "max": 3392}},"Rock Gnome"],
+[{"type": "cell", "roll": {"min": 3393, "max": 3897}},"Goblin"],
+[{"type": "cell", "roll": {"min": 3898, "max": 3997}},"Goliath"],
+[{"type": "cell", "roll": {"min": 3998, "max": 4097}},"Grung"],
+[{"type": "cell", "roll": {"min": 4098, "max": 4102}},"Hadozee"],
+[{"type": "cell", "roll": {"min": 4103, "max": 4104}},"Duergar Halfblood"],
+[{"type": "cell", "roll": {"min": 4105, "max": 4184}},"Hill Halfblood"],
+[{"type": "cell", "roll": {"min": 4185, "max": 4254}},"Mountain Halfblood"],
+[{"type": "cell", "roll": {"min": 4255, "max": 4354}},"Ghostwise Halfling"],
+[{"type": "cell", "roll": {"min": 4355, "max": 4604}},"Lightfoot Halfling"],
+[{"type": "cell", "roll": {"min": 4605, "max": 4654}},"Lotusden Halfling"],
+[{"type": "cell", "roll": {"min": 4655, "max": 5004}},"Stout Halfling"],
+[{"type": "cell", "roll": {"min": 5005, "max": 5019}},"Half-Bugbear"],
+[{"type": "cell", "roll": {"min": 5020, "max": 5021}},"Half-Dragon (Drow)"],
+[{"type": "cell", "roll": {"min": 5022, "max": 5022}},"Half-Dragon (Deurgar)"],
+[{"type": "cell", "roll": {"min": 5023, "max": 5026}},"Half-Dragon (Dwarf)"],
+[{"type": "cell", "roll": {"min": 5027, "max": 5030}},"Half-Dragon (Elf)"],
+[{"type": "cell", "roll": {"min": 5031, "max": 5031}},"Half-Dragon (Gnome)"],
+[{"type": "cell", "roll": {"min": 5032, "max": 5034}},"Half-Dragon (Halfling)"],
+[{"type": "cell", "roll": {"min": 5035, "max": 5039}},"Half-Dragon (Human)"],
+[{"type": "cell", "roll": {"min": 5040, "max": 5041}},"Aquatic Half-Elf"],
+[{"type": "cell", "roll": {"min": 5042, "max": 5046}},"Drow Half-Elf"],
+[{"type": "cell", "roll": {"min": 5047, "max": 5161}},"High Half-Elf"],
+[{"type": "cell", "roll": {"min": 5162, "max": 5271}},"Wood Half-Elf"],
+[{"type": "cell", "roll": {"min": 5272, "max": 5311}},"Half-Goblin"],
+[{"type": "cell", "roll": {"min": 5312, "max": 5361}},"Half-Harengon"],
+[{"type": "cell", "roll": {"min": 5362, "max": 5381}},"Half-Hobgoblin"],
+[{"type": "cell", "roll": {"min": 5382, "max": 5466}},"Half-Orc"],
+[{"type": "cell", "roll": {"min": 5467, "max": 5546}},"Half-Tabaxi"],
+[{"type": "cell", "roll": {"min": 5547, "max": 5616}},"Harengon"],
+[{"type": "cell", "roll": {"min": 5617, "max": 5641}},"Hunker Hedge"],
+[{"type": "cell", "roll": {"min": 5642, "max": 5654}},"Roller Hedge"],
+[{"type": "cell", "roll": {"min": 5655, "max": 5804}},"Hobgoblin"],
+[{"type": "cell", "roll": {"min": 5805, "max": 6604}},"Human"],
+[{"type": "cell", "roll": {"min": 6605, "max": 6614}},"Jerbeen"],
+[{"type": "cell", "roll": {"min": 6615, "max": 6615}},"Kalashtar"],
+[{"type": "cell", "roll": {"min": 6616, "max": 6630}},"Kender"],
+[{"type": "cell", "roll": {"min": 6631, "max": 6705}},"Kenku"],
+[{"type": "cell", "roll": {"min": 6706, "max": 6795}},"Kitsune"],
+[{"type": "cell", "roll": {"min": 6796, "max": 7215}},"Kobold"],
+[{"type": "cell", "roll": {"min": 7216, "max": 7295}},"Winged Kobold"],
+[{"type": "cell", "roll": {"min": 7296, "max": 7325}},"Leonin"],
+[{"type": "cell", "roll": {"min": 7326, "max": 7365}},"Cactus Leshy"],
+[{"type": "cell", "roll": {"min": 7366, "max": 7375}},"Flytrap Leshy"],
+[{"type": "cell", "roll": {"min": 7376, "max": 7445}},"Fruit Leshy"],
+[{"type": "cell", "roll": {"min": 7446, "max": 7525}},"Fungus Leshy"],
+[{"type": "cell", "roll": {"min": 7526, "max": 7555}},"Gourd Leshy"],
+[{"type": "cell", "roll": {"min": 7556, "max": 7630}},"Leaf Leshy"],
+[{"type": "cell", "roll": {"min": 7631, "max": 7655}},"Lotus Leshy"],
+[{"type": "cell", "roll": {"min": 7656, "max": 7690}},"Pine Leshy"],
+[{"type": "cell", "roll": {"min": 7691, "max": 7735}},"Root Leshy"],
+[{"type": "cell", "roll": {"min": 7736, "max": 7805}},"Seaweed Leshy"],
+[{"type": "cell", "roll": {"min": 7806, "max": 7820}},"Sunflower Leshy"],
+[{"type": "cell", "roll": {"min": 7821, "max": 7838}},"Vine Leshy"],
+[{"type": "cell", "roll": {"min": 7839, "max": 7910}},"Lizardfolk"],
+[{"type": "cell", "roll": {"min": 7911, "max": 7915}},"Locathah"],
+[{"type": "cell", "roll": {"min": 7916, "max": 7938}},"Loxodon"],
+[{"type": "cell", "roll": {"min": 7939, "max": 7978}},"Mapach"],
+[{"type": "cell", "roll": {"min": 7979, "max": 8038}},"Minotaur"],
+[{"type": "cell", "roll": {"min": 8039, "max": 8039}},"Duergar M'jol"],
+[{"type": "cell", "roll": {"min": 8040, "max": 8041}},"Hill M'jol"],
+[{"type": "cell", "roll": {"min": 8042, "max": 8043}},"Mountain M'jol"],
+[{"type": "cell", "roll": {"min": 8044, "max": 8343}},"Myconid"],
+[{"type": "cell", "roll": {"min": 8344, "max": 8893}},"Orc"],
+[{"type": "cell", "roll": {"min": 8894, "max": 8898}},"Owlin"],
+[{"type": "cell", "roll": {"min": 8899, "max": 8899}},"Ash Para-genasi"],
+[{"type": "cell", "roll": {"min": 8900, "max": 8900}},"Dust Para-genasi"],
+[{"type": "cell", "roll": {"min": 8901, "max": 8901}},"Ice Para-genasi"],
+[{"type": "cell", "roll": {"min": 8902, "max": 8902}},"Lightning Para-genasi"],
+[{"type": "cell", "roll": {"min": 8903, "max": 8903}},"Magma Para-genasi"],
+[{"type": "cell", "roll": {"min": 8904, "max": 8904}},"Mineral Para-genasi"],
+[{"type": "cell", "roll": {"min": 8905, "max": 8905}},"Ooze Para-genasi"],
+[{"type": "cell", "roll": {"min": 8906, "max": 8906}},"Radiance Para-genasi"],
+[{"type": "cell", "roll": {"min": 8907, "max": 8907}},"Salt Para-genasi"],
+[{"type": "cell", "roll": {"min": 8908, "max": 8908}},"Smoke Para-genasi"],
+[{"type": "cell", "roll": {"min": 8909, "max": 8909}},"Steam Para-genasi"],
+[{"type": "cell", "roll": {"min": 8910, "max": 8910}},"Vacuum Para-genasi"],
+[{"type": "cell", "roll": {"min": 8911, "max": 8920}},"Plasmoid"],
+[{"type": "cell", "roll": {"min": 8921, "max": 9015}},"Satyr"],
+[{"type": "cell", "roll": {"min": 9016, "max": 9016}},"Shadar-blaidd"],
+[{"type": "cell", "roll": {"min": 9017, "max": 9041}},"Beasthide Shifter"],
+[{"type": "cell", "roll": {"min": 9042, "max": 9066}},"Longtooth Shifter"],
+[{"type": "cell", "roll": {"min": 9067, "max": 9091}},"Swiftstride Shifter"],
+[{"type": "cell", "roll": {"min": 9092, "max": 9116}},"Wildhunt Shifter"],
+[{"type": "cell", "roll": {"min": 9117, "max": 9196}},"Skaven"],
+[{"type": "cell", "roll": {"min": 9197, "max": 9311}},"Tabaxi"],
+[{"type": "cell", "roll": {"min": 9312, "max": 9314}},"Thri-kreen"],
+[{"type": "cell", "roll": {"min": 9315, "max": 9364}},"Tribal Thri-kreen"],
+[{"type": "cell", "roll": {"min": 9365, "max": 9368}},"Achaierai Tiefling"],
+[{"type": "cell", "roll": {"min": 9369, "max": 9388}},"Asmodeus Tiefling"],
+[{"type": "cell", "roll": {"min": 9389, "max": 9408}},"Baalzebul Tiefling"],
+[{"type": "cell", "roll": {"min": 9409, "max": 9413}},"Barghest Tiefling"],
+[{"type": "cell", "roll": {"min": 9414, "max": 9423}},"Demodand Tiefling"],
+[{"type": "cell", "roll": {"min": 9424, "max": 9523}},"Demon Tiefling"],
+[{"type": "cell", "roll": {"min": 9524, "max": 9543}},"Dispater Tiefling"],
+[{"type": "cell", "roll": {"min": 9544, "max": 9563}},"Fierna Tiefling"],
+[{"type": "cell", "roll": {"min": 9564, "max": 9583}},"Glasya Tiefling"],
+[{"type": "cell", "roll": {"min": 9584, "max": 9587}},"Howler Tiefling"],
+[{"type": "cell", "roll": {"min": 9588, "max": 9607}},"Levistus Tiefling"],
+[{"type": "cell", "roll": {"min": 9608, "max": 9627}},"Mammon Tiefling"],
+[{"type": "cell", "roll": {"min": 9628, "max": 9647}},"Mephistopheles Tiefling"],
+[{"type": "cell", "roll": {"min": 9648, "max": 9654}},"Scourge Tiefling"],
+[{"type": "cell", "roll": {"min": 9655, "max": 9664}},"Yugoloth Tiefling"],
+[{"type": "cell", "roll": {"min": 9665, "max": 9684}},"Zariel Tiefling"],
+[{"type": "cell", "roll": {"min": 9685, "max": 9748}},"Tortle"],
+[{"type": "cell", "roll": {"min": 9749, "max": 9873}},"Triton"],
+[{"type": "cell", "roll": {"min": 9874, "max": 9933}},"Troglodyte"],
+[{"type": "cell", "roll": {"min": 9934, "max": 9936}},"Verdan"],
+[{"type": "cell", "roll": {"min": 9937, "max": 9996}},"Yuan-ti Pureblood"],
+[{"type": "cell", "roll": {"min": 9997, "max": 10000}},"Wendigo"]
           ]
         }
       ],
@@ -14558,6 +15596,73 @@
       }
     },
     {
+      "name": "Snilloc's Snowball Swarm",
+      "source": "COOMS",
+      "level": 2,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a piece of ice or a small white rock chip"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {@dice 2d4} cold damage and is blinded by the snow battering its face. On a success, a creature takes half damage and is not blinded. A creature blinded by the snow may use a bonus action to wipe it away, ending the effect on themselves.",
+        "On top of this, until the start of your next turn when it melts, a mound of snow litters the floor underneath the area. When a Large or smaller creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature's walking speed is reduced to 0 for the duration of that turn as its legs get stuck in the magical snow."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d4} for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Speed Slash",
       "source": "COOMS",
       "level": 3,
@@ -14588,7 +15693,7 @@
         }
       ],
       "entries": [
-        "Holding out your weapon, you give yourself a burst of speed before your enemies can react. Choose an unoccupied space within range. You may instantly move to that space while making as many attacks as you can with a weapon in a given turn on every enemy in a line to that space."
+        "Holding out your weapon, you give yourself a burst of speed before your enemies can react. Choose an unoccupied space within range. You may instantly move to that space while making as many attacks as you can with a weapon in a given Attack action on every enemy in a line to that space."
       ],
       "entriesHigherLevel": [
         {
@@ -14601,14 +15706,6 @@
       ],
       "classes": {
         "fromClassList": [
-          {
-            "name": "Artificer",
-            "source": "TCE"
-          },
-          {
-            "name": "Artificer",
-            "source": "THICC"
-          },
           {
             "name": "Ranger",
             "source": "PHB"
@@ -15216,7 +16313,7 @@
         }
       ],
       "entries": [
-        "You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to ten creatures within range. You may make a number of melee attacks against them equal to the number of times you can attack with a weapon in a given turn.",
+        "You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to ten creatures within range. You may make a number of melee attacks against them equal to the number of times you can attack with a weapon in a given Attack action.",
         "You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
       ],
       "entriesHigherLevel": [
@@ -15595,6 +16692,67 @@
         ]
       }
     },
+                    {
+      "name": "Temporal Shunt",
+      "source": "COOMS",
+      "level": 5,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction",
+          "condition": "taken when a creature you can see makes an attack roll or starts to cast a spell"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You target the triggering creature or a creature affected by the triggering action, which must succeed on a Charisma saving throw (it can choose to fail) or vanish, being thrown to another point in time and causing the attack or spell to be delayed. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember you casting the spell or being affected by it. If the target that reappears is the triggering creature, it must make an Intelligence saving throw or it takes the triggering action towards the space(s) that it intended to target before it was shunted."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. All targets must be within 30 feet of each other."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
     {
       "name": "Thaumaturgy",
       "source": "COOMS",
@@ -15874,6 +17032,62 @@
               "shortName": "Zeal (PSA)",
               "source": "PSA"
             }
+          }
+        ]
+      }
+    },
+            {
+      "name": "Time Ravage",
+      "source": "COOMS",
+      "level": 9,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "an hourglass filled with diamond dust worth 5,000 gp, which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You target a creature you can see within range, putting its physical form through the devastation of rapid aging. The target must make a Constitution saving throw, taking {@dice 10d12} necrotic damage on a failed save, or half as much damage on a successful one. If the save fails, the target also ages to the point where it has only 30 days left before it dies of old age. In this aged state, the target has disadvantage on attack rolls, ability checks, and saving throws, and its walking speed is halved. Only the wish spell or the greater restoration cast with a 9th-level spell slot can end these effects and restore the target to its previous age."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -17501,6 +18715,93 @@
           },
           {
             "name": "Paladin",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+                {
+      "name": "Wristpocket",
+      "source": "COOMS",
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+            }
+        }
+      ],
+      "meta": {
+            "ritual": true
+      },
+      "entries": [
+        "You flick your wrist, causing one object in your hand to vanish. The object, which only you can be holding and can weigh no more than 5 pounds, is transported to an extradimensional space, where it remains for the duration.",
+        "Until the spell ends, you can use your action to summon the object to your free hand, and you can use your action to return the object to the extradimensional space. An object still in the pocket plane when the spell ends appears in your space, at your feet.",
+        "You may have no more than two instances of this spell active at a time. Any more castings of this spell removes the oldest casting that is still active. The spell ends early if you are knocked unconscious."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell with a level of 4th level or higher, you can increase the amount of pounds the object can weigh by 5 pounds for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+                    {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+                    {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
             "source": "THICC"
           }
         ]
