@@ -146,7 +146,7 @@
 			"rarity": "none",
 			"weight": 3,
 			"value": 700,
-			"weaponCategory": "simple",
+			"weaponCategory": "martial",
 			"property": [
 				"F",
 				"L"
@@ -2165,7 +2165,7 @@
 			"rarity": "none",
 			"weight": 0.60,
 			"value": 300,
-			"weaponCategory": "simple",
+			"weaponCategory": "martial",
 			"property": [
 				"F",
 				"L",
@@ -2636,6 +2636,29 @@
 			"weapon": true
 		},
 		{
+			"name": "Mancatcher",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 8,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"CATCH",
+				"H",
+				"R",
+				"2H",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dmg2": "0",
+			"mancatcher": true,
+			"weapon": true
+		},
+		{
 			"name": "Mason's Tools",
 			"source": "OWL",
 			"page": 1,
@@ -3036,6 +3059,29 @@
 			"dmg1": "1d12",
 			"dmgType": "P",
 			"pike": true,
+			"weapon": true
+		},
+		{
+			"name": "Pincher Staff",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 20,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"CATCH",
+				"H",
+				"R",
+				"2H",
+				"S"
+			],
+			"dmg1": "2d2",
+			"dmgType": "P",
+			"dmg2": "0",
+			"pincher staff": true,
 			"weapon": true
 		},
 		{
@@ -4697,6 +4743,20 @@
 				}
 			],
 			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)"
+		},
+		{
+			"abbreviation": "CATCH",
+			"source": "OWL",
+			"page": 7,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Catching",
+					"entries": [
+						"A Medium or smaller creature hit by a catching weapon that deals no damage is grappled by you until it is freed or until you step out of the weapon's range to the target. A catching weapon has no effect on creatures that are formless, or creatures that are Large or larger. While grappled in this way, you are not able to improve your stance on the target, and you are not able to use the weapon to attack any other target. The trapped creature can be freed by impairing your stance, disarming you, incapacitating you, knocking you prone, or by having the trapped creature no longer within range of the weapon to you."
+					]
+				}
+			]
 		},
 		{
 			"abbreviation": "CLOTH",
