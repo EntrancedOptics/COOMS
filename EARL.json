@@ -5847,12 +5847,6 @@
 				"baseWeight": 90,
 				"weightMod": "1d4"
 			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 1
-				}
-			],
 			"additionalSpells": [
 				{
 					"known": {
@@ -5901,18 +5895,8 @@
 					"entries": [
 						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 					]
-				},
-				{
-					"name": "Language",
-					"entries": [
-						"You can understand and speak {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
-					],
-					"type": "entries"
 				}
 			],
-			"overwrite": {
-				"languageProficiencies": true
-			},
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -6236,7 +6220,7 @@
 					"type": "entries",
 					"name": "Blessing of the Moon Weaver",
 					"entries": [
-						"You know the {@spell light|phb} cantrip. When you reach 3rd level, you can cast the {@spell sleep|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells."
+						"You know the {@spell light|phb} cantrip. When you reach 3rd level, you can cast the {@spell sleep|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			],
