@@ -713,6 +713,44 @@
 			]
 		},
 		{
+			"name": "Elemental Adept",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"prerequisite":[
+				{
+					"other":"The ability to cast at least one spell that deals damage of your chosen type."
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
+						"Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, if you roll the maximum face on a die, you can roll that die one additional time and add that to the damage total.",
+						"You can select this feat multiple times. Each time you do so, you must choose a different damage type."
+					]
+				}
+			]
+		},
+		{
+			"name": "Elemental Affinity",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"prerequisite":[
+				{
+					"other":"The ability to cast at least one spell that deals damage of your chosen type."
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
+						"You gain resistance to the chosen damage type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can reroll any 1s, but only once for every 1 you roll initially.",
+						"You can select this feat multiple times. Each time you do so, you must choose a different damage type."
+					]
+				}
+			]
+		},
+		{
 			"name": "Empathic",
 			"source": "EntrancedFeats",
 			"page": 7,
