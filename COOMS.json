@@ -402,16 +402,16 @@
         }
       ],
       "damageInflict": [
-        "Psychic"
+        "psychic"
       ],
       "conditionInflict": [
-        "Frenzy"
+        "frenzy"
       ],
       "spellAttack": [
         "R"
       ],
       "savingThrow": [
-        "Wisdom"
+        "wisdom"
       ],
       "areaTags": [
         "ST"
@@ -1347,6 +1347,8 @@
         "If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it.",
         "If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw, it simply withers and dies."
       ],
+      "damageInflict": [ "necrotic" ],
+      "savingThrow": [ "constitution" ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
@@ -1356,7 +1358,7 @@
           "type": "entries"
         }
       ],
-      "areaTags": [ "MT" ],
+      "areaTags": [ "ST" ],
       "classes": {
         "fromClassList": [
           {
@@ -2941,6 +2943,9 @@
         "The creature can also be broken free from the ice by taking 30 cumulative fire damage from the point at which they were first encased, at which point the ice around the creature melts.",
         "A creature killed by this spell becomes a frozen statue until it thaws."
       ],
+      "damageInflict": [ "cold" ],
+      "savingThrow": [ "constitution" ],
+      "areaTags": [ "N" ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
@@ -5820,6 +5825,8 @@
         "Any creature that starts its turn within 5 feet of the dust devil or enters its cube for the first time on a turn must make a Strength saving throw. On a failed save, the creature takes {@damage 1d8} bludgeoning damage and is pushed 10 feet away from the dust devil. On a successful save, the creature takes half as much damage and isn't pushed. The dust devil's cube counts as difficult terrain.",
         "As a bonus action, you can move the dust devil up to 30 feet in any direction. If the dust devil moves over sand, dust, loose dirt, or light gravel, it sucks up the material and forms a 10-foot-radius cloud of debris around itself that lasts until the start of your next turn. The cloud heavily obscures its area."
       ],
+      "damageInflict": [ "bludgeoning" ],
+      "savingThrow": [ "strength" ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
@@ -7331,20 +7338,20 @@
         }
       ],
       "damageInflict": [
-        "Acid",
-        "Cold",
-        "Fire",
-        "Lightning",
-        "Thunder"
+        "acid",
+        "cold",
+        "fire",
+        "lightning",
+        "thunder"
       ],
       "spellAttack": [
         "R"
       ],
       "savingThrow": [
-        "Dexterity"
+        "dexterity"
       ],
       "areaTags": [
-        "ST"
+        "S"
       ],
       "classes": {
         "fromClassList": [
@@ -7432,6 +7439,8 @@
         "Until the spell ends, you can use a bonus action to have the vine strike a new target, letting go of any target it is currently holding onto, if any.",
         "While the vine is active, it occupies its space but creatures can pass through its space as if it were difficult terrain."
       ],
+      "damageInflict": [ "piercing" ],
+      "savingThrow": [ "strength" ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
@@ -7441,7 +7450,7 @@
           "type": "entries"
         }
       ],
-      "areaTags": [ "MT" ],
+      "areaTags": [ "ST" ],
       "classes": {
         "fromClassList": [
           {
@@ -8650,6 +8659,12 @@
         "Hailstones cover the storm's area, making it difficult terrain. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. A creature takes {@dice 2d8} bludgeoning damage and {@dice 4d6} cold damage on a failed save, or half as much damage on a successful one.",
         "As a bonus action on your turn, you may choose to move the storm 20 feet in any direction."
       ],
+      "damageInflict": [
+      "cold",
+      "bludgeoning"
+      ],
+      "savingThrow": [ "dexterity" ],
+      "areaTags": [ "Y" ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
@@ -14733,6 +14748,73 @@
       }
     },
     {
+      "name": "Rime's Binding Ice",
+      "source": "COOMS",
+      "level": 3,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "s": true,
+        "m": "a vial of meltwater"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A burst of cold energy emanates from you in a 30-foot cone. Each creature in that area must make a Constitution saving throw. On a failed save, a creature takes {@dice 5d8} cold damage and is restrained by ice formations for 1 minute. On a successful save, a creature takes half as much damage and isn't restrained by ice.",
+        "Any creature within range of a creature frozen by this spell, including itself, can use an action to attempt break away the ice, making an Athletics check against your Spell Save DC. On a successful check, the creature is broken free.",
+        "The creature can also be broken free of the ice formations by taking 15 cumulative fire damage from the point at which they were first encased, at which point the ice around the creature melts."
+      ],
+      "damageInflict": [ "cold" ],
+      "savingThrow": [ "constitution" ],
+      "areaTags": [ "N" ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, increase the cold damage by {@dice 1d8} for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "damageInflict": [ "cold" ],
+      "savingThrow": [ "constitution" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Rusting Grasp",
       "source": "COOMS",
       "level": 3,
@@ -15632,6 +15714,9 @@
         "A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {@dice 2d4} cold damage and is blinded by the snow battering its face. On a success, a creature takes half damage and is not blinded. A creature blinded by the snow may use a bonus action to wipe it away, ending the effect on themselves.",
         "On top of this, until the start of your next turn when it melts, a mound of snow litters the floor underneath the area. When a Large or smaller creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature's walking speed is reduced to 0 for the duration of that turn as its legs get stuck in the magical snow."
       ],
+      "damageInflict": [ "cold" ],
+      "savingThrow": [ "dexterity" ],
+      "areaTags": [ "S" ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
@@ -15794,6 +15879,11 @@
         "While the weapon is active, it occupies its space but creatures can pass through its space. The first time a creature enters the weapon's space on a turn or if it starts its turn there, the weapon attacks them.",
         "The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon."
       ],
+      "damageInflict": [
+        "radiant",
+        "force",
+        "necrotic"
+      ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
@@ -15803,7 +15893,7 @@
           "type": "entries"
         }
       ],
-      "areaTags": [ "MT" ],
+      "areaTags": [ "ST" ],
       "classes": {
         "fromClassList": [
           {

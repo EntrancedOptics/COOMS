@@ -52,7 +52,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"other": true,
+					"aarakocra": true,
 					"auran": true
 				}
 			],
@@ -104,6 +104,12 @@
 					"type": "entries"
 				}
 			],
+			"heightAndWeight": {
+				"baseHeight": 52,
+				"heightMod": "2d8",
+				"baseWeight": 40,
+				"weightMod": "1d6"
+			},
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
@@ -237,141 +243,6 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Astral Elf",
-			"source": "EARL",
-			"creatureTypes": [
-				"humanoid"
-			],
-			"creatureTypeTags": [
-				"elf"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"ability": [
-				{
-					"dex": 2,
-					"wis": 1
-				}
-			],
-			"heightAndWeight": {
-				"baseHeight": 53,
-				"heightMod": "2d6",
-				"baseWeight": 75,
-				"weightMod": "1d6"
-			},
-			"age": {
-				"max": 750
-			},
-			"darkvision": 60,
-			"traitTags": [
-				"Darkvision",
-				"Improved Resting",
-				"Spellcasting",
-				"Tool Proficiency",
-				"Weapon Proficiency"
-			],
-			"skillProficiencies": [
-				{
-					"perception": true
-				}
-			],
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 1
-				}
-			],
-			"additionalSpells": [
-				{
-					"known": {
-						"1": [
-							"dancing lights#c"
-						]
-					},
-					"ability": "con"
-				},
-				{
-					"known": {
-						"1": [
-							"light#c"
-						]
-					},
-					"ability": "con"
-				},
-				{
-					"known": {
-						"1": [
-							"sacred flame#c"
-						]
-					},
-					"ability": "con"
-				}
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Creature Type",
-					"entries": [
-						"You are a Humanoid. You are also considered an elf for any prerequisite or effect that requires you to be an elf."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Astral Fire",
-					"entries": [
-						"You know one of the following cantrips of your choice: {@spell dancing lights|phb}, {@spell light|phb}, or {@spell sacred flame|phb}. Constitution is your spellcasting ability for it."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Fey Ancestry",
-					"entries": [
-						"You have advantage on saving throws you make to avoid or end the {@condition charmed|phb} condition on yourself."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Keen Senses",
-					"entries": [
-						"You have proficiency in the {@skill Perception|phb} skill."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Starlight Step",
-					"entries": [
-						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Astral Trance",
-					"entries": [
-						"You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.",
-						"Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the {@book Player's Handbook|PHB}. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest."
-					]
-				},
-				{
-					"name": "Language",
-					"entries": [
-						"You can understand and speak {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
-					],
-					"type": "entries"
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
 			"name": "Autognome",
 			"source": "EARL",
 			"creatureTypes": [
@@ -380,32 +251,37 @@
 			"size": [
 				"S"
 			],
-			"speed": 30,
+			"speed": 25,
 			"ability": [
 				{
-					"con": 2,
-					"int": 1
+					"con": 1
 				}
 			],
+			"heightAndWeight": {
+				"baseHeight": 35,
+				"heightMod": "2d4",
+				"baseWeight": 175
+			},
+			"age": {
+				"max": 500
+			},
 			"traitTags": [
 				"Improved Resting",
-				"Natural Armor"
-			],
-			"toolProficiencies": [
-				{
-					"any": 2
-				}
+				"Natural Armor",
+				"Tool Proficiency"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
-					"anyStandard": 1
+					"gnomish": true
 				}
 			],
-			"resist": [
+			"immune": [
 				"poison"
 			],
 			"conditionImmune": [
+				"exhaustion",
+				"poisoned",
 				"disease"
 			],
 			"entries": [
@@ -418,6 +294,34 @@
 				},
 				{
 					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Like gnomes, autognomes can live for centuries, typically up to 500 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Autognomes are typically Lawful Neutral, able to carry out the orders of their creator exceptionally well as they were built from the minds of geniuses."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Autognomes bear a resemblance to its creator, sharing their height, but often being many times their creator's weight. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Armored Casing",
 					"entries": [
 						"You are encased in thin metal or some other durable material. While you aren't wearing armor, your base Armor Class is 13 + your Dexterity modifier."
@@ -425,24 +329,20 @@
 				},
 				{
 					"type": "entries",
-					"name": "Built for Success",
-					"entries": [
-						"You can add a {@dice d4} to one attack roll, ability check, or saving throw you make, and you can do so after seeing the {@dice d20} roll but before the effects of the roll are resolved. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Healing Machine",
-					"entries": [
-						"If the {@spell mending|phb} spell is cast on you, you can spend a Hit Die, roll it, and regain a number of hit points equal to the roll plus your Constitution modifier (minimum of 1 hit point).",
-						"In addition, your creator designed you to benefit from several spells that preserve life but that normally don't affect Constructs: {@spell cure wounds|phb}, {@spell healing word|phb}, {@spell mass cure wounds|phb}, {@spell mass healing word|phb}, and {@spell spare the dying|phb}."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Mechanical Nature",
 					"entries": [
-						"You have resistance to poison damage and immunity to disease, and you have advantage on saving throws against being {@condition paralyzed|phb} or {@condition poisoned|phb}. You don't need to eat, drink, or breathe."
+						"You are constructed to fulfill a purpose, and as such have special properties related to being a construct:",
+						{
+							"type": "list",
+							"items": [
+								"You are immune to Poison damage",
+								"You are immune to being Asleep, Diseased, {@condition Exhaustion|phb|Exhausted}, and {@condition Poisoned|phb}.",
+								"You don't have to and cannot eat or drink, meaning you can't gain the benefits of potions or food.",
+								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas.",
+								"Any missing limbs can be reattached via the {@spell Mending|phb} or {@spell Repair|cooms} spells following the rules and stipulations of the given spells.",
+								"You may not expend hit dice to heal on a short rest"
+							]
+						}
 					]
 				},
 				{
@@ -453,16 +353,9 @@
 					]
 				},
 				{
-					"type": "entries",
-					"name": "Specialized Design",
-					"entries": [
-						"You gain two tool proficiencies of your choice, selected from the {@book Player's Handbook|PHB}."
-					]
-				},
-				{
 					"name": "Language",
 					"entries": [
-						"You can understand and speak {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+						"You can understand and speak {@language Common|phb} and {@language Gnomish|phb}"
 					],
 					"type": "entries"
 				}
@@ -606,7 +499,7 @@
 				{
 					"name": "Scrupulous",
 					"entries": [
-						"Axani have an intense eye for detail, able to pick out flaws in anything if given the opportunity. They are also very thorough in arguments, leaving no room for misinterpretation. You gain proficiency in either {@skill Investigation} or {@skill Persuasion}."
+						"Axani have an intense eye for detail, able to pick out flaws in anything if given the opportunity. They are also very thorough in arguments, leaving no room for misinterpretation. You gain proficiency in either {@skill Investigation|phb} or {@skill Persuasion|phb}."
 					],
 					"type": "entries"
 				},
@@ -621,20 +514,20 @@
 					"type": "entries",
 					"name": "Establish Order",
 					"entries": [
-						"You know the {@spell mending} cantrip. Starting at 3rd level, you can cast the {@spell command} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell calm emotions} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell mending|phb} cantrip. Starting at 3rd level, you can cast the {@spell command|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell calm emotions|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
 				{
 					"name": "Language",
 					"entries": [
-						"You can understand and speak {@language Common} and Modron."
+						"You can understand and speak {@language Common|phb} and {@language Modron|mm}."
 					],
 					"type": "entries"
 				}
 			],
-			"hasFluff": false,
-			"hasFluffImages": false
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Bugbear",
@@ -722,7 +615,7 @@
 					"type": "entries",
 					"name": "Sneaky",
 					"entries": [
-						"You have expertise in the {@skill Stealth} skill alongside proficiency in either the {@skill Animal Handling}, {@skill Athletics}, {@skill Intimidation}, or {@skill Survival} skill."
+						"You have expertise in the {@skill Stealth|phb} skill alongside proficiency in either the {@skill Animal Handling|phb}, {@skill Athletics|phb}, {@skill Intimidation|phb}, or {@skill Survival|phb} skill."
 					]
 				},
 				{
@@ -756,7 +649,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Goblin."
+						"You can understand and speak {@language Common|phb} and {@language Goblin|phb}."
 					],
 					"type": "entries"
 				}
@@ -766,7 +659,607 @@
 				"heightMod": "4d4",
 				"baseWeight": 200,
 				"weightMod": "2d6"
-			}
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Cansin",
+			"source": "EARL",
+			"creatureTypes": [
+				"aberration"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"min": 20,
+				"max": 120
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Spellcasting",
+				"Damage Resistance",
+				"Uncommon Race"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"perception"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"slaad": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Cansin mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Cansin are planetouched by the Chaotic planes, tending towards Chaotic alignments; but their excessive unpredictability makes neutral and even lawful Cansin more common than good Tieflings, evil Aasimar, and especially chaotic Axani."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"Cansin generally appear disheveled and disorganized, with mismatched clothing, messy hair, and any accessories worn in strange ways or unnatural angles. Cansin typically manifest their heritage through their eyes randomly changing color (not necessarily in sync), slightly irregular features, or even an aura of randomness that causes strange occurrances near them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Cansin are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spontaneous Creativity",
+					"entries": [
+						"Cansin are notoriously excellent bullshitters, able to spin a story off of nothing by picking up random details about the world around them. You gain proficiency in either {@skill Deception|phb} or {@skill Perception|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chaotic Resistance",
+					"entries": [
+						"Whenever you complete a long rest, roll a {@dice d6}. Depending on the result, you gain one or more resistances to damage types as described in the Chaotic Resistances table below:"
+					]
+				},
+				{
+							"type": "table",
+							"caption": "Chaotic Resistances",
+							"colLabels": [
+								"d6",
+								"Damage Resistance"
+							],
+							"colStyles": [
+								"col-1",
+								"col-4"
+							],
+							"rows": [
+								[
+									"1",
+									"Acid"
+								],
+								[
+									"2",
+									"Cold"
+								],
+								[
+									"3",
+									"Fire"
+								],
+								[
+									"4",
+									"Lightning"
+								],
+								[
+									"5",
+									"Thunder"
+								],
+								[
+									"6",
+									"Roll of this table twice, gaining resistance to all damage types rolled, ignoring any duplicates."
+								]
+							]
+				},
+				{
+					"type": "entries",
+					"name": "Wild Innate Spellcasting",
+					"entries": [
+						"Each time you finish a long rest, you gain the ability to cast cantrips and spells randomly determined by rolling a {@dice d20} on the Wild Innate Spellcasting table below. Starting at 1st level, you get a new cantrip every long rest, which replaces the old one you gained from this feature. If you already know the cantrip that you roll, you may choose to reroll a new cantrip. Starting at 3rd level, you can roll to gain a 1st level spell with this trait from the table below, being able to cast it once per short or long rest for free without requiring a material component. Starting 5th level, you can also roll to gain a 2nd level spell with this trait from the table below, being able to cast it once per long rest for free without requiring a material component. When you roll for any of those spell levels, you replace the spell you gained from this feature the day prior with the new one rolled. If you roll the same spell or cantrip you gained at the end of your previous long rest, roll again until you get a different result. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					]
+				},
+				{
+							"type": "table",
+							"caption": "Wild Innate Spellcasting",
+							"colLabels": [
+								"d20",
+								"Cantrip",
+								"1st Level",
+								"2nd Level"
+							],
+							"colStyles": [
+								"col-1",
+								"col-4",
+								"col-4",
+								"col-4"
+							],
+							"rows": [
+								[
+									"1",
+									"{@spell dancing lights|phb}",
+									"{@spell absorb elements|xge}",
+									"{@spell Aganazzar's scorcher|cooms}"
+								],
+								[
+									"2",
+									"{@spell eldritch blast|phb}",
+									"{@spell burning hands|phb}",
+									"{@spell alter self|cooms}"
+								],
+								[
+									"3",
+									"{@spell frostbite|xge}",
+									"{@spell chaos bolt|xge}",
+									"{@spell blur|phb}"
+								],
+								[
+									"4",
+									"{@spell grin|cooms}",
+									"{@spell charm person|phb}",
+									"{@spell cloud of daggers|cooms}"
+								],
+								[
+									"5",
+									"{@spell guidance|cooms}",
+									"{@spell clean/soil|cooms}",
+									"{@spell crown of madness|phb}"
+								],
+								[
+									"6",
+									"{@spell infestation|xge}",
+									"{@spell color spray|phb}",
+									"{@spell darkness|phb}"
+								],
+								[
+									"7",
+									"{@spell message|cooms}",
+									"{@spell conjure swarm|cooms}",
+									"{@spell discharge|cooms}"
+								],
+								[
+									"8",
+									"{@spell minor illusion|phb}",
+									"{@spell disguise self|phb}",
+									"{@spell invisibility|phb}"
+								],
+								[
+									"9",
+									"{@spell palm|cooms}",
+									"{@spell displacement|cooms}",
+									"{@spell knock|phb}"
+								],
+								[
+									"10",
+									"{@spell poison spray|phb}",
+									"{@spell dissonant whispers|phb}",
+									"{@spell levitate|phb}"
+								],
+								[
+									"11",
+									"{@spell prestidigitation|cooms}",
+									"{@spell grease|cooms}",
+									"{@spell Melf's acid arrow|phb}"
+								],
+								[
+									"12",
+									"{@spell primal savagery|xge}",
+									"{@spell ice knife|xge}",
+									"{@spell mirror image|phb}"
+								],
+								[
+									"13",
+									"{@spell produce flame|phb}",
+									"{@spell ray of sickness|phb}",
+									"{@spell misty step|phb}"
+								],
+								[
+									"14",
+									"{@spell resistance|cooms}",
+									"{@spell silent image|phb}",
+									"{@spell Nathair's mischief|ftd}"
+								],
+								[
+									"15",
+									"{@spell shocking grasp|phb}",
+									"{@spell sleep|phb}",
+									"{@spell pyrotechnics|xge}"
+								],
+								[
+									"16",
+									"{@spell spare the dying|phb}",
+									"{@spell sudden awakening|cooms}",
+									"{@spell quill quilt|cooms}"
+								],
+								[
+									"17",
+									"{@spell thaumaturgy|cooms}",
+									"{@spell Tasha's caustic brew|tce}",
+									"{@spell shatter|phb}"
+								],
+								[
+									"18",
+									"{@spell thunderclap|xge}",
+									"{@spell Tasha's hideous laughter|phb}",
+									"{@spell Snilloc's snowball swarm|xge}"
+								],
+								[
+									"19",
+									"{@spell true strike|cooms}",
+									"{@spell thunderwave|phb}",
+									"{@spell spider climb|phb}"
+								],
+								[
+									"20",
+									"{@spell vicious mockery|phb}",
+									"{@spell witch bolt|phb}",
+									"{@spell web|phb}"
+								]
+							]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an aberration."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Slaad|mm}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Centaur",
+			"source": "EARL",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 40,
+			"ability": [
+				{
+					"str": 2,
+					"wis": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 72,
+				"heightMod": "1d10",
+				"baseWeight": 600,
+				"weightMod": "2d12"
+			},
+			"age": {
+				"min": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"medicine",
+							"nature",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Sylvan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Centaurs mature and age at about the same rate as humans."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Centaurs are inclined toward neutrality. Lagonna centaurs tend to be more lawful, while Pheres centaurs are more often chaotic."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Centaurs stand between 6 and 7 feet tall, with their equine bodies reaching about 4 feet at the withers. Pheres centaurs tend to be slightly larger than Lagonna centaurs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"Your creature type is fey, rather than humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Charge",
+					"entries": [
+						"If you move at least 30 feet straight toward a target and then hit it with a melee weapon attack on the same turn, you can immediately follow that attack with a bonus action, making one attack against the target with your hooves."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hooves",
+					"entries": [
+						"Your hooves are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Equine Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push or drag.",
+						"In addition, any climb that requires hands and feet is especially difficult for you because of your equine legs. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Survivor",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: {@skill Animal Handling|phb}, {@skill Medicine|phb}, {@skill Nature|phb}, or {@skill Survival|phb}."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Sylvan|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Cervan",
+			"source": "EARL",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"age": {
+				"min": 12,
+				"max": 150
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Language Proficiency",
+				"Skill Proficiency",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Cervans reach maturity around 12 years. They live long lives, between 100 and 150 years, something they attribute as the blessing of Eldath for their vegan way of life."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Cervans live long lives of peace in the forests they protect. Their first strategy is to befriend any nearby settlements, and normally stay near water, which they keep pure. They tend to enrich the land they settle on as much as it enriches them, leading them towards the Lawful Good alignment."
+					]
+				},
+				{
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Changeling",
+			"source": "EARL",
+			"creatureTypes": [
+				"humanoid"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 61,
+				"heightMod": "2d4",
+				"baseWeight": 115,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"min": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Language Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"insight",
+							"intimidation",
+							"persuasion"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Changelings mature slightly faster than humans but share a similar lifespan-typically a century or less. While a changeling can transform to conceal their age, the effects of aging affect them similarly to humans."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Changelings tend toward pragmatic neutrality, and few changelings embrace evil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shapechanger",
+					"entries": [
+						"As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another race, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait.",
+						"You stay in the new form until you use an action to revert to your true form or until you die."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Changeling Instincts",
+					"entries": [
+						"You have proficiency with two of the following skills of your choice: {@skill Deception|phb}, {@skill Insight|phb}, {@skill Intimidation|phb}, or {@skill Persuasion|phb}."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and two other languages of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Dragonborn",
@@ -1117,6 +1610,221 @@
 				"heightMod": "2d8",
 				"baseWeight": 100,
 				"weightMod": "2d6"
+			}
+		},
+		{
+			"name": "Elf",
+			"source": "EARL",
+			"srd": true,
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"age": {
+				"mature": 100,
+				"max": 750
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Improved Resting"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/elf.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception|phb} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Elvish|phb}. {@language Elvish|phb} is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Erlidi",
+			"source": "EARL",
+			"page": 27,
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"wis": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Darkvision",
+				"Uncommon Race",
+				"Sunlight Sensitivity",
+				"Language Proficiency",
+				"Natural Weapon",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Erlidi mature at the same rate as a human, but due to their mixed blood, are considered lucky to live half as long."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Erlidi often feel at home following orders, and are as loyal as any dog, leading them tend towards Lawful alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Erlidi vary wildly in size, shape, and appearance due to their bastardized forms, being anywhere between 2 to 7 feet tall. Your size is Small or Medium, depending on your height."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodsense",
+					"entries": [
+						"If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. {@filter constructs|bestiary|type=construct}, {@filter elementals|bestiary|type=elemental}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, and {@filter undead|bestiary|type=undead} are immune to the effects of this sense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"You are proficient with your bite attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Deformity",
+					"entries": [
+						"Your deformed canid form allows you certain specialities, giving you proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Investigation|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}.",
+						"{@i Additionally, choose one of the deformities based on your canid form from the following list:}",
+						"{@b Anxious.} You get stressed easily, especially when there are loud noises or in social situations with strangers, leading you to act rashly. You may increase your Strength or Dexterity ability score by 1, but you have disadvantage on saving throws against being {@condition Frightened|phb}, including being Frenzied, such as in the case of the spell {@spell Enemies Abound|xge}.",
+						"{@b Complaisant.} You love making people happy, and being told you are wanted or loved. There is nothing better to you than following someone's orders. You may increase your Intelligence or Charisma ability score by 1, but you have disadvantage on saving throws against being Charmed, including being controlled, such as in the case of the spells {@spell Suggestion|phb} and {@spell Puppet|cooms}.",
+						"{@b Misshapen.} Your body resembles that which would normally only be the result of generations of inbreeding. Though your form is terrible for your overall health, you may find it specializes elsewhere. You may reduce your Constitution ability score by 2 to 5 points and redistribute those points as you see fit.",
+						"{@b Shadow-Dregged.} You have the slightest remnants of your Shadar-blaidd heritage. You gain 60 feet of Darkvision, but you also gain Sunlight Sensitivity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdnb.artstation.com/p/assets/images/images/018/232/621/large/stephanie-keeline-5c181a22-2a59-44c3-823a-cc5d5148f16e.jpg?1558648706"
+						}
+					}
+				]
 			}
 		},
 		{
@@ -4476,6 +5184,241 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Mechanist",
+			"source": "EARL",
+			"raceName": "Autognome",
+			"raceSource": "EARL",
+			"page": 6,
+			"ability": [
+				{
+					"int": 2
+				}
+			],
+			"toolProficiencies": [
+				{
+					"tinker's tools": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Tinker",
+					"entries": [
+						"You gain proficiency in {@item Tinker's Tools|OWL}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Self-Repairing Machine",
+					"entries": [
+						"You know the {@spell mending|phb} cantrip. When you reach 3rd level, you can cast the {@spell repair|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell lesser restoration|phb} spell once with this trait and regain the ability to do so when you finish a long rest. You may substitute {@item Tinker's Tools|OWL} as the material component for any of these spells when cast with a range of self. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Specialist",
+			"source": "EARL",
+			"raceName": "Autognome",
+			"raceSource": "EARL",
+			"page": 6,
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill"
+							]
+						}
+					],
+					"choose": [
+						{
+							"from": [
+								"anyTool"
+							]
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Specialized Design",
+					"entries": [
+						"You gain one skill proficiency and one tool proficiency of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Built for Success",
+					"entries": [
+						"You can add your Constitution modifier to one attack roll, ability check, or saving throw you make. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Grove",
+			"source": "EARL",
+			"raceName": "Cervan",
+			"raceSource": "EARL",
+			"page": 2,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"speed": 35,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"medicine",
+							"nature",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Size",
+					"entries": [
+						"Grove cervans, which are almost always female, stand between 5 and 6 feet tall, and have light builds, weighing between 130 and 180 pounds. Your size is medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Peaceful",
+					"entries": [
+						"Cervans thrive together, and like to spend their time learning useful skills for life in their woodland villages. You gain proficiency in one of the following skills of your choice: {@skill Medicine|phb}, {@skill Nature|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Prosperous Magic",
+					"entries": [
+						"You know the {@spell druidcraft|cooms} cantrip. When you reach 3rd level, you learn the {@spell purify food and drink|phb} spell and can cast it as a ritual. Additionally, you are able to cast it without spending a spell slot once per short or long rest. When you reach 5th level, you can cast the {@spell lesser restoration|phb} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Swift",
+					"entries": [
+						"Your base walking speed increases to 35 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Nimble Step",
+					"entries": [
+						"Opportunity attacks made against you are rolled with disadvantage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Healing Hands",
+					"entries": [
+						"As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pronghorn",
+			"source": "EARL",
+			"raceName": "Cervan",
+			"raceSource": "EARL",
+			"page": 2,
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"speed": 30,
+			"traitTags": [
+				"Natural Weapon",
+				"Powerful Build"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"nature",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Size",
+					"entries": [
+						"Pronghorn cervans, which are almost always male, are taller and tend toward heavier, more muscular builds, standing around 7 feet tall, and sometimes weighing over 200 pounds. Your size is medium."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Peaceful",
+					"entries": [
+						"Cervans thrive together, and like to spend their time learning useful skills for life in their woodland villages. You gain proficiency in one of the following skills of your choice: {@skill Athletics|phb}, {@skill Nature|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Providing Magic",
+					"entries": [
+						"You know the {@spell druidcraft|cooms} cantrip. When you reach 3rd level, you learn the {@spell detect poison and disease|phb} spell and can cast it as a ritual. Additionally, you are able to cast it without spending a spell slot once per short or long rest. When you reach 5th level, you can cast the {@spell locate animals or plants|phb} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Antlers",
+					"entries": [
+						"You have a set of large, strong antlers that can be used to make devastating charge attacks as a last resort for those that wish to hurt you or your kin. You are proficient with your antlers attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Piercing Charge",
+					"entries": [
+						"If you move at least 20 feet in a straight line towards an opponent, you can use a bonus action to make a special antlers attack as you charge them. If the attack hits, it deals its normal damage, and the creature must make a Strength saving throw against your Strength DC (8 + your proficiency bonus + your Strength modifier) or take an extra amount of {@dice d6} piercing damage equal to your proficiency bonus, only taking half as much on a success. If the target of your charge is Large or smaller and they fail the saving throw, you can choose to either push them 10 feet away from you as if you had shoved them twice, or you can choose to knock them prone. Once you hit with this feature, regardless of if your target succeeds or fails, you can't use this trait again until you finish a short or long rest."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Chromatic",
 			"source": "EARL",
 			"raceName": "Dragonborn",
@@ -4884,6 +5827,589 @@
 					"type": "entries"
 				}
 			]
+		},
+		{
+			"name": "Astral",
+			"source": "EARL",
+			"raceName": "Elf",
+			"raceSource": "EARL",
+			"srd": true,
+			"basicRules": true,
+			"speed": 30,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d10",
+				"baseWeight": 90,
+				"weightMod": "1d4"
+			},
+			"additionalSpells": [
+				{
+					"known": {
+						"1": [
+							"dancing lights#c"
+						]
+					},
+					"ability": "con"
+				},
+				{
+					"known": {
+						"1": [
+							"light#c"
+						]
+					},
+					"ability": "con"
+				},
+				{
+					"known": {
+						"1": [
+							"sacred flame#c"
+						]
+					},
+					"ability": "con"
+				}
+			],
+			"entries": [
+				{
+					"name": "Astral Trance",
+					"type": "entries",
+					"entries": [
+						"You don't need to sleep, and magic can't put you to sleep. You can finish a long rest in 4 hours if you spend those hours in a trancelike meditation, during which you remain conscious.",
+						"Whenever you finish this trance, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the {@book Player's Handbook|PHB}. You mystically acquire these proficiencies by drawing them from shared elven memory and the experiences of entities on the Astral Plane, and you retain them until you finish your next long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Astral Fire",
+					"entries": [
+						"You know one of the following cantrips of your choice: {@spell dancing lights|phb}, {@spell light|phb}, or {@spell sacred flame|phb}. Constitution is your spellcasting ability for it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Starlight Step",
+					"entries": [
+						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Drow",
+			"alias": [
+				"Elf (Dark)"
+			],
+			"source": "EARL",
+			"raceName": "Elf",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 53,
+				"heightMod": "2d6",
+				"baseWeight": 75,
+				"weightMod": "1d6"
+			},
+			"darkvision": 120,
+			"traitTags": [
+				"Sunlight Sensitivity"
+			],
+			"weaponProficiencies": [
+				{
+					"rapier|phb": true,
+					"shortsword|phb": true,
+					"hand crossbow|phb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"faerie fire"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"darkness"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"dancing lights#c|cooms"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to the depths of the Underdark, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"data": {
+						"overwrite": "Darkvision"
+					},
+					"type": "entries"
+				},
+				{
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Drow Magic",
+					"entries": [
+						"You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Drow Weapon Training",
+					"entries": [
+						"You have proficiency with {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Eladrin",
+			"source": "EARL",
+			"raceName": "Elf",
+			"raceSource": "EARL",
+			"creatureTypes": [
+				"fey"
+			],
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d12",
+				"baseWeight": 90,
+				"weightMod": "1d4"
+			},
+			"entries": [
+				{
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+					],
+					"type": "entries"
+				},
+				"{@i Choose your eladrin's season: autumn, winter, spring, or summer. When finishing a long rest, you can change your season. See the \"Info\" tab for more information.}",
+				{
+					"name": "Fey Step",
+					"entries": [
+						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.",
+						"When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Charisma modifier:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Autumn",
+									"entry": "Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition charmed|phb} by you for 1 minute, or until you or your companions deal any damage to it."
+								},
+								{
+									"type": "item",
+									"name": "Winter",
+									"entry": "When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition frightened|phb} of you until the end of your next turn."
+								},
+								{
+									"type": "item",
+									"name": "Spring",
+									"entry": "When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you."
+								},
+								{
+									"type": "item",
+									"name": "Summer",
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage)."
+								}
+							]
+						}
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a fey."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "High",
+			"source": "EARL",
+			"raceName": "Elf",
+			"raceSource": "EARL",
+			"srd": true,
+			"basicRules": true,
+			"speed": 30,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d10",
+				"baseWeight": 90,
+				"weightMod": "1d4"
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"anyStandard": 1
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"longsword|phb": true,
+					"shortsword|phb": true,
+					"shortbow|phb": true,
+					"longbow|phb": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": {
+							"_": [
+								{
+									"choose": "level=0|class=Wizard"
+								}
+							]
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Elf Weapon Training",
+					"entries": [
+						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cantrip",
+					"entries": [
+						"You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write one extra language of your choosing."
+					],
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"languageProficiencies": true
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Pallid",
+			"source": "EARL",
+			"raceName": "Elf",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d10",
+				"baseWeight": 90,
+				"weightMod": "1d4"
+			},
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"sleep"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"invisibility"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"1": [
+							"light#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Incisive Sense",
+					"entries": [
+						"You have advantage on Intelligence ({@skill Investigation|phb}) and Wisdom ({@skill Insight|phb}) checks."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Blessing of the Moon Weaver",
+					"entries": [
+						"You know the {@spell light|phb} cantrip. When you reach 3rd level, you can cast the {@spell sleep|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Sea",
+			"source": "EARL",
+			"raceName": "Elf",
+			"raceSource": "EARL",
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d8",
+				"baseWeight": 90,
+				"weightMod": "1d4"
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"aquan": true
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"spear|owl": true,
+					"trident|owl": true,
+					"light crossbow|owl": true,
+					"net|owl": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sea Elf Training",
+					"entries": [
+						"You have proficiency with the {@item spear|OWL}, {@item trident|OWL}, {@item light crossbow|OWL}, and {@item net|OWL}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Child of the Sea",
+					"entries": [
+						"You have a swimming speed of 30 feet, and you can breathe air and water."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Friend of the Sea",
+					"entries": [
+						"Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Extra Language",
+					"entries": [
+						"You can speak, read, and write {@language Primordial|phb|Aquan}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Shadar-kai",
+			"source": "EARL",
+			"raceName": "Elf",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d8",
+				"baseWeight": 90,
+				"weightMod": "1d4"
+			},
+			"resist": [
+				"necrotic"
+			],
+			"entries": [
+				{
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Necrotic Resistance",
+					"entries": [
+						"You have resistance to necrotic damage."
+					]
+				},
+				{
+					"name": "Blessing of the Raven Queen",
+					"entries": [
+						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.",
+						"Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Wood",
+			"source": "EARL",
+			"raceName": "Elf",
+			"raceSource": "EARL",
+			"basicRules": true,
+			"speed": 35,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d10",
+				"baseWeight": 100,
+				"weightMod": "1d4"
+			},
+			"weaponProficiencies": [
+				{
+					"longsword|owl": true,
+					"shortsword|owl": true,
+					"shortbow|owl": true,
+					"longbow|owl": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Elf Weapon Training",
+					"entries": [
+						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fleet of Foot",
+					"entries": [
+						"Your base walking speed increases to 35 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mask of the Wild",
+					"entries": [
+						"You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Air",
