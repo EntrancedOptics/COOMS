@@ -10355,6 +10355,28 @@
 					"cha": 1
 				}
 			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							],
+							"count": 3
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"name": "Human Versatility",
+					"entries": [
+						"You gain proficiency in three skills or tools of your choice."
+					],
+					"type": "entries"
+				}
+			],
 			"hasFluff": true,
 			"hasFluffImages": true
 		},
