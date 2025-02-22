@@ -92,7 +92,7 @@
 				{
 					"name": "Talons",
 					"entries": [
-						"Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the talons in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
 					],
 					"type": "entries"
 				},
@@ -1828,6 +1828,198 @@
 			}
 		},
 		{
+			"name": "Fairy",
+			"source": "EARL",
+			"ability": [
+				{
+					"wis": 2,
+					"dex": 1
+				}
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"druidcraft#c|cooms"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"faerie fire"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"enlarge/reduce"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fairy Magic",
+					"entries": [
+						"You know the {@spell druidcraft|cooms} cantrip.",
+						"Starting at 3rd level, you can cast the {@spell faerie fire|phb} spell with this trait. Starting at 5th level, you can also cast the {@spell enlarge/reduce|phb} spell with this trait. Once you cast {@spell faerie fire|phb} or {@spell enlarge/reduce|phb} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Firbolg",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"wis": 2,
+					"str": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 74,
+				"heightMod": "2d12",
+				"baseWeight": 175,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 30,
+				"max": 500
+			},
+			"traitTags": [
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"giant": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/firbolg.mp3"
+			},
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": {
+							"rest": {
+								"1": [
+									"detect magic",
+									"disguise self"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Firbolg are between 7 and 8 feet tall and weigh between 240 and 300 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Firbolg Magic",
+					"entries": [
+						"You can cast {@spell detect magic|phb} and {@spell disguise self|phb} with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of {@spell disguise self|phb}, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hidden Step",
+					"entries": [
+						"As a bonus action, you can magically turn {@condition invisible|phb} until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Speech of Beast and Leaf",
+					"entries": [
+						"You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Elvish|phb}, and {@language Giant|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Genasi",
 			"source": "EARL",
 			"page": 13,
@@ -1912,6 +2104,111 @@
 				"weightMod": "2d4"
 			}
 		},
+			{
+			"name": "Giff",
+			"source": "EARL",
+			"ability": [
+				{
+					"str": 2,
+					"int": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"traitTags": [
+				"Powerful Build"
+			],
+			"weaponProficiencies": [
+				{
+					"firearms": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Astral Spark",
+					"entries": [
+						"Your psychic connection to the Astral Plane enables you to mystically access a spark of divine power, which you can channel through your weapons. When you hit a target with a {@filter simple or martial weapon|items|source=OWL|category=basic|type=martial weapon;simple weapon}, you can cause the target to take extra force damage equal to your proficiency bonus.",
+						"You can use this trait a number of times equal to your proficiency bonus, but you can use it no more than once per turn. You regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Firearms Mastery",
+					"entries": [
+						"You have a mystical connection to firearms that traces back to the gods of the giff, who delighted in such weapons. You have proficiency with all firearms and ignore the loading property of any firearm. In addition, attacking at long range with a firearm doesn't impose disadvantage on your attack roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hippo Build",
+					"entries": [
+						"You have advantage on Strength-based ability checks and Strength saving throws. In addition, you count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Gith",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Gith reach adulthood in their late teens and live for about a century."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Gith are taller and leaner than humans, with most a slender 6 feet in height."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Gith|mm}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true
+		},
 		{
 			"name": "Gnoll",
 			"source": "EARL",
@@ -1921,6 +2218,9 @@
 			],
 			"size": [
 				"M"
+			],
+			"creatureTypes": [
+				"monstrosity"
 			],
 			"speed": 30,
 			"ability": [
@@ -1965,6 +2265,13 @@
 						"Gnolls are usually chaotic neutral or evil, though there are exceptions."
 					],
 					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					]
 				},
 				{
 					"type": "entries",
@@ -2044,6 +2351,82 @@
 				"baseWeight": 270,
 				"weightMod": "1d4"
 			}
+		},
+		{
+			"name": "Gnome",
+			"source": "EARL",
+			"srd": true,
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"ability": [
+				{
+					"int": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 35,
+				"heightMod": "2d4",
+				"baseWeight": 35
+			},
+			"age": {
+				"mature": 40,
+				"max": 500
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"gnomish": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/gnome.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Gnomish|phb}. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Goblin",
@@ -2155,7 +2538,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Goblin."
+						"You can understand and speak {@language Common|phb} and {@language Goblin|phb}."
 					]
 				}
 			],
@@ -2165,6 +2548,275 @@
 				"baseWeight": 35,
 				"weightMod": "1"
 			}
+		},
+			{
+			"name": "Goliath",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 74,
+				"heightMod": "2d10",
+				"baseWeight": 200,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Powerful Build"
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/goliath.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Natural Athlete",
+					"entries": [
+						"You have proficiency in the {@skill Athletics|phb} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Stone's Endurance",
+					"entries": [
+						"You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mountain Born",
+					"entries": [
+						"You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Giant|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Grung",
+			"source": "EARL",
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 25,
+				"climb": 25
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 1,
+				"max": 50
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"grung": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Grungs mature to adulthood in a single year, but have been known to live up to 50 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Grungs stand between 2.5 and 3.5 feet tall and average about 30 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arboreal Alertness",
+					"entries": [
+						"You have proficiency in the {@skill Perception|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poison Immunity",
+					"entries": [
+						"You're immune to poison damage and the {@condition poisoned|phb} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poisonous Skin",
+					"entries": [
+						"Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a Constitution saving throw against your Constitution DC (8 + your proficiency bonus + your Constitution modifier) or become {@condition poisoned|phb} for 1 minute. A {@condition poisoned|phb} creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"You can also apply this poison to any piercing weapon as part of an attack with that weapon, though when you hit the poison reacts differently. The target must succeed on a Constitution saving throw against your Constitution DC (8 + your proficiency bonus + your Constitution modifier) or take a number of {@dice d4} poison damage equal to your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Standing Leap",
+					"entries": [
+						"Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Water Dependency",
+					"entries": [
+						"If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of {@condition exhaustion|phb} at the end of that day. You can only recover from this {@condition exhaustion|phb} through magic or by immersing yourself in water for at least 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Grung}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hadozee",
+			"source": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dexterous Feet",
+					"entries": [
+						"As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Glide",
+					"entries": [
+						"When you fall at least 10 feet above the ground, you can use your reaction to extend your skin membranes to glide horizontally a number of feet equal to your walking speed, and you take 0 damage from the fall. You determine the direction of the glide."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hadozee Dodge",
+					"entries": [
+						"The magic that runs in your veins heightens your natural defenses. When you take damage, you can use your reaction to roll a {@dice d6}. Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage).",
+						"You can use this trait a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Halfblood",
@@ -2348,7 +3000,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Goblin."
+						"You can speak, read, and write {@language Common|phb} and {@language Goblin|phb}."
 					],
 					"type": "entries"
 				}
@@ -2568,6 +3220,105 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Half-Elf",
+			"source": "EARL",
+			"srd": true,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 180
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/half-elf.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception|phb} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Elvish|phb}. {@language Elvish|phb} is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Half-Goblin",
@@ -5851,7 +6602,7 @@
 				{
 					"known": {
 						"1": [
-							"dancing lights#c"
+							"dancing lights#c|cooms"
 						]
 					},
 					"ability": "con"
@@ -5886,7 +6637,7 @@
 					"type": "entries",
 					"name": "Astral Fire",
 					"entries": [
-						"You know one of the following cantrips of your choice: {@spell dancing lights|phb}, {@spell light|phb}, or {@spell sacred flame|phb}. Constitution is your spellcasting ability for it."
+						"You know one of the following cantrips of your choice: {@spell dancing lights|cooms}, {@spell light|phb}, or {@spell sacred flame|phb}. Constitution is your spellcasting ability for it."
 					]
 				},
 				{
@@ -6055,7 +6806,7 @@
 								{
 									"type": "item",
 									"name": "Summer",
-									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage)."
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Constitution modifier (minimum of 1 damage)."
 								}
 							]
 						}
@@ -6776,6 +7527,363 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Githyanki",
+			"source": "EARL",
+			"raceName": "Gith",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 60,
+				"heightMod": "2d12",
+				"baseWeight": 100,
+				"weightMod": "2d4"
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency"
+			],
+			"weaponProficiencies": [
+				{
+					"shortsword|owl": true,
+					"longsword|owl": true,
+					"greatsword|owl": true
+				}
+			],
+			"armorProficiencies": [
+				{
+					"light": true,
+					"medium": true
+				}
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							]
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"jump"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"misty step"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Githyanki tend toward lawful evil. They are aggressive and arrogant, and they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos."
+					]
+				},
+				{
+					"name": "Decadent Mastery",
+					"entries": [
+						"You learn one language of your choice, and you are proficient with one skill or {@book tool|phb|5|tools} of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Martial Prodigy",
+					"entries": [
+						"You are proficient with light and medium armor and with {@item shortsword|OWL|shortswords}, {@item longsword|OWL|longswords}, and {@item greatsword|OWL|greatswords}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Githyanki Psionics",
+					"entries": [
+						"You know the {@spell mage hand|phb} cantrip, and the hand is {@condition invisible|phb} when you cast the cantrip with this trait.",
+						"When you reach 3rd level, you can cast {@spell jump|phb} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell misty step|phb} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
+						"Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Githzerai",
+			"source": "EARL",
+			"raceName": "Gith",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"wis": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 59,
+				"heightMod": "2d12",
+				"baseWeight": 90,
+				"weightMod": "1d4"
+			},
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"shield|cooms"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"detect thoughts"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline."
+					]
+				},
+				{
+					"name": "Mental Discipline",
+					"entries": [
+						"You have advantage on saving throws against the {@condition charmed|phb} and {@condition frightened|phb} conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Githzerai Psionics",
+					"entries": [
+						"You know the {@spell mage hand|phb} cantrip, and the hand is {@condition invisible|phb} when you cast the cantrip with this trait.",
+						"When you reach 3rd level, you can cast {@spell shield|cooms} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell detect thoughts|phb} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
+						"Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Deep/Svirfneblin",
+			"source": "EARL",
+			"raceName": "Gnome",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"age": {
+				"mature": 25,
+				"max": 250
+			},
+			"darkvision": 120,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"gnomish": true,
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time."
+					],
+					"data": {
+						"overwrite": "Age"
+					}
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others."
+					],
+					"data": {
+						"overwrite": "Alignment"
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"A typical svirfneblin stands about 3 to 3.5 feet tall and weighs 80 to 120 pounds. Your size is Small."
+					],
+					"data": {
+						"overwrite": "Size"
+					}
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"data": {
+						"overwrite": "Darkvision"
+					},
+					"type": "entries"
+				},
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"You have advantage on Dexterity ({@skill Stealth|phb}) checks to hide in rocky terrain."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Gnomish|phb}, and {@language Undercommon|phb}. The svirfneblin dialect is more guttural than surface Gnomish, and most svirfneblin know only a little bit of Common, but those who deal with outsiders (and that includes you as an adventurer) pick up enough Common to get by in other lands."
+					],
+					"data": {
+						"overwrite": "Languages"
+					},
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"languageProficiencies": true
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Forest",
+			"source": "EARL",
+			"raceName": "Gnome",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": [
+							"minor illusion#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Natural Illusionist",
+					"entries": [
+						"You know the {@spell minor illusion|phb} cantrip. Intelligence is your spellcasting ability for it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Speak with Small Beasts",
+					"entries": [
+						"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Rock",
+			"source": "EARL",
+			"raceName": "Gnome",
+			"raceSource": "EARL",
+			"srd": true,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"tinker's tools": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Artificer's Lore",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History|phb}) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Tinker",
+					"entries": [
+						"You have proficiency with artisan's tools ({@item tinker's tools|OWL}). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+						"When you create a device, choose one of the following options:",
+						{
+							"type": "entries",
+							"name": "Clockwork Toy",
+							"entries": [
+								"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fire Starter",
+							"entries": [
+								"The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Music Box",
+							"entries": [
+								"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+							]
+						}
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Duergar",
@@ -7557,6 +8665,227 @@
 			]
 		},
 		{
+			"name": "Astral",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Astral Fire.} You know one of the following cantrips of your choice: {@spell dancing lights|cooms}, {@spell light|phb}, or {@spell sacred flame|phb}. Constitution is your spellcasting ability for it.",
+						"{@b Starlight Step.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Drow",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Spellcasting",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}.",
+						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eladrin",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"creatureTypes": [
+				"fey"
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Fey Step.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.",
+						"{@i Regardless of whether or not you choose this feature, you must choose your eladrin's season: autumn, winter, spring, or summer. If you choose this feature, when you finish a long rest, you can change your season.}",
+						"When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Autumn",
+									"entry": "Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition charmed|phb} by you for 1 minute, or until you or your companions deal any damage to it."
+								},
+								{
+									"type": "item",
+									"name": "Winter",
+									"entry": "When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition frightened|phb} of you until the end of your next turn."
+								},
+								{
+									"type": "item",
+									"name": "Spring",
+									"entry": "When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you."
+								},
+								{
+									"type": "item",
+									"name": "Summer",
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Constitution modifier (minimum of 1 damage)."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a fey."
+					]
+				}
+			]
+		},
+		{
+			"name": "High",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Weapon Proficiency",
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pallid",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Incisive Sense.} You have advantage on Intelligence ({@skill Investigation|phb}) and Wisdom ({@skill Insight|phb}) checks.",
+						"{@b Blessing of the Moon Weaver.} You know the {@spell light|phb} cantrip. When you reach 3rd level, you can cast the {@spell sleep|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sea",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Amphibious",
+				"Skill Proficiency",
+				"Language Proficiency",
+				"Weapon Proficiency",
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Extra Language.} You can speak, read, and write {@language Primordial|phb|Aquan}",
+						"{@b Sea Elf Training.} You have proficiency with the {@item spear|OWL}, {@item trident|OWL}, {@item light crossbow|OWL}, and {@item net|OWL}.",
+						"{@b Child of the Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
+						"{@b Friend of the Sea.} Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadar-kai",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Damage Resistance"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Necrotic Resistance.} You have resistance to necrotic damage.",
+						"{@b Blessing of the Raven Queen.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.",
+						"Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wood",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
+						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					]
+				}
+			]
+		},
+		{
 			"name": "Cactus",
 			"source": "EARL",
 			"raceName": "Leshy",
@@ -7940,7 +9269,7 @@
 				}
 			],
 			"speed": {
-				"walk": 30,
+				"walk": 25,
 				"swim": true
 			},
 			"traitTags": [
