@@ -1264,6 +1264,27 @@
 			]
 		},
 		{
+			"name": "Mage Slayer",
+			"source": "EntrancedFeats",
+			"page": 12,
+			"entries":[
+				{
+					"entries":[
+						"You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"When a creature within 5 feet of you casts a spell, you can use your reaction to make an attack of opportunity against that creature.",
+						"When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
+						"You have advantage on saving throws against spells cast by creatures within 5 feet of you."
+					]
+				}
+			]
+		},
+		{
 			"name": "Magic Initiate",
 			"source": "EntrancedFeats",
 			"page": 12,

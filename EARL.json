@@ -92,7 +92,7 @@
 				{
 					"name": "Talons",
 					"entries": [
-						"Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"Your talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the talons in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
 					],
 					"type": "entries"
 				},
@@ -1785,7 +1785,7 @@
 					"type": "entries",
 					"name": "Bite",
 					"entries": [
-						"You are proficient with your bite attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 					]
 				},
 				{
@@ -1826,6 +1826,198 @@
 					}
 				]
 			}
+		},
+		{
+			"name": "Fairy",
+			"source": "EARL",
+			"ability": [
+				{
+					"wis": 2,
+					"dex": 1
+				}
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"additionalSpells": [
+				{
+					"ability": {
+						"choose": [
+							"int",
+							"wis",
+							"cha"
+						]
+					},
+					"known": {
+						"1": [
+							"druidcraft#c|cooms"
+						]
+					},
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"faerie fire"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"enlarge/reduce"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fairy Magic",
+					"entries": [
+						"You know the {@spell druidcraft|cooms} cantrip.",
+						"Starting at 3rd level, you can cast the {@spell faerie fire|phb} spell with this trait. Starting at 5th level, you can also cast the {@spell enlarge/reduce|phb} spell with this trait. Once you cast {@spell faerie fire|phb} or {@spell enlarge/reduce|phb} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Firbolg",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"wis": 2,
+					"str": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 74,
+				"heightMod": "2d12",
+				"baseWeight": 175,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 30,
+				"max": 500
+			},
+			"traitTags": [
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"giant": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/firbolg.mp3"
+			},
+			"additionalSpells": [
+				{
+					"ability": "wis",
+					"known": {
+						"1": {
+							"rest": {
+								"1": [
+									"detect magic",
+									"disguise self"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"As humanoids related to the fey, firbolg have long lifespans. A firbolg reaches adulthood around 30, and the oldest of them can live for 500 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Firbolg are between 7 and 8 feet tall and weigh between 240 and 300 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Firbolg Magic",
+					"entries": [
+						"You can cast {@spell detect magic|phb} and {@spell disguise self|phb} with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again with this trait until you finish a short or long rest. When you use this version of {@spell disguise self|phb}, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hidden Step",
+					"entries": [
+						"As a bonus action, you can magically turn {@condition invisible|phb} until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Speech of Beast and Leaf",
+					"entries": [
+						"You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Elvish|phb}, and {@language Giant|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Genasi",
@@ -1912,6 +2104,141 @@
 				"weightMod": "2d4"
 			}
 		},
+			{
+			"name": "Giff",
+			"source": "EARL",
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 10,
+				"max": 70
+			},
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30
+			},
+			"traitTags": [
+				"Powerful Build"
+			],
+			"weaponProficiencies": [
+				{
+					"firearms": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Giff have an average lifespan of about 70 years."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Traditionally, Giff live to wage war with whoever pays them and fire off anything that will go boom, whether that be bombs, gonnes, or cannons. They typically prefer amassing these kinds of weapons and black powder over any kind of material wealth. They, however, only fight under a strict militaristic regiment, taking pleasure in following orders and often making up medals for themselves as they wage war. They are typically Lawful."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Giff are between 8 and 9 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Demolitionist",
+					"entries": [
+						"Giffs have an innate love for anything that goes boom, leading them to prefer weapons that favor this style of explosive fighting. You have proficiency with firearms. Additionally, when you throw an explosive such as a bomb, oil, or alchemist’s fire, you are able to throw it up to its maximum range without imposing disadvantage on the roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Headfirst Charge",
+					"entries": [
+						"You can throw yourself into battle and use your large size to get an edge over your opponents by toppling them over. If you move at least 20 feet in a straight line that ends within 5 feet of a Large or smaller creature, that creature must succeed on a Strength saving throw against your Strength DC (8 + your Proficiency Bonus + your Strength modifier) or take {@dice 2d6} bludgeoning damage and be knocked {@condition prone|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and Giff. The Giff language is gruff and covers a wide range of both high and low sounds."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Gith",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Gith reach adulthood in their late teens and live for about a century."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Gith are taller and leaner than humans, with most a slender 6 feet in height."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Gith|mm}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true
+		},
 		{
 			"name": "Gnoll",
 			"source": "EARL",
@@ -1921,6 +2248,9 @@
 			],
 			"size": [
 				"M"
+			],
+			"creatureTypes": [
+				"monstrosity"
 			],
 			"speed": 30,
 			"ability": [
@@ -1968,6 +2298,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Size",
 					"entries": [
 						"Most gnolls are between 6 and 7 feet tall. Your size is Medium."
@@ -1998,7 +2335,7 @@
 					"type": "entries",
 					"name": "Bite",
 					"entries": [
-						"You are proficient with your bite attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 					]
 				},
 				{
@@ -2046,12 +2383,85 @@
 			}
 		},
 		{
+			"name": "Gnome",
+			"source": "EARL",
+			"srd": true,
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"ability": [
+				{
+					"int": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 35,
+				"heightMod": "2d4",
+				"baseWeight": 35
+			},
+			"age": {
+				"mature": 40,
+				"max": 500
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"gnomish": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/gnome.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Gnomish|phb}. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Goblin",
 			"source": "EARL",
 			"page": 18,
-			"reprintedAs": [
-				"Goblin|EARL"
-			],
 			"size": [
 				"S"
 			],
@@ -2134,7 +2544,7 @@
 					"type": "entries",
 					"name": "Natural Cowards",
 					"entries": [
-						"You have expertise in {@skill Stealth}, and prefer underhanded tactics, allowing you to additionally gain proficiency in either {@skill Animal Handling}, {@skill Deception}, {@skill Sleight of Hand}, or {@skill Survival}."
+						"You have expertise in {@skill Stealth|phb}, and prefer underhanded tactics, allowing you to additionally gain proficiency in either {@skill Animal Handling|phb}, {@skill Deception|phb}, {@skill Sleight of Hand|phb}, or {@skill Survival|phb}."
 					]
 				},
 				{
@@ -2155,7 +2565,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Goblin."
+						"You can understand and speak {@language Common|phb} and {@language Goblin|phb}."
 					]
 				}
 			],
@@ -2165,6 +2575,274 @@
 				"baseWeight": 35,
 				"weightMod": "1"
 			}
+		},
+			{
+			"name": "Goliath",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 74,
+				"heightMod": "2d10",
+				"baseWeight": 200,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Powerful Build"
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/goliath.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Goliaths have lifespans comparable to humans. They enter adulthood in their late teens and usually live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Goliaths are between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Natural Athlete",
+					"entries": [
+						"You have proficiency in the {@skill Athletics|phb} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Stone's Endurance",
+					"entries": [
+						"You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mountain Born",
+					"entries": [
+						"You have resistance to cold damage. You're also acclimated to high altitude, including elevations above 20,000 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Giant|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Grung",
+			"source": "EARL",
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 25,
+				"climb": 25
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 1,
+				"max": 50
+			},
+			"traitTags": [
+				"Amphibious"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"grung": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Grungs mature to adulthood in a single year, but have been known to live up to 50 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most grungs are lawful, having been raised in a strict caste system. They tend toward evil as well, coming from a culture where social advancement occurs rarely, and most often because another member of your army has died and there is no one else of that caste to fill the vacancy."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Grungs stand between 2.5 and 3.5 feet tall and average about 30 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arboreal Alertness",
+					"entries": [
+						"You have proficiency in the {@skill Perception|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poison Immunity",
+					"entries": [
+						"You're immune to poison damage and the {@condition poisoned|phb} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poisonous Skin",
+					"entries": [
+						"Any creature that grapples you or otherwise comes into direct contact with your skin must succeed on a Constitution saving throw against your Constitution DC (8 + your proficiency bonus + your Constitution modifier) or become {@condition poisoned|phb} for 1 minute. A {@condition poisoned|phb} creature no longer in direct contact with you can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+						"You can also apply this poison to any piercing weapon as part of an attack with that weapon, though when you hit the poison reacts differently. The target must succeed on a Constitution saving throw against your Constitution DC (8 + your proficiency bonus + your Constitution modifier) or take a number of {@dice d4} poison damage equal to your proficiency bonus."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Standing Leap",
+					"entries": [
+						"Your long jump is up to 25 feet and your high jump is up to 15 feet, with or without a running start."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Water Dependency",
+					"entries": [
+						"If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of {@condition exhaustion|phb} at the end of that day. You can only recover from this {@condition exhaustion|phb} through magic or by immersing yourself in water for at least 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Grung}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hadozee",
+			"source": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dexterous Feet",
+					"entries": [
+						"As a bonus action, you can use your feet to manipulate an object, open or close a door or container, or pick up or set down a Tiny object."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Glide",
+					"entries": [
+						"When you fall at least 10 feet above the ground, you can use your reaction to extend your skin membranes to glide horizontally a number of feet equal to your walking speed, and you take 0 damage from the fall. You determine the direction of the glide."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hadozee Dodge",
+					"entries": [
+						"The magic that runs in your veins heightens your natural defenses. When you take damage, you can use your reaction to roll a {@dice d6}. Add your proficiency bonus to the number rolled, and reduce the damage you take by an amount equal to that total (minimum of 0 damage).",
+						"You can use this trait a number of times equal to your proficiency bonus. You regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Halfblood",
@@ -2348,7 +3026,7 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Goblin."
+						"You can speak, read, and write {@language Common|phb} and {@language Goblin|phb}."
 					],
 					"type": "entries"
 				}
@@ -2568,6 +3246,105 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Half-Elf",
+			"source": "EARL",
+			"srd": true,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"choose": {
+						"from": [
+							"str",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 180
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/half-elf.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your elf blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed|phb}, and magic can't put you to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception|phb} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Elvish|phb}. {@language Elvish|phb} is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Half-Goblin",
@@ -2922,6 +3699,148 @@
 			}
 		},
 		{
+			"name": "Half-Ogre",
+			"source": "EARL",
+			"creatureTypes": [
+				"giant"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 120
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Powerful Build",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-ogres had the lifespan and maturity rate of their non-ogre parent."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Half-ogres tend towards Chaotic alignments, often believing they should be in charge for their strength and begrudgingly submitting to anybody stronger than them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-ogres have a height somewhere between that of a human and an ogre, often between seven and eight feet. They usually weigh between 315 and 425 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Giant Toughness",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+								"{@b Might Makes Right.} Whenever you make a {@skill Persuasion|phb}, {@skill Deception|phb}, or {@skill Intimidation|phb} skill check, you can give yourself a bonus to the check equal to your Strength modifier. You can use this feature a number of times equal to your proficiency bonus, and you regain all all expended uses when you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a {@filter Giant|bestiary|type=giant}."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Giant|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 78,
+				"heightMod": "4d4",
+				"baseWeight": 250,
+				"weightMod": "2d6"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Half-Orc",
 			"source": "EARL",
 			"page": 42,
@@ -3163,6 +4082,413 @@
 			}
 		},
 		{
+			"name": "Half-Troll",
+			"source": "EARL",
+			"creatureTypes": [
+				"giant"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 120
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Natural Weapon",
+				"Powerful Build",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Half-trolls had the lifespan and maturity rate of their non-troll parent."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Half-trolls tend towards Evil alignments, typically being in their element when working as an unsupervised mercenary or hired goon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-trolls have a height somewhere between that of a human and a troll, often between 6.5 to 7.5 feet tall. They usually weigh between 255 and 365 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+								"{@b Trollhide.} While you aren't wearing armor, your rubbery skin gives you a base Armor Class of 10 plus your Constitution modifier."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a {@filter Giant|bestiary|type=giant}."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Giant|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 78,
+				"heightMod": "4d4",
+				"baseWeight": 250,
+				"weightMod": "2d6"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Halfling",
+			"source": "EARL",
+			"srd": true,
+			"basicRules": true,
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"ability": [
+				{
+					"dex": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 31,
+				"heightMod": "2d4",
+				"baseWeight": 35
+			},
+			"age": {
+				"mature": 20,
+				"max": 250
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"halfling": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/halfling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Lucky",
+					"entries": [
+						"When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Brave",
+					"entries": [
+						"You have advantage on saving throws against being {@condition frightened|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Halfling Nimbleness",
+					"entries": [
+						"You can move through the space of any creature that is of a size larger than yours."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Halfling|phb}. The Halfling language isn't secret, but halflings are loath to share it with others. They write very little, so they don't have a rich body of literature. Their oral tradition, however, is very strong. Almost all halflings speak Common to converse with the people in whose lands they dwell or through which they are traveling."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Harengon",
+			"source": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"mature": 18,
+				"max": 100
+			},
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Harengon age and mature at the same rate as humans."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Harengon are 4-6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hare-Trigger",
+					"entries": [
+						"You can add your proficiency bonus to your initiative rolls."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Leporine Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lucky Footwork",
+					"entries": [
+						"When you fail a Dexterity saving throw, you can use your reaction to roll a {@dice d4} and add it to the save, potentially turning the failure into a success. You can't use this reaction if you're {@condition prone|phb} or your speed is 0."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rabbit Hop",
+					"entries": [
+						"As a bonus action, you can jump a number of feet equal to five times your Dexterity modifier (minimum of 10 feet), without provoking opportunity attacks. You can use this trait only if your speed is greater than 0. You can use it a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hedge",
+			"source": "EARL",
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"age": {
+				"mature": 20,
+				"max": 120
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Hedges take longer to mature than most other races, reaching adulthood around 20 years. They also live for a long time, with many reaching 120 years or more."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Hunker hedges tend to live slow, cozy lives, often aligning themselves with Law. Roller hedges are the exact opposite, living lives that are as bombastic and as fast as they are, often aligning themselves with chaos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Hedges have short, rounded body shapes, standing between 3 and 4 feet in height, and weighing between 40 and 70 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Spiny Quills",
+					"entries": [
+						"The backs of hedges are covered with spiny quills, which makes it difficult for hedges to wear armor. These quills provide some protection, giving you a natural armor of 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+						"Due to your quills, it takes twice as long for you to don and doff armor. On top of this, anybody who hits you with an unarmed strike takes {@dice 1d4} piercing damage if you are either unarmored or wearing spiked leather, spiked armor, or spike mail."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					],
+					"type": "entries"
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 50,
+				"heightMod": "4d4",
+				"baseWeight": 100,
+				"weightMod": "2d4"
+			}
+		},
+		{
 			"name": "Hobgoblin",
 			"source": "EARL",
 			"page": 44,
@@ -3298,7 +4624,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Goblin."
+						"You can speak, read, and write {@language Common|phb} and {@language Goblin|phb}."
 					]
 				}
 			],
@@ -3308,6 +4634,61 @@
 				"baseWeight": 35,
 				"weightMod": "1"
 			}
+		},
+		{
+			"name": "Human",
+			"source": "EARL",
+			"srd": true,
+			"basicRules": true,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/human.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Humans reach adulthood in their late teens and live less than a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Human (Cursevein)",
@@ -3415,7 +4796,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and one other language of your choice."
+						"You can speak, read, and write {@language Common|phb} and one other language of your choice."
 					]
 				}
 			],
@@ -3506,7 +4887,7 @@
 					"type": "entries",
 					"name": "Draconic Ability",
 					"entries": [
-						"You have proficiency in {@skill Perception}."
+						"You have proficiency in {@skill Perception|phb}."
 					]
 				},
 				{
@@ -3534,77 +4915,77 @@
 								[
 									"Amethyst",
 									"Force",
-									"{@skill Arcana}"
+									"{@skill Arcana|phb}"
 								],
 								[
 									"Black",
 									"Acid",
-									"{@skill Stealth}"
+									"{@skill Stealth|phb}"
 								],
 								[
 									"Blue",
 									"Lightning",
-									"{@skill Deception}"
+									"{@skill Deception|phb}"
 								],
 								[
 									"Brass",
 									"Fire",
-									"{@skill Persuasion}"
+									"{@skill Persuasion|phb}"
 								],
 								[
 									"Bronze",
 									"Lightning",
-									"{@skill Investigation}"
+									"{@skill Investigation|phb}"
 								],
 								[
 									"Copper",
 									"Acid",
-									"{@skill Performance}"
+									"{@skill Performance|phb}"
 								],
 								[
 									"Crystal",
 									"Radiant",
-									"{@skill Survival}"
+									"{@skill Survival|phb}"
 								],
 								[
 									"Emerald",
 									"Psychic",
-									"{@skill Sleight of Hand}"
+									"{@skill Sleight of Hand|phb}"
 								],
 								[
 									"Gold",
 									"Fire",
-									"{@skill Insight}"
+									"{@skill Insight|phb}"
 								],
 								[
 									"Green",
 									"Poison",
-									"{@skill Acrobatics}"
+									"{@skill Acrobatics|phb}"
 								],
 								[
 									"Red",
 									"Fire",
-									"{@skill Athletics}"
+									"{@skill Athletics|phb}"
 								],
 								[
 									"Sapphire",
 									"Thunder",
-									"{@skill Intimidation}"
+									"{@skill Intimidation|phb}"
 								],
 								[
 									"Silver",
 									"Cold",
-									"{@skill Medicine}"
+									"{@skill Medicine|phb}"
 								],
 								[
 									"Topaz",
 									"Necrotic",
-									"{@skill Nature}"
+									"{@skill Nature|phb}"
 								],
 								[
 									"White",
 									"Cold",
-									"{@skill History}"
+									"{@skill History|phb}"
 								]
 							]
 				},
@@ -3612,7 +4993,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Draconic."
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}."
 					]
 				}
 			],
@@ -3627,9 +5008,6 @@
 			"name": "Human (Giantblood)",
 			"source": "EARL",
 			"page": 47,
-			"reprintedAs": [
-				"Human (Giantblood)|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -3712,7 +5090,7 @@
 					"type": "entries",
 					"name": "Titan's Body",
 					"entries": [
-						"You have proficiency in {@skill Athletics}."
+						"You have proficiency in {@skill Athletics|phb}."
 					]
 				},
 				{
@@ -3740,47 +5118,47 @@
 								[
 									"Cloud",
 									"{@spell Fog Cloud|phb}",
-									"{@skill Insight}"
+									"{@skill Insight|phb}"
 								],
 								[
 									"Ettin",
 									"{@spell Sudden Awakening|cooms}",
-									"{@skill Perception}"
+									"{@skill Perception|phb}"
 								],
 								[
 									"Fire",
 									"{@spell Searing Smite|phb}",
-									"{@item smith's tools|phb|Smith's Tools}"
+									"{@item smith's tools|OWL|Smith's Tools}"
 								],
 								[
 									"Fog",
 									"{@spell Zephyr Strike|xge}",
-									"{@skill Stealth}"
+									"{@skill Stealth|phb}"
 								],
 								[
 									"Hill",
 									"{@spell Longstrider|phb}",
-									"{@skill Animal Handling}"
+									"{@skill Animal Handling|phb}"
 								],
 								[
 									"Mountain",
 									"{@spell Wrathful Smite|phb}",
-									"{@skill Intimidation}"
+									"{@skill Intimidation|phb}"
 								],
 								[
 									"Stone",
 									"{@spell Thunderous Smite|phb}",
-									"{@item mason's tools|phb|Mason's Tools}"
+									"{@item mason's tools|OWL|Mason's Tools}"
 								],
 								[
 									"Storm",
 									"{@spell Thunderwave|phb}",
-									"{@skill Arcana}"
+									"{@skill Arcana|phb}"
 								],
 								[
 									"Titan",
 									"{@spell Enlarge/Reduce|phb|Enlarge}",
-									"{@skill History}"
+									"{@skill History|phb}"
 								]
 							]
 				},
@@ -3788,7 +5166,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Giant."
+						"You can speak, read, and write {@language Common|phb} and {@language Giant|phb}."
 					]
 				}
 			],
@@ -3800,12 +5178,378 @@
 			}
 		},
 		{
+			"name": "Jerbeen",
+			"source": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"age": {
+				"mature": 5,
+				"max": 40
+			},
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"insight",
+							"perception",
+							"persuasion",
+							"performance",
+							"stealth"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Jerbeens grow quickly, reaching maturity around 5 years and living to be about 40 years old."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Being small and facing many threats in the world, Jerbeens are sensitive to the feelings of others, and tend towards good alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Jerbeens have incredibly small and light bodies, standing between 2 and 3 feet tall, and weighing between 20 and 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Due to hunting at night you have superior vision in the dark. You can see dim light within 60 feet of you as bright light and in darkness as if it was in dim light. You can't discern color in darkness, only shades of grey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Empathetic",
+					"entries": [
+						"You tend to sneak and squeak your way into people's hearts, allowing you to commune with or understand others easily. You are proficient in two of the following skills: {@skill Acrobatics|phb}, {@skill Insight|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, or {@skill Stealth|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Scamper",
+					"entries": [
+						"You can move through the space of any creature that is of a size larger than yours."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Scurry",
+					"entries": [
+						"When you take the dash action, your speed increases by 5 feet that turn, and your movement is not slowed by difficult terrain."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nimble Escape",
+					"entries": [
+						"You can take the Disengage or Hide action as a bonus action on each of your turns."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Kalashtar",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"wis": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 64,
+				"heightMod": "2d6",
+				"baseWeight": 110,
+				"weightMod": "1d6"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true,
+					"anyStandard": 1
+				}
+			],
+			"resist": [
+				"psychic"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Kalashtar mature and age at the same rate as humans."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"The noble spirit tied to a kalashtar drives it toward lawful and good behavior. Most kalashtar combine strong self-discipline with compassion for all beings, but some kalashtar resist the virtuous influence of their spirit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dual Mind",
+					"entries": [
+						"You have advantage on all Wisdom saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mental Discipline",
+					"entries": [
+						"You have resistance to psychic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mind Link",
+					"entries": [
+						"You can speak telepathically to any creature you can see, provided the creature is within a number of feet of you equal to 10 times your level. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language.",
+						"When you're using this trait to speak telepathically to a creature, you can use your action to give that creature the ability to speak telepathically with you for 1 hour or until you end this effect as an action. To use this ability, the creature must be able to see you and must be within this trait's range. You can give this ability to only one creature at a time; giving it to a creature takes it away from another creature who has it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Severed from Dreams",
+					"entries": [
+						"Kalashtar sleep, but they don't connect to the plane of dreams as other creatures do. Instead, their minds draw from the memories of their otherworldly spirit while they sleep. As such, you are immune to spells and other magical effects that require you to dream, like {@spell dream|phb}, but not to spells and other magical effects that put you to sleep, like {@spell sleep|phb}."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Quori|ERLW}, and one other language of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Kender",
+			"source": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"size": [
+				"S"
+			],
+			"speed": 30,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"insight",
+							"investigation",
+							"sleight of hand",
+							"stealth",
+							"survival"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fearless",
+					"entries": [
+						"You have advantage on saving throws you make to avoid or end the {@condition frightened|phb} condition on yourself. When you fail a saving throw to avoid or end the {@condition frightened|phb} condition on yourself, you can choose to succeed instead. Once you succeed on a saving throw in this way, you can't do so again until you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Kender Curiosity",
+					"entries": [
+						"Thanks to the mystical origin of your people, you gain proficiency with one of the following skills of your choice: {@skill Insight|phb}, {@skill Investigation|phb}, {@skill Sleight of Hand|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Taunt",
+					"entries": [
+						"You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).",
+						"You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Kenku",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 52,
+				"heightMod": "2d8",
+				"baseWeight": 50,
+				"weightMod": "1d6"
+			},
+			"age": {
+				"mature": 12,
+				"max": 60
+			},
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"deception",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"auran": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/kenku.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Kenku have shorter lifespans than humans. They reach maturity at about 12 years old and can live to 60."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Expert Forgery",
+					"entries": [
+						"You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Kenku Training",
+					"entries": [
+						"You are proficient in your choice of two of the following skills: {@skill Acrobatics|phb}, {@skill Deception|phb}, {@skill Stealth|phb}, and {@skill Sleight of Hand|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mimicry",
+					"entries": [
+						"You can mimic sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom ({@skill Insight|phb}) check opposed by your Charisma ({@skill Deception|phb}) check."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can read and write {@language Common|phb} and {@language Primordial|phb|Auran}, but you can only speak using your Mimicry trait."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Kitsune",
 			"source": "EARL",
 			"page": 48,
-			"reprintedAs": [
-				"Kitsune|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -3813,7 +5557,7 @@
 			"darkvision": 60,
 			"ability": [
 				{
-					"int": 2,
+					"cha": 2,
 					"dex": 1
 				}
 			],
@@ -3916,7 +5660,7 @@
 					"type": "entries",
 					"name": "Kitsune Shapeshift",
 					"entries": [
-						"As an action, you can assume the appearance of a single specific human form of the same sex that always remains consistent with every use of this ability. In order for anyone to see your true nature, they have to succeed on an {@skill Investigation} check against your {@skill Deception} check, as you still need to hide your ears and tail. This change ends if you reach 0 hp or if you use an action to revert to your normal form."
+						"As an action, you can assume the appearance of a single specific human form of the same sex that always remains consistent with every use of this ability. In order for anyone to see your true nature, they have to succeed on an {@skill Investigation|phb} check against your {@skill Deception|phb} check, as you still need to hide your ears and tail. This change ends if you reach 0 hp or if you use an action to revert to your normal form."
 					]
 				},
 				{
@@ -3930,7 +5674,7 @@
 					"type": "entries",
 					"name": "Trickster Spirit",
 					"entries": [
-						"You gain proficiency in {@skill Acrobatics}, {@skill Deception}, {@skill Sleight of Hand}, or {@skill Stealth}."
+						"You gain proficiency in {@skill Acrobatics|phb}, {@skill Deception|phb}, {@skill Sleight of Hand|phb}, or {@skill Stealth|phb}."
 					]
 				},
 				{
@@ -3944,7 +5688,7 @@
 					"type": "entries",
 					"name": "Claws",
 					"entries": [
-						"You may sprout claws in your natural form or your humanoid form."
+						"You may sprout claws in your natural form or your humanoid form. Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
 					]
 				},
 				{
@@ -3958,7 +5702,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"Kitsunes can speak Common and Sylvan."
+						"Kitsunes can speak {@language Common|phb} and {@language Sylvan|phb}."
 					]
 				}
 			],
@@ -4068,7 +5812,7 @@
 					"type": "entries",
 					"name": "Naturally Curious",
 					"entries": [
-						"You are proficient in one of the following skills: {@skill Animal Handling}, {@skill History}, {@skill Investigation}, {@skill Nature}, {@skill Religion}, {@skill Sleight of Hand}, or {@skill Stealth}."
+						"You are proficient in one of the following skills: {@skill Animal Handling|phb}, {@skill History|phb}, {@skill Investigation|phb}, {@skill Nature|phb}, {@skill Religion|phb}, {@skill Sleight of Hand|phb}, or {@skill Stealth|phb}."
 					]
 				},
 				{
@@ -4096,14 +5840,14 @@
 					"type": "entries",
 					"name": "Pack Tactics",
 					"entries": [
-						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated|phb}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
 					]
 				},
 				{
@@ -4117,7 +5861,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Draconic."
+						"You can understand and speak {@language Common|phb} and {@language Draconic|phb}."
 					]
 				}
 			],
@@ -4127,6 +5871,278 @@
 				"baseWeight": 25,
 				"weightMod": "1"
 			}
+		},
+		{
+			"name": "Kobold (Winged)",
+			"source": "EARL",
+			"page": 49,
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"darkvision": 60,
+			"ability": [
+				{
+					"dex": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 6,
+				"max": 1000
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Sunlight Sensitivity"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"creatureTypes": [
+				"dragon"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"animal handling",
+							"religion",
+							"sleight of hand",
+							"stealth"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Urds reach adulthood at age 6 and can live up to 1,000 years but rarely do so. However, those lucky few metamorphosize into a dragon wyrmling based on their color, and begin a dragon's life cycle. This transformation is divine in nature, and normally is accomplished by gaining favor from Bahamut or Tiamat to be worthy of status as a dragon."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Urds typically create their own societies governed by urd chieftains, and tend towards Lawful Evil. Urds born in a society of kobolds tend to align with their dragon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Appearance",
+					"entries": [
+						"Because their patron deity has been trapped in a labyrinth for centuries, kobolds have deteriorated in consistent form, allowing them to come in many different shapes and designs; though their coloring is always based on a dragon's coloring, typically being the same as the one they follow."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Urds are between 2 and 3 feet tall and weigh between 30 and 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"Thanks to your bat-like wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Naturally Curious",
+					"entries": [
+						"You are proficient in one of the following skills: {@skill Acrobatics|phb}, {@skill Animal Handling|phb}, {@skill Religion|phb}, {@skill Sleight of Hand|phb}, or {@skill Stealth|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Makeshift Cunning",
+					"entries": [
+						"Kobolds excel at making the most out of what limited resources they have, especially in the field of traps. Knowing they are outmatched in terms of power, most kobolds use their creativity to get the upper hand in combat. Unless forced, most kobolds prefer to flee towards a trap they've set to get an edge in a fight rather than fighting directly. By spending an hour gathering resources from your backpack and surroundings, you are able to make a rudimentary trap, tool, weapon, or piece of armor that only you are able to use, as others can't make sense of how it functions in the way you intend. For example, a kobold might jam a kitchen knife through a plank of wood to make a rudimentary war pick for themselves, or tie kitchenware to their body to simulate a breastplate. You can have a number of functional traps and items created with this feature equal to your Intelligence modifier (minimum of 1). If you create something new with this feature while at capacity, your oldest created item or trap breaks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't {@condition incapacitated|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a dragon."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Draconic|phb}."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 25,
+				"heightMod": "2d4",
+				"baseWeight": 25,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Leonin",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 1,
+					"con": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 66,
+				"heightMod": "2d10",
+				"baseWeight": 180,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Natural Weapon",
+				"Darkvision",
+				"Language Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"intimidation",
+							"perception",
+							"survival"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Leonin mature and age at about the same rate as humans."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Leonin tend toward good alignments. Leonin who are focused on the pride lean toward lawful good."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Leonin are typically over 6 feet tall, with some standing over 7 feet. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hunter's Instincts",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Daunting Roar",
+					"entries": [
+						"As a bonus action, you can let out an especially menacing roar. Creatures of your choice within 10 feet of you that can hear you must succeed on a Wisdom saving throw or become {@condition frightened|phb} of you until the end of your next turn. The DC of the save equals 8 + your proficiency bonus + your Constitution modifier. Once you use this trait, you can't use it again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Leshy",
@@ -4213,6 +6229,337 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Lizardfolk",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"con": 2,
+					"wis": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d10",
+				"baseWeight": 120,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 14,
+				"max": 60
+			},
+			"traitTags": [
+				"Natural Armor",
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"nature",
+							"perception",
+							"stealth",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Lizardfolk reach maturity around age 14 and rarely live longer than 60 years."
+					]
+				},
+				{
+					"name": "Size",
+					"type": "entries",
+					"entries": [
+						"Lizardfolk are a little bulkier and taller than humans, and their colorful frills make them appear even larger. Your size is Medium."
+					]
+				},
+				{
+					"name": "Swim Speed",
+					"entries": [
+						"You have a swimming speed of 30 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@damage 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cunning Artisan",
+					"entries": [
+						"As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size small or larger to create one of the following items: a {@item shield|OWL}, a {@item club|OWL}, a {@item javelin|OWL}, or {@dice 1d4} {@item dart|OWL|darts} or {@item blowgun needle|OWL|blowgun needles}. To use this trait, you need a blade, such as a {@item dagger|OWL}, or appropriate {@filter artisan's tools|items|source=OWL|miscellaneous=mundane|type=artisan's tools}, such as {@item leatherworker's tools|OWL}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"You can hold your breath for up to 15 minutes at a time."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hunter's Lore",
+					"entries": [
+						"You gain proficiency with two of the following skills of your choice: {@skill Animal Handling|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Stealth|phb}, and {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Armor",
+					"entries": [
+						"You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hungry Jaws",
+					"entries": [
+						"In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Locathah",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"str": 2,
+					"dex": 1
+				}
+			],
+			"age": {
+				"mature": 10,
+				"max": 80
+			},
+			"traitTags": [
+				"Amphibious",
+				"Natural Armor"
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true,
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"aquan": true,
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Locathah mature to adulthood by the age of 10 but have been known to live up to 80 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most locathah are true neutral or have some aspect of neutrality in their alignment. They tend toward good, coming from a culture where compassion for the downtrodden is a commonality."
+					]
+				},
+				{
+					"name": "Natural Armor",
+					"entries": [
+						"You have tough, scaly skin. When you aren't wearing armor, your AC is 12 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Observant & Athletic",
+					"entries": [
+						"You have proficiency in the {@skill Athletics|phb} and {@skill Perception|phb} skills."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Leviathan Will",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed|phb}, {@condition frightened|phb}, {@condition paralyzed|phb}, {@condition poisoned|phb}, {@condition stunned|phb}, or put to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Limited Amphibiousness",
+					"entries": [
+						"You can breathe air and water, but you need to be submerged at least once every 4 hours to avoid suffocating."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Locathah stand between 5 and 6 feet tall and average about 150 pounds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You can speak, read, and write {@language Primordial|phb|Aquan} and {@language Common|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Loxodon",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"wis": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 79,
+				"heightMod": "2d10",
+				"baseWeight": 295,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 450
+			},
+			"traitTags": [
+				"Natural Armor",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Loxodons physically mature at the same rate as humans, but they live about 450 years. They highly value the weight of wisdom and experience and are considered young until they reach the age of 60."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most loxodons are lawful, believing in the value of a peaceful, ordered life. They also tend toward good."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Loxodons stand between 7 and 8 feet tall. Their massive bodies weigh between 300 and 400 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Loxodon Serenity",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed|phb} or {@condition frightened|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Armor",
+					"entries": [
+						"You have thick, leathery skin. When you aren't wearing armor, your AC is 12 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.",
+						{
+							"type": "inset",
+							"name": "Tip: AC Calculations Don't Stack",
+							"entries": [
+								"When the game gives you more than one way to calculate your Armor Class, you can use only one of them. You choose the one to use. For example, if you have the loxodon's Natural Armor trait and the monk's Unarmored Defense feature, you don't mix them together. Instead, you choose which one determines your AC."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Trunk",
+					"entries": [
+						"You can grasp things with your trunk, and you can use it as a snorkel. It has a reach of 5 feet, and it can lift a number of pounds equal to five times your Strength score. You can use it to do the following simple tasks: lift, drop, hold, push, or pull an object or a creature; open or close a door or a container; grapple someone; or make an unarmed strike. Your DM might allow other simple tasks to be added to that list of options.",
+						"Your trunk can't wield weapons or shields or do anything that requires manual precision, such as using tools or magic items or performing the somatic components of a spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Smell",
+					"entries": [
+						"Thanks to your sensitive trunk, you have advantage on Wisdom ({@skill Perception|phb}), Wisdom ({@skill Survival|phb}), and Intelligence ({@skill Investigation|phb}) checks that involve smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Loxodon|ggr}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "M'jol",
@@ -4312,6 +6659,247 @@
 				"baseWeight": 200,
 				"weightMod": "2d6"
 			}
+		},
+		{
+			"name": "Mapach",
+			"source": "EARL",
+			"page": 98,
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"age": {
+				"mature": 8,
+				"max": 60
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Language Proficiency",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"animal handling",
+							"deception",
+							"insight",
+							"intimidation",
+							"investigation",
+							"perception",
+							"slight of hand",
+							"stealth",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Mapachs mature quickly, reaching adulthood around 8 years. Despite this they have fairly average lifespans, the oldest among them living just past 60 years."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Mapachs love coveting whatever they can get their grubby little grabbies on, whether that be scrounging around for what others consider trash or plotting masterful heists to steal the most prized of possessions, tending towards Chaotic and Evil alignments. It is believed that Mapachs bear the symbol of Mask on their fur."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Mapachs stand between 3.5 and 4.5 feet tall, and encompass a variety of builds from svelt to wide, weighing between 90 and 160 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Opportunists",
+					"entries": [
+						"You are proficient in two of the following skills: {@skill Acrobatics|phb}, {@skill Animal Handling|phb}, {@skill Deception|phb}, {@skill Insight|phb}, {@skill Intimidation|phb}, {@skill Investigation|phb}, {@skill Perception|phb}, {@skill Sleight of Hand|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Expert Climbers",
+					"entries": [
+						"You have a climbing speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Resilient Immunity",
+					"entries": [
+						"You have advantage on saving throws against poison and disease as well as resistance against poison damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Skulker",
+					"entries": [
+						"You have advantage on Stealth checks made in dim light and darkness."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 47,
+				"heightMod": "2d4",
+				"baseWeight": 85,
+				"weightMod": "1"
+			}
+		},
+		{
+			"name": "Minotaur",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 64,
+				"heightMod": "2d8",
+				"baseWeight": 175,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 17,
+				"max": 150
+			},
+			"traitTags": [
+				"Natural Weapon",
+				"Skill Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"intimidation",
+							"persuasion"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"other": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"{@note These traits are also suitable for minotaurs in other D&D worlds where these people have avoided the demonic influence of Baphomet.}"
+					]
+				},
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Minotaurs enter adulthood at around the age of 17 and can live up to 150 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Most minotaurs who join the Boros Legion lean toward lawful alignments, while those associated with the Cult of Rakdos or the Gruul Clans tend toward chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Minotaurs average over 6 feet in height, and they have stocky builds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Horns",
+					"entries": [
+						"Your horns are natural melee weapons, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@damage 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Goring Rush",
+					"entries": [
+						"Immediately after you use the {@action Dash|phb} action on your turn and move at least 20 feet, you can make one melee attack with your horns as a bonus action."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hammering Horns",
+					"entries": [
+						"Immediately after you hit a creature with a melee attack as part of the {@action Attack|phb} action on your turn, you can use a bonus action to attempt to shove that target with your horns. The target must be no more than one size larger than you and within 5 feet of you. Unless it succeeds on a Strength saving throw against a DC equal to 8 + your proficiency bonus + your Strength modifier, you push it up to 10 feet away from you."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Imposing Presence",
+					"entries": [
+						"You have proficiency in one of the following skills of your choice: {@skill Intimidation|phb} or {@skill Persuasion|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Minotaur|ggr}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Myconid",
@@ -4459,6 +7047,145 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Ogrillon",
+			"source": "EARL",
+			"creatureTypes": [
+				"giant"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"age": {
+				"mature": 12,
+				"max": 50
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"giant": true,
+					"orc": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Ogrillons reach adulthood at age 12 and live up to 50 years."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Ogrillon tend towards Chaotic and Non-Good alignments, much like both sides of their heritage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Ogrillon have a height somewhere between that of an orc and an ogre, often between 7 and 8 feet. They usually weigh between 315 and 425 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Resilience (Choose 1)",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Giant Toughness.} Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
+								"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Aggressive.} As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
+								"{@b Might Makes Right.} Whenever you make a {@skill Persuasion|phb}, {@skill Deception|phb}, or {@skill Intimidation|phb} skill check, you can give yourself a bonus to the check equal to your Strength modifier. You can use this feature a number of times equal to your proficiency bonus, and you regain all all expended uses when you finish a long rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a {@filter Giant|bestiary|type=giant}."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Giant|phb}, and {@language Orc|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 78,
+				"heightMod": "4d4",
+				"baseWeight": 250,
+				"weightMod": "2d6"
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Orc",
 			"source": "EARL",
 			"page": 72,
@@ -4588,6 +7315,216 @@
 						"You can speak, read, and write {@language Common|phb} and {@language Orc|phb}. {@language Orc|phb} is a harsh, grating language with hard consonants. It has no script of its own but is written in the Dwarvish script."
 					],
 					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Owlin",
+			"source": "EARL",
+			"ability": [
+				{
+					"wis": 2,
+					"int": 1
+				}
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"darkvision": 120,
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"Thanks to your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Silent Feathers",
+					"entries": [
+						"You have proficiency in the {@skill Stealth|phb} skill."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Para-genasi",
+			"source": "EARL",
+			"page": 108,
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"age": {
+				"mature": 18,
+				"max": 120
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Spellcasting",
+				"Uncommon Race"
+			],
+			"creatureTypes": [
+				"elemental"
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Para-genasi mature at about the same rate as humans and reach adulthood in their late teens. They live somewhat longer than humans do, up to 120 years."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Independent and self-reliant, para-genasi tend toward a neutral alignment."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Para-genasi are as varied as their mortal parents but are generally built like humans, standing anywhere from 5 feet to over 6 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an elemental."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			}
+		},
+		{
+			"name": "Plasmoid",
+			"source": "EARL",
+			"ability": [
+				{
+					"con": 2,
+					"dex": 1
+				}
+			],
+			"creatureTypes": [
+				"ooze"
+			],
+			"size": [
+				"S",
+				"M"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"resist": [
+				"acid",
+				"poison"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are an Ooze."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"You are Medium or Small. You choose the size when you select this race."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amorphous",
+					"entries": [
+						"You can squeeze through a space as narrow as 1 inch wide, provided you are wearing and carrying nothing. You have advantage on ability checks you make to initiate or escape a grapple."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hold Breath",
+					"entries": [
+						"You can hold your breath for 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Resilience",
+					"entries": [
+						"You have resistance to acid and poison damage, and you have advantage on saving throws against being {@condition poisoned|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shape Self",
+					"entries": [
+						"As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size.",
+						"As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can't attack, activate magic items, or lift more than 10 pounds."
+					]
 				}
 			],
 			"hasFluff": true,
@@ -4831,7 +7768,7 @@
 					"type": "entries",
 					"name": "Bite",
 					"entries": [
-						"You are proficient with your bite attack, which is a melee weapon attack that deals {@dice 1d6} piercing damage plus your Strength modifier."
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 					]
 				},
 				{
@@ -5064,7 +8001,7 @@
 					"type": "entries",
 					"name": "Claws",
 					"entries": [
-						"You are proficient with your claw attack, which is a melee weapon attack that deals {@dice 1d4} piercing damage plus your Strength modifier, and can be made to attack as a bonus action if one is free to do so."
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
 					]
 				},
 				{
@@ -5851,7 +8788,7 @@
 				{
 					"known": {
 						"1": [
-							"dancing lights#c"
+							"dancing lights#c|cooms"
 						]
 					},
 					"ability": "con"
@@ -5886,7 +8823,7 @@
 					"type": "entries",
 					"name": "Astral Fire",
 					"entries": [
-						"You know one of the following cantrips of your choice: {@spell dancing lights|phb}, {@spell light|phb}, or {@spell sacred flame|phb}. Constitution is your spellcasting ability for it."
+						"You know one of the following cantrips of your choice: {@spell dancing lights|cooms}, {@spell light|phb}, or {@spell sacred flame|phb}. Constitution is your spellcasting ability for it."
 					]
 				},
 				{
@@ -6055,7 +8992,7 @@
 								{
 									"type": "item",
 									"name": "Summer",
-									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Charisma modifier (minimum of 1 damage)."
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Constitution modifier (minimum of 1 damage)."
 								}
 							]
 						}
@@ -6678,7 +9615,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Ignan."
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Ignan}."
 					]
 				}
 			]
@@ -6776,6 +9713,363 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Githyanki",
+			"source": "EARL",
+			"raceName": "Gith",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"str": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 60,
+				"heightMod": "2d12",
+				"baseWeight": 100,
+				"weightMod": "2d4"
+			},
+			"traitTags": [
+				"Skill Proficiency",
+				"Tool Proficiency"
+			],
+			"weaponProficiencies": [
+				{
+					"shortsword|owl": true,
+					"longsword|owl": true,
+					"greatsword|owl": true
+				}
+			],
+			"armorProficiencies": [
+				{
+					"light": true,
+					"medium": true
+				}
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							]
+						}
+					]
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"jump"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"misty step"
+								]
+							}
+						}
+					},
+					"ability": "int",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Githyanki tend toward lawful evil. They are aggressive and arrogant, and they remain the faithful servants of their lich-queen, Vlaakith. Renegade githyanki tend toward chaos."
+					]
+				},
+				{
+					"name": "Decadent Mastery",
+					"entries": [
+						"You learn one language of your choice, and you are proficient with one skill or {@book tool|phb|5|tools} of your choice. In the timeless city of Tu'narath, githyanki have bountiful time to master odd bits of knowledge."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Martial Prodigy",
+					"entries": [
+						"You are proficient with light and medium armor and with {@item shortsword|OWL|shortswords}, {@item longsword|OWL|longswords}, and {@item greatsword|OWL|greatswords}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Githyanki Psionics",
+					"entries": [
+						"You know the {@spell mage hand|phb} cantrip, and the hand is {@condition invisible|phb} when you cast the cantrip with this trait.",
+						"When you reach 3rd level, you can cast {@spell jump|phb} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell misty step|phb} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
+						"Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Githzerai",
+			"source": "EARL",
+			"raceName": "Gith",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"wis": 2
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 59,
+				"heightMod": "2d12",
+				"baseWeight": 90,
+				"weightMod": "1d4"
+			},
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"shield|cooms"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"detect thoughts"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Githzerai tend toward lawful neutral. Their rigorous training in psychic abilities requires an implacable mental discipline."
+					]
+				},
+				{
+					"name": "Mental Discipline",
+					"entries": [
+						"You have advantage on saving throws against the {@condition charmed|phb} and {@condition frightened|phb} conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Githzerai Psionics",
+					"entries": [
+						"You know the {@spell mage hand|phb} cantrip, and the hand is {@condition invisible|phb} when you cast the cantrip with this trait.",
+						"When you reach 3rd level, you can cast {@spell shield|cooms} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell detect thoughts|phb} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
+						"Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true
+		},
+		{
+			"name": "Deep/Svirfneblin",
+			"source": "EARL",
+			"raceName": "Gnome",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"age": {
+				"mature": 25,
+				"max": 250
+			},
+			"darkvision": 120,
+			"languageProficiencies": [
+				{
+					"common": true,
+					"gnomish": true,
+					"undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Deep gnomes are short-lived for gnomes. They mature at the same rate humans do and are considered full-grown adults by 25. They live 200 to 250 years, although hard toil and the dangers of the Underdark often claim them before their time."
+					],
+					"data": {
+						"overwrite": "Age"
+					}
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Svirfneblin believe that survival depends on avoiding entanglements with other creatures and not making enemies, so they favor neutral alignments. They rarely wish others ill, and they are unlikely to take risks on behalf of others."
+					],
+					"data": {
+						"overwrite": "Alignment"
+					}
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"A typical svirfneblin stands about 3 to 3.5 feet tall and weighs 80 to 120 pounds. Your size is Small."
+					],
+					"data": {
+						"overwrite": "Size"
+					}
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"data": {
+						"overwrite": "Darkvision"
+					},
+					"type": "entries"
+				},
+				{
+					"name": "Stone Camouflage",
+					"entries": [
+						"You have advantage on Dexterity ({@skill Stealth|phb}) checks to hide in rocky terrain."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Gnomish|phb}, and {@language Undercommon|phb}. The svirfneblin dialect is more guttural than surface Gnomish, and most svirfneblin know only a little bit of Common, but those who deal with outsiders (and that includes you as an adventurer) pick up enough Common to get by in other lands."
+					],
+					"data": {
+						"overwrite": "Languages"
+					},
+					"type": "entries"
+				}
+			],
+			"overwrite": {
+				"languageProficiencies": true
+			},
+			"hasFluff": true
+		},
+		{
+			"name": "Forest",
+			"source": "EARL",
+			"raceName": "Gnome",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "int",
+					"known": {
+						"1": [
+							"minor illusion#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Natural Illusionist",
+					"entries": [
+						"You know the {@spell minor illusion|phb} cantrip. Intelligence is your spellcasting ability for it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Speak with Small Beasts",
+					"entries": [
+						"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Forest gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Rock",
+			"source": "EARL",
+			"raceName": "Gnome",
+			"raceSource": "EARL",
+			"srd": true,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"tinker's tools": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Artificer's Lore",
+					"entries": [
+						"Whenever you make an Intelligence ({@skill History|phb}) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Tinker",
+					"entries": [
+						"You have proficiency with artisan's tools ({@item tinker's tools|OWL}). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.",
+						"When you create a device, choose one of the following options:",
+						{
+							"type": "entries",
+							"name": "Clockwork Toy",
+							"entries": [
+								"This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fire Starter",
+							"entries": [
+								"The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Music Box",
+							"entries": [
+								"When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed."
+							]
+						}
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Duergar",
@@ -7557,6 +10851,514 @@
 			]
 		},
 		{
+			"name": "Astral",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Astral Fire.} You know one of the following cantrips of your choice: {@spell dancing lights|cooms}, {@spell light|phb}, or {@spell sacred flame|phb}. Constitution is your spellcasting ability for it.",
+						"{@b Starlight Step.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				}
+			]
+		},
+		{
+			"name": "Drow",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Spellcasting",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}.",
+						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Eladrin",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"creatureTypes": [
+				"fey"
+			],
+			"traitTags": [
+				"Skill Proficiency"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Fey Step.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.",
+						"{@i Regardless of whether or not you choose this feature, you must choose your eladrin's season: autumn, winter, spring, or summer. If you choose this feature, when you finish a long rest, you can change your season.}",
+						"When you reach 3rd level, your Fey Step gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
+						{
+							"type": "list",
+							"style": "list-hang-notitle",
+							"items": [
+								{
+									"type": "item",
+									"name": "Autumn",
+									"entry": "Immediately after you use your Fey Step, up to two creatures of your choice that you can see within 10 feet of you must succeed on a Wisdom saving throw or be {@condition charmed|phb} by you for 1 minute, or until you or your companions deal any damage to it."
+								},
+								{
+									"type": "item",
+									"name": "Winter",
+									"entry": "When you use your Fey Step, one creature of your choice that you can see within 5 feet of you before you teleport must succeed on a Wisdom saving throw or be {@condition frightened|phb} of you until the end of your next turn."
+								},
+								{
+									"type": "item",
+									"name": "Spring",
+									"entry": "When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you."
+								},
+								{
+									"type": "item",
+									"name": "Summer",
+									"entry": "Immediately after you use your Fey Step, each creature of your choice that you can see within 5 feet of you takes fire damage equal to your Constitution modifier (minimum of 1 damage)."
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a fey."
+					]
+				}
+			]
+		},
+		{
+			"name": "High",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Weapon Proficiency",
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pallid",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Incisive Sense.} You have advantage on Intelligence ({@skill Investigation|phb}) and Wisdom ({@skill Insight|phb}) checks.",
+						"{@b Blessing of the Moon Weaver.} You know the {@spell light|phb} cantrip. When you reach 3rd level, you can cast the {@spell sleep|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sea",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Amphibious",
+				"Skill Proficiency",
+				"Language Proficiency",
+				"Weapon Proficiency",
+				"Spellcasting"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Extra Language.} You can speak, read, and write {@language Primordial|phb|Aquan}",
+						"{@b Sea Elf Training.} You have proficiency with the {@item spear|OWL}, {@item trident|OWL}, {@item light crossbow|OWL}, and {@item net|OWL}.",
+						"{@b Child of the Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
+						"{@b Friend of the Sea.} Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed."
+					]
+				}
+			]
+		},
+		{
+			"name": "Shadar-kai",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Damage Resistance"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Necrotic Resistance.} You have resistance to necrotic damage.",
+						"{@b Blessing of the Raven Queen.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.",
+						"Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wood",
+			"source": "EARL",
+			"raceName": "Half-Elf",
+			"raceSource": "EARL",
+			"traitTags": [
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"entries": [
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
+						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
+					]
+				}
+			]
+		},
+		{
+			"name": "Ghostwise",
+			"source": "EARL",
+			"raceName": "Halfling",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Silent Speech",
+					"entries": [
+						"You can speak telepathically to any creature within 30 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lightfoot",
+			"source": "EARL",
+			"raceName": "Halfling",
+			"raceSource": "EARL",
+			"srd": true,
+			"basicRules": true,
+			"ability": [
+				{
+					"cha": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Naturally Stealthy",
+					"entries": [
+						"You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lotusden",
+			"source": "EARL",
+			"raceName": "Halfling",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"entangle"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"spike growth"
+								]
+							}
+						}
+					},
+					"ability": "wis",
+					"known": {
+						"1": [
+							"druidcraft#c|cooms"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Child of the Wood",
+					"entries": [
+						"You know the {@spell druidcraft|cooms} cantrip. When you reach 3rd level, you can cast the {@spell entangle|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell spike growth|phb} spell once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Wisdom is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Timberwalk",
+					"entries": [
+						"Ability checks made to track you have disadvantage, and you can move across {@quickref difficult terrain|phb|3} made of nonmagical plants and undergrowth without expending extra movement."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Stout",
+			"source": "EARL",
+			"raceName": "Halfling",
+			"raceSource": "EARL",
+			"basicRules": true,
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"entries": [
+				{
+					"name": "Stout Resilience",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Hunker",
+			"source": "EARL",
+			"raceName": "Hedge",
+			"raceSource": "EARL",
+			"basicRules": true,
+			"ability": [
+				{
+					"con": 2,
+					"wis": 1
+				}
+			],
+			"speed": {
+				"walk": 25,
+				"burrow": 15
+			},
+			"entries": [
+				{
+					"name": "Hunkered Curl",
+					"entries": [
+						"You can use your action to curl up, exposing attackers to a wall of your toughened quills. Until you uncurl, your natural armor changes to an AC of 16 + your Constitution modifier, and you have advantage on Strength and Constitution saving throws. While curled up, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to uncurl.",
+						"Additionally, while you are curled up, if you are either unarmored or wearing spiked leather, spiked armor, or spike mail, your spines jut out. Any creature who misses a melee attack against you while within 5 feet of you, hits you with an unarmed attack, or touches you takes a number of {@dice d4} piercing damage equal to your proficiency bonus. This ability does not stack with the damage done by your natural armor, replacing it instead."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Burrowers",
+					"entries": [
+						"You have a burrowing speed of 15 feet. You are capable of burrowing through soil, but are unable to dig through anything more substantial with just your clawed hands."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Roller",
+			"source": "EARL",
+			"raceName": "Hedge",
+			"raceSource": "EARL",
+			"basicRules": true,
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"speed": {
+				"walk": 30
+			},
+			"entries": [
+				{
+					"name": "Rolling Curl",
+					"entries": [
+						"You can use your bonus action to curl up, using your toughened quills to become a spinning ball of spikes. Until you uncurl, you move around by rolling, you can't take reactions, and the only actions you can take are the dash action, a special slamming attack action, and a bonus action to uncurl. While you are curled up, you can make a special unarmed attack by slamming your rolling body into an enemy. Make a melee weapon attack against an enemy within 5 feet of yourself. If you are either unarmored or wearing spiked leather, spiked armor, or spike mail, this attack does {@dice 2d4} + your Strength modifier piercing damage. Otherwise, this attack does {@dice 1d6} + your Strength modifier bludgeoning damage. If you charge at your target by rolling at least 20 feet in a straight line towards them immediately before attacking them with a slam attack, you may roll twice the damage die that you normally would for that slam.",
+						"Additionally, while you are curled up, if you are either unarmored or wearing spiked leather, spiked armor, or spike mail, your spines jut out. Any creature who misses a melee attack against you while within 5 feet of you, hits you with an unarmed attack, or touches you takes a number of {@dice d4} piercing damage equal to your proficiency bonus. This ability does not stack with the damage done by your natural armor, replacing it instead."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Spinning Blur",
+					"entries": [
+						"Your walking speed increases to 30 feet."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"source": "EARL",
+			"raceName": "Human",
+			"raceSource": "EARL",
+			"srd": true,
+			"basicRules": true,
+			"ability": [
+				{
+					"str": 1,
+					"dex": 1,
+					"con": 1,
+					"int": 1,
+					"wis": 1,
+					"cha": 1
+				}
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							],
+							"count": 3
+						}
+					]
+				}
+			],
+			"entries": [
+				{
+					"name": "Human Versatility",
+					"entries": [
+						"You gain proficiency in three skills or tools of your choice."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Variant",
+			"source": "EARL",
+			"raceName": "Human",
+			"raceSource": "EARL",
+			"basicRules": true,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 2
+					}
+				}
+			],
+			"feats": [
+				{
+					"any": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Skills",
+					"entries": [
+						"You gain proficiency in one skill of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Feat",
+					"entries": [
+						"You gain one {@5etools feat|feats.html} of your choice."
+					],
+					"type": "entries"
+				}
+			]
+		},
+		{
 			"name": "Cactus",
 			"source": "EARL",
 			"raceName": "Leshy",
@@ -7940,7 +11742,7 @@
 				}
 			],
 			"speed": {
-				"walk": 30,
+				"walk": 25,
 				"swim": true
 			},
 			"traitTags": [
@@ -8216,6 +12018,968 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": false
+		},
+		{
+			"name": "Ash",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"resist": [
+				"fire"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"flaming sphere"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"hellish rebuke"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"create bonfire#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"ignan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Ashen One",
+					"entries": [
+						"Your body has cracks in it that appear to be burning underneath, like a log on a dying fireplace. The instant you die, you can choose to instantly emerge from ashes left at the last place that you took a short or long rest (whichever is more recent). Your body reforms completely healed of any lingering injuries your previous body had, any and all missing limbs are restored, but you retain your previous age and any curses upon you. Once you reform in this way, your old body immediately collapses to ash, leaving behind all of your belongings and making it unable to be revived. Your new body instead looks cracked and hollow, giving you a -5 penalty to your Charisma ability score, halving your maximum hit points, and disabling both your resistance to fire as well as the innate spellcasting gained from your Champion of Ash feature.",
+						"You are not able to reform in this way again until you collect the embers of your last dead body and burn them in a brass brazier with ruby dust worth at least 1,300 gp over the course of a short rest. After the short rest, your body returns to as it was, regaining your previous appearance, fire resistance, innate spellcasting, Charisma score, maximum hit points, alongside healing to your new maximum hit points.",
+						"Your embers will appear as a congealed clump of ash and dying fire, vaguely resembling a heart, that call out to you. You can detect their presence innately as if you were under the effect of a {@spell Detect Magic|phb} spell.",
+						"The embers appear to be of the school Evocation. Should they be destroyed, the ritual is impossible, and the only ways to undo the penalties given by this feature is to be affected by the spells {@spell Reincarnate|cooms}, {@spell True Resurrection|phb}, or {@spell Wish|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fire Resistance",
+					"entries": [
+						"You have resistance to fire damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Champion of Ash",
+					"entries": [
+						"You know the {@spell create bonfire|cooms} cantrip. Starting at 3rd level, you can cast the {@spell hellish rebuke|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell flaming sphere|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Ignan}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Dust",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"int": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"dust devil"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"sleep"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"blade ward#c"
+						]
+					},
+					"known": {
+						"1": [
+							"magic stone#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"auran": true,
+					"terran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Master of Sleep",
+					"entries": [
+						"You have perfected the art of the nap. You can take more than one long rest within 24 hours, and can go to sleep whenever you wish. This also means that magic can't put you to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Dust Resistance",
+					"entries": [
+						"You learn the {@spell blade ward|phb} cantrip and can cast it as a bonus action a number of times equal to your proficiency bonus per short rest, as you cause your skin to turn to sand and reform next round."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Sink into the Sand",
+					"entries": [
+						"You know the {@spell magic stone|xge} cantrip. Starting at 3rd level, you can cast the {@spell sleep|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell dust devil|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}, {@language primordial|phb|Auran}, and {@language primordial|phb|Terran}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ice",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"con": 2,
+					"wis": 1
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"sniloc's snowball swarm"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"armor of agathys"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"frostbite#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"aquan": true,
+					"auran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Buoyant",
+					"entries": [
+						"You constantly freeze any water that touches you, up to half an inch thick from your skin. While not wearing heavy armor, you are under the effects of the {@spell Water Walk|phb} spell. You may focus on suppressing this feature as an action, which you can do for as long as you maintain concentration as if you were concentrating on a spell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cold Resistance",
+					"entries": [
+						"You have resistance to cold damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Deposit into the Frozen",
+					"entries": [
+						"You know the {@spell frostbite|xge} cantrip. Starting at 3rd level, you can cast the {@spell armor of agathys|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell snilloc's snowball swarm|xge} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}, {@language Primordial|phb|Aquan} and {@language primordial|phb|Auran}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Lightning",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"str": 1
+				}
+			],
+			"speed": 35,
+			"resist": [
+				"lightning"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"shock pulse"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"witch bolt"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"shocking grasp#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"auran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Lightning Fast",
+					"entries": [
+						"Your base walking speed increases to 35 feet. Additionally, you are able to generate static electricity from your fingertips at will, allowing you to lightly shock creatures at your leisure (not enough to deal damage). As a bonus action, by pinching your thumb and index fingers close together but not letting them touch, you are able to create a spark that carries enough energy to ignite an object as if you were using a tinderbox."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Lightning Resistance",
+					"entries": [
+						"You have resistance to lightning damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Ride the Lightning",
+					"entries": [
+						"You know the {@spell shocking grasp|phb} cantrip. Starting at 3rd level, you can cast the {@spell witch bolt|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell shock pulse|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Auran}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Magma",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"resist": [
+				"fire"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"heat metal"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"searing smite"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"green-flame blade#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"ignan": true,
+					"terran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Feed the Forge",
+					"entries": [
+						"Your body is magmatic like a volcano, and repurposes metal you feed it to sustain itself. Instead of eating like a normal genasi, you can choose to eat 1 lb of fuel and 1 lb of metal in order to sustain yourself for the day. Fuel could be any flammable substance such as cloth, wood, coal, charcoal, or oil. Eating sharp objects is not without consequence. Before they are melted, they still cut your form on the way down. Whenever you eat a sharp weapon, you must take damage equal to a roll of its damage die as it slides into your form. Small pointed objects like nails or caltrops deal {@dice 1d2-1} damage as they enter your form. If a projectile such as an arrow or dagger is shot or thrown into you and does not go through you, you are able to eat it without taking further damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fire Resistance",
+					"entries": [
+						"You have resistance to fire damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Melt into the Magma",
+					"entries": [
+						"You know the {@spell green-flame blade|tce} cantrip. Starting at 3rd level, you can cast the {@spell searing smite|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell heat metal|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}, {@language primordial|phb|Ignan} and {@language primordial|phb|Terran}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Mineral",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"mirror image"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"color spray"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"blade ward#c"
+						]
+					},
+					"known": {
+						"1": [
+							"light#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"terran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Pretty Colors",
+					"entries": [
+						"While any part of your body is under the effects of magical light, your body shines a dazzling display of color. You shine bright multicolored light out to 30 feet, and dim multicolored light out to an additional 30 feet. The bright portion of this light makes any creature with Sunlight Sensitivity suffer its effects as though it were Sunlight, despite not being Sunlight. Creatures with Sun Sickness, Sunlight Hypersensitivity, and the like take no damage from the light. Any time you take radiant damage, you shine in a similar fashion for 1 minute."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Crystal Resistance",
+					"entries": [
+						"You learn the {@spell blade ward|phb} cantrip and can cast it as a bonus action a number of times equal to your proficiency bonus per short rest, as you cause your beautiful body to momentarily harden and crystallize."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shine like a Diamond",
+					"entries": [
+						"You know the {@spell light|phb} cantrip. Starting at 3rd level, you can cast the {@spell color spray|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell mirror image|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}, and {@language primordial|phb|Terran}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ooze",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"con": 2,
+					"dex": 1
+				}
+			],
+			"resist": [
+				"acid"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"melf's acid arrow"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"grease"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"acid splash#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"aquan": true,
+					"terran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Slippery and Sticky",
+					"entries": [
+						"You have advantage on all checks related to tumbling and grappling, including improving and impairing stance."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Acid Resistance",
+					"entries": [
+						"You have resistance to acid damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Bubble in the Swamp",
+					"entries": [
+						"You know the {@spell acid splash|phb} cantrip. Starting at 3rd level, you can cast the {@spell grease|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell melf's acid arrow|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}, {@language Primordial|phb|Aquan} and {@language primordial|phb|Terran}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Radiance",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"cha": 2,
+					"wis": 1
+				}
+			],
+			"resist": [
+				"radiant"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"holy ascension"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"guiding bolt"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"sacred flame#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"ignan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Glowing Form",
+					"entries": [
+						"Your body naturally glows a warm color. You shine bright light out to 30 feet, and dim light out to an additional 30 feet, and can choose to dim this at will to half the light. As a bonus action, you can change this light to only shine from your eyes, doubling its range but making it only shine in a cone similar to a bullseye lantern."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Radiant Resistance",
+					"entries": [
+						"You have resistance to radiant damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Bask in the Brilliance",
+					"entries": [
+						"You know the {@spell sacred flame|phb} cantrip. Starting at 3rd level, you can cast the {@spell guiding bolt|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell holy ascension|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Ignan}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Salt",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"resist": [
+				"necrotic"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"ray of enfeeblement"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"inflict wounds"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"bloodletting#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"aquan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Salty Soul",
+					"entries": [
+						"Your body can dehydrate without negative consequence. You do not suffer the effects of dehydration beyond a dry appearance, such as cracked lips. Additionally, by touching any raw meat for 1 minute, you are able to dry it to last as if it were salted."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Necrotic Resistance",
+					"entries": [
+						"You have resistance to necrotic damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Salt the Wounds",
+					"entries": [
+						"You know the {@spell bloodletting|cooms} cantrip. Starting at 3rd level, you can cast the {@spell inflict wounds|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell ray of enfeeblement|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Aquan}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Smoke",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"int": 1
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"toxic mist"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"combustion"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"poison spray#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"auran": true,
+					"ignan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Black Lungs",
+					"entries": [
+						"When you exhale, you breathe out smoke, regardless of what you breathe in, as your body produces it naturally. This smoke production leads to a natural resistance your body has towards toxins, giving you advantage on saving throws against being Poisoned. This also means that where you would naturally become Suffocated, you instead become Poisoned as the smoke in your form builds up from you not exhaling to expel the smoke and not inhaling anything to dilute it."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Poison Resistance",
+					"entries": [
+						"You have resistance to posion damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Choke on the Smoke",
+					"entries": [
+						"You know the {@spell poison spray|phb} cantrip. Starting at 3rd level, you can cast the {@spell combustion|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell toxic mist|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}, {@language primordial|phb|Auran} and {@language primordial|phb|Ignan}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Steam",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"str": 1
+				}
+			],
+			"resist": [
+				"fire"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"blur"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"fog cloud"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"minor illusion#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"aquan": true,
+					"ignan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Keen Eyed, Hot Tempered",
+					"entries": [
+						"You can see through smoke, fog, mist, and other atmospheric effects unusually well. Objects and creatures lightly obscured by such phenomena are instead not obscured to you. Additionally, when you are particularly furious, the sound of a kettle boiling can be heard as steam shoots out of your ears."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fire Resistance",
+					"entries": [
+						"You have resistance to fire damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mirage in the Mist",
+					"entries": [
+						"You know the {@spell minor illusion|phb} cantrip. Starting at 3rd level, you can cast the {@spell fog cloud|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell blur|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}, {@language primordial|phb|Aquan} and {@language primordial|phb|Ignan}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Vacuum",
+			"source": "EARL",
+			"raceName": "Para-genasi",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"int": 1
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"levitate"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"magnify gravity"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"dancing lights#c"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"auran": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Vacuous Hunger",
+					"entries": [
+						"You can eat and drink as well as retain the benefits of 5 times more food and drink than an equivalent creature of your size, but must eat and drink 3 times more than the average person to not starve. No matter how much you eat, you always appear bone-thin."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cold Resistance",
+					"entries": [
+						"You have resistance to cold damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fade into the Void",
+					"entries": [
+						"You know the {@spell dancing lights|cooms} cantrip. Starting at 3rd level, you can cast the {@spell magnify gravity|cooms} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell levitate|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}, and {@language primordial|phb|Auran}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		}
 	]
 }
