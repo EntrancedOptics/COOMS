@@ -14731,6 +14731,91 @@
       }
     },
     {
+      "name": "Revivify",
+      "source": "COOMS",
+      "level": 3,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "a diamond worth at least 300 gp, which the spell consumes",
+          "cost": 30000,
+          "consume": true
+        }
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts. This spell can't return an undead creature to life, and has no effect on constructs."
+      ],
+      "affectsCreatureType": [ "undead" ],
+      "miscTags": [ "HL" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },          
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },         
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },          
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },          
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Rime's Binding Ice",
       "source": "COOMS",
       "level": 3,
@@ -17556,6 +17641,65 @@
             "name": "Druid",
             "source": "THICC"
           }
+        ]
+      }
+    },
+    {
+      "name": "True Resurrection",
+      "source": "COOMS",
+      "level": 9,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "hour"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes",
+          "cost": 2500000,
+          "consume": true
+        }
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. If the creature's soul is free and willing, the creature is restored to life with all its hit points.",
+        "This spell closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was undead, it is restored to its non-undead form. This spell has no effect on constructs.",
+        "The spell can even provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you."
+      ],
+      "affectsCreatureType": [ "undead" ],
+      "miscTags": [ "HL" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },          
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          }        
         ]
       }
     },
