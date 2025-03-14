@@ -13397,14 +13397,6 @@
       "classes": {
         "fromClassList": [
           {
-            "name": "Bard",
-            "source": "PHB"
-          },
-          {
-            "name": "Bard",
-            "source": "THICC"
-          },
-          {
             "name": "Cleric",
             "source": "PHB"
           },
@@ -14715,14 +14707,6 @@
       "miscTags": [ "HL" ],
       "classes": {
         "fromClassList": [
-          {
-            "name": "Bard",
-            "source": "PHB"
-          },
-          {
-            "name": "Bard",
-            "source": "THICC"
-          },
           {
             "name": "Cleric",
             "source": "PHB"
