@@ -353,6 +353,13 @@
 					]
 				},
 				{
+					"type": "entries",
+					"name": "One of a Kind",
+					"entries": [
+						"When you die, the magic used in your creation is released into the world, just as it would with any other broken magic item. If your body is somehow reanimated, you will not be the same person, acting as a new character, only retaining the things that are inherent to your old body such as any modifications you made to it."
+					]
+				},
+				{
 					"name": "Language",
 					"entries": [
 						"You can understand and speak {@language Common|phb} and {@language Gnomish|phb}"
@@ -2497,7 +2504,7 @@
 						"from": [
 							"animal handling",
 							"deception",
-							"slight of hand",
+							"sleight of hand",
 							"survival"
 						],
 						"count": 1
@@ -3350,9 +3357,6 @@
 			"name": "Half-Goblin",
 			"source": "EARL",
 			"page": 40,
-			"reprintedAs": [
-				"Half-Goblin|EARL"
-			],
 			"size": [
 				"S"
 			],
@@ -3434,24 +3438,44 @@
 					"type": "entries",
 					"name": "Natural Cowards",
 					"entries": [
-						"You have proficiency in {@skill Stealth}, and prefer underhanded tactics, allowing you to additionally gain proficiency in either {@skill Animal Handling}, {@skill Deception}, {@skill Sleight of Hand}, or {@skill Survival}."
+						"You have proficiency in {@skill Stealth|phb}, and prefer underhanded tactics, allowing you to additionally gain proficiency in either {@skill Animal Handling|phb}, {@skill Deception|phb}, {@skill Sleight of Hand|phb}, or {@skill Survival|phb}."
 					]
 				},
 				{
 					"type": "inset",
 					"name": "Variant Feature (Choose 1)",
 					"entries": [
-						"Choose one of the following options:",
-						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Fury of the Small.} When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest.",
-						"{@b Nimble Escape.} You can take the {@action Disengage|phb} or {@action Hide|phb} action as a bonus action on each of your turns."
-					]
+						{
+							"name": "Skill Versatility",
+							"entries": [
+								"You gain proficiency in two skills of your choice."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Fury of the Small",
+							"entries": [
+								"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest."
+							],
+							"type": "entries"
+						},
+						{
+							"name": "Nimble Escape",
+							"entries": [
+								"You can take the {@action Disengage|phb} or {@action Hide|phb} action as a bonus action on each of your turns."
+							],
+							"type": "entries"
+						}
+					],
+					"data": {
+						"overwrite": "Skill Versatility"
+					}
 				},
 				{
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Goblin."
+						"You can understand and speak {@language Common|phb} and {@language Goblin|phb}."
 					]
 				}
 			],
@@ -3460,7 +3484,65 @@
 				"heightMod": "2d4",
 				"baseWeight": 35,
 				"weightMod": "1"
-			}
+			},
+			"_versions": [
+				{
+					"name": "Half-Goblin; Skill Versatility",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Variant Feature (Choose 1)",
+							"items": {
+								"name": "Variant Feature; Skill Versatility",
+								"type": "entries",
+								"entries": [
+									"You gain proficiency in two skills of your choice."
+								]
+							}
+						}
+					},
+					"skillProficiencies": [
+						{
+							"any": 2
+						}
+					]
+				},
+				{
+					"name": "Half-Goblin; Fury of the Small",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Variant Feature (Choose 1)",
+							"items": {
+								"name": "Variant Feature; Fury of the Small",
+								"type": "entries",
+								"entries": [
+									"When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you use this trait, you can't use it again until you finish a short or long rest."
+								]
+							}
+						}
+					}
+				},
+				{
+					"name": "Half-Goblin; Nimble Escape",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Variant Feature (Choose 1)",
+							"items": {
+								"name": "Variant Feature; Nimble Escape",
+								"type": "entries",
+								"entries": [
+									"You can take the {@action Disengage|phb} or {@action Hide|phb} action as a bonus action on each of your turns."
+								]
+							}
+						}
+					}
+				}
+			]
 		},
 		{
 			"name": "Half-Harengon",
@@ -7652,6 +7734,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "One of a Kind",
+					"entries": [
+						"When you die, the magic used in your creation is released into the world, just as it would with any other broken magic item. If your body is somehow reanimated, you will not be the same person, acting as a new character, only retaining the things that are inherent to your old body such as any modifications you made to it."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Loose Ties",
 					"entries": [
 						"You have disadvantage on Death Saves, as your life is loosely bound to the thread you walk in."
@@ -7662,6 +7751,401 @@
 					"name": "Languages",
 					"entries": [
 						"You can understand and speak {@language Common} and one other language of its master."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Satyr",
+			"source": "EARL",
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"M"
+			],
+			"speed": 35,
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d8",
+				"baseWeight": 100,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Magic Resistance",
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"performance": true,
+					"persuasion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"sylvan": true
+				}
+			],
+			"toolProficiencies": [
+				{
+					"anyMusicalInstrument": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Satyrs mature and age at about the same rate as humans."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Satyrs delight in living a life free of the mantle of law. They gravitate toward being good, but some have devious streaks and enjoy causing dismay."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Satyrs range from just under 5 feet to about 6 feet in height, with generally slender builds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Fey",
+					"entries": [
+						"Your creature type is fey, rather than humanoid."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Ram",
+					"entries": [
+						"You can use your head and horns to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@damage 1d4} + your Strength modifier."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"You have advantage on saving throws against spells and other magical effects."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Mirthful Leaps",
+					"entries": [
+						"Whenever you make a long or high jump, you can roll a {@dice d8} and add the number rolled to the number of feet you cover, even when making a standing jump. This extra distance costs movement as normal."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Reveler",
+					"entries": [
+						"You have proficiency in the {@skill Performance|phb} and {@skill Persuasion|phb} skills, and you have proficiency with one {@item musical instrument|OWL} of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Sylvan|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Shader-blaidd",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"dex": 1
+				}
+			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Darkvision",
+				"Natural Weapon",
+				"Uncommon Race",
+				"Damage Resistance",
+				"Sunlight Sensitivity"
+			],
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"resist": [
+				{
+					"resist": [
+						"bludgeoning",
+						"piercing",
+						"slashing"
+					],
+					"note": "from nonmagical attacks that aren't silvered",
+					"cond": true
+				}
+			],
+			"vulnerable": [
+				"radiant"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Shadar-blaidd, due to their werewolf origins, mature at the same rate as a human, but due to their corrupted nature, are considered lucky to live half as long."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Shadar-blaidd are natural hunters, preferring to stick together hunting like wolves, and tend towards Chaotic Evil."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Shadar-blaidd normally tower over humans, but some have been known to be around human height, being between 5 to 7 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodsense",
+					"entries": [
+						"If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. {@filter constructs|bestiary|type=construct}, {@filter elementals|bestiary|type=elemental}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, and {@filter undead|bestiary|type=undead} are immune to the effects of this sense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fearsmell",
+					"entries": [
+						"Your ability to smell is so refined that you can literally smell the fear given off nearby creatures. Among the creatures affected by your bloodsense, you are able to determine which among them has the lowest HP, as you can smell who is most afraid. Any creatures immune to being {@condition frightened|phb} are likewise exempt from this ability. This ability is also disrupted if any of those creatures are {@condition frightened|phb}, as you always smell them as being the most afraid. If multiple creatures within your bloodsense are {@condition frightened|phb}, the creature with the lowest HP is who you can smell as being the most afraid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Shadowshape",
+					"entries": [
+						"As an action, you can make use of your corrupted, unstable nature bestowed onto your kind by Shadowfell by merging your form with your shadow. When you take the action or as an action thereafter on any turn while you are in this form, you can change your shape to be of a creature one size larger or smaller than your true form, allowing you to deceive creatures from your true nature. If you change your size using this feature, you still count as a Medium creature when determining your carrying capacity and the weight you can push, drag, or lift. Staying in this new form requires concentration, as if you were casting a spell. While in this form, you gain the following traits:",
+						{
+							"type": "list",
+							"items": [
+								"You turn completely black and cast no shadow.",
+								"Anything nonliving that is being worn or carried by you is merged with your form.",
+								"You have advantage on {@skill Stealth|phb} and {@skill Deception|phb} checks made to hide or pretend to be another creature while in total darkness to any creature beyond 30 feet of yourself. You have disadvantage on these checks while in bright light.",
+								"Equipment merged with your form becomes unusable to you while in this form, though you still retain the AC granted to you by your worn armor, shields not included.",
+								"You may use your natural weapons to attack while in this form.",
+								"You may cast spells in this form so long as they require no M component.",
+								"You are able to use 5 feet of movement to press yourself against a solid surface such as a wall or floor in such a way that you appear flat, allowing you to slip through cracks in walls as thin as a sheet of paper but no shorter than 2.5 feet tall in at least 1 dimension. You may use 5 feet of movement to emerge from this state. While pressed against a floor, you are Prone. While in this state, you may attack creatures within 5 feet of the surface by emerging parts of your body from the surface (without expending movement). Unless directly pressed against or standing on the surface you are flattened on, enemies do not halt your movement.",
+								"As a bonus action, you can extrude a tendril that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this tendril to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The tendril contains no sensory organs and can't attack, activate magic items, or lift more than 10 pounds."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lycanthropic Resistance",
+					"entries": [
+						"You are resistant to bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered. Additionally, you cannot contract another form of Lycanthropy."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Radiant Vulnerability",
+					"entries": [
+						"You are vulnerable to radiant damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Unstable Form",
+					"entries": [
+						"You have disadvantage on Constitution and Charisma saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pack Tactics",
+					"entries": [
+						"You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivity",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb}."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 70,
+				"heightMod": "2d10",
+				"baseWeight": 270,
+				"weightMod": "1d4"
+			}
+		},
+		{
+			"name": "Shifter",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d8",
+				"baseWeight": 90,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 10,
+				"max": 70
+			},
+			"darkvision": 60,
+			"languageProficiencies": [
+				{
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Shifters are quick to mature both physically and emotionally, reaching young adulthood at age 10. They rarely live to be more than 70 years old."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Shifters tend toward neutrality, being more focused on survival than concepts of good and evil. A love of personal freedom can drive shifters toward chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shifting",
+					"entries": [
+						"As a bonus action, you can assume a more bestial appearance. This transformation lasts for 1 minute, until you die, or until you revert to your normal appearance as a bonus action. When you shift, you gain temporary hit points equal to your level + your Constitution modifier (minimum of 1 temporary hit point). You also gain additional benefits that depend on your shifter subrace, described below.",
+						"Once you shift, you can't do so again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}."
 					]
 				}
 			],
@@ -7761,7 +8245,7 @@
 					"type": "entries",
 					"name": "Conniving",
 					"entries": [
-						"You are proficient in two of the following skills: {@skill Deception}, {@skill Insight}, {@skill Perception}, {@skill Sleight of Hand}, and {@skill Stealth}."
+						"You are proficient in two of the following skills: {@skill Deception|phb}, {@skill Insight|phb}, {@skill Perception|phb}, {@skill Sleight of Hand|phb}, and {@skill Stealth|phb}."
 					]
 				},
 				{
@@ -7782,14 +8266,14 @@
 					"type": "entries",
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand, read and write {@language Common} and {@language Undercommon}."
+						"You can understand, read and write {@language Common|phb} and {@language Undercommon|phb}."
 					]
 				}
 			],
@@ -7797,7 +8281,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Thri-kreen (Tribal)",
+			"name": "Thri-kreen (Psionic)",
 			"source": "EARL",
 			"page": 75,
 			"size": [
@@ -7853,7 +8337,7 @@
 					"name": "Chameleon Carapace",
 					"entries": [
 						"While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.",
-						"As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity ({@skill Stealth}) checks made to hide in those surroundings."
+						"As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity ({@skill Stealth|phb}) checks made to hide in those surroundings."
 					]
 				},
 				{
@@ -7888,13 +8372,13 @@
 					"type": "entries",
 					"name": "Insect Mouth",
 					"entries": [
-						"Without the assistance of magic, you can't speak the non-thri-kreen languages you know. However, your mouth enables you to make a special unarmed attack in which you use your poisonous bite. A creature hit by your bite takes {@dice 1d6} piercing damage and must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition Poisoned} for 1 minute. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success. At level 5, your bite becomes so toxic that enemies {@condition Poisoned} in this way are also {@condition Paralyzed}."
+						"Without the assistance of magic, you can't speak the non-thri-kreen languages you know. However, your mouth enables you to make a special unarmed attack in which you use your poisonous bite. A creature hit by your bite takes {@dice 1d6} piercing damage and must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition Poisoned|phb} for 1 minute. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success. At level 5, your bite becomes so toxic that enemies {@condition Poisoned|phb} in this way are also {@condition Paralyzed|phb}."
 					]
 				},
 				{
 					"name": "Thri-kreen Weapon Training",
 					"entries": [
-						"You have proficiency with the Gythka and the Chatkcha."
+						"You have proficiency with the {@item Gythka|OWL} and the {@item Chatkcha|OWL}."
 					],
 					"type": "entries"
 				},
@@ -7902,6 +8386,253 @@
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tortle",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"mature": 15,
+				"max": 50
+			},
+			"traitTags": [
+				"Natural Armor",
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"aquan": true,
+					"common": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Young tortles crawl for a few weeks after birth before learning to walk on two legs. They reach adulthood by the age of 15 and live an average of 50 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Tortles tend to lead orderly, ritualistic lives. They develop customs and routines, becoming more set in their ways as they age. Most are lawful good. A few can be selfish and greedy, tending more toward evil, but it's unusual for a tortle to shuck off order in favor of chaos."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tortle adults stand 5 to 6 feet tall and average 450 pounds. Their shells account for roughly one-third of their weight. Your size is Medium."
+					]
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hold Breath",
+					"entries": [
+						"You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Natural Armor",
+					"entries": [
+						"Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Shell Defense",
+					"entries": [
+						"You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are {@condition prone}, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Survival Instinct",
+					"entries": [
+						"You gain proficiency in the {@skill Survival|phb} skill. Tortles have finely honed survival instincts."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language primordial|phb|Aquan} and {@language Common|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Triton",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": 30
+			},
+			"ability": [
+				{
+					"str": 1,
+					"cha": 1,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 54,
+				"heightMod": "2d10",
+				"baseWeight": 90,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 15,
+				"max": 200
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Amphibious"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"primordial": true
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/triton.mp3"
+			},
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": {
+							"daily": {
+								"1": [
+									"fog cloud|phb"
+								]
+							}
+						},
+						"3": {
+							"daily": {
+								"1": [
+									"gust of wind|phb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"wall of water|COOMS"
+								]
+							}
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tritons reach maturity around age 15 and can live up to 200 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Tritons tend toward neutrality. Their culture encourages them to be mindful of life's currents, knowing when to harness fate's tides and when to flow along with them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tritons are slightly shorter than humans, averaging about 5 feet tall. Your size is Medium."
+					]
+				},
+				{
+					"name": "Swim Speed",
+					"entries": [
+						"You have a swimming speed of 30 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Control Air and Water",
+					"entries": [
+						"A child of the sea, you can call on the magic of elemental air and water. You can cast {@spell fog cloud|phb} with this trait. Starting at 3rd level, you can cast {@spell gust of wind|phb} with it, and starting at 5th level, you can also cast {@spell wall of water|COOMS} with it. Once you cast a spell with this trait, you can't cast that spell with it again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Darkvision",
+					"type": "entries",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Emissary of the Sea",
+					"entries": [
+						"Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Guardians of the Depths",
+					"entries": [
+						"Adapted to even the most extreme ocean depths, you have resistance to cold damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Primordial|phb}."
 					],
 					"type": "entries"
 				}
@@ -7980,7 +8711,7 @@
 					"type": "entries",
 					"name": "Keen Smell",
 					"entries": [
-						"You have advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on smell."
 					]
 				},
 				{
@@ -7994,7 +8725,7 @@
 					"type": "entries",
 					"name": "Fearsmell",
 					"entries": [
-						"Your ability to smell is so refined that you can literally smell the fear given off nearby creatures. Among the creatures affected by your bloodsense, you are able to determine which among them has the lowest HP, as you can smell who is most afraid. Any creatures immune to being {@condition frightened} are likewise exempt from this ability. This ability is also disrupted if any of those creatures are {@condition frightened}, as you always smell them as being the most afraid. If multiple creatures within your bloodsense are {@condition frightened}, the creature with the lowest HP is who you can smell as being the most afraid."
+						"Your ability to smell is so refined that you can literally smell the fear given off nearby creatures. Among the creatures affected by your bloodsense, you are able to determine which among them has the lowest HP, as you can smell who is most afraid. Any creatures immune to being {@condition frightened|phb} are likewise exempt from this ability. This ability is also disrupted if any of those creatures are {@condition frightened|phb}, as you always smell them as being the most afraid. If multiple creatures within your bloodsense are {@condition frightened|phb}, the creature with the lowest HP is who you can smell as being the most afraid."
 					]
 				},
 				{
@@ -8008,13 +8739,13 @@
 					"type": "entries",
 					"name": "Stench",
 					"entries": [
-						"Any creature that can smell other than a troglodyte that starts its turn within 5 feet of you must succeed on a Constitution saving throw versus your Constitution DC (8 + Proficiency Bonus + Constitution modifier) or be {@condition poisoned} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour."
+						"Any creature that can smell other than a troglodyte that starts its turn within 5 feet of you must succeed on a Constitution saving throw versus your Constitution DC (8 + Proficiency Bonus + Constitution modifier) or be {@condition poisoned|phb} until the start of the creature's next turn. On a successful saving throw, the creature is immune to the stench of all troglodytes for 1 hour."
 					]
 				},
 				{
 					"name": "Chameleon Skin",
 					"entries": [
-						"You have advantage on Dexterity ({@skill Stealth}) checks made to hide."
+						"You have advantage on Dexterity ({@skill Stealth|phb}) checks made to hide."
 					],
 					"type": "entries"
 				},
@@ -8029,13 +8760,507 @@
 					"name": "Sunlight Sensitivity",
 					"type": "entries",
 					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
 					]
 				},
 				{
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write {@language Common|phb} and {@language Troglodyte|mm}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Verdan",
+			"source": "EARL",
+			"size": [
+				"V"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 1,
+					"cha": 2
+				}
+			],
+			"age": {
+				"mature": 24,
+				"max": 200
+			},
+			"skillProficiencies": [
+				{
+					"persuasion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"goblin": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Verdan reach adulthood at around the age of 24, and it is thought that they might live to nearly 200 years old. However, because no verdan has died of old age since the race's initial creation, their upper age limits remain subject to speculation."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Verdan are generally good, although their absence of racial identity and shared history can sometimes see individual verdan become untethered from any moral or ethical framework."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Verdan start out similar in size to the goblins they were created from, ranging from 3 to 4 feet in height. But at some point after reaching maturity, each verdan undergoes a sudden growth spurt of 2 feet or more. At 1st level, you are a Small creature. When you reach 5th level, you become a Medium creature."
+					]
+				},
+				{
+					"name": "Black Blood Healing",
+					"entries": [
+						"The black blood that is a sign of your people's connection to That-Which-Endures boosts your natural healing. When you roll a 1 or 2 on any Hit Die you spend at the end of a short rest, you can reroll the die and must use the new roll."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Limited Telepathy",
+					"entries": [
+						"You can telepathically speak to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathy, but it must be able to understand at least one language. This process of communication is slow and limited, allowing you to transmit and receive only simple ideas and straightforward concepts."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Persuasive",
+					"entries": [
+						"Your people's lack of history makes you trustworthy and humble. You have proficiency in the {@skill Persuasion|phb} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Telepathic Insight",
+					"entries": [
+						"Your mind's connection to the world around you strengthens your will. You have advantage on all Wisdom and Charisma saving throws."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Language",
+					"entries": [
+						"You speak, read, and write {@language Common|phb}, {@language Goblin|phb}, and one additional language of your choice. This language typically has some connection to one of the areas or cultures that has been part of your life."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Warforged",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"creatureTypes": [
+				"construct"
+			],
+			"heightAndWeight": {
+				"baseHeight": 70,
+				"heightMod": "2d6",
+				"baseWeight": 270,
+				"weightMod": "4"
+			},
+			"age": {
+				"mature": 2,
+				"max": 30
+			},
+			"traitTags": [
+				"Improved Resting",
+				"Natural Armor"
+			],
+			"skillProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"exhaustion",
+				"poisoned",
+				"disease"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"A typical warforged is between two and thirty years old. The maximum warforged lifespan remains a mystery; so far, warforged have shown no signs of deterioration due to age. You are immune to magical aging effects."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most warforged take comfort in order and discipline, tending toward law and neutrality. But some have absorbed the morality, or lack thereof, of the beings with which they served."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Constructed Resilience",
+					"entries": [
+						"You were created to have remarkable fortitude, represented by the following benefits:",
+						{
+							"type": "list",
+							"items": [
+								"You are immune to Poison damage",
+								"You are immune to being Asleep, Diseased, Exhausted, and Poisoned.",
+								"You don't have to and cannot eat or drink, meaning you can't gain the benefits of potions or food.",
+								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas.",
+								"Any missing limbs can be reattached via the Mending or Repair spells following the rules and stipulations of the given spells.",
+								"You may not expend hit dice to heal on a short rest."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentry's Rest",
+					"entries": [
+						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious|phb}, and you can see and hear as normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Integrated Protection",
+					"entries": [
+						"Your body has built-in defensive layers, which can be enhanced with armor:",
+						{
+							"type": "list",
+							"items": [
+								"You gain a +1 bonus to Armor Class.",
+								"You can don only armor with which you have proficiency. To don armor other than a shield, you must incorporate it into your body over the course of 1 hour, during which you remain in contact with the armor. To doff armor, you must spend 1 hour removing it. You can rest while donning or doffing armor in this way.",
+								"While you live, the armor incorporated into your body can't be removed against your will."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Specialized Design",
+					"entries": [
+						"You gain one skill proficiency and one tool proficiency of your choice."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "One of a Kind",
+					"entries": [
+						"When you die, the magic used in your creation is released into the world, just as it would with any other broken magic item. If your body is somehow reanimated, you will not be the same person, acting as a new character, only retaining the things that are inherent to your old body such as any modifications you made to it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Construct."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language of your choice."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Wechselkind",
+			"source": "EARL",
+			"size": [
+				"S"
+			],
+			"speed": 25,
+			"ability": [
+				{
+					"con": 2,
+					"cha": 1
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": {
+							"daily": {
+								"1": [
+									"disguise self|phb"
+								]
+							}
+						}
+					},
+					"ability": "cha"
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1,
+					"sylvan": true
+				}
+			],
+			"entries": [
+				"Constructed of sturdy materials and enchanted with powerful faerie magic, wechselkind possess several traits that distinguish them from the other races of Etharis.",
+				{
+					"type": "entries",
+					"name": "Age",
+					"page": 9,
+					"entries": [
+						"As constructs, the wechselkind do not age as normal creatures do. They are forever trapped in the doll-like body of a stolen child. As such, their maximum age is more a function of natural erosion and damage than of time, occasionally needing to replace or fix body parts when needed. You are immune to magical aging effects."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"page": 9,
+					"entries": [
+						"Faerie are as close to the embodiment of chaos as most mortals are likely to see, and their creations usually follow that trend. Although some tend towards mischief, more wechselkind lean towards good than evil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"page": 9,
+					"entries": [
+						"Built to resemble a child, wechselkind are between 2 and 3 feet tall and weigh between 35 and 55 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Artificial Form",
+					"page": 9,
+					"entries": [
+						"As a constructed creature, your body functions differently than a normal person. You have advantage on saving throws against being {@condition poisoned|phb}, and you have resistance to poison damage. You are immune to disease. You don't need to eat, drink, sleep, or breathe. You are still considered humanoid."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Faerie Glamour",
+					"page": 9,
+					"entries": [
+						"When the faerie leaves a wechselkind in place of a mortal child, they cover it with a glamour to make it appear identical to the child that was stolen. Over time this glamour fades, but a wechselkind can still call upon it in times of need. You may cast the {@spell disguise self|phb} spell once with this trait, but only to take on the appearance of the child you were intended to replace, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for this spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Childish Agility",
+					"page": 9,
+					"entries": [
+						"You can move through the space of any creature that is of a size larger than yours. You gain proficiency in the {@skill Acrobatics|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"page": 9,
+					"entries": [
+						"You can speak, read, and write {@language Sylvan|phb} and one other language of your choice."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHPG/Wechselkind1.jpg"
+						}
+					},
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_img/GHPG/Wechselkind2.jpg"
+						}
+					}
+				],
+				"_appendRaceFluff": {
+					"name": "Wechselkind",
+					"source": "GHPG"
+				}
+			}
+		},
+		{
+			"name": "Yuan-ti Pureblood",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 56,
+				"heightMod": "2d10",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"darkvision": 60,
+			"traitTags": [
+				"Magic Resistance",
+				"Monstrous Race"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"abyssal": true,
+					"draconic": true
+				}
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"1": [
+							"animal friendship"
+						],
+						"3": {
+							"daily": {
+								"1": [
+									"suggestion"
+								]
+							}
+						}
+					},
+					"ability": "cha",
+					"known": {
+						"1": [
+							"poison spray#c"
+						]
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Purebloods mature at the same rate as humans and have lifespans similar in length to theirs."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Purebloods match humans in average size and weight. Your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Innate Spellcasting",
+					"entries": [
+						"You know the {@spell poison spray|phb} cantrip. You can cast {@spell animal friendship|phb} an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast {@spell suggestion|phb} with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Magic Resistance",
+					"entries": [
+						"You have advantage on saving throws against spells and other magical effects."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Poison Immunity",
+					"entries": [
+						"You are immune to poison damage and the {@condition poisoned|phb} condition."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Abyssal|phb}, and {@language Draconic|phb}."
 					],
 					"type": "entries"
 				}
@@ -12069,9 +13294,8 @@
 					"name": "Ashen One",
 					"entries": [
 						"Your body has cracks in it that appear to be burning underneath, like a log on a dying fireplace. The instant you die, you can choose to instantly emerge from ashes left at the last place that you took a short or long rest (whichever is more recent). Your body reforms completely healed of any lingering injuries your previous body had, any and all missing limbs are restored, but you retain your previous age and any curses upon you. Once you reform in this way, your old body immediately collapses to ash, leaving behind all of your belongings and making it unable to be revived. Your new body instead looks cracked and hollow, giving you a -5 penalty to your Charisma ability score, halving your maximum hit points, and disabling both your resistance to fire as well as the innate spellcasting gained from your Champion of Ash feature.",
-						"You are not able to reform in this way again until you collect the embers of your last dead body and burn them in a brass brazier with ruby dust worth at least 1,300 gp over the course of a short rest. After the short rest, your body returns to as it was, regaining your previous appearance, fire resistance, innate spellcasting, Charisma score, maximum hit points, alongside healing to your new maximum hit points.",
-						"Your embers will appear as a congealed clump of ash and dying fire, vaguely resembling a heart, that call out to you. You can detect their presence innately as if you were under the effect of a {@spell Detect Magic|phb} spell.",
-						"The embers appear to be of the school Evocation. Should they be destroyed, the ritual is impossible, and the only ways to undo the penalties given by this feature is to be affected by the spells {@spell Reincarnate|cooms}, {@spell True Resurrection|phb}, or {@spell Wish|phb}."
+						"You are not able to reform in this way again until you collect the embers of your last dead body and burn them in a brass brazier with ruby dust worth at least 1,300 gp over the course of a short rest. After the short rest, your body returns to as it was, regaining your previous appearance, fire resistance, innate spellcasting, Charisma score and maximum hit points, alongside healing to your new maximum hit points.",
+						"Your embers will appear as a congealed clump of ash and dying fire, vaguely resembling a heart, that call out to you. You can detect their presence innately as if you were under the effect of a {@spell Detect Magic|phb} spell. The embers appear to be of the school Evocation. Should they be destroyed, the ritual is impossible, and the only ways to undo the penalties given by this feature is to be affected by the spells {@spell Reincarnate|cooms}, {@spell True Resurrection|phb}, or {@spell Wish|phb}."
 					],
 					"type": "entries"
 				},
@@ -12975,6 +14199,152 @@
 					"name": "Languages",
 					"entries": [
 						"You can understand and speak {@language Common|phb}, and {@language primordial|phb|Auran}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Beasthide",
+			"source": "EARL",
+			"raceName": "Shifter",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"traitTags": [
+				"Natural Armor"
+			],
+			"skillProficiencies": [
+				{
+					"athletics": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Natural Athlete",
+					"entries": [
+						"You have proficiency in the {@skill Athletics|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shifting Feature",
+					"entries": [
+						"Whenever you shift, you gain {@dice 1d6} additional temporary hit points. While shifted, you have a +1 bonus to your Armor Class."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Longtooth",
+			"source": "EARL",
+			"raceName": "Shifter",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"str": 2,
+					"dex": 1
+				}
+			],
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fierce",
+					"entries": [
+						"You have proficiency in the {@skill Intimidation|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifted, you can use your elongated fangs to make an unarmed strike as a bonus action. If you hit with your fangs, you can deal piercing damage equal to {@damage 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Swiftstride",
+			"source": "EARL",
+			"raceName": "Shifter",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"acrobatics": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Graceful",
+					"entries": [
+						"You have proficiency in the {@skill Acrobatics|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifted, your walking speed increases by 10 feet. Additionally, you can move up to 10 feet as a reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke opportunity attacks."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Wildhunt",
+			"source": "EARL",
+			"raceName": "Shifter",
+			"raceSource": "EARL",
+			"ability": [
+				{
+					"wis": 2,
+					"dex": 1
+				}
+			],
+			"skillProficiencies": [
+				{
+					"survival": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Natural Tracker",
+					"entries": [
+						"You have proficiency in the {@skill Survival|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Shifting Feature",
+					"entries": [
+						"While shifted, you have advantage on Wisdom checks, and no creature within 30 feet of you can make an attack roll with advantage against you, unless you're {@condition incapacitated|phb}."
 					]
 				}
 			],

@@ -8769,5 +8769,247 @@
 				}
 			]
 		}
+	],
+	"itemGroup": [
+		{
+			"name": "Arcane Focus",
+			"source": "OWL",
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"focus": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			],
+			"items": [
+				"Crystal|OWL",
+				"Orb|OWL",
+				"Rod|OWL",
+				"Staff|OWL",
+				"Wand|OWL"
+			]
+		},
+		{
+			"name": "Artisan's Tools",
+			"source": "OWL",
+			"srd": true,
+			"basicRules": true,
+			"type": "AT",
+			"rarity": "none",
+			"items": [
+				"Alchemist's Supplies|OWL",
+				"Brewer's Supplies|OWL",
+				"Calligrapher's Supplies|OWL",
+				"Carpenter's Tools|OWL",
+				"Cartographer's Tools|OWL",
+				"Cobbler's Tools|OWL",
+				"Cook's Utensils|OWL",
+				"Glassblower's Tools|OWL",
+				"Jeweler's Tools|OWL",
+				"Leatherworker's Tools|OWL",
+				"Mason's Tools|OWL",
+				"Painter's Supplies|OWL",
+				"Potter's Tools|OWL",
+				"Smith's Tools|OWL",
+				"Tinker's Tools|OWL",
+				"Weaver's Tools|OWL",
+				"Woodcarver's Tools|OWL"
+			]
+		},
+		{
+			"name": "Druidic Focus",
+			"source": "OWL",
+			"type": "SCF",
+			"scfType": "druid",
+			"rarity": "none",
+			"focus": [
+				"Druid"
+			],
+			"items": [
+				"Sprig of mistletoe|OWL",
+				"Totem|OWL",
+				"Wooden staff|OWL",
+				"Yew wand|OWL"
+			]
+		},
+		{
+			"name": "Gaming Set",
+			"source": "EARL",
+			"srd": true,
+			"basicRules": true,
+			"type": "GS",
+			"rarity": "none",
+			"items": [
+				"Dice Set|PHB",
+				"Dragonchess Set|PHB",
+				"Playing Card Set|PHB",
+				"Three-Dragon Ante Set|PHB"
+			]
+		},
+		{
+			"name": "Holy Symbol",
+			"source": "OWL",
+			"type": "SCF",
+			"scfType": "holy",
+			"rarity": "none",
+			"focus": [
+				"Cleric",
+				"Paladin"
+			],
+			"items": [
+				"Amulet|phb",
+				"Emblem|phb",
+				"Reliquary|OWL"
+			]
+		},
+		{
+			"name": "Musical Instrument",
+			"source": "OWL",
+			"type": "INS",
+			"rarity": "none",
+			"items": [
+				"Bagpipes|OWL",
+				"Drum|OWL",
+				"Dulcimer|OWL",
+				"Flute|OWL",
+				"Horn|OWL",
+				"Hurdygurdy|OWL",
+				"Lute|OWL",
+				"Lyre|OWL",
+				"Pan Flute|OWL",
+				"Quena|OWL",
+				"Rattle|OWL",
+				"Shawm|OWL",
+				"Tantan|OWL",
+				"Viol|OWL"
+			]
+		},
+		{
+			"name": "Potion of Healing (*)",
+			"source": "OWL",
+			"srd": true,
+			"type": "P",
+			"rarity": "varies",
+			"entries": [
+				"{@note * This item group has the same name and source as the item {@item potion of healing|OWL}}."
+			],
+			"items": [
+				"Potion of Lesser Healing|OWL",
+				"Potion of Healing|OWL",
+				"Potion of Greater Healing|OWL",
+				"Potion of Superior Healing|OWL",
+				"Potion of Supreme Healing|OWL",
+				"Potion of Ultimate Healing|OWL"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Potion of Health (*)",
+			"source": "OWL",
+			"srd": true,
+			"type": "P",
+			"rarity": "varies",
+			"entries": [
+				"{@note * This item group has the same name and source as the item {@item potion of health|OWL}}."
+			],
+			"items": [
+				"Potion of Lesser Health|OWL",
+				"Potion of Health|OWL",
+				"Potion of Greater Health|OWL",
+				"Potion of Superior Health|OWL",
+				"Potion of Supreme Health|OWL",
+				"Potion of Ultimate Health|OWL"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Potion of Magic (*)",
+			"source": "OWL",
+			"srd": true,
+			"type": "P",
+			"rarity": "varies",
+			"entries": [
+				"{@note * This item group has the same name and source as the item {@item potion of magic|OWL}}."
+			],
+			"items": [
+				"Potion of Lesser Magic|OWL",
+				"Potion of Magic|OWL",
+				"Potion of Greater Magic|OWL",
+				"Potion of Superior Magic|OWL",
+				"Potion of Supreme Magic|OWL",
+				"Potion of Ultimate Magic|OWL"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Potion of Stamina (*)",
+			"source": "OWL",
+			"srd": true,
+			"type": "P",
+			"rarity": "varies",
+			"entries": [
+				"{@note * This item group has the same name and source as the item {@item potion of stamina|OWL}}."
+			],
+			"items": [
+				"Potion of Lesser Stamina|OWL",
+				"Potion of Stamina|OWL",
+				"Potion of Greater Stamina|OWL",
+				"Potion of Superior Stamina|OWL",
+				"Potion of Supreme Stamina|OWL",
+				"Potion of Ultimate Stamina|OWL"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Oil of Repair (*)",
+			"source": "OWL",
+			"type": "P",
+			"rarity": "varies",
+			"entries": [
+				"{@note * This item group has the same name and source as the item {@item oil of repair|OWL}}."
+			],
+			"items": [
+				"Oil of Lesser Repair|OWL",
+				"Oil of Repair|OWL",
+				"Oil of Greater Repair|OWL",
+				"Oil of Superior Repair|OWL",
+				"Oil of Supreme Repair|OWL",
+				"Oil of Ultimate Repair|OWL"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Potion of Resistance",
+			"source": "OWL",
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"items": [
+				"Potion of Acid Resistance|OWL",
+				"Potion of Cold Resistance|OWL",
+				"Potion of Fire Resistance|OWL",
+				"Potion of Force Resistance|OWL",
+				"Potion of Lightning Resistance|OWL",
+				"Potion of Necrotic Resistance|OWL",
+				"Potion of Poison Resistance|OWL",
+				"Potion of Psychic Resistance|OWL",
+				"Potion of Radiant Resistance|OWL",
+				"Potion of Thunder Resistance|OWL"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		}
 	]
 }
