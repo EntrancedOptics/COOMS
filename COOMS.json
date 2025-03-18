@@ -3054,7 +3054,7 @@
       "time": [
         {
           "number": 1,
-          "unit": "action"
+          "unit": "minute"
         }
       ],
       "range": {
@@ -13365,8 +13365,8 @@
       ],
       "entries": [
         "You return a dead creature you touch to life, provided that it has been dead no longer than 10 days. If the creature's soul is both willing and at liberty to rejoin the body, the creature returns to life with 1 hit point.",
-        "This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. The spell can't return an undead creature to life.",
-        "This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival\u2014its head, for instance\u2014the spell automatically fails.",
+        "This spell also neutralizes any poisons and cures nonmagical diseases that affected the creature at the time it died. This spell doesn't, however, remove magical diseases, curses, or similar effects; if these aren't first removed prior to casting the spell, they take effect when the creature returns to life. This spell can't return an undead creature to life, and has no effect on constructs.",
+        "This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.",
         "Coming back from the dead is an ordeal, causing the target to return to life with 7 Tiers of Exhaustion as the body along with its connection to the soul was weakened during their prolonged separation."
       ],
       "entriesHigherLevel": [
@@ -13396,14 +13396,6 @@
       "miscTags": [ "HL" ],
       "classes": {
         "fromClassList": [
-          {
-            "name": "Bard",
-            "source": "PHB"
-          },
-          {
-            "name": "Bard",
-            "source": "THICC"
-          },
           {
             "name": "Cleric",
             "source": "PHB"
@@ -14696,8 +14688,7 @@
         }
       ],
       "entries": [
-        "You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points.",
-        "This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to casting the spell, they afflict the target on its return to life.",
+        "You touch a dead creature that has been dead for no more than a century, that didn't die of old age, and that isn't undead. If its soul is free and willing, the target returns to life with all its hit points. This spell neutralizes any poisons and cures normal diseases afflicting the creature when it died. It doesn't, however, remove magical diseases, curses, and the like; if such effects aren't removed prior to casting the spell, they afflict the target on its return to life. This spell can't return an undead creature to life, and has no effect on constructs.",
         "This spell closes all mortal wounds and restores any missing body parts.",
         "Coming back from the dead is an ordeal, causing the target to return to life with 7 Tiers of Exhaustion as the body along with its connection to the soul was weakened during their prolonged separation.",
         "Casting this spell to restore life to a creature that has been dead for one year or longer taxes you greatly. Until you finish a long rest, you can't cast spells again, and you have disadvantage on all attack rolls, ability checks, and saving throws."
@@ -14715,14 +14706,6 @@
       "miscTags": [ "HL" ],
       "classes": {
         "fromClassList": [
-          {
-            "name": "Bard",
-            "source": "PHB"
-          },
-          {
-            "name": "Bard",
-            "source": "THICC"
-          },
           {
             "name": "Cleric",
             "source": "PHB"
@@ -14743,6 +14726,91 @@
               "shortName": "Divine Soul",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Revivify",
+      "source": "COOMS",
+      "level": 3,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "a diamond worth at least 300 gp, which the spell consumes",
+          "cost": 30000,
+          "consume": true
+        }
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts. This spell can't return an undead creature to life, and has no effect on constructs."
+      ],
+      "affectsCreatureType": [ "undead" ],
+      "miscTags": [ "HL" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },          
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },         
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },          
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },          
+          {
+            "name": "Witch",
+            "source": "THICC"
           }
         ]
       }
@@ -15711,7 +15779,7 @@
         }
       ],
       "entries": [
-        "A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {@dice 2d4} cold damage and is blinded by the snow battering its face. On a success, a creature takes half damage and is not blinded. A creature blinded by the snow may use a bonus action to wipe it away, ending the effect on themselves.",
+        "A flurry of magic snowballs erupts from a point you choose within range. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. On a failed save, a creature takes {@damage 2d4} cold damage and is blinded by the snow battering its face. On a success, a creature takes half damage and is not blinded. A creature blinded by the snow may use a bonus action to wipe it away, ending the effect on themselves.",
         "On top of this, until the start of your next turn when it melts, a mound of snow litters the floor underneath the area. When a Large or smaller creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Strength saving throw. On a failed save, the creature's walking speed is reduced to 0 for the duration of that turn as its legs get stuck in the magical snow."
       ],
       "damageInflict": [ "cold" ],
@@ -15721,7 +15789,7 @@
         {
           "name": "At Higher Levels",
           "entries": [
-            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d4} for each slot level above 2nd."
+            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@damage 1d4} for each slot level above 2nd."
           ],
           "type": "entries"
         }
@@ -17573,6 +17641,65 @@
             "name": "Druid",
             "source": "THICC"
           }
+        ]
+      }
+    },
+    {
+      "name": "True Resurrection",
+      "source": "COOMS",
+      "level": 9,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "hour"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "a sprinkle of holy water and diamonds worth at least 25,000 gp, which the spell consumes",
+          "cost": 2500000,
+          "consume": true
+        }
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You touch a creature that has been dead for no longer than 200 years and that died for any reason except old age. If the creature's soul is free and willing, the creature is restored to life with all its hit points.",
+        "This spell closes all wounds, neutralizes any poison, cures all diseases, and lifts any curses affecting the creature when it died. The spell replaces damaged or missing organs and limbs. If the creature was undead, it is restored to its non-undead form. This spell has no effect on constructs.",
+        "The spell can even provide a new body if the original no longer exists, in which case you must speak the creature's name. The creature then appears in an unoccupied space you choose within 10 feet of you."
+      ],
+      "affectsCreatureType": [ "undead" ],
+      "miscTags": [ "HL" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },          
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          }        
         ]
       }
     },
