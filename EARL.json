@@ -8394,6 +8394,2238 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Tiefling (Achaierai)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race",
+				"Natural Armor",
+				"Darkvision",
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Acheronic Resistance",
+					"entries": [
+						"Your body is covered in a rough hide and your bones are almost as strong as iron. When you aren't wearing armor, your AC is 13 + your Constitution modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Long-limbed",
+					"entries": [
+						"When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Black Cloud",
+					"entries": [
+						"When you take the attack action on your turn, you can replace one of your attacks with an attack unique to your kind. You release a choking, toxic black cloud.",
+						"Creatures within 10 feet of you must make a Constitution saving throw versus your Constitution DC or take a number of d6 poison damage equal to your Constitution modifier (minimum of 1) and become {@condition Poisoned|phb} for 1 minute. On a successful save, the creature takes half damage, is not {@condition poisoned|phb}, and is immune to the effects of all Black Clouds for the next 24 hours. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success.",
+						"You can use this feature a number of times per long rest equal to your proficiency bonus (minimum of 1)."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Asmodeus)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"hellish rebuke#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"darkness"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"thaumaturgy#c|cooms"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Infernal Legacy",
+					"entries": [
+						"You know the {@spell thaumaturgy|cooms} cantrip. Once you reach 3rd level, you can cast the {@spell hellish rebuke|phb} spell once with this trait and regain the ability to do so when you finish a short or long rest. Once you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Baalzebul)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"ray of sickness#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"crown of madness"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"thaumaturgy#c|cooms"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Legacy of Maladomini",
+					"entries": [
+						"You know the {@spell thaumaturgy|cooms} cantrip. When you reach 3rd level, you can cast the {@spell ray of sickness|phb} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell crown of madness|phb} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Barghest)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"dex": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"acid",
+				"poison"
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Darkvision",
+				"Skill Proficiency",
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"deception",
+							"intimidation",
+							"perception",
+							"stealth"
+						],
+						"count": 2
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Gehennic Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against acid and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fiendish Instinct",
+					"entries": [
+						"You have proficiency with two of the following skills: {@skill Deception|phb}, {@skill Intimidation|phb}, {@skill Perception|phb}, or {@skill Stealth|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Belial or Fierna)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"wis": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"charm person#2"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"suggestion"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"grin#c|cooms"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Legacy of Phlegethos",
+					"entries": [
+						"You know the {@spell grin|cooms} cantrip. When you reach 3rd level, you can cast the {@spell charm person|phb} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell suggestion|phb} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Demodand)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"acid",
+				"poison"
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Darkvision",
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Carceric Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against acid and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Acidic Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier as well as {@dice 1d4} acid damage, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Demon)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				{
+					"poison": true,
+					"choose": {
+						"from": [
+							"cold",
+							"fire",
+							"lightning"
+						],
+						"count": 1
+					}
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Darkvision",
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"abyssal": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Abyssal Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against poison damage. You also gain resistance to cold, fire, or lightning damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Head",
+					"entries": [
+						"You have a natural weapon on your head that you may use against your enemies. Choose one of the following options:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Beak.} Your beak is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+								"{@b Bite.} Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.",
+								"{@b Horns.} Your horns are a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Body",
+					"entries": [
+						"You have a natural weapon on your body that you may use against your enemies. Choose one of the following options:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Claws.} Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them.",
+								"{@b Fists.} Your fists are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them.",
+								"{@b Hooves.} Your hooves are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal bludgeoning damage equal to {@dice 1d4} + your Strength modifier, instead of the damage normal for an unarmed strike. You may also attack with your offhoof if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature",
+					"entries": [
+						"Your form, though chaotic, is also gifted with an odd specialty. Choose two of the following options:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Aggressive.} As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
+								"{@b Bloodsense.} If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. Constructs, Elementals, Oozes, Plants, and Undead are immune to the effects of this sense.",
+								"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.",
+								"{@b Rampage.} When you reduce a creature to 0 hit points with a melee attack on your turn, you may use a bonus action to move up to half your speed and make an attack with the natural weapon granted to you by your Variant Head feature.",
+								"{@b Shadow Stealth.} While in dim light or darkness, you can take the Hide action as a bonus action.",
+								"{@b Siege Monster.} You deal double damage to objects and structures.",
+								"{@b Spider Climb.} You gain a climbing speed equal to your walking speed, and can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.",
+								"{@b Stench.} Any creature that can smell other than a demon that starts its turn within 5 feet of you must succeed on a Constitution saving throw versus your Constitution DC (8 + Proficiency Bonus + Constitution modifier) or be poisoned until the start of the creature's next turn. On a successful saving throw, the creature is immune to your stench for 1 hour."
+							]
+						}
+					]
+				},
+				{
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Abyssal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Dispater)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"disguise self"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"detect thoughts"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"thaumaturgy#c|cooms"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Legacy of Dis",
+					"entries": [
+						"You know the {@spell thaumaturgy|cooms} cantrip. When you reach 3rd level, you can cast the {@spell disguise self|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell detect thoughts|phb} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Glasya)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"dex": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"disguise self"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"invisibility"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"minor illusion#c"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Legacy of Malbolge",
+					"entries": [
+						"You know the {@spell minor illusion|phb} cantrip. When you reach 3rd level, you can cast the {@spell disguise self|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Howler)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				{
+					"choose": {
+						"from": [
+							"cold",
+							"fire",
+							"lightning"
+						],
+						"count": 1
+					}
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Darkvision",
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"abyssal": true
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Pandemonic Resistance",
+					"entries": [
+						"You have advantage on saving throws against being {@condition Frightened|phb}. You also gain resistance to cold, fire, or lightning damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"name": "Mind-Breaking Howl",
+					"entries": [
+						"When you take the Attack action on your turn, you can replace one of your attacks with a keening howl.",
+						"When you use your Mind-Breaking Howl, each creature in a 15-foot cone must make a Wisdom saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes a number of d6 psychic damage equal to your Constitution modifier (minimum of 1). Additionally, the creature is {@condition Frightened|phb} of you until the end of your next turn. On a successful save, it takes half as much damage, and is immune to the effects of all Mind-Breaking Howls for the next 24 hours.",
+						"You can use your Breath Weapon a number of times equal to your proficiency bonus (minimum of 1), and you regain all expended uses when you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Abyssal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Levistus)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"armor of agathys|cooms"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"snilloc's snowball swarm"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"frostbite#c"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Legacy of Stygia",
+					"entries": [
+						"You know the {@spell frostbite|xge} cantrip. When you reach 3rd level, you can cast the {@spell armor of Agathys|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell Snilloc's snowball swarm|xge} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Mammon)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"tenser's floating disk"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"arcane lock"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Legacy of Minauros",
+					"entries": [
+						"You know the {@spell mage hand|phb} cantrip. When you reach 3rd level, you can cast the {@spell Tenser's floating disk|phb} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell arcane lock|phb} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Mephistopheles)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"int": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"burning hands"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"flame blade"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"mage hand#c"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Legacy of Cania",
+					"entries": [
+						"You know the {@spell mage hand|phb} cantrip. When you reach 3rd level, you can cast the {@spell burning hands|phb} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell flame blade|phb} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Scourge)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"radiant",
+				"necrotic"
+			],
+			"darkvision": 60,
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"darkness"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"sapping sting#c|cooms"
+						]
+					}
+				}
+			],
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Darkvision",
+				"Spellcasting",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": {
+						"from": [
+							"abyssal",
+							"infernal"
+						],
+						"count": 1
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fiendish Resistance",
+					"entries": [
+						"You have resistance against radiant and necrotic damage."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bearer of Darkness",
+					"entries": [
+						"You know the {@spell sapping sting|cooms} cantrip. When you reach 5th level, you can cast the {@spell darkness|phb} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"name": "Necrotic Consumption",
+					"entries": [
+						"Starting at 3rd level, you can use your action to unleash the unholy energy within yourself, causing a depressing darkness to emanate from you, pour out of your eyes and mouth, and threaten to hollow you.",
+						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you eminate heavily-obscuring darkness in a 10-foot radius and lightly-obscuring shadows for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take necrotic damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.",
+						"Once you use this trait, you can't use it again until you finish a long rest."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and either {@language Abyssal|phb} or {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Yugoloth)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"int": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				{
+					"choose": {
+						"from": [
+							"cold",
+							"fire",
+							"lightning"
+						],
+						"count": 1
+					}
+				}
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Darkvision",
+				"Language Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"choose": {
+						"from": [
+							"abyssal",
+							"infernal"
+						],
+						"count": 1
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Daemonic Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against acid and poison damage. You also gain resistance to cold, fire, or lightning damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and either {@language Abyssal|phb} or {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Tiefling (Zareil)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"cha": 2,
+					"str": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 57,
+				"heightMod": "2d8",
+				"baseWeight": 110,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"fiend"
+			],
+			"resist":[
+				"fire",
+				"poison"
+			],
+			"darkvision": 120,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Superior Darkvision",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"infernal": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"daily": {
+								"1": [
+									"searing smite|cooms"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"branding smite|cooms"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"thaumaturgy#c|cooms"
+						]
+					}
+				}
+			],
+			"soundClip": {
+				"type": "internal",
+				"path": "races/tiefling.mp3"
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Tieflings mature at the same rate as humans but live a few years longer."
+					]
+				},
+				{
+					"name": "Appearance",
+					"type": "entries",
+					"entries": [
+						"Your tiefling might not look like other tieflings. Rather than having the physical characteristics described in the Player's Handbook, choose {@dice 1d4+1} of the following features: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone. Additionally, due to your specific planetouched nature, your skin is rough and you have longer limbs than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Tieflings are about the same size and build as humans. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Superior Darkvision",
+					"entries": [
+						"Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hellish Resistance",
+					"entries": [
+						"You have advantage on saving throws against poison, and you have resistance against fire and poison damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Legacy of Avernus",
+					"entries": [
+						"You know the {@spell thaumaturgy|cooms} cantrip. When you reach 3rd level, you can cast the {@spell searing smite|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell branding smite|cooms} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a fiend."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Infernal|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Tortle",
 			"source": "EARL",
 			"size": [
@@ -9027,6 +11259,216 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Wendigo",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"dex": 2,
+					"str": 1
+				}
+			],
+			"age": {
+				"mature": 12,
+				"max": 150
+			},
+			"darkvision": 60,
+			"additionalSpells": [
+				{
+					"innate": {
+						"5": {
+							"daily": {
+								"1": [
+									"enemies abound"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"frostbite#c"
+						]
+					}
+				}
+			],
+			"traitTags": [
+				"Darkvision",
+				"Natural Weapon",
+				"Uncommon Race",
+				"Damage Resistance",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"abyssal": true
+				}
+			],
+			"resist": [
+				"cold",
+				"necrotic"
+			],
+			"vulnerable": [
+				"fire"
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Wendigos reach maturity around 12 years. They live long, solitary lives, between 100 and 150 years, something they attribute as the blessing of Baphomet for their carnivorous way of life."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Alignment",
+					"entries": [
+						"Wendigos are a manifestation of the long winter, and the madness and hunger it can bring. It is said that these foul creatures were once Cervans, transformed by Baphomet after committing cannibalism during a time in which all other Gods seemed to have abandoned them. They now live constantly in the same hunger from that time ago, and bring the cold with them, leading them towards the Chaotic Evil alignment."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Most wendigo are between 6 and 7 feet tall, weighing anywhere from 140 lbs to 180 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bloodsense",
+					"entries": [
+						"If there is any creature within 60 feet of you missing HP that is not behind total cover, that creature cannot gain the benefits of being unseen by you. {@filter constructs|bestiary|type=construct}, {@filter elementals|bestiary|type=elemental}, {@filter oozes|bestiary|type=ooze}, {@filter plants|bestiary|type=plant}, and {@filter undead|bestiary|type=undead} are immune to the effects of this sense."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Antlers",
+					"entries": [
+						"You have a set of large, strong antlers that can be used to make devastating charge attacks to weaken your prey. Your antlers are a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Piercing Charge",
+					"entries": [
+						"If you move at least 20 feet in a straight line towards an opponent, you can use a bonus action to make a special antlers attack as you charge them. If the attack hits, it deals its normal damage, and the creature must make a Strength saving throw against your Strength DC (8 + your proficiency bonus + your Strength modifier) or take an extra amount of d6 piercing damage equal to your proficiency bonus, only taking half as much on a success. If the target of your charge is Large or smaller and they fail the saving throw, you can choose to either push them 10 feet away from you as if you had shoved them twice, or you can choose to knock them prone. Once you hit with this feature, regardless of if your target succeeds or fails, you can't use this trait again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hungry Jaws",
+					"entries": [
+						"In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Endless Hunger",
+					"entries": [
+						"You can eat and drink as well as retain the benefits of 5 times more food and drink than an equivalent creature of your size, but must eat and drink 3 times more than the average person to not starve.",
+						"When under the effects of starvation, you are frenzied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dispairing Magic",
+					"entries": [
+						"You know the {@spell frostbite|xge} cantrip. When you reach 5th level, you can cast the {@spell enemies abound|xge} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Horrific Appearence",
+					"entries": [
+						"Due to your face resembling that of death, you have advantage on all {@skill Intimidation|phb} checks, but disadvantage on all {@skill Persuasion|phb} checks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mimicry",
+					"entries": [
+						"You can mimic sounds you have heard, including voices. A creature that hears the sounds can tell they are imitations with a successful Wisdom ({@skill Insight|phb}) check opposed by your Charisma ({@skill Deception|phb}) check."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wendigo Resistances",
+					"entries": [
+						"You have resistance to cold and necrotic damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pyrophobic",
+					"entries": [
+						"You are vulnerable to fire damage. Any time you take fire damage, you must succeed on a Wisdom saving throw whose DC is equal to the fire damage taken, or you become {@condition Frightened|phb} of the source of the fire until the end of your next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Abyssal|phb}."
+					]
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 70,
+				"heightMod": "2d10",
+				"baseWeight": 270,
+				"weightMod": "1d4"
+			}
 		},
 		{
 			"name": "Yuan-ti Pureblood",
