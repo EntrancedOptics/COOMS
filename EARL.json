@@ -6317,6 +6317,138 @@
 			}
 		},
 		{
+			"name": "Kuo-Toa",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"ability": [
+				{
+					"wis": 2,
+					"str": 1
+				}
+			],
+			"darkvision": 120,
+			"age": {
+				"mature": 5,
+				"max": 60
+			},
+			"traitTags": [
+				"Superior Darkvision",
+				"Sunlight Sensitivity",
+				"Natural Weapon",
+				"Amphibious"
+			],
+			"skillProficiencies": [
+				{
+					"perception": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Kuo-toa reach maturity at about age 5 and live to be around 60 years old."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Kuo-toa typically live in a theocratic society, worshipping Blibdoolpoolp or some other god of their creation. As with many societies in the underdark, they kept slaves and thus tended towards Evil alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kuo-toa range in size from 4.5 to 5.5 feet tall, and on average weigh about 160 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vigilant Believers",
+					"entries": [
+						"You have proficiency in the {@skill Perception|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Natural Armor",
+					"entries": [
+						"Your body is covered in tough scales and slippery slime. When you aren't wearing armor, your AC is 11 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slippery",
+					"entries": [
+						"You have advantage on ability checks and saving throws made to escape a grapple."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Otherworldly Perception",
+					"entries": [
+						"You can sense the presence of any creature within 30 feet of yourself that is invisible or on the Ethereal Plane. You can pinpoint such a creature that is moving."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sunlight Sensitivty",
+					"entries": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Undercommon|phb}."
+					]
+				}
+			]
+		},
+		{
 			"name": "Leonin",
 			"source": "EARL",
 			"size": [
@@ -7968,6 +8100,125 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Quaggoth",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"darkvision": 120,
+			"age": {
+				"mature": 8,
+				"max": 60
+			},
+			"traitTags": [
+				"Superior Darkvision",
+				"Natural Weapon",
+				"Damage Resistance",
+				"Powerful Build"
+			],
+			"immune": [
+				"poison"
+			],
+			"conditionImmune": [
+				"poisoned"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Undercommon": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Quaggoths reach adulthood at age 8 and live up to 60 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Quaggoths tended to live in nomadic hunting societies, if not enslaved by another denizen of the Underdark. They tended towards Chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Most Quaggoths are between 6 and 7 feet tall, weighing around 250 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Superior Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poison Immunity",
+					"entries": [
+						"You're immune to poison damage and the {@condition poisoned|phb} condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Long-Limbed",
+					"entries": [
+						"When you make a melee attack on your turn, your reach for it is 5 feet greater than normal."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Violent Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being Frenzied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Undercommon|phb}."
+					]
+				}
+			]
 		},
 		{
 			"name": "Satyr",
