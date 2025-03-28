@@ -99,7 +99,7 @@
 				{
 					"name": "Language",
 					"entries": [
-						"You can speak, read, and write {@language Common|phb}, {@language Aarakocra|mm}, and {@language Auran|phb}."
+						"You can speak, read, and write {@language Common|phb}, {@language Aarakocra|mm}, and {@language Primordial|phb|Auran}."
 					],
 					"type": "entries"
 				}
@@ -669,6 +669,128 @@
 			},
 			"hasFluff": true,
 			"hasFluffImages": true
+		},
+		{
+			"name": "Bullywug",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 25,
+				"swim": 40
+			},
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"age": {
+				"mature": 6,
+				"max": 50
+			},
+			"traitTags": [
+				"Amphibious",
+				"Natural Weapon"
+			],
+			"skillProficiencies": [
+				{
+					"stealth": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"bullywug": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Bullywugs, once hatched, are considered to be a tadpole-like spawn until they are able to sprout legs at about six to eight weeks. Bullywugs were considered juvenile at this stage until age 6, and they live to be about 50 years old."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Bullywugs live in a savage and tribal society where you have to be strong to survive the harsh swamps, leading most towards Evil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Bullywugs range in size from 4 to 7 feet tall, and are anywhere from 100 to 300 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 25 feet, and you have a swimming speed of 40 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arboreal Alertness",
+					"entries": [
+						"You have proficiency in the {@skill Stealth|phb} skill."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speak with Frogs and Toads",
+					"entries": [
+						"You can communicate simple concepts to frogs and toads when you speak in Bullywug."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Swamp Camouflage",
+					"entries": [
+						"You have advantage on Dexterity ({@skill Stealth|phb}) checks made to hide in swampy terrain."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Standing Leap",
+					"entries": [
+						"Your long jump is up to 20 feet and your high jump is up to 10 feet, with or without a running start."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Water Dependency",
+					"entries": [
+						"If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of {@condition exhaustion|phb} at the end of that day. You can only recover from this {@condition exhaustion|phb} through magic or by immersing yourself in water for at least 1 hour."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Bullywug|mm}."
+					]
+				}
+			]
 		},
 		{
 			"name": "Cansin",
@@ -2371,14 +2493,14 @@
 					"type": "entries",
 					"name": "Frightful Appearance",
 					"entries": [
-						"You are proficient in the {@skill intimidation} skill."
+						"You are proficient in the {@skill intimidation|phb} skill."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common, Gnoll, and Abyssal."
+						"You can understand and speak {@language Common|phb}, {@language Gnoll|mm}, and {@language Abyssal|GGR}."
 					]
 				}
 			],
@@ -2682,6 +2804,95 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Grippli",
+			"source": "EARL",
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true,
+				"swim": true
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"age": {
+				"mature": 30,
+				"max": 700
+			},
+			"traitTags": [
+				"Natural Weapon"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"grippli": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Grippli reach adulthood at the age of 30, and can live to around 700 years."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Grippli are generally neutral creatures, often organized into small tight-knit animal hunting tribes led by a tribe mother and an elder male."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Grippli stand between 2.5 and 5 feet tall and weigh between 23 to 60 lbs. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a climbing speed and swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tongue",
+					"entries": [
+						"Your tongue is a natural finesse weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with it, you deal no damage and grapple the target, instead of the bludgeoning damage normal for an unarmed strike. While {@condition grappled|phb} in this way, the target is {@condition restrained|phb}, and you can't attack another target with your tongue."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Hold Breath",
+					"entries": [
+						"You can hold your breath for up to 20 minutes at a time."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Standing Leap",
+					"entries": [
+						"Your long jump is up to 30 feet and your high jump is up to 20 feet, with or without a running start."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and Grippli."
+					]
+				}
+			]
+		},
+		{
 			"name": "Grung",
 			"source": "EARL",
 			"size": [
@@ -2711,6 +2922,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"grung": true
 				}
 			],
@@ -2789,7 +3001,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write {@language Grung}."
+						"You can speak, read, and write {@language Common|phb} and {@language Grung|VGM}."
 					]
 				}
 			]
