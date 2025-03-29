@@ -50,7 +50,7 @@
 					"type": "entries",
 					"name": "Arcana",
 					"entries": [
-						"Proficiency with alchemist's supplies allows you to unlock more information on {@skill Arcana} checks involving potions and similar materials."
+						"Proficiency with alchemist's supplies allows you to unlock more information on {@skill Arcana|phb} checks involving potions and similar materials."
 					]
 				},
 				{
@@ -64,7 +64,7 @@
 					"type": "entries",
 					"name": "Alchemical Crafting",
 					"entries": [
-						"You can use this tool proficiency to create alchemical items. A character can spend money to collect raw materials, which weigh 1 pound for every 50 gp spent. The DM can allow a character to make a check using the indicated skill with advantage. As part of a long rest, you can use alchemist's supplies to make one dose of {@item acid (vial)|phb|acid}, {@item alchemist's fire (flask)|phb|alchemist's fire}, {@item antitoxin (vial)|phb|antitoxin}, {@item oil (flask)|phb|oil}, {@item perfume (vial)|phb|perfume}, or {@item soap|phb}. Subtract half the value of the created item from the total gp worth of raw materials you are carrying."
+						"You can use this tool proficiency to create alchemical items. A character can spend money to collect raw materials, which weigh 1 pound for every 50 gp spent. The DM can allow a character to make a check using the indicated skill with advantage. As part of a long rest, you can use alchemist's supplies to make one dose of {@item acid (vial)|phb|acid}, {@item alchemist's fire (flask)|phb|alchemist's fire}, {@item antitoxin (vial)|phb|antitoxin}, {@item oil (flask)|owl|oil}, {@item perfume (vial)|phb|perfume}, or {@item soap|phb}. Subtract half the value of the created item from the total gp worth of raw materials you are carrying."
 					]
 				},
 				{
@@ -146,7 +146,7 @@
 			"rarity": "none",
 			"weight": 3,
 			"value": 700,
-			"weaponCategory": "simple",
+			"weaponCategory": "martial",
 			"property": [
 				"F",
 				"L"
@@ -431,7 +431,7 @@
 					"type": "entries",
 					"name": "History",
 					"entries": [
-						"Proficiency with brewer's supplies gives you additional insight on Intelligence ({@skill History}) checks concerning events that involve alcohol as a significant element."
+						"Proficiency with brewer's supplies gives you additional insight on Intelligence ({@skill History|phb}) checks concerning events that involve alcohol as a significant element."
 					]
 				},
 				{
@@ -1006,14 +1006,14 @@
 					"type": "entries",
 					"name": "Maintain Shoes",
 					"entries": [
-						"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid {@condition exhaustion}."
+						"As part of a long rest, you can repair your companions' shoes. For the next 24 hours, up to six creatures of your choice who wear shoes you worked on can travel up to 10 hours a day without making saving throws to avoid {@condition exhaustion|phb}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Craft Hidden Compartment",
 					"entries": [
-						"With 8 hours of work, you can add a hidden compartment to a pair of shoes. The compartment can hold an object up to 3 inches long and 1 inch wide and deep. You make an Intelligence check using your tool proficiency to determine the Intelligence ({@skill Investigation}) check DC needed to find the compartment."
+						"With 8 hours of work, you can add a hidden compartment to a pair of shoes. The compartment can hold an object up to 3 inches long and 1 inch wide and deep. You make an Intelligence check using your tool proficiency to determine the Intelligence ({@skill Investigation|phb}) check DC needed to find the compartment."
 					]
 				},
 				{
@@ -2095,7 +2095,7 @@
 					"type": "entries",
 					"name": "Arcana",
 					"entries": [
-						"Proficiency with jeweler's tools grants you knowledge about the reputed mystical uses of gems. This insight proves handy when you make {@skill Arcana} checks related to gems or gem-encrusted items."
+						"Proficiency with jeweler's tools grants you knowledge about the reputed mystical uses of gems. This insight proves handy when you make {@skill Arcana|phb} checks related to gems or gem-encrusted items."
 					]
 				},
 				{
@@ -2165,7 +2165,7 @@
 			"rarity": "none",
 			"weight": 0.60,
 			"value": 300,
-			"weaponCategory": "simple",
+			"weaponCategory": "martial",
 			"property": [
 				"F",
 				"L",
@@ -2636,6 +2636,29 @@
 			"weapon": true
 		},
 		{
+			"name": "Mancatcher",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 8,
+			"value": 5000,
+			"weaponCategory": "martial",
+			"property": [
+				"CATCH",
+				"H",
+				"R",
+				"2H",
+				"S"
+			],
+			"dmg1": "1d4",
+			"dmgType": "P",
+			"dmg2": "0",
+			"mancatcher": true,
+			"weapon": true
+		},
+		{
 			"name": "Mason's Tools",
 			"source": "OWL",
 			"page": 1,
@@ -3036,6 +3059,29 @@
 			"dmg1": "1d12",
 			"dmgType": "P",
 			"pike": true,
+			"weapon": true
+		},
+		{
+			"name": "Pincher Staff",
+			"source": "OWL",
+			"page": 4,
+			"srd": false,
+			"type": "M",
+			"rarity": "none",
+			"weight": 20,
+			"value": 3500,
+			"weaponCategory": "martial",
+			"property": [
+				"CATCH",
+				"H",
+				"R",
+				"2H",
+				"S"
+			],
+			"dmg1": "2d2",
+			"dmgType": "P",
+			"dmg2": "0",
+			"pincher staff": true,
 			"weapon": true
 		},
 		{
@@ -4697,6 +4743,20 @@
 				}
 			],
 			"template": "{{prop_name}} ({{item.range}}\u00A0ft.)"
+		},
+		{
+			"abbreviation": "CATCH",
+			"source": "OWL",
+			"page": 7,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Catching",
+					"entries": [
+						"A Medium or smaller creature hit by a catching weapon that deals no damage is grappled by you until it is freed or until you step out of the weapon's range to the target. A catching weapon has no effect on creatures that are formless, or creatures that are Large or larger. While grappled in this way, you are not able to improve your stance on the target, and you are not able to use the weapon to attack any other target. The trapped creature can be freed by impairing your stance, disarming you, incapacitating you, knocking you prone, or by having the trapped creature no longer within range of the weapon to you."
+					]
+				}
+			]
 		},
 		{
 			"abbreviation": "CLOTH",
