@@ -1105,7 +1105,7 @@
 			"name": "Centaur",
 			"source": "EARL",
 			"creatureTypes": [
-				"fey"
+				"monstrosity"
 			],
 			"size": [
 				"M"
@@ -1834,7 +1834,6 @@
 		{
 			"name": "Erlidi",
 			"source": "EARL",
-			"page": 27,
 			"size": [
 				"S",
 				"M"
@@ -1956,7 +1955,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://cdnb.artstation.com/p/assets/images/images/018/232/621/large/stephanie-keeline-5c181a22-2a59-44c3-823a-cc5d5148f16e.jpg?1558648706"
+							"url": "https://static.wikia.nocookie.net/the-great-gaenrun-caper/images/f/f0/Lou-crop.jpg"
 						}
 					}
 				]
@@ -7360,6 +7359,9 @@
 				"Natural Weapon",
 				"Skill Proficiency"
 			],
+			"creatureTypes": [
+				"monstrosity"
+			],
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -7429,6 +7431,13 @@
 					"name": "Imposing Presence",
 					"entries": [
 						"You have proficiency in one of the following skills of your choice: {@skill Intimidation|phb} or {@skill Persuasion|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
 					],
 					"type": "entries"
 				},
@@ -8465,7 +8474,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Shader-blaidd",
+			"name": "Shadar-blaidd",
 			"source": "EARL",
 			"size": [
 				"M"
@@ -8664,6 +8673,17 @@
 				"heightMod": "2d10",
 				"baseWeight": 270,
 				"weightMod": "1d4"
+			},
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/736x/c9/14/aa/c914aa7d6104a679e72f3acea19b5d60.jpg"
+						}
+					}
+				]
 			}
 		},
 		{
@@ -11944,8 +11964,17 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.redd.it/kgwhjnzm3em31.jpg"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Ursarth (Black)",
@@ -12039,9 +12068,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Keen Sight and Smell",
+					"name": "Keen Smell",
 					"entries": [
-						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on smell."
 					],
 					"type": "entries"
 				},
@@ -12101,7 +12130,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/52d4ab75-c4f0-4b1e-a803-bda6757d0b4b/dhg7xhy-8a6285f7-1de4-49f6-9dbe-214b2fb3757f.jpg/v1/fill/w_894,h_894,q_70,strp/black_bear_artificer_character_art_by_cellsoul_dhg7xhy-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzUyZDRhYjc1LWM0ZjAtNGIxZS1hODAzLWJkYTY3NTdkMGI0YlwvZGhnN3hoeS04YTYyODVmNy0xZGU0LTQ5ZjYtOWRiZS0yMTRiMmZiMzc1N2YuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.1mTjcqIPgHJQ48XTfZLxmb3AQbSo0nDuuBlEOF460qw"
+							"url": "https://i.pinimg.com/736x/fb/43/85/fb43858c7e48e5fb28172afba136b2e8.jpg"
 						}
 					}
 				]
@@ -12199,9 +12228,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Keen Sight and Smell",
+					"name": "Keen Smell",
 					"entries": [
-						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on smell."
 					],
 					"type": "entries"
 				},
@@ -12261,7 +12290,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://i.pinimg.com/736x/1c/ed/83/1ced8317293dff01424a1c6cc870f748.jpg"
+							"url": "https://i.pinimg.com/736x/16/37/c7/1637c778e4dc3726e899690414de9fe3.jpg"
 						}
 					}
 				]
@@ -12368,9 +12397,9 @@
 					]
 				},
 				{
-					"name": "Keen Sight and Smell",
+					"name": "Keen Smell",
 					"entries": [
-						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on smell."
 					],
 					"type": "entries"
 				},
@@ -12437,7 +12466,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://64.media.tumblr.com/694978e04aaa463c1528dd798a926752/tumblr_inline_p7fz1p1cMo1rprfgq_500.jpg"
+							"url": "https://i.imgur.com/KOYTm4v.jpg"
 						}
 					}
 				]
@@ -12535,9 +12564,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Keen Sight and Smell",
+					"name": "Keen Smell",
 					"entries": [
-						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on smell."
 					],
 					"type": "entries"
 				},
@@ -12583,7 +12612,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://fydn.imgix.net/m%2Fgen%2Fcanvas-std-portrait-p1%2Fb1d2e66e-7364-49db-9ce3-e8065c9ec7cc.jpg"
+							"url": "https://i.redd.it/3cnizv2fwjya1.jpg"
 						}
 					}
 				]
@@ -12644,7 +12673,7 @@
 							"perception",
 							"survival"
 						],
-						"count": 2
+						"count": 1
 					}
 				}
 			],
@@ -12680,14 +12709,14 @@
 				{
 					"name": "Natural Predators",
 					"entries": [
-						"You have proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Nature|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
+						"You have proficiency in one of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Nature|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
 					],
 					"type": "entries"
 				},
 				{
-					"name": "Keen Sight and Smell",
+					"name": "Keen Smell",
 					"entries": [
-						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on smell."
 					],
 					"type": "entries"
 				},
@@ -12747,7 +12776,7 @@
 						"type": "image",
 						"href": {
 							"type": "external",
-							"url": "https://static.wikia.nocookie.net/howling-hotel/images/6/66/PolarBearfolk.jpg"
+							"url": "https://i.pinimg.com/736x/fc/82/47/fc8247d7f801c987b01529c6a275392b.jpg"
 						}
 					}
 				]
@@ -17306,8 +17335,17 @@
 					]
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": false
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.imgur.com/luS57z3.png"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Ash",
