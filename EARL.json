@@ -22,13 +22,6 @@
 		{
 			"name": "Aarakocra",
 			"source": "EARL",
-			"page": 5,
-			"otherSources": [
-				{
-					"source": "EGW",
-					"page": 165
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -47,13 +40,26 @@
 				"max": 30
 			},
 			"traitTags": [
-				"Natural Weapon"
+				"Natural Weapon",
+				"Skill Proficiency"
 			],
 			"languageProficiencies": [
 				{
 					"common": true,
 					"aarakocra": true,
 					"auran": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"perception",
+							"survival"
+						],
+						"count": 1
+					}
 				}
 			],
 			"soundClip": {
@@ -97,6 +103,13 @@
 					"type": "entries"
 				},
 				{
+					"name": "Bird of Prey",
+					"entries": [
+						"You gain proficiency in one of the following skills: {@skill Acrobatics|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
 					"name": "Language",
 					"entries": [
 						"You can speak, read, and write {@language Common|phb}, {@language Aarakocra|mm}, and {@language Primordial|phb|Auran}."
@@ -105,9 +118,9 @@
 				}
 			],
 			"heightAndWeight": {
-				"baseHeight": 52,
-				"heightMod": "2d8",
-				"baseWeight": 40,
+				"baseHeight": 56,
+				"heightMod": "1d8",
+				"baseWeight": 70,
 				"weightMod": "1d6"
 			},
 			"hasFluff": true,
@@ -116,13 +129,6 @@
 		{
 			"name": "Aasimar",
 			"source": "EARL",
-			"page": 1,
-			"otherSources": [
-				{
-					"source": "VGM",
-					"page": 104
-				}
-			],
 			"size": [
 				"M"
 			],
@@ -145,7 +151,8 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Damage Resistance"
 			],
 			"languageProficiencies": [
 				{
@@ -336,10 +343,10 @@
 							"type": "list",
 							"items": [
 								"You are immune to Poison damage",
-								"You are immune to being Asleep, Diseased, {@condition Exhaustion|phb|Exhausted}, and {@condition Poisoned|phb}.",
+								"You are immune to being Asleep, Diseased, {@condition Exhaustion|thicc|Exhausted}, and {@condition Poisoned|phb}.",
 								"You don't have to and cannot eat or drink, meaning you can't gain the benefits of potions or food.",
 								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas.",
-								"Any missing limbs can be reattached via the {@spell Mending|phb} or {@spell Repair|cooms} spells following the rules and stipulations of the given spells.",
+								"Any missing limbs can be reattached via the {@spell Mending|cooms} or {@spell Repair|cooms} spells following the rules and stipulations of the given spells.",
 								"You may not expend hit dice to heal on a short rest"
 							]
 						}
@@ -373,7 +380,6 @@
 		{
 			"name": "Axani",
 			"source": "EARL",
-			"page": 3,
 			"size": [
 				"M"
 			],
@@ -415,20 +421,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"mending#c"
-						]
-					},
-					"ability": [
-						"con"
-					],
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"command"
-							]
+									"command"
+								]
 							}
 						},
 						"5": {
@@ -439,9 +437,12 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"mending#c|cooms"
+						]
+					}
 				}
 			],
 			"skillProficiencies": [
@@ -521,7 +522,7 @@
 					"type": "entries",
 					"name": "Establish Order",
 					"entries": [
-						"You know the {@spell mending|phb} cantrip. Starting at 3rd level, you can cast the {@spell command|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell calm emotions|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell mending|cooms} cantrip. Starting at 3rd level, you can cast the {@spell command|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a short or long rest. Starting 5th level, you can also cast the {@spell calm emotions|phb} spell once with this trait without requiring a material component, regaining the ability to do so when you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -533,16 +534,21 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true,
-			"hasFluffImages": true
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://srd.dndtools.org/srd/resource/images/races/racesDramagAxani.jpg"
+						}
+					}
+				]
+			}
 		},
 		{
 			"name": "Bugbear",
 			"source": "EARL",
-			"page": 1,
-			"reprintedAs": [
-				"Bugbear|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -2371,10 +2377,6 @@
 		{
 			"name": "Gnoll",
 			"source": "EARL",
-			"page": 17,
-			"reprintedAs": [
-				"Gnoll|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -7089,7 +7091,6 @@
 		{
 			"name": "Mapach",
 			"source": "EARL",
-			"page": 98,
 			"size": [
 				"S"
 			],
@@ -7216,6 +7217,121 @@
 				"baseWeight": 85,
 				"weightMod": "1"
 			}
+		},
+		{
+			"name": "Merfolk",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 10,
+				"swim": 40
+			},
+			"ability": [
+				{
+					"dex": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 80,
+				"heightMod": "2d6",
+				"baseWeight": 270,
+				"weightMod": "2d4"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"traitTags": [
+				"Amphibious",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Aquan": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"athletics",
+							"deception",
+							"insight",
+							"nature",
+							"persuasion",
+							"performance",
+							"stealth",
+							"survival"
+						],
+						"count": 3
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Merfolk matured at the same rate as humans, with a similar lifespan."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Merfolk tend towards neutrality, and are known to play pranks that may come across as cruel, but not overly malicious."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Merfolk grew to be about 8 feet in length, and weighed about 400 lbs. Your size is Medium."
+					]
+				},
+				{
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 10 feet, and you have a swimming speed of 40 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Underestimated",
+					"entries": [
+						"Merfolk have more strength and wit than their gorgeous physique would imply. You gain proficiency in three of the following skills: {@skill Acrobatics|phb}, {@skill Athletics|phb}, {@skill Deception|phb}, {@skill Nature|phb}, {@skill Insight|phb}, {@skill Persuasion|phb}, {@skill Performance|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Amphibious",
+					"entries": [
+						"You can breathe air and water."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Primordial|phb|Aquan}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Minotaur",
@@ -7901,6 +8017,12 @@
 				"acid",
 				"poison"
 			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -7950,6 +8072,13 @@
 					"entries": [
 						"As an action, you can reshape your body to give yourself a head, one or two arms, one or two legs, and makeshift hands and feet, or you can revert to a limbless blob. While you have a humanlike shape, you can wear clothing and armor made for a Humanoid of your size.",
 						"As a bonus action, you can extrude a pseudopod that is up to 6 inches wide and 10 feet long or reabsorb it into your body. As part of the same bonus action, you can use this pseudopod to manipulate an object, open or close a door or container, or pick up or set down a Tiny object. The pseudopod contains no sensory organs and can't attack, activate magic items, or lift more than 10 pounds."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
 					]
 				}
 			],
@@ -9220,9 +9349,9 @@
 				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-									"hellish rebuke#2"
+									"hellish rebuke"
 								]
 							}
 						},
@@ -11660,6 +11789,971 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Ursalin",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 82,
+				"heightMod": "2d6",
+				"baseWeight": 340,
+				"weightMod": "2d10"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race",
+				"Damage Resistance",
+				"Darkvision",
+				"Superior Darkvision",
+				"Skill Proficiency",
+				"Natural Weapon",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Sylvan": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Ursalin matured at the same rate as humans, with a similar lifespan."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Ursalin are living in constant conflict between their Owlin half and their Ursarth half, leading them to a frustrated Neutral, or even Evil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Ursalin are towering, imposing, and wide figures. Ursalin were between 7 to 8 feet tall, and weighed anywhere from 350 to 600 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Beak",
+					"entries": [
+						"Your beak is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hibernation",
+					"entries": [
+						"During winter, you require twice as much sleep than a normal humanoid, requiring 12 hours of sleep every day to gain the benefits of a long rest and avoid sleep deprivation. Additionally, the DC for {@condition exhaustion|THICC} from sleep deprivation increases from 15 to 21 for you. You are likewise vulnerable to sleeping magic during winter, as your hit points only count for half of what they normally would for spells like {@spell Sleep|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Violet Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being {@condition Frenzied|THICC}."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Natural Predators.} You have proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Nature|phb}, {@skill Perception|phb}, or {@skill Survival|phb}.",
+								"{@b Superior Darkvision.} You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray.",
+								"{@b Cold Resistance} You have resistance to cold damage."
+							]
+						}
+					]
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Sylvan|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Ursarth (Black)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"ability": [
+				{
+					"str": 2,
+					"dex": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 60,
+				"heightMod": "2d10",
+				"baseWeight": 240,
+				"weightMod": "2d10"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"traitTags": [
+				"Uncommon Race",
+				"Skill Proficiency",
+				"Natural Weapon",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Sylvan": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"intimidation",
+							"nature",
+							"perception",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Ursarth matured at the same rate as humans, with a similar lifespan."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Before their corruption at the hands of an especially powerful archfey over several millennia ago, werebears were a symbol of protection for the natural world. Now, no trace of their previous ancestry remains, including their lycanthropic curse and good nature. Instead, ursarth only guard and protect what they believe to be their hunting ground, eliminating anything stronger than them in their territory while still acting as stewards to the land. Ursarth were solitary by nature and generally untrusting of others. They typically only congregate during mating season, when their love for mead leads to havoc upon local communities. They tend towards Chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Black ursarth are well-built or chubby figures. Black ursarth were between 5 to 7 feet tall, and weighed anywhere from 250 to 450 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed."
+					]
+				},
+				{
+					"name": "Natural Predators",
+					"entries": [
+						"You have proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Nature|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hibernation",
+					"entries": [
+						"During winter, you require twice as much sleep than a normal humanoid, requiring 12 hours of sleep every day to gain the benefits of a long rest and avoid sleep deprivation. Additionally, the DC for {@condition exhaustion|THICC} from sleep deprivation increases from 15 to 21 for you. You are likewise vulnerable to sleeping magic during winter, as your hit points only count for half of what they normally would for spells like {@spell Sleep|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Sylvan|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/52d4ab75-c4f0-4b1e-a803-bda6757d0b4b/dhg7xhy-8a6285f7-1de4-49f6-9dbe-214b2fb3757f.jpg/v1/fill/w_894,h_894,q_70,strp/black_bear_artificer_character_art_by_cellsoul_dhg7xhy-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcLzUyZDRhYjc1LWM0ZjAtNGIxZS1hODAzLWJkYTY3NTdkMGI0YlwvZGhnN3hoeS04YTYyODVmNy0xZGU0LTQ5ZjYtOWRiZS0yMTRiMmZiMzc1N2YuanBnIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.1mTjcqIPgHJQ48XTfZLxmb3AQbSo0nDuuBlEOF460qw"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ursarth (Brown)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 82,
+				"heightMod": "2d6",
+				"baseWeight": 300,
+				"weightMod": "2d10"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"traitTags": [
+				"Uncommon Race",
+				"Skill Proficiency",
+				"Natural Weapon",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Sylvan": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"intimidation",
+							"nature",
+							"perception",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Ursarth matured at the same rate as humans, with a similar lifespan."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Before their corruption at the hands of an especially powerful archfey over several millennia ago, werebears were a symbol of protection for the natural world. Now, no trace of their previous ancestry remains, including their lycanthropic curse and good nature. Instead, ursarth only guard and protect what they believe to be their hunting ground, eliminating anything stronger than them in their territory while still acting as stewards to the land. Ursarth were solitary by nature and generally untrusting of others. They typically only congregate during mating season, when their love for mead leads to havoc upon local communities. They tend towards Chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Brown ursarth are towering, imposing, and wide figures. Brown ursarth were between 7 to 8 feet tall, and weighed anywhere from 300 to 550 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed."
+					]
+				},
+				{
+					"name": "Natural Predators",
+					"entries": [
+						"You have proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Nature|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hibernation",
+					"entries": [
+						"During winter, you require twice as much sleep than a normal humanoid, requiring 12 hours of sleep every day to gain the benefits of a long rest and avoid sleep deprivation. Additionally, the DC for {@condition exhaustion|THICC} from sleep deprivation increases from 15 to 21 for you. You are likewise vulnerable to sleeping magic during winter, as your hit points only count for half of what they normally would for spells like {@spell Sleep|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Sylvan|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/736x/1c/ed/83/1ced8317293dff01424a1c6cc870f748.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ursarth (Cave)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 82,
+				"heightMod": "2d6",
+				"baseWeight": 300,
+				"weightMod": "2d10"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"darkvision": 60,
+			"traitTags": [
+				"Uncommon Race",
+				"Skill Proficiency",
+				"Natural Weapon",
+				"Powerful Build",
+				"Darkvision"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Sylvan": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"intimidation",
+							"nature",
+							"perception",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Ursarth matured at the same rate as humans, with a similar lifespan."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Before their corruption at the hands of an especially powerful archfey over several millennia ago, werebears were a symbol of protection for the natural world. Now, no trace of their previous ancestry remains, including their lycanthropic curse and good nature. Instead, ursarth only guard and protect what they believe to be their hunting ground, eliminating anything stronger than them in their territory while still acting as stewards to the land. Ursarth were solitary by nature and generally untrusting of others. They typically only congregate during mating season, when their love for mead leads to havoc upon local communities. They tend towards Chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Cave ursarth are towering, imposing, and wide figures. Cave ursarth were between 7 to 8 feet tall, and weighed anywhere from 300 to 550 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"name": "Natural Predators",
+					"entries": [
+						"You have proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Nature|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Hibernation",
+					"entries": [
+						"During winter, you require twice as much sleep than a normal humanoid, requiring 12 hours of sleep every day to gain the benefits of a long rest and avoid sleep deprivation. Additionally, the DC for {@condition exhaustion|THICC} from sleep deprivation increases from 15 to 21 for you. You are likewise vulnerable to sleeping magic during winter, as your hit points only count for half of what they normally would for spells like {@spell Sleep|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Violet Savagery",
+					"entries": [
+						"You have disadvantage against saving throws related to being {@condition Frenzied|THICC}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Sylvan|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://64.media.tumblr.com/694978e04aaa463c1528dd798a926752/tumblr_inline_p7fz1p1cMo1rprfgq_500.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ursarth (Panda)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"climb": true
+			},
+			"ability": [
+				{
+					"con": 2,
+					"str": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 60,
+				"heightMod": "2d10",
+				"baseWeight": 240,
+				"weightMod": "2d10"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"traitTags": [
+				"Uncommon Race",
+				"Skill Proficiency",
+				"Natural Weapon",
+				"Powerful Build"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Sylvan": true
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"intimidation",
+							"nature",
+							"perception",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Ursarth matured at the same rate as humans, with a similar lifespan."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Before their corruption at the hands of an especially powerful archfey over several millennia ago, werebears were a symbol of protection for the natural world. Now, no trace of their previous ancestry remains, including their lycanthropic curse and good nature. Instead, ursarth only guard and protect what they believe to be their hunting ground, eliminating anything stronger than them in their territory while still acting as stewards to the land. Ursarth were solitary by nature and generally untrusting of others. They typically only congregate during mating season, when their love for mead leads to havoc upon local communities. They tend towards Chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Panda ursarth are well-built or chubby figures. Panda ursarth were between 5 to 7 feet tall, and weighed anywhere from 250 to 450 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed."
+					]
+				},
+				{
+					"name": "Natural Predators",
+					"entries": [
+						"You have proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Nature|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Sylvan|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://fydn.imgix.net/m%2Fgen%2Fcanvas-std-portrait-p1%2Fb1d2e66e-7364-49db-9ce3-e8065c9ec7cc.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
+			"name": "Ursarth (Polar)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": {
+				"walk": 30,
+				"swim": true
+			},
+			"ability": [
+				{
+					"str": 2,
+					"con": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 72,
+				"heightMod": "2d10",
+				"baseWeight": 340,
+				"weightMod": "2d10"
+			},
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
+			"creatureTypes": [
+				"monstrosity"
+			],
+			"traitTags": [
+				"Uncommon Race",
+				"Skill Proficiency",
+				"Natural Weapon",
+				"Powerful Build",
+				"Damage Resistance"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"Sylvan": true
+				}
+			],
+			"resist": [
+				"cold"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"intimidation",
+							"nature",
+							"perception",
+							"survival"
+						],
+						"count": 2
+					}
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Ursarth matured at the same rate as humans, with a similar lifespan."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Before their corruption at the hands of an especially powerful archfey over several millennia ago, werebears were a symbol of protection for the natural world. Now, no trace of their previous ancestry remains, including their lycanthropic curse and good nature. Instead, ursarth only guard and protect what they believe to be their hunting ground, eliminating anything stronger than them in their territory while still acting as stewards to the land. Ursarth were solitary by nature and generally untrusting of others. They typically only congregate during mating season, when their love for mead leads to havoc upon local communities. They tend towards Chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Polar ursarth are towering, imposing, and stocky figures. Polar ursarth were between 6 to 8 feet tall, and weighed anywhere from 350 to 600 lbs. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet, and you have a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"name": "Natural Predators",
+					"entries": [
+						"You have proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Nature|phb}, {@skill Perception|phb}, or {@skill Survival|phb}."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Sight and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on sight or smell."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Powerful Build",
+					"entries": [
+						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"name": "Savage Attacks",
+					"entries": [
+						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Cold Resistance",
+					"entries": [
+						"You have resistance to cold damage."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"entries": [
+						"You are a Monstrosity."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can understand and speak {@language Common|phb} and {@language Sylvan|phb}."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://static.wikia.nocookie.net/howling-hotel/images/6/66/PolarBearfolk.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Verdan",
 			"source": "EARL",
 			"size": [
@@ -12247,7 +13341,6 @@
 			"source": "EARL",
 			"raceName": "Aasimar",
 			"raceSource": "EARL",
-			"page": 1,
 			"ability": [
 				{
 					"str": 1
@@ -12257,7 +13350,7 @@
 				{
 					"name": "Necrotic Shroud",
 					"entries": [
-						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened} of you until the end of your next turn.",
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened|phb} of you until the end of your next turn.",
 						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.",
 						"Once you use this trait, you can't use it again until you finish a long rest."
 					],
@@ -12272,7 +13365,6 @@
 			"source": "EARL",
 			"raceName": "Aasimar",
 			"raceSource": "EARL",
-			"page": 2,
 			"ability": [
 				{
 					"wis": 1
@@ -12297,7 +13389,6 @@
 			"source": "EARL",
 			"raceName": "Aasimar",
 			"raceSource": "EARL",
-			"page": 2,
 			"ability": [
 				{
 					"con": 1
@@ -12322,7 +13413,6 @@
 			"source": "EARL",
 			"raceName": "Autognome",
 			"raceSource": "EARL",
-			"page": 6,
 			"ability": [
 				{
 					"int": 2
@@ -12348,14 +13438,15 @@
 						"You know the {@spell mending|phb} cantrip. When you reach 3rd level, you can cast the {@spell repair|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell lesser restoration|phb} spell once with this trait and regain the ability to do so when you finish a long rest. You may substitute {@item Tinker's Tools|OWL} as the material component for any of these spells when cast with a range of self. Constitution is your spellcasting ability for these spells."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Specialist",
 			"source": "EARL",
 			"raceName": "Autognome",
 			"raceSource": "EARL",
-			"page": 6,
 			"ability": [
 				{
 					"con": 2,
@@ -12404,7 +13495,9 @@
 						"You can add your Constitution modifier to one attack roll, ability check, or saving throw you make. You can use this trait a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Grove",
