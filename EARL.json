@@ -152,7 +152,8 @@
 			"traitTags": [
 				"Darkvision",
 				"Spellcasting",
-				"Damage Resistance"
+				"Damage Resistance",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -830,7 +831,8 @@
 				"Skill Proficiency",
 				"Spellcasting",
 				"Damage Resistance",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Planetouched"
 			],
 			"skillProficiencies": [
 				{
@@ -1129,7 +1131,8 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Powerful Build"
 			],
 			"skillProficiencies": [
 				{
@@ -2177,15 +2180,11 @@
 			"traitTags": [
 				"Darkvision",
 				"Spellcasting",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Planetouched"
 			],
 			"creatureTypes": [
 				"elemental"
-			],
-			"languageProficiencies": [
-				{
-					"common": true
-				}
 			],
 			"entries": [
 				{
@@ -2298,7 +2297,7 @@
 					"type": "entries",
 					"name": "Demolitionist",
 					"entries": [
-						"Giffs have an innate love for anything that goes boom, leading them to prefer weapons that favor this style of explosive fighting. You have proficiency with firearms. Additionally, when you throw an explosive such as a bomb, oil, or alchemist’s fire, you are able to throw it up to its maximum range without imposing disadvantage on the roll."
+						"Giffs have an innate love for anything that goes boom, leading them to prefer weapons that favor this style of explosive fighting. You have proficiency with firearms. Additionally, when you throw an explosive such as a bomb, oil, or alchemist's fire, you are able to throw it up to its maximum range without imposing disadvantage on the roll."
 					]
 				},
 				{
@@ -2608,7 +2607,8 @@
 			},
 			"darkvision": 60,
 			"traitTags": [
-				"Darkvision"
+				"Darkvision",
+				"Monstrous"
 			],
 			"languageProficiencies": [
 				{
@@ -3596,7 +3596,8 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Monstrous"
 			],
 			"languageProficiencies": [
 				{
@@ -3912,7 +3913,8 @@
 				"Skill Proficiency",
 				"Darkvision",
 				"Weapon Proficiency",
-				"Armor Proficiency"
+				"Armor Proficiency",
+				"Monstrous"
 			],
 			"languageProficiencies": [
 				{
@@ -4809,7 +4811,8 @@
 				"Skill Proficiency",
 				"Darkvision",
 				"Weapon Proficiency",
-				"Armor Proficiency"
+				"Armor Proficiency",
+				"Monstrous"
 			],
 			"languageProficiencies": [
 				{
@@ -7357,7 +7360,8 @@
 			},
 			"traitTags": [
 				"Natural Weapon",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Monstrous"
 			],
 			"creatureTypes": [
 				"monstrosity"
@@ -7942,7 +7946,8 @@
 			"traitTags": [
 				"Darkvision",
 				"Spellcasting",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Planetouched"
 			],
 			"creatureTypes": [
 				"elemental"
@@ -8107,11 +8112,6 @@
 				}
 			],
 			"speed": 25,
-			"skillProficiencies": [
-				{
-					"nature": true
-				}
-			],
 			"age": {
 				"mature": 0,
 				"max": 2000
@@ -8132,19 +8132,13 @@
 				"construct"
 			],
 			"immune": [
-				"poison",
-				"necrotic"
-			],
-			"vulnerable": [
-				"fire"
+				"poison"
 			],
 			"conditionImmune": [
 				"exhaustion",
 				"poisoned",
-				"paralyzed",
 				"petrified",
-				"disease",
-				"charmed"
+				"disease"
 			],
 			"entries": [
 				{
@@ -8193,7 +8187,7 @@
 					"type": "entries",
 					"name": "Harmless Appearance",
 					"entries": [
-						"While motionless, if you match your surroundings, you are indistinguishable from a regular doll. If your form makes no sense or stands out in its surroundings, you must make a {@skill Stealth} check contested by any onlookers' {@skill Perception} checks, with advantage or disadvantage given out based on how far-fetched your appearance is given the surroundings. If the onlooker(s) are actively looking for you or are attempting to figure out whether or not an object is you, this check may become {@skill Investigation} rather than {@skill Perception}."
+						"While motionless, if you match your surroundings, you are indistinguishable from a regular doll. If your form makes no sense or stands out in its surroundings, you must make a {@skill Stealth|phb} check contested by any onlookers' {@skill Perception|phb} checks, with advantage or disadvantage given out based on how far-fetched your appearance is given the surroundings. If the onlooker(s) are actively looking for you or are attempting to figure out whether or not an object is you, this check may become {@skill Investigation|phb} rather than {@skill Perception|phb}."
 					]
 				},
 				{
@@ -8204,13 +8198,21 @@
 						{
 							"type": "list",
 							"items": [
-								"You have vulnerability to Fire damage.",
-								"You are immune to Poison and Necrotic damage",
-								"You are immune to being Asleep, {@condition Charmed}, Diseased, {@condition Exhaustion|phb|Exhausted}, {@condition Paralyzed}, {@condition Petrified}, and {@condition Poisoned}.",
+								"You are immune to Poison damage",
+								"You are immune to being Asleep, Diseased, {@condition Exhaustion|thicc|Exhausted}, {@condition Petrified|phb}, and {@condition Poisoned|phb}.",
 								"You don't have to and cannot eat or drink, meaning you can't gain the benefits of potions or food.",
-								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas."
+								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas.",
+								"Any missing limbs can be reattached via the {@spell Mending|cooms} or {@spell Repair|cooms} spells following the rules and stipulations of the given spells.",
+								"You may not expend hit dice to heal on a short rest."
 							]
 						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentry's Rest",
+					"entries": [
+						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious|phb}, and you can see and hear as normal."
 					]
 				},
 				{
@@ -8224,14 +8226,14 @@
 					"type": "entries",
 					"name": "Loose Ties",
 					"entries": [
-						"You have disadvantage on Death Saves, as your life is loosely bound to the thread you walk in."
+						"You have disadvantage on Death Saves, as the potent spirit that powers you is eager to be freed of its curse and escape to their afterlife once you die."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak {@language Common} and one other language of its master."
+						"You can understand and speak {@language Common|phb} and one other language of its master."
 					]
 				}
 			],
@@ -8263,7 +8265,8 @@
 				"Superior Darkvision",
 				"Natural Weapon",
 				"Damage Resistance",
-				"Powerful Build"
+				"Powerful Build",
+				"Monstrous"
 			],
 			"immune": [
 				"poison"
@@ -8385,7 +8388,8 @@
 			},
 			"traitTags": [
 				"Magic Resistance",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Monstrous"
 			],
 			"skillProficiencies": [
 				{
@@ -9024,7 +9028,8 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Improved Resting",
-				"Natural Armor"
+				"Natural Armor",
+				"Monstrous"
 			],
 			"entries": [
 				{
@@ -9116,7 +9121,8 @@
 				"Darkvision",
 				"Language Proficiency",
 				"Uncommon Race",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Monstrous"
 			],
 			"entries": [
 				{
@@ -9225,7 +9231,8 @@
 				"Uncommon Race",
 				"Natural Armor",
 				"Darkvision",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -9356,7 +9363,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -9497,7 +9505,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -9639,7 +9648,8 @@
 				"Damage Resistance",
 				"Darkvision",
 				"Skill Proficiency",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -9781,7 +9791,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -9922,7 +9933,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Darkvision",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -10046,7 +10058,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Darkvision",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -10211,7 +10224,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -10352,7 +10366,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -10501,7 +10516,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Darkvision",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -10625,7 +10641,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -10766,7 +10783,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -10907,7 +10925,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -11068,7 +11087,8 @@
 				"Damage Resistance",
 				"Darkvision",
 				"Spellcasting",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -11206,7 +11226,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Darkvision",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -11320,7 +11341,8 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -14672,9 +14694,6 @@
 			"raceName": "Genasi",
 			"raceSource": "EARL",
 			"page": 13,
-			"reprintedAs": [
-				"Genasi (Air)|EARL"
-			],
 			"ability": [
 				{
 					"dex": 1
@@ -14685,22 +14704,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"gust#c"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"feather fall"
-							]
+									"feather fall"
+								]
 							}
 						},
 						"5": {
@@ -14711,13 +14720,17 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"gust#c|cooms"
+						]
+					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true
 				}
 			],
@@ -14740,7 +14753,7 @@
 					"type": "entries",
 					"name": "Mingle with the Wind",
 					"entries": [
-						"You know the {@spell gust|xge} cantrip. Starting at 3rd level, you can cast the {@spell feather fall|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell gust of wind|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell gust|cooms} cantrip. Starting at 3rd level, you can cast the {@spell feather fall|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell gust of wind|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -14748,7 +14761,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Auran."
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Auran}."
 					]
 				}
 			]
@@ -14759,9 +14772,6 @@
 			"raceName": "Genasi",
 			"raceSource": "EARL",
 			"page": 14,
-			"reprintedAs": [
-				"Genasi (Earth)|EARL"
-			],
 			"ability": [
 				{
 					"str": 1
@@ -14769,36 +14779,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"mold earth#c"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
-					"known": {
-						"1": {
-							"rest": {
-								"2": [
-									"blade ward#c"
-								]
-							}
-						}
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"earth tremor"
-							]
+									"earth tremor|xge"
+								]
 							}
 						},
 						"5": {
@@ -14809,13 +14795,18 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"mold earth#c|cooms",
+							"blade ward#c"
+						]
+					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"terran": true
 				}
 			],
@@ -14838,7 +14829,7 @@
 					"type": "entries",
 					"name": "Merge with Stone",
 					"entries": [
-						"You know the {@spell mold earth|xge} cantrip. Starting at 3rd level, you can cast the {@spell earth tremor|xge} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell pass without trace|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell mold earth|cooms} cantrip. Starting at 3rd level, you can cast the {@spell earth tremor|xge} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell pass without trace|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -14846,7 +14837,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Terran."
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Terran}."
 					]
 				}
 			]
@@ -14857,9 +14848,6 @@
 			"raceName": "Genasi",
 			"raceSource": "EARL",
 			"page": 15,
-			"reprintedAs": [
-				"Genasi (Fire)|EARL"
-			],
 			"ability": [
 				{
 					"int": 1
@@ -14870,22 +14858,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"control flames#c"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"burning hands"
-							]
+									"burning hands"
+								]
 							}
 						},
 						"5": {
@@ -14896,13 +14874,17 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"control flames#c|cooms"
+						]
+					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"ignan": true
 				}
 			],
@@ -14925,7 +14907,7 @@
 					"type": "entries",
 					"name": "Reach to the Blaze",
 					"entries": [
-						"You know the {@spell control flames|xge} cantrip. Starting at 3rd level, you can cast the {@spell burning hands|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell flame blade|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell control flames|cooms} cantrip. Starting at 3rd level, you can cast the {@spell burning hands|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell flame blade|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -14944,9 +14926,6 @@
 			"raceName": "Genasi",
 			"raceSource": "EARL",
 			"page": 16,
-			"reprintedAs": [
-				"Genasi (Water)|EARL"
-			],
 			"speed": {
 				"walk": 30,
 				"swim": true
@@ -14964,22 +14943,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"shape water#c"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"create or destroy water"
-							]
+									"create or destroy water|cooms"
+								]
 							}
 						},
 						"5": {
@@ -14990,13 +14959,17 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"shape water#c|cooms"
+						]
+					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true
 				}
 			],
@@ -15019,7 +14992,7 @@
 					"type": "entries",
 					"name": "Call to the Wave",
 					"entries": [
-						"You know the {@spell shape water|xge} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell misty step|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell shape water|cooms} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water|cooms} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell misty step|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -15027,7 +15000,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Aquan."
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Aquan}."
 					]
 				}
 			]
@@ -15557,9 +15530,6 @@
 			"raceName": "Half-Dragon",
 			"raceSource": "EARL",
 			"page": 22,
-			"reprintedAs": [
-				"Half-Dragon (Drow)|EARL"
-			],
 			"ability": [
 				{
 					"cha": 1
@@ -15609,7 +15579,7 @@
 					"type": "entries",
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom ({@skill perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+						"You have disadvantage on attack rolls and on Wisdom ({@skill perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
 					]
 				},
 				{
@@ -15634,7 +15604,7 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
-						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|phb|rapiers}, {@item shortsword|phb|shortswords}, and {@item hand crossbow|phb|hand crossbows}.",
+						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|owl|rapiers}, {@item shortsword|owl|shortswords}, and {@item hand crossbow|owl|hand crossbows}.",
 						"{@b Drow Magic.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -15832,9 +15802,6 @@
 			"raceName": "Half-Dragon",
 			"raceSource": "EARL",
 			"page": 30,
-			"reprintedAs": [
-				"Half-Dragon (Elf)|EARL"
-			],
 			"ability": [
 				{
 					"dex": 1
@@ -15902,7 +15869,7 @@
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
 						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
 						"{@b Sea Elf Training.} You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
-						"{@b Swim.} You gain a swimming speed of 30 ft.",
+						"{@b Child of the Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
 						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
 						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
 						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Constitution is your spellcasting ability for it."
