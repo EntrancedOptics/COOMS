@@ -41,7 +41,8 @@
 			},
 			"traitTags": [
 				"Natural Weapon",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -276,7 +277,8 @@
 			"traitTags": [
 				"Improved Resting",
 				"Natural Armor",
-				"Tool Proficiency"
+				"Tool Proficiency",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -559,7 +561,10 @@
 			"traitTags": [
 				"Darkvision",
 				"Powerful Build",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -691,7 +696,11 @@
 			},
 			"traitTags": [
 				"Amphibious",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -1126,7 +1135,10 @@
 			"traitTags": [
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -1239,7 +1251,8 @@
 				"Darkvision",
 				"Language Proficiency",
 				"Skill Proficiency",
-				"Spellcasting"
+				"Spellcasting",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -1324,7 +1337,10 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -1409,6 +1425,9 @@
 				"mature": 15,
 				"max": 80
 			},
+			"traitTags": [
+				"Animalistic"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -1585,10 +1604,6 @@
 		{
 			"name": "Dwelf",
 			"source": "EARL",
-			"page": 9,
-			"reprintedAs": [
-				"Dwelf|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -1616,7 +1631,9 @@
 				"Skill Proficiency",
 				"Tool Proficiency",
 				"Magic Resistance",
-				"Amphibious"
+				"Amphibious",
+				"Outcast",
+				"Exotic"
 			],
 			"resist": [
 				"poison"
@@ -1859,7 +1876,8 @@
 				"Sunlight Sensitivity",
 				"Language Proficiency",
 				"Natural Weapon",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -1975,6 +1993,9 @@
 				"walk": 30,
 				"fly": true
 			},
+			"traitTags": [
+				"Exotic"
+			],
 			"additionalSpells": [
 				{
 					"ability": {
@@ -2066,7 +2087,8 @@
 				"max": 500
 			},
 			"traitTags": [
-				"Powerful Build"
+				"Powerful Build",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -2151,10 +2173,6 @@
 		{
 			"name": "Genasi",
 			"source": "EARL",
-			"page": 13,
-			"reprintedAs": [
-				"Genasi|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -2173,7 +2191,8 @@
 				"Darkvision",
 				"Spellcasting",
 				"Uncommon Race",
-				"Planetouched"
+				"Planetouched",
+				"Exotic"
 			],
 			"creatureTypes": [
 				"elemental"
@@ -2249,7 +2268,11 @@
 				"walk": 30
 			},
 			"traitTags": [
-				"Powerful Build"
+				"Powerful Build",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"weaponProficiencies": [
 				{
@@ -2329,6 +2352,9 @@
 					"int": 1
 				}
 			],
+			"traitTags": [
+				"Exotic"
+			],
 			"age": {
 				"mature": 20,
 				"max": 100
@@ -2388,7 +2414,11 @@
 			"traitTags": [
 				"Darkvision",
 				"Natural Weapon",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -2600,7 +2630,9 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Monstrous"
+				"Monstrous Race",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -2722,7 +2754,8 @@
 				"max": 100
 			},
 			"traitTags": [
-				"Powerful Build"
+				"Powerful Build",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -2818,7 +2851,10 @@
 				"max": 700
 			},
 			"traitTags": [
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -2906,7 +2942,11 @@
 				"max": 50
 			},
 			"traitTags": [
-				"Amphibious"
+				"Amphibious",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -3015,6 +3055,9 @@
 				"walk": 30,
 				"climb": true
 			},
+			"traitTags": [
+				"Animalistic"
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -3136,10 +3179,6 @@
 		{
 			"name": "Half-Bugbear",
 			"source": "EARL",
-			"page": 22,
-			"reprintedAs": [
-				"Half-Bugbear|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -3168,7 +3207,8 @@
 				"Darkvision",
 				"Powerful Build",
 				"Skill Proficiency",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Exotic"
 
 			],
 			"skillProficiencies": [
@@ -3312,10 +3352,6 @@
 		{
 			"name": "Half-Dragon",
 			"source": "EARL",
-			"page": 22,
-			"reprintedAs": [
-				"Half-Dragon|EARL"
-			],
 			"ability": [
 				{
 					"con": 2
@@ -3324,7 +3360,9 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -3589,7 +3627,8 @@
 			"traitTags": [
 				"Darkvision",
 				"Skill Proficiency",
-				"Monstrous"
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -3753,10 +3792,6 @@
 		{
 			"name": "Half-Harengon",
 			"source": "EARL",
-			"page": 41,
-			"reprintedAs": [
-				"Half-Harengon|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -3782,7 +3817,8 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -3873,10 +3909,6 @@
 		{
 			"name": "Half-Hobgoblin",
 			"source": "EARL",
-			"page": 41,
-			"reprintedAs": [
-				"Half-Hobgoblin|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -3906,7 +3938,8 @@
 				"Darkvision",
 				"Weapon Proficiency",
 				"Armor Proficiency",
-				"Monstrous"
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -4020,7 +4053,8 @@
 			"traitTags": [
 				"Darkvision",
 				"Powerful Build",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -4255,10 +4289,6 @@
 		{
 			"name": "Half-Tabaxi",
 			"source": "EARL",
-			"page": 43,
-			"reprintedAs": [
-				"Half-Tabaxi|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -4287,7 +4317,8 @@
 				"Skill Proficiency",
 				"Darkvision",
 				"Natural Weapon",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -4404,7 +4435,8 @@
 				"Darkvision",
 				"Natural Weapon",
 				"Powerful Build",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -4629,6 +4661,9 @@
 					"perception": true
 				}
 			],
+			"traitTags": [
+				"Animalistic"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -4703,7 +4738,9 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -4780,10 +4817,6 @@
 		{
 			"name": "Hobgoblin",
 			"source": "EARL",
-			"page": 44,
-			"reprintedAs": [
-				"Hobgoblin|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -4804,7 +4837,9 @@
 				"Darkvision",
 				"Weapon Proficiency",
 				"Armor Proficiency",
-				"Monstrous"
+				"Monstrous Race",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -4983,10 +5018,6 @@
 		{
 			"name": "Human (Cursevein)",
 			"source": "EARL",
-			"page": 45,
-			"reprintedAs": [
-				"Human (Cursevein)|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -5026,7 +5057,8 @@
 				"Skill Proficiency",
 				"Tool Proficiency",
 				"Language Proficiency",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -5483,6 +5515,9 @@
 			"size": [
 				"S"
 			],
+			"traitTags": [
+				"Animalistic"
+			],
 			"speed": 30,
 			"darkvision": 60,
 			"skillProficiencies": [
@@ -5611,6 +5646,9 @@
 				"mature": 20,
 				"max": 100
 			},
+			"traitTags": [
+				"Exotic"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -5695,6 +5733,9 @@
 			"size": [
 				"S"
 			],
+			"traitTags": [
+				"Exotic"
+			],
 			"speed": 30,
 			"skillProficiencies": [
 				{
@@ -5766,6 +5807,12 @@
 				"mature": 12,
 				"max": 60
 			},
+			"traitTags": [
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
+			],
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -5860,7 +5907,9 @@
 				"Darkvision",
 				"Natural Weapon",
 				"Spellcasting",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6006,10 +6055,6 @@
 		{
 			"name": "Kobold",
 			"source": "EARL",
-			"page": 49,
-			"reprintedAs": [
-				"Kobold|EARL"
-			],
 			"size": [
 				"S"
 			],
@@ -6028,7 +6073,11 @@
 			"traitTags": [
 				"Skill Proficiency",
 				"Darkvision",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6187,7 +6236,11 @@
 			"traitTags": [
 				"Skill Proficiency",
 				"Darkvision",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6337,7 +6390,11 @@
 				"Superior Darkvision",
 				"Sunlight Sensitivity",
 				"Natural Weapon",
-				"Amphibious"
+				"Amphibious",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -6471,7 +6528,8 @@
 			"traitTags": [
 				"Natural Weapon",
 				"Darkvision",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -6569,10 +6627,6 @@
 		{
 			"name": "Leshy",
 			"source": "EARL",
-			"page": 55,
-			"reprintedAs": [
-				"Leshy|EARL"
-			],
 			"size": [
 				"S"
 			],
@@ -6588,7 +6642,8 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6680,7 +6735,10 @@
 			},
 			"traitTags": [
 				"Natural Armor",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -6799,7 +6857,9 @@
 			},
 			"traitTags": [
 				"Amphibious",
-				"Natural Armor"
+				"Natural Armor",
+				"Animalistic",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -6899,7 +6959,9 @@
 			},
 			"traitTags": [
 				"Natural Armor",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6995,10 +7057,15 @@
 				"mature": 20,
 				"max": 50
 			},
+			"creatureTypes": [
+				"giant"
+			],
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Powerful Build"
+				"Powerful Build",
+				"Outcast",
+				"Exotic"
 			],
 			"resist": [
 				"poison"
@@ -7069,6 +7136,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Giant."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common, Dwarvish, and Giant."
@@ -7106,7 +7180,9 @@
 			"traitTags": [
 				"Darkvision",
 				"Language Proficiency",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7240,7 +7316,9 @@
 			},
 			"traitTags": [
 				"Amphibious",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7353,7 +7431,10 @@
 			"traitTags": [
 				"Natural Weapon",
 				"Skill Proficiency",
-				"Monstrous"
+				"Monstrous Race",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"creatureTypes": [
 				"monstrosity"
@@ -7473,7 +7554,10 @@
 			"traitTags": [
 				"Superior Darkvision",
 				"Uncommon Race",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7616,7 +7700,10 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Powerful Build"
+				"Powerful Build",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7776,7 +7863,10 @@
 			"traitTags": [
 				"Darkvision",
 				"Skill Proficiency",
-				"Powerful Build"
+				"Powerful Build",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -7883,6 +7973,11 @@
 				"walk": 30,
 				"fly": true
 			},
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Animalistic"
+			],
 			"darkvision": 120,
 			"skillProficiencies": [
 				{
@@ -7939,7 +8034,8 @@
 				"Darkvision",
 				"Spellcasting",
 				"Uncommon Race",
-				"Planetouched"
+				"Planetouched",
+				"Exotic"
 			],
 			"creatureTypes": [
 				"elemental"
@@ -8021,6 +8117,10 @@
 			"resist": [
 				"acid",
 				"poison"
+			],
+			"traitTags": [
+				"Darkvision",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -8112,7 +8212,9 @@
 			"traitTags": [
 				"Language Proficiency",
 				"Uncommon Race",
-				"Darkvision"
+				"Darkvision",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -8258,7 +8360,9 @@
 				"Natural Weapon",
 				"Damage Resistance",
 				"Powerful Build",
-				"Monstrous"
+				"Monstrous Race",
+				"Outcast",
+				"Exotic"
 			],
 			"immune": [
 				"poison"
@@ -8381,7 +8485,9 @@
 			"traitTags": [
 				"Magic Resistance",
 				"Natural Weapon",
-				"Monstrous"
+				"Monstrous Race",
+				"Animalistic",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -8494,7 +8600,11 @@
 				"Natural Weapon",
 				"Uncommon Race",
 				"Damage Resistance",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -8704,6 +8814,11 @@
 					"common": true
 				}
 			],
+			"traitTags": [
+				"Darkvision",
+				"Animalistic",
+				"Exotic"
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -8783,7 +8898,11 @@
 				"Uncommon Race",
 				"Natural Weapon",
 				"Skill Proficiency",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -8915,7 +9034,8 @@
 			},
 			"darkvision": 60,
 			"traitTags": [
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -9021,7 +9141,10 @@
 			"traitTags": [
 				"Improved Resting",
 				"Natural Armor",
-				"Monstrous"
+				"Monstrous Race",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -9114,7 +9237,10 @@
 				"Language Proficiency",
 				"Uncommon Race",
 				"Natural Weapon",
-				"Monstrous"
+				"Monstrous Race",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -9224,7 +9350,10 @@
 				"Natural Armor",
 				"Darkvision",
 				"Natural Weapon",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9356,7 +9485,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9498,7 +9629,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9641,7 +9774,10 @@
 				"Darkvision",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9784,7 +9920,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9926,7 +10064,9 @@
 				"Damage Resistance",
 				"Darkvision",
 				"Natural Weapon",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10051,7 +10191,10 @@
 				"Damage Resistance",
 				"Darkvision",
 				"Natural Weapon",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10217,7 +10360,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10359,7 +10504,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10509,7 +10656,10 @@
 				"Damage Resistance",
 				"Darkvision",
 				"Natural Weapon",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10634,7 +10784,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10776,7 +10928,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10918,7 +11072,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -11080,7 +11236,9 @@
 				"Darkvision",
 				"Spellcasting",
 				"Language Proficiency",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -11219,7 +11377,9 @@
 				"Damage Resistance",
 				"Darkvision",
 				"Language Proficiency",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -11334,7 +11494,9 @@
 				"Damage Resistance",
 				"Superior Darkvision",
 				"Spellcasting",
-				"Planetouched"
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -11459,7 +11621,8 @@
 			},
 			"traitTags": [
 				"Natural Armor",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -11716,7 +11879,11 @@
 				"Darkvision",
 				"Uncommon Race",
 				"Natural Weapon",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -11855,7 +12022,10 @@
 				"Superior Darkvision",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -12022,7 +12192,9 @@
 				"Uncommon Race",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12182,7 +12354,9 @@
 				"Uncommon Race",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12344,7 +12518,9 @@
 				"Skill Proficiency",
 				"Natural Weapon",
 				"Powerful Build",
-				"Darkvision"
+				"Darkvision",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12518,7 +12694,9 @@
 				"Uncommon Race",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12665,7 +12843,9 @@
 				"Skill Proficiency",
 				"Natural Weapon",
 				"Powerful Build",
-				"Damage Resistance"
+				"Damage Resistance",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12812,6 +12992,9 @@
 				"mature": 24,
 				"max": 200
 			},
+			"traitTags": [
+				"Exotic"
+			],
 			"skillProficiencies": [
 				{
 					"persuasion": true
@@ -12922,7 +13105,8 @@
 			},
 			"traitTags": [
 				"Improved Resting",
-				"Natural Armor"
+				"Natural Armor",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -13094,7 +13278,11 @@
 				"Natural Weapon",
 				"Uncommon Race",
 				"Damage Resistance",
-				"Spellcasting"
+				"Spellcasting",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -13285,7 +13473,10 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Magic Resistance",
-				"Monstrous Race"
+				"Monstrous Race",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -13388,6 +13579,10 @@
 					"str": 1
 				}
 			],
+			"traitTags": [
+				"Outcast",
+				"Exotic"
+			],
 			"entries": [
 				{
 					"name": "Necrotic Shroud",
@@ -13435,6 +13630,10 @@
 				{
 					"con": 1
 				}
+			],
+			"traitTags": [
+				"Outcast",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -13963,10 +14162,6 @@
 			"source": "EARL",
 			"raceName": "Dwarf",
 			"raceSource": "EARL",
-			"page": 6,
-			"reprintedAs": [
-				"Dwarf (Duergar)|EARL"
-			],
 			"ability": [
 				{
 					"str": 1
@@ -13976,7 +14171,9 @@
 			"traitTags": [
 				"Superior Darkvision",
 				"Spellcasting",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -14049,10 +14246,6 @@
 			"source": "EARL",
 			"raceName": "Dwarf",
 			"raceSource": "EARL",
-			"page": 6,
-			"reprintedAs": [
-				"Dwarf (Hill)|EARL"
-			],
 			"ability": [
 				{
 					"wis": 1
@@ -14162,6 +14355,9 @@
 				"baseWeight": 90,
 				"weightMod": "1d4"
 			},
+			"traitTags": [
+				"Exotic"
+			],
 			"additionalSpells": [
 				{
 					"known": {
@@ -14236,7 +14432,9 @@
 			},
 			"darkvision": 120,
 			"traitTags": [
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Exotic"
 			],
 			"weaponProficiencies": [
 				{
@@ -14326,6 +14524,9 @@
 				{
 					"cha": 1
 				}
+			],
+			"traitTags": [
+				"Exotic"
 			],
 			"heightAndWeight": {
 				"baseHeight": 54,
@@ -14636,6 +14837,10 @@
 				"baseWeight": 90,
 				"weightMod": "1d4"
 			},
+			"traitTags": [
+				"Outcast",
+				"Exotic"
+			],
 			"resist": [
 				"necrotic"
 			],
@@ -15061,7 +15266,8 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Tool Proficiency"
+				"Tool Proficiency",
+				"Exotic"
 			],
 			"weaponProficiencies": [
 				{
@@ -15239,6 +15445,10 @@
 					"gnomish": true,
 					"undercommon": true
 				}
+			],
+			"traitTags": [
+				"Outcast",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -16203,7 +16413,8 @@
 			"traitTags": [
 				"Spellcasting",
 				"Skill Proficiency",
-				"Weapon Proficiency"
+				"Weapon Proficiency",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -16355,7 +16566,8 @@
 			"raceSource": "EARL",
 			"traitTags": [
 				"Skill Proficiency",
-				"Damage Resistance"
+				"Damage Resistance",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -18324,7 +18536,8 @@
 				}
 			],
 			"traitTags": [
-				"Natural Armor"
+				"Natural Armor",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -18362,7 +18575,8 @@
 				}
 			],
 			"traitTags": [
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
