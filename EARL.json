@@ -535,17 +535,8 @@
 					"type": "entries"
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://srd.dndtools.org/srd/resource/images/races/racesDramagAxani.jpg"
-						}
-					}
-				]
-			}
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Bugbear",
@@ -567,7 +558,8 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Powerful Build"
+				"Powerful Build",
+				"Skill Proficiency"
 			],
 			"skillProficiencies": [
 				{
@@ -787,7 +779,7 @@
 					"type": "entries",
 					"name": "Water Dependency",
 					"entries": [
-						"If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of {@condition exhaustion|phb} at the end of that day. You can only recover from this {@condition exhaustion|phb} through magic or by immersing yourself in water for at least 1 hour."
+						"If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of {@condition exhaustion|thicc} at the end of that day. You can only recover from this {@condition exhaustion|thicc} through magic or by immersing yourself in water for at least 1 hour."
 					]
 				},
 				{
@@ -797,7 +789,9 @@
 						"You can speak, read, and write {@language Common|phb} and {@language Bullywug|mm}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Cansin",
@@ -965,7 +959,7 @@
 							"rows": [
 								[
 									"1",
-									"{@spell dancing lights|phb}",
+									"{@spell dancing lights|cooms}",
 									"{@spell absorb elements|xge}",
 									"{@spell Aganazzar's scorcher|cooms}"
 								],
@@ -1069,7 +1063,7 @@
 									"18",
 									"{@spell thunderclap|xge}",
 									"{@spell Tasha's hideous laughter|phb}",
-									"{@spell Snilloc's snowball swarm|xge}"
+									"{@spell Snilloc's snowball swarm|cooms}"
 								],
 								[
 									"19",
@@ -1179,7 +1173,7 @@
 					"type": "entries",
 					"name": "Creature Type",
 					"entries": [
-						"Your creature type is fey, rather than humanoid."
+						"Your creature type is monstrosity, rather than humanoid."
 					]
 				},
 				{
@@ -1402,10 +1396,6 @@
 		{
 			"name": "Dragonborn",
 			"source": "EARL",
-			"page": 1,
-			"reprintedAs": [
-				"Dragonborn|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -1476,7 +1466,9 @@
 				"heightMod": "2d8",
 				"baseWeight": 175,
 				"weightMod": "2d6"
-			}
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Dwarf",
@@ -13573,6 +13565,32 @@
 					}
 				}
 			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"rest": {
+								"1": [
+									"purify food and drink"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"lesser restoration"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"druidcraft#c|cooms"
+						]
+					}
+				}
+			],
 			"entries": [
 				{
 					"name": "Size",
@@ -13648,6 +13666,32 @@
 					}
 				}
 			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"rest": {
+								"1": [
+									"detect poison and disease"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"locate animals or plants"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"druidcraft#c|cooms"
+						]
+					}
+				}
+			],
 			"entries": [
 				{
 					"name": "Size",
@@ -13700,57 +13744,53 @@
 			"source": "EARL",
 			"raceName": "Dragonborn",
 			"raceSource": "EARL",
-			"page": 1,
-			"reprintedAs": [
-				"Dragonborn (Chromatic)|EARL"
-			],
 			"ability": [
 				{
 					"cha": 1
 				}
 			],
 			"entries": [
-			{
-							"type": "table",
-							"caption": "Draconic Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type",
-								"Breath Weapon"
-							],
-							"colStyles": [
-								"col-4",
-								"col-4",
-								"col-4"
-							],
-							"rows": [
-								[
-									"Black",
-									"Acid",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Blue",
-									"Lightning",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Green",
-									"Poison",
-									"15 ft. cone (Con. save)"
-								],
-								[
-									"Red",
-									"Fire",
-									"15 ft. cone (Dex. save)"
-								],
-								[
-									"White",
-									"Cold",
-									"15 ft. cone (Con. save)"
-								]
-							]
-						},
+				{
+					"type": "table",
+					"caption": "Draconic Ancestry",
+					"colLabels": [
+						"Dragon",
+						"Damage Type",
+						"Breath Weapon"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"Black",
+							"Acid",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Blue",
+							"Lightning",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Green",
+							"Poison",
+							"15 ft. cone (Con. save)"
+						],
+						[
+							"Red",
+							"Fire",
+							"15 ft. cone (Dex. save)"
+						],
+						[
+							"White",
+							"Cold",
+							"15 ft. cone (Con. save)"
+						]
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Chromatic Warding",
@@ -13761,68 +13801,66 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}. {@language Draconic|phb} is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Gem",
 			"source": "EARL",
 			"raceName": "Dragonborn",
 			"raceSource": "EARL",
-			"page": 3,
-			"reprintedAs": [
-				"Dragonborn (Gem)|EARL"
-			],
 			"ability": [
 				{
 					"int": 1
 				}
 			],
 			"entries": [
-			{
-							"type": "table",
-							"caption": "Draconic Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type",
-								"Breath Weapon"
-							],
-							"colStyles": [
-								"col-4",
-								"col-4",
-								"col-4"
-							],
-							"rows": [
-								[
-									"Amethyst",
-									"Force",
-									"15 ft. cone (Dex. save)"
-								],
-								[
-									"Crystal",
-									"Radiant",
-									"15 ft. cone (Con. save)"
-								],
-								[
-									"Emerald",
-									"Psychic",
-									"15 ft. cone (Int. save)"
-								],
-								[
-									"Sapphire",
-									"Thunder",
-									"15 ft. cone (Con. save)"
-								],
-								[
-									"Topaz",
-									"Necrotic",
-									"15 ft. cone (Con. save)"
-								]
-							]
-						},
+				{
+					"type": "table",
+					"caption": "Draconic Ancestry",
+					"colLabels": [
+						"Dragon",
+						"Damage Type",
+						"Breath Weapon"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"Amethyst",
+							"Force",
+							"15 ft. cone (Dex. save)"
+						],
+						[
+							"Crystal",
+							"Radiant",
+							"15 ft. cone (Con. save)"
+						],
+						[
+							"Emerald",
+							"Psychic",
+							"15 ft. cone (Int. save)"
+						],
+						[
+							"Sapphire",
+							"Thunder",
+							"15 ft. cone (Con. save)"
+						],
+						[
+							"Topaz",
+							"Necrotic",
+							"15 ft. cone (Con. save)"
+						]
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Psionic Mind",
@@ -13840,68 +13878,66 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}. {@language Draconic|phb} is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Metallic",
 			"source": "EARL",
 			"raceName": "Dragonborn",
 			"raceSource": "EARL",
-			"page": 3,
-			"reprintedAs": [
-				"Dragonborn (Metallic)|EARL"
-			],
 			"ability": [
 				{
 					"wis": 1
 				}
 			],
 			"entries": [
-			{
-							"type": "table",
-							"caption": "Draconic Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type",
-								"Breath Weapon"
-							],
-							"colStyles": [
-								"col-4",
-								"col-4",
-								"col-4"
-							],
-							"rows": [
-								[
-									"Brass",
-									"Fire",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Bronze",
-									"Lightning",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Copper",
-									"Acid",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Gold",
-									"Fire",
-									"15 ft. cone (Dex. save)"
-								],
-								[
-									"Silver",
-									"Cold",
-									"15 ft. cone (Con. save)"
-								]
-							]
-						},
+				{
+					"type": "table",
+					"caption": "Draconic Ancestry",
+					"colLabels": [
+						"Dragon",
+						"Damage Type",
+						"Breath Weapon"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"Brass",
+							"Fire",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Bronze",
+							"Lightning",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Copper",
+							"Acid",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Gold",
+							"Fire",
+							"15 ft. cone (Dex. save)"
+						],
+						[
+							"Silver",
+							"Cold",
+							"15 ft. cone (Con. save)"
+						]
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Metallic Breath Weapon",
@@ -13914,11 +13950,13 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}. {@language Draconic|phb} is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Duergar",
