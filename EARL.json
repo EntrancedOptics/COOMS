@@ -1495,9 +1495,6 @@
 			"name": "Dwarf",
 			"source": "EARL",
 			"page": 6,
-			"reprintedAs": [
-				"Dwarf|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -18785,8 +18782,7 @@
 						}
 					]
 				}
-			],
-			"migrationVersion": 3
+			]
 		},
 		{
 			"name": "Breath Weapon",
@@ -18812,8 +18808,7 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			},
-			"migrationVersion": 3
+			}
 		},
 		{
 			"name": "Breath Weapon",
@@ -18839,8 +18834,7 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			},
-			"migrationVersion": 3
+			}
 		},
 		{
 			"name": "Breath Weapon",
@@ -18866,8 +18860,7 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			},
-			"migrationVersion": 3
+			}
 		},
 		{
 			"name": "Breath Weapon",
@@ -18893,8 +18886,7 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			},
-			"migrationVersion": 3
+			}
 		},
 		{
 			"name": "Breath Weapon",
@@ -18920,8 +18912,7 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			},
-			"migrationVersion": 3
+			}
 		}
 	]
 }
