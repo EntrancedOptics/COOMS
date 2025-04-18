@@ -1426,7 +1426,9 @@
 				"max": 80
 			},
 			"traitTags": [
-				"Animalistic"
+				"Animalistic",
+				"Natural Weapon",
+				"Damage Resistance"
 			],
 			"languageProficiencies": [
 				{
@@ -1467,8 +1469,8 @@
 					"type": "entries",
 					"name": "Breath Weapon",
 					"entries": [
-						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
-						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice 1d10} equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+						"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice 1d10} equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
 						"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
 					]
 				},
@@ -13587,7 +13589,7 @@
 				{
 					"name": "Necrotic Shroud",
 					"entries": [
-						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened|phb} of you until the end of your next turn.",
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw ({@dc} 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened|phb} of you until the end of your next turn.",
 						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.",
 						"Once you use this trait, you can't use it again until you finish a long rest."
 					],
@@ -14006,7 +14008,94 @@
 				}
 			],
 			"hasFluff": true,
-			"hasFluffImages": true
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"_abstract": {
+						"name": "Dragonborn ({{color}})",
+						"source": "EARL",
+						"_mod": {
+							"entries": [
+								{
+									"mode": "removeArr",
+									"names": "Draconic Ancestry"
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Breath Weapon",
+									"items": {
+										"type": "entries",
+										"name": "Breath Weapon",
+										"entries": [
+											"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+											"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} {{damageType}} damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+											"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+										]
+									}
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Damage Resistance",
+									"items": {
+										"type": "entries",
+										"name": "Damage Resistance",
+										"entries": [
+											"You have resistance to {{damageType}} damage."
+										]
+									}
+								}
+							]
+						}
+					},
+					"_implementations": [
+						{
+							"_variables": {
+								"color": "Black",
+								"damageType": "Acid"
+							},
+							"resist": [
+								"acid"
+							]
+						},
+						{
+							"_variables": {
+								"color": "Blue",
+								"damageType": "Lightning"
+							},
+							"resist": [
+								"lightning"
+							]
+						},
+						{
+							"_variables": {
+								"color": "Green",
+								"damageType": "Poison"
+							},
+							"resist": [
+								"poison"
+							]
+						},
+						{
+							"_variables": {
+								"color": "Red",
+								"damageType": "Fire"
+							},
+							"resist": [
+								"fire"
+							]
+						},
+						{
+							"_variables": {
+								"color": "White",
+								"damageType": "Cold"
+							},
+							"resist": [
+								"cold"
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"name": "Gem",
@@ -18671,6 +18760,168 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		}
+	],
+	"raceFeature": [
+		{
+			"name": "Armored Casing",
+			"source": "EARL",
+			"raceName": "Autognome",
+			"raceSource": "EARL",
+			"effects": [
+				{
+					"name": "Armored Casing",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "13 + @abilities.dex.mod"
+						}
+					]
+				}
+			],
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; Black)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "30",
+						"target.template.units": "ft",
+						"target.template.type": "line"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; Blue)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "30",
+						"target.template.units": "ft",
+						"target.template.type": "line"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; Green)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "15",
+						"target.template.units": "ft",
+						"target.template.type": "cone"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; Red)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "15",
+						"target.template.units": "ft",
+						"target.template.type": "cone"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; White)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "15",
+						"target.template.units": "ft",
+						"target.template.type": "cone"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
 		}
 	]
 }
