@@ -1492,6 +1492,231 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Dragonborn (Chromatic)",
+			"source": "EARL",
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"ability": [
+				{
+					"con": 2,
+					"cha": 1
+				}
+			],
+			"heightAndWeight": {
+				"baseHeight": 66,
+				"heightMod": "2d8",
+				"baseWeight": 175,
+				"weightMod": "2d6"
+			},
+			"age": {
+				"mature": 15,
+				"max": 80
+			},
+			"traitTags": [
+				"Animalistic",
+				"Natural Weapon",
+				"Damage Resistance"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"draconic": true
+				}
+			],
+			"entries": [
+				{
+					"name": "Age",
+					"entries": [
+						"Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Ancestry",
+					"entries": [
+						"You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Breath Weapon",
+					"entries": [
+						"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice 1d10} equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+						"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Draconic Resilience",
+					"entries": [
+						"You have resistance to the damage type associated with your draconic ancestry."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Draconic Ancestry",
+					"colLabels": [
+						"Dragon",
+						"Damage Type",
+						"Breath Weapon"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"Black",
+							"Acid",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Blue",
+							"Lightning",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Green",
+							"Poison",
+							"15 ft. cone (Con. save)"
+						],
+						[
+							"Red",
+							"Fire",
+							"15 ft. cone (Dex. save)"
+						],
+						[
+							"White",
+							"Cold",
+							"15 ft. cone (Con. save)"
+						]
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Chromatic Warding",
+					"entries": [
+						"Starting at 5th level, as an action, you can channel your draconic energy to protect yourself. For 1 minute, you become immune to the damage type associated with your Chromatic Ancestry. Once you use this trait, you can't do so again until you finish a long rest."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}. {@language Draconic|phb} is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"_abstract": {
+						"name": "Dragonborn (Chromatic; {{color}})",
+						"source": "EARL",
+						"_mod": {
+							"entries": [
+								{
+									"mode": "removeArr",
+									"names": "Draconic Ancestry"
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Breath Weapon",
+									"items": {
+										"type": "entries",
+										"name": "Breath Weapon",
+										"entries": [
+											"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+											"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} {{damageType}} damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+											"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+										]
+									}
+								},
+								{
+									"mode": "replaceArr",
+									"replace": "Damage Resistance",
+									"items": {
+										"type": "entries",
+										"name": "Damage Resistance",
+										"entries": [
+											"You have resistance to {{damageType}} damage."
+										]
+									}
+								}
+							]
+						}
+					},
+					"_implementations": [
+						{
+							"_variables": {
+								"color": "Black",
+								"damageType": "Acid"
+							},
+							"resist": [
+								"acid"
+							]
+						},
+						{
+							"_variables": {
+								"color": "Blue",
+								"damageType": "Lightning"
+							},
+							"resist": [
+								"lightning"
+							]
+						},
+						{
+							"_variables": {
+								"color": "Green",
+								"damageType": "Poison"
+							},
+							"resist": [
+								"poison"
+							]
+						},
+						{
+							"_variables": {
+								"color": "Red",
+								"damageType": "Fire"
+							},
+							"resist": [
+								"fire"
+							]
+						},
+						{
+							"_variables": {
+								"color": "White",
+								"damageType": "Cold"
+							},
+							"resist": [
+								"cold"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "Dwarf",
 			"source": "EARL",
 			"page": 6,
@@ -13938,7 +14163,7 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Chromatic",
+			"name": "Chroma",
 			"source": "EARL",
 			"raceName": "Dragonborn",
 			"raceSource": "EARL",
