@@ -14009,7 +14009,7 @@
 			"_versions": [
 				{
 					"_abstract": {
-						"name": "Dragonborn ({{color}})",
+						"name": "Dragonborn (Chromatic; {{color}})",
 						"source": "EARL",
 						"_mod": {
 							"entries": [
@@ -18782,7 +18782,58 @@
 						}
 					]
 				}
-			]
+			],
+			"migrationVersion": 3
+		},
+		{
+			"name": "Armored Casing",
+			"source": "EARL",
+			"raceName": "Autognome (Mechanist)",
+			"raceSource": "EARL",
+			"effects": [
+				{
+					"name": "Armored Casing",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "13 + @abilities.dex.mod"
+						}
+					]
+				}
+			],
+			"migrationVersion": 3
+		},
+		{
+			"name": "Armored Casing",
+			"source": "EARL",
+			"raceName": "Autognome (Specialist)",
+			"raceSource": "EARL",
+			"effects": [
+				{
+					"name": "Armored Casing",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "13 + @abilities.dex.mod"
+						}
+					]
+				}
+			],
+			"migrationVersion": 3
 		},
 		{
 			"name": "Breath Weapon",
@@ -18808,7 +18859,8 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			}
+			},
+			"migrationVersion": 3
 		},
 		{
 			"name": "Breath Weapon",
@@ -18834,7 +18886,8 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			}
+			},
+			"migrationVersion": 3
 		},
 		{
 			"name": "Breath Weapon",
@@ -18860,7 +18913,8 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			}
+			},
+			"migrationVersion": 3
 		},
 		{
 			"name": "Breath Weapon",
@@ -18886,7 +18940,8 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			}
+			},
+			"migrationVersion": 3
 		},
 		{
 			"name": "Breath Weapon",
@@ -18912,7 +18967,8 @@
 						"save.dc.calculation": "con"
 					}
 				]
-			}
+			},
+			"migrationVersion": 3
 		}
 	]
 }
