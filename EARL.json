@@ -1637,7 +1637,7 @@
 							"entries": [
 								{
 									"mode": "removeArr",
-									"names": "Draconic Ancestry"
+									"names": "Chromatic Ancestry"
 								},
 								{
 									"mode": "replaceArr",
@@ -1654,10 +1654,10 @@
 								},
 								{
 									"mode": "replaceArr",
-									"replace": "Damage Resistance",
+									"replace": "Draconic Resistance",
 									"items": {
 										"type": "entries",
-										"name": "Damage Resistance",
+										"name": "Draconic Resistance",
 										"entries": [
 											"You have resistance to {{damageType}} damage."
 										]
@@ -1670,47 +1670,47 @@
 						{
 							"_variables": {
 								"color": "Black",
-								"damageType": "Acid"
-							},
-							"resist": [
-								"acid"
-							]
+								"damageType": "acid",
+								"resist": [
+									"acid"
+								]
+							}
 						},
 						{
 							"_variables": {
 								"color": "Blue",
-								"damageType": "Lightning"
-							},
-							"resist": [
-								"lightning"
-							]
+								"damageType": "lightning",
+								"resist": [
+									"lightning"
+								]
+							}
 						},
 						{
 							"_variables": {
 								"color": "Green",
-								"damageType": "Poison"
-							},
-							"resist": [
-								"poison"
-							]
+								"damageType": "poison",
+								"resist": [
+									"poison"
+								]
+							}
 						},
 						{
 							"_variables": {
 								"color": "Red",
-								"damageType": "Fire"
-							},
-							"resist": [
-								"fire"
-							]
+								"damageType": "fire",
+								"resist": [
+									"fire"
+								]
+							}
 						},
 						{
 							"_variables": {
 								"color": "White",
-								"damageType": "Cold"
-							},
-							"resist": [
-								"cold"
-							]
+								"damageType": "cold",
+								"resist": [
+									"cold"
+								]
+							}
 						}
 					]
 				}
@@ -14273,7 +14273,7 @@
 						{
 							"_variables": {
 								"color": "Black",
-								"damageType": "Acid"
+								"damageType": "acid"
 							},
 							"resist": [
 								"acid"
@@ -14282,7 +14282,7 @@
 						{
 							"_variables": {
 								"color": "Blue",
-								"damageType": "Lightning"
+								"damageType": "lightning"
 							},
 							"resist": [
 								"lightning"
@@ -14291,7 +14291,7 @@
 						{
 							"_variables": {
 								"color": "Green",
-								"damageType": "Poison"
+								"damageType": "poison"
 							},
 							"resist": [
 								"poison"
@@ -14300,7 +14300,7 @@
 						{
 							"_variables": {
 								"color": "Red",
-								"damageType": "Fire"
+								"damageType": "fire"
 							},
 							"resist": [
 								"fire"
@@ -14309,7 +14309,7 @@
 						{
 							"_variables": {
 								"color": "White",
-								"damageType": "Cold"
+								"damageType": "cold"
 							},
 							"resist": [
 								"cold"
