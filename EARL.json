@@ -249,7 +249,8 @@
 				}
 			],
 			"hasFluff": true,
-			"hasFluffImages": true,
+			"hasFluffImages": true
+		},
 		{
 			"name": "Autognome",
 			"source": "EARL",
@@ -1939,7 +1940,7 @@
 					"entries": [
 						"Your deformed canid form allows you certain specialities, giving you proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Investigation|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}.",
 						"{@i Additionally, choose one of the deformities based on your canid form from the following list:}",
-						"{@b Anxious.} You get stressed easily, especially when there are loud noises or in social situations with strangers, leading you to act rashly. You may increase your Strength or Dexterity ability score by 1, but you have disadvantage on saving throws against being {@condition Frightened|phb}, including being Frenzied, such as in the case of the spell {@spell Enemies Abound|xge}.",
+						"{@b Anxious.} You get stressed easily, especially when there are loud noises or in social situations with strangers, leading you to act rashly. You may increase your Strength or Dexterity ability score by 1, but you have disadvantage on saving throws against being {@condition Frightened|phb}, including being {@condition Frenzied|thicc}, such as in the case of the spell {@spell Enemies Abound|xge}.",
 						"{@b Complaisant.} You love making people happy, and being told you are wanted or loved. There is nothing better to you than following someone's orders. You may increase your Intelligence or Charisma ability score by 1, but you have disadvantage on saving throws against being Charmed, including being controlled, such as in the case of the spells {@spell Suggestion|phb} and {@spell Puppet|cooms}.",
 						"{@b Misshapen.} Your body resembles that which would normally only be the result of generations of inbreeding. Though your form is terrible for your overall health, you may find it specializes elsewhere. You may reduce your Constitution ability score by 2 to 5 points and redistribute those points as you see fit.",
 						"{@b Shadow-Dregged.} You have the slightest remnants of your Shadar-blaidd heritage. You gain 60 feet of Darkvision, but you also gain Sunlight Sensitivity."
@@ -5549,7 +5550,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Age",
+					"name": "Alignment",
 					"entries": [
 						"Being small and facing many threats in the world, Jerbeens are sensitive to the feelings of others, and tend towards good alignments."
 					]
