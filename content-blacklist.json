@@ -1,5 +1,5 @@
 {
-  "siteVersion": "1.210.1",
+  "siteVersion": "1.210.30",
   "fileType": "content-blocklist",
   "blocklist": [
     {
@@ -15,10 +15,52 @@
       "source": "AAG"
     },
     {
+      "category": "race",
+      "displayName": "Astral Elf",
+      "hash": "astral%20elf_aag",
+      "source": "AAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Autognome",
+      "hash": "autognome_aag",
+      "source": "AAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Giff",
+      "hash": "giff_aag",
+      "source": "AAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Hadozee",
+      "hash": "hadozee_aag",
+      "source": "AAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Plasmoid",
+      "hash": "plasmoid_aag",
+      "source": "AAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Thri-kreen",
+      "hash": "thri-kreen_aag",
+      "source": "AAG"
+    },
+    {
       "displayName": "Air Bubble",
       "hash": "air%20bubble_aag",
       "category": "spell",
       "source": "AAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Verdan",
+      "hash": "verdan_ai",
+      "source": "AI"
     },
     {
       "displayName": "Motivational Speech",
@@ -151,6 +193,12 @@
       "displayName": "Spray of Cards",
       "hash": "spray%20of%20cards_bmt",
       "source": "BMT"
+    },
+    {
+      "category": "spell",
+      "displayName": "Mind Thrust",
+      "hash": "mind%20thrust_cooms",
+      "source": "COOMS"
     },
     {
       "category": "magicvariant",
@@ -324,6 +372,12 @@
       "category": "feat",
       "displayName": "Squire of Solamnia",
       "hash": "squire%20of%20solamnia_dsotdq",
+      "source": "DSotDQ"
+    },
+    {
+      "category": "race",
+      "displayName": "Kender",
+      "hash": "kender_dsotdq",
       "source": "DSotDQ"
     },
     {
@@ -592,6 +646,12 @@
     },
     {
       "category": "race",
+      "displayName": "Changeling",
+      "hash": "changeling_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
       "displayName": "Dwarf (Mark of Warding)",
       "hash": "dwarf%20(mark%20of%20warding)_erlw",
       "source": "ERLW"
@@ -682,8 +742,50 @@
     },
     {
       "category": "race",
+      "displayName": "Kalashtar",
+      "hash": "kalashtar_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
       "displayName": "Orc",
       "hash": "orc_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Shifter",
+      "hash": "shifter_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Shifter (Beasthide)",
+      "hash": "shifter%20(beasthide)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Shifter (Longtooth)",
+      "hash": "shifter%20(longtooth)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Shifter (Swiftstride)",
+      "hash": "shifter%20(swiftstride)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Shifter (Wildhunt)",
+      "hash": "shifter%20(wildhunt)_erlw",
+      "source": "ERLW"
+    },
+    {
+      "category": "race",
+      "displayName": "Warforged",
+      "hash": "warforged_erlw",
       "source": "ERLW"
     },
     {
@@ -702,6 +804,12 @@
       "category": "race",
       "displayName": "Dragonborn (Metallic)",
       "hash": "dragonborn%20(metallic)_ftd",
+      "source": "FTD"
+    },
+    {
+      "category": "spell",
+      "displayName": "Rime's Binding Ice",
+      "hash": "rime's%20binding%20ice_ftd",
       "source": "FTD"
     },
     {
@@ -778,6 +886,18 @@
     },
     {
       "category": "race",
+      "displayName": "Loxodon",
+      "hash": "loxodon_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "race",
+      "displayName": "Minotaur",
+      "hash": "minotaur_ggr",
+      "source": "GGR"
+    },
+    {
+      "category": "race",
       "displayName": "Simic Hybrid",
       "hash": "simic%20hybrid_ggr",
       "source": "GGR"
@@ -816,6 +936,12 @@
       "category": "spell",
       "displayName": "Bloodletter",
       "hash": "bloodletter_grimhollowplayerpack",
+      "source": "GrimHollowPlayerPack"
+    },
+    {
+      "category": "spell",
+      "displayName": "Holy Word",
+      "hash": "holy%20word_grimhollowplayerpack",
       "source": "GrimHollowPlayerPack"
     },
     {
@@ -988,9 +1114,237 @@
     },
     {
       "category": "race",
+      "displayName": "Centaur",
+      "hash": "centaur_mot",
+      "source": "MOT"
+    },
+    {
+      "category": "race",
+      "displayName": "Leonin",
+      "hash": "leonin_mot",
+      "source": "MOT"
+    },
+    {
+      "category": "race",
       "displayName": "Minotaur",
       "hash": "minotaur_mot",
       "source": "MOT"
+    },
+    {
+      "category": "race",
+      "displayName": "Satyr",
+      "hash": "satyr_mot",
+      "source": "MOT"
+    },
+    {
+      "category": "race",
+      "displayName": "Triton",
+      "hash": "triton_mot",
+      "source": "MOT"
+    },
+    {
+      "category": "race",
+      "displayName": "Aarakocra",
+      "hash": "aarakocra_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Aasimar",
+      "hash": "aasimar_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Bugbear",
+      "hash": "bugbear_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Centaur",
+      "hash": "centaur_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Changeling",
+      "hash": "changeling_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Deep Gnome",
+      "hash": "deep%20gnome_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Duergar",
+      "hash": "duergar_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Eladrin",
+      "hash": "eladrin_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Fairy",
+      "hash": "fairy_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Firbolg",
+      "hash": "firbolg_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi",
+      "hash": "genasi_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Air)",
+      "hash": "genasi%20(air)_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Earth)",
+      "hash": "genasi%20(earth)_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Fire)",
+      "hash": "genasi%20(fire)_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Genasi (Water)",
+      "hash": "genasi%20(water)_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Githyanki",
+      "hash": "githyanki_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Githzerai",
+      "hash": "githzerai_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Goblin",
+      "hash": "goblin_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Goliath",
+      "hash": "goliath_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Harengon",
+      "hash": "harengon_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Hobgoblin",
+      "hash": "hobgoblin_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Kenku",
+      "hash": "kenku_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Kobold",
+      "hash": "kobold_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Lizardfolk",
+      "hash": "lizardfolk_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Minotaur",
+      "hash": "minotaur_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Orc",
+      "hash": "orc_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Satyr",
+      "hash": "satyr_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Sea Elf",
+      "hash": "sea%20elf_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Shadar-Kai",
+      "hash": "shadar-kai_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Shifter",
+      "hash": "shifter_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Tabaxi",
+      "hash": "tabaxi_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Tortle",
+      "hash": "tortle_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Triton",
+      "hash": "triton_mpmm",
+      "source": "MPMM"
+    },
+    {
+      "category": "race",
+      "displayName": "Yuan-Ti",
+      "hash": "yuan-ti_mpmm",
+      "source": "MPMM"
     },
     {
       "category": "feat",
@@ -1006,8 +1360,98 @@
     },
     {
       "category": "race",
+      "displayName": "Elf (Eladrin)",
+      "hash": "elf%20(eladrin)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Elf (Sea)",
+      "hash": "elf%20(sea)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Elf (Shadar-kai)",
+      "hash": "elf%20(shadar-kai)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Gith",
+      "hash": "gith_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Gith (Githyanki)",
+      "hash": "gith%20(githyanki)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Gith (Githzerai)",
+      "hash": "gith%20(githzerai)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
       "displayName": "Gnome (Deep)",
       "hash": "gnome%20(deep)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Asmodeus)",
+      "hash": "tiefling%20(asmodeus)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Baalzebul)",
+      "hash": "tiefling%20(baalzebul)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Dispater)",
+      "hash": "tiefling%20(dispater)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Fierna)",
+      "hash": "tiefling%20(fierna)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Glasya)",
+      "hash": "tiefling%20(glasya)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Levistus)",
+      "hash": "tiefling%20(levistus)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Mammon)",
+      "hash": "tiefling%20(mammon)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Mephistopheles)",
+      "hash": "tiefling%20(mephistopheles)_mtf",
+      "source": "MTF"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Zariel)",
+      "hash": "tiefling%20(zariel)_mtf",
       "source": "MTF"
     },
     {
@@ -1791,6 +2235,12 @@
       "source": "PHB"
     },
     {
+      "category": "condition",
+      "displayName": "Exhaustion",
+      "hash": "exhaustion_phb",
+      "source": "PHB"
+    },
+    {
       "category": "feat",
       "displayName": "Athlete",
       "hash": "athlete_phb",
@@ -1816,6 +2266,18 @@
     },
     {
       "category": "feat",
+      "displayName": "Elemental Adept",
+      "hash": "elemental%20adept_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Grappler",
+      "hash": "grappler_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
       "displayName": "Healer",
       "hash": "healer_phb",
       "source": "PHB"
@@ -1830,6 +2292,18 @@
       "category": "feat",
       "displayName": "Keen Mind",
       "hash": "keen%20mind_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Mage Slayer",
+      "hash": "mage%20slayer_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Magic Initiate",
+      "hash": "magic%20initiate_phb",
       "source": "PHB"
     },
     {
@@ -1983,6 +2457,18 @@
       "source": "PHB"
     },
     {
+      "category": "optionalfeature",
+      "displayName": "Devil's Sight",
+      "hash": "devil's%20sight_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "optionalfeature",
+      "displayName": "Eyes of the Rune Keeper",
+      "hash": "eyes%20of%20the%20rune%20keeper_phb",
+      "source": "PHB"
+    },
+    {
       "category": "race",
       "displayName": "Dragonborn",
       "hash": "dragonborn_phb",
@@ -2014,6 +2500,60 @@
     },
     {
       "category": "race",
+      "displayName": "Elf",
+      "hash": "elf_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Elf (Drow)",
+      "hash": "elf%20(drow)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Elf (High)",
+      "hash": "elf%20(high)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Elf (Wood)",
+      "hash": "elf%20(wood)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Gnome",
+      "hash": "gnome_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Gnome (Forest)",
+      "hash": "gnome%20(forest)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Gnome (Rock)",
+      "hash": "gnome%20(rock)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf",
+      "hash": "half-elf_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Base)",
+      "hash": "half-elf%20(base)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
       "displayName": "Half-Orc",
       "hash": "half-orc_phb",
       "source": "PHB"
@@ -2026,8 +2566,50 @@
     },
     {
       "category": "race",
+      "displayName": "Halfling",
+      "hash": "halfling_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Halfling (Lightfoot)",
+      "hash": "halfling%20(lightfoot)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Halfling (Stout)",
+      "hash": "halfling%20(stout)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Human",
+      "hash": "human_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Base)",
+      "hash": "human%20(base)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Human (Variant)",
+      "hash": "human%20(variant)_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
       "displayName": "Tiefling",
       "hash": "tiefling_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Base)",
+      "hash": "tiefling%20(base)_phb",
       "source": "PHB"
     },
     {
@@ -2040,6 +2622,24 @@
       "displayName": "Armor of Agathys",
       "hash": "armor%20of%20agathys_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Aura of Life",
+      "hash": "aura%20of%20life_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Aura of Purity",
+      "hash": "aura%20of%20purity_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Aura of Vitality",
+      "hash": "aura%20of%20vitality_phb",
       "source": "PHB"
     },
     {
@@ -2091,15 +2691,45 @@
       "source": "PHB"
     },
     {
+      "category": "spell",
+      "displayName": "Chill Touch",
+      "hash": "chill%20touch_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Circle of Death",
+      "hash": "circle%20of%20death_phb",
+      "source": "PHB"
+    },
+    {
       "displayName": "Cloud of Daggers",
       "hash": "cloud%20of%20daggers_phb",
       "category": "spell",
       "source": "PHB"
     },
     {
+      "category": "spell",
+      "displayName": "Cone of Cold",
+      "hash": "cone%20of%20cold_phb",
+      "source": "PHB"
+    },
+    {
       "displayName": "Create or Destroy Water",
       "hash": "create%20or%20destroy%20water_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Cure Wounds",
+      "hash": "cure%20wounds_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Dancing Lights",
+      "hash": "dancing%20lights_phb",
       "source": "PHB"
     },
     {
@@ -2115,9 +2745,33 @@
       "source": "PHB"
     },
     {
+      "category": "spell",
+      "displayName": "Faerie Fire",
+      "hash": "faerie%20fire_phb",
+      "source": "PHB"
+    },
+    {
       "displayName": "False Life",
       "hash": "false%20life_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Find Familiar",
+      "hash": "find%20familiar_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Finger of Death",
+      "hash": "finger%20of%20death_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Friends",
+      "hash": "friends_phb",
       "source": "PHB"
     },
     {
@@ -2145,9 +2799,45 @@
       "source": "PHB"
     },
     {
+      "category": "spell",
+      "displayName": "Harm",
+      "hash": "harm_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Heal",
+      "hash": "heal_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Healing Word",
+      "hash": "healing%20word_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Holy Aura",
+      "hash": "holy%20aura_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Ice Storm",
+      "hash": "ice%20storm_phb",
+      "source": "PHB"
+    },
+    {
       "displayName": "Illusory Script",
       "hash": "illusory%20script_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Inflict Wounds",
+      "hash": "inflict%20wounds_phb",
       "source": "PHB"
     },
     {
@@ -2157,9 +2847,45 @@
       "source": "PHB"
     },
     {
+      "category": "spell",
+      "displayName": "Mass Cure Wounds",
+      "hash": "mass%20cure%20wounds_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Mass Heal",
+      "hash": "mass%20heal_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Mass Healing Word",
+      "hash": "mass%20healing%20word_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Mending",
+      "hash": "mending_phb",
+      "source": "PHB"
+    },
+    {
       "displayName": "Message",
       "hash": "message_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Power Word Heal",
+      "hash": "power%20word%20heal_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Prayer of Healing",
+      "hash": "prayer%20of%20healing_phb",
       "source": "PHB"
     },
     {
@@ -2290,6 +3016,42 @@
     },
     {
       "category": "race",
+      "displayName": "Gnome (Deep/Svirfneblin)",
+      "hash": "gnome%20(deep%2fsvirfneblin)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Variant; Aquatic Elf Descent)",
+      "hash": "half-elf%20(variant%3b%20aquatic%20elf%20descent)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Variant; Drow Descent)",
+      "hash": "half-elf%20(variant%3b%20drow%20descent)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+      "hash": "half-elf%20(variant%3b%20moon%20elf%20or%20sun%20elf%20descent)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Half-Elf (Variant; Wood Elf Descent)",
+      "hash": "half-elf%20(variant%3b%20wood%20elf%20descent)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Halfling (Ghostwise)",
+      "hash": "halfling%20(ghostwise)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
       "displayName": "Tiefling (Variant; Devil's Tongue)",
       "hash": "tiefling%20(variant%3b%20devil's%20tongue)_scag",
       "source": "SCAG"
@@ -2304,6 +3066,12 @@
       "category": "race",
       "displayName": "Tiefling (Variant; Infernal Legacy)",
       "hash": "tiefling%20(variant%3b%20infernal%20legacy)_scag",
+      "source": "SCAG"
+    },
+    {
+      "category": "race",
+      "displayName": "Tiefling (Variant; Winged)",
+      "hash": "tiefling%20(variant%3b%20winged)_scag",
       "source": "SCAG"
     },
     {
@@ -2346,6 +3114,12 @@
       "category": "feat",
       "displayName": "Strixhaven Mascot",
       "hash": "strixhaven%20mascot_scc",
+      "source": "SCC"
+    },
+    {
+      "category": "race",
+      "displayName": "Owlin",
+      "hash": "owlin_scc",
       "source": "SCC"
     },
     {
@@ -2590,6 +3364,12 @@
     },
     {
       "category": "feat",
+      "displayName": "Artificer Initiate",
+      "hash": "artificer%20initiate_tce",
+      "source": "TCE"
+    },
+    {
+      "category": "feat",
       "displayName": "Fey Touched",
       "hash": "fey%20touched_tce",
       "source": "TCE"
@@ -2715,6 +3495,18 @@
       "source": "ToA"
     },
     {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "UAArtificer"
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "UAArtificerRevisited"
+    },
+    {
       "category": "feat",
       "displayName": "Alchemist",
       "hash": "alchemist_uafeats",
@@ -2730,6 +3522,18 @@
       "category": "feat",
       "displayName": "Fell Handed",
       "hash": "fell%20handed_uafeats",
+      "source": "UAFeats"
+    },
+    {
+      "category": "feat",
+      "displayName": "Spear Mastery",
+      "hash": "spear%20mastery_uafeats",
+      "source": "UAFeats"
+    },
+    {
+      "category": "feat",
+      "displayName": "Warhammer Master",
+      "hash": "warhammer%20master_uafeats",
       "source": "UAFeats"
     },
     {
@@ -2776,8 +3580,20 @@
     },
     {
       "category": "race",
+      "displayName": "Firbolg",
+      "hash": "firbolg_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
       "displayName": "Goblin",
       "hash": "goblin_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Goliath",
+      "hash": "goliath_vgm",
       "source": "VGM"
     },
     {
@@ -2788,8 +3604,20 @@
     },
     {
       "category": "race",
+      "displayName": "Kenku",
+      "hash": "kenku_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
       "displayName": "Kobold",
       "hash": "kobold_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Lizardfolk",
+      "hash": "lizardfolk_vgm",
       "source": "VGM"
     },
     {
@@ -2800,8 +3628,20 @@
     },
     {
       "category": "race",
+      "displayName": "Tabaxi",
+      "hash": "tabaxi_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
       "displayName": "Triton",
       "hash": "triton_vgm",
+      "source": "VGM"
+    },
+    {
+      "category": "race",
+      "displayName": "Yuan-ti Pureblood",
+      "hash": "yuan-ti%20pureblood_vgm",
       "source": "VGM"
     },
     {
@@ -2821,6 +3661,24 @@
       "displayName": "Reborn",
       "hash": "reborn_vrgr",
       "source": "VRGR"
+    },
+    {
+      "category": "race",
+      "displayName": "Fairy",
+      "hash": "fairy_wbtw",
+      "source": "WBtW"
+    },
+    {
+      "category": "race",
+      "displayName": "Harengon",
+      "hash": "harengon_wbtw",
+      "source": "WBtW"
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "XDMG"
     },
     {
       "category": "feat",
@@ -2919,6 +3777,18 @@
       "source": "XGE"
     },
     {
+      "category": "spell",
+      "displayName": "Healing Spirit",
+      "hash": "healing%20spirit_xge",
+      "source": "XGE"
+    },
+    {
+      "category": "spell",
+      "displayName": "Life Transference",
+      "hash": "life%20transference_xge",
+      "source": "XGE"
+    },
+    {
       "displayName": "Mold Earth",
       "hash": "mold%20earth_xge",
       "category": "spell",
@@ -2928,6 +3798,12 @@
       "displayName": "Shape Water",
       "hash": "shape%20water_xge",
       "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "category": "spell",
+      "displayName": "Snilloc's Snowball Swarm",
+      "hash": "snilloc's%20snowball%20swarm_xge",
       "source": "XGE"
     },
     {
@@ -2959,6 +3835,12 @@
       "hash": "wall%20of%20water_xge",
       "category": "spell",
       "source": "XGE"
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "XPHB"
     }
   ]
 }
