@@ -1526,7 +1526,7 @@
 					"type":"list",
 					"items":[
 						"Wearing medium armor doesn't impose disadvantage on your Dexterity ({@skill Stealth|phb}) checks.",
-						"Wearing medium armor doesn't hinder your swimming or climbing in any way.",
+						"Medium armor and shields count as light for the purpose of determining your ability to climb, swim, or fly.",
 						"When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher."
 					]
 				}
@@ -2428,6 +2428,41 @@
 					"type":"list",
 					"items":[
 						"You learn two druid {@filter cantrips|spells|level=0|class=druid} of your choice. You also learn the {@spell longstrider|phb} and {@spell pass without trace|phb} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast {@spell longstrider|phb} in this way when you finish a short or long rest, and you regain the ability to cast {@spell pass without trace|phb} in this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wounded Fury",
+			"source": "EntrancedFeats",
+			"page": 22,
+			"prerequisite": [
+				{
+					"level": 8,
+					"race":[
+						{
+							"name": "Quaggoth"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You finally master your nature as a Quaggoth, letting your instincts take over when you fight. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"Your claws now deal 1d6 slashing damage instead of 1d4.",
+						"Once per turn, while you are bloodied (at half your maximum hit points or fewer), you can give yourself advantage on an attack roll. If you hit, you deal an extra 2d6 damage to the target if the attack was a melee attack."
 					]
 				}
 			]
