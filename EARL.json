@@ -41,7 +41,8 @@
 			},
 			"traitTags": [
 				"Natural Weapon",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -152,7 +153,8 @@
 			"traitTags": [
 				"Darkvision",
 				"Spellcasting",
-				"Damage Resistance"
+				"Damage Resistance",
+				"Planetouched"
 			],
 			"languageProficiencies": [
 				{
@@ -211,7 +213,7 @@
 					"type": "entries"
 				},
 				{
-					"name": "Celestial Resistance",
+					"name": "Celestial Revelation",
 					"entries": [
 						"You have resistance to necrotic damage and radiant damage."
 					],
@@ -275,7 +277,8 @@
 			"traitTags": [
 				"Improved Resting",
 				"Natural Armor",
-				"Tool Proficiency"
+				"Tool Proficiency",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -534,17 +537,8 @@
 					"type": "entries"
 				}
 			],
-			"fluff": {
-				"images": [
-					{
-						"type": "image",
-						"href": {
-							"type": "external",
-							"url": "https://srd.dndtools.org/srd/resource/images/races/racesDramagAxani.jpg"
-						}
-					}
-				]
-			}
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Bugbear",
@@ -566,7 +560,11 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Powerful Build"
+				"Powerful Build",
+				"Skill Proficiency",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -698,7 +696,11 @@
 			},
 			"traitTags": [
 				"Amphibious",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -786,7 +788,7 @@
 					"type": "entries",
 					"name": "Water Dependency",
 					"entries": [
-						"If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of {@condition exhaustion|phb} at the end of that day. You can only recover from this {@condition exhaustion|phb} through magic or by immersing yourself in water for at least 1 hour."
+						"If you fail to immerse yourself in water for at least 1 hour during a day, you suffer one level of {@condition exhaustion|thicc} at the end of that day. You can only recover from this {@condition exhaustion|thicc} through magic or by immersing yourself in water for at least 1 hour."
 					]
 				},
 				{
@@ -796,7 +798,9 @@
 						"You can speak, read, and write {@language Common|phb} and {@language Bullywug|mm}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Cansin",
@@ -830,7 +834,8 @@
 				"Skill Proficiency",
 				"Spellcasting",
 				"Damage Resistance",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Planetouched"
 			],
 			"skillProficiencies": [
 				{
@@ -963,7 +968,7 @@
 							"rows": [
 								[
 									"1",
-									"{@spell dancing lights|phb}",
+									"{@spell dancing lights|cooms}",
 									"{@spell absorb elements|xge}",
 									"{@spell Aganazzar's scorcher|cooms}"
 								],
@@ -1067,7 +1072,7 @@
 									"18",
 									"{@spell thunderclap|xge}",
 									"{@spell Tasha's hideous laughter|phb}",
-									"{@spell Snilloc's snowball swarm|xge}"
+									"{@spell Snilloc's snowball swarm|cooms}"
 								],
 								[
 									"19",
@@ -1129,7 +1134,11 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -1176,7 +1185,7 @@
 					"type": "entries",
 					"name": "Creature Type",
 					"entries": [
-						"Your creature type is fey, rather than humanoid."
+						"Your creature type is monstrosity, rather than humanoid."
 					]
 				},
 				{
@@ -1242,7 +1251,8 @@
 				"Darkvision",
 				"Language Proficiency",
 				"Skill Proficiency",
-				"Spellcasting"
+				"Spellcasting",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -1327,7 +1337,10 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -1399,10 +1412,6 @@
 		{
 			"name": "Dragonborn",
 			"source": "EARL",
-			"page": 1,
-			"reprintedAs": [
-				"Dragonborn|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -1416,6 +1425,11 @@
 				"mature": 15,
 				"max": 80
 			},
+			"traitTags": [
+				"Animalistic",
+				"Natural Weapon",
+				"Damage Resistance"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -1455,8 +1469,8 @@
 					"type": "entries",
 					"name": "Breath Weapon",
 					"entries": [
-						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
-						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice 1d10} equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+						"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+						"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice 1d10} equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
 						"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
 					]
 				},
@@ -1473,15 +1487,14 @@
 				"heightMod": "2d8",
 				"baseWeight": 175,
 				"weightMod": "2d6"
-			}
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Dwarf",
 			"source": "EARL",
 			"page": 6,
-			"reprintedAs": [
-				"Dwarf|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -1590,10 +1603,6 @@
 		{
 			"name": "Dwelf",
 			"source": "EARL",
-			"page": 9,
-			"reprintedAs": [
-				"Dwelf|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -1621,7 +1630,9 @@
 				"Skill Proficiency",
 				"Tool Proficiency",
 				"Magic Resistance",
-				"Amphibious"
+				"Amphibious",
+				"Outcast",
+				"Exotic"
 			],
 			"resist": [
 				"poison"
@@ -1864,7 +1875,8 @@
 				"Sunlight Sensitivity",
 				"Language Proficiency",
 				"Natural Weapon",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -1928,7 +1940,7 @@
 					"entries": [
 						"Your deformed canid form allows you certain specialities, giving you proficiency in two of the following skills: {@skill Athletics|phb}, {@skill Intimidation|phb}, {@skill Investigation|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}.",
 						"{@i Additionally, choose one of the deformities based on your canid form from the following list:}",
-						"{@b Anxious.} You get stressed easily, especially when there are loud noises or in social situations with strangers, leading you to act rashly. You may increase your Strength or Dexterity ability score by 1, but you have disadvantage on saving throws against being {@condition Frightened|phb}, including being Frenzied, such as in the case of the spell {@spell Enemies Abound|xge}.",
+						"{@b Anxious.} You get stressed easily, especially when there are loud noises or in social situations with strangers, leading you to act rashly. You may increase your Strength or Dexterity ability score by 1, but you have disadvantage on saving throws against being {@condition Frightened|phb}, including being {@condition Frenzied|thicc}, such as in the case of the spell {@spell Enemies Abound|xge}.",
 						"{@b Complaisant.} You love making people happy, and being told you are wanted or loved. There is nothing better to you than following someone's orders. You may increase your Intelligence or Charisma ability score by 1, but you have disadvantage on saving throws against being Charmed, including being controlled, such as in the case of the spells {@spell Suggestion|phb} and {@spell Puppet|cooms}.",
 						"{@b Misshapen.} Your body resembles that which would normally only be the result of generations of inbreeding. Though your form is terrible for your overall health, you may find it specializes elsewhere. You may reduce your Constitution ability score by 2 to 5 points and redistribute those points as you see fit.",
 						"{@b Shadow-Dregged.} You have the slightest remnants of your Shadar-blaidd heritage. You gain 60 feet of Darkvision, but you also gain Sunlight Sensitivity."
@@ -1980,6 +1992,9 @@
 				"walk": 30,
 				"fly": true
 			},
+			"traitTags": [
+				"Exotic"
+			],
 			"additionalSpells": [
 				{
 					"ability": {
@@ -2071,7 +2086,8 @@
 				"max": 500
 			},
 			"traitTags": [
-				"Powerful Build"
+				"Powerful Build",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -2156,10 +2172,6 @@
 		{
 			"name": "Genasi",
 			"source": "EARL",
-			"page": 13,
-			"reprintedAs": [
-				"Genasi|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -2177,15 +2189,12 @@
 			"traitTags": [
 				"Darkvision",
 				"Spellcasting",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Planetouched",
+				"Exotic"
 			],
 			"creatureTypes": [
 				"elemental"
-			],
-			"languageProficiencies": [
-				{
-					"common": true
-				}
 			],
 			"entries": [
 				{
@@ -2258,7 +2267,11 @@
 				"walk": 30
 			},
 			"traitTags": [
-				"Powerful Build"
+				"Powerful Build",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"weaponProficiencies": [
 				{
@@ -2298,7 +2311,7 @@
 					"type": "entries",
 					"name": "Demolitionist",
 					"entries": [
-						"Giffs have an innate love for anything that goes boom, leading them to prefer weapons that favor this style of explosive fighting. You have proficiency with firearms. Additionally, when you throw an explosive such as a bomb, oil, or alchemist’s fire, you are able to throw it up to its maximum range without imposing disadvantage on the roll."
+						"Giffs have an innate love for anything that goes boom, leading them to prefer weapons that favor this style of explosive fighting. You have proficiency with firearms. Additionally, when you throw an explosive such as a bomb, oil, or alchemist's fire, you are able to throw it up to its maximum range without imposing disadvantage on the roll."
 					]
 				},
 				{
@@ -2337,6 +2350,9 @@
 				{
 					"int": 1
 				}
+			],
+			"traitTags": [
+				"Exotic"
 			],
 			"age": {
 				"mature": 20,
@@ -2397,7 +2413,11 @@
 			"traitTags": [
 				"Darkvision",
 				"Natural Weapon",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -2608,7 +2628,10 @@
 			},
 			"darkvision": 60,
 			"traitTags": [
-				"Darkvision"
+				"Darkvision",
+				"Monstrous Race",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -2730,7 +2753,8 @@
 				"max": 100
 			},
 			"traitTags": [
-				"Powerful Build"
+				"Powerful Build",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -2826,7 +2850,10 @@
 				"max": 700
 			},
 			"traitTags": [
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -2914,7 +2941,11 @@
 				"max": 50
 			},
 			"traitTags": [
-				"Amphibious"
+				"Amphibious",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -3023,6 +3054,9 @@
 				"walk": 30,
 				"climb": true
 			},
+			"traitTags": [
+				"Animalistic"
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -3144,10 +3178,6 @@
 		{
 			"name": "Half-Bugbear",
 			"source": "EARL",
-			"page": 22,
-			"reprintedAs": [
-				"Half-Bugbear|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -3176,7 +3206,8 @@
 				"Darkvision",
 				"Powerful Build",
 				"Skill Proficiency",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Exotic"
 
 			],
 			"skillProficiencies": [
@@ -3320,10 +3351,6 @@
 		{
 			"name": "Half-Dragon",
 			"source": "EARL",
-			"page": 22,
-			"reprintedAs": [
-				"Half-Dragon|EARL"
-			],
 			"ability": [
 				{
 					"con": 2
@@ -3332,7 +3359,9 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -3596,7 +3625,9 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -3760,10 +3791,6 @@
 		{
 			"name": "Half-Harengon",
 			"source": "EARL",
-			"page": 41,
-			"reprintedAs": [
-				"Half-Harengon|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -3789,7 +3816,8 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -3880,10 +3908,6 @@
 		{
 			"name": "Half-Hobgoblin",
 			"source": "EARL",
-			"page": 41,
-			"reprintedAs": [
-				"Half-Hobgoblin|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -3912,7 +3936,9 @@
 				"Skill Proficiency",
 				"Darkvision",
 				"Weapon Proficiency",
-				"Armor Proficiency"
+				"Armor Proficiency",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -4026,7 +4052,8 @@
 			"traitTags": [
 				"Darkvision",
 				"Powerful Build",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -4261,10 +4288,6 @@
 		{
 			"name": "Half-Tabaxi",
 			"source": "EARL",
-			"page": 43,
-			"reprintedAs": [
-				"Half-Tabaxi|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -4293,7 +4316,8 @@
 				"Skill Proficiency",
 				"Darkvision",
 				"Natural Weapon",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Animalistic"
 			],
 			"languageProficiencies": [
 				{
@@ -4410,7 +4434,8 @@
 				"Darkvision",
 				"Natural Weapon",
 				"Powerful Build",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -4635,6 +4660,9 @@
 					"perception": true
 				}
 			],
+			"traitTags": [
+				"Animalistic"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -4709,7 +4737,9 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -4786,10 +4816,6 @@
 		{
 			"name": "Hobgoblin",
 			"source": "EARL",
-			"page": 44,
-			"reprintedAs": [
-				"Hobgoblin|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -4809,7 +4835,10 @@
 				"Skill Proficiency",
 				"Darkvision",
 				"Weapon Proficiency",
-				"Armor Proficiency"
+				"Armor Proficiency",
+				"Monstrous Race",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -4988,10 +5017,6 @@
 		{
 			"name": "Human (Cursevein)",
 			"source": "EARL",
-			"page": 45,
-			"reprintedAs": [
-				"Human (Cursevein)|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -5031,7 +5056,8 @@
 				"Skill Proficiency",
 				"Tool Proficiency",
 				"Language Proficiency",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -5488,6 +5514,9 @@
 			"size": [
 				"S"
 			],
+			"traitTags": [
+				"Animalistic"
+			],
 			"speed": 30,
 			"darkvision": 60,
 			"skillProficiencies": [
@@ -5521,7 +5550,7 @@
 				},
 				{
 					"type": "entries",
-					"name": "Age",
+					"name": "Alignment",
 					"entries": [
 						"Being small and facing many threats in the world, Jerbeens are sensitive to the feelings of others, and tend towards good alignments."
 					]
@@ -5616,6 +5645,9 @@
 				"mature": 20,
 				"max": 100
 			},
+			"traitTags": [
+				"Exotic"
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -5700,6 +5732,9 @@
 			"size": [
 				"S"
 			],
+			"traitTags": [
+				"Exotic"
+			],
 			"speed": 30,
 			"skillProficiencies": [
 				{
@@ -5771,6 +5806,12 @@
 				"mature": 12,
 				"max": 60
 			},
+			"traitTags": [
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
+			],
 			"skillProficiencies": [
 				{
 					"choose": {
@@ -5865,7 +5906,9 @@
 				"Darkvision",
 				"Natural Weapon",
 				"Spellcasting",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6011,10 +6054,6 @@
 		{
 			"name": "Kobold",
 			"source": "EARL",
-			"page": 49,
-			"reprintedAs": [
-				"Kobold|EARL"
-			],
 			"size": [
 				"S"
 			],
@@ -6033,7 +6072,11 @@
 			"traitTags": [
 				"Skill Proficiency",
 				"Darkvision",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6192,7 +6235,11 @@
 			"traitTags": [
 				"Skill Proficiency",
 				"Darkvision",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6342,7 +6389,11 @@
 				"Superior Darkvision",
 				"Sunlight Sensitivity",
 				"Natural Weapon",
-				"Amphibious"
+				"Amphibious",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -6476,7 +6527,8 @@
 			"traitTags": [
 				"Natural Weapon",
 				"Darkvision",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -6574,10 +6626,6 @@
 		{
 			"name": "Leshy",
 			"source": "EARL",
-			"page": 55,
-			"reprintedAs": [
-				"Leshy|EARL"
-			],
 			"size": [
 				"S"
 			],
@@ -6593,7 +6641,8 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -6685,7 +6734,10 @@
 			},
 			"traitTags": [
 				"Natural Armor",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -6804,7 +6856,9 @@
 			},
 			"traitTags": [
 				"Amphibious",
-				"Natural Armor"
+				"Natural Armor",
+				"Animalistic",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -6904,7 +6958,9 @@
 			},
 			"traitTags": [
 				"Natural Armor",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7000,10 +7056,15 @@
 				"mature": 20,
 				"max": 50
 			},
+			"creatureTypes": [
+				"giant"
+			],
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Powerful Build"
+				"Powerful Build",
+				"Outcast",
+				"Exotic"
 			],
 			"resist": [
 				"poison"
@@ -7074,6 +7135,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Giant."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common, Dwarvish, and Giant."
@@ -7111,7 +7179,9 @@
 			"traitTags": [
 				"Darkvision",
 				"Language Proficiency",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7245,7 +7315,9 @@
 			},
 			"traitTags": [
 				"Amphibious",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7357,7 +7429,11 @@
 			},
 			"traitTags": [
 				"Natural Weapon",
-				"Skill Proficiency"
+				"Skill Proficiency",
+				"Monstrous Race",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"creatureTypes": [
 				"monstrosity"
@@ -7477,7 +7553,10 @@
 			"traitTags": [
 				"Superior Darkvision",
 				"Uncommon Race",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7620,7 +7699,10 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Darkvision",
-				"Powerful Build"
+				"Powerful Build",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -7780,7 +7862,10 @@
 			"traitTags": [
 				"Darkvision",
 				"Skill Proficiency",
-				"Powerful Build"
+				"Powerful Build",
+				"Outcast",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -7881,13 +7966,17 @@
 				}
 			],
 			"size": [
-				"S",
 				"M"
 			],
 			"speed": {
 				"walk": 30,
 				"fly": true
 			},
+			"traitTags": [
+				"Darkvision",
+				"Skill Proficiency",
+				"Animalistic"
+			],
 			"darkvision": 120,
 			"skillProficiencies": [
 				{
@@ -7943,7 +8032,9 @@
 			"traitTags": [
 				"Darkvision",
 				"Spellcasting",
-				"Uncommon Race"
+				"Uncommon Race",
+				"Planetouched",
+				"Exotic"
 			],
 			"creatureTypes": [
 				"elemental"
@@ -8025,6 +8116,10 @@
 			"resist": [
 				"acid",
 				"poison"
+			],
+			"traitTags": [
+				"Darkvision",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -8108,11 +8203,6 @@
 				}
 			],
 			"speed": 25,
-			"skillProficiencies": [
-				{
-					"nature": true
-				}
-			],
 			"age": {
 				"mature": 0,
 				"max": 2000
@@ -8121,7 +8211,9 @@
 			"traitTags": [
 				"Language Proficiency",
 				"Uncommon Race",
-				"Darkvision"
+				"Darkvision",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -8133,19 +8225,13 @@
 				"construct"
 			],
 			"immune": [
-				"poison",
-				"necrotic"
-			],
-			"vulnerable": [
-				"fire"
+				"poison"
 			],
 			"conditionImmune": [
 				"exhaustion",
 				"poisoned",
-				"paralyzed",
 				"petrified",
-				"disease",
-				"charmed"
+				"disease"
 			],
 			"entries": [
 				{
@@ -8194,7 +8280,7 @@
 					"type": "entries",
 					"name": "Harmless Appearance",
 					"entries": [
-						"While motionless, if you match your surroundings, you are indistinguishable from a regular doll. If your form makes no sense or stands out in its surroundings, you must make a {@skill Stealth} check contested by any onlookers' {@skill Perception} checks, with advantage or disadvantage given out based on how far-fetched your appearance is given the surroundings. If the onlooker(s) are actively looking for you or are attempting to figure out whether or not an object is you, this check may become {@skill Investigation} rather than {@skill Perception}."
+						"While motionless, if you match your surroundings, you are indistinguishable from a regular doll. If your form makes no sense or stands out in its surroundings, you must make a {@skill Stealth|phb} check contested by any onlookers' {@skill Perception|phb} checks, with advantage or disadvantage given out based on how far-fetched your appearance is given the surroundings. If the onlooker(s) are actively looking for you or are attempting to figure out whether or not an object is you, this check may become {@skill Investigation|phb} rather than {@skill Perception|phb}."
 					]
 				},
 				{
@@ -8205,13 +8291,21 @@
 						{
 							"type": "list",
 							"items": [
-								"You have vulnerability to Fire damage.",
-								"You are immune to Poison and Necrotic damage",
-								"You are immune to being Asleep, {@condition Charmed}, Diseased, {@condition Exhaustion|phb|Exhausted}, {@condition Paralyzed}, {@condition Petrified}, and {@condition Poisoned}.",
+								"You are immune to Poison damage",
+								"You are immune to being Asleep, Diseased, {@condition Exhaustion|thicc|Exhausted}, {@condition Petrified|phb}, and {@condition Poisoned|phb}.",
 								"You don't have to and cannot eat or drink, meaning you can't gain the benefits of potions or food.",
-								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas."
+								"You can not breathe, and are immune to breathing-related checks such as smelling or poison gas.",
+								"Any missing limbs can be reattached via the {@spell Mending|cooms} or {@spell Repair|cooms} spells following the rules and stipulations of the given spells.",
+								"You may not expend hit dice to heal on a short rest."
 							]
 						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Sentry's Rest",
+					"entries": [
+						"When you take a long rest, you must spend at least six hours in an inactive, motionless state, rather than sleeping. In this state, you appear inert, but it doesn't render you {@condition unconscious|phb}, and you can see and hear as normal."
 					]
 				},
 				{
@@ -8225,14 +8319,14 @@
 					"type": "entries",
 					"name": "Loose Ties",
 					"entries": [
-						"You have disadvantage on Death Saves, as your life is loosely bound to the thread you walk in."
+						"You have disadvantage on Death Saves, as the potent spirit that powers you is eager to be freed of its curse and escape to their afterlife once you die."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak {@language Common} and one other language of its master."
+						"You can understand and speak {@language Common|phb} and one other language of its master."
 					]
 				}
 			],
@@ -8264,7 +8358,10 @@
 				"Superior Darkvision",
 				"Natural Weapon",
 				"Damage Resistance",
-				"Powerful Build"
+				"Powerful Build",
+				"Monstrous Race",
+				"Outcast",
+				"Exotic"
 			],
 			"immune": [
 				"poison"
@@ -8386,7 +8483,10 @@
 			},
 			"traitTags": [
 				"Magic Resistance",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Monstrous Race",
+				"Animalistic",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -8499,7 +8599,11 @@
 				"Natural Weapon",
 				"Uncommon Race",
 				"Damage Resistance",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -8709,6 +8813,11 @@
 					"common": true
 				}
 			],
+			"traitTags": [
+				"Darkvision",
+				"Animalistic",
+				"Exotic"
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -8788,7 +8897,11 @@
 				"Uncommon Race",
 				"Natural Weapon",
 				"Skill Proficiency",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -8920,7 +9033,8 @@
 			},
 			"darkvision": 60,
 			"traitTags": [
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -9025,7 +9139,11 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Improved Resting",
-				"Natural Armor"
+				"Natural Armor",
+				"Monstrous Race",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -9117,7 +9235,11 @@
 				"Darkvision",
 				"Language Proficiency",
 				"Uncommon Race",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Monstrous Race",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -9226,7 +9348,11 @@
 				"Uncommon Race",
 				"Natural Armor",
 				"Darkvision",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9357,7 +9483,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9498,7 +9627,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9640,7 +9772,11 @@
 				"Damage Resistance",
 				"Darkvision",
 				"Skill Proficiency",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9782,7 +9918,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -9923,7 +10062,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Darkvision",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10047,7 +10189,11 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Darkvision",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10212,7 +10358,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10353,7 +10502,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10502,7 +10654,11 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Darkvision",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Planetouched",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10626,7 +10782,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10767,7 +10926,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -10908,7 +11070,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -11069,7 +11234,10 @@
 				"Damage Resistance",
 				"Darkvision",
 				"Spellcasting",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -11207,7 +11375,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Darkvision",
-				"Language Proficiency"
+				"Language Proficiency",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -11321,7 +11492,10 @@
 				"Uncommon Race",
 				"Damage Resistance",
 				"Superior Darkvision",
-				"Spellcasting"
+				"Spellcasting",
+				"Planetouched",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -11446,7 +11620,8 @@
 			},
 			"traitTags": [
 				"Natural Armor",
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -11703,7 +11878,11 @@
 				"Darkvision",
 				"Uncommon Race",
 				"Natural Weapon",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -11842,7 +12021,10 @@
 				"Superior Darkvision",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -12009,7 +12191,9 @@
 				"Uncommon Race",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12169,7 +12353,9 @@
 				"Uncommon Race",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12331,7 +12517,9 @@
 				"Skill Proficiency",
 				"Natural Weapon",
 				"Powerful Build",
-				"Darkvision"
+				"Darkvision",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12505,7 +12693,9 @@
 				"Uncommon Race",
 				"Skill Proficiency",
 				"Natural Weapon",
-				"Powerful Build"
+				"Powerful Build",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12652,7 +12842,9 @@
 				"Skill Proficiency",
 				"Natural Weapon",
 				"Powerful Build",
-				"Damage Resistance"
+				"Damage Resistance",
+				"Animalistic",
+				"Monstrous Race"
 			],
 			"languageProficiencies": [
 				{
@@ -12799,6 +12991,9 @@
 				"mature": 24,
 				"max": 200
 			},
+			"traitTags": [
+				"Exotic"
+			],
 			"skillProficiencies": [
 				{
 					"persuasion": true
@@ -12909,7 +13104,8 @@
 			},
 			"traitTags": [
 				"Improved Resting",
-				"Natural Armor"
+				"Natural Armor",
+				"Exotic"
 			],
 			"skillProficiencies": [
 				{
@@ -13081,7 +13277,11 @@
 				"Natural Weapon",
 				"Uncommon Race",
 				"Damage Resistance",
-				"Spellcasting"
+				"Spellcasting",
+				"Outcast",
+				"Animalistic",
+				"Monstrous Race",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -13272,7 +13472,10 @@
 			"darkvision": 60,
 			"traitTags": [
 				"Magic Resistance",
-				"Monstrous Race"
+				"Monstrous Race",
+				"Outcast",
+				"Animalistic",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -13375,11 +13578,15 @@
 					"str": 1
 				}
 			],
+			"traitTags": [
+				"Outcast",
+				"Exotic"
+			],
 			"entries": [
 				{
 					"name": "Necrotic Shroud",
 					"entries": [
-						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw (DC 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened|phb} of you until the end of your next turn.",
+						"Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must succeed on a Wisdom saving throw ({@dc} 8 + your proficiency bonus + your Constitution modifier) or become {@condition frightened|phb} of you until the end of your next turn.",
 						"Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.",
 						"Once you use this trait, you can't use it again until you finish a long rest."
 					],
@@ -13423,6 +13630,10 @@
 					"con": 1
 				}
 			],
+			"traitTags": [
+				"Outcast",
+				"Exotic"
+			],
 			"entries": [
 				{
 					"name": "Radiant Consumption",
@@ -13452,6 +13663,32 @@
 					"tinker's tools": true
 				}
 			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"rest": {
+								"1": [
+									"repair|cooms"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"lesser restoration"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"mending#c|cooms"
+						]
+					}
+				}
+			],
 			"entries": [
 				{
 					"type": "entries",
@@ -13464,7 +13701,7 @@
 					"type": "entries",
 					"name": "Self-Repairing Machine",
 					"entries": [
-						"You know the {@spell mending|phb} cantrip. When you reach 3rd level, you can cast the {@spell repair|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell lesser restoration|phb} spell once with this trait and regain the ability to do so when you finish a long rest. You may substitute {@item Tinker's Tools|OWL} as the material component for any of these spells when cast with a range of self. Constitution is your spellcasting ability for these spells."
+						"You know the {@spell mending|cooms} cantrip. When you reach 3rd level, you can cast the {@spell repair|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell lesser restoration|phb} spell once with this trait and regain the ability to do so when you finish a long rest. You may substitute {@item Tinker's Tools|OWL} as the material component for any of these spells when cast with a range of self. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			],
@@ -13552,6 +13789,32 @@
 					}
 				}
 			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"rest": {
+								"1": [
+									"purify food and drink"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"lesser restoration"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"druidcraft#c|cooms"
+						]
+					}
+				}
+			],
 			"entries": [
 				{
 					"name": "Size",
@@ -13627,6 +13890,32 @@
 					}
 				}
 			],
+			"additionalSpells": [
+				{
+					"innate": {
+						"3": {
+							"rest": {
+								"1": [
+									"detect poison and disease"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"locate animals or plants"
+								]
+							}
+						}
+					},
+					"ability": "con",
+					"known": {
+						"1": [
+							"druidcraft#c|cooms"
+						]
+					}
+				}
+			],
 			"entries": [
 				{
 					"name": "Size",
@@ -13679,57 +13968,53 @@
 			"source": "EARL",
 			"raceName": "Dragonborn",
 			"raceSource": "EARL",
-			"page": 1,
-			"reprintedAs": [
-				"Dragonborn (Chromatic)|EARL"
-			],
 			"ability": [
 				{
 					"cha": 1
 				}
 			],
 			"entries": [
-			{
-							"type": "table",
-							"caption": "Draconic Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type",
-								"Breath Weapon"
-							],
-							"colStyles": [
-								"col-4",
-								"col-4",
-								"col-4"
-							],
-							"rows": [
-								[
-									"Black",
-									"Acid",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Blue",
-									"Lightning",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Green",
-									"Poison",
-									"15 ft. cone (Con. save)"
-								],
-								[
-									"Red",
-									"Fire",
-									"15 ft. cone (Dex. save)"
-								],
-								[
-									"White",
-									"Cold",
-									"15 ft. cone (Con. save)"
-								]
-							]
-						},
+				{
+					"type": "table",
+					"caption": "Draconic Ancestry",
+					"colLabels": [
+						"Dragon",
+						"Damage Type",
+						"Breath Weapon"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"Black",
+							"Acid",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Blue",
+							"Lightning",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Green",
+							"Poison",
+							"15 ft. cone (Con. save)"
+						],
+						[
+							"Red",
+							"Fire",
+							"15 ft. cone (Dex. save)"
+						],
+						[
+							"White",
+							"Cold",
+							"15 ft. cone (Con. save)"
+						]
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Chromatic Warding",
@@ -13740,9 +14025,208 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}. {@language Draconic|phb} is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
 					],
 					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Dragonborn (Chromatic; Black)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} acid damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to acid damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"acid"
+					]
+				},
+				{
+					"name": "Dragonborn (Chromatic; Blue)",
+					"source": "EARL",
+						"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} lightning damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to lightning damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"lightning"
+					]
+				},
+				{
+					"name": "Dragonborn (Chromatic; Green)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} poison damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to poison damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"poison"
+					]
+				},
+				{
+					"name": "Dragonborn (Chromatic; Red)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} fire damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to fire damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"fire"
+					]
+				},
+				{
+					"name": "Dragonborn (Chromatic; White)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} cold damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to cold damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"cold"
+					]
 				}
 			]
 		},
@@ -13751,57 +14235,53 @@
 			"source": "EARL",
 			"raceName": "Dragonborn",
 			"raceSource": "EARL",
-			"page": 3,
-			"reprintedAs": [
-				"Dragonborn (Gem)|EARL"
-			],
 			"ability": [
 				{
 					"int": 1
 				}
 			],
 			"entries": [
-			{
-							"type": "table",
-							"caption": "Draconic Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type",
-								"Breath Weapon"
-							],
-							"colStyles": [
-								"col-4",
-								"col-4",
-								"col-4"
-							],
-							"rows": [
-								[
-									"Amethyst",
-									"Force",
-									"15 ft. cone (Dex. save)"
-								],
-								[
-									"Crystal",
-									"Radiant",
-									"15 ft. cone (Con. save)"
-								],
-								[
-									"Emerald",
-									"Psychic",
-									"15 ft. cone (Int. save)"
-								],
-								[
-									"Sapphire",
-									"Thunder",
-									"15 ft. cone (Con. save)"
-								],
-								[
-									"Topaz",
-									"Necrotic",
-									"15 ft. cone (Con. save)"
-								]
-							]
-						},
+				{
+					"type": "table",
+					"caption": "Draconic Ancestry",
+					"colLabels": [
+						"Dragon",
+						"Damage Type",
+						"Breath Weapon"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"Amethyst",
+							"Force",
+							"15 ft. cone (Dex. save)"
+						],
+						[
+							"Crystal",
+							"Radiant",
+							"15 ft. cone (Con. save)"
+						],
+						[
+							"Emerald",
+							"Psychic",
+							"15 ft. cone (Int. save)"
+						],
+						[
+							"Sapphire",
+							"Thunder",
+							"15 ft. cone (Con. save)"
+						],
+						[
+							"Topaz",
+							"Necrotic",
+							"15 ft. cone (Con. save)"
+						]
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Psionic Mind",
@@ -13819,9 +14299,208 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}. {@language Draconic|phb} is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
 					],
 					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Dragonborn (Gem; Amethyst)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} force damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to force damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"force"
+					]
+				},
+				{
+					"name": "Dragonborn (Gem; Crystal)",
+					"source": "EARL",
+						"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} radiant damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to radiant damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"radiant"
+					]
+				},
+				{
+					"name": "Dragonborn (Gem; Emerald)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} psychic damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to psychic damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"psychic"
+					]
+				},
+				{
+					"name": "Dragonborn (Gem; Sapphire)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} thunder damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to thunder damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"thunder"
+					]
+				},
+				{
+					"name": "Dragonborn (Gem; Topaz)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} necrotic damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to Necrotic damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"necrotic"
+					]
 				}
 			]
 		},
@@ -13830,57 +14509,53 @@
 			"source": "EARL",
 			"raceName": "Dragonborn",
 			"raceSource": "EARL",
-			"page": 3,
-			"reprintedAs": [
-				"Dragonborn (Metallic)|EARL"
-			],
 			"ability": [
 				{
 					"wis": 1
 				}
 			],
 			"entries": [
-			{
-							"type": "table",
-							"caption": "Draconic Ancestry",
-							"colLabels": [
-								"Dragon",
-								"Damage Type",
-								"Breath Weapon"
-							],
-							"colStyles": [
-								"col-4",
-								"col-4",
-								"col-4"
-							],
-							"rows": [
-								[
-									"Brass",
-									"Fire",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Bronze",
-									"Lightning",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Copper",
-									"Acid",
-									"5 by 30 ft. line (Dex. save)"
-								],
-								[
-									"Gold",
-									"Fire",
-									"15 ft. cone (Dex. save)"
-								],
-								[
-									"Silver",
-									"Cold",
-									"15 ft. cone (Con. save)"
-								]
-							]
-						},
+				{
+					"type": "table",
+					"caption": "Draconic Ancestry",
+					"colLabels": [
+						"Dragon",
+						"Damage Type",
+						"Breath Weapon"
+					],
+					"colStyles": [
+						"col-4",
+						"col-4",
+						"col-4"
+					],
+					"rows": [
+						[
+							"Brass",
+							"Fire",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Bronze",
+							"Lightning",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Copper",
+							"Acid",
+							"5 by 30 ft. line (Dex. save)"
+						],
+						[
+							"Gold",
+							"Fire",
+							"15 ft. cone (Dex. save)"
+						],
+						[
+							"Silver",
+							"Cold",
+							"15 ft. cone (Con. save)"
+						]
+					]
+				},
 				{
 					"type": "entries",
 					"name": "Metallic Breath Weapon",
@@ -13893,9 +14568,208 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+						"You can speak, read, and write {@language Common|phb} and {@language Draconic|phb}. {@language Draconic|phb} is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
 					],
 					"type": "entries"
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"_versions": [
+				{
+					"name": "Dragonborn (Metallic; Brass)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} fire damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to fire damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"fire"
+					]
+				},
+				{
+					"name": "Dragonborn (Metallic; Bronze)",
+					"source": "EARL",
+						"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} lightning damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to lightning damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"lightning"
+					]
+				},
+				{
+					"name": "Dragonborn (Metallic; Copper)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} acid damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to acid damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"acid"
+					]
+				},
+				{
+					"name": "Dragonborn (Metallic; Gold)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} fire damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to fire damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"fire"
+					]
+				},
+				{
+					"name": "Dragonborn (Metallic; Silver)",
+					"source": "EARL",
+					"_mod": {
+						"entries": [
+							{
+								"mode": "removeArr",
+								"names": "Draconic Ancestry"
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Breath Weapon",
+								"items": {
+									"type": "entries",
+									"name": "Breath Weapon",
+									"entries": [
+										"When you take the {@action Attack|thicc} action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon.",
+										"When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your {@quickref proficiency bonus|phb}. On a failed save, the creature takes {@dice 1d10} cold damage equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage.",
+										"You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+									]
+								}
+							},
+							{
+								"mode": "replaceArr",
+								"replace": "Draconic Resilience",
+								"items": {
+									"type": "entries",
+									"name": "Draconic Resistance",
+									"entries": [
+										"You have resistance to cold damage."
+									]
+								}
+							}
+						]
+					},
+					"resist": [
+						"cold"
+					]
 				}
 			]
 		},
@@ -13904,10 +14778,6 @@
 			"source": "EARL",
 			"raceName": "Dwarf",
 			"raceSource": "EARL",
-			"page": 6,
-			"reprintedAs": [
-				"Dwarf (Duergar)|EARL"
-			],
 			"ability": [
 				{
 					"str": 1
@@ -13917,7 +14787,9 @@
 			"traitTags": [
 				"Superior Darkvision",
 				"Spellcasting",
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Exotic"
 			],
 			"languageProficiencies": [
 				{
@@ -13990,10 +14862,6 @@
 			"source": "EARL",
 			"raceName": "Dwarf",
 			"raceSource": "EARL",
-			"page": 6,
-			"reprintedAs": [
-				"Dwarf (Hill)|EARL"
-			],
 			"ability": [
 				{
 					"wis": 1
@@ -14103,6 +14971,9 @@
 				"baseWeight": 90,
 				"weightMod": "1d4"
 			},
+			"traitTags": [
+				"Exotic"
+			],
 			"additionalSpells": [
 				{
 					"known": {
@@ -14177,7 +15048,9 @@
 			},
 			"darkvision": 120,
 			"traitTags": [
-				"Sunlight Sensitivity"
+				"Sunlight Sensitivity",
+				"Outcast",
+				"Exotic"
 			],
 			"weaponProficiencies": [
 				{
@@ -14267,6 +15140,9 @@
 				{
 					"cha": 1
 				}
+			],
+			"traitTags": [
+				"Exotic"
 			],
 			"heightAndWeight": {
 				"baseHeight": 54,
@@ -14577,6 +15453,10 @@
 				"baseWeight": 90,
 				"weightMod": "1d4"
 			},
+			"traitTags": [
+				"Outcast",
+				"Exotic"
+			],
 			"resist": [
 				"necrotic"
 			],
@@ -14673,9 +15553,6 @@
 			"raceName": "Genasi",
 			"raceSource": "EARL",
 			"page": 13,
-			"reprintedAs": [
-				"Genasi (Air)|EARL"
-			],
 			"ability": [
 				{
 					"dex": 1
@@ -14686,22 +15563,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"gust#c"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"feather fall"
-							]
+									"feather fall"
+								]
 							}
 						},
 						"5": {
@@ -14712,13 +15579,17 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"gust#c|cooms"
+						]
+					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true
 				}
 			],
@@ -14741,7 +15612,7 @@
 					"type": "entries",
 					"name": "Mingle with the Wind",
 					"entries": [
-						"You know the {@spell gust|xge} cantrip. Starting at 3rd level, you can cast the {@spell feather fall|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell gust of wind|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell gust|cooms} cantrip. Starting at 3rd level, you can cast the {@spell feather fall|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell gust of wind|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -14749,7 +15620,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Auran."
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Auran}."
 					]
 				}
 			]
@@ -14760,9 +15631,6 @@
 			"raceName": "Genasi",
 			"raceSource": "EARL",
 			"page": 14,
-			"reprintedAs": [
-				"Genasi (Earth)|EARL"
-			],
 			"ability": [
 				{
 					"str": 1
@@ -14770,36 +15638,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"mold earth#c"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
-					"known": {
-						"1": {
-							"rest": {
-								"2": [
-									"blade ward#c"
-								]
-							}
-						}
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"earth tremor"
-							]
+									"earth tremor|xge"
+								]
 							}
 						},
 						"5": {
@@ -14810,13 +15654,18 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"mold earth#c|cooms",
+							"blade ward#c"
+						]
+					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"terran": true
 				}
 			],
@@ -14839,7 +15688,7 @@
 					"type": "entries",
 					"name": "Merge with Stone",
 					"entries": [
-						"You know the {@spell mold earth|xge} cantrip. Starting at 3rd level, you can cast the {@spell earth tremor|xge} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell pass without trace|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell mold earth|cooms} cantrip. Starting at 3rd level, you can cast the {@spell earth tremor|xge} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell pass without trace|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -14847,7 +15696,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Terran."
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Terran}."
 					]
 				}
 			]
@@ -14858,9 +15707,6 @@
 			"raceName": "Genasi",
 			"raceSource": "EARL",
 			"page": 15,
-			"reprintedAs": [
-				"Genasi (Fire)|EARL"
-			],
 			"ability": [
 				{
 					"int": 1
@@ -14871,22 +15717,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"control flames#c"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"burning hands"
-							]
+									"burning hands"
+								]
 							}
 						},
 						"5": {
@@ -14897,13 +15733,17 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"control flames#c|cooms"
+						]
+					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"ignan": true
 				}
 			],
@@ -14926,7 +15766,7 @@
 					"type": "entries",
 					"name": "Reach to the Blaze",
 					"entries": [
-						"You know the {@spell control flames|xge} cantrip. Starting at 3rd level, you can cast the {@spell burning hands|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell flame blade|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell control flames|cooms} cantrip. Starting at 3rd level, you can cast the {@spell burning hands|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell flame blade|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -14945,9 +15785,6 @@
 			"raceName": "Genasi",
 			"raceSource": "EARL",
 			"page": 16,
-			"reprintedAs": [
-				"Genasi (Water)|EARL"
-			],
 			"speed": {
 				"walk": 30,
 				"swim": true
@@ -14965,22 +15802,12 @@
 			],
 			"additionalSpells": [
 				{
-					"known": {
-						"1": [
-							"shape water#c"
-						]
-					},
-					"ability": [
-						"con"
-					]
-				},
-				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
-							"create or destroy water"
-							]
+									"create or destroy water|cooms"
+								]
 							}
 						},
 						"5": {
@@ -14991,13 +15818,17 @@
 							}
 						}
 					},
-					"ability": [
-						"con"
-					]
+					"ability": "con",
+					"known": {
+						"1": [
+							"shape water#c|cooms"
+						]
+					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true
 				}
 			],
@@ -15020,7 +15851,7 @@
 					"type": "entries",
 					"name": "Call to the Wave",
 					"entries": [
-						"You know the {@spell shape water|xge} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water|phb} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell misty step|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"You know the {@spell shape water|cooms} cantrip. Starting at 3rd level, you can cast the {@spell create or destroy water|cooms} spell with this trait, without requiring a material component. Starting 5th level, you can also cast the {@spell misty step|phb} spell with this trait, without requiring a material component. Once you cast either spell with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Constitution is your spellcasting ability for these spells when you cast them with this trait."
 					]
 				},
@@ -15028,7 +15859,7 @@
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can understand and speak Common and Aquan."
+						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Aquan}."
 					]
 				}
 			]
@@ -15051,7 +15882,8 @@
 			},
 			"traitTags": [
 				"Skill Proficiency",
-				"Tool Proficiency"
+				"Tool Proficiency",
+				"Exotic"
 			],
 			"weaponProficiencies": [
 				{
@@ -15229,6 +16061,10 @@
 					"gnomish": true,
 					"undercommon": true
 				}
+			],
+			"traitTags": [
+				"Outcast",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -15558,9 +16394,6 @@
 			"raceName": "Half-Dragon",
 			"raceSource": "EARL",
 			"page": 22,
-			"reprintedAs": [
-				"Half-Dragon (Drow)|EARL"
-			],
 			"ability": [
 				{
 					"cha": 1
@@ -15610,7 +16443,7 @@
 					"type": "entries",
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom ({@skill perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+						"You have disadvantage on attack rolls and on Wisdom ({@skill perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
 					]
 				},
 				{
@@ -15635,7 +16468,7 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
-						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|phb|rapiers}, {@item shortsword|phb|shortswords}, and {@item hand crossbow|phb|hand crossbows}.",
+						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|owl|rapiers}, {@item shortsword|owl|shortswords}, and {@item hand crossbow|owl|hand crossbows}.",
 						"{@b Drow Magic.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
@@ -15833,9 +16666,6 @@
 			"raceName": "Half-Dragon",
 			"raceSource": "EARL",
 			"page": 30,
-			"reprintedAs": [
-				"Half-Dragon (Elf)|EARL"
-			],
 			"ability": [
 				{
 					"dex": 1
@@ -15903,7 +16733,7 @@
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
 						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
 						"{@b Sea Elf Training.} You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
-						"{@b Swim.} You gain a swimming speed of 30 ft.",
+						"{@b Child of the Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
 						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
 						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
 						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Constitution is your spellcasting ability for it."
@@ -16199,7 +17029,8 @@
 			"traitTags": [
 				"Spellcasting",
 				"Skill Proficiency",
-				"Weapon Proficiency"
+				"Weapon Proficiency",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -16351,7 +17182,8 @@
 			"raceSource": "EARL",
 			"traitTags": [
 				"Skill Proficiency",
-				"Damage Resistance"
+				"Damage Resistance",
+				"Exotic"
 			],
 			"entries": [
 				{
@@ -18320,7 +19152,8 @@
 				}
 			],
 			"traitTags": [
-				"Natural Armor"
+				"Natural Armor",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -18358,7 +19191,8 @@
 				}
 			],
 			"traitTags": [
-				"Natural Weapon"
+				"Natural Weapon",
+				"Animalistic"
 			],
 			"skillProficiencies": [
 				{
@@ -18453,6 +19287,218 @@
 			],
 			"hasFluff": true,
 			"hasFluffImages": true
+		}
+	],
+	"raceFeature": [
+		{
+			"name": "Armored Casing",
+			"source": "EARL",
+			"raceName": "Autognome",
+			"raceSource": "EARL",
+			"effects": [
+				{
+					"name": "Armored Casing",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "13 + @abilities.dex.mod"
+						}
+					]
+				}
+			],
+			"migrationVersion": 3
+		},
+		{
+			"name": "Armored Casing",
+			"source": "EARL",
+			"raceName": "Autognome (Mechanist)",
+			"raceSource": "EARL",
+			"effects": [
+				{
+					"name": "Armored Casing",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "13 + @abilities.dex.mod"
+						}
+					]
+				}
+			],
+			"migrationVersion": 3
+		},
+		{
+			"name": "Armored Casing",
+			"source": "EARL",
+			"raceName": "Autognome (Specialist)",
+			"raceSource": "EARL",
+			"effects": [
+				{
+					"name": "Armored Casing",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.attributes.ac.calc",
+							"mode": "OVERRIDE",
+							"value": "custom"
+						},
+						{
+							"key": "system.attributes.ac.formula",
+							"mode": "OVERRIDE",
+							"value": "13 + @abilities.dex.mod"
+						}
+					]
+				}
+			],
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; Black)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "30",
+						"target.template.units": "ft",
+						"target.template.type": "line"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; Blue)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "30",
+						"target.template.units": "ft",
+						"target.template.type": "line"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; Green)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "15",
+						"target.template.units": "ft",
+						"target.template.type": "cone"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; Red)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "15",
+						"target.template.units": "ft",
+						"target.template.type": "cone"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
+		},
+		{
+			"name": "Breath Weapon",
+			"source": "EARL",
+			"raceName": "Dragonborn (Chromatic; White)",
+			"raceSource": "EARL",
+			"system": {
+				"range.units": "self",
+				"duration.units": "instantaneous",
+				"activities": [
+					{
+						"type": "utility",
+						"activation.type": "special",
+						"target.template.size": "15",
+						"target.template.units": "ft",
+						"target.template.type": "cone"
+					},
+					{
+						"type": "save",
+						"save.ability": [
+							"dex"
+						],
+						"save.dc.calculation": "con"
+					}
+				]
+			},
+			"migrationVersion": 3
 		}
 	]
 }

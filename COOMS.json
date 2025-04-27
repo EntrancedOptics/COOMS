@@ -10876,6 +10876,14 @@
       "classes": {
         "fromClassList": [
           {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
             "name": "Cleric",
             "source": "PHB"
           },
@@ -10884,15 +10892,11 @@
             "source": "THICC"
           },
           {
-            "name": "Witch",
-            "source": "THICC"
-          },
-          {
-            "name": "Wizard",
+            "name": "Druid",
             "source": "PHB"
           },
           {
-            "name": "Wizard",
+            "name": "Druid",
             "source": "THICC"
           }
         ]
