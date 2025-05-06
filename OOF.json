@@ -1848,7 +1848,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you use a bagh nakh, brass knuckles, katar, or spiked knuckles, its damage die changes from {@dice 2d2} to {@dice 3d2}. WHen you use a caestus, its damage die changes from {@dice 1d4} to {@dice 1d6}.",
+						"When you use a bagh nakh, brass knuckles, katar, or spiked knuckles, its damage die changes from {@dice 2d2} to {@dice 3d2}. When you use a caestus, its damage die changes from {@dice 1d4} to {@dice 1d6}.",
 						"Whenever you damage a creature with a punching weapon, you may immediately use a bonus action to attempt to shove that creature.",
 						"You have advantage on attack roles made against creatures {@condition grappled|phb} by you when attacking with a punch weapon."
 					]
@@ -2363,7 +2363,7 @@
 					"type": "list",
 					"items": [
 						"When you take the {@action attack|phb} action and make a weapon attack with a whip weapon, you may make one extra attack with the whip weapon as a part of that {@action attack|phb} action.",
-						"Urumi now counts as reach weapons for you.",
+						"Urumi now count as reach weapons for you.",
 						"When you attempt to disarm a creature with a whip weapon, you are not put at a -5 to hit with the weapon.",
 						"When you successfully disarm a creature using a whip weapon, you are able to immediately grab the item you are disarming as long as you have a free hand equipped that can reasonably carry the object."
 					]
