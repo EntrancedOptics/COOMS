@@ -1139,6 +1139,35 @@
 			]
 		},
 		{
+			"name": "Heavily Armored",
+			"source": "EntrancedFeats",
+			"page": 10,
+			"prerequisite":[
+				{
+					"other":"Proficiency with medium armor or medium shields"
+				}
+			],
+			"ability":[
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have trained to master the use of heavy armor, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with heavy armor and heavy shields."
+					]
+				}
+			]
+		},
+		{
 			"name": "Historian",
 			"source": "EntrancedFeats",
 			"page": 11,
@@ -1259,6 +1288,30 @@
 						"You always know the number of hours left before the next sunrise or sunset.",
 						"You can accurately recall anything you have seen or heard within the past month.",
 						"If you have the ability to Restudy, you can do so with a bonus action once per long rest. This counts towards your maximum number of Restudies for the day, and is instantaneous instead of over the course of an hour."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lightly Armored",
+			"source": "EntrancedFeats",
+			"page": 12,
+			"ability":[
+				{
+					"dex":1
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have trained to master the use of light armor, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency with light armor and light shields."
 					]
 				}
 			]
@@ -1426,7 +1479,6 @@
 							}
 						]
 					}
-				}
 				},
 				{
 					"name": "Wizard Spells",
@@ -1554,6 +1606,41 @@
 						"Wearing medium armor doesn't impose disadvantage on your Dexterity ({@skill Stealth|phb}) checks.",
 						"Medium armor and shields count as light for the purpose of determining your ability to climb, swim, or fly.",
 						"When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher."
+					]
+				}
+			]
+		},
+		{
+			"name": "Moderately armored",
+			"source": "EntrancedFeats",
+			"page": 13,
+			"prerequisite":[
+				{
+					"other":"Proficiency with light armor or light shields"
+				}
+			],
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have trained to master the use of medium armor and shields, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency with medium armor and medium shields."
 					]
 				}
 			]
@@ -1984,6 +2071,15 @@
 			"name": "Shield Master",
 			"source": "EntrancedFeats",
 			"page": 18,
+			"prerequisite":[
+				{
+					"proficiency":[
+						{
+							"armor":"shield"
+						}
+					]
+				}
+			],
 			"entries":[
 				{
 					"entries":[
