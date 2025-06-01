@@ -1,5 +1,5 @@
 {
-  "siteVersion": "1.210.30",
+  "siteVersion": "1.210.40",
   "fileType": "content-blocklist",
   "blocklist": [
     {
@@ -199,6 +199,108 @@
       "displayName": "Mind Thrust",
       "hash": "mind%20thrust_cooms",
       "source": "COOMS"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Acid Resistance",
+      "hash": "potion%20of%20acid%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Cold Resistance",
+      "hash": "potion%20of%20cold%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Fire Resistance",
+      "hash": "potion%20of%20fire%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Force Resistance",
+      "hash": "potion%20of%20force%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Greater Healing",
+      "hash": "potion%20of%20greater%20healing_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Healing",
+      "hash": "potion%20of%20healing_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Lightning Resistance",
+      "hash": "potion%20of%20lightning%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Necrotic Resistance",
+      "hash": "potion%20of%20necrotic%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Poison Resistance",
+      "hash": "potion%20of%20poison%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Psychic Resistance",
+      "hash": "potion%20of%20psychic%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Radiant Resistance",
+      "hash": "potion%20of%20radiant%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Superior Healing",
+      "hash": "potion%20of%20superior%20healing_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Supreme Healing",
+      "hash": "potion%20of%20supreme%20healing_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "item",
+      "displayName": "Potion of Thunder Resistance",
+      "hash": "potion%20of%20thunder%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "itemGroup",
+      "displayName": "Potion of Healing (*)",
+      "hash": "potion%20of%20healing%20(*)_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "itemGroup",
+      "displayName": "Potion of Resistance",
+      "hash": "potion%20of%20resistance_dmg",
+      "source": "DMG"
+    },
+    {
+      "category": "itemGroup",
+      "displayName": "Potions of Healing",
+      "hash": "potions%20of%20healing_dmg",
+      "source": "DMG"
     },
     {
       "category": "magicvariant",
@@ -1516,6 +1618,12 @@
     },
     {
       "category": "baseitem",
+      "displayName": "Crystal",
+      "hash": "crystal_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "baseitem",
       "displayName": "Dagger",
       "hash": "dagger_phb",
       "source": "PHB"
@@ -1660,6 +1768,12 @@
     },
     {
       "category": "baseitem",
+      "displayName": "Orb",
+      "hash": "orb_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "baseitem",
       "displayName": "Padded Armor",
       "hash": "padded%20armor_phb",
       "source": "PHB"
@@ -1692,6 +1806,12 @@
       "category": "baseitem",
       "displayName": "Ring Mail",
       "hash": "ring%20mail_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "baseitem",
+      "displayName": "Rod",
+      "hash": "rod_phb",
       "source": "PHB"
     },
     {
@@ -1770,6 +1890,12 @@
       "category": "baseitem",
       "displayName": "Trident",
       "hash": "trident_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "baseitem",
+      "displayName": "Wand",
+      "hash": "wand_phb",
       "source": "PHB"
     },
     {
@@ -2284,6 +2410,12 @@
     },
     {
       "category": "feat",
+      "displayName": "Heavily Armored",
+      "hash": "heavily%20armored_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
       "displayName": "Inspiring Leader",
       "hash": "inspiring%20leader_phb",
       "source": "PHB"
@@ -2292,6 +2424,12 @@
       "category": "feat",
       "displayName": "Keen Mind",
       "hash": "keen%20mind_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Lightly Armored",
+      "hash": "lightly%20armored_phb",
       "source": "PHB"
     },
     {
@@ -2316,6 +2454,12 @@
       "category": "feat",
       "displayName": "Medium Armor Master",
       "hash": "medium%20armor%20master_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "feat",
+      "displayName": "Moderately Armored",
+      "hash": "moderately%20armored_phb",
       "source": "PHB"
     },
     {
@@ -2422,14 +2566,32 @@
     },
     {
       "category": "item",
+      "displayName": "Reliquary",
+      "hash": "reliquary_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "item",
       "displayName": "Smith's Tools",
       "hash": "smith's%20tools_phb",
       "source": "PHB"
     },
     {
       "category": "item",
+      "displayName": "Sprig of Mistletoe",
+      "hash": "sprig%20of%20mistletoe_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "item",
       "displayName": "Tinker's Tools",
       "hash": "tinker's%20tools_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "item",
+      "displayName": "Totem",
+      "hash": "totem_phb",
       "source": "PHB"
     },
     {
@@ -2442,6 +2604,30 @@
       "category": "item",
       "displayName": "Woodcarver's Tools",
       "hash": "woodcarver's%20tools_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "item",
+      "displayName": "Yew Wand",
+      "hash": "yew%20wand_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "itemGroup",
+      "displayName": "Arcane Focus",
+      "hash": "arcane%20focus_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "itemGroup",
+      "displayName": "Druidic Focus",
+      "hash": "druidic%20focus_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "itemGroup",
+      "displayName": "Holy Symbol",
+      "hash": "holy%20symbol_phb",
       "source": "PHB"
     },
     {
@@ -2910,6 +3096,12 @@
       "displayName": "Ray of Enfeeblement",
       "hash": "ray%20of%20enfeeblement_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Ray of Sickness",
+      "hash": "ray%20of%20sickness_phb",
       "source": "PHB"
     },
     {
