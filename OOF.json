@@ -1139,6 +1139,35 @@
 			]
 		},
 		{
+			"name": "Heavily Armored",
+			"source": "EntrancedFeats",
+			"page": 10,
+			"prerequisite":[
+				{
+					"other":"Proficiency with medium armor or medium shields"
+				}
+			],
+			"ability":[
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have trained to master the use of heavy armor, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with heavy armor and heavy shields."
+					]
+				}
+			]
+		},
+		{
 			"name": "Historian",
 			"source": "EntrancedFeats",
 			"page": 11,
@@ -1264,6 +1293,30 @@
 			]
 		},
 		{
+			"name": "Lightly Armored",
+			"source": "EntrancedFeats",
+			"page": 12,
+			"ability":[
+				{
+					"dex":1
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have trained to master the use of light armor, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency with light armor and light shields."
+					]
+				}
+			]
+		},
+		{
 			"name": "Mage Slayer",
 			"source": "EntrancedFeats",
 			"page": 12,
@@ -1288,21 +1341,7 @@
 			"name": "Magic Initiate",
 			"source": "EntrancedFeats",
 			"page": 12,
-			"entries":[
-				{
-					"entries":[
-						"Choose a class: {@filter bard|spells|level=0;1;2|class=bard}, {@filter cleric|spells|level=0;1;2|class=cleric}, {@filter druid|spells|level=0;1;2|class=druid}, {@filter sorcerer|spells|level=0;1;2|class=sorcerer}, {@filter warlock|spells|level=0;1;2|class=warlock}, or {@filter wizard|spells|level=0;1;2|class=wizard}. You learn two cantrips of your choice from that class's spell list.",
-						"In addition, choose one 1st-level spell and one 2nd-level or 1st-level (your choice) spell to learn from that same list. Using this feat, you can cast the 1st-level spell once at its lowest level without consuming a spell slot, and you must finish a short or long rest before you can cast it in this way again. You can also cast the 2nd-level or 1st-level spell once at its lowest level without consuming a spell slot, and you must finish a long rest before you can cast it in this way again.",
-						"Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric or druid; or Intelligence for wizard."
-					]
-				}
-			]
-		},
-		{
-			"name": "Martial Adept",
-			"source": "EntrancedFeats",
-			"page": 12,
-			"additionalSpells": [
+				"additionalSpells": [
 				{
 					"name": "Bard Spells",
 					"ability": "cha",
@@ -1419,6 +1458,29 @@
 					}
 				},
 				{
+					"name": "Witch Spells",
+					"ability": "wis",
+					"innate": {
+						"_": {
+							"daily": {
+								"2": [
+									{
+										"choose": "level=1;2|class=witch (THICC)"
+									}
+								]
+							}
+						}
+					},
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=witch (THICC)",
+								"count": 2
+							}
+						]
+					}
+				},
+				{
 					"name": "Wizard Spells",
 					"ability": "int",
 					"innate": {
@@ -1442,6 +1504,22 @@
 					}
 				}
 			],
+			"entries":[
+				{
+					"entries":[
+						"Choose a class: {@filter bard|spells|level=0;1;2|class=bard}, {@filter cleric|spells|level=0;1;2|class=cleric}, {@filter druid|spells|level=0;1;2|class=druid}, {@filter sorcerer|spells|level=0;1;2|class=sorcerer}, {@filter warlock|spells|level=0;1;2|class=warlock}, {@filter witch|spells|level=0;1;2|class=witch (THICC)} or {@filter wizard|spells|level=0;1;2|class=wizard}. You learn two cantrips of your choice from that class's spell list.",
+						"In addition, choose one 1st-level spell and one 2nd-level or 1st-level (your choice) spell to learn from that same list. Using this feat, you can cast the 1st-level spell once at its lowest level without consuming a spell slot, and you must finish a short or long rest before you can cast it in this way again. You can also cast the 2nd-level or 1st-level spell once at its lowest level without consuming a spell slot, and you must finish a long rest before you can cast it in this way again",
+						"Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric, druid, or witch; or Intelligence for wizard.",
+						"You also gain the ability to use the chosen class' spellcasting foci for the spells learned from this feat. If your chosen class is Witch, you are able to select whether you use arcane or druidic foci.",
+						"You are able to take this feat multiple times, but are not able to become an initiate in a given class more than once. Additionally, your ability to use a focus for the spells learned from this feat cannot be used on spells learned from a different time you obtained this feat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Martial Adept",
+			"source": "EntrancedFeats",
+			"page": 12,
 			"entries":[
 				{
 					"entries":[
@@ -1526,8 +1604,43 @@
 					"type":"list",
 					"items":[
 						"Wearing medium armor doesn't impose disadvantage on your Dexterity ({@skill Stealth|phb}) checks.",
-						"Wearing medium armor doesn't hinder your swimming or climbing in any way.",
+						"Medium armor and shields count as light for the purpose of determining your ability to climb, swim, or fly.",
 						"When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher."
+					]
+				}
+			]
+		},
+		{
+			"name": "Moderately armored",
+			"source": "EntrancedFeats",
+			"page": 13,
+			"prerequisite":[
+				{
+					"other":"Proficiency with light armor or light shields"
+				}
+			],
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have trained to master the use of medium armor and shields, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency with medium armor and medium shields."
 					]
 				}
 			]
@@ -1848,7 +1961,7 @@
 				{
 					"type": "list",
 					"items": [
-						"When you use a bagh nakh, brass knuckles, katar, or spiked knuckles, its damage die changes from {@dice 2d2} to {@dice 3d2}. WHen you use a caestus, its damage die changes from {@dice 1d4} to {@dice 1d6}.",
+						"When you use a bagh nakh, brass knuckles, katar, or spiked knuckles, its damage die changes from {@dice 2d2} to {@dice 3d2}. When you use a caestus, its damage die changes from {@dice 1d4} to {@dice 1d6}.",
 						"Whenever you damage a creature with a punching weapon, you may immediately use a bonus action to attempt to shove that creature.",
 						"You have advantage on attack roles made against creatures {@condition grappled|phb} by you when attacking with a punch weapon."
 					]
@@ -1958,6 +2071,15 @@
 			"name": "Shield Master",
 			"source": "EntrancedFeats",
 			"page": 18,
+			"prerequisite":[
+				{
+					"proficiency":[
+						{
+							"armor":"shield"
+						}
+					]
+				}
+			],
 			"entries":[
 				{
 					"entries":[
@@ -2363,7 +2485,7 @@
 					"type": "list",
 					"items": [
 						"When you take the {@action attack|phb} action and make a weapon attack with a whip weapon, you may make one extra attack with the whip weapon as a part of that {@action attack|phb} action.",
-						"Urumi now counts as reach weapons for you.",
+						"Urumi now count as reach weapons for you.",
 						"When you attempt to disarm a creature with a whip weapon, you are not put at a -5 to hit with the weapon.",
 						"When you successfully disarm a creature using a whip weapon, you are able to immediately grab the item you are disarming as long as you have a free hand equipped that can reasonably carry the object."
 					]
@@ -2428,6 +2550,41 @@
 					"type":"list",
 					"items":[
 						"You learn two druid {@filter cantrips|spells|level=0|class=druid} of your choice. You also learn the {@spell longstrider|phb} and {@spell pass without trace|phb} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast {@spell longstrider|phb} in this way when you finish a short or long rest, and you regain the ability to cast {@spell pass without trace|phb} in this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
+			"name": "Wounded Fury",
+			"source": "EntrancedFeats",
+			"page": 22,
+			"prerequisite": [
+				{
+					"level": 8,
+					"race":[
+						{
+							"name": "Quaggoth"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"con": 1
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You finally master your nature as a Quaggoth, letting your instincts take over when you fight. You gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"Your claws now deal 1d6 slashing damage instead of 1d4.",
+						"Once per turn, while you are bloodied (at half your maximum hit points or fewer), you can give yourself advantage on an attack roll. If you hit, you deal an extra 2d6 damage to the target if the attack was a melee attack."
 					]
 				}
 			]
