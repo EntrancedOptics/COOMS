@@ -3694,10 +3694,10 @@
 			"dmgType": "B",
 			"sling": true,
 			"weapon": true,
-			"ammoType": "sling bullet|owl"
+			"ammoType": "sling pellet|owl"
 		},
 		{
-			"name": "Sling Bullet",
+			"name": "Sling Pellet",
 			"source": "OWL",
 			"page": 1,
 			"srd": true,
