@@ -7487,6 +7487,62 @@
       }
     },
     {
+      "name": "Goodberry",
+      "source": "COOMS",
+      "level": 1,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a sprig of mistletoe"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 24
+          }
+        }
+      ],
+      "entries": [
+        "Up to ten large berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment and refreshment to sustain a creature for one day.",
+        "The berries disappear at the end of the spell's duration."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Grasping Vine",
       "source": "COOMS",
       "level": 2,
@@ -13959,6 +14015,101 @@
       }
     },
     {
+      "name": "Ray of Sickness",
+      "source": "COOMS",
+      "level": 1,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes ({@dice 2d8}) poison damage and must make a Constitution saving throw. On a failed save, it is also {@condition poisoned|phb|poisoned} for the duration of the spell. At the end of each of their turns, the target may remake the save. On a success, the spell ends on that target."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by ({@dice 1d8}) for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "damageInflict": [ "poison" ],
+      "savingThrow": [ "constitution" ],
+      "areaTags": [ "ST" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Fighter",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Eldritch Knight",
+              "shortName": "Eldritch Knight",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Rogue",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Arcane Trickster",
+              "shortName": "Arcane Trickster",
+              "source": "PHB"
+            }
+          }
+        ]
+      }
+    },
+    {
       "name": "Read Magic",
       "source": "COOMS",
       "level": 1,
@@ -17755,6 +17906,88 @@
       }
     },
     {
+      "name": "Smudge",
+      "source": "COOMS",
+      "level": 2,
+      "school": "N",
+      "time": [
+        {
+          "number": 10,
+          "unit": "Minutes"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "Feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a block of luxury incense worth at least 1 go for each target affected by this spell, which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          }
+        }
+      ],
+      "meta": {
+        "ritual": true
+      },
+      "entries": [
+        "You target up to 5 corpses, with each target being no farther than one foot apart. During the casting of the spell, you place each block of incense onto each target. The blocks of incense ignite in a spectral flame that engulfs each target, the color of which is determined by the caster's faith. The flame causes bits of their form to float harmlessly into the air and dissipate. They burn this way until the end of the spell's duration, when nothing of their corpse remains. Any objects on their person are unaffected by this spell, and this spell produces a gentle warmth that is somber to those that feel it. If a creature remains in the flames of a target affected by this spell for its duration, they take ({@dice 1d2}) fire, ({@dice 1d2}) radiant, and ({@dice 1d2}) necrotic damage.",
+        "Animated corpses, such as Constructs and Undead, cannot be targeted by this spell, however the corpses they leave may be.",
+        "If any of the spell's targets are affected by the Gentle Repose or Remove Curse spells, then the effect ends on that target."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, you can target 5 additional corpses for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Snilloc's Snowball Swarm",
       "source": "COOMS",
       "level": 2,
@@ -18671,6 +18904,90 @@
           },
           {
             "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stoneskin",
+      "source": "COOMS",
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "diamond dust worth 100gp, which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "hour",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical non-adamantine bludgeoning, piercing, and slashing damage."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
             "source": "THICC"
           },
           {
