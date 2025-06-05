@@ -19019,7 +19019,8 @@
       "range": {
         "type": "point",
         "distance": {
-          "type": "touch"
+          "type": "feet",
+          "amount": 30
         }
       },
       "components": {
