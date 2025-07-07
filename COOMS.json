@@ -1716,6 +1716,90 @@
       }
     },
     {
+      "name": "Borrowed Knowledge",
+      "source": "COOMS",
+      "level": 2,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a book worth at least 25 gp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You draw on knowledge from spirits of the past. Choose one skill or tool in which you lack proficiency. For the spell's duration, you have proficiency in the chosen skill or tool. The spell ends early if you cast it again."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, you gain an additional skill or tool proficiency of your choice that you lack proficiency in for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Brimstone",
       "source": "COOMS",
       "level": 3,
@@ -7403,6 +7487,62 @@
       }
     },
     {
+      "name": "Goodberry",
+      "source": "COOMS",
+      "level": 1,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a sprig of mistletoe"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 24
+          }
+        }
+      ],
+      "entries": [
+        "Up to ten large berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment and refreshment to sustain a creature for one day.",
+        "The berries disappear at the end of the spell's duration."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Grasping Vine",
       "source": "COOMS",
       "level": 2,
@@ -8493,6 +8633,71 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hunger of Hadar",
+      "source": "COOMS",
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 150
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a pickled octopus tentacle"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You open a gateway to the dark between the stars, a region infested with unknown horrors. A 15-foot-radius sphere of blackness and bitter cold appears, centered on a point within range and lasting for the duration. This void is filled with a cacophony of soft whispers and slurping noises that can be heard up to 30 feet away. No light cast at the same level of this spell can illuminate the area, and any light that would illuminate the area instead dispels the spell.",
+        "The void creates a warp in the fabric of space, and the area is difficult terrain. Any creature that starts its turn in the area must succeed on a Constitution saving throw or take ({@dice 2d6}) cold damage, with half as much on a successful save. Any creature that ends its turn in the area must succeed on a Dexterity saving throw or take ({@dice 2d6}) acid damage as milky, otherworldly tentacles rub against it."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the size increases by 5 feet for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "damageInflict": [ "cold", "acid" ],
+      "savingThrow": [ "constitution", "dexterity" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
           }
         ]
       }
@@ -9895,30 +10100,6 @@
             "name": "Wizard",
             "source": "THICC"
           }
-        ],
-        "fromSubclass": [
-          {
-            "class": {
-              "name": "Fighter",
-              "source": "PHB"
-            },
-            "subclass": {
-              "name": "Eldritch Knight",
-              "shortName": "Eldritch Knight",
-              "source": "PHB"
-            }
-          },
-          {
-            "class": {
-              "name": "Rogue",
-              "source": "PHB"
-            },
-            "subclass": {
-              "name": "Arcane Trickster",
-              "shortName": "Arcane Trickster",
-              "source": "PHB"
-            }
-          }
         ]
       }
     },
@@ -10768,6 +10949,98 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Magic Weapon",
+      "source": "COOMS",
+      "level": 2,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "hour",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -13742,6 +14015,101 @@
       }
     },
     {
+      "name": "Ray of Sickness",
+      "source": "COOMS",
+      "level": 1,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes ({@dice 2d8}) poison damage and must make a Constitution saving throw. On a failed save, it is also {@condition poisoned|phb|poisoned} for the duration of the spell. At the end of each of their turns, the target may remake the save. On a success, the spell ends on that target."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by ({@dice 1d8}) for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "damageInflict": [ "poison" ],
+      "savingThrow": [ "constitution" ],
+      "areaTags": [ "ST" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Fighter",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Eldritch Knight",
+              "shortName": "Eldritch Knight",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Rogue",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Arcane Trickster",
+              "shortName": "Arcane Trickster",
+              "source": "PHB"
+            }
+          }
+        ]
+      }
+    },
+    {
       "name": "Read Magic",
       "source": "COOMS",
       "level": 1,
@@ -16651,6 +17019,78 @@
       }
     },
     {
+      "name": "Scatter",
+      "source": "COOMS",
+      "level": 6,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "The air quivers around up to five creatures of your choice that you can see within range. An unwilling creature must succeed on a Charisma saving throw to resist this spell. You teleport each affected target to an unoccupied space that you can see within 120 feet of you. That space must be on the ground or on a floor."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level or higher, you are able to target an additional creature for each slot level above 6th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "savingThrow": [ "charisma" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Score",
       "source": "COOMS",
       "level": 2,
@@ -17229,6 +17669,91 @@
       }
     },
     {
+      "name": "Skill Empowerment",
+      "source": "COOMS",
+      "level": 5,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Your magic deepens a creature's understanding of its own talent. You touch one willing creature and give it expertise in one skill or tool of your choice; until the spell ends, the creature doubles its proficiency bonus for ability checks it makes that use the chosen skill or tool.",
+        "You must choose a skill or tool in which the target is proficient and that isn't already benefiting from an effect, such as Expertise, that doubles its proficiency bonus."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 6th level or higher, you gain an additional skill or tool proficiency of your choice that you have proficiency but not expertise in for each slot level above 5th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificerk",
+            "source": "THICC"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Sleet Storm",
       "source": "COOMS",
       "level": 3,
@@ -17381,6 +17906,88 @@
       }
     },
     {
+      "name": "Smudge",
+      "source": "COOMS",
+      "level": 2,
+      "school": "N",
+      "time": [
+        {
+          "number": 10,
+          "unit": "Minutes"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "Feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a block of luxury incense worth at least 1 go for each target affected by this spell, which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          }
+        }
+      ],
+      "meta": {
+        "ritual": true
+      },
+      "entries": [
+        "You target up to 5 corpses, with each target being no farther than one foot apart. During the casting of the spell, you place each block of incense onto each target. The blocks of incense ignite in a spectral flame that engulfs each target, the color of which is determined by the caster's faith. The flame causes bits of their form to float harmlessly into the air and dissipate. They burn this way until the end of the spell's duration, when nothing of their corpse remains. Any objects on their person are unaffected by this spell, and this spell produces a gentle warmth that is somber to those that feel it. If a creature remains in the flames of a target affected by this spell for its duration, they take ({@dice 1d2}) fire, ({@dice 1d2}) radiant, and ({@dice 1d2}) necrotic damage.",
+        "Animated corpses, such as Constructs and Undead, cannot be targeted by this spell, however the corpses they leave may be.",
+        "If any of the spell's targets are affected by the Gentle Repose or Remove Curse spells, then the effect ends on that target."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 3rd level or higher, you can target 5 additional corpses for each slot level above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Snilloc's Snowball Swarm",
       "source": "COOMS",
       "level": 2,
@@ -17438,6 +18045,89 @@
           {
             "name": "Sorcerer",
             "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Snare",
+      "source": "COOMS",
+      "level": 1,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet (40-foot cube)",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "25 feet of rope worth at least 5 sp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "meta": {
+        "ritual": true
+      },
+      "entries": [
+        "As you cast this spell, you use the rope to create a circle with a 5-foot radius on the ground or the floor. When you finish casting, the rope disappears and the circle becomes a magic trap. This trap is nearly invisible, requiring a successful Intelligence (Investigation) check against your spell save DC to be discerned.",
+        "The trap triggers when a Small, Medium, or Large creature moves onto the ground or the floor in the spell's radius. That creature must succeed on a Dexterity saving throw or be magically hoisted into the air, leaving it hanging upside down 3 feet above the ground or the floor. The creature is restrained there until the spell ends.",
+        "A restrained creature can make a Dexterity saving throw at the end of each of its turns, ending the effect on itself on a success. Alternatively, the creature or someone else who can reach it can use an action to make an Intelligence (Arcana) check against your spell save DC. On a success, the restrained effect ends.",
+        "After the trap is triggered, the spell ends when no creature is restrained by it.."
+      ],
+      "savingThrow": [ "dexterity" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
           },
           {
             "name": "Wizard",
@@ -18214,6 +18904,90 @@
           },
           {
             "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Stoneskin",
+      "source": "COOMS",
+      "level": 4,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "diamond dust worth 100gp, which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "hour",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical non-adamantine bludgeoning, piercing, and slashing damage."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
             "source": "THICC"
           },
           {
@@ -19556,6 +20330,89 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unseen Servant",
+      "source": "COOMS",
+      "level": 1,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a piece of string and a bit of wood"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "meta": {
+        "ritual": true
+      },
+      "entries": [
+        "This spell creates an {@condition invisible|phb|invisible}, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the spell ends.",
+        "Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.",
+        "If you cast the spell again or command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.",
+        "If this spell is casted as a ritual, the duration changes to 1 hour."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, you summon an additional servant for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
