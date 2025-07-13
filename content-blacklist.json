@@ -1,5 +1,5 @@
 {
-  "siteVersion": "1.210.40",
+  "siteVersion": "1.210.45",
   "fileType": "content-blocklist",
   "blocklist": [
     {
@@ -2968,6 +2968,12 @@
     },
     {
       "category": "spell",
+      "displayName": "Goodberry",
+      "hash": "goodberry_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
       "displayName": "Grasping Vine",
       "hash": "grasping%20vine_phb",
       "source": "PHB"
@@ -3006,6 +3012,12 @@
       "category": "spell",
       "displayName": "Holy Aura",
       "hash": "holy%20aura_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Hunger of Hadar",
+      "hash": "hunger%20of%20hadar_phb",
       "source": "PHB"
     },
     {
@@ -3136,6 +3148,12 @@
     },
     {
       "category": "spell",
+      "displayName": "Revivify",
+      "hash": "revivify_phb",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
       "displayName": "Searing Smite",
       "hash": "searing%20smite_phb",
       "source": "PHB"
@@ -3180,6 +3198,12 @@
       "displayName": "True Strike",
       "hash": "true%20strike_phb",
       "category": "spell",
+      "source": "PHB"
+    },
+    {
+      "category": "spell",
+      "displayName": "Unseen Servant",
+      "hash": "unseen%20servant_phb",
       "source": "PHB"
     },
     {
@@ -3312,6 +3336,12 @@
       "category": "race",
       "displayName": "Owlin",
       "hash": "owlin_scc",
+      "source": "SCC"
+    },
+    {
+      "category": "spell",
+      "displayName": "Borrowed Knowledge",
+      "hash": "borrowed%20knowledge_scc",
       "source": "SCC"
     },
     {
@@ -3990,6 +4020,12 @@
       "displayName": "Shape Water",
       "hash": "shape%20water_xge",
       "category": "spell",
+      "source": "XGE"
+    },
+    {
+      "category": "spell",
+      "displayName": "Snare",
+      "hash": "snare_xge",
       "source": "XGE"
     },
     {
