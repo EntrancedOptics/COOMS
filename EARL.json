@@ -8049,11 +8049,6 @@
 			"creatureTypes": [
 				"elemental"
 			],
-			"languageProficiencies": [
-				{
-					"common": true
-				}
-			],
 			"entries": [
 				{
 					"name": "Age",
@@ -18231,6 +18226,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"ignan": true
 				}
 			],
@@ -18314,6 +18310,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true,
 					"terran": true
 				}
@@ -18394,6 +18391,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true,
 					"auran": true
 				}
@@ -18475,6 +18473,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true
 				}
 			],
@@ -18554,6 +18553,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"ignan": true,
 					"terran": true
 				}
@@ -18636,6 +18636,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"terran": true
 				}
 			],
@@ -18715,6 +18716,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true,
 					"terran": true
 				}
@@ -18795,6 +18797,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"ignan": true
 				}
 			],
@@ -18867,13 +18870,14 @@
 					"ability": "con",
 					"known": {
 						"1": [
-							"bloodletting#c"
+							"bloodletting#c|cooms"
 						]
 					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true
 				}
 			],
@@ -18953,6 +18957,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true,
 					"ignan": true
 				}
@@ -19033,6 +19038,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true,
 					"ignan": true
 				}
@@ -19113,6 +19119,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true
 				}
 			],
