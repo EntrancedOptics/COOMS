@@ -5457,6 +5457,11 @@
 									"{@skill Stealth|phb}"
 								],
 								[
+									"Frost",
+									"{@spell Armor of Agathys|cooms}",
+									"{@skill Acrobatics|phb}"
+								],
+								[
 									"Hill",
 									"{@spell Longstrider|phb}",
 									"{@skill Animal Handling|phb}"
