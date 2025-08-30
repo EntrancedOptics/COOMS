@@ -5175,6 +5175,20 @@
 					"perception": true
 				}
 			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool",
+								"anyLanguage"
+							],
+							"count": 1
+						}
+					]
+				}
+			],
 			"entries": [
 				{
 					"name": "Age",
