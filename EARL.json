@@ -5385,6 +5385,19 @@
 					"athletics": true
 				}
 			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anyTool",
+								"anyLanguage"
+							],
+							"count": 1
+						}
+					]
+				}
+			],
 			"entries": [
 				{
 					"name": "Age",
