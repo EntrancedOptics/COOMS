@@ -872,6 +872,66 @@
 			]
 		},
 		{
+			"name": "Fade Away",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Gnome"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int"
+						],
+						"count": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"invisibility"
+								]
+							},
+							"rest":{
+								"1":[
+									"expeditious retreat"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack or cast a spell. Immediately after you turn invisible, you may move up to half your speed. Once you use this ability, you can't do so again until you finish a short or long rest.",
+						"You learn the {@spell expeditious retreat} and {@spell invisibility} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast {@spell expeditious retreat} in this way when you finish a short or long rest, and you regain the ability to cast {@spell invisibility} in this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fell Handed",
 			"source": "EntrancedFeats",
 			"page": 7,
