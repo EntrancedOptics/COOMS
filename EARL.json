@@ -16179,7 +16179,7 @@
 			],
 			"additionalSpells": [
 				{
-					"ability": "int",
+					"ability": "con",
 					"known": {
 						"1": [
 							"minor illusion#c"
@@ -16191,7 +16191,7 @@
 				{
 					"name": "Natural Illusionist",
 					"entries": [
-						"You know the {@spell minor illusion|phb} cantrip. Intelligence is your spellcasting ability for it."
+						"You know the {@spell minor illusion|phb} cantrip. Constitution is your spellcasting ability for it."
 					],
 					"type": "entries"
 				},
