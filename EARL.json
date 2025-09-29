@@ -1737,7 +1737,7 @@
 					"entries": [
 						"Choose an option from the following list:",
 						"{@b Dwarven.} You gain {@i Stonecunning}. You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}. You also either gain the {@i Talented Miner} feature or you gain proficiency in either {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
-						"{@b Elven.} You learn Sylvan and one additional language of your choice. You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
+						"{@b Elven.} You learn Sylvan and one additional language of your choice. You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|phb}.",
 						"{@b Human.} You gain two skill proficiencies and one additional language of your choice.",
 						"{@b Sea.} You can speak, read, and write Aquan. Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed. You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
 						"{@b Underdark.} You gain {@i Superior Darkvision} and {@i Sunlight Sensitivity}. You have proficiency with {@item battleaxe|phb|battleaxes}, {@item handaxe|phb|handaxes}, {@item hand crossbow|phb|hand crossbows}, {@item light hammer|phb|light hammers}, {@item longbow|phb|longbows}, {@item longsword|phb|longswords}, {@item rapier|phb|rapiers}, {@item shortbow|phb|shortbows}, {@item shortsword|phb|shortswords}, and {@item warhammer|phb|warhammers}."
@@ -15302,7 +15302,7 @@
 				{
 					"name": "Elf Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
 					],
 					"type": "entries"
 				},
@@ -15562,7 +15562,7 @@
 				{
 					"name": "Elf Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
 					],
 					"type": "entries"
 				},
@@ -16768,7 +16768,7 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|phb}.",
 						"{@b Sea Elf Training.} You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
 						"{@b Child of the Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
 						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
@@ -17157,7 +17157,7 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
 						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
 					]
 				}
@@ -17252,7 +17252,7 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
 						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
 						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 					]
