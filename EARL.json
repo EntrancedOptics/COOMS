@@ -2489,6 +2489,13 @@
 					]
 				},
 				{
+					"name": "Hungry Jaws",
+					"entries": [
+						"In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
+					],
+					"type": "entries"
+				},
+				{
 					"type": "entries",
 					"name": "Endless Hunger",
 					"entries": [
