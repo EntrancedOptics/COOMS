@@ -10417,7 +10417,7 @@
 				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
 									"disguise self"
 								]
@@ -10561,7 +10561,7 @@
 				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
 									"disguise self"
 								]
