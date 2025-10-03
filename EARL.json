@@ -17052,6 +17052,84 @@
 			]
 		},
 		{
+			"name": "Orc",
+			"source": "EARL",
+			"raceName": "Half-Dragon",
+			"raceSource": "EARL",
+			"page": 35,
+			"reprintedAs": [
+				"Half-Dragon (Orc)|EARL"
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Blindsight",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"orc": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dragons have the same size as their non-dragon parent. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Half-Dragons have a base speed equal to their non-dragon parent's base speed. Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Orc, and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Resilience (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
+						"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
+						"{@b Savage Attacks.} When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+						"{@b Aggressive.} As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
+						"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			]
+		},
+		{
 			"name": "Astral",
 			"source": "EARL",
 			"raceName": "Half-Elf",
