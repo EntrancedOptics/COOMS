@@ -3388,6 +3388,13 @@
 					"type": "entries"
 				},
 				{
+					"name": "Appearance",
+					"entries": [
+						"Half-Dragons come in many forms, residing in a spectrum between their two parents. They can look more like a traditional member of the species of their non-dragon parent but with skin tinted to the color of their parent. They can also have the appearance of a draconic humanoid with scales that are the color of their dragon parent. They can also be an odd mix of the two; whatever fate happens to bring."
+					],
+					"type": "entries"
+				},
+				{
 					"type": "entries",
 					"name": "Draconic Ancestry",
 					"entries": [
@@ -15309,7 +15316,7 @@
 				{
 					"name": "Elf Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+						"You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
 					],
 					"type": "entries"
 				},
@@ -15569,7 +15576,7 @@
 				{
 					"name": "Elf Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+						"You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
 					],
 					"type": "entries"
 				},
@@ -16775,12 +16782,13 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|phb}.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
 						"{@b Sea Elf Training.} You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
 						"{@b Child of the Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
 						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
 						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
-						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Constitution is your spellcasting ability for it."
+						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Constitution is your spellcasting ability for it.",
+						"{@b Extra Language.} You can speak, read, and write one extra language of your choosing."
 					]
 				}
 			]
@@ -17164,8 +17172,9 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
-						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+						"{@b Elf Weapon Training.} You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it.",
+						"{@b Extra Language.} You can speak, read, and write one extra language of your choosing."
 					]
 				}
 			]
@@ -17259,7 +17268,7 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
 						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
 						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 					]
