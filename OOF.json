@@ -309,6 +309,31 @@
 			]
 		},
 		{
+			"name": "Bow Master",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You achieve a profound understanding of bows, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you use a shortbow, its damage increases from a {@dice d6} to a {@dice d8}. When you use a longbow, its damage increases from a {@dice d8} to a {@dice d10}.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls made with bows."
+					]
+				}
+			]
+		},
+		{
 			"name": "Brawny",
 			"source": "EntrancedFeats",
 			"page": 4,
@@ -369,6 +394,66 @@
 			]
 		},
 		{
+			"name": "Cleave",
+			"source": "EntrancedFeats",
+			"page": 18,
+			"prerequisite":[
+				{
+					"proficiency":[
+						{
+							"weapon":"martial"
+						}
+					]
+				}
+			],
+			"ability":[
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				"You can follow through with powerful blows, allowing you to clear through swaths of enemies with ease, granting you the following benefits:",
+				{
+					"items": [
+						"Once per turn when you reduce a creature to 0 hp with a melee weapon attack and there is another creature within 5 feet of it whose AC you beat with your attack roll and who is within your range to hit with the same weapon, you may follow through with your attack and deal the remaining damage to that creature."
+					],
+					"type": "list"
+				}
+			]
+		},
+		{
+			"name": "Close-Quarters Casting",
+			"source": "EntrancedFeats",
+			"page": 24,
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have learned techniques that allow your casting to be used effectively at point-blank range, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that requires a melee spell attack roll, you may instead force the target(s) to make a Dexterity saving throw against your Spell Save DC, as your mere touch is enough to deliver the spell. If the target succeeds the saving throw, it acts as if you missed the attack roll.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged spell attack rolls.",
+						"You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, witch, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric, druid, or witch; or Intelligence for wizard."
+					]
+				}
+			]
+		},
+		{
 			"name": "Crossbow Expert",
 			"source": "EntrancedFeats",
 			"page": 4,
@@ -388,7 +473,7 @@
 					"type": "list",
 					"items": [
 						"You ignore the loading quality of crossbows with which you are proficient.",
-						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls made with crossbows.",
 						"When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a hand crossbow you are holding.",
 						"Bracing on a wall or table no longer costs any movement."
 					]
@@ -564,10 +649,16 @@
 					"type": "list",
 					"items":[
 						"You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike.",
-						"You gain the ability to use the Breath Weapon associated with your draconic ancestry.",
-						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice d10}s equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage. You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+						"You gain the ability to use the Breath Weapon associated with your draconic ancestry." 
 					]
-				}
+				},
+				{
+				    "type": "list",
+					"style": "list-hang",
+					"items": [
+						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice d10}s equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage. You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+					 ]
+				  }
 			]
 		},
 		{
@@ -781,6 +872,66 @@
 			]
 		},
 		{
+			"name": "Fade Away",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Gnome"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int"
+						],
+						"count": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"invisibility"
+								]
+							},
+							"rest":{
+								"1":[
+									"expeditious retreat"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack or cast a spell. Immediately after you turn invisible, you may move up to half your speed. Once you use this ability, you can't do so again until you finish a short or long rest.",
+						"You learn the {@spell expeditious retreat} and {@spell invisibility} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast {@spell expeditious retreat} in this way when you finish a short or long rest, and you regain the ability to cast {@spell invisibility} in this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fell Handed",
 			"source": "EntrancedFeats",
 			"page": 7,
@@ -846,12 +997,19 @@
 					"ability": "con",
 					"innate":{
 						"_":{
-							"daily":{
+							"rest":{
 								"1":[
 									"misty step"
 								]
 							}
 						}
+					},
+					"known":{
+						"_":[
+							{
+								"choose": "level=0|class=wizard"
+							}
+						]
 					}
 				}
 			],
@@ -887,7 +1045,7 @@
 					"ability": "con",
 					"innate":{
 						"_":{
-							"daily":{
+							"rest":{
 								"1":[
 									"misty step",
 									{
@@ -1110,7 +1268,7 @@
 					"items": [
 						"You gain proficiency with firearms (see 'Firearms' in the Dungeon Master's Guide).",
 						"You can use a {@item tinderbox|phb} as a free action.",
-						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls made with firearms.",
 						"Bracing on a wall or table no longer costs any movement."
 					]
 				}
@@ -1611,7 +1769,7 @@
 			]
 		},
 		{
-			"name": "Moderately armored",
+			"name": "Moderately Armored",
 			"source": "EntrancedFeats",
 			"page": 13,
 			"prerequisite":[
@@ -1826,7 +1984,7 @@
 			"page": 16,
 			"ability":[
 				{
-					"dex": 1
+					"cha": 1
 				}
 			],
 			"skillProficiencies":[
@@ -2024,6 +2182,40 @@
 			]
 		},
 		{
+			"name": "Savage Attacker",
+			"source": "EntrancedFeats",
+			"page": 18,
+			"prerequisite":[
+				{
+					"proficiency":[
+						{
+							"weapon":"martial"
+						}
+					]
+				}
+			],
+			"ability":[
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				"Your attacks are consistently powerful, granting you the following benefits:",
+				{
+					"items": [
+						"Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total."
+					],
+					"type": "list"
+				}
+			]
+		},
+		{
 			"name": "Shadow Touched",
 			"source": "EntrancedFeats",
 			"page": 18,
@@ -2044,7 +2236,7 @@
 					"ability": "con",
 					"innate":{
 						"_":{
-							"daily":{
+							"rest":{
 								"1e":[
 									"invisibility",
 									{
@@ -2165,6 +2357,32 @@
 			]
 		},
 		{
+			"name": "Sling Master",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You find great value in the simplistic, mastering the use of slings in combat, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you use a sling, its damage increases from a {@dice d4} to a {@dice d6} and its range increases from 30/120 to 80/320.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls made with slings.",
+						"When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a sling you are holding."
+					]
+				}
+			]
+		},
+		{
 			"name": "Stealthy",
 			"source": "EntrancedFeats",
 			"page": 19,
@@ -2223,6 +2441,113 @@
 						"If you are traveling alone, you can move stealthily at a normal pace.",
 						"When you forage, you find twice as much food as you normally would.",
 						"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Sniper",
+			"source": "EntrancedFeats",
+			"page": 24,
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"name": "Bard Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Bard|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Cleric Spells",
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Druid Spells",
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Druid|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Sorcerer Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Sorcerer|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Warlock Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Warlock|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Witch Spells",
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Witch (THICC)|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Wizard Spells",
+					"ability": "int",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+						"Your ranged spell attacks ignore half cover and three-quarters cover.",
+						"You learn one cantrip that requires an attack roll. Choose the cantrip from the {@filter bard|spells|level=0|class=bard|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}, {@filter druid|spells|level=0|class=druid|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}, {@filter witch|spells|level=0|class=witch (THICC)|spell attack=m;r;o} or {@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric, druid, or witch; or Intelligence for wizard."
 					]
 				}
 			]
@@ -2471,6 +2796,40 @@
 			]
 		},
 		{
+			"name": "Weapon Master",
+			"source": "EntrancedFeats",
+			"page": 21,
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"weaponProficiencies": [
+				"simple",
+				"martial"
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have practiced extensively with a variety of weapons, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You gain proficiency with simple and martial weapons."
+					]
+				}
+			]
+		},
+		{
 			"name": "Whip Master",
 			"source": "EntrancedFeats",
 			"page": 4,
@@ -2512,8 +2871,12 @@
 						"_":{
 							"daily":{
 								"1":[
-									"longstrider",
 									"pass without trace"
+								]
+							},
+							"rest":{
+								"1":[
+									"longstrider"
 								]
 							}
 						}

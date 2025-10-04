@@ -1714,7 +1714,7 @@
 					"name": "Elven Heritage",
 					"entries": [
 						"Choose an option from the following list:",
-						"{@b Drow.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+						"{@b Drow.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells.",
 						"{@b Eladrin (Spring).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
 						"When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.",
 						"{@b Eladrin (Summer).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
@@ -1737,7 +1737,7 @@
 					"entries": [
 						"Choose an option from the following list:",
 						"{@b Dwarven.} You gain {@i Stonecunning}. You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}. You also either gain the {@i Talented Miner} feature or you gain proficiency in either {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
-						"{@b Elven.} You learn Sylvan and one additional language of your choice. You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
+						"{@b Elven.} You learn Sylvan and one additional language of your choice. You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item katana|OWL}, {@item shortbow|OWL}, and {@item longbow|phb}.",
 						"{@b Human.} You gain two skill proficiencies and one additional language of your choice.",
 						"{@b Sea.} You can speak, read, and write Aquan. Using gestures and sounds, you can communicate simple ideas with any beast that has an innate swimming speed. You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
 						"{@b Underdark.} You gain {@i Superior Darkvision} and {@i Sunlight Sensitivity}. You have proficiency with {@item battleaxe|phb|battleaxes}, {@item handaxe|phb|handaxes}, {@item hand crossbow|phb|hand crossbows}, {@item light hammer|phb|light hammers}, {@item longbow|phb|longbows}, {@item longsword|phb|longswords}, {@item rapier|phb|rapiers}, {@item shortbow|phb|shortbows}, {@item shortsword|phb|shortswords}, and {@item warhammer|phb|warhammers}."
@@ -2013,7 +2013,7 @@
 						"3": {
 							"daily": {
 								"1": [
-									"faerie fire"
+									"faerie fire|cooms"
 								]
 							}
 						},
@@ -2047,7 +2047,7 @@
 					"name": "Fairy Magic",
 					"entries": [
 						"You know the {@spell druidcraft|cooms} cantrip.",
-						"Starting at 3rd level, you can cast the {@spell faerie fire|phb} spell with this trait. Starting at 5th level, you can also cast the {@spell enlarge/reduce|phb} spell with this trait. Once you cast {@spell faerie fire|phb} or {@spell enlarge/reduce|phb} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
+						"Starting at 3rd level, you can cast the {@spell faerie fire|cooms} spell with this trait. Starting at 5th level, you can also cast the {@spell enlarge/reduce|phb} spell with this trait. Once you cast {@spell faerie fire|cooms} or {@spell enlarge/reduce|phb} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
 						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
 					]
 				},
@@ -2487,6 +2487,13 @@
 					"entries": [
 						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
 					]
+				},
+				{
+					"name": "Hungry Jaws",
+					"entries": [
+						"In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest."
+					],
+					"type": "entries"
 				},
 				{
 					"type": "entries",
@@ -3377,6 +3384,13 @@
 					"name": "Age",
 					"entries": [
 						"Half-Dragons mature at the same rate as their non-dragon parent, but can live to the length of their draconic ancestry."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Appearance",
+					"entries": [
+						"Half-Dragons come in many forms, residing in a spectrum between their two parents. They can look more like a traditional member of the species of their non-dragon parent but with skin tinted to the color of their parent. They can also have the appearance of a draconic humanoid with scales that are the color of their dragon parent. They can also be an odd mix of the two; whatever fate happens to bring."
 					],
 					"type": "entries"
 				},
@@ -5175,6 +5189,20 @@
 					"perception": true
 				}
 			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool",
+								"anyLanguage"
+							],
+							"count": 1
+						}
+					]
+				}
+			],
 			"entries": [
 				{
 					"name": "Age",
@@ -5371,6 +5399,19 @@
 					"athletics": true
 				}
 			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anyTool",
+								"anyLanguage"
+							],
+							"count": 1
+						}
+					]
+				}
+			],
 			"entries": [
 				{
 					"name": "Age",
@@ -5453,8 +5494,13 @@
 								],
 								[
 									"Fog",
-									"{@spell Zephyr Strike|xge}",
+									"{@spell Fog Cloud|phb}",
 									"{@skill Stealth|phb}"
+								],
+								[
+									"Frost",
+									"{@spell Armor of Agathys|cooms}",
+									"{@skill Acrobatics|phb}"
 								],
 								[
 									"Hill",
@@ -5732,6 +5778,9 @@
 			"size": [
 				"S"
 			],
+			"conditionImmune": [
+				"frightened"
+			],
 			"traitTags": [
 				"Exotic"
 			],
@@ -5754,7 +5803,7 @@
 					"type": "entries",
 					"name": "Fearless",
 					"entries": [
-						"You have advantage on saving throws you make to avoid or end the {@condition frightened|phb} condition on yourself. When you fail a saving throw to avoid or end the {@condition frightened|phb} condition on yourself, you can choose to succeed instead. Once you succeed on a saving throw in this way, you can't do so again until you finish a long rest."
+						"You are immune to being {@condition Frightened|phb}."
 					]
 				},
 				{
@@ -5768,8 +5817,15 @@
 					"type": "entries",
 					"name": "Taunt",
 					"entries": [
-						"You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw, or it has disadvantage on attack rolls against targets other than you until the start of your next turn. The DC equals 8 + your proficiency bonus + your Intelligence, Wisdom, or Charisma modifier (choose when you select this race).",
+						"You have an extraordinary ability to fluster creatures. As a bonus action, you can unleash a string of provoking words at a creature within 60 feet of yourself that can hear and understand you. The target must succeed on a Wisdom saving throw against your Charisma DC (8 + your proficiency bonus + your Charisma modifier), or it has disadvantage on attack rolls against targets other than you until the start of your next turn.",
 						"You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nimble Escape",
+					"entries": [
+						"You can take the Disengage or Hide action as a bonus action on each of your turns."
 					]
 				},
 				{
@@ -8038,11 +8094,6 @@
 			],
 			"creatureTypes": [
 				"elemental"
-			],
-			"languageProficiencies": [
-				{
-					"common": true
-				}
 			],
 			"entries": [
 				{
@@ -10373,7 +10424,7 @@
 				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
 									"disguise self"
 								]
@@ -10517,7 +10568,7 @@
 				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
 									"disguise self"
 								]
@@ -15065,7 +15116,7 @@
 						"3": {
 							"daily": {
 								"1": [
-									"faerie fire"
+									"faerie fire|cooms"
 								]
 							}
 						},
@@ -15114,7 +15165,7 @@
 				{
 					"name": "Drow Magic",
 					"entries": [
-						"You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					],
 					"type": "entries"
 				},
@@ -15265,7 +15316,7 @@
 				{
 					"name": "Elf Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+						"You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
 					],
 					"type": "entries"
 				},
@@ -15525,7 +15576,7 @@
 				{
 					"name": "Elf Weapon Training",
 					"entries": [
-						"You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+						"You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
 					],
 					"type": "entries"
 				},
@@ -16142,7 +16193,7 @@
 			],
 			"additionalSpells": [
 				{
-					"ability": "int",
+					"ability": "con",
 					"known": {
 						"1": [
 							"minor illusion#c"
@@ -16154,7 +16205,7 @@
 				{
 					"name": "Natural Illusionist",
 					"entries": [
-						"You know the {@spell minor illusion|phb} cantrip. Intelligence is your spellcasting ability for it."
+						"You know the {@spell minor illusion|phb} cantrip. Constitution is your spellcasting ability for it."
 					],
 					"type": "entries"
 				},
@@ -16469,7 +16520,7 @@
 						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
 						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|owl|rapiers}, {@item shortsword|owl|shortswords}, and {@item hand crossbow|owl|hand crossbows}.",
-						"{@b Drow Magic.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"{@b Drow Magic.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -16731,12 +16782,13 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|phb}, {@item shortsword|phb}, {@item shortbow|phb}, and {@item longbow|phb}.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
 						"{@b Sea Elf Training.} You have proficiency with the {@item spear|phb}, {@item trident|phb}, {@item light crossbow|phb}, and {@item net|phb}.",
 						"{@b Child of the Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
 						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
 						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
-						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Constitution is your spellcasting ability for it."
+						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Constitution is your spellcasting ability for it.",
+						"{@b Extra Language.} You can speak, read, and write one extra language of your choosing."
 					]
 				}
 			]
@@ -17000,6 +17052,84 @@
 			]
 		},
 		{
+			"name": "Orc",
+			"source": "EARL",
+			"raceName": "Half-Dragon",
+			"raceSource": "EARL",
+			"page": 35,
+			"reprintedAs": [
+				"Half-Dragon (Orc)|EARL"
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"size": [
+				"M"
+			],
+			"speed": 30,
+			"traitTags": [
+				"Blindsight",
+				"Spellcasting"
+			],
+			"languageProficiencies": [
+				{
+					"orc": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Dragons have the same size as their non-dragon parent. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Half-Dragons have a base speed equal to their non-dragon parent's base speed. Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common, Orc, and Draconic. Draconic is thought to be one of the oldest languages and is often used in the study of magic. The language sounds harsh to most other creatures and includes numerous hard consonants and sibilants."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "inset",
+					"name": "Variant Resilience (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
+						"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
+						"{@b Savage Attacks.} When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.",
+						"{@b Aggressive.} As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
+						"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+					]
+				}
+			]
+		},
+		{
 			"name": "Astral",
 			"source": "EARL",
 			"raceName": "Half-Elf",
@@ -17040,7 +17170,7 @@
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}.",
-						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|phb} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -17120,8 +17250,9 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
-						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it."
+						"{@b Elf Weapon Training.} You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Cantrip.} You know one {@filter cantrip of your choice from the wizard spell list|spells|level=0|class=Wizard}. Intelligence is your spellcasting ability for it.",
+						"{@b Extra Language.} You can speak, read, and write one extra language of your choosing."
 					]
 				}
 			]
@@ -17215,7 +17346,7 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Elf Weapon Training.} You have proficiency with the {@item longsword|OWL}, {@item shortsword|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
+						"{@b Elf Weapon Training.} You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}.",
 						"{@b Fleet of Foot.} Your base walking speed increases to 35 feet.",
 						"{@b Mask of the Wild.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 					]
@@ -18221,6 +18352,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"ignan": true
 				}
 			],
@@ -18304,6 +18436,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true,
 					"terran": true
 				}
@@ -18384,6 +18517,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true,
 					"auran": true
 				}
@@ -18465,6 +18599,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true
 				}
 			],
@@ -18544,6 +18679,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"ignan": true,
 					"terran": true
 				}
@@ -18626,6 +18762,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"terran": true
 				}
 			],
@@ -18705,6 +18842,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true,
 					"terran": true
 				}
@@ -18785,6 +18923,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"ignan": true
 				}
 			],
@@ -18857,13 +18996,14 @@
 					"ability": "con",
 					"known": {
 						"1": [
-							"bloodletting#c"
+							"bloodletting#c|cooms"
 						]
 					}
 				}
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true
 				}
 			],
@@ -18943,6 +19083,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true,
 					"ignan": true
 				}
@@ -19023,6 +19164,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"aquan": true,
 					"ignan": true
 				}
@@ -19103,6 +19245,7 @@
 			],
 			"languageProficiencies": [
 				{
+					"common": true,
 					"auran": true
 				}
 			],
