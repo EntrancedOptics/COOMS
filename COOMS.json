@@ -866,6 +866,14 @@
             "source": "THICC"
           },
           {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
             "name": "Witch",
             "source": "THICC"
           }
@@ -4742,8 +4750,8 @@
       "entries": [
         "You compact the air within a 20-foot-radius sphere centered on a point you see within range until it becomes an unstable black sphere of destructive gravitational force absorbing light around it. For the spell's duration, the sphere and any space within 100 feet of it take twice as much movement to move through, and nonmagical objects fully inside the sphere are destroyed if they aren't being worn or carried.",
         "No air or light can exist within or escape the sphere, nullifying any light or wind-based effects within the area. Not even creatures with truesight can see within the sphere. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
-        "When the sphere appears and at the start of each of your turns until the spell ends, unsecured objects within 100 feet of the sphere are pulled toward the sphere's center, ending in an unoccupied space as close to the center as possible.",
-        "A creature or object that starts its turn within 100 feet of the sphere must succeed on a Strength saving throw or be pulled straight toward the sphere's center, ending in an unoccupied space as close to the center as possible. A creature that enters the sphere for the first time on a turn or starts its turn there takes ({@dice 8d10}) bludgeoning damage, ({@dice 4d10}) cold damage, is considered to be suffocating if it needs to breathe, and is restrained until it is no longer in the sphere. A creature that ends its turn within 100 feet of the sphere must make a Constitution saving throw or take ({@dice 2d10}) radiant damage. If the sphere is in the air, the restrained creature hovers inside the sphere. A creature can use its action to make an {@filter Athletics} check against your spell save DC, ending this restrained condition on itself or another creature in the sphere that it can reach. A creature reduced to 0 hit points by this spell is annihilated, along with any nonmagical items it is wearing or carrying."
+        "When the sphere appears and at the start of each of your turns until the spell ends, unsecured objects within 100 feet of the sphere are pulled toward the sphere's center, ending in an unoccupied space as close to the center as possible. All objects not being worn or carried inside the sphere are annihilated at the end of your turn.",
+        "A creature or object that starts its turn within 100 feet of the sphere must succeed on a Strength saving throw or be pulled straight toward the sphere's center, ending in an unoccupied space as close to the center as possible. A creature that enters the sphere for the first time on a turn or starts its turn there takes {@dice 8d10} bludgeoning damage, {@dice 4d10} cold damage, is considered to be suffocating if it needs to breathe, and is restrained until it is no longer in the sphere. A creature that ends its turn within 100 feet of the sphere must make a Constitution saving throw or take {@dice 2d10} radiant damage. If the sphere is in the air, the restrained creature hovers inside the sphere. A creature can use its action to make an Athletics check against your spell save DC, ending this restrained condition on itself or another creature in the sphere that it can reach. A creature reduced to 0 hit points by this spell is annihilated, along with anything it is wearing or carrying."
       ],
       "classes": {
         "fromClassList": [
@@ -6669,7 +6677,7 @@
         }
       ],
       "entries": [
-        "Bolstering yourself with a necromantic facsimile of life, you gain {@dice 1d4} + 4 + your spellcasting ability modifier in temporary hit points for the duration."
+        "You touch a creature's heart, bolstering them with a necromantic facsimile of life. The target gains 1d4 + 4 plus your spellcasting ability modifier temporary hit points for the duration."
       ],
       "entriesHigherLevel": [
         {
@@ -7932,6 +7940,67 @@
       }
     },
     {
+      "name": "Guardian of Faith",
+      "source": "COOMS",
+      "level": 4,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "entries": [
+        "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.",
+        "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw as the guardian attempts to smite them. The creature takes {@dice 8d4} radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes after it has made 5 attacks."
+      ],
+      "damageInflict": [ "radiant" ],
+      "savingThrow": [ "dexterity" ],
+      "areaTags": [ "ST" ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the guardian can make an additional attack for every slot level above 4th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "damageInflict": [ "radiant" ],
+      "savingThrow": [ "dexterity" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Guidance",
       "source": "COOMS",
       "level": 0,
@@ -9033,7 +9102,115 @@
         ]
       }
     },
-     {
+    {
+      "name": "Immolation",
+      "source": "COOMS",
+      "level": 5,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Flames wreathe one creature you can see within range. The target must make a Charisma saving throw. It takes {@dice 8d6} fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. The burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes {@dice 4d6} fire damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished by nonmagical means.",
+        "If damage from this spell kills a target, the target is turned to ash."
+      ],
+      "damageInflict": [ "fire" ],
+      "savingThrow": [ "charisma" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Fighter",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Eldritch Knight",
+              "shortName": "Eldritch Knight",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Barbarian",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Eldritch Lord",
+              "shortName": "Eldritch Lord",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Monk",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Arcane Form",
+              "shortName": "Arcane Form",
+              "source": "PHB"
+            }
+          },
+          {
+            "class": {
+              "name": "Rogue",
+              "source": "PHB"
+            },
+            "subclass": {
+              "name": "Arcane Trickster",
+              "shortName": "Arcane Trickster",
+              "source": "PHB"
+            }
+          }
+        ]
+      }
+    },
+    {
       "name": "Immovable Object",
       "source": "COOMS",
       "level": 8,
@@ -13838,7 +14015,7 @@
         ]
       }
     },
-            {
+    {
       "name": "Ravenous Void",
       "source": "COOMS",
       "level": 8,
@@ -13874,7 +14051,7 @@
       "entries": [
         "This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.",
         "For the duration, the spell's area is difficult terrain. A creature with darkvision can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
-        "Any creature or object that enters the spell's area for the first time on a turn or starts its turn there must make a Strength saving throw. The creature takes {@dice 8d10} bludgeoning damage on a failed save and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). Until the spell ends or they next succeed the spell’s saving throw, they are also {@condition restrained|phb|restrained}. On a successful save, the creature takes half as much damage and isn't pulled. A creature reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust."
+        "Any creature or object that enters the spell's area for the first time on a turn or starts its turn there must make a Strength saving throw. The target takes {@dice 8d10} bludgeoning damage on a failed save and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). Until the spell ends or they next succeed the spell’s saving throw, they are also restrained. On a successful save, the target takes half as much damage and isn't pulled. A target reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust."
       ],
       "classes": {
         "fromClassList": [
@@ -14046,13 +14223,13 @@
         }
       ],
       "entries": [
-        "A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes ({@dice 2d8}) poison damage and must make a Constitution saving throw. On a failed save, it is also {@condition poisoned|phb|poisoned} for the duration of the spell. At the end of each of their turns, the target may remake the save. On a success, the spell ends on that target."
+        "A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes {@dice 2d8} poison damage and must make a Constitution saving throw. On a failed save, it is also {@condition poisoned|phb|poisoned} for the duration of the spell. At the end of each of their turns, the target may remake the save. On a success, the spell ends on that target."
       ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
           "entries": [
-            "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by ({@dice 1d8}) for each slot level above 1st."
+            "When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st."
           ],
           "type": "entries"
         }
@@ -17788,8 +17965,7 @@
       ],
       "entries": [
         "Until the spell ends, freezing rain and sleet fall in a 20-foot-tall cylinder with a 40-foot radius centered on a point you choose within range. The area is heavily obscured, and exposed flames in the area are doused.",
-        "The ground in the area is covered with slick ice, making it {@quickref difficult terrain|phb|3}. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it takes {@damage 2d4} cold damage and falls {@condition prone|phb}. On a success, the creature takes half damage and is not {@condition prone|phb}.",
-        "If a creature that doesn't have cold damage immunity starts its turn in the spell's area and is {@status concentration|phb|concentrating} on a spell, the creature must make a successful Constitution saving throw against your spell save DC or lose {@status concentration|phb|concentration}."
+        "The ground in the area is covered with slick ice, making it {@quickref difficult terrain|phb|3}. When a creature enters the spell's area for the first time on a turn or starts its turn there, it must make a Dexterity saving throw. On a failed save, it takes {@damage 2d4} cold damage and falls {@condition prone|phb}. On a success, the creature takes half damage and is not {@condition prone|phb}."
       ],
       "entriesHigherLevel": [
         {
