@@ -1714,7 +1714,7 @@
 					"name": "Elven Heritage",
 					"entries": [
 						"Choose an option from the following list:",
-						"{@b Drow.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+						"{@b Drow.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once per day; you regain the ability to cast it when you finish a short or long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells.",
 						"{@b Eladrin (Spring).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
 						"When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.",
 						"{@b Eladrin (Summer).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
@@ -15115,7 +15115,7 @@
 				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
 									"faerie fire|cooms"
 								]
@@ -15129,7 +15129,7 @@
 							}
 						}
 					},
-					"ability": "cha",
+					"ability": "con",
 					"known": {
 						"1": [
 							"dancing lights#c|cooms"
