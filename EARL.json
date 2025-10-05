@@ -1530,10 +1530,10 @@
 			],
 			"weaponProficiencies": [
 				{
-					"battleaxe|phb": true,
-					"handaxe|phb": true,
-					"light hammer|phb": true,
-					"warhammer|phb": true
+					"battleaxe|owl": true,
+					"handaxe|owl": true,
+					"light hammer|owl": true,
+					"warhammer|owl": true
 				}
 			],
 			"languageProficiencies": [
@@ -15105,9 +15105,10 @@
 			],
 			"weaponProficiencies": [
 				{
-					"rapier|phb": true,
-					"shortsword|phb": true,
-					"hand crossbow|phb": true
+					"estoc|owl": true,
+					"rapier|owl": true,
+					"shortsword|owl": true,
+					"hand crossbow|owl": true
 				}
 			],
 			"additionalSpells": [
@@ -15165,14 +15166,14 @@
 				{
 					"name": "Drow Magic",
 					"entries": [
-						"You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once per day; you must finish a short or long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Constitution is your spellcasting ability for these spells."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Drow Weapon Training",
 					"entries": [
-						"You have proficiency with {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}."
+						"You have proficiency with {@item estoc|OWL|estocs}, {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}."
 					],
 					"type": "entries"
 				}
@@ -15284,10 +15285,10 @@
 			],
 			"weaponProficiencies": [
 				{
-					"longsword|phb": true,
-					"shortsword|phb": true,
-					"shortbow|phb": true,
-					"longbow|phb": true
+					"longsword|owl": true,
+					"shortsword|owl": true,
+					"shortbow|owl": true,
+					"longbow|owl": true
 				}
 			],
 			"additionalSpells": [
@@ -16519,8 +16520,8 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
-						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|owl|rapiers}, {@item shortsword|owl|shortswords}, and {@item hand crossbow|owl|hand crossbows}.",
-						"{@b Drow Magic.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"{@b Drow Weapon Training.} You have proficiency with {@item estoc|OWL|estocs}, {@item rapier|owl|rapiers}, {@item shortsword|owl|shortswords}, and {@item hand crossbow|owl|hand crossbows}.",
+						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once per day; you must finish a short or long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -17169,8 +17170,8 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}.",
-						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"{@b Drow Weapon Training.} You have proficiency with {@item estoc|OWL|estocs}, {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}.",
+						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once per day; you must finish a short or long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			]
