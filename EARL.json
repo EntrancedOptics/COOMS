@@ -1035,7 +1035,7 @@
 								[
 									"12",
 									"{@spell primal savagery|xge}",
-									"{@spell ice knife|xge}",
+									"{@spell ice knife|cooms}",
 									"{@spell mirror image|phb}"
 								],
 								[
@@ -1568,21 +1568,21 @@
 					"type": "entries",
 					"name": "Dwarven Combat Training",
 					"entries": [
-						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}."
+						"You have proficiency with the {@item battleaxe|owl}, {@item handaxe|owl}, {@item light hammer|owl}, {@item warhammer|owl}, and {@item war pick|owl}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tool Proficiency",
 					"entries": [
-						"You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}."
+						"You gain proficiency with the artisan's tools of your choice: {@item smith's tools|owl}, {@item brewer's supplies|owl}, or {@item mason's tools|owl}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Stonecunning",
 					"entries": [
-						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+						"Whenever you make an Intelligence ({@skill History|phb}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
 					]
 				},
 				{
@@ -1598,7 +1598,9 @@
 				"heightMod": "2d4",
 				"baseWeight": 115,
 				"weightMod": "2d6"
-			}
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Dwelf",
@@ -2245,7 +2247,9 @@
 				"heightMod": "2d10",
 				"baseWeight": 110,
 				"weightMod": "2d4"
-			}
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 			{
 			"name": "Giff",
@@ -2387,7 +2391,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Gnoll",
@@ -14882,7 +14887,7 @@
 					"type": "entries",
 					"name": "Duergar Resilience",
 					"entries": [
-						"You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
+						"You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed|phb} or {@condition paralyzed|phb}."
 					]
 				},
 				{
@@ -14896,17 +14901,19 @@
 					"type": "entries",
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom ({@skill perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+						"You have disadvantage on attack rolls and on Wisdom ({@skill perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
 					]
 				},
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common, Dwarvish, and Undercommon."
+						"You can speak, read, and write {@language Common|phb}, {@language Dwarvish|phb}, and {@language Undercommon|phb}."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Hill",
@@ -14943,11 +14950,13 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+						"You can speak, read, and write {@language Common|phb} and {@language Dwarvish|phb}. {@language Dwarvish|phb} is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Mountain",
@@ -14997,11 +15006,13 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+						"You can speak, read, and write {@language Common|phb} and {@language Dwarvish|phb}. {@language Dwarvish|phb} is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Astral",
@@ -15178,7 +15189,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Eladrin",
@@ -15487,7 +15499,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Shadar-kai",
@@ -15537,7 +15550,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Wood",
@@ -15675,7 +15689,9 @@
 						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Auran}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Earth",
@@ -15751,7 +15767,9 @@
 						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Terran}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Fire",
@@ -15829,7 +15847,9 @@
 						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Ignan}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Water",
@@ -15914,7 +15934,9 @@
 						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Aquan}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Githyanki",
@@ -16090,7 +16112,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Deep/Svirfneblin",
