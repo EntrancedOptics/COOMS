@@ -1475,6 +1475,17 @@
 			]
 		},
 		{
+			"name": "Lucky",
+			"source": "EntrancedFeats",
+			"page": 12,
+			"entries":[
+			"You have inexplicable luck that seems to kick in at just the right moment.",
+			"You have 3 luck points. You can spend a luck point to reroll any attack roll, saving throw, or ability check made by you or a creature that you can see. You can replace a roll in this way only once per turn.",
+			"If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.",
+			"You regain your expended luck points when you finish a long rest"
+			]
+		},
+		{
 			"name": "Mage Slayer",
 			"source": "EntrancedFeats",
 			"page": 12,
@@ -1670,6 +1681,37 @@
 						"Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric, druid, or witch; or Intelligence for wizard.",
 						"You also gain the ability to use the chosen class' spellcasting foci for the spells learned from this feat. If your chosen class is Witch, you are able to select whether you use arcane or druidic foci.",
 						"You are able to take this feat multiple times, but are not able to become an initiate in a given class more than once. Additionally, your ability to use a focus for the spells learned from this feat cannot be used on spells learned from a different time you obtained this feat."
+					]
+				}
+			]
+		},
+		{
+			"name": "Malleable Form",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Plasmoid or Shadar-blaidd"
+						}
+					]
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have mastered your shapeless form, allowing you to gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"When you use a bonus action to extrude a pseudopod or tendril, you can extrude or retract up to four of them at a time, which are all controlled by the same bonus action. You may have no more than four of them extruded at a given time.",
+						"You can use two pseudopods or tendrils to wield a weapon that you are proficient with that lacks the Heavy property. If a weapon has the Light property, you may choose to wield it with only one pseudopod or tendril. If a weapon has the Versatile property, the damage dice you use is dependent on the amount of pseudopods or tendrils currently wielding it, as if they were arms. Attacking with a weapon wielded in this way is done with an attack action, rather than a bonus action.",
+						"You can use a pseudopod or tendril to activate a magic item that it is holding, using an action, bonus action, or reaction to do so as per the magic item.",
+						"While you have at least one pseudopod or tendril extruded, when you make a melee attack on your turn, your reach for it becomes 10 feet, or 15 feet if you are attacking using a weapon with the Reach property."
 					]
 				}
 			]
@@ -2210,6 +2252,41 @@
 				{
 					"items": [
 						"Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total."
+					],
+					"type": "list"
+				}
+			]
+		},
+		{
+			"name": "Second Chance",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Halfling"
+						}
+					]
+				}
+			],
+			"ability":[
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				"Fortune favors you when someone tries to strike you. You gain the following benefits:",
+				{
+					"items": [
+						"When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. You can use this ability a number of times equal to 1 less than your proficiency bonus, regaining all expended uses on a short or long rest."
 					],
 					"type": "list"
 				}
