@@ -1,0 +1,2864 @@
+{
+	"_meta": {
+		"internalCopies": [
+			"raceFluff"
+		],
+		"sources": [
+			{
+				"json": "fluff-races-EARL",
+				"abbreviation": "EARLF",
+				"full": "Entranced's Added Race List Fluff",
+				"authors": [
+					"Entranced Optics"
+				],
+				"convertedBy": [
+					"Beasty"
+				],
+				"version": "1.0.0",
+				"url": "https://docs.google.com/document/d/1c8aZFEpGUrM5BEoHMLVzUlmD3Rz0Y78kv4wAFYXr338",
+				"color": "#18b300"
+			}
+		]
+	},
+	"raceFluff": [
+		{
+			"name": "Aarakocra",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Sequestered in high mountains atop tall trees, the aarakocra, sometimes called birdfolk, evoke fear and wonder. Many aarakocra aren't even native to the Material Plane. They hail from a world beyond-from the boundless vistas of the Elemental Plane of Air. They are immigrants, refugees, scouts, and explorers, their outposts functioning as footholds in a world both strange and alien.",
+								{
+									"type": "entries",
+									"name": "Beak and Feather",
+									"entries": [
+										"From below, aarakocra look much like large birds. Only when they descend to roost on a branch or walk across the ground does their humanoid appearance reveal itself. Standing upright, aarakocra might reach 5 feet tall, and they have long, narrow legs that taper to sharp talons.",
+										"Feathers cover their bodies. Their plumage typically denotes membership in a tribe. Males are brightly colored, with feathers of red, orange, or yellow. Females have more subdued colors, usually brown or gray. Their heads complete the avian appearance, being something like a parrot or eagle with distinct tribal variations."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Sky Wardens",
+									"entries": [
+										"Nowere are the aarakocra more comfortable than in the sky. They can spend hours in the air, and some go as long as days, locking their wings in place and letting the thermals hold them aloft. In battle, they prove dynamic and acrobatic fliers, moving with remarkable speed and grace, diving to lash opponents with weapons or talons before turning and flying away.",
+										"Once airborne, an aarakocra leaves the sky with reluctance. On their native plane, they can fly for days or months, landing only to lay their eggs and feed their young before launching themselves back into the air. Those that make it to a world in the Material Plane find it a strange place. They sometimes forget or ignore vertical distances, and they have nothing but pity for those earthbound people forced to live and toil on the ground."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Avian Mannerisms",
+									"entries": [
+										"The resemblance of aarakocra to birds isn't limited to physical features. Aarakocra display many of the same mannerisms as ordinary birds. They are fastidious about their plumage, frequently tending their feathers, cleaning and scratching away any tiny passengers they might have picked up. When they deign to descend from the sky, they often do so near pools where they can catch fish and bathe themselves.",
+										"Many aarakocra punctuate their speech with chirps, sounds they use to convey emphasis and to shade meaning, much as a human might through facial expressions and gestures. An aarakocra might become frustrated with people who fail to pick up on the nuances; an aarakocra's threat might be taken as a jest and vice versa.",
+										"The idea of ownership baffles most aarakocra. After all, who owns the sky? Even when explained to them, they initially find the notion of ownership mystifying.",
+										"As a result, aarakocra who have little interaction with other people might be a nuisance as they drop from the sky to snatch livestock or plunder harvests for fruits and grains. Shiny, glittering objects catch their eyes. They find it hard not to pluck the treasure and bring it back to their settlement to beautify it. An aarakocra who spends years among other races can learn to inhibit these impulses.",
+										"Confinement terrifies the aarakocra. To be grounded, trapped underground, or imprisoned by the cold, unyielding earth is a torment few aarakocra can withstand. Even when perched on a high branch or at rest in their mountaintop homes, they appear alert, with eyes moving and bodies ready to take flight."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Homelands",
+									"entries": [
+										"Most aarakocra live on the Elemental Plane of Air. Aarakocra can be drawn into the Material Plane, sometimes to pursue enemies or thwart their foes' designs there. Accident might also send a nest of aarakocra tumbling into a world on that plane. A few find their way to such a world through portals on their own plane and establish nests in high mountains or in the canopies of old forests.",
+										"Once tribes of aarakocra settle in an area, they share a hunting territory that extends across an area up to 100 miles on a side, with each tribe hunting in the lands nearest to their colony, ranging farther should game become scarce.",
+										"A typical colony consists of one large, open-roofed nest made of woven vines. The eldest acts as leader with the support of a shaman."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Aarakocra in the Forgotten Realms",
+									"entries": [
+										"Never well established in Faerûn, aarakocra have only four major colonies: in the Star Mounts within the High Forest, in the Storm Horns in Cormyr, in the Cloven Mountains on the Vilhon Reach, and in the Mistcliffs in Chult.",
+										"Those colonies established in the Star Mounts, closest to the Dessarin Valley, were ever a secretive and guarded people, only spotted during their flights over the High Forest. A cruel and rapacious green dragon nearly wiped out the population and scattered the survivors. These aarakocra and their descendants have sworn vengeance against the dragon and may be seen scouring the lands of the North and Cormyr for signs of their foe.",
+										"Their only remaining settlement lies on the slopes of the Star Mounts' southernmost mountains. At the headwaters of the Unicorn Run, the Last Aerie is home to several dozen aarakocra. Recently, aarakocra elders detected changes in the prevailing winds that they regarded as a bad omen.",
+										"Unlike the aarakocra of other worlds on the Material Plane, the aarakocra of the Realms rarely travel to the Elemental Plane of Air."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Great Purpose",
+									"entries": [
+										"Aarakocra enjoy peace and solitude. Most of them have little interest in dealing with other peoples and less interest in spending time on the ground. For this reason, it takes an exceptional circumstance for an aarakocra to leave his or her tribe and undertake the adventurer's life. Neither treasure nor glory is enough to lure them from their tribes; a dire threat to their people, a mission of vengeance, or a catastrophe typically lies at the heart of the aarakocra adventurer's chosen path.",
+										"Two other circumstances might call an aarakocra to adventure. First, aarakocra have historical ties to the Wind Dukes of Aqaa. Exceptional individuals honor that connection and might seek out the missing pieces of the Rod of Seven Parts, the remains of an artifact fashioned by the Wind Dukes long ago to defeat the Queen of Chaos's monstrous champion, Miska the Wolf-Spider.",
+										"When plunged into Miska's body, the chaos in his blood sundered the rod and scattered its pieces across the multiverse. Recovering the pieces means gaining honor and esteem in the eyes of the vaati who forged it and could possibly restore a powerful weapon for defense against the agents of elemental evil.",
+										"Second, aarakocra are sworn foes of elemental earth, in particular the gargoyles that serve Ogrémoch, the Prince of Earth. The Aarakocra word for gargoyle is loosely translated as \"flying rock,\" and battles between aarakocra and gargoyles have raged across the Elemental Planes of Earth and Air, occasionally spilling into a world on the Material Plane. Aarakocra on that plane might leave their colonies to lend aid to other humanoids committed to fighting earth cults and thwarting their efforts."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Aarakocra Names",
+									"entries": [
+										"As with much of their speech, aarakocra names include clicks, trills, and whistles to the point that other peoples have a difficult time pronouncing them. Typically, a name has two to four syllables with the sounds acting as connectors. When interacting with other races, aarakocra may use nicknames gained from people they meet or shortened forms of their full names.",
+										"An aarakocra of either gender may have one of these short names: Aera, Aial, Aur, Deekek, Errk, Heehk, Ikki, Kleeck, Oorr, Ouss, Quaf, Quierk, Salleek, Urreek, or Zeed."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Aarakocra Backgrounds",
+									"entries": [
+										"Backgrounds that are most appropriate for aarakocra include the outlander, the hermit, and the sage.",
+										"The small colonies of aarakocra are insular and remote, and few aarakocra live away from their roosts. In the Star Mounts of the High Forest in the Forgotten Realms, no more than a few dozen aarakocra live away from the nests of their families. Those that do are usually rangers or fighters, constantly patrolling for outside threats."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Aarakocra Slurs",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Bird-Brains",
+												"Bird-Man",
+												"Caw-Caws",
+												"Crow",
+												"Hollowbones",
+												"Parrot (in tropical/port cities)",
+												"Pigeon",
+												"Raven",
+												"Vulture"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/EEPC/Aarakocra.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Aasimar",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Aasimar bear within their souls the light of the heavens. They are descended from humans with a touch of the power of Mount Celestia, the divine realm of many lawful good deities. Aasimar are born to serve as champions of the gods, their births hailed as blessed events. They are a people of otherworldly visages, with luminous features that reveal their celestial heritage.",
+								{
+									"type": "inset",
+									"name": "Falling from Grace or Rising to It",
+									"entries": [
+										"With your DM's consent, you can change your character's subrace to fallen aasimar if your protector/scourge aasimar turns to evil. To do so, replace your subrace benefits, including the ability score increase, with those of a fallen aasimar.",
+										"Similarly, if your fallen aasimar turns to good, your DM might allow you to become a protector or scourge aasimar."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Celestial Champions",
+									"entries": [
+										"Aasimar are placed in the world to serve as guardians of law and good. Their patrons expect them to strike at evil, lead by example, and further the cause of justice.",
+										"From an early age, an aasimar receives visions and guidance from celestial entities via dreams. These dreams help shape an aasimar, granting a sense of destiny and a desire for righteousness.",
+										"Each aasimar can count a specific celestial agent of the gods as a guide. This entity is typically a deva, an angel who acts as a messenger to the mortal world."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hidden Wanderers",
+									"entries": [
+										"While aasimar are strident foes of evil, they typically prefer to keep a low profile. An aasimar inevitably draws the attention of evil cultists, fiends, and other enemies of good, all of whom would be eager to strike down a celestial champion if they had the chance.",
+										"When traveling, aasimar prefer hoods, closed helms, and other gear that allows them to conceal their identities. They nevertheless have no compunction about striking openly at evil. The secrecy they desire is never worth endangering the innocent."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Aasimar Guides",
+									"entries": [
+										"An aasimar, except for one who has turned to evil, has a link to an angelic being. That being\u2014usually a deva\u2014provides guidance to the aasimar, though this connection functions only in dreams. As such, the guidance is not a direct command or a simple spoken word. Instead, the aasimar receives visions, prophecies, and feelings.",
+										"The angelic being is far from omniscient. Its guidance is based on its understanding of the tenets of law and good, and it might have insight into combating especially powerful evils that it knows about.",
+										"As part of fleshing out an aasimar character, consider the nature of that character's angelic guide. The Angelic Guide tables offer names and natures that you can use to flesh out your character's guide.",
+										{
+											"type": "table",
+											"colLabels": [
+												"d6",
+												"Name"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"Tadriel"
+												],
+												[
+													"2",
+													"Myllandra"
+												],
+												[
+													"3",
+													"Seraphina"
+												],
+												[
+													"4",
+													"Galladia"
+												],
+												[
+													"5",
+													"Mykiel"
+												],
+												[
+													"6",
+													"Valandras"
+												]
+											]
+										},
+										{
+											"type": "table",
+											"colLabels": [
+												"d6",
+												"Nature"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"Bookish and lecturing"
+												],
+												[
+													"2",
+													"Compassionate and hopeful"
+												],
+												[
+													"3",
+													"Practical and lighthearted"
+												],
+												[
+													"4",
+													"Fierce and vengeful"
+												],
+												[
+													"5",
+													"Stern and judgmental"
+												],
+												[
+													"6",
+													"Kind and parental"
+												]
+											]
+										},
+										{
+											"type": "inset",
+											"name": "Note to the DM: Playing an Angelic Guide",
+											"entries": [
+												"As DM, you take on the role of an aasimar's angelic guide and decide what kind of advice or omens to send in dreams.",
+												"The deva, or other celestial being, is your chance to add special roleplaying opportunities to the game. Remember, a deva lives in a realm of absolute law and good. The deva might not understand the compromises and hard choices that mortals must grapple with in the world. To the deva, an aasimar is a prized student who must live up to high, sometimes inflexible standards."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Conflicted Souls",
+									"entries": [
+										"Despite its celestial origin, an aasimar is mortal and possesses free will. Most aasimar follow their ordained path, but some grow to see their abilities as a curse. These disaffected aasimar are typically content to turn away from the world, but a few become agents of evil. In their minds, their exposure to celestial powers amounted to little more than brainwashing.",
+										"Evil aasimar make deadly foes. The radiant power they once commanded becomes corrupted into a horrid, draining magic. And their angelic guides abandon them.",
+										"Even aasimar wholly dedicated to good sometimes feel torn between two worlds. The angels that guide them see the world from a distant perch. An aasimar who wishes to stop and help a town recover from a drought might be told by an angelic guide to push forward on a greater quest. To a distant angel, saving a few commoners might pale in comparison to defeating a cult of Orcus. An aasimar's guide is wise but not infallible."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Aasimar Names",
+									"entries": [
+										"Most aasimar are born from human parents, and they use the same naming conventions as their native culture."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Aasimar Slurs",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Angel Face",
+												"Birdy",
+												"Chicken",
+												"Chickenbrain",
+												"God's Pet",
+												"Goody Two Shoes",
+												"Wingless Earthbound Bastard Half Breed"
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/VGM/Aasimar.webp"
+					},
+					"credit": "Shawn Wood"
+				}
+			]
+		},
+		{
+			"name": "Aasimar (Fallen)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Aasimar",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"An aasimar who was touched by dark powers as a youth or who turns to evil in early adulthood can become one of the fallen-a group of aasimar whose inner light has been replaced by shadow."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Aasimar (Protector)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Aasimar",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Protector aasimar are charged by the powers of good to guard the weak, to strike at evil wherever it arises, and to stand vigilant against the darkness. From a young age, a protector aasimar receives advice and directives that urge to stand against evil."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Aasimar (Scourge)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Aasimar",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Scourge aasimar are imbued with a divine energy that blazes intensely within them. It feeds a powerful desire to destroy evil-a desire that is, at its best, unflinching and, at its worst, all-consuming. Many scourge aasimar wear masks to block out the world and focus on containing this power, unmasking themselves only in battle."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Autognome",
+			"source": "EARL",
+			"entries": [
+				"Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.",
+				"An autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome's manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.",
+				"Roll on the Autognome History table or choose an entry that you like to identify what event set you on the path to adventure. If nothing on the table appeals to you, work with your DM to create an origin story for your character.",
+				"Like gnomes, autognomes can live for centuries, typically up to 500 years.",
+				{
+					"type": "table",
+					"caption": "Autognome History",
+					"colLabels": [
+						"d6",
+						"Story"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Your creator gave you autonomy and urged you to follow your dreams."
+						],
+						[
+							"2",
+							"Your creator died, leaving you to fend for yourself."
+						],
+						[
+							"3",
+							"A glitch caused you to forget your original programming. You don't remember who made you or where you came from."
+						],
+						[
+							"4",
+							"You didn't like how you were being treated by your creator, so you ran away from home."
+						],
+						[
+							"5",
+							"You were built to complete a special mission."
+						],
+						[
+							"6",
+							"You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose."
+						]
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Autognome Slurs",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Dolls",
+								"Dumbells",
+								"Fakes",
+								"Golem",
+								"Golems",
+								"Robot",
+								"Scrap Heap",
+								"Tinkertoys"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/AAG/Autognome.webp"
+					},
+					"credit": "Nikki Dawes"
+				}
+			]
+		},
+		{
+			"name": "Autognome (Mechanist)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Autognome",
+				"source": "EARL"
+			}
+		},
+		{
+			"name": "Autognome (Specialist)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Autognome",
+				"source": "EARL"
+			}
+		},
+		{
+			"name": "Axani",
+			"source": "EARL",
+			"entries": [
+				"Axani typically have overly neat, orderly appearances. They favor simple but elegant clothing and hairstyles. They are often quite attractive, with well-formed, symmetrical features. Some axani have a metallic tint to their skin or hair, but this is rare. Like elves, Axani have no facial or body hair. As their lineage indicates, most are lawful neutral, with lawful good and lawful evil as roughly equal minorities. Neutral axani are extremely rare, and chaotic axani are almost unheard of. Axani are drawn to the ordered, principled life of the monk, but any profession with a structured environment, such as soldiering, suits them."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://srd.dndtools.org/srd/resource/images/races/racesDramagAxani.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Bugbear",
+			"source": "EARL",
+			"entries": [
+				"Neither bugs nor bears, bugbears are the hulking cousins of goblins and hobgoblins. With roots in the Feywild, early bugbears resided in hidden places, in hard-to-reach and shadowed spaces. Long ago and from out of the corner of your eye, they came to the Material Plane, urged to spread throughout the multiverse by the conquering god Maglubiyet. Centuries later, they still bear a fey gift for lurking just out of sight, and many of them have sneaked away from that god's influence.",
+				"They are long of limb and covered in coarse hair, with wedge-shaped ears and pointed teeth. Despite their formidable build, bugbears are quiet skulkers, thanks to a fey magic that allows them to hide in spaces seemingly too small for them."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MPMM/Bugbear.webp"
+					},
+					"credit": "Filip Burburan"
+				}
+			]
+		},
+		{
+			"name": "Bullywug",
+			"source": "EARL",
+			"entries": [
+				"Bullywugs were a primitive race of frog-like humanoids found throughout the bogs and marshes of Toril, the self-proclaimed lords of the swamp. Savage and self-destructive, the bullywugs regularly tampered with forces beyond their understanding, threatening the safety of others and their own brutish, noisome, and wet lives."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8f/Bullywug-5e.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Cansin",
+			"source": "EARL",
+			"entries": [
+				"Children of randomness and entropy, cansin are most often descended from the inhabitants of Limbo, the plane of chaos. Cansin generally appear disheveled and disorganized. Their clothing is mismatched, their hair is mussed, and their caps perch at odd angles. Cansin typically have at least one, but possibly several, minor physical traits that reflect their origins. Some have eyes that randomly change color (not necessarily in sync), others have slightly irregular features, and still others carry around an aura of randomnes that causes strange things to happen in the cansin's presence. This aura does not affect dice rolls in any way, of course, but it can affect insignificant events such as chance meetings, minor accidents, and strange but harmless occurances. Naturally, most cansin are chaotic, but their very unpredictability makes neutral and even lawful cansin more common than good tieflings, evil aasimar, or chaotic axani."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://srd.dndtools.org/srd/resource/images/races/racesDramagCansin.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Centaur",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						"Powerful and curious, quick to act and knowledgeable of the wider world, centaurs seek to experience life's boundless bounty. The centaurs of Theros are divided into two groups: members of the far-traveling Lagonna band and the proud raiders of the Pheres band. These bands occupy territories situated between the three major human poleis, making them common sights to those who travel human lands. Not ones to settle in permanent homes, though, centaurs might be found wherever there are wonders to be witnessed and adventures to be had.",
+						{
+							"type": "entries",
+							"name": "Markings of the Herd",
+							"entries": [
+								"Though centaurs share the same basic physiology, the centaur bands are commonly associated with their own distinct traits.",
+								"Lagonna band centaurs tend to be sleek and muscular, with powerful legs built for endurance rather than speed. They usually have coats of a single color, often with a shine that can look metallic in bright light.",
+								"Pheres band centaurs typically have long, nimble legs and lean bodies, and are often marked with natural color patterns on their hide. Pheres centaurs sometimes paint or tattoo their upper bodies to match the patterns on their lower half. Occasionally, a Pheres centaur is born with vertical stripes on their hooves, foretelling an exciting and adventurous life."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Lagonna Merchant Families",
+							"entries": [
+								"Lagonna centaurs travel in small merchant family bands called {@i guri}. These groups frequently trade with Meletis, which provides the biggest market for their wares, but they also do business with Setessa and smaller communities within Akros's lands.",
+								"The eldest member of each guros typically leads their family. In times of discord, the heads of the guri gather to make decisions together. Other members of the guros work as traders, gatherers, packers, and scouts. A guros has several specialized roles required for success in travel and trade: a barterer, an omener, a courser, and preferably a {@i koletra}.",
+								"A barterer negotiates deals between the guros and other traders. Barterers must know the customs of other cultures and speak several different languages.",
+								"An omener is an oracle who reads messages from the gods in the natural world and reveals how the immortals would have the guros travel.",
+								"A courser explores new trade territory for their guros. They are expert trackers and navigators, able to venture deep into unexplored territory and unerringly return to their families.",
+								"Finally, every guros tries to travel with at least one koletra, one of the mighty, well-trained warriors of the Lagonna who are said to have the blood of the first, legendary centaur heroes. Koletras are said to bring good luck to a band, but are also usually fated to die in defense of their family. Not every guros has a koletra of its own, and guri share their best warriors among each other as a sign of goodwill and a way to forge bonds."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Journeys of Discovery",
+							"entries": [
+								"When young Lagonna centaurs become adults, they often leave their band to travel the world on their own. This time of self-discovery, called a {@i protoporos}, can last anywhere from a few weeks to several years. The Lagonna believe that a protoporos helps young centaurs find their place in the world. An omener reads the signs of fortune before sending young centaurs on their way, guiding the first steps of their journey. While most centaurs return to the band eventually, some find their calling elsewhere. When the Lagonna tell tales of their greatest heroes, they often speak of centaurs who found their heroic destiny on a protoporos."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Pheres Raiders",
+							"entries": [
+								"The Pheres roam the wild lands between Setessa and Akros in small raiding herds. These herds are voluntary associations, in contrast to the family groups of the Lagonna. When necessary, several small bands join together in a larger herd to target particularly dangerous but resource-rich targets\u2014be they humanoid traders or roving, greedy monsters. Bands also join together to defeat common threats or to hunt for game.",
+								"The Pheres value physical strength, speed, and prowess in both hunting and combat. Often a band is led by the strongest and most dominant warrior, called the charger. However, some bands elevate a tactician or strategist to this venerated position. The Pheres can be brutal and greedy, but they are clever as well, and understand the value of strategic leadership.",
+								"Other centaurs in Pheres herds work as scouts, archers, warriors, and foragers. In addition, most Pheres herds contain a caller and a tromper.",
+								"Pheres callers are typically druids or rangers who can draw animal assistance to their herd. Callers often have one or more animal allies at their side, and can speak to animals to learn about the surrounding lands.",
+								"Trompers are the most powerful and feared warriors of the herd. Centaur legends say that when the gods first fashioned humans from the red mud of the eldest river, Pheres trompers taught them how to corner and kill prey. The story tells that, to repay this debt, humans owe the centaurs a portion of what they catch. While humans don't recall this arrangement, the Pheres often cite it as justification for their raids."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Pheres Renegades",
+							"entries": [
+								"Pheres band members survive by working and fighting together, but still some centaurs choose to strike out on their own. These renegades often feel like outsiders in their own band. They might be pacifists, wishing to learn about other people rather than fighting them. Or they might feel a restlessness in their soul that nothing else can soothe. Though renegades build their own life away from the band, most retain some connection with their past. Some stories tell of renegades returning to help their band in times of need before disappearing once more."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Centaur Names",
+							"entries": [
+								"Lagonna centaurs tend to favor names of three or four syllables, often borrowed from cultures they have met during their travels. Pheres centaurs tend to have shorter, sharper sounding names, often appended with an honorific gained in battle.",
+								{
+									"type": "list",
+									"style": "list-hang-notitle",
+									"items": [
+										{
+											"type": "item",
+											"name": "Female Lagonna Names:",
+											"entry": "Honotia, Kelitia, Lileo, Meloe"
+										},
+										{
+											"type": "item",
+											"name": "Male Lagonna Names:",
+											"entry": "Aughus, Dririos, Ormasos,Volien"
+										},
+										{
+											"type": "item",
+											"name": "Female Pheres Names:",
+											"entry": "Bido, Daxa, Saya, Tesia"
+										},
+										{
+											"type": "item",
+											"name": "Male Pheres Names:",
+											"entry": "Eno, Roth, Skelor, Stihl"
+										},
+										{
+											"type": "item",
+											"name": "Pheres Honorifics:",
+											"entry": "Threekills, Razorhoof, Unsleeping, Daggereye, Silentstep"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Centaur Slurs",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Clippity-clops",
+								"Horse bastards",
+								"Half-Horses"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MOT/Lagonna Band Centaur.webp"
+					},
+					"title": "Lagonna Band Centaur",
+					"credit": "Min Yum"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MOT/Pheres Band Centaur.webp"
+					},
+					"title": "Pheres Band Centaur",
+					"credit": "Slawomir Maniak"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MPMM/Centaur.webp"
+					},
+					"credit": "Eric Belisle, Jedd Chevrier"
+				}
+			]
+		},
+		{
+			"name": "Cervan",
+			"source": "EARL",
+			"entries": [
+				"{@font enlightened leaders|HPPHumblescratch}",
+				"Cervans are a versatile deer-like folk who make their homes in small, intimate villages throughout Humblewood. More insular than other humblefolk, cervans often reside deep in the most ancient parts of Humblewood's vast forest, in tree stands and groves far from birdfolk perches.",
+				{
+					"name": "Hale and Hearty",
+					"entries": [
+						"Cervans have a robust physique and are rarely sick. They are one of the longest-lived races among the humblefolk. Though their wariness has earned them a reputation as timid, cervans are cautious because they remain active and alert, and generally prefer practice to contemplation. Cervans like to pursue skills independently in order to give themselves a sense of purpose. This striving is what propels some cervans to positions of great import throughout the Wood. A happy cervan is one who is hard at work."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Wary and Practical",
+					"entries": [
+						"One of the reasons cervans form such close-knit communities is a mistrust of outsiders. Before the Treaty, vulpin raiders and mapach thieves were serious threats. These times have long since passed, but cervans still possess a wariness that makes it hard for others to gain their trust. After the implementation of the Humblefolk Treaty, many cervans continued to live by the old ways. However, some cervan villages have since started to contain the odd family of jerbeen, or a few lone hedges. Even under such circumstances, cervans have maintained positions of leadership and delegated responsibilities to make sure that villages are run in accordance with the old cervan teachings, ensuring that work necessary for survival in the most remote villages is accomplished, so that all its inhabitants may be kept healthy and happy.",
+						"The ability to balance their innate caution with practical considerations is one of the cervans' greatest strengths. Cervans teach that the best means of survival in any situation is to remain calm and weigh one's options. The best cervan leaders favour this approach."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "The Sight",
+					"entries": [
+						"Cervans have a unique ability to bounce back and survive a physical shock that might kill others. Occasionally, cervans who survive such traumas are granted mystical visions. Sometimes these are flashes of insight into the world around them, sometimes portents of doom, and other times visions of a far away future. Known among cervans as \"The Sight\", this phenomenon is elusive, and out of the control of mortals. Cervans who have seen visions in this way are known as \"The Sighted\", and after this initial event, some will suddenly find themselves receptive to visions of the past, present, and future.",
+						"A cervan whose Sight has been triggered is encouraged to hone it, so that they might take on the role of a seer within their village. However, these efforts aren't always met with success. The Sight will sometimes visit a cervan only once in their lifetime, with no amount of training granting a glimpse of such visions again. This is believed to be for the best, as cervans acknowledge that those who are truly Sighted carry knowledge that can be both a blessing and a curse."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "The Blessing of Cairith",
+					"entries": [
+						"While it's not unusual for some cervans to have small antlers or buds visible on their heads, only rarely is a cervan born who can grow a full set of antlers. These cervans are a different subrace\u2014pronghorns\u2014and are thought to be specially blessed by their Amaranthine Cairith, a sacred spirit of life and growth believed to watch over all cervans. Unlike other subraces, pronghorn and grove cervans are the same people. The arrival of a pronghorn cervan is an event to celebrate, as it can occur only once in a generation."
+					],
+					"type": "entries"
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://cdna.artstation.com/p/assets/images/images/017/135/788/large/beck-hallstedt-cervainfinal.jpg?1554777449"
+					}
+				}
+			]
+		},
+		{
+			"name": "Cervan (Grove)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Cervan",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								"As a grove cervan, you are swift and agile, able to quickly maneuver out of harm's way. You are also incredibly versatile, and can fulfill a variety of roles within a village or an adventuring party."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Cervan (Pronghorn)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Cervan",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								"As a pronghorn cervan, you were born larger and stronger than others in the community and found yourself laden with expectations from a very young age. It is up to you whether you embrace your position of privilege, or rebel against the constraints thrust upon you by cervan society."
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Changeling",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Long ago there was a woman named Jes, and she had one hundred children. Her rivals conspired against her and swore to kill her children. Jes begged the Sovereigns for help, but their only answer was the wind and rain. In the depths of her despair, a lonely traveler took her hand. \"I will protect your children if they follow my path. Let them wander the world. They may be shunned and feared, but they will never be destroyed.\" Jes agreed, and the traveler gave her his cloak. When she draped it over her children, their old faces melted away and they could be whoever they wanted to be. And so it remains. Though the children are shunned by all, the gift of the Traveler protects them still."
+									],
+									"skipMarks": true,
+									"by": "Chance, changeling priest"
+								},
+								"Changelings can shift their forms with a thought. Many changelings use this gift as a form of artistic and emotional expression. It's also an invaluable tool for grifters, spies, and others who wish to deceive. This leads many people to treat changelings with suspicion.",
+								{
+									"type": "entries",
+									"name": "A Hidden People",
+									"entries": [
+										"Wherever humans live, changelings reside also; the question is whether their presence is known.",
+										"Changelings are born to one of three paths. A few are raised in stable communities where changelings are true to their nature and deal openly with the people around them. Some are orphans, raised by other races, who find their way in the world without ever knowing another like themselves. Others are part of nomadic changeling clans spread across the Five Nations, families who keep their true nature hidden from the single-skins. Some clans maintain safe havens in major cities and communities, but most prefer to wander the unpredictable path of the god known as the Traveler.",
+										"In creating a changeling adventurer, consider the character's relationships with people around them. Does the character conceal their true changeling nature? Do they embrace it? Do they have connections to other changelings or are they alone and in search of companions?"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Masks and Personas",
+									"entries": [
+										"In their true form, changelings are pale, with colorless eyes and silver-white hair. It is rare to see a changeling in that form, for a typical changeling changes their shape the way others might change clothes. A casual shape\u2014one created on the spur of the moment, with no depth or history\u2014is called a mask. A mask can be used to express a mood or to serve a specific purpose and then might never be used again. However, many changelings develop identities that have more depth. They build an identity over time, crafting a persona with a history and beliefs. This focused identity helps a changeling pinpoint a particular skill or emotion. A changeling adventurer might have personas for many situations, including negotiation, investigation, and combat.",
+										"Personas can be shared by multiple changelings; there might be three healers in a community, but whoever is on duty will adopt the persona of Tek, the kindly old medic. Personas can even be passed down through a family, allowing a younger changeling to take advantage of contacts established by the persona's previous users."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Changeling Names",
+									"entries": [
+										"A changeling might use a different name for each mask and persona and adopt new names as easily as they change faces. The true name of a changeling tends to be simple and monosyllabic; however, there are often accents to a changeling's name that are expressed through shapeshifting, something single-skins will likely miss. So, two changelings might have the name {@i Jin}, but one is {@i Jin-with-vivid-blue-eyes} and one is {@i Jin-with-golden-nails}.",
+										"Changelings have a fluid relationship with gender, seeing it as one characteristic to change among many.",
+										"{@b Changeling Names}: Aunn, Bin, Cas, Dox, Fie, Hars, Jin, Lam, Mas, Nix, Ot, Paik, Ruz, Sim, Toox, Vil, Yug"
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/ERLW/Changeling.webp"
+					},
+					"title": "Changeling adopting a person's appearance",
+					"credit": "Olga Drebas"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/ERLW/Changeling 001.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MPMM/Changeling.webp"
+					},
+					"credit": "Sarah Stone"
+				}
+			]
+		},
+		{
+			"name": "Dragonborn",
+			"source": "EARL",
+			"uncommon": true,
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.",
+								{
+									"type": "entries",
+									"name": "Proud Dragon Kin",
+									"entries": [
+										"Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6½ feet tall and weighing 300 pounds or more. Their hands and feet are smiting, talonlike claws with three fingers and a thumb on each hand.",
+										"The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor-bright red, green, blue, or white, lustrous black, or gleaming metallic like gold, silver, brass, copper, or bronze."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Self-Sufficient Clans",
+									"entries": [
+										"To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn's conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.",
+										"A continual drive for self-improvement reflects the self-sufficiency, of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. A dragonborn holds mastery of that particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn.",
+										"Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a client needs help, it turns to another dragonborn clan before seeking aid from other races or even from the gods."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dragonborn Names",
+									"entries": [
+										"Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutch mates as a descriptive term or endearment. The name might recall an event or center on a habit.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Male Names:",
+													"entry": "Arjhan, Balasar, Bharash, Donaar, Ghesh, Hesken, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn"
+												},
+												{
+													"type": "item",
+													"name": "Female Names:",
+													"entry": "Akra, Biri, Daar, Farideh, Harann, Havilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit"
+												},
+												{
+													"type": "item",
+													"name": "Childhood Names:",
+													"entry": "Climber, Earbenden Leaper, Pious, Shieldbiter, Zealous"
+												},
+												{
+													"type": "item",
+													"name": "Clan Names:",
+													"entry": "Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Draconians",
+									"entries": [
+										"In the Dragonlance setting, the followers of the evil goddess Takhisis learned a dark ritual that let them corrupt the eggs of metallic dragons, producing evil dragonborn called draconians. Five types of draconians, corresponding to the five types of metallic dragons, fought for Takhis is in the War of the Lance-auraks (gold), baaz (brass), bozak (bronze), kapak (copper), and sivak (silver). In place of their draconic breath weapons they have unique magical abilities."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dragonborn Slurs",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Lizard",
+								"Fly eater",
+								"Fake Drakes",
+								"Tall Kobold",
+								"Iguana wannabe",
+								"Snakeskin",
+								"Scales",
+								"Lizard brain",
+								"Walking purse",
+								"Skinks",
+								"Man-eater",
+								"Lizardfolk",
+								"Forked-tongues",
+								"Dragon refuse",
+								"Newt",
+								"Gecko",
+								"Wyrm reject",
+								"Overgrown Iguana"
+							]
+						},
+						{
+							"entries":[
+								"Dragonborn will call people who are not a dragonborn a Maunthreki."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PHB/Dragonborn.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/EGW/Dragonborn (Draconblood).webp"
+					},
+					"credit": "Axel Defois"
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/EGW/Dragonborn (Ravenite).webp"
+					},
+					"credit": "Axel Defois"
+				}
+			]
+		},
+		{
+			"name": "Dragonborn (Chromatic)",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.",
+								"Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those dragonborn's scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive.",
+								{
+									"type": "entries",
+									"name": "Proud Dragon Kin",
+									"entries": [
+										"Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6½ feet tall and weighing 300 pounds or more. Their hands and feet are smiting, talonlike claws with three fingers and a thumb on each hand.",
+										"The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor-bright red, green, blue, or white, lustrous black, or gleaming metallic like gold, silver, brass, copper, or bronze."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Self-Sufficient Clans",
+									"entries": [
+										"To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn's conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.",
+										"A continual drive for self-improvement reflects the self-sufficiency, of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. A dragonborn holds mastery of that particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn.",
+										"Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a client needs help, it turns to another dragonborn clan before seeking aid from other races or even from the gods."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dragonborn Names",
+									"entries": [
+										"Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutch mates as a descriptive term or endearment. The name might recall an event or center on a habit.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Male Names:",
+													"entry": "Arjhan, Balasar, Bharash, Donaar, Ghesh, Hesken, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn"
+												},
+												{
+													"type": "item",
+													"name": "Female Names:",
+													"entry": "Akra, Biri, Daar, Farideh, Harann, Havilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit"
+												},
+												{
+													"type": "item",
+													"name": "Childhood Names:",
+													"entry": "Climber, Earbenden Leaper, Pious, Shieldbiter, Zealous"
+												},
+												{
+													"type": "item",
+													"name": "Clan Names:",
+													"entry": "Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Draconians",
+									"entries": [
+										"In the Dragonlance setting, the followers of the evil goddess Takhisis learned a dark ritual that let them corrupt the eggs of metallic dragons, producing evil dragonborn called draconians. Five types of draconians, corresponding to the five types of metallic dragons, fought for Takhis is in the War of the Lance-auraks (gold), baaz (brass), bozak (bronze), kapak (copper), and sivak (silver). In place of their draconic breath weapons they have unique magical abilities."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dragonborn Slurs",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Lizard",
+								"Fly eater",
+								"Fake Drakes",
+								"Tall Kobold",
+								"Iguana wannabe",
+								"Snakeskin",
+								"Scales",
+								"Lizard brain",
+								"Walking purse",
+								"Skinks",
+								"Man-eater",
+								"Lizardfolk",
+								"Forked-tongues",
+								"Dragon refuse",
+								"Newt",
+								"Gecko",
+								"Wyrm reject",
+								"Overgrown Iguana"
+							]
+						},
+						{
+							"entries":[
+								"Dragonborn will call people who are not a dragonborn a Maunthreki."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/FTD/Chromatic Dragonborn.webp"
+					},
+					"title": "A red dragonborn sell-sword waits for a client",
+					"credit": "Randy Vargas"
+				}
+			]
+		},
+		{
+			"name": "Dragonborn (Gem)",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.",
+								"Gem dragonborn partake of the heritage of gem dragons, who claim to be heirs of Sardior, the Ruby Dragon. The colors and mysterious powers of gem dragons\u2014amethyst, crystal, emerald, sapphire, and topaz\u2014gleam in these dragonborn's scaled skin and course through their veins. Theirs are the wonders of the mind, the force of will, the brilliant light of insight, and the resounding echo of discovery\u2014but also the desiccation of despair.",
+								{
+									"type": "entries",
+									"name": "Proud Dragon Kin",
+									"entries": [
+										"Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6½ feet tall and weighing 300 pounds or more. Their hands and feet are smiting, talonlike claws with three fingers and a thumb on each hand.",
+										"The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor-bright red, green, blue, or white, lustrous black, or gleaming metallic like gold, silver, brass, copper, or bronze."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Self-Sufficient Clans",
+									"entries": [
+										"To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn's conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.",
+										"A continual drive for self-improvement reflects the self-sufficiency, of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. A dragonborn holds mastery of that particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn.",
+										"Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a client needs help, it turns to another dragonborn clan before seeking aid from other races or even from the gods."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dragonborn Names",
+									"entries": [
+										"Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutch mates as a descriptive term or endearment. The name might recall an event or center on a habit.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Male Names:",
+													"entry": "Arjhan, Balasar, Bharash, Donaar, Ghesh, Hesken, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn"
+												},
+												{
+													"type": "item",
+													"name": "Female Names:",
+													"entry": "Akra, Biri, Daar, Farideh, Harann, Havilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit"
+												},
+												{
+													"type": "item",
+													"name": "Childhood Names:",
+													"entry": "Climber, Earbenden Leaper, Pious, Shieldbiter, Zealous"
+												},
+												{
+													"type": "item",
+													"name": "Clan Names:",
+													"entry": "Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Draconians",
+									"entries": [
+										"In the Dragonlance setting, the followers of the evil goddess Takhisis learned a dark ritual that let them corrupt the eggs of metallic dragons, producing evil dragonborn called draconians. Five types of draconians, corresponding to the five types of metallic dragons, fought for Takhis is in the War of the Lance-auraks (gold), baaz (brass), bozak (bronze), kapak (copper), and sivak (silver). In place of their draconic breath weapons they have unique magical abilities."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dragonborn Slurs",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Lizard",
+								"Fly eater",
+								"Fake Drakes",
+								"Tall Kobold",
+								"Iguana wannabe",
+								"Snakeskin",
+								"Scales",
+								"Lizard brain",
+								"Walking purse",
+								"Skinks",
+								"Man-eater",
+								"Lizardfolk",
+								"Forked-tongues",
+								"Dragon refuse",
+								"Newt",
+								"Gecko",
+								"Wyrm reject",
+								"Overgrown Iguana"
+							]
+						},
+						{
+							"entries":[
+								"Dragonborn will call people who are not a dragonborn a Maunthreki."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/FTD/Gem Dragonborn.webp"
+					},
+					"title": "Sapphire, amethyst, and emerald dragonborn share stories around the fire",
+					"credit": "Zoltan Boros"
+				}
+			]
+		},
+		{
+			"name": "Dragonborn (Metallic)",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Born of dragons, as their name proclaims, the dragonborn walk proudly through a world that greets them with fearful incomprehension. Shaped by draconic gods or the dragons themselves, dragonborn originally hatched from dragon eggs as a unique race, combining the best attributes of dragons and humanoids. Some dragonborn are faithful servants to true dragons, others form the ranks of soldiers in great wars, and still others find themselves adrift, with no clear calling in life.",
+								"Dragonborn with metallic ancestry lay claim to the tenacity of metallic dragons\u2014brass, bronze, copper, gold, and silver\u2014whose hues glint in their scales. Theirs is the fire of hearth and forge, the cold of high mountain air, the spark of inspiration, and the scouring touch of acid that purifies.",
+								{
+									"type": "entries",
+									"name": "Proud Dragon Kin",
+									"entries": [
+										"Dragonborn look very much like dragons standing erect in humanoid form, though they lack wings or a tail. The first dragonborn had scales of vibrant hues matching the colors of their dragon kin, but generations of interbreeding have created a more uniform appearance. Their small, fine scales are usually brass or bronze in color, sometimes ranging to scarlet, rust, gold, or copper-green. They are tall and strongly built, often standing close to 6½ feet tall and weighing 300 pounds or more. Their hands and feet are smiting, talonlike claws with three fingers and a thumb on each hand.",
+										"The blood of a particular type of dragon runs very strong through some dragonborn clans. These dragonborn often boast scales that more closely match those of their dragon ancestor-bright red, green, blue, or white, lustrous black, or gleaming metallic like gold, silver, brass, copper, or bronze."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Self-Sufficient Clans",
+									"entries": [
+										"To any dragonborn, the clan is more important than life itself. Dragonborn owe their devotion and respect to their clan above all else, even the gods. Each dragonborn's conduct reflects on the honor of his or her clan, and bringing dishonor to the clan can result in expulsion and exile. Each dragonborn knows his or her station and duties within the clan, and honor demands maintaining the bounds of that position.",
+										"A continual drive for self-improvement reflects the self-sufficiency, of the race as a whole. Dragonborn value skill and excellence in all endeavors. They hate to fail, and they push themselves to extreme efforts before they give up on something. A dragonborn holds mastery of that particular skill as a lifetime goal. Members of other races who share the same commitment find it easy to earn the respect of a dragonborn.",
+										"Though all dragonborn strive to be self-sufficient, they recognize that help is sometimes needed in difficult situations. But the best source for such help is the clan, and when a client needs help, it turns to another dragonborn clan before seeking aid from other races or even from the gods."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dragonborn Names",
+									"entries": [
+										"Dragonborn have personal names given at birth, but they put their clan names first as a mark of honor. A childhood name or nickname is often used among clutch mates as a descriptive term or endearment. The name might recall an event or center on a habit.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Male Names:",
+													"entry": "Arjhan, Balasar, Bharash, Donaar, Ghesh, Hesken, Kriv, Medrash, Mehen, Nadarr, Pandjed, Patrin, Rhogar, Shamash, Shedinn, Tarhun, Torinn"
+												},
+												{
+													"type": "item",
+													"name": "Female Names:",
+													"entry": "Akra, Biri, Daar, Farideh, Harann, Havilar, Jheri, Kava, Korinn, Mishann, Nala, Perra, Raiann, Sora, Surina, Thava, Uadjit"
+												},
+												{
+													"type": "item",
+													"name": "Childhood Names:",
+													"entry": "Climber, Earbenden Leaper, Pious, Shieldbiter, Zealous"
+												},
+												{
+													"type": "item",
+													"name": "Clan Names:",
+													"entry": "Clethtinthiallor, Daardendrian, Delmirev, Drachedandion, Fenkenkabradon, Kepeshkmolik, Kerrhylon, Kimbatuul, Linxakasendalor, Myastan, Nemmonis, Norixius, Ophinshtalajiir, Prexijandilin, Shestendeliath, Turnuroth, Verthisathurgiesh, Yarjerit"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Draconians",
+									"entries": [
+										"In the Dragonlance setting, the followers of the evil goddess Takhisis learned a dark ritual that let them corrupt the eggs of metallic dragons, producing evil dragonborn called draconians. Five types of draconians, corresponding to the five types of metallic dragons, fought for Takhis is in the War of the Lance-auraks (gold), baaz (brass), bozak (bronze), kapak (copper), and sivak (silver). In place of their draconic breath weapons they have unique magical abilities."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dragonborn Slurs",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Lizard",
+								"Fly eater",
+								"Fake Drakes",
+								"Tall Kobold",
+								"Iguana wannabe",
+								"Snakeskin",
+								"Scales",
+								"Lizard brain",
+								"Walking purse",
+								"Skinks",
+								"Man-eater",
+								"Lizardfolk",
+								"Forked-tongues",
+								"Dragon refuse",
+								"Newt",
+								"Gecko",
+								"Wyrm reject",
+								"Overgrown Iguana"
+							]
+						},
+						{
+							"entries":[
+								"Dragonborn will call people who are not a dragonborn a Maunthreki."
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/FTD/Metallic Dragonborn.webp"
+					},
+					"title": "A copper dragonborn readies her acidic breath as foes approach",
+					"credit": "Andrey Kuzinskiy"
+				}
+			]
+		},
+		{
+			"name": "Dwarf",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Kingdoms rich in ancient grandeur, halls carved into the roots of mountains, the echoing of picks and hammers in deep mines and blazing forges, a commitment to clan and tradition, and a burning hatred of goblins and orcs-these common threads unite all dwarves.",
+								{
+									"type": "entries",
+									"name": "Short and Stout",
+									"entries": [
+										"Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller. Their courage and endurance are also easily a match for any of the larger folk.",
+										"Dwarven skin ranges from deep brown to a paler hue tinged with red, but the most common shades are light brown or deep tan, like certain tones of earth.",
+										"Their hair, worn long but in simple styles, is usually black, gray, or brown, though paler dwarves often have red hair. Male dwarves value their beards highly and groom them carefully."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Long Memory, Long Grudges",
+									"entries": [
+										"Dwarves can live to be more than 400 years old, so the oldest living dwarves often remember a very different world. For example, some of the oldest dwarves living in Citadel Felbarr (in the world of the Forgotten Realms) can recall the day, more than three centuries ago, when orcs conquered the fortress and drove them into an exile that lasted over 250 years. This longevity grants them a perspective on the world that shorter-lived races such as humans and halflings lack.",
+										"Dwarves are solid and enduring like the mountains they love, weathering the passage of centuries with stoic endurance and little change. They respect the traditions of their clans, tracing their ancestry back to the founding of their most ancient strongholds in the youth of the world, and don't abandon those traditions lightly. Part of those traditions is devotion to the gods of the dwarves, who uphold the dwarven ideals of industrious labor, skill in battle, and devotion to the forge.",
+										"Individual dwarves are determined and loyal, true to their word and decisive in action, sometimes to the point of stubbornness. Many dwarves have a strong sense of justice, and they are slow to forget wrongs they have suffered. A wrong done to one dwarf is a wrong done to the dwarf's entire clan, so what begins as one dwarf's hunt for vengeance can become a full-blown clan feud."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Clans and Kingdoms",
+									"entries": [
+										"Dwarven kingdoms stretch deep beneath the mountains where the dwarves mine gems and precious metals and forge items of wonder. They love the beauty and artistry of precious metals and fine jewelry, and in some dwarves this love festers into avarice. Whatever wealth they can't find in their mountains, they gain through trade. They dislike boats, so enterprising humans and halflings frequently handle trade in dwarven goods along water routes. Trustworthy members of other races are welcome in dwarf settlements, though some areas are off limits even to them.",
+										"The chief unit of dwarven society is the clan, and dwarves highly value social standing. Even dwarves who live far from their own kingdoms cherish their clan identities and affiliations, recognize related dwarves, and invoke their ancestors' names in oaths and curses. To be clanless is the worst fate that can befall a dwarf.",
+										"Dwarves in other lands are typically artisans, especially weaponsmiths, armorers, and jewelers. Some become mercenaries or bodyguards, highly sought after for their courage and loyalty."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Gods, Gold, and Clan",
+									"entries": [
+										"Dwarves who take up the adventuring life might be motivated by a desire for treasure-for its own sake, for a specific purpose, or even out of an altruistic desire to help others. Other dwarves are driven by the command or inspiration of a deity, a direct calling or simply a desire to bring glory to one of the dwarf gods. Clan and ancestry are also important motivators. A dwarf might seek to restore a clan's lost honor, avenge an ancient wrong the clan suffered, or earn a new place within the clan after having been exiled. Or a dwarf might search for the axe wielded by a mighty ancestor, lost on the field of battle centuries ago."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Slow to Trust",
+									"entries": [
+										"Dwarves get along passably well with most other races. \"The difference between an acquaintance and a friend is about a hundred years,\" is a dwarf saying that might be hyperbole, but certainly points to how difficult it can be for a member of a short-lived race like humans to earn a dwarf's trust.",
+										{
+											"type": "entries",
+											"name": "Elves",
+											"entries": [
+												"\"It's not wise to depend on the elves. No telling what an elf will do next; when the hammer meets the orc's head, they're as apt to start singing as to pull out a sword. They're flighty and frivolous. Two things to be said for them, though: They don't have many smiths, but the ones they have do very fine work. And when orcs or goblins come streaming down out of the mountains, an elf's good to have at your back. Not as good as a dwarf, maybe, but no doubt they hate the orcs as much as we do.\""
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Halflings",
+											"entries": [
+												"\"Sure, they're pleasant folk. But show me a halfling hero. An empire, a triumphant army. Even a treasure for the ages made by halfling hands. Nothing. How can you take them seriously?\""
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Humans",
+											"entries": [
+												"\"You take the time to get to know a human, and by then the human's on her deathbed. If you're lucky, she's got kin-a daughter or granddaughter, maybe-who's got hands and heart as good as hers. That's when you can make a human friend. And watch them go!. They set their hearts on something, they'll get it whether it's a dragon's hoard or an empire's throne. You have to admire that kind of dedication, even if it gets them in trouble more often than not.\""
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Dwarf Names",
+									"entries": [
+										"A dwarf's name is granted by a clan elder, in accordance with tradition. Every proper dwarven name has been used and reused down through the generations. A dwarf's name belongs to the clan, not to the individual.",
+										"A dwarf who misuses or brings shame to a clan name is stripped of the name and forbidden by law to use any dwarven name in its place.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Male Names:",
+													"entry": "Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Dain, Darrak, Delg, Eberk, Einkil, Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal"
+												},
+												{
+													"type": "item",
+													"name": "Female Names:",
+													"entry": "Amber, Artin, Audhild, Bardryn, Dagnal, Diesa, Eldeth, Falkrunn, Finellen, Gunnloda, Gurdis, Helja, Hlin, Kathra, Kristryd, Ilde, Liftrasa, Mardred, Riswynn, Sannl, Torbera, Torgga, Vistra"
+												},
+												{
+													"type": "item",
+													"name": "Clan Names:",
+													"entry": "Balderk, Battlehammer, Brawnanvil, Dankil, Fireforge, Frostbeard, Gorunn, Holderhek, Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart"
+												}
+											]
+										}
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Duergar",
+									"entries": [
+										"In cities deep in the Underdark live the duergar, or gray dwarves. These vicious, stealthy slave traders raid the surface world for captives, then sell their prey to the other races of the Underdark. They have innate magical abilities to become invisible and to temporarily grow to giant size."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Dwarf Slurs",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Beard goblin",
+								"Flea-bearded alestain",
+								"Stunty",
+								"Pump sucker",
+								"Stone shitter",
+								"Half-sized alcoholic",
+								"Maggots (according to legend!)",
+								"Rock eater",
+								"Stone domes",
+								"Gutter rats",
+								"Angry footstool",
+								"Rockhead",
+								"Hairy halfling",
+								"Tunnel rat",
+								"Pubic face",
+								"Cave hippo",
+								"Oremonger",
+								"Bushies",
+								"Gut draggers",
+								"Knotties",
+								"Lumberfoot",
+								"Half-man",
+								"Gnomes",
+								"Spuds (both are lumpy and come from the ground)",
+								"Stunt",
+								"Gold digger",
+								"Dirt-licker",
+								"Teapot",
+								"Hammer midget",
+								"Hill/Mountain/Dirt fairy",
+								"Keg belly",
+								"Pyrite",
+								"Muncher",
+								"Giant snot",
+								"Hairy brewery"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PHB/Dwarf.webp"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/XPHB/Dwarf.webp"
+					},
+					"credit": "Mike Pape",
+					"width": 1700,
+					"height": 1126
+				}
+			]
+		},
+		{
+			"name": "Dwarf (Duergar)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Dwarf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"The gray dwarves, or duergar, live deep in the Underdark. After delving deeper than any other dwarves, they were enslaved by mind flayers for eons. Although they eventually won their freedom, these grim, ashen-skinned dwarves now take slaves of their own and are as tyrannical as their former masters.",
+										"Physically similar to other dwarves in some ways, duergar are wiry and lean, with black eyes and bald heads, with the males growing long, unkempt, gray beards.",
+										"Duergar value toil above all else. Showing emotions other than grim determination or wrath is frowned on in their culture, but they can sometimes seem joyful when at work. They have the typical dwarven appreciation for order, tradition, and impeccable craftsmanship, but their goods are purely utilitarian, disdaining aesthetic or artistic value.",
+										"Few duergar become adventurers, fewer still on the surface world, because they are a hidebound and suspicious race. Those who leave their subterranean cities are usually exiles. Check with your Dungeon Master to see if you can play a gray dwarf character."
+									]
+								}
+							]
+						}
+					}
+				}
+			},
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://static.wikia.nocookie.net/forgottenrealms/images/6/68/Duergar-5e.jpg"
+					}
+				},
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MPMM/Duergar.webp"
+					},
+					"credit": "Christopher Bradley, Zuzanna Wuzyk"
+				}
+			]
+		},
+		{
+			"name": "Dwarf (Hill)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Dwarf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience. The gold dwarves of Faerun in their mighty southern kingdom are hill dwarves, as are the exiled Neidar and the debased Klar of Krynn in the Dragonlance setting."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Dwarf (Mountain)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Dwarf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"As a mountain dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You're probably on the tall side (for a dwarf), and tend toward lighter coloration. The shield dwarves of northern Faerun, as well as the ruling Hylar clan and the noble Daewar clan of Dragonlance, are mountain dwarves."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Eladrin",
+			"source": "MPMM",
+			"entries": [
+				"Eladrin are elves of the Feywild, a realm of perilous beauty and boundless magic. Using that magic, eladrin can step from one place to another in the blink of an eye, and each eladrin resonates with emotions captured in the Feywild in the form of seasons\u2014affinities that affect the eladrin's mood and appearance. An eladrin's season can change, though some remain in one season forever. Choose your season or roll on the Eladrin Seasons table. Your Trance trait lets you change your season.",
+				"Like other elves, eladrin can live to be over 750 years old.",
+				{
+					"type": "table",
+					"caption": "Eladrin Seasons",
+					"colLabels": [
+						"d4",
+						"Season"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							1,
+							"Autumn: peace and goodwill, when summer's harvest is shared with all."
+						],
+						[
+							2,
+							"Winter: contemplation and dolor, when the vibrant energy of the world slumbers."
+						],
+						[
+							3,
+							"Spring: cheerfulness and celebration, marked by merriment and hope as winter's sorrow passes."
+						],
+						[
+							4,
+							"Summer: boldness and aggression, a time of unfettered energy and calls to action."
+						]
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MPMM/Eladrin.webp"
+					},
+					"credit": "Eric Belisle"
+				}
+			]
+		},
+		{
+			"name": "Elf",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.",
+								{
+									"type": "entries",
+									"name": "Slender and Graceful",
+									"entries": [
+										"With their unearthly grace and fine features, elves appear hauntingly beautiful to humans and members of many other races. They are slightly shorter than humans on average, ranging from well under 5 feet tall to just over 6 feet. They are more slender than humans, weighing only 100 to 145 pounds. Males and females are about the same height, and males are only marginally heavier than females.",
+										"Elves' coloration encompasses the normal human range and also includes skin in shades of copper, bronze, and almost bluish-white, hair of green or blue, and eyes like pools of liquid gold or silver. Elves have no facial and little body hair. They favor elegant clothing in bright colors, and they enjoy simple yet lovely jewelry."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "A Timeless Perspective",
+									"entries": [
+										"Elves can live well over 700 years, giving them a broad perspective on events that might trouble the shorter-lived races more deeply. They are more often amused than excited, and more likely to be curious than greedy. They tend to remain aloof and unfazed by petty happenstance. When pursuing a goal, however, whether adventuring on a mission or learning a new skill or art, elves can be focused and relentless. They are slow to make friends and enemies, and even slower to forget them. They reply to petty insults with disdain and to serious insults with vengeance.",
+										"Like the branches of a young tree, elves are flexible in the face of danger. They trust in diplomacy and compromise to resolve differences before they escalate to violence. They have been known to retreat from intrusions into their woodland homes, confident that they can simply wait the invaders out. But when the need arises, elves reveal a stern martial side, demonstrating skill with sword, bow, and strategy."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hidden Woodland and Realms",
+									"entries": [
+										"Most elves dwell in small forest villages hidden among the trees. Elves hunt game, gather food, and grow vegetables, and their skill and magic allow them to support themselves without the need for clearing and plowing land. They are talented artisans, crafting finely worked clothes and art objects. Their contact with outsiders is usually limited, though a few elves make a good living by trading crafted items for metals (which they have no interest in mining).",
+										"Elves encountered outside their own lands are commonly traveling minstrels, artists, or sages. Human nobles compete for the services of elf instructors to teach swordplay or magic to their children."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Haughty but Gracious",
+									"entries": [
+										"Although they can be haughty, elves are generally gracious - even to those who fall short of their high expectations - which is most non-elves. Still, they can find good in just about anyone.",
+										{
+											"type": "entries",
+											"name": "Dwarves",
+											"entries": [
+												"\"Dwarves are dull, clumsy oafs. But what they lack in humor, sophistication, and manners, they make up in valor. And I must admit, their best smiths produce art that approaches elven quality.\""
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Halflings",
+											"entries": [
+												"\"Halflings are people of simple pleasures, and that is not a quality to scorn. They're a good folk, they care for each other and tend their gardens, and they have proven themselves tougher than they seem when the need arises.\""
+											]
+										},
+										{
+											"type": "entries",
+											"name": "Humans",
+											"entries": [
+												"\"All that haste, their ambitions and drive to accomplish something before their brief lives pass away - human endeavors seem so futile sometimes. But then you look at what they have accomplished, and you have to appreciate their achievements. If only they could slow down and learn some refinement.\""
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Exploration and Adventure",
+									"entries": [
+										"Elves take up adventuring out of wanderlust. Since they are so long-lived, they can enjoy centuries of exploration and discovery. They dislike the pace of human society, which is regimented from day to day but constantly changing over decades, so they find careers that let them travel freely and set their own pace. Elves also enjoy exercising their martial prowess or gaining greater magical power, and adventuring allows them to do so. Some might join with rebels fighting against oppression, and others might become champions of moral causes."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Elf Names",
+									"entries": [
+										"Elves are considered children until they declare themselves adults, some time after the hundredth birthday, and before this period they are called by child names.",
+										"On declaring adulthood, an elf selects an adult name, although those who knew him or her as a youngster might continue to use the child name. Each elf's adult name is a unique creation, though it might reflect the names of respected individuals or other family members. Little distinction exists between male names and female names; the groupings here reflect only general tendencies. In addition, every elf bears a family name, typically a combination of other Elvish words. Some elves traveling among humans translate their family names into Common, but others retain the Elvish version.",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Child Names:",
+													"entry": "Ara, Bryn, Del, Eryn, Faen, Innil, Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, Sai, Syllin, Thia, Vall"
+												},
+												{
+													"type": "item",
+													"name": "Male Adult Names:",
+													"entry": "Adran, Aelar, Aramil, Arannis, Aust, Beiro, Berrian, Carric, Enialis, Erdan, Erevan, Galinndan, Hadarai, Heian, Himo, Immeral, Ivellios, Laucian, Mindartis, Paelias, Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis"
+												},
+												{
+													"type": "item",
+													"name": "Female Adult Names:",
+													"entry": "Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Drusilia, Enna, Felosial, Ielenia, Jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, Valanthe, Xanaphia"
+												},
+												{
+													"type": "item",
+													"name": "Family Names (Common Translations):",
+													"entry": "Amakiir (Gemflower), Amastacia (Starflower), Galanodel (Moonwhisper), Holimion (Diamonddew), Ilphelkiir (Gemblossom), Liadon (Silverfrond), Meliamne (Oakenheel), Nailo (Nightbreeze), Siannodel (Moonbrook), Xiloscient (Goldpetal)"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Elf Slurs",
+					"entries": [
+						"Arrogant Stuck Up Tree Fondling Hippies",
+						"Bark Sniffer",
+						"Beardless",
+						"Bird Boned",
+					    "Butterboys",
+					    "Chinfolk",
+					    "Daggar Head",
+						"Daisy Sniffer",
+						"Dandelion Eater",
+						"Dew Drinker",
+						"Discount Dryad",
+						"Drow (except to actual drow)",
+						"Fairy Folk",
+						"Faithless Woodland Sprite",
+						"Fancy Lad",
+						"Farie Wannabes",
+						"Fey Mongrols",
+						"Keeb",
+						"Knife-Ears",
+						"Leaf Lickers",
+						"Leafblower",
+						"Left Handed Casters",
+						"Light Weights",
+						"Mushroom Dancers",
+						"Oozebait (especially elf children)",
+						"Pixie",
+						"Pointy",
+						"Pointy Ears",
+						"Pole-Proportioned Dendrophile",
+						"Rabbit",
+						"Sharp Ears",
+						"Tinkerbell",
+						"Tree F*cker",
+						"Tree Hugger",
+						"Tree-Thumpers",
+						"Waste of Immortality",
+						"Wedgie (they're uptight)",
+						"Weed Eater",
+						"Wingless Farie",
+						"Wood-Heads"
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/PHB/Elf.webp"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elf (Astral)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Elf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Long ago, groups of elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.",
+										"Because nothing ages on the Astral Plane, astral elves who inhabit that plane can be very old, and their longevity gives them an unusual perspective on the passage of time. Some are prone to melancholy, while others might display an absence of feeling. Many look for creative ways to occupy themselves. Whether they choose to live in quiet contemplation or strike out to explore the reaches of the multiverse, astral elves tend to see things through the lens of time as having little or no meaning to them. Astral elves who don't dwell on the Astral Plane can live to be more than 750 years old."
+									]
+								}
+							]
+						}
+					}
+				}
+			},
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/AAG/Astral Elf.webp"
+					},
+					"credit": "Nikki Dawes"
+				}
+			]
+		},
+		{
+			"name": "Elf (Drow)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Elf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"As a drow, you are infused with the magic of the Underdark, an underground realm of wonders and horrors rarely seen on the surface above. You are at home in shadows and, thanks to your innate magic, learn to conjure forth both light and darkness. Your kin tend to have stark white hair and grayish skin of many hues.",
+										"The cult of the god Lolth, Queen of Spiders, has corrupted some of the oldest drow cities, especially in the worlds of Oerth and Toril. Eberron, Krynn, and other realms have escaped the cult's influence\u2014for now. Wherever the cult lurks, drow heroes stand on the front lines in the war against it, seeking to sunder Lolth's web."
+									]
+								}
+							]
+						}
+					}
+				}
+			},
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://cdn.shopify.com/s/files/1/1066/8352/files/Drow_5e_Dungeons_and_Dragons_large.jpg"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elf (Eladrin)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Elf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Eladrin are elves native to the Feywild, a realm of beauty, unpredictable emotion, and boundless magic. An eladrin is associated with one of the four seasons and has coloration reminiscent of that season, which can also affect the eladrin's mood:",
+										{
+											"type": "list",
+											"style": "list-hang-notitle",
+											"items": [
+												{
+													"type": "item",
+													"name": "Autumn",
+													"entry": "is the season of peace and goodwill, when summer's harvest is shared with all.",
+													"nameDot": false
+												},
+												{
+													"type": "item",
+													"name": "Winter",
+													"entry": "is the season of contemplation and dolor, when the vibrant energy of the world slumbers.",
+													"nameDot": false
+												},
+												{
+													"type": "item",
+													"name": "Spring",
+													"entry": "is the season of cheerfulness and celebration, marked by merriment as winter's sorrow passes.",
+													"nameDot": false
+												},
+												{
+													"type": "item",
+													"name": "Summer",
+													"entry": "is the season of boldness and aggression, a time of unfettered energy.",
+													"nameDot": false
+												}
+											]
+										},
+										"Some eladrin remain associated with a particular season for their entire lives, whereas other eladrin transform, adopting characteristics of a new season. When finishing a long rest, any eladrin can change their season. An eladrin might choose the season that is present in the world or perhaps the season that most closely matches the eladrin's current emotional state. For example, an eladrin might shift to autumn if filled with contentment, another eladrin could change to winter if plunged into sorrow, still another might be bursting with joy and become an eladrin of spring, and fury might cause an eladrin to change to summer.",
+										"The following tables offer personality suggestions for eladrin of each season. You can roll on the tables or use them as inspiration for characteristics of your own.",
+										{
+											"type": "table",
+											"caption": "Autumn",
+											"colLabels": [
+												"d4",
+												"Autumn Personality Trait"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"If someone is in need, you never withhold aid."
+												],
+												[
+													"2",
+													"You share what you have, with little regard for your own needs."
+												],
+												[
+													"3",
+													"There are no simple meals, only lavish feasts."
+												],
+												[
+													"4",
+													"You stock up on fine food and drink. You hate going without such comforts."
+												]
+											]
+										},
+										{
+											"type": "table",
+											"colLabels": [
+												"d4",
+												"Autumn Flaw"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"You trust others without a second thought."
+												],
+												[
+													"2",
+													"You give to others, to the point that you leave yourself without necessary supplies."
+												],
+												[
+													"3",
+													"Everyone is your friend, or a potential friend."
+												],
+												[
+													"4",
+													"You spend excessively on creature comforts."
+												]
+											]
+										},
+										{
+											"type": "table",
+											"caption": "Winter",
+											"colLabels": [
+												"d4",
+												"Winter Personality Trait"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"The worst case is the most likely to occur."
+												],
+												[
+													"2",
+													"You preserve what you have. Better to be hungry today and have food for tomorrow."
+												],
+												[
+													"3",
+													"Life is full of dangers, but you are ready for them."
+												],
+												[
+													"4",
+													"A penny spent is a penny lost forever."
+												]
+											]
+										},
+										{
+											"type": "table",
+											"colLabels": [
+												"d4",
+												"Winter Flaw"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"Everything dies eventually. Why bother building anything that is supposedly meant to last?"
+												],
+												[
+													"2",
+													"Nothing matters to you, and you allow others to guide your actions."
+												],
+												[
+													"3",
+													"Your needs come first. In winter, all must watch out for themselves."
+												],
+												[
+													"4",
+													"You speak only to point out the flaws in others' plans."
+												]
+											]
+										},
+										{
+											"type": "table",
+											"caption": "Spring",
+											"colLabels": [
+												"d4",
+												"Spring Personality Trait"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"Every day is the greatest day of your life."
+												],
+												[
+													"2",
+													"You approach everything with enthusiasm, even the most mundane chores."
+												],
+												[
+													"3",
+													"You love music and song. You supply a tune yourself if no one else can."
+												],
+												[
+													"4",
+													"You can't stay still."
+												]
+											]
+										},
+										{
+											"type": "table",
+											"colLabels": [
+												"d4",
+												"Spring Flaw"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"You overdrink."
+												],
+												[
+													"2",
+													"Toil is for drudges. Yours should be a life of leisure."
+												],
+												[
+													"3",
+													"A pretty face infatuates you in an instant, but your fancy passes with equal speed."
+												],
+												[
+													"4",
+													"Anything worth doing is worth doing again and again."
+												]
+											]
+										},
+										{
+											"type": "table",
+											"caption": "Summer",
+											"colLabels": [
+												"d4",
+												"Summer Personality Trait"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"You believe that direct confrontation is the best way to solve problems."
+												],
+												[
+													"2",
+													"Overwhelming force can accomplish almost anything. The tougher the problem, the more force you apply."
+												],
+												[
+													"3",
+													"You stand tall and strong so that others can lean on you."
+												],
+												[
+													"4",
+													"You maintain an intimidating front. It's better to prevent fights with a show of force than to harm others."
+												]
+											]
+										},
+										{
+											"type": "table",
+											"colLabels": [
+												"d4",
+												"Summer Flaw"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"You are stubborn. Let others change."
+												],
+												[
+													"2",
+													"The best option is one that is swift, unexpected, and overwhelming."
+												],
+												[
+													"3",
+													"Punch first. Talk later."
+												],
+												[
+													"4",
+													"Your fury can carry you through anything."
+												]
+											]
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Elf (High)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Elf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many of the worlds of D&D, there are two kinds of high elves. One type (which includes the gray elves and valley elves of Greyhawk, the Silvanesti of Dragonlance, and the sun elves of the Forgotten Realms) is haughty and reclusive, believing themselves to be superior to non-elves and even other elves. The other type (including the high elves of Greyhawk, the Qualinesti of Dragonlance, and the moon elves of the Forgotten Realms) are more common and more friendly, and often encountered among humans and other races.",
+										"The sun elves of Faerun (also called gold elves or sunrise elves) have bronze skin and hair of copper, black, or golden blond. Their eyes are golden, silver, or black. Moon elves (also called silver elves or gray elves) are much paler, with alabaster skin sometimes tinged with blue. They often have hair of silver-white, black, or blue, but various shades of blond, brown, and red are not uncommon. Their eyes are blue or green and flecked with gold."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Elf (Pallid)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Elf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": "The pallid elves are a mystical and insightful people with skin as pale as the surface of Exandria's largest moon. They emerged from the Pallid Grove this century and wander the world with childlike curiosity."
+					}
+				}
+			},
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://static.wikitide.net/criticalrolewiki/thumb/2/24/Elf_-_Pallid.png/320px-Elf_-_Pallid.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elf (Sea)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Elf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Sea elves fell in love with the wild beauty of the ocean in the earliest days of the multiverse. While other elves traveled from realm to realm, the sea elves navigated the deepest currents and explored the waters across a hundred worlds. Today, they live in small, hidden communities in the ocean shallows and on the Elemental Plane of Water.",
+										{
+											"type": "inset",
+											"name": "Sahuagin: Danger from the Depths",
+											"entries": [
+												"The sea elves face as many perils in their watery world as other elves face on dry land, but none are as deadly as the sahuagin. The animosity between these two races stems from the sahuagin's ferocious territoriality. They simply won't abide any other intelligent society, and they consider the entire sea to be their domain.",
+												"Adding to the tension, the sahuagin worship Sekolah, the shark god, while Deep Sashelas, the sea deity of the elves, is a sworn enemy of all sharks. But even if the sea elves inexplicably began worshiping Sekolah, the sahuagin still wouldn't be able to get along with them-in the grip of a blood frenzy, sahuagin will tear apart even others of their own kind!"
+											]
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			},
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://static.wikia.nocookie.net/forgottenrealms/images/6/6c/Sea_Elf.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elf (Shadar-kai)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Elf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"Sworn to the Raven Queen's service, the mysterious shadar-kai venture into the Material Plane from the Shadowfell to advance her will. Once they were fey like the rest of their elven kin, and now they exist in a strange state between life and death. Eladrin and shadar-kai are like reflections of each other: one bursting with emotion, the other nearly devoid of it."
+									]
+								}
+							]
+						}
+					}
+				}
+			},
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "external",
+						"url": "https://static.wikia.nocookie.net/forgottenrealms/images/8/8c/Shadar-kai_shadow_dancer-5e.png"
+					}
+				}
+			]
+		},
+		{
+			"name": "Elf (Wood)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Elf",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"As a wood elf, you have keen senses and intuition, and your fleet feet carry you quickly and stealthily through your native forests. This category includes the wild elves (grugach) of Greyhawk and the Kagonesti of Dragonlance, as well as the races called wood elves in Greyhawk and the Forgotten Realms. In Faerun, wood elves (also called wild elves, green elves, or forest elves) are reclusive and distrusting of non-elves.",
+										"Wood elves' skin tends to be copperish in hue, sometimes with traces of green. Their hair tends toward browns and blacks, but it is occasionally blond or copper-colored. Their eyes are green, brown, or hazel."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Fairy",
+			"source": "EARL",
+			"entries": [
+				"The Feywild is home to many fantastic peoples, including fairies. Fairies are a wee folk, but not nearly as much so as their pixie and sprite friends. The first fairies spoke Elvish, Goblin, or Sylvan, and encounters with human visitors prompted many of them to learn Common as well.",
+				"Infused with the magic of the Feywild, most fairies look like Small elves with insectile wings, but each fairy has a special physical characteristic that sets the fairy apart. For your fairy, roll on the Fey Characteristics table or choose an option from it. You're also free to come up with your own characteristic if none of the suggestions below fit your character.",
+				{
+					"type": "table",
+					"caption": "Fey Characteristics",
+					"colLabels": [
+						"d8",
+						"Characteristic"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-11"
+					],
+					"rows": [
+						[
+							"1",
+							"Your wings are like those of a bird."
+						],
+						[
+							"2",
+							"You have shimmering, multicolored skin."
+						],
+						[
+							"3",
+							"You have exceptionally large ears."
+						],
+						[
+							"4",
+							"A glittering mist constantly surrounds you."
+						],
+						[
+							"5",
+							"You have a small spectral horn on your forehead, like a little unicorn horn."
+						],
+						[
+							"6",
+							"Your legs are insectile."
+						],
+						[
+							"7",
+							"You smell like fresh brownies."
+						],
+						[
+							"8",
+							"A noticeable, harmless chill surrounds you."
+						]
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/MPMM/Fairy.webp"
+					},
+					"credit": "Nikki Dawes"
+				}
+			]
+		},
+		{
+			"name": "Firbolg",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Firbolg tribes cloister in remote forest strongholds, preferring to spend their days in quiet harmony with the woods. When provoked, firbolgs demonstrate formidable skills with weapons and druidic magic.",
+								{
+									"type": "entries",
+									"name": "Humble Guardians",
+									"entries": [
+										"Firbolgs love nothing more than a peaceful day spent among the trees of an old forest. They see forests as sacred places, representing the heart of the world and monuments to the durability of life.",
+										"In their role as caretakers, firbolgs live off the land while striving to remain in balance with nature. Their methods reflect common sense and remarkable resourcefulness. During a bountiful summer, they store away excess nuts, fruit, and berries. When winter arrives, they scatter everything they can spare to ensure the animals of the wood survive until springtime.",
+										"In a firbolg's eyes, there is no greater fault than greed. The firbolgs believe that the world remains healthiest when each creature takes only what it needs. Material goods, especially precious gems and gold, have little appeal to them. What use are such things when winter lingers and food runs short?"
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Natural Druids",
+									"entries": [
+										"Firbolgs have a talent for druidic magic. Their cultural reverence for nature, combined with their strong and insightful minds, makes learning such magic an instinctive part of their development. Almost every firbolg learns a few spells, typically those used to mask their presence, and many go on to master nature magic.",
+										"Firbolgs who become druids serve as stronghold leaders. With every action the tribe takes, the druids weigh not only the group's needs, but the effect each action will have on the forest and the rest of the natural world. Firbolg tribes would rather go hungry than strain the land during a famine.",
+										{
+											"type": "inset",
+											"name": "Firbolg Classes",
+											"entries": [
+												"Most firbolgs are druids, rangers, or fighters. Among their kind, these vocations are passed down from one generation to the next. The firbolgs' magical heritage also expresses itself in other ways; those who become bards preserve the clan's lore, and firbolg sorcerers defend their communities. Firbolg wizards arise when a clan becomes friendly with elves.",
+												"Firbolg rogues are typically scouts tasked with spying on neighboring folk to determine their intentions. They are most common among firbolgs whose homes border human settlements.",
+												"Firbolg barbarians are rare except among clans that face constant threats from evil humanoids and other invaders.",
+												"Firbolg clerics and paladins are usually dedicated to nature gods and are seen as enforcers of that god's will.",
+												"Firbolg warlocks are rare, but some clans forge alliances and arcane pacts with powerful fey beings.",
+												"Firbolg monks are almost entirely unheard of, though a monastery might take in the young survivors of a devastated firbolg clan."
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Hidden Shepherds",
+									"entries": [
+										"As caretakers of the land, firbolgs prefer to remain out of sight and out of mind. They don't try to dominate nature, but rather seek to ensure that it prospers and survives according to its own laws.",
+										"Firbolgs use their magic to keep their presence in a forest secret. This approach allows them to avoid the politics and struggles of elves, humans, and orcs. Such events concern the firbolgs only when the events affect the forest.",
+										"Even in the face of an intrusion, firbolgs prefer a subtle, gentle approach to prevent damage to their territory. They employ their magic to make the forest an unappealing place to explore by temporarily diverting springs, driving away game, stealing critical tools, and altering trails to leave hunting or lumber parties hopelessly lost. The firbolgs' presence is marked by an absence of animals and a strange quiet, as if the forest wishes to avoid attracting attention to itself. The faster travelers decide to move on, the better.",
+										"If these tactics fail, the firbolgs take more direct action. Their observations of a settlement determine what happens next. If the outsiders seem peaceful, the firbolgs approach and gently ask them to leave, even offering food and other supplies to aid their departure. If those who insist on remaining respect nature, take only what they need, and live in harmony with the wood, firbolgs explore the possibility of friendship with them, as long as the outsiders vow to safeguard the forest. If the settlers clearly display evil intentions, however, the firbolgs martial their strength and magic for a single overwhelming attack."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Outcast Adventurers",
+									"entries": [
+										"As guardians of the wood, few firbolgs would dream of leaving their homes or attempting to fit into human society. An exiled firbolg, or one whose clan has been destroyed, might not have a choice in the matter. Most adventuring firbolgs fall into this latter category.",
+										"Outcast firbolgs can never return home. They committed some unforgivable deed, usually something that put their homeland at risk, such as starting a forest fire or killing a rare or beautiful wild creature. These firbolgs are loners who wander the world in hope of finding a new place to call home.",
+										"Orphaned firbolgs are those whose clans or home lands have been destroyed. They become crusaders for nature, seeking to avenge their loss and prevent the further destruction of the natural world.",
+										"A few rare firbolgs are entrusted by their clan with an important mission that takes them beyond their homes. These firbolgs feel like pilgrims in a strange land, and usually they wish only to complete their quests and return home as quickly as possible.",
+										"The Firbolg Adventurers table can serve as inspiration for determining why a firbolg character leaves home.",
+										{
+											"type": "table",
+											"caption": "Firbolg Adventurers",
+											"colLabels": [
+												"d8",
+												"Reason for Adventuring"
+											],
+											"colStyles": [
+												"col-2 text-center",
+												"col-10"
+											],
+											"rows": [
+												[
+													"1",
+													"Outcast for murder"
+												],
+												[
+													"2",
+													"Outcast for severely damaging home territory"
+												],
+												[
+													"3",
+													"Clan slain by invading humanoids"
+												],
+												[
+													"4",
+													"Clan slain by a dragon or demon"
+												],
+												[
+													"5",
+													"Separated from the tribe and lost"
+												],
+												[
+													"6",
+													"Homeland destroyed by natural disaster"
+												],
+												[
+													"7",
+													"Personal quest ordained by omens"
+												],
+												[
+													"8",
+													"Dispatched on a quest by tribe leaders"
+												]
+											]
+										}
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Firbolg Names",
+									"entries": [
+										"Firbolg adopt elven names when they must deal with outsiders, although the concept of names strikes them as strange. They know the animals and plants of the forest without formal names, and instead identify the forest's children by their deeds, habits, and other actions.",
+										"By the same token, their tribe names merely refer to their homes. When dealing with other races, firbolgs refer to their lands by whatever name the surrounding folk use, as a matter of tact and hospitality, but among their own kind they simply call it \"home.\" Sometimes firbolgs adopt the nicknames or titles outsiders give them under the assumption that those who need names can call them whatever they wish."
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Firbolg Slurs",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"Giant half-breed",
+								"Overgrown dwarf",
+								"Half-baked goliath"
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/VGM/Firbolg.webp"
+					},
+					"credit": "Shawn Wood"
+				}
+			]
+		},
+		{
+			"name": "Genasi",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "entries",
+					"entries": [
+						{
+							"type": "entries",
+							"entries": [
+								"Those who think of other planes at all consider them remote, distant realms, but planar influence can be felt throughout the world. It sometimes manifests in beings who, through an accident of birth, carry the power of the planes in their blood. The genasi are one such people, the offspring of genies and mortals.",
+								"The Elemental Planes are often inhospitable to natives of the Material Plane: crushing earth, searing flames, boundless skies, and endless seas make visiting these places dangerous for even a short time. The powerful genies, however, do not face such troubles when venturing into the mortal world. They adapt well to the mingled elements of the Material Plane, and they sometimes visit whether of their own volition or compelled by magic. Some genies can adopt mortal guise and travel incognito.",
+								"During these visits, a mortal might catch a genies eye. Friendship forms, romance blooms, and sometimes children result. These children are genasi: individuals with ties to two worlds, yet belonging to neither. Some genasi are born of mortal-genie unions, others have two genasi as parents, and a rare few have a genie further up their family tree, manifesting an elemental heritage that's lain dormant for generations.",
+								"Occasionally, genasi result from exposure to a surge of elemental power, through phenomena such as an eruption from the Inner Planes or a planar convergence. Elemental energy saturates any creatures in the area and might alter their nature enough that their offspring with other mortals are born as genasi.",
+								{
+									"type": "entries",
+									"name": "Heirs to Elemental Power",
+									"entries": [
+										"Genasi inherit something from both sides of their dual nature. They resemble humans but have unusual skin color (red, green, blue, or gray), and there is something odd about them. The elemental blood flowing through their veins manifests differently in each genasi, often as magical power.",
+										"Seen in silhouette, a genasi can usually pass for human. Those of earth or water descent tend to be heavier, while those of air or fire tend to be lighter. A given genasi might have some features reminiscent of the mortal parent (pointed ears from an elf, a stockier frame and thick hair from a dwarf, small hands and feet from a halfling, exceedingly large eyes from a gnome, and so on).",
+										"Genasi almost never have contact with their elemental parents. Genies seldom have interest in their mortal offspring, seeing them as accidents. Many feel nothing for their genasi children at all.",
+										"Some genasi live as outcasts, driven into exile for their unsettling appearance and strange magic, or assuming leadership of savage humanoids and weird cults in untamed lands. Others gain positions of great influence, especially where elemental beings are revered. A few genasi leave the Material Plane to find refuge in the households of their genie parents."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Wild and Confident",
+									"entries": [
+										"Genasi rarely lack confidence, seeing themselves as equal to almost any challenge in their path. This certainty might manifest as graceful self-assurance in one genasi and as arrogance in another. Such self-confidence can sometimes blind genasi to risk, and their great plans often get them and others into trouble.",
+										"Too much failure can chip away at even a genasis sense of self, so they constantly push themselves to improve, honing their talents and perfecting their craft."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Genasi Lands",
+									"entries": [
+										"As rare beings, genasi might go their entire lives without encountering another one of their kind. There are no great genasi cities or empires. Genasi seldom have communities of their own and typically adopt the cultures and societies into which they are born. The more strange their appearance, the harder time they have. Many genasi lose themselves in teeming cities, where their distinctiveness hardly raises an eyebrow in places accustomed to a variety of different people.",
+										"Those living on the frontier, though, have a much harder time. People there tend to be less accepting of differences. Sometimes a cold shoulder and a suspicious glare are the best genasi can hope for; in more backward places, they face ostracism and even violence from people who mistake them for fiends. Facing a hard life, these genasi seek isolation in the wilds, making their homes in mountains or forests, near lakes, or underground.",
+										"Most air and fire genasi in the Realms are descendants of the djinn and efreet who once ruled Calimshan. When those rulers were overthrown, their planetouched children were scattered. Over thousands of years, the bloodlines of those genasi have spread into other lands. Though far from common, air and fire genasi are more likely to be found in the western regions of Faerun, along the coast from Calimshan north up to the Sword Coast, and into the Western Heartlands to the east. Some remain in their ancient homeland.",
+										"In contrast, water and earth genasi have no common history. Individuals have difficulty tracing their own lineage, and bloodlines occasionally skip a generation or two. Many earth genasi originated in the North and spread out from there. Water genasi come from coastal areas, the largest concentration of them hailing from the regions surrounding the Sea of Fallen Stars.",
+										"The distant land of Zakhara is known only in legends to most inhabitants of Faerun. There, genies and spellcasters enter into bargains, and genasi can result from such pacts. Those genasi have been sources of great weal and woe in the history of that land."
+									]
+								},
+								{
+									"type": "entries",
+									"name": "Genasi Names",
+									"entries": [
+										"Genasi use the naming conventions of the people among whom they were raised. They might later assume distinctive names to capture their heritage, such as Flame, Ember, Wave, or Onyx."
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/EEPC/Genasi.webp"
+					},
+					"credit": "Claudio Pozas"
+				}
+			]
+		},
+		{
+			"name": "Genasi (Air)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Genasi",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"As an air genasi, you are descended from the djinn. As changeable as the weather, your moods shift from calm to wild and violent with little warning, but these storms rarely last long.",
+										"Air genasi typically have light blue skin, hair, and eyes. A faint but constant breeze accompanies them, tousling the hair and stirring the clothing. Some air genasi speak with breathy voices, marked by a faint echo. A few display odd patterns in their flesh or grow crystals from their scalps."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Air Genasi Slurs",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Leaf blower",
+												"Spark plug",
+												"Unfavorable fart (from orcs. orcs aren't great at throwing shade)",
+												"Windbags"
+											]
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Genasi (Earth)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Genasi",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"As an earth genasi, you are descended from the cruel and greedy dao, though you are not necessarily evil. You have inherited some measure of control over earth, reveling in superior strength and solid power. You tend to avoid rash decisions, pausing long enough to consider your options before taking action.",
+										"Elemental earth manifests differently from one individual to the next. Some earth genasi always have bits of dust falling from their bodies and mud clinging to their clothes, never getting clean no matter how often they bathe. Others are as shiny and polished as gemstones, with skin tones of deep brown or black, eyes sparkling like agates. Earth genasi can also have smooth metallic flesh, dull iron skin spotted with rust, a pebbled and rough hide, or even a coating of tiny embedded crystals. The most arresting have fissures in their flesh, from which faint light shines."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Earth Genasi Slurs",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Gravel bed",
+												"Sedimentary",
+												"Slabs"
+											]
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Genasi (Fire)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Genasi",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"As a fire genasi, you have inherited the volatile mood and keen mind of the efreet. You tend toward impatience and making snap judgments. Rather than hide your distinctive appearance, you exult in it.",
+										"Nearly all fire genasi are feverishly hot as if burning inside, an impression reinforced by flaming red, coal-black, or ash-gray skin tones. The more human-looking have fiery red hair that writhes under extreme emotion, while more exotic specimens sport actual flames dancing on their heads. Fire genasi voices might sound like crackling flames, and their eyes flare when angered. Some are accompanied by the faint scent of brimstone."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Fire Genasi Slurs",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Cold heart",
+												"Matchstick",
+												"Hazard",
+												"Sunburn"
+											]
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Genasi (Water)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Genasi",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"The lapping of waves, the spray of sea foam on the wind, the ocean depths, all of these things call to your heart. You wander freely and take pride in your independence, though others might consider you selfish.",
+										"Most water genasi look as if they just finished bathing, with beads of moisture collecting on their skin and hair. They smell of fresh rain and clean water. Blue or green skin is common, and most have somewhat overlarge eyes, blue-black in color. A water genasi's hair might float freely, swaying and waving as if underwater. Some have voices with undertones reminiscent of whale song or trickling streams."
+									]
+								},
+								{
+									"type": "inset",
+									"name": "Water Genasi Slurs",
+									"entries": [
+										{
+											"type": "list",
+											"items": [
+												"Algae infested",
+												"Salty",
+												"Soakhead"
+											]
+										}
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Giff",
+			"source": "EARL",
+			"entries": [
+				"Giff are tall, broad-shouldered folk with hippo-like features. Some have smooth skin, while others have short bristles on their faces and the tops of their heads. As beings of impressive size and unforgettable appearance, giff are noticed wherever they go.",
+				"Most giff believe they originated on one world, but their home world is now the stuff of legend, because no living giff has seen it or knows where it is. The divine beings who created giff have likewise been forgotten. Their titanic petrified bodies drift on the Astral Sea, isolated and unrecognizable in their current forms.",
+				"Although they don't realize it, giff are drawn to the Astral Plane because, on a deep psychic level, they remain connected to their creator gods, who have just enough divine spark left in them to imbue giff with sparks of their own, which giff have learned to channel through their weapons. Most giff have no idea where this so-called astral spark comes from, but they feel its presence most strongly when they are in Wildspace or the Astral Sea.",
+				"Giff are split into two camps concerning how their name is pronounced. Half of them say it with a hard g, half with a soft g. Disagreements over the correct pronunciation often blossom into hard feelings, loud arguments, and head-butting contests, but they rarely escalate beyond that."
+			],
+			"images": [
+				{
+					"type": "image",
+					"href": {
+						"type": "internal",
+						"path": "races/AAG/Giff.webp"
+					},
+					"credit": "Scott Murphy"
+				}
+			]
+		},
+		{
+			"name": "Gith",
+			"source": "EARL",
+			"entries": [
+				{
+					"type": "section",
+					"entries": [
+						"The story of the gith is rooted in a cruel twist of cosmic fate. Inspired by the great leader for whom the race is named, the gith rose up to overthrow the mind flayers that held them in servitude. But after they won their freedom, two factions among the gith disagreed on what kind of civilization they would forge. That disagreement quickly flared into open hostility, and the two groups distanced themselves from one another to pursue their separate agendas. They remain bitter enemies today, each side willing to fight to the death whenever they cross paths.",
+						"The githyanki were motivated by revenge and convinced that they deserved to take whatever they wanted from the worlds they traveled. Ranging out from the titanic city of Tu'narath on the Astral Plane, they send raiders out to plunder the Material Plane and other worlds, bringing treasures and slaves back to their ageless realm. At the same time, they hunt down and kill mind flayers whenever possible, as recompense for what the illithids did to them.",
+						"The githzerai believed that the path to an enlightened civilization lay in seclusion, not conflict. Their dedication to the principles of order is so strong that they can manipulate the stuff of chaos and use it to their benefit; thus, they have carved out a stronghold for themselves on the plane of Limbo that is virtually impervious. Though the githzerai are pacifists by nature, they share the githyanki's racial hatred for mind flayers, and from time to time they send out squads to destroy illithid outposts.",
+						"If the two races were ever to team up against the illithids, a combined force of gith could conceivably tip the balance in their favor. But as long as the githyanki and githzerai stay at each other's throats, their goal of ultimate victory over their original common enemy will likely remain unachieved."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gith (Githyanki)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Gith",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"The brutal githyanki are trained from birth as warriors."
+									]
+								}
+							]
+						}
+					},
+					"images": {
+						"mode": "prependArr",
+						"items": {
+							"type": "image",
+							"href": {
+								"type": "internal",
+								"path": "races/MTF/Githyanki.webp"
+							}
+						}
+					}
+				}
+			}
+		},
+		{
+			"name": "Gith (Githzerai)",
+			"source": "EARL",
+			"_copy": {
+				"name": "Gith",
+				"source": "EARL",
+				"_mod": {
+					"entries": {
+						"mode": "prependArr",
+						"items": {
+							"type": "section",
+							"entries": [
+								{
+									"type": "entries",
+									"entries": [
+										"In their fortresses within Limbo, the githzerai hone their minds to a razor's edge."
+									]
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	}
+}
