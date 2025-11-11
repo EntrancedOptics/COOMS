@@ -2080,9 +2080,9 @@
 					"type":"list",
 					"items": [
 						"All polearms count as Reach weapons for you.",
-						"All polearms gain the Double property for you. Polearms that did not have the Double property allow you to use a bonus action to make a melee attack with the opposite end of the weapon whenever you take the attack action with said weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and it deals bludgeoning damage.",
+						"All polearms gain the Double property for you when wielded with two hands. Polearms that did not have the Double property allow you to use a bonus action to make a melee attack with the opposite end of the weapon whenever you take the attack action with said weapon, so long as it is being wielded with two hands. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and it deals bludgeoning damage.",
 						"When you use a {@item bardiche|owl}, {@item spear|owl}, {@item trident|owl}, or {@item war scythe|owl}, its damage die changes from a {@dice 1d6} to a {@dice 1d8}, and from a {@dice 1d8} to a {@dice 1d10} when wielded with two hands. When you use a {@item quarterstaff|owl}, both its regular attack and secondary attack's damage die increase from {@dice 1d4} to {@dice 1d6}. When you use a {@item javelin|owl}, its damage increases to a {@dice d8} and its range increases to (80/320). When you use a {@item yklwa|owl}, its damage increases to a {@dice 1d10} and its range increases to (20/60).",
-						"While you are wielding a polearm, other creatures provoke an {@action opportunity attack|phb} from you when they enter the reach you have with that weapon. If you hit them with that {@action opportunity attack|phb}, they cannot move within 5 feet of you for the duration of their turn."
+						"While you are wielding a polearm, other creatures provoke an {@action opportunity attack|phb} from you when they enter the reach you have with that weapon. If you hit them with that opportunity attack, they cannot move within 5 feet of you for the duration of their turn. You can use this feature a number of times per short or long rest equal to your proficiency bonus."
 					]
 				}
 			]
@@ -2867,7 +2867,7 @@
 					"items":[
 						"You have advantage on Constitution saving throws that you make to maintain your {@condition concentration|phb} on a spell when you take damage.",
 						"You can perform somatic components with non-focus weapons or shields in hand as well.",
-						"When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
+						"When a hostile creature's movement provokes an {@action opportunity attack|phb} from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
 					]
 				}
 			]
