@@ -6691,13 +6691,13 @@
         }
       ],
       "entries": [
-        "You touch a creature's heart, bolstering them with a necromantic facsimile of life. The target gains 1d4 + 4 plus your spellcasting ability modifier temporary hit points for the duration."
+        "You touch a creature's heart, bolstering them with a necromantic facsimile of life. The target gains 2d4 plus your spellcasting ability modifier temporary hit points for the duration."
       ],
       "entriesHigherLevel": [
         {
           "name": "At Higher Levels",
           "entries": [
-            "When you cast this spell using a spell slot of 2nd level or higher, you gain {@scaledice 1d8|2-9|1d8} additional temporary hit points for each slot level above 1st."
+            "When you cast this spell using a spell slot of 2nd level or higher, you gain {@scaledice 2d4|2-9|2d4} additional temporary hit points for each slot level above 1st."
           ],
           "type": "entries"
         }
