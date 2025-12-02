@@ -1035,7 +1035,7 @@
 								[
 									"12",
 									"{@spell primal savagery|xge}",
-									"{@spell ice knife|xge}",
+									"{@spell ice knife|cooms}",
 									"{@spell mirror image|phb}"
 								],
 								[
@@ -1530,10 +1530,10 @@
 			],
 			"weaponProficiencies": [
 				{
-					"battleaxe|phb": true,
-					"handaxe|phb": true,
-					"light hammer|phb": true,
-					"warhammer|phb": true
+					"battleaxe|owl": true,
+					"handaxe|owl": true,
+					"light hammer|owl": true,
+					"warhammer|owl": true
 				}
 			],
 			"languageProficiencies": [
@@ -1568,21 +1568,21 @@
 					"type": "entries",
 					"name": "Dwarven Combat Training",
 					"entries": [
-						"You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}."
+						"You have proficiency with the {@item battleaxe|owl}, {@item handaxe|owl}, {@item light hammer|owl}, {@item warhammer|owl}, and {@item war pick|owl}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Tool Proficiency",
 					"entries": [
-						"You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}."
+						"You gain proficiency with the artisan's tools of your choice: {@item smith's tools|owl}, {@item brewer's supplies|owl}, or {@item mason's tools|owl}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Stonecunning",
 					"entries": [
-						"Whenever you make an Intelligence ({@skill History}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+						"Whenever you make an Intelligence ({@skill History|phb}) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
 					]
 				},
 				{
@@ -1598,7 +1598,9 @@
 				"heightMod": "2d4",
 				"baseWeight": 115,
 				"weightMod": "2d6"
-			}
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Dwelf",
@@ -1714,7 +1716,7 @@
 					"name": "Elven Heritage",
 					"entries": [
 						"Choose an option from the following list:",
-						"{@b Drow.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells.",
+						"{@b Drow.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once per day; you regain the ability to cast it when you finish a short or long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day; you regain the ability to cast it when you finish a long rest. Constitution is your spellcasting ability for these spells.",
 						"{@b Eladrin (Spring).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
 						"When you use your Fey Step, you can touch one willing creature within 5 feet of you. That creature then teleports instead of you, appearing in an unoccupied space of your choice that you can see within 30 feet of you.",
 						"{@b Eladrin (Summer).} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest. When you reach 3rd level, this feature gains an additional effect based on your season; if the effect requires a saving throw, the DC equals 8 + your proficiency bonus + your Constitution modifier:",
@@ -2245,7 +2247,9 @@
 				"heightMod": "2d10",
 				"baseWeight": 110,
 				"weightMod": "2d4"
-			}
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 			{
 			"name": "Giff",
@@ -2387,7 +2391,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Gnoll",
@@ -2537,7 +2542,9 @@
 				"heightMod": "2d10",
 				"baseWeight": 270,
 				"weightMod": "1d4"
-			}
+			},
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Gnome",
@@ -2729,6 +2736,8 @@
 					]
 				}
 			],
+			"hasFluff": true,
+			"hasFluffImages": true,
 			"heightAndWeight": {
 				"baseHeight": 41,
 				"heightMod": "2d4",
@@ -14882,7 +14891,7 @@
 					"type": "entries",
 					"name": "Duergar Resilience",
 					"entries": [
-						"You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed} or {@condition paralyzed}."
+						"You have advantage on saving throws against poison, and you have resistance against poison damage. You also have advantage on saving throws against illusions and against being {@condition charmed|phb} or {@condition paralyzed|phb}."
 					]
 				},
 				{
@@ -14896,17 +14905,19 @@
 					"type": "entries",
 					"name": "Sunlight Sensitivity",
 					"entries": [
-						"You have disadvantage on attack rolls and on Wisdom ({@skill perception}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+						"You have disadvantage on attack rolls and on Wisdom ({@skill perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
 					]
 				},
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common, Dwarvish, and Undercommon."
+						"You can speak, read, and write {@language Common|phb}, {@language Dwarvish|phb}, and {@language Undercommon|phb}."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Hill",
@@ -14943,11 +14954,13 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+						"You can speak, read, and write {@language Common|phb} and {@language Dwarvish|phb}. {@language Dwarvish|phb} is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Mountain",
@@ -14997,11 +15010,13 @@
 				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write Common and Dwarvish. Dwarvish is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
+						"You can speak, read, and write {@language Common|phb} and {@language Dwarvish|phb}. {@language Dwarvish|phb} is full of hard consonants and guttural sounds, and those characteristics spill over into whatever other language a dwarf might speak."
 					],
 					"type": "entries"
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Astral",
@@ -15105,16 +15120,17 @@
 			],
 			"weaponProficiencies": [
 				{
-					"rapier|phb": true,
-					"shortsword|phb": true,
-					"hand crossbow|phb": true
+					"estoc|owl": true,
+					"rapier|owl": true,
+					"shortsword|owl": true,
+					"hand crossbow|owl": true
 				}
 			],
 			"additionalSpells": [
 				{
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
 									"faerie fire|cooms"
 								]
@@ -15128,7 +15144,7 @@
 							}
 						}
 					},
-					"ability": "cha",
+					"ability": "con",
 					"known": {
 						"1": [
 							"dancing lights#c|cooms"
@@ -15165,19 +15181,20 @@
 				{
 					"name": "Drow Magic",
 					"entries": [
-						"You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once per day; you must finish a short or long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Constitution is your spellcasting ability for these spells."
 					],
 					"type": "entries"
 				},
 				{
 					"name": "Drow Weapon Training",
 					"entries": [
-						"You have proficiency with {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}."
+						"You have proficiency with {@item estoc|OWL|estocs}, {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}."
 					],
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Eladrin",
@@ -15284,10 +15301,10 @@
 			],
 			"weaponProficiencies": [
 				{
-					"longsword|phb": true,
-					"shortsword|phb": true,
-					"shortbow|phb": true,
-					"longbow|phb": true
+					"longsword|owl": true,
+					"shortsword|owl": true,
+					"shortbow|owl": true,
+					"longbow|owl": true
 				}
 			],
 			"additionalSpells": [
@@ -15486,7 +15503,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Shadar-kai",
@@ -15536,7 +15554,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Wood",
@@ -15610,7 +15629,7 @@
 				}
 			],
 			"resist": [
-				"lightning"
+				"thunder"
 			],
 			"additionalSpells": [
 				{
@@ -15653,9 +15672,9 @@
 					"type": "entries"
 				},
 				{
-					"name": "Lightning Resistance",
+					"name": "Thunder Resistance",
 					"entries": [
-						"You have resistance to lightning damage."
+						"You have resistance to thunder damage."
 					],
 					"type": "entries"
 				},
@@ -15674,7 +15693,9 @@
 						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Auran}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Earth",
@@ -15750,7 +15771,9 @@
 						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Terran}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Fire",
@@ -15828,7 +15851,9 @@
 						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Ignan}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Water",
@@ -15913,7 +15938,9 @@
 						"You can understand and speak {@language Common|phb} and {@language primordial|phb|Aquan}."
 					]
 				}
-			]
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Githyanki",
@@ -16089,7 +16116,8 @@
 					"type": "entries"
 				}
 			],
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Deep/Svirfneblin",
@@ -16179,7 +16207,8 @@
 			"overwrite": {
 				"languageProficiencies": true
 			},
-			"hasFluff": true
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Forest",
@@ -16519,8 +16548,8 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Blindsight.} You have the ability to see within 10 feet of yourself without relying on your eyes. Enemies within this range do not gain the benefits of being unseen by you.",
-						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|owl|rapiers}, {@item shortsword|owl|shortswords}, and {@item hand crossbow|owl|hand crossbows}.",
-						"{@b Drow Magic.} You know the {@spell dancing lights|phb} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"{@b Drow Weapon Training.} You have proficiency with {@item estoc|OWL|estocs}, {@item rapier|owl|rapiers}, {@item shortsword|owl|shortswords}, and {@item hand crossbow|owl|hand crossbows}.",
+						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once per day; you must finish a short or long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			]
@@ -17169,8 +17198,8 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Drow Weapon Training.} You have proficiency with {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}.",
-						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait; you regain the ability to cast it when you finish a long rest. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells."
+						"{@b Drow Weapon Training.} You have proficiency with {@item estoc|OWL|estocs}, {@item rapier|OWL|rapiers}, {@item shortsword|OWL|shortswords}, and {@item hand crossbow|OWL|hand crossbows}.",
+						"{@b Drow Magic.} You know the {@spell dancing lights|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once per day; you must finish a short or long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the {@spell darkness|phb} spell once per day; you must finish a long rest in order to cast the spell again using this trait. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			]
