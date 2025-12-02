@@ -1621,6 +1621,14 @@
             "source": "THICC"
           },
           {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
             "name": "Warlock",
             "source": "PHB"
           },
@@ -6207,9 +6215,6 @@
       },
       "duration": [
         {
-          "type": "instant"
-        },
-        {
           "type": "timed",
           "duration": {
             "type": "hour",
@@ -6617,8 +6622,17 @@
         }
       ],
       "entries": [
-        "Each object in a 20-foot cube within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Charisma saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.",
+        "Each object in a 10-foot radius within range is outlined in blue, green, or violet light (your choice). Any creature in the area when the spell is cast is also outlined in light if it fails a Charisma saving throw. For the duration, objects and affected creatures shed dim light in a 10-foot radius.",
         "The affected creature can't benefit from being invisible, allowing creatures to see it by its outline, and any attack roll against the affected creature or object has advantage if the attacker can see it."
+      ],
+            "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the size increases by 2.5 feet for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
       ],
       "classes": {
         "fromClassList": [
@@ -7781,7 +7795,7 @@
       ],
       "entries": [
         "Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into {@quickref difficult terrain|phb|3} for the duration.",
-        "When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall {@condition prone|phb}. Any time a creature moves into or within the area, that creature must make the same save or they fall {@condition prone|phb} while they move. A creature trying to stand up must make the save or else they spend half their movement fumbling around."
+        "When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall {@condition Proned|phb|prone}. Any time a creature moves into or within the area, that creature must make the same save or they fall prone while they move. A creature trying to stand up must make the save or else they spend half their movement fumbling around. If the surface is sloped, a creature that fails a Dexterity saving throw against the grease immediately slides in the direction of the bottom of the slope to the end of the grease, if no creature or object prevents it from doing so by blocking the path of its forced movement."
       ],
       "entriesHigherLevel": [
         {
@@ -12013,8 +12027,9 @@
         {
           "type": "list",
           "items": [
-            "If you target an area of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.",
-            "You cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. The changes last for 1 hour.",
+            "If you target an area of loose earth in an unoccupied space such as dirt, sand, silt, gravel, or clay, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.",
+            "If you target an area of loose earth in an unoccupied space such as dirt, sand, silt, gravel, or clay, you can shape it to whatever form you desire, which it will retain for 1 hour. The individual pieces of loose earth that comprise the desired form must be touching, and are still affected by gravity. If the structure you create receives any damage, this effect ends.",
+            "You cause shapes, colors, or both to form in the dirt or stone, spelling out words, creating images, or shaping patterns within the existing design of the medium. The changes last for 1 hour.",
             "If the dirt or stone you target is on the ground, you cause it to become {@quickref difficult terrain|phb|3}. Alternatively, you can cause the ground to become normal terrain if it is already {@quickref difficult terrain|phb|3}. This change lasts for 1 hour."
           ]
         },
@@ -18973,7 +18988,7 @@
       ],
       "entries": [
         "You flourish the weapon used in the casting and then vanish to strike like the wind. Choose up to ten creatures within range. You may make a number of melee attacks against them equal to the number of times you can attack with a weapon in a given Attack action.",
-        "You can then teleport to an unoccupied space you can see within 5 feet of one of the targets you hit or missed."
+        "You can then choose to teleport to an unoccupied space you can see within 5 feet of one of the targets you that attacked."
       ],
       "entriesHigherLevel": [
         {
@@ -19436,7 +19451,7 @@
         ]
       }
     },
-                    {
+    {
       "name": "Temporal Shunt",
       "source": "COOMS",
       "level": 5,
@@ -19465,7 +19480,19 @@
         }
       ],
       "entries": [
-        "You target the triggering creature or a creature affected by the triggering action, which must succeed on a Charisma saving throw (it can choose to fail) or vanish, being thrown to another point in time and causing the attack or spell to be delayed. At the start of its next turn, the target reappears where it was or in the closest unoccupied space. The target doesn't remember you casting the spell or being affected by it. If the target that reappears is the triggering creature, it must make an Intelligence saving throw or it takes the triggering action towards the space(s) that it intended to target before it was shunted."
+        "You manifest a minor wonder, a sign of supernatural power, within range. You create one of the following magical effects within Range:",
+        {
+          "type": "list",
+          "items": [
+            "Your voice booms up to three times as loud as normal for 1 minute.",
+            "You cause flames to flicker, brighten, dim, or change color for 1 minute.",
+            "You cause harmless tremors in the ground for 1 minute.",
+            "You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a raven, or ominous whispers.",
+            "You instantaneously cause an unlocked door or window to fly open or slam shut.",
+            "You alter the appearance of your eyes for 1 minute."
+          ]
+        },
+        "If you cast this spell multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action."
       ],
       "entriesHigherLevel": [
         {
