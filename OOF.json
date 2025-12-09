@@ -207,6 +207,15 @@
 			"name": "Artificer Initiate",
 			"source": "EntrancedFeats",
 			"Page": 3,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"int": "13"
+						}
+					]
+				}
+			],
 			"additionalspells":[
 				{
 					"ability": "int",
@@ -1184,6 +1193,47 @@
 			]
 		},
 		{
+			"name": "Fighting Initiate",
+			"source": "EntrancedFeats",
+			"page": 10,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"str": "13",
+							"dex": "13"
+						}
+					]
+				}
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:F"
+					],
+					"progression": {
+						"*": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have practiced extensively with a variety of weapons, gaining proficiency with simple and martial weapons."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Additionally, your martial training has helped you develop a particular style of fighting. As a result, you learn one {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
+						"Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fortitude",
 			"source": "EntrancedFeats",
 			"page": 10,
@@ -1510,6 +1560,17 @@
 			"name": "Magic Initiate",
 			"source": "EntrancedFeats",
 			"page": 12,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"int": "13",
+							"wis": "13",
+							"cha": "13"
+						}
+					]
+				}
+			],
 				"additionalSpells": [
 				{
 					"name": "Bard Spells",
@@ -1720,6 +1781,15 @@
 			"name": "Martial Adept",
 			"source": "EntrancedFeats",
 			"page": 12,
+			"prerequisite":[
+				{
+					"proficiency":[
+						{
+							"weapon":"martial"
+						}
+					]
+				}
+			],
 			"entries":[
 				{
 					"entries":[
@@ -2143,6 +2213,36 @@
 					"items":[
 						"You now regain all uses of your Breath Weapon on a short or long rest.",
 						"Whenever you use your Breath Weapon, you gain immunity to its damage type until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psionic Initiate",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"int": "13"
+						}
+					]
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You've started to dip your fingers into the deep well of psionics, granting you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You learn two psionic talents and one psionic discipline from the Psion class. You cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class. If you have no psi limit otherwise, your psi limit for casting these is 2. Intelligence is your discipline ability for these.",
+						"You gain 5 psi points to spend on your psionic disciplines (these points are added to any psi points you have from another source). You regain all spent psi points when you finish a long rest.",
+						"You gain the ability to use a psychic focus benefit if you couldn't already, following the rules for Psychic Focus so in the Psion class."
 					]
 				}
 			]
@@ -2868,40 +2968,6 @@
 						"You have advantage on Constitution saving throws that you make to maintain your {@condition concentration|phb} on a spell when you take damage.",
 						"You can perform somatic components with non-focus weapons or shields in hand as well.",
 						"When a hostile creature's movement provokes an {@action opportunity attack|phb} from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
-					]
-				}
-			]
-		},
-		{
-			"name": "Weapon Master",
-			"source": "EntrancedFeats",
-			"page": 21,
-			"ability": [
-				{
-					"choose":{
-						"from": [
-							"str",
-							"dex"
-						],
-						"count": 1
-					}
-				}
-			],
-			"weaponProficiencies": [
-				"simple",
-				"martial"
-			],
-			"entries":[
-				{
-					"entries":[
-						"You have practiced extensively with a variety of weapons, gaining the following benefits:"
-					],
-					"type":"entries"
-				},
-				{
-					"type":"list",
-					"items":[
-						"You gain proficiency with simple and martial weapons."
 					]
 				}
 			]
