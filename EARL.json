@@ -5804,6 +5804,34 @@
 			"entries": [
 				{
 					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Kender mature and age at about the same rate as humans, with adulthood being marked by the onset of their wanderlust at around age 20."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Kender are fearless and mischievous, causing them to view everything as one big joke, leading them towards Chaotic alignments."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Kender are generally between 3 and 4 feet tall, weighing around 75 to 100 lbs. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Fearless",
 					"entries": [
 						"You are immune to being {@condition Frightened|phb}."
