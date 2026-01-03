@@ -1631,7 +1631,6 @@
 				"Language Proficiency",
 				"Skill Proficiency",
 				"Tool Proficiency",
-				"Magic Resistance",
 				"Amphibious",
 				"Outcast",
 				"Exotic"
@@ -16511,7 +16510,6 @@
 				"Spellcasting",
 				"Sunlight Sensitivity",
 				"Weapon Proficiency",
-				"Magic Resistance",
 				"Blindsight"
 			],
 			"languageProficiencies": [
@@ -16785,7 +16783,6 @@
 				"Tool Proficiency",
 				"Weapon Proficiency",
 				"Blindsight",
-				"Magic Resistance",
 				"Spellcasting"
 			],
 			"languageProficiencies": [
@@ -16873,7 +16870,6 @@
 				"Superior Darkvision",
 				"Skill Proficiency",
 				"Blindsight",
-				"Magic Resistance",
 				"Spellcasting"
 			],
 			"languageProficiencies": [
