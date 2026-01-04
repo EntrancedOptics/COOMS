@@ -77,7 +77,7 @@
 					"items": [
 						"You gain proficiency with {@item alchemist's supplies|owl}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
 						"As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
-						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a {@item potion of healing|owl}, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have {@item alchemist's supplies|owl} with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any potion, acid, or bomb that has a damage roll associated with it, such as an Alchemist's Fire, shatter bomb, flask of oil, or vial of acid.  To use this benefit, you must have {@item alchemist's supplies|owl} with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
 					]
 				}
 			]
@@ -320,7 +320,7 @@
 		{
 			"name": "Bow Master",
 			"source": "EntrancedFeats",
-			"page": 3,
+			"page": 4,
 			"ability":[
 				{
 					"dex": 1
@@ -405,7 +405,7 @@
 		{
 			"name": "Cleave",
 			"source": "EntrancedFeats",
-			"page": 18,
+			"page": 4,
 			"prerequisite":[
 				{
 					"proficiency":[
@@ -439,7 +439,7 @@
 		{
 			"name": "Close-Quarters Casting",
 			"source": "EntrancedFeats",
-			"page": 24,
+			"page": 5,
 			"prerequisite": [
 				{
 					"spellcasting": true
@@ -465,7 +465,7 @@
 		{
 			"name": "Crossbow Expert",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 5,
 			"ability":[
 				{
 					"dex": 1
@@ -492,7 +492,7 @@
 		{
 			"name": "Dagger Master",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 5,
 			"entries": [
 				{
 					"entries": [
@@ -513,7 +513,7 @@
 		{
 			"name": "Dart Master",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 6,
 			"entries": [
 				{
 					"entries": [
@@ -535,7 +535,7 @@
 		{
 			"name": "Defensive Duelist",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 6,
 			"prerequisite": [
 				{
 					"ability": [
@@ -557,7 +557,7 @@
 		{
 			"name": "Diplomat",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 6,
 			"ability":[
 				{
 					"cha": 1
@@ -602,7 +602,7 @@
 		{
 			"name": "Double Weapon Master",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 7,
 			"entries": [
 				{
 					"entries":[
@@ -623,7 +623,7 @@
 		{
 			"name": "Dragon Breath",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 7,
 			"prerequisite":[
 				{
 					"race":[
@@ -673,7 +673,7 @@
 		{
 			"name": "Drow High Magic",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 8,
 			"prerequisite": [
 				{
 					"race":[
@@ -713,7 +713,7 @@
 		{
 			"name": "Duergar Dark Magic",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 8,
 			"prerequisite": [
 				{
 					"level": 8,
@@ -755,7 +755,7 @@
 		{
 			"name": "Durable",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 8,
 			"ability": [
 				{
 					"con": 1
@@ -781,7 +781,7 @@
 		{
 			"name": "Dwarven Recovery",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 8,
 			"prerequisite":[
 				{
 					"race":[
@@ -1074,6 +1074,52 @@
 						"You learn the {@spell misty step|phb} spell and one {@filter 1st-level spell|spells|level=1|school=D;E} of your choice. The {@filter 1st-level spell|spells|level=1|school=D;E} must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot or its somatic and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
 					],
 					"type": "list"
+				}
+			]
+		},
+		{
+			"name": "Feywild Frolicker",
+			"source": "EntrancedFeats",
+			"page": 9,
+			"prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Satyr"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"weaponProficiencies":[
+				{
+					"shortsword": true,
+					"shortbow": true
+				}
+			],
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your celerity and offensive capabilities grow to match those of your kin normally found in the Feywild, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Increase your walking speed by 5 feet.",
+						"You gain proficiency with the shortsword, shortbow, and light armor if you didn't already have proficiency with them before.",
+						"Your ram attack now deals {@dice 2d4} bludgeoning damage plus your Strength modifier on a hit."
+					]
 				}
 			]
 		},
@@ -1376,6 +1422,37 @@
 			]
 		},
 		{
+			"name": "Herbalist",
+			"source": "EntrancedFeats",
+			"page": 11,
+			"ability":[
+				{
+					"wis": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have studied the secrets of herbalism and are an expert in its practice, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with the herbalism kit. If you are already proficient with it, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can identify one potion within 5 feet of you, as if you had felt its effects. You must see the liquid for this benefit to work.",
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a potion of healing, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have alchemist's supplies with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
+					]
+				}
+			]
+		},
+		{
 			"name": "Historian",
 			"source": "EntrancedFeats",
 			"page": 11,
@@ -1406,6 +1483,49 @@
 			]
 		},
 		{
+			"name": "Hybrid",
+			"source": "EntrancedFeats",
+			"page": 11,
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Any Half-Race"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"As you mature, you start to exemplify various traits of your lineage that previously weren't present, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Choose two subfeatures not selected by you in your Variant Feature or Variant Resilience feature during character creation and gain them. If you are only able to gain one subfeature, you gain it and a skill proficiency of your choice. Your choice must reflect your character and their adventures and accolades."
+					]
+				}
+			]
+		},
+		{
 			"name": "Inspiring Leader",
 			"source": "EntrancedFeats",
 			"page": 11,
@@ -1425,6 +1545,37 @@
 						"When you use this feature, you may simultaneously cast {@spell Motivational Speech|cooms} if you have it as a spell. When you do so, you may additively stack the temporary hit points given by the Motivational Speech with those given by this feat if the targets of the spell and feat intersect."
 					],
 					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Inscriber",
+			"source": "EntrancedFeats",
+			"page": 11,
+			"ability":[
+				{
+					"int": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies'": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have studied the secrets of inscription and are an expert in its practice, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with calligrapher's supplies. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can identify one spell scroll within 5 feet of you, as if it were on your spell list. You must see the scroll for this benefit to work.",
+						"You no longer have disadvantage on any Arcana checks made to cast spell scrolls of spells that are not in your spell list."
+					]
 				}
 			]
 		},
@@ -1747,6 +1898,47 @@
 			]
 		},
 		{
+			"name": "Magic Resistance",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Aasimar, Elf (Eladrin), Fairy, Half-Elf (Eladrin), or Tiefling"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You become attuned to the resistance to magic that comes naturally to other members of your kin, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"You have advantage on saving throws against spells and other magical effects."
+					]
+				}
+			]
+		},
+		{
 			"name": "Malleable Form",
 			"source": "EntrancedFeats",
 			"page": 6,
@@ -1800,7 +1992,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the le to the {@class fighter|phb|Battle Master|Battle Mast archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the {@class fighter|phb|Battle Master|Battle Mast archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
 						"You gain two superiority dice, which are {@dice d6} (this die is added to any superiority dice you have from another source). The dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
 					]
 				}
@@ -2131,6 +2323,42 @@
 						"You gain proficiency in the {@skill Performance|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
 						"While performing, you can try to distract one nonhostile creature within 60 feet of you can see who can see and hear you. Make a Charisma (Performance) check contested by the creature's Wisdom saving throw. On a failure, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing. On a success, the target is immune to the effects of this feat for 24 hours.",
 						"You learn {@spell Tasha's Hideous Laughter|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Poisoner",
+			"source": "EntrancedFeats",
+			"page": 15,
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"entries":[
+				{
+					"entries": [
+						"You are accustomed to working with poisons in combat, granting you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items": [
+						"You gain resistance to poison damage.",
+						"When you make a damage roll that deals poison damage, it ignores resistance to poison damage.",
+						"You can apply poison or oil to a weapon or pieces of ammunition as a bonus action, instead of an action."
 					]
 				}
 			]
@@ -2942,6 +3170,37 @@
 							"mode": "ADD",
 							"value": "2 * @details.level"
 						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Toxicologist",
+			"source": "EntrancedFeats",
+			"Page": 21,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"poisoner's kit'": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have studied the secrets of toxicology and are an expert in its practice, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with the {@item poisoner's kit|owl} if you don't already have it. If you are already proficient with it, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can identify one poison or oil within 5 feet of you, as if you had felt its effects. You must smell the liquid for this benefit to work.",
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any poison or oil that has a damage roll associated with it, such as a vial of basic poison or an oil of lightning. To use this benefit, you must have a {@item poisoner's kit|owl} with you, and the item must be within reach over the course of the short rest. The improved item, referred to as a distilled item, has advantage on any damage roll that it makes, alongside increasing its value by 1.5 times its normal price."
 					]
 				}
 			]
