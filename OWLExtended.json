@@ -131,6 +131,19 @@
 			]
 		},
 		{
+			"name": "Goggles of Day",
+			"source": "OWL",
+			"srd": false,
+			"tier": "minor",
+			"rarity": "uncommon",
+			"wondrous": true,
+			"weight": 0.25,
+			"value": 155000,
+			"entries": [
+				"While wearing these dark lenses, you have immunity to the Photosensitive condition, meaning you no longer suffer from Sunlight Sensitivity if you had it."
+			]
+		},
+		{
 			"name": "Healer's Kit",
 			"source": "OWL",
 			"srd": false,

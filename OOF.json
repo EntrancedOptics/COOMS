@@ -77,7 +77,7 @@
 					"items": [
 						"You gain proficiency with {@item alchemist's supplies|owl}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
 						"As an action, you can identify one potion within 5 feet of you, as if you had tasted it. You must see the liquid for this benefit to work.",
-						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a {@item potion of healing|owl}, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have {@item alchemist's supplies|owl} with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any potion, acid, or bomb that has a damage roll associated with it, such as an Alchemist's Fire, shatter bomb, flask of oil, or vial of acid.  To use this benefit, you must have {@item alchemist's supplies|owl} with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
 					]
 				}
 			]
@@ -207,6 +207,15 @@
 			"name": "Artificer Initiate",
 			"source": "EntrancedFeats",
 			"Page": 3,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"int": "13"
+						}
+					]
+				}
+			],
 			"additionalspells":[
 				{
 					"ability": "int",
@@ -309,6 +318,31 @@
 			]
 		},
 		{
+			"name": "Bow Master",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You achieve a profound understanding of bows, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you use a shortbow, its damage increases from a {@dice d6} to a {@dice d8}. When you use a longbow, its damage increases from a {@dice d8} to a {@dice d10}.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls made with bows."
+					]
+				}
+			]
+		},
+		{
 			"name": "Brawny",
 			"source": "EntrancedFeats",
 			"page": 4,
@@ -369,9 +403,69 @@
 			]
 		},
 		{
-			"name": "Crossbow Expert",
+			"name": "Cleave",
 			"source": "EntrancedFeats",
 			"page": 4,
+			"prerequisite":[
+				{
+					"proficiency":[
+						{
+							"weapon":"martial"
+						}
+					]
+				}
+			],
+			"ability":[
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				"You can follow through with powerful blows, allowing you to clear through swaths of enemies with ease, granting you the following benefits:",
+				{
+					"items": [
+						"Once per turn when you reduce a creature to 0 hp with a melee weapon attack and there is another creature within 5 feet of it whose AC you beat with your attack roll and who is within your range to hit with the same weapon, you may follow through with your attack and deal the remaining damage to that creature."
+					],
+					"type": "list"
+				}
+			]
+		},
+		{
+			"name": "Close-Quarters Casting",
+			"source": "EntrancedFeats",
+			"page": 5,
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have learned techniques that allow your casting to be used effectively at point-blank range, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that requires a melee spell attack roll, you may instead force the target(s) to make a Dexterity saving throw against your Spell Save DC, as your mere touch is enough to deliver the spell. If the target succeeds the saving throw, it acts as if you missed the attack roll.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged spell attack rolls.",
+						"You learn one cantrip that requires an attack roll. Choose the cantrip from the bard, cleric, druid, sorcerer, warlock, witch, or wizard spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric, druid, or witch; or Intelligence for wizard."
+					]
+				}
+			]
+		},
+		{
+			"name": "Crossbow Expert",
+			"source": "EntrancedFeats",
+			"page": 5,
 			"ability":[
 				{
 					"dex": 1
@@ -388,7 +482,7 @@
 					"type": "list",
 					"items": [
 						"You ignore the loading quality of crossbows with which you are proficient.",
-						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls made with crossbows.",
 						"When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a hand crossbow you are holding.",
 						"Bracing on a wall or table no longer costs any movement."
 					]
@@ -398,7 +492,7 @@
 		{
 			"name": "Dagger Master",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 5,
 			"entries": [
 				{
 					"entries": [
@@ -419,7 +513,7 @@
 		{
 			"name": "Dart Master",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 6,
 			"entries": [
 				{
 					"entries": [
@@ -441,7 +535,7 @@
 		{
 			"name": "Defensive Duelist",
 			"source": "EntrancedFeats",
-			"page": 4,
+			"page": 6,
 			"prerequisite": [
 				{
 					"ability": [
@@ -463,7 +557,7 @@
 		{
 			"name": "Diplomat",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 6,
 			"ability":[
 				{
 					"cha": 1
@@ -508,7 +602,7 @@
 		{
 			"name": "Double Weapon Master",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 7,
 			"entries": [
 				{
 					"entries":[
@@ -529,7 +623,7 @@
 		{
 			"name": "Dragon Breath",
 			"source": "EntrancedFeats",
-			"page": 5,
+			"page": 7,
 			"prerequisite":[
 				{
 					"race":[
@@ -564,16 +658,22 @@
 					"type": "list",
 					"items":[
 						"You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike.",
-						"You gain the ability to use the Breath Weapon associated with your draconic ancestry.",
-						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice d10}s equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage. You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+						"You gain the ability to use the Breath Weapon associated with your draconic ancestry." 
 					]
-				}
+				},
+				{
+				    "type": "list",
+					"style": "list-hang",
+					"items": [
+						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice d10}s equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage. You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+					 ]
+				  }
 			]
 		},
 		{
 			"name": "Drow High Magic",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 8,
 			"prerequisite": [
 				{
 					"race":[
@@ -613,7 +713,7 @@
 		{
 			"name": "Duergar Dark Magic",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 8,
 			"prerequisite": [
 				{
 					"level": 8,
@@ -655,7 +755,7 @@
 		{
 			"name": "Durable",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 8,
 			"ability": [
 				{
 					"con": 1
@@ -681,7 +781,7 @@
 		{
 			"name": "Dwarven Recovery",
 			"source": "EntrancedFeats",
-			"page": 6,
+			"page": 8,
 			"prerequisite":[
 				{
 					"race":[
@@ -781,6 +881,66 @@
 			]
 		},
 		{
+			"name": "Fade Away",
+			"source": "EntrancedFeats",
+			"page": 7,
+			"prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Gnome"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"int"
+						],
+						"count": 1
+					}
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate":{
+						"_":{
+							"daily":{
+								"1":[
+									"invisibility"
+								]
+							},
+							"rest":{
+								"1":[
+									"expeditious retreat"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your people are clever, with a knack for illusion magic. You have learned a magical trick for fading away when you suffer harm. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Immediately after you take damage, you can use a reaction to magically become invisible until the end of your next turn or until you attack or cast a spell. Immediately after you turn invisible, you may move up to half your speed. Once you use this ability, you can't do so again until you finish a short or long rest.",
+						"You learn the {@spell expeditious retreat} and {@spell invisibility} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast {@spell expeditious retreat} in this way when you finish a short or long rest, and you regain the ability to cast {@spell invisibility} in this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fell Handed",
 			"source": "EntrancedFeats",
 			"page": 7,
@@ -846,12 +1006,19 @@
 					"ability": "con",
 					"innate":{
 						"_":{
-							"daily":{
+							"rest":{
 								"1":[
 									"misty step"
 								]
 							}
 						}
+					},
+					"known":{
+						"_":[
+							{
+								"choose": "level=0|class=wizard"
+							}
+						]
 					}
 				}
 			],
@@ -887,7 +1054,7 @@
 					"ability": "con",
 					"innate":{
 						"_":{
-							"daily":{
+							"rest":{
 								"1":[
 									"misty step",
 									{
@@ -907,6 +1074,52 @@
 						"You learn the {@spell misty step|phb} spell and one {@filter 1st-level spell|spells|level=1|school=D;E} of your choice. The {@filter 1st-level spell|spells|level=1|school=D;E} must be from the divination or enchantment school of magic. You can cast each of these spells without expending a spell slot or its somatic and material components. Once you cast either of these spells in this way, you can't cast that spell in this way again until you finish a long rest. You can also cast these spells using spell slots you have of the appropriate level. The spells' spellcasting ability is Constitution."
 					],
 					"type": "list"
+				}
+			]
+		},
+		{
+			"name": "Feywild Frolicker",
+			"source": "EntrancedFeats",
+			"page": 9,
+			"prerequisite": [
+                {
+                    "race": [
+                        {
+                            "name": "Satyr"
+                        }
+                    ]
+                }
+            ],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"weaponProficiencies":[
+				{
+					"shortsword": true,
+					"shortbow": true
+				}
+			],
+			"armorProficiencies": [
+				{
+					"light": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your celerity and offensive capabilities grow to match those of your kin normally found in the Feywild, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Increase your walking speed by 5 feet.",
+						"You gain proficiency with the shortsword, shortbow, and light armor if you didn't already have proficiency with them before.",
+						"Your ram attack now deals {@dice 2d4} bludgeoning damage plus your Strength modifier on a hit."
+					]
 				}
 			]
 		},
@@ -1026,6 +1239,47 @@
 			]
 		},
 		{
+			"name": "Fighting Initiate",
+			"source": "EntrancedFeats",
+			"page": 10,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"str": "13",
+							"dex": "13"
+						}
+					]
+				}
+			],
+			"optionalfeatureProgression": [
+				{
+					"name": "Fighting Style",
+					"featureType": [
+						"FS:F"
+					],
+					"progression": {
+						"*": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have practiced extensively with a variety of weapons, gaining proficiency with simple and martial weapons."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Additionally, your martial training has helped you develop a particular style of fighting. As a result, you learn one {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
+						"Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have."
+					]
+				}
+			]
+		},
+		{
 			"name": "Fortitude",
 			"source": "EntrancedFeats",
 			"page": 10,
@@ -1110,7 +1364,7 @@
 					"items": [
 						"You gain proficiency with firearms (see 'Firearms' in the Dungeon Master's Guide).",
 						"You can use a {@item tinderbox|phb} as a free action.",
-						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls made with firearms.",
 						"Bracing on a wall or table no longer costs any movement."
 					]
 				}
@@ -1168,6 +1422,37 @@
 			]
 		},
 		{
+			"name": "Herbalist",
+			"source": "EntrancedFeats",
+			"page": 11,
+			"ability":[
+				{
+					"wis": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"herbalism kit": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have studied the secrets of herbalism and are an expert in its practice, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with the herbalism kit. If you are already proficient with it, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can identify one potion within 5 feet of you, as if you had felt its effects. You must see the liquid for this benefit to work.",
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a potion of healing, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have alchemist's supplies with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
+					]
+				}
+			]
+		},
+		{
 			"name": "Historian",
 			"source": "EntrancedFeats",
 			"page": 11,
@@ -1198,6 +1483,49 @@
 			]
 		},
 		{
+			"name": "Hybrid",
+			"source": "EntrancedFeats",
+			"page": 11,
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Any Half-Race"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"As you mature, you start to exemplify various traits of your lineage that previously weren't present, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"Choose two subfeatures not selected by you in your Variant Feature or Variant Resilience feature during character creation and gain them. If you are only able to gain one subfeature, you gain it and a skill proficiency of your choice. Your choice must reflect your character and their adventures and accolades."
+					]
+				}
+			]
+		},
+		{
 			"name": "Inspiring Leader",
 			"source": "EntrancedFeats",
 			"page": 11,
@@ -1217,6 +1545,37 @@
 						"When you use this feature, you may simultaneously cast {@spell Motivational Speech|cooms} if you have it as a spell. When you do so, you may additively stack the temporary hit points given by the Motivational Speech with those given by this feat if the targets of the spell and feat intersect."
 					],
 					"type": "entries"
+				}
+			]
+		},
+		{
+			"name": "Inscriber",
+			"source": "EntrancedFeats",
+			"page": 11,
+			"ability":[
+				{
+					"int": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"calligrapher's supplies'": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have studied the secrets of inscription and are an expert in its practice, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with calligrapher's supplies. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can identify one spell scroll within 5 feet of you, as if it were on your spell list. You must see the scroll for this benefit to work.",
+						"You no longer have disadvantage on any Arcana checks made to cast spell scrolls of spells that are not in your spell list."
+					]
 				}
 			]
 		},
@@ -1317,6 +1676,17 @@
 			]
 		},
 		{
+			"name": "Lucky",
+			"source": "EntrancedFeats",
+			"page": 12,
+			"entries":[
+			"You have inexplicable luck that seems to kick in at just the right moment.",
+			"You have 3 luck points. You can spend a luck point to reroll any attack roll, saving throw, or ability check made by you or a creature that you can see. You can replace a roll in this way only once per turn.",
+			"If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.",
+			"You regain your expended luck points when you finish a long rest"
+			]
+		},
+		{
 			"name": "Mage Slayer",
 			"source": "EntrancedFeats",
 			"page": 12,
@@ -1341,6 +1711,17 @@
 			"name": "Magic Initiate",
 			"source": "EntrancedFeats",
 			"page": 12,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"int": "13",
+							"wis": "13",
+							"cha": "13"
+						}
+					]
+				}
+			],
 				"additionalSpells": [
 				{
 					"name": "Bard Spells",
@@ -1517,9 +1898,90 @@
 			]
 		},
 		{
+			"name": "Magic Resistance",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Aasimar, Elf (Eladrin), Fairy, Half-Elf (Eladrin), or Tiefling"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You become attuned to the resistance to magic that comes naturally to other members of your kin, gaining the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"You have advantage on saving throws against spells and other magical effects."
+					]
+				}
+			]
+		},
+		{
+			"name": "Malleable Form",
+			"source": "EntrancedFeats",
+			"page": 6,
+			"prerequisite":[
+				{
+					"race":[
+						{
+							"name": "Plasmoid or Shadar-blaidd"
+						}
+					]
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You have mastered your shapeless form, allowing you to gain the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type": "list",
+					"items":[
+						"When you use a bonus action to extrude a pseudopod or tendril, you can extrude or retract up to four of them at a time, which are all controlled by the same bonus action. You may have no more than four of them extruded at a given time.",
+						"You can use two pseudopods or tendrils to wield a weapon that you are proficient with that lacks the Heavy property. If a weapon has the Light property, you may choose to wield it with only one pseudopod or tendril. If a weapon has the Versatile property, the damage dice you use is dependent on the amount of pseudopods or tendrils currently wielding it, as if they were arms. Attacking with a weapon wielded in this way is done with an attack action, rather than a bonus action.",
+						"You can use a pseudopod or tendril to activate a magic item that it is holding, using an action, bonus action, or reaction to do so as per the magic item.",
+						"While you have at least one pseudopod or tendril extruded, when you make a melee attack on your turn, your reach for it becomes 10 feet, or 15 feet if you are attacking using a weapon with the Reach property."
+					]
+				}
+			]
+		},
+		{
 			"name": "Martial Adept",
 			"source": "EntrancedFeats",
 			"page": 12,
+			"prerequisite":[
+				{
+					"proficiency":[
+						{
+							"weapon":"martial"
+						}
+					]
+				}
+			],
 			"entries":[
 				{
 					"entries":[
@@ -1530,7 +1992,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the le to the {@class fighter|phb|Battle Master|Battle Mast archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
+						"You learn two {@filter maneuvers|optionalfeatures|feature type=MV:B} of your choice from among those available to the {@class fighter|phb|Battle Master|Battle Mast archetype in the fighter class. If a maneuver you use requires your target to make a saving throw to resist the maneuver's effects, the saving throw DC equals 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice).",
 						"You gain two superiority dice, which are {@dice d6} (this die is added to any superiority dice you have from another source). The dice are used to fuel your maneuvers. A superiority die is expended when you use it. You regain your expended superiority dice when you finish a short or long rest."
 					]
 				}
@@ -1611,7 +2073,7 @@
 			]
 		},
 		{
-			"name": "Moderately armored",
+			"name": "Moderately Armored",
 			"source": "EntrancedFeats",
 			"page": 13,
 			"prerequisite":[
@@ -1826,7 +2288,7 @@
 			"page": 16,
 			"ability":[
 				{
-					"dex": 1
+					"cha": 1
 				}
 			],
 			"skillProficiencies":[
@@ -1866,6 +2328,42 @@
 			]
 		},
 		{
+			"name": "Poisoner",
+			"source": "EntrancedFeats",
+			"page": 15,
+			"ability": [
+				{
+					"choose":{
+						"from": [
+							"dex",
+							"con",
+							"wis"
+						],
+						"count": 1
+					}
+				}
+			],
+			"resist": [
+				"poison"
+			],
+			"entries":[
+				{
+					"entries": [
+						"You are accustomed to working with poisons in combat, granting you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items": [
+						"You gain resistance to poison damage.",
+						"When you make a damage roll that deals poison damage, it ignores resistance to poison damage.",
+						"You can apply poison or oil to a weapon or pieces of ammunition as a bonus action, instead of an action."
+					]
+				}
+			]
+		},
+		{
 			"name": "Polearm Master",
 			"source": "EntrancedFeats",
 			"page": 16,
@@ -1880,9 +2378,9 @@
 					"type":"list",
 					"items": [
 						"All polearms count as Reach weapons for you.",
-						"All polearms gain the Double property for you. Polearms that did not have the Double property allow you to use a bonus action to make a melee attack with the opposite end of the weapon whenever you take the attack action with said weapon. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and it deals bludgeoning damage.",
+						"All polearms gain the Double property for you when wielded with two hands. Polearms that did not have the Double property allow you to use a bonus action to make a melee attack with the opposite end of the weapon whenever you take the attack action with said weapon, so long as it is being wielded with two hands. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and it deals bludgeoning damage.",
 						"When you use a {@item bardiche|owl}, {@item spear|owl}, {@item trident|owl}, or {@item war scythe|owl}, its damage die changes from a {@dice 1d6} to a {@dice 1d8}, and from a {@dice 1d8} to a {@dice 1d10} when wielded with two hands. When you use a {@item quarterstaff|owl}, both its regular attack and secondary attack's damage die increase from {@dice 1d4} to {@dice 1d6}. When you use a {@item javelin|owl}, its damage increases to a {@dice d8} and its range increases to (80/320). When you use a {@item yklwa|owl}, its damage increases to a {@dice 1d10} and its range increases to (20/60).",
-						"While you are wielding a polearm, other creatures provoke an {@action opportunity attack|phb} from you when they enter the reach you have with that weapon. If you hit them with that {@action opportunity attack|phb}, they cannot move within 5 feet of you for the duration of their turn."
+						"While you are wielding a polearm, other creatures provoke an {@action opportunity attack|phb} from you when they enter the reach you have with that weapon. If you hit them with that opportunity attack, they cannot move within 5 feet of you for the duration of their turn. You can use this feature a number of times per short or long rest equal to your proficiency bonus."
 					]
 				}
 			]
@@ -1943,6 +2441,36 @@
 					"items":[
 						"You now regain all uses of your Breath Weapon on a short or long rest.",
 						"Whenever you use your Breath Weapon, you gain immunity to its damage type until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Psionic Initiate",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"prerequisite": [
+				{
+					"ability": [
+						{
+							"int": "13"
+						}
+					]
+				}
+			],
+			"entries":[
+				{
+					"entries":[
+						"You've started to dip your fingers into the deep well of psionics, granting you the following benefits:"
+					],
+					"type":"entries"
+				},
+				{
+					"type":"list",
+					"items":[
+						"You learn two psionic talents and one psionic discipline from the Psion class. You cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class. If you have no psi limit otherwise, your psi limit for casting these is 2. Intelligence is your discipline ability for these.",
+						"You gain 5 psi points to spend on your psionic disciplines (these points are added to any psi points you have from another source). You regain all spent psi points when you finish a long rest.",
+						"You gain the ability to use a psychic focus benefit if you couldn't already, following the rules for Psychic Focus so in the Psion class."
 					]
 				}
 			]
@@ -2024,6 +2552,75 @@
 			]
 		},
 		{
+			"name": "Savage Attacker",
+			"source": "EntrancedFeats",
+			"page": 18,
+			"prerequisite":[
+				{
+					"proficiency":[
+						{
+							"weapon":"martial"
+						}
+					]
+				}
+			],
+			"ability":[
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				"Your attacks are consistently powerful, granting you the following benefits:",
+				{
+					"items": [
+						"Once per turn when you roll damage for a melee weapon attack, you can reroll the weapon's damage dice and use either total."
+					],
+					"type": "list"
+				}
+			]
+		},
+		{
+			"name": "Second Chance",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Halfling"
+						}
+					]
+				}
+			],
+			"ability":[
+				{
+					"choose": {
+						"from": [
+							"dex",
+							"con",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				"Fortune favors you when someone tries to strike you. You gain the following benefits:",
+				{
+					"items": [
+						"When a creature you can see hits you with an attack roll, you can use your reaction to force that creature to reroll. You can use this ability a number of times equal to 1 less than your proficiency bonus, regaining all expended uses on a short or long rest."
+					],
+					"type": "list"
+				}
+			]
+		},
+		{
 			"name": "Shadow Touched",
 			"source": "EntrancedFeats",
 			"page": 18,
@@ -2044,7 +2641,7 @@
 					"ability": "con",
 					"innate":{
 						"_":{
-							"daily":{
+							"rest":{
 								"1e":[
 									"invisibility",
 									{
@@ -2165,6 +2762,32 @@
 			]
 		},
 		{
+			"name": "Sling Master",
+			"source": "EntrancedFeats",
+			"page": 3,
+			"ability":[
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You find great value in the simplistic, mastering the use of slings in combat, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you use a sling, its damage increases from a {@dice d4} to a {@dice d6} and its range increases from 30/120 to 80/320.",
+						"Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged weapon attack rolls made with slings.",
+						"When you use the Attack action and attack with a one-handed weapon, you can use a bonus action to attack with a sling you are holding."
+					]
+				}
+			]
+		},
+		{
 			"name": "Stealthy",
 			"source": "EntrancedFeats",
 			"page": 19,
@@ -2223,6 +2846,113 @@
 						"If you are traveling alone, you can move stealthily at a normal pace.",
 						"When you forage, you find twice as much food as you normally would.",
 						"While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spell Sniper",
+			"source": "EntrancedFeats",
+			"page": 24,
+			"prerequisite": [
+				{
+					"spellcasting": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"name": "Bard Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Bard|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Cleric Spells",
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Cleric|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Druid Spells",
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Druid|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Sorcerer Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Sorcerer|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Warlock Spells",
+					"ability": "cha",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Warlock|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Witch Spells",
+					"ability": "wis",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Witch (THICC)|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				},
+				{
+					"name": "Wizard Spells",
+					"ability": "int",
+					"known": {
+						"_": [
+							{
+								"choose": "level=0|class=Wizard|spell attack=m;r;o",
+								"count": 1
+							}
+						]
+					}
+				}
+			],
+			"entries": [
+				"You have learned techniques to enhance your attacks with certain kinds of spells, gaining the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"When you cast a spell that requires you to make an attack roll, the spell's range is doubled.",
+						"Your ranged spell attacks ignore half cover and three-quarters cover.",
+						"You learn one cantrip that requires an attack roll. Choose the cantrip from the {@filter bard|spells|level=0|class=bard|spell attack=m;r;o}, {@filter cleric|spells|level=0|class=cleric|spell attack=m;r;o}, {@filter druid|spells|level=0|class=druid|spell attack=m;r;o}, {@filter sorcerer|spells|level=0|class=sorcerer|spell attack=m;r;o}, {@filter warlock|spells|level=0|class=warlock|spell attack=m;r;o}, {@filter witch|spells|level=0|class=witch (THICC)|spell attack=m;r;o} or {@filter wizard|spells|level=0|class=wizard|spell attack=m;r;o} spell list. Your spellcasting ability for this cantrip depends on the spell list you chose from: Charisma for bard, sorcerer, or warlock; Wisdom for cleric, druid, or witch; or Intelligence for wizard."
 					]
 				}
 			]
@@ -2445,6 +3175,37 @@
 			]
 		},
 		{
+			"name": "Toxicologist",
+			"source": "EntrancedFeats",
+			"Page": 21,
+			"ability": [
+				{
+					"wis": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"poisoner's kit'": true
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have studied the secrets of toxicology and are an expert in its practice, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency with the {@item poisoner's kit|owl} if you don't already have it. If you are already proficient with it, you add double your proficiency bonus to checks you make with them.",
+						"As an action, you can identify one poison or oil within 5 feet of you, as if you had felt its effects. You must smell the liquid for this benefit to work.",
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any poison or oil that has a damage roll associated with it, such as a vial of basic poison or an oil of lightning. To use this benefit, you must have a {@item poisoner's kit|owl} with you, and the item must be within reach over the course of the short rest. The improved item, referred to as a distilled item, has advantage on any damage roll that it makes, alongside increasing its value by 1.5 times its normal price."
+					]
+				}
+			]
+		},
+		{
 			"name": "War Caster",
 			"source": "EntrancedFeats",
 			"page": 21,
@@ -2465,7 +3226,7 @@
 					"items":[
 						"You have advantage on Constitution saving throws that you make to maintain your {@condition concentration|phb} on a spell when you take damage.",
 						"You can perform somatic components with non-focus weapons or shields in hand as well.",
-						"When a hostile creature's movement provokes an opportunity attack from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
+						"When a hostile creature's movement provokes an {@action opportunity attack|phb} from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
 					]
 				}
 			]
@@ -2512,8 +3273,12 @@
 						"_":{
 							"daily":{
 								"1":[
-									"longstrider",
 									"pass without trace"
+								]
+							},
+							"rest":{
+								"1":[
+									"longstrider"
 								]
 							}
 						}
