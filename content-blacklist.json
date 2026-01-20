@@ -3532,6 +3532,13 @@
     },
     {
       "category": "feat",
+      "displayName": "Skilled",
+      "hash": "skilled_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
       "displayName": "Spell Sniper",
       "hash": "spell%20sniper_phb",
       "source": "PHB",
@@ -5050,6 +5057,13 @@
       "isAuto": false
     },
     {
+      "category": "feat",
+      "displayName": "Skill Expert",
+      "hash": "skill%20expert_tce",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
       "category": "optionalfeature",
       "displayName": "Homunculus Servant",
       "hash": "homunculus%20servant_tce",
@@ -5774,6 +5788,13 @@
       "category": "feat",
       "displayName": "Infernal Constitution",
       "hash": "infernal%20constitution_xge",
+      "source": "XGE",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Prodigy",
+      "hash": "prodigy_xge",
       "source": "XGE",
       "isAuto": false
     },
