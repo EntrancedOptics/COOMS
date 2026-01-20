@@ -23,12 +23,12 @@
 			"name": "Acrobat",
 			"source": "EntrancedFeats",
 			"Page": 1,
-			"ability":[
+			"ability": [
 				{
-					"dex":1
+					"dex": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"acrobatics": true
 				}
@@ -43,7 +43,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the Acrobatics skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the Acrobatics skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"The first time you successfully Tumble on your turn, you gain the benefits of either the {@action Dash|phb} or {@action Disengage|phb} action (your choice).",
 						"The maximum height at which you can Roll with fall increases to 100 ft.",
 						"Whenever you attempt to Roll on a fall of 50 ft or less, you take half damage from the fall if you fail the check and no damage on a success."
@@ -110,13 +110,13 @@
 					]
 				},
 				{
-					"entries":[
+					"entries": [
 						"You also gain an additional benefit depending on what type of Aasimar you are:"
 					],
 					"type": "entries"
 				},
 				{
-					"type":"list",
+					"type": "list",
 					"items": [
 						"{@b Fallen Aasimar's} Necrotic Shroud's frighten now lasts for 1 minute, and creatures can save at the end of their turns, ending the effect early on a success. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
 						"{@b Protector Aasimar's} Radiant Soul now increases your flight speed by 30 feet while it is active. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
@@ -129,12 +129,12 @@
 			"name": "Animal Handler",
 			"source": "EntrancedFeats",
 			"Page": 2,
-			"ability":[
+			"ability": [
 				{
-					"wis":1
+					"wis": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"animal handling": true
 				}
@@ -149,7 +149,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Animal Handling|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the {@skill Animal Handling|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You can use a bonus action on your turn to command one friendly beast within 60 feet of you that can hear you and that isn't currently following the command of someone else. You decide now what action the beast will take and where it will move during its next turn, or you issue a general command that lasts for 1 minute, such as to guard a particular area."
 					]
 				}
@@ -177,12 +177,12 @@
 					}
 				}
 			],
-			"ability":[
+			"ability": [
 				{
-					"int":1
+					"int": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"arcana": true
 				}
@@ -197,7 +197,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Arcana|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the {@skill Arcana|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You learn the {@spell prestidigitation|phb} and {@spell detect magic|phb} spells, along with one other {@filter 1st-level spell|spells|level=1|class=wizard} from the Wizard spell list. If you already know {spell prestidigitation|phb}, you may instead learn any {@filter cantrip|spells|level=0|class=Wizard} from the Wizard's spell list. You can cast {@spell detect magic|phb} once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. You can cast the 1st-level spell you chose once without expending a spell slot, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability modifier for these spells."
 					]
 				}
@@ -216,7 +216,7 @@
 					]
 				}
 			],
-			"additionalspells":[
+			"additionalspells": [
 				{
 					"ability": "int",
 					"innate": {
@@ -263,7 +263,7 @@
 			"Page": 3,
 			"ability": [
 				{
-					"choose":{
+					"choose": {
 						"from": [
 							"str",
 							"dex"
@@ -321,7 +321,7 @@
 			"name": "Bow Master",
 			"source": "EntrancedFeats",
 			"page": 4,
-			"ability":[
+			"ability": [
 				{
 					"dex": 1
 				}
@@ -346,12 +346,12 @@
 			"name": "Brawny",
 			"source": "EntrancedFeats",
 			"page": 4,
-			"ability":[
+			"ability": [
 				{
 					"str": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"athletics": true
 				}
@@ -366,7 +366,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Athletics|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the {@skill Athletics|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 					]
 				}
@@ -376,7 +376,7 @@
 			"name": "Burglar",
 			"source": "EntrancedFeats",
 			"page": 4,
-			"ability":[
+			"ability": [
 				{
 					"dex": 1
 				}
@@ -406,16 +406,16 @@
 			"name": "Cleave",
 			"source": "EntrancedFeats",
 			"page": 4,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"proficiency":[
+					"proficiency": [
 						{
-							"weapon":"martial"
+							"weapon": "martial"
 						}
 					]
 				}
 			],
-			"ability":[
+			"ability": [
 				{
 					"choose": {
 						"from": [
@@ -466,7 +466,7 @@
 			"name": "Crossbow Expert",
 			"source": "EntrancedFeats",
 			"page": 5,
-			"ability":[
+			"ability": [
 				{
 					"dex": 1
 				}
@@ -552,18 +552,18 @@
 					],
 					"type": "entries"
 				}
-			]			
+			]
 		},
 		{
 			"name": "Diplomat",
 			"source": "EntrancedFeats",
 			"page": 6,
-			"ability":[
+			"ability": [
 				{
 					"cha": 1
 				}
 			],
-			"additionalspells":[
+			"additionalspells": [
 				{
 					"ability": "con",
 					"innate": {
@@ -577,22 +577,22 @@
 					}
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"Persuasion": true
 				}
 			],
 			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You master the arts of diplomacy, gaining the following benefits:"
 					],
 					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
-						"You gain proficiency in the {@skill Persuasion|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Persuasion|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"If you spend 1 minute talking to someone who can understand what you say, you can make a Charisma ({@skill Persuasion|phb}) check contested by the creature's Wisdom saving throw. If you or your companions are fighting the creature, the creature automatically succeeds. On a failure, the target is {@condition charmed|phb} by you as long as it remains within 60 feet of you and for 1 minute thereafter. On a success, the target is immune to the effects of this feat for 24 hours.",
 						"You learn {@spell Charm Person|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
 					]
@@ -605,14 +605,14 @@
 			"page": 7,
 			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have mastered double-ended weaponry, granting you the following benefits:"
 					],
 					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"While wielding a weapon with the Double property, you gain +1 AC.",
 						"When you attack using a weapon with the Double property, you can make the weapon's secondary attack for free as a part of the attack that you make instead of doing so as a bonus action. You may not attack using the weapon's secondary attack more than once per turn.",
 						"If you hit a pair of creatures flanking you using a weapon with the Double property in one turn, they do not gain the benefits of flanking you until the start of your next turn."
@@ -624,16 +624,16 @@
 			"name": "Dragon Breath",
 			"source": "EntrancedFeats",
 			"page": 7,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"race":[
+					"race": [
 						{
 							"name": "Human (Dragonheart)"
 						}
 					]
 				},
 				{
-					"level":{
+					"level": {
 						"level": 1,
 						"class": {
 							"name": "Draconic Bloodline Sorcerer",
@@ -642,32 +642,32 @@
 					}
 				}
 			],
-			"ability":[
+			"ability": [
 				{
 					"con": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have awakened the latent dragon blood that flows within you, allowing you to mimick the breath weapons of dragons. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
 					"type": "list",
-					"items":[
+					"items": [
 						"You grow retractable claws from the tips of your fingers. Extending or retracting the claws requires no action. The claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the normal bludgeoning damage for an unarmed strike.",
-						"You gain the ability to use the Breath Weapon associated with your draconic ancestry." 
+						"You gain the ability to use the Breath Weapon associated with your draconic ancestry."
 					]
 				},
 				{
-				    "type": "list",
+					"type": "list",
 					"style": "list-hang",
 					"items": [
 						"When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy known as your Breath Weapon. When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes damage of the type associated with your draconic ancestry that is a number of {@dice d10}s equal to 1 less than your proficiency bonus. On a successful save, it takes half as much damage. You can use your Breath Weapon a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
-					 ]
-				  }
+					]
+				}
 			]
 		},
 		{
@@ -676,7 +676,7 @@
 			"page": 8,
 			"prerequisite": [
 				{
-					"race":[
+					"race": [
 						{
 							"name": "Elf (drow)"
 						}
@@ -701,7 +701,7 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
 					"entries": [
 						"You learn more of the magic typical of dark elves. You learn the {@spell detect magic|phb} spell and can cast it at will, without expending a spell slot. You also learn {@spell levitate|phb} and {@spell dispel magic|phb}, each of which you can cast once without expending a spell slot. You regain the ability to cast those two spells in this way when you finish a long rest. Constitution is your spellcasting ability for all three spells"
@@ -717,7 +717,7 @@
 			"prerequisite": [
 				{
 					"level": 8,
-					"race":[
+					"race": [
 						{
 							"name": "Duergar"
 						}
@@ -736,16 +736,16 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have honed your unnatural talent to allow you to become as naturally potent as those of your kin born and raised in the clutches of illithids. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
 					"type": "list",
-					"items":[
+					"items": [
 						"You have advantage on saving throws against spells.",
 						"You regain the ability to cast the spells given to you through your Duergar Magic feature without expending a spell slot on a short or long rest."
 					]
@@ -761,16 +761,16 @@
 					"con": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
 					"entries": [
 						"You have gotten quite used to being injured, and pain rarely phases you anymore, as you know you can bounce back from anything. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"When you roll a Hit Die to regain hit points, the minimum number of hit points you regain from the roll equals twice your Constitution modifier (minimum of 2).",
 						"You have advantage on Constitution saving throws against the effects of pain, including holding your breath when taking damage, concentration saves, and spells such as {@spell Power Word Pain|xge}.",
 						"You have advantage on all {@dice d20} rolls for determining the severity of a system shock, lingering injury, or fumble."
@@ -782,30 +782,30 @@
 			"name": "Dwarven Recovery",
 			"source": "EntrancedFeats",
 			"page": 8,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"race":[
+					"race": [
 						{
 							"name": "Dwarf, Halfblood, or M'jol"
 						}
 					]
 				}
 			],
-			"ability":[
+			"ability": [
 				{
 					"con": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have the blood of dwarven heroes flowing through your veins. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
 					"type": "list",
-					"items":[
+					"items": [
 						"While under the effects of alcohol, your hit point maximum increases by a number equal to your current level.",
 						"You can use an action to perform a healing surge by expending a hit die, gaining hit points equal to the number you rolled plus your Constitution modifier."
 					]
@@ -816,14 +816,14 @@
 			"name": "Elemental Adept",
 			"source": "EntrancedFeats",
 			"page": 7,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"other":"The ability to cast at least one spell that deals damage of your chosen type."
+					"other": "The ability to cast at least one spell that deals damage of your chosen type."
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
 						"Spells you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a spell you cast that deals damage of that type, if you roll the maximum face on a die, you can roll that die one additional time and add that to the damage total.",
 						"You can select this feat multiple times. Each time you do so, you must choose a different damage type."
@@ -835,14 +835,14 @@
 			"name": "Elemental Affinity",
 			"source": "EntrancedFeats",
 			"page": 7,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"other":"The ability to cast at least one spell that deals damage of your chosen type."
+					"other": "The ability to cast at least one spell that deals damage of your chosen type."
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"When you gain this feat, choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
 						"You gain resistance to the chosen damage type. In addition, when you roll damage for a spell you cast that deals damage of that type, you can reroll any 1s, but only once for every 1 you roll initially.",
 						"You can select this feat multiple times. Each time you do so, you must choose a different damage type."
@@ -854,12 +854,12 @@
 			"name": "Empathic",
 			"source": "EntrancedFeats",
 			"page": 7,
-			"ability":[
+			"ability": [
 				{
 					"wis": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"insight": true
 				}
@@ -874,7 +874,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Insight|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the {@skill Insight|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You can replace any Intelligence or Wisdom skill check with an {@skill Insight|phb} check. You can use this feat a number of times per short or long rest equal to your proficiency bonus."
 					]
 				}
@@ -885,14 +885,14 @@
 			"source": "EntrancedFeats",
 			"page": 7,
 			"prerequisite": [
-                {
-                    "race": [
-                        {
-                            "name": "Gnome"
-                        }
-                    ]
-                }
-            ],
+				{
+					"race": [
+						{
+							"name": "Gnome"
+						}
+					]
+				}
+			],
 			"ability": [
 				{
 					"choose": {
@@ -908,15 +908,15 @@
 			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"daily":{
-								"1":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
 									"invisibility"
 								]
 							},
-							"rest":{
-								"1":[
+							"rest": {
+								"1": [
 									"expeditious retreat"
 								]
 							}
@@ -976,14 +976,14 @@
 			"source": "EntrancedFeats",
 			"page": 7,
 			"prerequisite": [
-                {
-                    "race": [
-                        {
-                            "name": "Elf (high)"
-                        }
-                    ]
-                }
-            ],
+				{
+					"race": [
+						{
+							"name": "Elf (high)"
+						}
+					]
+				}
+			],
 			"ability": [
 				{
 					"choose": {
@@ -1004,17 +1004,17 @@
 			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"rest":{
-								"1":[
+					"innate": {
+						"_": {
+							"rest": {
+								"1": [
 									"misty step"
 								]
 							}
 						}
 					},
-					"known":{
-						"_":[
+					"known": {
+						"_": [
 							{
 								"choose": "level=0|class=wizard"
 							}
@@ -1037,7 +1037,7 @@
 			"name": "Fey Touched",
 			"source": "EntrancedFeats",
 			"page": 8,
-			"ability":[
+			"ability": [
 				{
 					"choose": {
 						"from": [
@@ -1052,13 +1052,13 @@
 			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"rest":{
-								"1":[
+					"innate": {
+						"_": {
+							"rest": {
+								"1": [
 									"misty step",
 									{
-										"choose":"level=1|school=D;E"
+										"choose": "level=1|school=D;E"
 									}
 								]
 							}
@@ -1082,20 +1082,20 @@
 			"source": "EntrancedFeats",
 			"page": 9,
 			"prerequisite": [
-                {
-                    "race": [
-                        {
-                            "name": "Satyr"
-                        }
-                    ]
-                }
-            ],
+				{
+					"race": [
+						{
+							"name": "Satyr"
+						}
+					]
+				}
+			],
 			"ability": [
 				{
 					"dex": 1
 				}
 			],
-			"weaponProficiencies":[
+			"weaponProficiencies": [
 				{
 					"shortsword": true,
 					"shortbow": true
@@ -1128,15 +1128,15 @@
 			"source": "EntrancedFeats",
 			"page": 8,
 			"prerequisite": [
-                {
-					"level":12,
-                    "race": [
-                        {
-                            "name": "Tiefling"
-                        }
-                    ]
-                }
-            ],
+				{
+					"level": 12,
+					"race": [
+						{
+							"name": "Tiefling"
+						}
+					]
+				}
+			],
 			"ability": [
 				{
 					"con": 1
@@ -1169,15 +1169,15 @@
 			"source": "EntrancedFeats",
 			"page": 9,
 			"prerequisite": [
-                {
-					"level":8,
-                    "race": [
-                        {
-                            "name": "Tiefling"
-                        }
-                    ]
-                }
-            ],
+				{
+					"level": 8,
+					"race": [
+						{
+							"name": "Tiefling"
+						}
+					]
+				}
+			],
 			"ability": [
 				{
 					"con": 1
@@ -1208,14 +1208,14 @@
 			"source": "EntrancedFeats",
 			"page": 9,
 			"prerequisite": [
-                {
-                    "race": [
-                        {
-                            "name": "Tiefling"
-                        }
-                    ]
-                }
-            ],
+				{
+					"race": [
+						{
+							"name": "Tiefling"
+						}
+					]
+				}
+			],
 			"ability": [
 				{
 					"con": 1
@@ -1266,15 +1266,16 @@
 			"entries": [
 				{
 					"entries": [
-						"You have practiced extensively with a variety of weapons, gaining proficiency with simple and martial weapons."
+						"You have practiced extensively with a variety of weapons, gaining proficiency with simple and martial weapons.",
+						"Additionally, your martial training has helped you develop a particular style of fighting. As a result, you learn one {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
+						"Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have."
 					],
 					"type": "entries"
 				},
 				{
 					"type": "list",
 					"items": [
-						"Additionally, your martial training has helped you develop a particular style of fighting. As a result, you learn one {@filter Fighting Style|optionalfeatures|Feature Type=FS:F} option of your choice from the fighter class. If you already have a style, the one you choose must be different.",
-						"Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have."
+
 					]
 				}
 			]
@@ -1347,7 +1348,7 @@
 					"dex": 1
 				}
 			],
-			"weaponProficiencies":[
+			"weaponProficiencies": [
 				{
 					"Firearms": true
 				}
@@ -1396,12 +1397,12 @@
 			"name": "Heavily Armored",
 			"source": "EntrancedFeats",
 			"page": 10,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"other":"Proficiency with medium armor or medium shields"
+					"other": "Proficiency with medium armor or medium shields"
 				}
 			],
-			"ability":[
+			"ability": [
 				{
 					"str": 1
 				}
@@ -1425,7 +1426,7 @@
 			"name": "Herbalist",
 			"source": "EntrancedFeats",
 			"page": 11,
-			"ability":[
+			"ability": [
 				{
 					"wis": 1
 				}
@@ -1456,12 +1457,12 @@
 			"name": "Historian",
 			"source": "EntrancedFeats",
 			"page": 11,
-			"ability":[
+			"ability": [
 				{
 					"int": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"history": true
 				}
@@ -1476,7 +1477,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill History|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the {@skill History|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"When you take the Help action to aid another creature, the creature gains a bonus to the roll equal to your proficiency bonus, as you share pertinent advice and historical examples. To receive this bonus, the creature must be able to understand what you're saying."
 					]
 				}
@@ -1486,9 +1487,9 @@
 			"name": "Hybrid",
 			"source": "EntrancedFeats",
 			"page": 11,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"race":[
+					"race": [
 						{
 							"name": "Any Half-Race"
 						}
@@ -1497,7 +1498,7 @@
 			],
 			"ability": [
 				{
-					"choose":{
+					"choose": {
 						"from": [
 							"str",
 							"dex",
@@ -1529,18 +1530,18 @@
 			"name": "Inspiring Leader",
 			"source": "EntrancedFeats",
 			"page": 11,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"ability":[
+					"ability": [
 						{
 							"cha": "13"
 						}
 					]
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You can spend 10 minutes inspiring your companions, shoring up their resolve to fight. When you do so, choose up to six friendly creatures (which can include yourself) within 30 feet of you who can see or hear you and who can understand you. Each creature can gain temporary hit points equal to your level + your Charisma modifier. A creature can't gain temporary hit points from this feat again until it has finished a short or long rest.",
 						"When you use this feature, you may simultaneously cast {@spell Motivational Speech|cooms} if you have it as a spell. When you do so, you may additively stack the temporary hit points given by the Motivational Speech with those given by this feat if the targets of the spell and feat intersect."
 					],
@@ -1552,7 +1553,7 @@
 			"name": "Inscriber",
 			"source": "EntrancedFeats",
 			"page": 11,
-			"ability":[
+			"ability": [
 				{
 					"int": 1
 				}
@@ -1583,22 +1584,22 @@
 			"name": "Investigator",
 			"source": "EntrancedFeats",
 			"page": 11,
-			"ability":[
+			"ability": [
 				{
-					"int":1
+					"int": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"investigation": true
 				}
 			],
-			"additionalspells":[
+			"additionalspells": [
 				{
-					"innate":{
-						"_":{
-							"daily":{
-								"1":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
 									"identify"
 								]
 							}
@@ -1616,7 +1617,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Investigation|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the {@skill Investigation|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You can take the Search action as a bonus action.",
 						"You can use {@skill Investigation|phb} instead of {@skill Survival|phb} for tracking a creature's whereabouts.",
 						"You learn the {@spell identify|phb} spell and can cast it once per long rest without expending a spell slot or material components."
@@ -1625,24 +1626,24 @@
 			]
 		},
 		{
-		"name": "Keen Mind",
+			"name": "Keen Mind",
 			"source": "EntrancedFeats",
 			"page": 12,
-			"ability":[
+			"ability": [
 				{
-					"int":1
+					"int": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have a mind that can track time, direction, and detail with uncanny precision. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You always know which way is north.",
 						"You always know the number of hours left before the next sunrise or sunset.",
 						"You can accurately recall anything you have seen or heard within the past month.",
@@ -1655,21 +1656,21 @@
 			"name": "Lightly Armored",
 			"source": "EntrancedFeats",
 			"page": 12,
-			"ability":[
+			"ability": [
 				{
-					"dex":1
+					"dex": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have trained to master the use of light armor, gaining the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You gain proficiency with light armor and light shields."
 					]
 				}
@@ -1679,27 +1680,27 @@
 			"name": "Lucky",
 			"source": "EntrancedFeats",
 			"page": 12,
-			"entries":[
-			"You have inexplicable luck that seems to kick in at just the right moment.",
-			"You have 3 luck points. You can spend a luck point to reroll any attack roll, saving throw, or ability check made by you or a creature that you can see. You can replace a roll in this way only once per turn.",
-			"If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.",
-			"You regain your expended luck points when you finish a long rest"
+			"entries": [
+				"You have inexplicable luck that seems to kick in at just the right moment.",
+				"You have 3 luck points. You can spend a luck point to reroll any attack roll, saving throw, or ability check made by you or a creature that you can see. You can replace a roll in this way only once per turn.",
+				"If more than one creature spends a luck point to influence the outcome of a roll, the points cancel each other out; no additional dice are rolled.",
+				"You regain your expended luck points when you finish a long rest"
 			]
 		},
 		{
 			"name": "Mage Slayer",
 			"source": "EntrancedFeats",
 			"page": 12,
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have practiced techniques useful in melee combat against spellcasters, gaining the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"When a creature within 5 feet of you casts a spell, you can use your reaction to make an attack of opportunity against that creature.",
 						"When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
 						"You have advantage on saving throws against spells cast by creatures within 5 feet of you."
@@ -1722,7 +1723,7 @@
 					]
 				}
 			],
-				"additionalSpells": [
+			"additionalSpells": [
 				{
 					"name": "Bard Spells",
 					"ability": "cha",
@@ -1885,9 +1886,9 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Choose a class: {@filter bard|spells|level=0;1;2|class=bard}, {@filter cleric|spells|level=0;1;2|class=cleric}, {@filter druid|spells|level=0;1;2|class=druid}, {@filter sorcerer|spells|level=0;1;2|class=sorcerer}, {@filter warlock|spells|level=0;1;2|class=warlock}, {@filter witch|spells|level=0;1;2|class=witch (THICC)} or {@filter wizard|spells|level=0;1;2|class=wizard}. You learn two cantrips of your choice from that class's spell list.",
 						"In addition, choose one 1st-level spell and one 2nd-level or 1st-level (your choice) spell to learn from that same list. Using this feat, you can cast the 1st-level spell once at its lowest level without consuming a spell slot, and you must finish a short or long rest before you can cast it in this way again. You can also cast the 2nd-level or 1st-level spell once at its lowest level without consuming a spell slot, and you must finish a long rest before you can cast it in this way again",
 						"Your spellcasting ability for these spells depends on the class you chose: Charisma for bard, sorcerer, or warlock; Wisdom for cleric, druid, or witch; or Intelligence for wizard.",
@@ -1901,9 +1902,9 @@
 			"name": "Magic Resistance",
 			"source": "EntrancedFeats",
 			"page": 6,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"race":[
+					"race": [
 						{
 							"name": "Aasimar, Elf (Eladrin), Fairy, Half-Elf (Eladrin), or Tiefling"
 						}
@@ -1912,7 +1913,7 @@
 			],
 			"ability": [
 				{
-					"choose":{
+					"choose": {
 						"from": [
 							"con",
 							"int",
@@ -1923,16 +1924,16 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You become attuned to the resistance to magic that comes naturally to other members of your kin, gaining the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
 					"type": "list",
-					"items":[
+					"items": [
 						"You have advantage on saving throws against spells and other magical effects."
 					]
 				}
@@ -1942,25 +1943,25 @@
 			"name": "Malleable Form",
 			"source": "EntrancedFeats",
 			"page": 6,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"race":[
+					"race": [
 						{
 							"name": "Plasmoid or Shadar-blaidd"
 						}
 					]
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have mastered your shapeless form, allowing you to gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
 					"type": "list",
-					"items":[
+					"items": [
 						"When you use a bonus action to extrude a pseudopod or tendril, you can extrude or retract up to four of them at a time, which are all controlled by the same bonus action. You may have no more than four of them extruded at a given time.",
 						"You can use two pseudopods or tendrils to wield a weapon that you are proficient with that lacks the Heavy property. If a weapon has the Light property, you may choose to wield it with only one pseudopod or tendril. If a weapon has the Versatile property, the damage dice you use is dependent on the amount of pseudopods or tendrils currently wielding it, as if they were arms. Attacking with a weapon wielded in this way is done with an attack action, rather than a bonus action.",
 						"You can use a pseudopod or tendril to activate a magic item that it is holding, using an action, bonus action, or reaction to do so as per the magic item.",
@@ -1973,18 +1974,18 @@
 			"name": "Martial Adept",
 			"source": "EntrancedFeats",
 			"page": 12,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"proficiency":[
+					"proficiency": [
 						{
-							"weapon":"martial"
+							"weapon": "martial"
 						}
 					]
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have martial training that allows you to perform special combat maneuvers. You gain the following benefits:"
 					],
 					"type": "entries"
@@ -2002,22 +2003,22 @@
 			"name": "Medic",
 			"source": "EntrancedFeats",
 			"page": 13,
-			"ability":[
+			"ability": [
 				{
-					"wis":1
+					"wis": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"medicine": true
 				}
 			],
 			"additionalSpells": [
 				{
-					"innate":{
-						"_":{
-							"daily":{
-								"1":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
 									"dote"
 								]
 							}
@@ -2025,17 +2026,17 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You master the physician's arts, gaining the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
-						"You gain proficiency in the {@skill Medicine|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Medicine|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"During a short rest, you can clean and bind the wounds of up to a number of willing beasts and humanoids equal to twice your proficiency bonus. Any additional creatures you wish to do this to requires a usage of a healer's kit to be expent per additional creature. If a creature spends a Hit Die during this rest, that creature can forgo the roll and instead regain the maximum number of hit points the die can restore. A creature can do so only once per rest, regardless of how many Hit Dice it spends",
 						"You learn the {@spell dote|cooms} spell and can cast it as a ritual. On top of this, if you cast Dote by expending a charge of a healer's kit, the casting time changes to 10 minutes. This means that ritual casting Dote while expending a charge of a healer's kit makes the casting time 20 minutes."
 					]
@@ -2046,25 +2047,25 @@
 			"name": "Medium Armor Master",
 			"source": "EntrancedFeats",
 			"page": 13,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"proficiency":[
+					"proficiency": [
 						{
-							"armor":"medium"
+							"armor": "medium"
 						}
 					]
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have practiced moving in medium armor to gain the following benefits"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"Wearing medium armor doesn't impose disadvantage on your Dexterity ({@skill Stealth|phb}) checks.",
 						"Medium armor and shields count as light for the purpose of determining your ability to climb, swim, or fly.",
 						"When you wear medium armor, you can add 3, rather than 2, to your AC if you have a Dexterity of 16 or higher."
@@ -2076,14 +2077,14 @@
 			"name": "Moderately Armored",
 			"source": "EntrancedFeats",
 			"page": 13,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"other":"Proficiency with light armor or light shields"
+					"other": "Proficiency with light armor or light shields"
 				}
 			],
 			"ability": [
 				{
-					"choose":{
+					"choose": {
 						"from": [
 							"str",
 							"dex"
@@ -2092,16 +2093,16 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have trained to master the use of medium armor and shields, gaining the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You gain proficiency with medium armor and medium shields."
 					]
 				}
@@ -2111,23 +2112,23 @@
 			"name": "Menacing",
 			"source": "EntrancedFeats",
 			"page": 13,
-			"ability":[
+			"ability": [
 				{
 					"cha": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"intimidaiton": true
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"daily":{
-								"1e":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
 									"cause fear"
 								]
 							}
@@ -2135,17 +2136,17 @@
 					}
 				}
 			],
-				"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You become fearsome to others, gaining the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
-						"You gain proficiency in the {@skill Intimidation|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Intimidation|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You can use a bonus action to attempt to demoralize one creature you can see within 60 feet of you that can see and hear you. Make a Charisma ({@skill Intimidation|phb}) check contested by the target's Wisdom saving throw. A construct or an undead automatically succeeds the save. If the target fails, they are {@condition frightened|phb} of you for 1 minute, remaking the save at the end of each of their turns. Once the target succeeds the saving throw, they can't be {@condition frightened|phb} by you in this way for 24 hours.",
 						"You learn {@spell Cause Fear|xge} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
 					]
@@ -2156,21 +2157,21 @@
 			"name": "Name-Brand Crafter",
 			"source": "EntrancedFeats",
 			"page": 14,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"other":"Proficiency with a tool"
+					"other": "Proficiency with a tool"
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You've become efficient with the tools of your trade, and are well on the way to being recognized locally for your skills. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"The time it takes to create an item using your proficient tools is halved.",
 						"If you fail to successfully craft a nonmagical item with your proficient tools and would lose the components, you retain the components instead.",
 						"Whenever you craft an item using tools that you are proficient in, the item can be marked by your signature at your discretion. This can be a logo, crest, or other form of marking to indicate its origin was yours."
@@ -2182,27 +2183,27 @@
 			"name": "Naturalist",
 			"source": "EntrancedFeats",
 			"page": 14,
-			"ability":[
+			"ability": [
 				{
 					"int": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"nature": true
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Your extensive study of nature rewards you with the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
-						"You gain proficiency in the {@skill Nature|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Nature|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You learn the {@spell druidcraft|phb} and {@spell detect poison and disease|phb} spells, along with one other {@filter 1st-level spell|spells|level=1|class=druid} from the Druid spell list. If you already know {@spell druidcraft|phb}, you may instead learn any {@filter cantrip|spells|level=0|class=druid} from the Druid's spell list. You can cast {@spell detect poison and disease|phb} once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. You can cast the 1st-level spell you chose once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. Constitution is your spellcasting ability modifier for these spells."
 					]
 				}
@@ -2212,16 +2213,16 @@
 			"name": "Opportunist",
 			"source": "EntrancedFeats",
 			"page": 15,
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Always seeking new ways to exploit any weakness you find in a target, you gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"Creatures provoke {@action opportunity attack|phb|opportunity attacks} when they step into a flank between yourself and an enemy of theirs as they expose their back to you.",
 						"When an enemy you can see within range becomes Wide Open, you may make an {@action opportunity attack|phb} against them as a reaction, taking advantage of their misfortune. If you caused the Wide Open condition, you can make this attack at advantage. If you use a reaction to make someone Wide Open, you make no more than one {@action opportunity attack|phb} as a part of the same reaction.",
 						"If you are using a non-heavy finesse weapon and land an {@action opportunity attack|phb} at advantage, you deal an extra {@dice 1d6} damage."
@@ -2233,16 +2234,16 @@
 			"name": "Parry Master",
 			"source": "EntrancedFeats",
 			"page": 15,
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have gotten quite good at parrying, so much so that one might even describe you as a 'Parry King'... you gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You gain proficiency in Parrying Shields.",
 						"You gain a bonus of {@dice 1d4} to any Parrying or Interception checks you make.",
 						"You can now parry ranged attack rolls. If you completely negate the incoming damage of a ranged attack roll by means of Parrying, instead of the normal effects for successfully parrying or perfectly parrying a melee attack roll, you may redirect the attack to one creature within 5 feet of you. If the attack roll would hit the creature, the creature takes damage equal to the remainder of the potential damage that you could have negated.",
@@ -2255,27 +2256,27 @@
 			"name": "Perceptive",
 			"source": "EntrancedFeats",
 			"page": 15,
-			"ability":[
+			"ability": [
 				{
 					"wis": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"perception": true
 				}
 			],
-			"entries":[
+			"entries": [
 				{
 					"entries": [
 						"You hone your senses until they become razor sharp. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
+					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Perception|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the {@skill Perception|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You can take the Search action as a bonus action.",
 						"Being in a lightly obscured area doesn't impose disadvantage on your Wisdom (Perception) checks if you can both see and hear."
 					]
@@ -2286,23 +2287,23 @@
 			"name": "Performer",
 			"source": "EntrancedFeats",
 			"page": 16,
-			"ability":[
+			"ability": [
 				{
 					"cha": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"performance": true
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"daily":{
-								"1e":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
 									"Tasha's Hideous Laughter"
 								]
 							}
@@ -2310,17 +2311,17 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
 					"entries": [
 						"You master performance so that you can command any stage. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
+					"type": "list",
 					"items": [
-						"You gain proficiency in the {@skill Performance|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+						"You gain proficiency in the {@skill Performance|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"While performing, you can try to distract one nonhostile creature within 60 feet of you can see who can see and hear you. Make a Charisma (Performance) check contested by the creature's Wisdom saving throw. On a failure, you grab the humanoid's attention enough that it makes Wisdom (Perception) and Intelligence (Investigation) checks with disadvantage until you stop performing. On a success, the target is immune to the effects of this feat for 24 hours.",
 						"You learn {@spell Tasha's Hideous Laughter|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
 					]
@@ -2333,7 +2334,7 @@
 			"page": 15,
 			"ability": [
 				{
-					"choose":{
+					"choose": {
 						"from": [
 							"dex",
 							"con",
@@ -2346,15 +2347,15 @@
 			"resist": [
 				"poison"
 			],
-			"entries":[
+			"entries": [
 				{
 					"entries": [
 						"You are accustomed to working with poisons in combat, granting you the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
+					"type": "list",
 					"items": [
 						"You gain resistance to poison damage.",
 						"When you make a damage roll that deals poison damage, it ignores resistance to poison damage.",
@@ -2367,15 +2368,15 @@
 			"name": "Polearm Master",
 			"source": "EntrancedFeats",
 			"page": 16,
-			"entries":[
+			"entries": [
 				{
 					"entries": [
 						"You master polearms, which are the {@item bardiche|owl}, {@item bo staff|owl}, {@item dual-pronged spear|owl}, {@item glaive|owl}, {@item greatscythe|owl}, {@item gythka|owl}, {@item halberd|owl}, {@item javelin|owl}, {@item pitchfork|owl}, {@item pike|owl}, {@item quarterstaff|owl}, {@item rake|owl}, {@item ranseur|owl}, {@item scythe|owl}, {@item spear|owl}, {@item trident|owl}, {@item war scythe|owl}, and {@item yklwa|owl}. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
+					"type": "list",
 					"items": [
 						"All polearms count as Reach weapons for you.",
 						"All polearms gain the Double property for you when wielded with two hands. Polearms that did not have the Double property allow you to use a bonus action to make a melee attack with the opposite end of the weapon whenever you take the attack action with said weapon, so long as it is being wielded with two hands. This attack uses the same ability modifier as the primary attack. The weapon's damage die for this attack is a {@dice d4}, and it deals bludgeoning damage.",
@@ -2389,26 +2390,26 @@
 			"name": "Potent Breath Weapon",
 			"source": "EntrancedFeats",
 			"page": 16,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"other":"Breath Weapon Attack"
+					"other": "Breath Weapon Attack"
 				}
 			],
-			"ability":[
+			"ability": [
 				{
 					"con": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Much like a dragon as they grow older, your breath weapon has increased in power as you have gotten stronger, granting you the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"The range of your Breath Weapon doubles. If it was a 15-foot cone, it would beome a 30-foot cone. If it was a 5 by 30 foot line, it would become a 5 by 60 foot line.",
 						"You may add your Constitution modifier to the damage of your Breath Weapon."
 					]
@@ -2419,28 +2420,108 @@
 			"name": "Primordial Breath Weapon",
 			"source": "EntrancedFeats",
 			"page": 17,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"other":"Breath Weapon Attack"
+					"other": "Breath Weapon Attack"
 				}
 			],
-			"ability":[
+			"ability": [
 				{
 					"con": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Your natural affinity with primordial magic has increased, and your connection to your Breath Weapon's damage type has granted you the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You now regain all uses of your Breath Weapon on a short or long rest.",
 						"Whenever you use your Breath Weapon, you gain immunity to its damage type until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Prodigy",
+			"source": "EntrancedFeats",
+			"page": 25,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Human or Half-Human Race"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"acrobatics",
+							"sleight of hand",
+							"stealth",
+							"arcana",
+							"history",
+							"investigation",
+							"nature",
+							"religion",
+							"animal handling",
+							"insight",
+							"medicine",
+							"perception",
+							"survival",
+							"deception",
+							"intimidation",
+							"performance",
+							"persuasion"
+						]
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"toolProficiencies": [
+				{
+					"any": 1
+				}
+			],
+			"expertise": [
+				{
+					"anyProficientSkill": 1
+				}
+			],
+			"entries": [
+				"You have a knack for learning new things. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain one {@table skills|phb|skill proficiency} of your choice, one {@filter tool proficiency|items|type=tool;artisan's tools} of your choice, and fluency in one language of your choice. Your choices must reflect your character and their adventures and accolades.",
+						"Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus, and must reflect your character and their adventures and accolades."
 					]
 				}
 			]
@@ -2458,16 +2539,16 @@
 					]
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You've started to dip your fingers into the deep well of psionics, granting you the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You learn two psionic talents and one psionic discipline from the Psion class. You cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class. If you have no psi limit otherwise, your psi limit for casting these is 2. Intelligence is your discipline ability for these.",
 						"You gain 5 psi points to spend on your psionic disciplines (these points are added to any psi points you have from another source). You regain all spent psi points when you finish a long rest.",
 						"You gain the ability to use a psychic focus benefit if you couldn't already, following the rules for Psychic Focus so in the Psion class."
@@ -2500,27 +2581,27 @@
 			"name": "Quick-Fingered",
 			"source": "EntrancedFeats",
 			"page": 17,
-			"ability":[
+			"ability": [
 				{
 					"dex": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"Sleight of Hand": true
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Your nimble fingers and agility let you perform sleight of hand. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
-						"You gain proficiency in the {@skill Sleight of Hand|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Sleight of Hand|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"As a bonus action, you can make a Dexterity (Sleight of Hand) check to tie or untie a rope, plant something on someone else, conceal an object on a creature, lift a purse, or take/interact with something from a container on a person, including a holstered weapon, arrows from a quiver, or igniting a bomb."
 					]
 				}
@@ -2530,21 +2611,21 @@
 			"name": "Remarkable Recovery",
 			"source": "EntrancedFeats",
 			"page": 17,
-			"ability":[
+			"ability": [
 				{
 					"con": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Your body has the ability to recover quickly from mortal wounds, and is unusually receptive to healing magic. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"Whenever you are raised from the dead, you do not suffer any of the penalties that other creatures do as a result of being raised.",
 						"Whenever you regain hit points from any source, including from when you wake up and gain 1 hit point after being knocked {@condition unconscious|phb} or raised from the dead, you can choose to perform a healing surge by expending a hit die, gaining hit points equal to the number rolled plus your Constitution modifier."
 					]
@@ -2555,16 +2636,16 @@
 			"name": "Savage Attacker",
 			"source": "EntrancedFeats",
 			"page": 18,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"proficiency":[
+					"proficiency": [
 						{
-							"weapon":"martial"
+							"weapon": "martial"
 						}
 					]
 				}
 			],
-			"ability":[
+			"ability": [
 				{
 					"choose": {
 						"from": [
@@ -2598,7 +2679,7 @@
 					]
 				}
 			],
-			"ability":[
+			"ability": [
 				{
 					"choose": {
 						"from": [
@@ -2624,7 +2705,7 @@
 			"name": "Shadow Touched",
 			"source": "EntrancedFeats",
 			"page": 18,
-			"ability":[
+			"ability": [
 				{
 					"choose": {
 						"from": [
@@ -2639,13 +2720,13 @@
 			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"rest":{
-								"1e":[
+					"innate": {
+						"_": {
+							"rest": {
+								"1e": [
 									"invisibility",
 									{
-										"choose":"level=1|school=I;N"
+										"choose": "level=1|school=I;N"
 									}
 								]
 							}
@@ -2668,25 +2749,25 @@
 			"name": "Shield Master",
 			"source": "EntrancedFeats",
 			"page": 18,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"proficiency":[
+					"proficiency": [
 						{
-							"armor":"shield"
+							"armor": "shield"
 						}
 					]
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You use shields not just for protection but also for offense. You gain the following benefits while you are wielding a shield:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"If you take the {@action Attack|phb} action on your turn, you can use a bonus action to try to shove a creature within 5 feet of you with your shield.",
 						"If you aren't {@condition incapacitated|phb}, you can add your shield's AC bonus to any Dexterity saving throw you make against a spell or other harmful effect that targets only you.",
 						"If you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use your reaction to take no damage if you succeed on the saving throw, interposing your shield between yourself and the source of the effect.",
@@ -2720,23 +2801,23 @@
 			"name": "Silver-Tongued",
 			"source": "EntrancedFeats",
 			"page": 18,
-			"ability":[
+			"ability": [
 				{
 					"cha": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"deception": true
 				}
 			],
-			"additionalSpells":[
+			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"daily":{
-								"1e":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1e": [
 									"Disguise Self"
 								]
 							}
@@ -2744,19 +2825,122 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You develop your conversational skill to better deceive others. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
-						"You gain proficiency in the {@skill Deception|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Deception|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"You may use a bonus action to attempt to deceive one humanoid you can see within 30 feet of you that can see and hear you. Make a Charisma (Deception) check contested by the target's Wisdom saving throw. On a failure, your movement doesn't provoke opportunity attacks from the target and your attack rolls against it have advantage; both benefits last until the end of your turn. On a success, the target can't be deceived by you in this way for 24 hours.",
 						"You learn {@spell Disguise Self|phb} and can cast it once per long rest without expending a spell slot or material components. Constitution is your spellcasting modifier for this spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skill Expert",
+			"source": "EntrancedFeats",
+			"page": 28,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"athletics",
+							"acrobatics",
+							"sleight of hand",
+							"stealth",
+							"arcana",
+							"history",
+							"investigation",
+							"nature",
+							"religion",
+							"animal handling",
+							"insight",
+							"medicine",
+							"perception",
+							"survival",
+							"deception",
+							"intimidation",
+							"performance",
+							"persuasion"
+						]
+					}
+				}
+			],
+			"expertise": [
+				{
+					"anyProficientSkill": 1
+				}
+			],
+			"entries": [
+				"You have honed your proficiency with particular skills, granting you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in one {@table skills|phb|skill} of your choice. Your choice must reflect your character and their adventures and accolades.",
+						"Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus, and must reflect your character and their adventures and accolades."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skilled",
+			"source": "EntrancedFeats",
+			"page": 29,
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis",
+							"cha"
+						],
+						"amount": 1
+					}
+				}
+			],
+			"skillToolLanguageProficiencies": [
+				{
+					"choose": [
+						{
+							"from": [
+								"anySkill",
+								"anyTool"
+							],
+							"count": 3
+						}
+					]
+				}
+			],
+			"entries": [
+				"Your natural talent has finally connected with the practice that you have endured throughout your journey, granting you the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain proficiency in any combination of three {@table skills|phb} or {@filter tools|items|type=tool;artisan's tools;instrument;gaming set;vehicle (land);vehicle (water)} of your choice. Your choices must reflect your character and their adventures and accolades."
 					]
 				}
 			]
@@ -2765,7 +2949,7 @@
 			"name": "Sling Master",
 			"source": "EntrancedFeats",
 			"page": 3,
-			"ability":[
+			"ability": [
 				{
 					"dex": 1
 				}
@@ -2791,27 +2975,27 @@
 			"name": "Stealthy",
 			"source": "EntrancedFeats",
 			"page": 19,
-			"ability":[
+			"ability": [
 				{
 					"dex": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"stealth": true
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You know how best to hide. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
-						"You gain proficiency in the {@skill Stealth|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Stealth|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"If you are hidden, you can move up to 10 feet in the open without revealing yourself if you end the move in a position where you're not clearly visible."
 					]
 				}
@@ -2821,27 +3005,27 @@
 			"name": "Survivalist",
 			"source": "EntrancedFeats",
 			"page": 19,
-			"ability":[
+			"ability": [
 				{
 					"wis": 1
 				}
 			],
-			"skillProficiencies":[
+			"skillProficiencies": [
 				{
 					"survival": true
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You master wilderness lore, gaining the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
-						"You gain proficiency in the {@skill Survival|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice.",
+					"type": "list",
+					"items": [
+						"You gain proficiency in the {@skill Survival|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
 						"Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.",
 						"If you are traveling alone, you can move stealthily at a normal pace.",
 						"When you forage, you find twice as much food as you normally would.",
@@ -2961,9 +3145,9 @@
 			"name": "Svirfneblin Magic",
 			"source": "EntrancedFeats",
 			"page": 19,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"race":[
+					"race": [
 						{
 							"name": "Gnome (deep)"
 						}
@@ -2973,29 +3157,29 @@
 			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"daily":{
-								"1":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
 									"blindness/deafness",
 									"blur",
 									"disguise self"
 								]
 							},
-							"will":[
+							"will": [
 								"nondetection"
 							]
 						}
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have inherited the innate spellcasting ability of your ancestors. This ability allows you to cast {@spell nondetection|phb} on yourself at will, without needing a material component. You can also cast each of the following spells once with this ability: {@spell blindness/deafness|phb}, {@spell blur|phb}, and {@spell disguise self|phb}. You regain the ability to cast these spells when you finish a long rest.",
 						"Constitution is your spellcasting ability for these spells, and you cast them at their lowest possible levels."
 					],
-					"type":"entries"
+					"type": "entries"
 				}
 			]
 		},
@@ -3003,16 +3187,16 @@
 			"name": "Synchronized",
 			"source": "EntrancedFeats",
 			"page": 20,
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You achieve a profound connection with The Weave, allowing you to further understand your own spellcasting as well as connect with any magical items you may come across. Your maximum attuned items increases by an amount equal to half your proficiency bonus (rounded down). Additionally, choose one of the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"If you are a prepared caster, your maximum prepared spells increases by an amount equal to your proficiency bonus.",
 						"If you are a spontaneous caster, you learn an amount of spells equal to half your proficiency bonus (rounded down) from your class' spell list. If you are multiclassed, you may only pick spells from the classes in which you spontaneously cast.",
 						"You learn either the {@spell Magic Dagger|cooms}, {@spell Magic Dart|cooms}, or {@spell Prestidigitation|cooms} cantrip."
@@ -3024,9 +3208,9 @@
 			"name": "Tactician",
 			"source": "EntrancedFeats",
 			"page": 20,
-			"ability":[
-					{
-					"choose":{
+			"ability": [
+				{
+					"choose": {
 						"from": [
 							"int",
 							"wis",
@@ -3036,16 +3220,16 @@
 					}
 				}
 			],
-				"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Through masterful planning, perceptive cunning, or the ability to throw yourself headfirst into any situation you come across, you gain the ability to assert yourself in combat more precisely. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You gain a bonus to your initiative equal to the modifier of the chosen ability score increase",
 						"Before combat starts, after everybody has rolled initiative, you may choose to willingly lower your initiative by any amount. If there is an ability that affects you if you have not taken your first turn in combat yet, it instead counts your original initiative before you lowered it as being your first turn in combat."
 					]
@@ -3056,16 +3240,16 @@
 			"name": "Technician",
 			"source": "EntrancedFeats",
 			"page": 20,
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You are an able repairman, allowing you to fix your construct allies with haste. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"When you use a technician's kit to stabilize a dying Construct, that creature also regains 1 hit point.",
 						"As an action, you can spend one use of a technician's kit to tend to a Construct and restore {@dice 1d6} + your Intelligence modifier + your level hit points to it. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
 						"Instead, as an action, you can spend one use of a technician's kit as well as one of the target's remaining hit die and have them roll it, regaining HP equal to the number rolled.",
@@ -3078,7 +3262,7 @@
 			"name": "Theologian",
 			"source": "EntrancedFeats",
 			"page": 20,
-			"ability":[
+			"ability": [
 				{
 					"int": 1
 				}
@@ -3086,14 +3270,14 @@
 			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"daily":{
-								"1":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
 									"detect evil and good",
 									"thaumaturgy",
 									{
-										"choose":"level=1|class=cleric"
+										"choose": "level=1|class=cleric"
 									}
 								]
 							}
@@ -3101,16 +3285,16 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Your extensive study of religion rewards you with the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You gain proficiency in the {@skill Religion|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice",
 						"You learn the {@spell thaumaturgy|phb} and {@spell detect evil and good|phb} spells, along with one other {@filter 1st-level spell|spells|level=1|class=cleric} from the Cleric spell list. If you already know thaumaturgy, you may instead learn any cantrip from the Cleric's spell list. You can cast detect evil and good once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. You can cast the 1st-level spell you chose once without expending a spell slot, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability modifier for these spells."
 					]
@@ -3121,16 +3305,16 @@
 			"name": "Thrown Weapon Master",
 			"source": "EntrancedFeats",
 			"page": 21,
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have mastered the art of throwing weapons while fighting, causing your hands to be quick when it comes to equipping and aiming a weapon."
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"Weapons with the thrown property have their normal range extended to their maximum range for you.",
 						"Weapons are a lot harder to lose than ammunition, and you've learned to keep a keen eye out for weapons you throw. When you attack using a weapon with the thrown property and miss, the weapon becomes a physical object on the map that can be picked up or interacted with. Thrown weapons that hit are instead always able to be looted off of the enemy that you hit them with.",
 						"Because you are so accustomed to swapping held items constantly, you have learned how to keep weapons on your person ready to be used. You can draw items into your hands or stow items onto your person as a free action during your turn up to a number of times equal to your proficiency bonus."
@@ -3147,16 +3331,16 @@
 					"con": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"Your body can take a beating; it takes a lot before you're willing to throw in the towel. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points."
 					]
 				}
@@ -3209,21 +3393,21 @@
 			"name": "War Caster",
 			"source": "EntrancedFeats",
 			"page": 21,
-			"prerequisite":[
+			"prerequisite": [
 				{
 					"spellcasting": "true"
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You have practiced casting spells in the midst of combat, learning techniques that grant you the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You have advantage on Constitution saving throws that you make to maintain your {@condition concentration|phb} on a spell when you take damage.",
 						"You can perform somatic components with non-focus weapons or shields in hand as well.",
 						"When a hostile creature's movement provokes an {@action opportunity attack|phb} from you, you can use your reaction to cast a spell at the creature, rather than making an {@action opportunity attack|phb}. The spell must have a casting time of 1 action and must target only that creature."
@@ -3257,11 +3441,11 @@
 			"name": "Wood Elf Magic",
 			"source": "EntrancedFeats",
 			"page": 22,
-			"prerequisite":[
+			"prerequisite": [
 				{
-					"race":[
+					"race": [
 						{
-							"name":"Elf (wood)"
+							"name": "Elf (wood)"
 						}
 					]
 				}
@@ -3269,22 +3453,22 @@
 			"additionalSpells": [
 				{
 					"ability": "con",
-					"innate":{
-						"_":{
-							"daily":{
-								"1":[
+					"innate": {
+						"_": {
+							"daily": {
+								"1": [
 									"pass without trace"
 								]
 							},
-							"rest":{
-								"1":[
+							"rest": {
+								"1": [
 									"longstrider"
 								]
 							}
 						}
 					},
-					"known":{
-						"_":[
+					"known": {
+						"_": [
 							{
 								"choose": "level=0|class=druid"
 							}
@@ -3294,7 +3478,7 @@
 			],
 			"ability": [
 				{
-					"choose":{
+					"choose": {
 						"from": [
 							"dex",
 							"con",
@@ -3304,16 +3488,16 @@
 					}
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You learn the magic of the primeval woods, which are revered and protected by your people."
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"You learn two druid {@filter cantrips|spells|level=0|class=druid} of your choice. You also learn the {@spell longstrider|phb} and {@spell pass without trace|phb} spells, each of which you can cast once without expending a spell slot. You regain the ability to cast {@spell longstrider|phb} in this way when you finish a short or long rest, and you regain the ability to cast {@spell pass without trace|phb} in this way when you finish a long rest. Constitution is your spellcasting ability for these spells."
 					]
 				}
@@ -3326,7 +3510,7 @@
 			"prerequisite": [
 				{
 					"level": 8,
-					"race":[
+					"race": [
 						{
 							"name": "Quaggoth"
 						}
@@ -3338,16 +3522,16 @@
 					"con": 1
 				}
 			],
-			"entries":[
+			"entries": [
 				{
-					"entries":[
+					"entries": [
 						"You finally master your nature as a Quaggoth, letting your instincts take over when you fight. You gain the following benefits:"
 					],
-					"type":"entries"
+					"type": "entries"
 				},
 				{
-					"type":"list",
-					"items":[
+					"type": "list",
+					"items": [
 						"Your claws now deal 1d6 slashing damage instead of 1d4.",
 						"Once per turn, while you are bloodied (at half your maximum hit points or fewer), you can give yourself advantage on an attack roll. If you hit, you deal an extra 2d6 damage to the target if the attack was a melee attack."
 					]

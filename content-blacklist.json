@@ -1,4074 +1,5963 @@
 {
-  "siteVersion": "1.210.45",
+  "siteVersion": "1.213.3",
   "fileType": "content-blocklist",
   "blocklist": [
+    {
+      "displayName": "Cleric [PHB]",
+      "hash": "cleric_phb",
+      "category": "class",
+      "source": "*",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter [PHB]",
+      "hash": "fighter_phb",
+      "category": "class",
+      "source": "*",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue [PHB]",
+      "hash": "rogue_phb",
+      "category": "class",
+      "source": "*",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric: Solidarity Domain (PSA)",
+      "hash": "cleric_phb,state:sub_solidarity%20(psa)_psa=b1",
+      "category": "subclass",
+      "source": "*",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric: Solidarity Domain (THICC-Cleric)",
+      "hash": "cleric_thicc-cleric,state:sub_solidarity%20(psa)_thicc-cleric=b1",
+      "category": "subclass",
+      "source": "*",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric: Zeal Domain (PSA)",
+      "hash": "cleric_phb,state:sub_zeal%20(psa)_psa=b1",
+      "category": "subclass",
+      "source": "*",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric: Zeal Domain (THICC)",
+      "hash": "cleric_thicc,state:sub_zeal_thicc=b1",
+      "category": "subclass",
+      "source": "*",
+      "isAuto": false
+    },
     {
       "category": "background",
       "displayName": "Astral Drifter",
       "hash": "astral%20drifter_aag",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Wildspacer",
       "hash": "wildspacer_aag",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Astral Elf",
       "hash": "astral%20elf_aag",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Autognome",
       "hash": "autognome_aag",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Giff",
       "hash": "giff_aag",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Hadozee",
       "hash": "hadozee_aag",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Plasmoid",
       "hash": "plasmoid_aag",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Thri-kreen",
       "hash": "thri-kreen_aag",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "displayName": "Air Bubble",
       "hash": "air%20bubble_aag",
       "category": "spell",
-      "source": "AAG"
+      "source": "AAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Verdan",
       "hash": "verdan_ai",
-      "source": "AI"
+      "source": "AI",
+      "isAuto": false
     },
     {
       "displayName": "Motivational Speech",
       "hash": "motivational%20speech_ai",
       "category": "spell",
-      "source": "AI"
+      "source": "AI",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Linked Glyphs",
       "hash": "linked%20glyphs_aitfr-avt",
-      "source": "AitFR-AVT"
+      "source": "AitFR-AVT",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Acolyte",
       "hash": "baldur's%20gate%20acolyte_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Charlatan",
       "hash": "baldur's%20gate%20charlatan_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Criminal",
       "hash": "baldur's%20gate%20criminal_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Entertainer",
       "hash": "baldur's%20gate%20entertainer_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Folk Hero",
       "hash": "baldur's%20gate%20folk%20hero_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Guild Artisan",
       "hash": "baldur's%20gate%20guild%20artisan_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Hermit",
       "hash": "baldur's%20gate%20hermit_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Noble",
       "hash": "baldur's%20gate%20noble_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Outlander",
       "hash": "baldur's%20gate%20outlander_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Sage",
       "hash": "baldur's%20gate%20sage_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Sailor",
       "hash": "baldur's%20gate%20sailor_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Soldier",
       "hash": "baldur's%20gate%20soldier_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Baldur's Gate Urchin",
       "hash": "baldur's%20gate%20urchin_bgdia",
-      "source": "BGDIA"
+      "source": "BGDIA",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Giant Foundling",
       "hash": "giant%20foundling_bgg",
-      "source": "BGG"
+      "source": "BGG",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Rune Carver",
       "hash": "rune%20carver_bgg",
-      "source": "BGG"
+      "source": "BGG",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Rewarded",
       "hash": "rewarded_bmt",
-      "source": "BMT"
+      "source": "BMT",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Ruined",
       "hash": "ruined_bmt",
-      "source": "BMT"
+      "source": "BMT",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Cartomancer",
       "hash": "cartomancer_bmt",
-      "source": "BMT"
+      "source": "BMT",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Antagonize",
       "hash": "antagonize_bmt",
-      "source": "BMT"
+      "source": "BMT",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Spray of Cards",
       "hash": "spray%20of%20cards_bmt",
-      "source": "BMT"
+      "source": "BMT",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "BookOfEbonTides",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Mind Thrust",
       "hash": "mind%20thrust_cooms",
-      "source": "COOMS"
+      "source": "COOMS",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Acid Resistance",
       "hash": "potion%20of%20acid%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Cold Resistance",
       "hash": "potion%20of%20cold%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Fire Resistance",
       "hash": "potion%20of%20fire%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Force Resistance",
       "hash": "potion%20of%20force%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Greater Healing",
       "hash": "potion%20of%20greater%20healing_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Healing",
       "hash": "potion%20of%20healing_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Lightning Resistance",
       "hash": "potion%20of%20lightning%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Necrotic Resistance",
       "hash": "potion%20of%20necrotic%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Poison Resistance",
       "hash": "potion%20of%20poison%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Psychic Resistance",
       "hash": "potion%20of%20psychic%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Radiant Resistance",
       "hash": "potion%20of%20radiant%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Superior Healing",
       "hash": "potion%20of%20superior%20healing_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Supreme Healing",
       "hash": "potion%20of%20supreme%20healing_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potion of Thunder Resistance",
       "hash": "potion%20of%20thunder%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "itemGroup",
       "displayName": "Potion of Healing (*)",
       "hash": "potion%20of%20healing%20(*)_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "itemGroup",
       "displayName": "Potion of Resistance",
       "hash": "potion%20of%20resistance_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "itemGroup",
       "displayName": "Potions of Healing",
       "hash": "potions%20of%20healing_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+1 Ammunition",
       "hash": "%2b1%20ammunition_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+1 Armor",
       "hash": "%2b1%20armor_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+1 Shield (*)",
       "hash": "%2b1%20shield%20(*)_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+1 Weapon",
       "hash": "%2b1%20weapon_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+1 Weapon (no damage)",
       "hash": "%2b1%20weapon%20(no%20damage)_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+2 Ammunition",
       "hash": "%2b2%20ammunition_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+2 Armor",
       "hash": "%2b2%20armor_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+2 Shield (*)",
       "hash": "%2b2%20shield%20(*)_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+2 Weapon",
       "hash": "%2b2%20weapon_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+2 Weapon (no damage)",
       "hash": "%2b2%20weapon%20(no%20damage)_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+3 Ammunition",
       "hash": "%2b3%20ammunition_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+3 Armor",
       "hash": "%2b3%20armor_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+3 Shield (*)",
       "hash": "%2b3%20shield%20(*)_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+3 Weapon",
       "hash": "%2b3%20weapon_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "+3 Weapon (no damage)",
       "hash": "%2b3%20weapon%20(no%20damage)_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "Adamantine Armor",
       "hash": "adamantine%20armor_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Aasimar",
       "hash": "aasimar_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf (Eladrin)",
       "hash": "elf%20(eladrin)_dmg",
-      "source": "DMG"
+      "source": "DMG",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Knight of Solamnia",
       "hash": "knight%20of%20solamnia_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Mage of High Sorcery",
       "hash": "mage%20of%20high%20sorcery_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Adept of the Black Robes",
       "hash": "adept%20of%20the%20black%20robes_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Adept of the Red Robes",
       "hash": "adept%20of%20the%20red%20robes_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Adept of the White Robes",
       "hash": "adept%20of%20the%20white%20robes_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Divinely Favored",
       "hash": "divinely%20favored_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Initiate of High Sorcery",
       "hash": "initiate%20of%20high%20sorcery_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Knight of the Crown",
       "hash": "knight%20of%20the%20crown_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Knight of the Rose",
       "hash": "knight%20of%20the%20rose_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Knight of the Sword",
       "hash": "knight%20of%20the%20sword_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Squire of Solamnia",
       "hash": "squire%20of%20solamnia_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Kender",
       "hash": "kender_dsotdq",
-      "source": "DSotDQ"
+      "source": "DSotDQ",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Continental Nobility",
       "hash": "continental%20nobility_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Devoted Missionary",
       "hash": "devoted%20missionary_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Mageborn",
       "hash": "mageborn_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Survivor",
       "hash": "survivor_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Treasure Seeker",
       "hash": "treasure%20seeker_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Variant Continental Nobility (Last of the Line)",
       "hash": "variant%20continental%20nobility%20(last%20of%20the%20line)_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Variant Devoted Missionary (Stargazer)",
       "hash": "variant%20devoted%20missionary%20(stargazer)_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Variant Mageborn (Malfeasant Mage)",
       "hash": "variant%20mageborn%20(malfeasant%20mage)_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Variant Survivor (Veteran of the Civil War)",
       "hash": "variant%20survivor%20(veteran%20of%20the%20civil%20war)_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Variant Treasure Seeker (Soldier of Fortune)",
       "hash": "variant%20treasure%20seeker%20(soldier%20of%20fortune)_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Conjure the Deep Haze",
       "hash": "conjure%20the%20deep%20haze_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Contaminated Power",
       "hash": "contaminated%20power_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Contamination Immunity",
       "hash": "contamination%20immunity_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Delerium Blast",
       "hash": "delerium%20blast_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Delerium Orb",
       "hash": "delerium%20orb_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Forced Evolution",
       "hash": "forced%20evolution_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Neutralizing Field",
       "hash": "neutralizing%20field_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Octarine Spray",
       "hash": "octarine%20spray_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Purge Contamination",
       "hash": "purge%20contamination_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Ray of Contamination",
       "hash": "ray%20of%20contamination_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Ride the Rifts",
       "hash": "ride%20the%20rifts_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Sacrament of the Falling Fire",
       "hash": "sacrament%20of%20the%20falling%20fire_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Siphon Contamination",
       "hash": "siphon%20contamination_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Warp Bolt",
       "hash": "warp%20bolt_dodk",
-      "source": "DoDk"
+      "source": "DoDk",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "DungeonsDrakkenheim",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Aarakocra",
       "hash": "aarakocra_eepc",
-      "source": "EEPC"
+      "source": "EEPC",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi",
       "hash": "genasi_eepc",
-      "source": "EEPC"
+      "source": "EEPC",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi (Air)",
       "hash": "genasi%20(air)_eepc",
-      "source": "EEPC"
+      "source": "EEPC",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi (Earth)",
       "hash": "genasi%20(earth)_eepc",
-      "source": "EEPC"
+      "source": "EEPC",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi (Fire)",
       "hash": "genasi%20(fire)_eepc",
-      "source": "EEPC"
+      "source": "EEPC",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi (Water)",
       "hash": "genasi%20(water)_eepc",
-      "source": "EEPC"
+      "source": "EEPC",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Augen Trust (Spy)",
       "hash": "augen%20trust%20(spy)_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Cobalt Scholar (Sage)",
       "hash": "cobalt%20scholar%20(sage)_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Grinner",
       "hash": "grinner_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Luxonborn (Acolyte)",
       "hash": "luxonborn%20(acolyte)_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Myriad Operative (Criminal)",
       "hash": "myriad%20operative%20(criminal)_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Volstrucker Agent",
       "hash": "volstrucker%20agent_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dragonborn (Draconblood)",
       "hash": "dragonborn%20(draconblood)_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dragonborn (Ravenite)",
       "hash": "dragonborn%20(ravenite)_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Orc",
       "hash": "orc_egw",
-      "source": "EGW"
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Fortune's Favor",
+      "hash": "fortune's%20favor_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Gift of Alacrity",
+      "hash": "gift%20of%20alacrity_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Gravity Sinkhole",
+      "hash": "gravity%20sinkhole_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Immovable Object",
+      "hash": "immovable%20object_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Magnify Gravity",
+      "hash": "magnify%20gravity_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Pulse Wave",
+      "hash": "pulse%20wave_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Sapping Sting",
+      "hash": "sapping%20sting_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Temporal Shunt",
+      "hash": "temporal%20shunt_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Tether Essence",
+      "hash": "tether%20essence_egw",
+      "source": "EGW",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "House Agent",
       "hash": "house%20agent_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Double-Bladed Scimitar",
       "hash": "double-bladed%20scimitar_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Aberrant Dragonmark",
       "hash": "aberrant%20dragonmark_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Revenant Blade",
       "hash": "revenant%20blade_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Bugbear",
       "hash": "bugbear_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Changeling",
       "hash": "changeling_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dwarf (Mark of Warding)",
       "hash": "dwarf%20(mark%20of%20warding)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf (Mark of Shadow)",
       "hash": "elf%20(mark%20of%20shadow)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gnome (Mark of Scribing)",
       "hash": "gnome%20(mark%20of%20scribing)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Goblin",
       "hash": "goblin_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Elf (Variant; Mark of Detection)",
       "hash": "half-elf%20(variant%3b%20mark%20of%20detection)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Elf (Variant; Mark of Storm)",
       "hash": "half-elf%20(variant%3b%20mark%20of%20storm)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Orc (Variant; Mark of Finding)",
       "hash": "half-orc%20(variant%3b%20mark%20of%20finding)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Halfling (Mark of Healing)",
       "hash": "halfling%20(mark%20of%20healing)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Halfling (Mark of Hospitality)",
       "hash": "halfling%20(mark%20of%20hospitality)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Hobgoblin",
       "hash": "hobgoblin_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Human (Mark of Handling)",
       "hash": "human%20(mark%20of%20handling)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Human (Mark of Making)",
       "hash": "human%20(mark%20of%20making)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Human (Mark of Passage)",
       "hash": "human%20(mark%20of%20passage)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Human (Mark of Sentinel)",
       "hash": "human%20(mark%20of%20sentinel)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Human (Variant; Mark of Finding)",
       "hash": "human%20(variant%3b%20mark%20of%20finding)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Kalashtar",
       "hash": "kalashtar_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Orc",
       "hash": "orc_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Shifter",
       "hash": "shifter_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Shifter (Beasthide)",
       "hash": "shifter%20(beasthide)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Shifter (Longtooth)",
       "hash": "shifter%20(longtooth)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Shifter (Swiftstride)",
       "hash": "shifter%20(swiftstride)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Shifter (Wildhunt)",
       "hash": "shifter%20(wildhunt)_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Warforged",
       "hash": "warforged_erlw",
-      "source": "ERLW"
+      "source": "ERLW",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Weapon Master",
+      "hash": "weapon%20master_entrancedfeats",
+      "source": "EntrancedFeats",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dragonborn (Chromatic)",
       "hash": "dragonborn%20(chromatic)_ftd",
-      "source": "FTD"
+      "source": "FTD",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dragonborn (Gem)",
       "hash": "dragonborn%20(gem)_ftd",
-      "source": "FTD"
+      "source": "FTD",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dragonborn (Metallic)",
       "hash": "dragonborn%20(metallic)_ftd",
-      "source": "FTD"
+      "source": "FTD",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Rime's Binding Ice",
       "hash": "rime's%20binding%20ice_ftd",
-      "source": "FTD"
+      "source": "FTD",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "FleeMortals",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Azorius Functionary",
       "hash": "azorius%20functionary_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Boros Legionnaire",
       "hash": "boros%20legionnaire_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Dimir Operative",
       "hash": "dimir%20operative_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Golgari Agent",
       "hash": "golgari%20agent_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Gruul Anarch",
       "hash": "gruul%20anarch_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Izzet Engineer",
       "hash": "izzet%20engineer_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Orzhov Representative",
       "hash": "orzhov%20representative_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Rakdos Cultist",
       "hash": "rakdos%20cultist_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Selesnya Initiate",
       "hash": "selesnya%20initiate_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Simic Scientist",
       "hash": "simic%20scientist_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Centaur",
       "hash": "centaur_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Goblin",
       "hash": "goblin_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Loxodon",
       "hash": "loxodon_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Minotaur",
       "hash": "minotaur_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Simic Hybrid",
       "hash": "simic%20hybrid_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Vedalken",
       "hash": "vedalken_ggr",
-      "source": "GGR"
+      "source": "GGR",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Adroit Crafter",
       "hash": "adroit%20crafter_ghloe",
-      "source": "GHLoE"
+      "source": "GHLoE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Careful Crafter",
       "hash": "careful%20crafter_ghloe",
-      "source": "GHLoE"
+      "source": "GHLoE",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "GriffonsSaddlebag2",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "GrimHollowPlayerPack",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "The Disembodied",
       "hash": "the%20disembodied_grimhollowplayerpack",
-      "source": "GrimHollowPlayerPack"
+      "source": "GrimHollowPlayerPack",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Wechselkind",
       "hash": "wechselkind_grimhollowplayerpack",
-      "source": "GrimHollowPlayerPack"
+      "source": "GrimHollowPlayerPack",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Bloodletter",
       "hash": "bloodletter_grimhollowplayerpack",
-      "source": "GrimHollowPlayerPack"
+      "source": "GrimHollowPlayerPack",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Holy Word",
       "hash": "holy%20word_grimhollowplayerpack",
-      "source": "GrimHollowPlayerPack"
+      "source": "GrimHollowPlayerPack",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Supernal Smite",
       "hash": "supernal%20smite_grimhollowplayerpack",
-      "source": "GrimHollowPlayerPack"
+      "source": "GrimHollowPlayerPack",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Grounded",
       "hash": "grounded_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Wind-Touched",
       "hash": "wind-touched_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Aerial Expert",
       "hash": "aerial%20expert_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Heavy Glider",
       "hash": "heavy%20glider_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Cervan",
       "hash": "cervan_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Cervan (Grove)",
       "hash": "cervan%20(grove)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Cervan (Pronghorn)",
       "hash": "cervan%20(pronghorn)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Corvum",
       "hash": "corvum_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Corvum (Dusk)",
       "hash": "corvum%20(dusk)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Corvum (Kindled)",
       "hash": "corvum%20(kindled)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gallus",
       "hash": "gallus_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gallus (Bright)",
       "hash": "gallus%20(bright)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gallus (Huden)",
       "hash": "gallus%20(huden)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Hedge",
       "hash": "hedge_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Jerbeen",
       "hash": "jerbeen_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Luma",
       "hash": "luma_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Luma (Sable)",
       "hash": "luma%20(sable)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Luma (Sera)",
       "hash": "luma%20(sera)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Mapach",
       "hash": "mapach_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Raptor",
       "hash": "raptor_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Raptor (Maran)",
       "hash": "raptor%20(maran)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Raptor (Mistral)",
       "hash": "raptor%20(mistral)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Strig",
       "hash": "strig_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Strig (Stout)",
       "hash": "strig%20(stout)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Strig (Swift)",
       "hash": "strig%20(swift)_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Vulpin",
       "hash": "vulpin_hwcs",
-      "source": "HWCS"
+      "source": "HWCS",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "HumblewoodCampaignSetting",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "HumblewoodTales",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Flock of Familiars",
       "hash": "flock%20of%20familiars_llk",
-      "source": "LLK"
+      "source": "LLK",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Centaur",
       "hash": "centaur_mot",
-      "source": "MOT"
+      "source": "MOT",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Leonin",
       "hash": "leonin_mot",
-      "source": "MOT"
+      "source": "MOT",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Minotaur",
       "hash": "minotaur_mot",
-      "source": "MOT"
+      "source": "MOT",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Satyr",
       "hash": "satyr_mot",
-      "source": "MOT"
+      "source": "MOT",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Triton",
       "hash": "triton_mot",
-      "source": "MOT"
+      "source": "MOT",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Aarakocra",
       "hash": "aarakocra_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Aasimar",
       "hash": "aasimar_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Bugbear",
       "hash": "bugbear_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Centaur",
       "hash": "centaur_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Changeling",
       "hash": "changeling_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Deep Gnome",
       "hash": "deep%20gnome_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Duergar",
       "hash": "duergar_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Eladrin",
       "hash": "eladrin_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Fairy",
       "hash": "fairy_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Firbolg",
       "hash": "firbolg_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi",
       "hash": "genasi_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi (Air)",
       "hash": "genasi%20(air)_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi (Earth)",
       "hash": "genasi%20(earth)_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi (Fire)",
       "hash": "genasi%20(fire)_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Genasi (Water)",
       "hash": "genasi%20(water)_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Githyanki",
       "hash": "githyanki_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Githzerai",
       "hash": "githzerai_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Goblin",
       "hash": "goblin_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Goliath",
       "hash": "goliath_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Harengon",
       "hash": "harengon_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Hobgoblin",
       "hash": "hobgoblin_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Kenku",
       "hash": "kenku_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Kobold",
       "hash": "kobold_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Lizardfolk",
       "hash": "lizardfolk_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Minotaur",
       "hash": "minotaur_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Orc",
       "hash": "orc_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Satyr",
       "hash": "satyr_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Sea Elf",
       "hash": "sea%20elf_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Shadar-Kai",
       "hash": "shadar-kai_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Shifter",
       "hash": "shifter_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tabaxi",
       "hash": "tabaxi_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tortle",
       "hash": "tortle_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Triton",
       "hash": "triton_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Yuan-Ti",
       "hash": "yuan-ti_mpmm",
-      "source": "MPMM"
+      "source": "MPMM",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Svirfneblin Magic",
       "hash": "svirfneblin%20magic_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dwarf (Duergar)",
       "hash": "dwarf%20(duergar)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf (Eladrin)",
       "hash": "elf%20(eladrin)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf (Sea)",
       "hash": "elf%20(sea)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf (Shadar-kai)",
       "hash": "elf%20(shadar-kai)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gith",
       "hash": "gith_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gith (Githyanki)",
       "hash": "gith%20(githyanki)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gith (Githzerai)",
       "hash": "gith%20(githzerai)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gnome (Deep)",
       "hash": "gnome%20(deep)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Asmodeus)",
       "hash": "tiefling%20(asmodeus)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Baalzebul)",
       "hash": "tiefling%20(baalzebul)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Dispater)",
       "hash": "tiefling%20(dispater)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Fierna)",
       "hash": "tiefling%20(fierna)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Glasya)",
       "hash": "tiefling%20(glasya)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Levistus)",
       "hash": "tiefling%20(levistus)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Mammon)",
       "hash": "tiefling%20(mammon)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Mephistopheles)",
       "hash": "tiefling%20(mephistopheles)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Zariel)",
       "hash": "tiefling%20(zariel)_mtf",
-      "source": "MTF"
+      "source": "MTF",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Custom Background",
       "hash": "custom%20background_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Arrow",
       "hash": "arrow_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Battleaxe",
       "hash": "battleaxe_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Blowgun",
       "hash": "blowgun_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Blowgun Needle",
       "hash": "blowgun%20needle_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Breastplate",
       "hash": "breastplate_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Chain Mail",
       "hash": "chain%20mail_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Chain Shirt",
       "hash": "chain%20shirt_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Club",
       "hash": "club_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Crossbow Bolt",
       "hash": "crossbow%20bolt_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Crystal",
       "hash": "crystal_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Dagger",
       "hash": "dagger_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Dart",
       "hash": "dart_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Flail",
       "hash": "flail_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Glaive",
       "hash": "glaive_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Greataxe",
       "hash": "greataxe_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Greatclub",
       "hash": "greatclub_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Greatsword",
       "hash": "greatsword_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Halberd",
       "hash": "halberd_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Half Plate Armor",
       "hash": "half%20plate%20armor_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Hand Crossbow",
       "hash": "hand%20crossbow_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Handaxe",
       "hash": "handaxe_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Heavy Crossbow",
       "hash": "heavy%20crossbow_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Hide Armor",
       "hash": "hide%20armor_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Javelin",
       "hash": "javelin_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Lance",
       "hash": "lance_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Leather Armor",
       "hash": "leather%20armor_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Light Crossbow",
       "hash": "light%20crossbow_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Light Hammer",
       "hash": "light%20hammer_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Longbow",
       "hash": "longbow_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Longsword",
       "hash": "longsword_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Mace",
       "hash": "mace_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Maul",
       "hash": "maul_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Morningstar",
       "hash": "morningstar_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Net",
       "hash": "net_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Orb",
       "hash": "orb_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Padded Armor",
       "hash": "padded%20armor_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Pike",
       "hash": "pike_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Plate Armor",
       "hash": "plate%20armor_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Quarterstaff",
       "hash": "quarterstaff_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Rapier",
       "hash": "rapier_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Ring Mail",
       "hash": "ring%20mail_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Rod",
       "hash": "rod_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Scale Mail",
       "hash": "scale%20mail_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Scimitar",
       "hash": "scimitar_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Shield",
       "hash": "shield_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Shortbow",
       "hash": "shortbow_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Shortsword",
       "hash": "shortsword_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Sickle",
       "hash": "sickle_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Sling",
       "hash": "sling_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Sling Bullet",
       "hash": "sling%20bullet_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Spear",
       "hash": "spear_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Splint Armor",
       "hash": "splint%20armor_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Staff",
       "hash": "staff_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Studded Leather Armor",
       "hash": "studded%20leather%20armor_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Trident",
       "hash": "trident_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Wand",
       "hash": "wand_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "War Pick",
       "hash": "war%20pick_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Warhammer",
       "hash": "warhammer_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Whip",
       "hash": "whip_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Wooden Staff",
       "hash": "wooden%20staff_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk",
       "hash": "monk_phb",
       "category": "class",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger",
       "hash": "ranger_phb",
       "category": "class",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock",
       "hash": "warlock_phb",
       "category": "class",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 10: Divine Intervention",
+      "hash": "divine%20intervention_cleric_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 11: Destroy Undead (CR 2)",
+      "hash": "destroy%20undead%20(cr%202)_cleric_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_cleric_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 14: Destroy Undead (CR 3)",
+      "hash": "destroy%20undead%20(cr%203)_cleric_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_cleric_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 17: Destroy Undead (CR 4)",
+      "hash": "destroy%20undead%20(cr%204)_cleric_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 17: Divine Domain feature",
+      "hash": "divine%20domain%20feature_cleric_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 18: Channel Divinity",
+      "hash": "channel%20divinity_cleric_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_cleric_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 1: Divine Domain",
+      "hash": "divine%20domain_cleric_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 1: Spellcasting",
+      "hash": "spellcasting_cleric_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 20: Divine Intervention Improvement",
+      "hash": "divine%20intervention%20improvement_cleric_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 2: Channel Divinity",
+      "hash": "channel%20divinity_cleric_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 2: Channel Divinity: Turn Undead",
+      "hash": "channel%20divinity%3a%20turn%20undead_cleric_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 2: Divine Domain feature",
+      "hash": "divine%20domain%20feature_cleric_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_cleric_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 5: Destroy Undead (CR 1/2)",
+      "hash": "destroy%20undead%20(cr%201%2f2)_cleric_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 6: Channel Divinity",
+      "hash": "channel%20divinity_cleric_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 6: Divine Domain feature",
+      "hash": "divine%20domain%20feature_cleric_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_cleric_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 8: Destroy Undead (CR 1)",
+      "hash": "destroy%20undead%20(cr%201)_cleric_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 8: Divine Domain feature",
+      "hash": "divine%20domain%20feature_cleric_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 10: Martial Archetype feature",
+      "hash": "martial%20archetype%20feature_fighter_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 11: Extra Attack (2)",
+      "hash": "extra%20attack%20(2)_fighter_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 13: Indomitable (two uses)",
+      "hash": "indomitable%20(two%20uses)_fighter_phb_13_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 14: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 15: Martial Archetype feature",
+      "hash": "martial%20archetype%20feature_fighter_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 17: Action Surge (two uses)",
+      "hash": "action%20surge%20(two%20uses)_fighter_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 17: Indomitable (three uses)",
+      "hash": "indomitable%20(three%20uses)_fighter_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 18: Martial Archetype feature",
+      "hash": "martial%20archetype%20feature_fighter_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 1: Fighting Style",
+      "hash": "fighting%20style_fighter_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 1: Second Wind",
+      "hash": "second%20wind_fighter_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 20: Extra Attack (3)",
+      "hash": "extra%20attack%20(3)_fighter_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 2: Action Surge",
+      "hash": "action%20surge_fighter_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 3: Martial Archetype",
+      "hash": "martial%20archetype_fighter_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 5: Extra Attack",
+      "hash": "extra%20attack_fighter_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 6: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 7: Martial Archetype feature",
+      "hash": "martial%20archetype%20feature_fighter_phb_7_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_fighter_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 9: Indomitable",
+      "hash": "indomitable_fighter_phb_9_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 10: Purity of Body",
       "hash": "purity%20of%20body_monk_phb_10_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 11: Monastic Tradition feature",
       "hash": "monastic%20tradition%20feature_monk_phb_11_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 12: Ability Score Improvement",
       "hash": "ability%20score%20improvement_monk_phb_12_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 13: Tongue of the Sun and Moon",
       "hash": "tongue%20of%20the%20sun%20and%20moon_monk_phb_13_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 14: Diamond Soul",
       "hash": "diamond%20soul_monk_phb_14_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 15: Timeless Body",
       "hash": "timeless%20body_monk_phb_15_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 16: Ability Score Improvement",
       "hash": "ability%20score%20improvement_monk_phb_16_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 17: Monastic Tradition feature",
       "hash": "monastic%20tradition%20feature_monk_phb_17_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 18: Empty Body",
       "hash": "empty%20body_monk_phb_18_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 19: Ability Score Improvement",
       "hash": "ability%20score%20improvement_monk_phb_19_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 1: Martial Arts",
       "hash": "martial%20arts_monk_phb_1_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 1: Unarmored Defense",
       "hash": "unarmored%20defense_monk_phb_1_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 20: Perfect Self",
       "hash": "perfect%20self_monk_phb_20_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 2: Flurry of Blows",
       "hash": "flurry%20of%20blows_monk_phb_2_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 2: Ki",
       "hash": "ki_monk_phb_2_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 2: Patient Defense",
       "hash": "patient%20defense_monk_phb_2_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 2: Step of the Wind",
       "hash": "step%20of%20the%20wind_monk_phb_2_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 2: Unarmored Movement",
       "hash": "unarmored%20movement_monk_phb_2_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 3: Deflect Missiles",
       "hash": "deflect%20missiles_monk_phb_3_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 3: Monastic Tradition",
       "hash": "monastic%20tradition_monk_phb_3_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 4: Ability Score Improvement",
       "hash": "ability%20score%20improvement_monk_phb_4_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 4: Slow Fall",
       "hash": "slow%20fall_monk_phb_4_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 5: Extra Attack",
       "hash": "extra%20attack_monk_phb_5_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 5: Stunning Strike",
       "hash": "stunning%20strike_monk_phb_5_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 6: Ki-Empowered Strikes",
       "hash": "ki-empowered%20strikes_monk_phb_6_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 6: Monastic Tradition feature",
       "hash": "monastic%20tradition%20feature_monk_phb_6_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 7: Evasion",
       "hash": "evasion_monk_phb_7_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 7: Stillness of Mind",
       "hash": "stillness%20of%20mind_monk_phb_7_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 8: Ability Score Improvement",
       "hash": "ability%20score%20improvement_monk_phb_8_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Monk 9: Unarmored Movement improvement",
       "hash": "unarmored%20movement%20improvement_monk_phb_9_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 10: Hide in Plain Sight",
       "hash": "hide%20in%20plain%20sight_ranger_phb_10_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 10: Natural Explorer improvement",
       "hash": "natural%20explorer%20improvement_ranger_phb_10_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 11: Ranger Archetype feature",
       "hash": "ranger%20archetype%20feature_ranger_phb_11_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 12: Ability Score Improvement",
       "hash": "ability%20score%20improvement_ranger_phb_12_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 14: Favored Enemy improvement",
       "hash": "favored%20enemy%20improvement_ranger_phb_14_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 14: Vanish",
       "hash": "vanish_ranger_phb_14_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 15: Ranger Archetype feature",
       "hash": "ranger%20archetype%20feature_ranger_phb_15_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 16: Ability Score Improvement",
       "hash": "ability%20score%20improvement_ranger_phb_16_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 18: Feral Senses",
       "hash": "feral%20senses_ranger_phb_18_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 19: Ability Score Improvement",
       "hash": "ability%20score%20improvement_ranger_phb_19_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 1: Favored Enemy",
       "hash": "favored%20enemy_ranger_phb_1_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 1: Natural Explorer",
       "hash": "natural%20explorer_ranger_phb_1_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 20: Foe Slayer",
       "hash": "foe%20slayer_ranger_phb_20_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 2: Fighting Style",
       "hash": "fighting%20style_ranger_phb_2_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 2: Spellcasting",
       "hash": "spellcasting_ranger_phb_2_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 3: Primeval Awareness",
       "hash": "primeval%20awareness_ranger_phb_3_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 3: Ranger Archetype",
       "hash": "ranger%20archetype_ranger_phb_3_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 4: Ability Score Improvement",
       "hash": "ability%20score%20improvement_ranger_phb_4_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 5: Extra Attack",
       "hash": "extra%20attack_ranger_phb_5_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 6: Favored Enemy and Natural Explorer improvements",
       "hash": "favored%20enemy%20and%20natural%20explorer%20improvements_ranger_phb_6_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 7: Ranger Archetype feature",
       "hash": "ranger%20archetype%20feature_ranger_phb_7_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 8: Ability Score Improvement",
       "hash": "ability%20score%20improvement_ranger_phb_8_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 8: Land's Stride",
       "hash": "land's%20stride_ranger_phb_8_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 10: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 11: Reliable Talent",
+      "hash": "reliable%20talent_rogue_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 13: Roguish Archetype feature",
+      "hash": "roguish%20archetype%20feature_rogue_phb_13_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 14: Blindsense",
+      "hash": "blindsense_rogue_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 15: Slippery Mind",
+      "hash": "slippery%20mind_rogue_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 17: Roguish Archetype feature",
+      "hash": "roguish%20archetype%20feature_rogue_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 18: Elusive",
+      "hash": "elusive_rogue_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 1: Expertise",
+      "hash": "expertise_rogue_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 1: Sneak Attack",
+      "hash": "sneak%20attack_rogue_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 1: Thieves' Cant",
+      "hash": "thieves'%20cant_rogue_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 20: Stroke of Luck",
+      "hash": "stroke%20of%20luck_rogue_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 2: Cunning Action",
+      "hash": "cunning%20action_rogue_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 3: Roguish Archetype",
+      "hash": "roguish%20archetype_rogue_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 5: Uncanny Dodge",
+      "hash": "uncanny%20dodge_rogue_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 6: Expertise",
+      "hash": "expertise_rogue_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 7: Evasion",
+      "hash": "evasion_rogue_phb_7_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_rogue_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 9: Roguish Archetype feature",
+      "hash": "roguish%20archetype%20feature_rogue_phb_9_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 10: Otherworldly Patron feature",
       "hash": "otherworldly%20patron%20feature_warlock_phb_10_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 11: Mystic Arcanum (6th level)",
       "hash": "mystic%20arcanum%20(6th%20level)_warlock_phb_11_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 12: Ability Score Improvement",
       "hash": "ability%20score%20improvement_warlock_phb_12_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 13: Mystic Arcanum (7th level)",
       "hash": "mystic%20arcanum%20(7th%20level)_warlock_phb_13_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 14: Otherworldly Patron feature",
       "hash": "otherworldly%20patron%20feature_warlock_phb_14_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 15: Mystic Arcanum (8th level)",
       "hash": "mystic%20arcanum%20(8th%20level)_warlock_phb_15_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 16: Ability Score Improvement",
       "hash": "ability%20score%20improvement_warlock_phb_16_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 17: Mystic Arcanum (9th level)",
       "hash": "mystic%20arcanum%20(9th%20level)_warlock_phb_17_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 19: Ability Score Improvement",
       "hash": "ability%20score%20improvement_warlock_phb_19_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 1: Otherworldly Patron",
       "hash": "otherworldly%20patron_warlock_phb_1_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 1: Pact Magic",
       "hash": "pact%20magic_warlock_phb_1_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 20: Eldritch Master",
       "hash": "eldritch%20master_warlock_phb_20_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 2: Eldritch Invocations",
       "hash": "eldritch%20invocations_warlock_phb_2_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 3: Pact Boon",
       "hash": "pact%20boon_warlock_phb_3_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 4: Ability Score Improvement",
       "hash": "ability%20score%20improvement_warlock_phb_4_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 6: Otherworldly Patron feature",
       "hash": "otherworldly%20patron%20feature_warlock_phb_6_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 8: Ability Score Improvement",
       "hash": "ability%20score%20improvement_warlock_phb_8_phb",
       "category": "classFeature",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "condition",
       "displayName": "Exhaustion",
       "hash": "exhaustion_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Athlete",
       "hash": "athlete_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Crossbow Expert",
       "hash": "crossbow%20expert_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Defensive Duelist",
       "hash": "defensive%20duelist_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Durable",
       "hash": "durable_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Elemental Adept",
       "hash": "elemental%20adept_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Grappler",
       "hash": "grappler_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Healer",
       "hash": "healer_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Heavily Armored",
       "hash": "heavily%20armored_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Inspiring Leader",
       "hash": "inspiring%20leader_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Keen Mind",
       "hash": "keen%20mind_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Lightly Armored",
       "hash": "lightly%20armored_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Lucky",
+      "hash": "lucky_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Mage Slayer",
       "hash": "mage%20slayer_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Magic Initiate",
       "hash": "magic%20initiate_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Martial Adept",
       "hash": "martial%20adept_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Medium Armor Master",
       "hash": "medium%20armor%20master_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Moderately Armored",
       "hash": "moderately%20armored_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Polearm Master",
       "hash": "polearm%20master_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Savage Attacker",
+      "hash": "savage%20attacker_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Shield Master",
       "hash": "shield%20master_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Spell Sniper",
+      "hash": "spell%20sniper_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Tough",
       "hash": "tough_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "War Caster",
       "hash": "war%20caster_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Weapon Master",
+      "hash": "weapon%20master_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Alchemist's Supplies",
       "hash": "alchemist's%20supplies_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Brewer's Supplies",
       "hash": "brewer's%20supplies_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Calligrapher's Supplies",
       "hash": "calligrapher's%20supplies_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Carpenter's Tools",
       "hash": "carpenter's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Cartographer's Tools",
       "hash": "cartographer's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Cobbler's Tools",
       "hash": "cobbler's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Cook's Utensils",
       "hash": "cook's%20utensils_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Glassblower's Tools",
       "hash": "glassblower's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Jeweler's Tools",
       "hash": "jeweler's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Leatherworker's Tools",
       "hash": "leatherworker's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Mason's Tools",
       "hash": "mason's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Painter's Supplies",
       "hash": "painter's%20supplies_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Potter's Tools",
       "hash": "potter's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Reliquary",
       "hash": "reliquary_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Smith's Tools",
       "hash": "smith's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Sprig of Mistletoe",
       "hash": "sprig%20of%20mistletoe_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Tinker's Tools",
       "hash": "tinker's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Totem",
       "hash": "totem_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Weaver's Tools",
       "hash": "weaver's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Woodcarver's Tools",
       "hash": "woodcarver's%20tools_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "item",
       "displayName": "Yew Wand",
       "hash": "yew%20wand_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "itemGroup",
       "displayName": "Arcane Focus",
       "hash": "arcane%20focus_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "itemGroup",
       "displayName": "Druidic Focus",
       "hash": "druidic%20focus_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "itemGroup",
       "displayName": "Holy Symbol",
       "hash": "holy%20symbol_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "Silvered Ammunition",
       "hash": "silvered%20ammunition_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "Silvered Weapon",
       "hash": "silvered%20weapon_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "optionalfeature",
       "displayName": "Devil's Sight",
       "hash": "devil's%20sight_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "optionalfeature",
       "displayName": "Eyes of the Rune Keeper",
       "hash": "eyes%20of%20the%20rune%20keeper_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "optionalfeature",
+      "displayName": "Sign of Ill Omen",
+      "hash": "sign%20of%20ill%20omen_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "optionalfeature",
+      "displayName": "Thief of Five Fates",
+      "hash": "thief%20of%20five%20fates_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dragonborn",
       "hash": "dragonborn_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dragonborn (Base)",
       "hash": "dragonborn%20(base)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dwarf",
       "hash": "dwarf_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dwarf (Hill)",
       "hash": "dwarf%20(hill)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dwarf (Mountain)",
       "hash": "dwarf%20(mountain)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf",
       "hash": "elf_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf (Drow)",
       "hash": "elf%20(drow)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf (High)",
       "hash": "elf%20(high)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Elf (Wood)",
       "hash": "elf%20(wood)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gnome",
       "hash": "gnome_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gnome (Forest)",
       "hash": "gnome%20(forest)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gnome (Rock)",
       "hash": "gnome%20(rock)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Elf",
       "hash": "half-elf_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Elf (Base)",
       "hash": "half-elf%20(base)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Orc",
       "hash": "half-orc_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Orc (Base)",
       "hash": "half-orc%20(base)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Halfling",
       "hash": "halfling_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Halfling (Lightfoot)",
       "hash": "halfling%20(lightfoot)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Halfling (Stout)",
       "hash": "halfling%20(stout)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Human",
       "hash": "human_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Human (Base)",
       "hash": "human%20(base)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Human (Variant)",
       "hash": "human%20(variant)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling",
       "hash": "tiefling_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Base)",
       "hash": "tiefling%20(base)_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Alter Self",
       "hash": "alter%20self_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Armor of Agathys",
       "hash": "armor%20of%20agathys_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Aura of Life",
       "hash": "aura%20of%20life_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Aura of Purity",
       "hash": "aura%20of%20purity_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Aura of Vitality",
       "hash": "aura%20of%20vitality_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Bane",
       "hash": "bane_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Banishing Smite",
       "hash": "banishing%20smite_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Bestow Curse",
       "hash": "bestow%20curse_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Blade Barrier",
       "hash": "blade%20barrier_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Bless",
       "hash": "bless_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Blight",
       "hash": "blight_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Blinding Smite",
       "hash": "blinding%20smite_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Branding Smite",
       "hash": "branding%20smite_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Chill Touch",
       "hash": "chill%20touch_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Circle of Death",
       "hash": "circle%20of%20death_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Cloud of Daggers",
       "hash": "cloud%20of%20daggers_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Cone of Cold",
       "hash": "cone%20of%20cold_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Create or Destroy Water",
       "hash": "create%20or%20destroy%20water_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Cure Wounds",
       "hash": "cure%20wounds_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Dancing Lights",
       "hash": "dancing%20lights_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Druidcraft",
       "hash": "druidcraft_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Enhance Ability",
       "hash": "enhance%20ability_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Faerie Fire",
       "hash": "faerie%20fire_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "False Life",
       "hash": "false%20life_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Find Familiar",
       "hash": "find%20familiar_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Finger of Death",
       "hash": "finger%20of%20death_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Friends",
       "hash": "friends_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Glyph of Warding",
       "hash": "glyph%20of%20warding_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Goodberry",
       "hash": "goodberry_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Grasping Vine",
       "hash": "grasping%20vine_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Grease",
       "hash": "grease_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Guardian of Faith",
+      "hash": "guardian%20of%20faith_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Guidance",
       "hash": "guidance_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Hail of Thorns",
+      "hash": "hail%20of%20thorns_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Harm",
       "hash": "harm_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Heal",
       "hash": "heal_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Healing Word",
       "hash": "healing%20word_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Holy Aura",
       "hash": "holy%20aura_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Hunger of Hadar",
       "hash": "hunger%20of%20hadar_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Ice Storm",
       "hash": "ice%20storm_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Illusory Script",
       "hash": "illusory%20script_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Inflict Wounds",
       "hash": "inflict%20wounds_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Lightning Arrow",
       "hash": "lightning%20arrow_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Magic Weapon",
+      "hash": "magic%20weapon_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Mass Cure Wounds",
       "hash": "mass%20cure%20wounds_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Mass Heal",
       "hash": "mass%20heal_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Mass Healing Word",
       "hash": "mass%20healing%20word_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Mending",
       "hash": "mending_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Message",
       "hash": "message_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Power Word Heal",
       "hash": "power%20word%20heal_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Prayer of Healing",
       "hash": "prayer%20of%20healing_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Prestidigitation",
       "hash": "prestidigitation_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Protection from Evil and Good",
       "hash": "protection%20from%20evil%20and%20good_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Raise Dead",
       "hash": "raise%20dead_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Ray of Enfeeblement",
       "hash": "ray%20of%20enfeeblement_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Ray of Sickness",
       "hash": "ray%20of%20sickness_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Regenerate",
       "hash": "regenerate_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Reincarnate",
       "hash": "reincarnate_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Remove Curse",
       "hash": "remove%20curse_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Resistance",
       "hash": "resistance_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Resurrection",
       "hash": "resurrection_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Revivify",
       "hash": "revivify_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Searing Smite",
       "hash": "searing%20smite_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Shield",
       "hash": "shield_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Sleet Storm",
       "hash": "sleet%20storm_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Spiritual Weapon",
       "hash": "spiritual%20weapon_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Staggering Smite",
       "hash": "staggering%20smite_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Stoneskin",
+      "hash": "stoneskin_phb",
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Thaumaturgy",
       "hash": "thaumaturgy_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Thunderous Smite",
       "hash": "thunderous%20smite_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "True Strike",
       "hash": "true%20strike_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Unseen Servant",
       "hash": "unseen%20servant_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Wall of Force",
       "hash": "wall%20of%20force_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "displayName": "Wind Wall",
       "hash": "wind%20wall_phb",
       "category": "spell",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Wrathful Smite",
       "hash": "wrathful%20smite_phb",
-      "source": "PHB"
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 17: Supreme Healing",
+      "hash": "supreme%20healing_cleric_phb_solidarity%20(psa)_psa_17_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 1: Bonus Proficiency",
+      "hash": "bonus%20proficiency_cleric_phb_solidarity%20(psa)_psa_1_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 1: Solidarity Domain (PSA)",
+      "hash": "solidarity%20domain%20(psa)_cleric_phb_solidarity%20(psa)_psa_1_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 1: Solidarity's Action",
+      "hash": "solidarity's%20action_cleric_phb_solidarity%20(psa)_psa_1_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 2: Channel Divinity: Preserve Life",
+      "hash": "channel%20divinity%3a%20preserve%20life_cleric_phb_solidarity%20(psa)_psa_2_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 6: Oketra's Blessing",
+      "hash": "oketra's%20blessing_cleric_phb_solidarity%20(psa)_psa_6_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 8: Divine Strike",
+      "hash": "divine%20strike_cleric_phb_solidarity%20(psa)_psa_8_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 17: Blaze of Glory",
+      "hash": "blaze%20of%20glory_cleric_phb_zeal%20(psa)_psa_17_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 1: Bonus Proficiencies",
+      "hash": "bonus%20proficiencies_cleric_phb_zeal%20(psa)_psa_1_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 1: Priest of Zeal",
+      "hash": "priest%20of%20zeal_cleric_phb_zeal%20(psa)_psa_1_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 1: Zeal Domain (PSA)",
+      "hash": "zeal%20domain%20(psa)_cleric_phb_zeal%20(psa)_psa_1_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 2: Channel Divinity: Consuming Fervor",
+      "hash": "channel%20divinity%3a%20consuming%20fervor_cleric_phb_zeal%20(psa)_psa_2_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 6: Resounding Strike",
+      "hash": "resounding%20strike_cleric_phb_zeal%20(psa)_psa_6_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 8: Divine Strike",
+      "hash": "divine%20strike_cleric_phb_zeal%20(psa)_psa_8_psa",
+      "category": "subclassFeature",
+      "source": "PSA",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Spiked Armor",
       "hash": "spiked%20armor_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Gnome (Deep/Svirfneblin)",
       "hash": "gnome%20(deep%2fsvirfneblin)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Elf (Variant; Aquatic Elf Descent)",
       "hash": "half-elf%20(variant%3b%20aquatic%20elf%20descent)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Elf (Variant; Drow Descent)",
       "hash": "half-elf%20(variant%3b%20drow%20descent)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
       "hash": "half-elf%20(variant%3b%20moon%20elf%20or%20sun%20elf%20descent)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Half-Elf (Variant; Wood Elf Descent)",
       "hash": "half-elf%20(variant%3b%20wood%20elf%20descent)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Halfling (Ghostwise)",
       "hash": "halfling%20(ghostwise)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Variant; Devil's Tongue)",
       "hash": "tiefling%20(variant%3b%20devil's%20tongue)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Variant; Hellfire)",
       "hash": "tiefling%20(variant%3b%20hellfire)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Variant; Infernal Legacy)",
       "hash": "tiefling%20(variant%3b%20infernal%20legacy)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tiefling (Variant; Winged)",
       "hash": "tiefling%20(variant%3b%20winged)_scag",
-      "source": "SCAG"
+      "source": "SCAG",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Lorehold Student",
       "hash": "lorehold%20student_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Prismari Student",
       "hash": "prismari%20student_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Quandrix Student",
       "hash": "quandrix%20student_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Silverquill Student",
       "hash": "silverquill%20student_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Witherbloom Student",
       "hash": "witherbloom%20student_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Strixhaven Initiate",
       "hash": "strixhaven%20initiate_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Strixhaven Mascot",
       "hash": "strixhaven%20mascot_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Owlin",
       "hash": "owlin_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Borrowed Knowledge",
       "hash": "borrowed%20knowledge_scc",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "displayName": "Silvery Barbs",
       "hash": "silvery%20barbs_scc",
       "category": "spell",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "displayName": "Vortex Warp",
       "hash": "vortex%20warp_scc",
       "category": "spell",
-      "source": "SCC"
+      "source": "SCC",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Gate Warden",
       "hash": "gate%20warden_sato",
-      "source": "SatO"
+      "source": "SatO",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Planar Philosopher",
       "hash": "planar%20philosopher_sato",
-      "source": "SatO"
+      "source": "SatO",
+      "isAuto": false
     },
     {
       "displayName": "Artificer",
       "hash": "artificer_tce",
       "category": "class",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 10: Magic Item Adept",
       "hash": "magic%20item%20adept_artificer_tce_10_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 11: Spell-Storing Item",
       "hash": "spell-storing%20item_artificer_tce_11_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 12: Ability Score Improvement",
       "hash": "ability%20score%20improvement_artificer_tce_12_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 14: Magic Item Savant",
       "hash": "magic%20item%20savant_artificer_tce_14_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 15: Artificer Specialist Feature",
       "hash": "artificer%20specialist%20feature_artificer_tce_15_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 16: Ability Score Improvement",
       "hash": "ability%20score%20improvement_artificer_tce_16_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 18: Magic Item Master",
       "hash": "magic%20item%20master_artificer_tce_18_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 19: Ability Score Improvement",
       "hash": "ability%20score%20improvement_artificer_tce_19_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 1: Magical Tinkering",
       "hash": "magical%20tinkering_artificer_tce_1_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 1: Optional Rule: Firearm Proficiency",
       "hash": "optional%20rule%3a%20firearm%20proficiency_artificer_tce_1_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 1: Spellcasting",
       "hash": "spellcasting_artificer_tce_1_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 20: Soul of Artifice",
       "hash": "soul%20of%20artifice_artificer_tce_20_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 2: Infuse Item",
       "hash": "infuse%20item_artificer_tce_2_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 2: Infusions Known",
       "hash": "infusions%20known_artificer_tce_2_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 3: Artificer Specialist",
       "hash": "artificer%20specialist_artificer_tce_3_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 3: The Right Tool for the Job",
       "hash": "the%20right%20tool%20for%20the%20job_artificer_tce_3_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 4: Ability Score Improvement",
       "hash": "ability%20score%20improvement_artificer_tce_4_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 5: Artificer Specialist Feature",
       "hash": "artificer%20specialist%20feature_artificer_tce_5_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 6: Tool Expertise",
       "hash": "tool%20expertise_artificer_tce_6_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 7: Flash of Genius",
       "hash": "flash%20of%20genius_artificer_tce_7_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 8: Ability Score Improvement",
       "hash": "ability%20score%20improvement_artificer_tce_8_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Artificer 9: Artificer Specialist Feature",
       "hash": "artificer%20specialist%20feature_artificer_tce_9_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 2: Channel Divinity: Harness Divine Power",
+      "hash": "channel%20divinity%3a%20harness%20divine%20power_cleric_phb_2_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 4: Cantrip Versatility",
+      "hash": "cantrip%20versatility_cleric_phb_4_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 4: Martial Versatility",
+      "hash": "martial%20versatility_fighter_phb_4_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Monk 2: Dedicated Weapon",
       "hash": "dedicated%20weapon_monk_phb_2_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Monk 3: Ki-Fueled Attack",
       "hash": "ki-fueled%20attack_monk_phb_3_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Monk 4: Quickened Healing",
       "hash": "quickened%20healing_monk_phb_4_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Monk 5: Focused Aim",
       "hash": "focused%20aim_monk_phb_5_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 10: Deft Explorer Improvement",
       "hash": "deft%20explorer%20improvement_ranger_phb_10_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 10: Nature's Veil",
       "hash": "nature's%20veil_ranger_phb_10_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 1: Deft Explorer",
       "hash": "deft%20explorer_ranger_phb_1_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 1: Favored Foe",
       "hash": "favored%20foe_ranger_phb_1_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 2: Spellcasting Focus",
       "hash": "spellcasting%20focus_ranger_phb_2_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 3: Primal Awareness",
       "hash": "primal%20awareness_ranger_phb_3_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 4: Martial Versatility",
       "hash": "martial%20versatility_ranger_phb_4_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Ranger 6: Deft Explorer Improvement",
       "hash": "deft%20explorer%20improvement_ranger_phb_6_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 3: Steady Aim",
+      "hash": "steady%20aim_rogue_phb_3_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Warlock 4: Eldritch Versatility",
       "hash": "eldritch%20versatility_warlock_phb_4_tce",
       "category": "classFeature",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Artificer Initiate",
       "hash": "artificer%20initiate_tce",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Fey Touched",
       "hash": "fey%20touched_tce",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Fighting Initiate",
+      "hash": "fighting%20initiate_tce",
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Gunner",
       "hash": "gunner_tce",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Poisoner",
+      "hash": "poisoner_tce",
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Shadow Touched",
       "hash": "shadow%20touched_tce",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "category": "optionalfeature",
+      "displayName": "Homunculus Servant",
+      "hash": "homunculus%20servant_tce",
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "category": "optionalfeature",
       "displayName": "Replicate Magic Item",
       "hash": "replicate%20magic%20item_tce",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Custom Lineage",
       "hash": "custom%20lineage_tce",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "displayName": "Sword Burst",
       "hash": "sword%20burst_tce",
       "category": "spell",
-      "source": "TCE"
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 8: Blessed Strikes",
+      "hash": "blessed%20strikes_cleric_phb_solidarity%20(psa)_psa_8_tce",
+      "category": "subclassFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 8: Blessed Strikes",
+      "hash": "blessed%20strikes_cleric_phb_zeal%20(psa)_psa_8_tce",
+      "category": "subclassFeature",
+      "source": "TCE",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Ashari",
       "hash": "ashari_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Clasp Member",
       "hash": "clasp%20member_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Lyceum Scholar",
       "hash": "lyceum%20scholar_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Reformed Cultist",
       "hash": "reformed%20cultist_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Variant Clasp Member (Myriad Operative)",
       "hash": "variant%20clasp%20member%20(myriad%20operative)_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Variant Whitestone Rifle Corps (Grey Hunter)",
       "hash": "variant%20whitestone%20rifle%20corps%20(grey%20hunter)_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "background",
       "displayName": "Whitestone Rifle Corps",
       "hash": "whitestone%20rifle%20corps_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Cruel",
       "hash": "cruel_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Flash Recall",
       "hash": "flash%20recall_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Mystic Conflux",
       "hash": "mystic%20conflux_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Remarkable Recovery",
       "hash": "remarkable%20recovery_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Spelldriver",
       "hash": "spelldriver_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Thrown Arms Master",
       "hash": "thrown%20arms%20master_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Vital Sacrifice",
       "hash": "vital%20sacrifice_tdcsr",
-      "source": "TDCSR"
+      "source": "TDCSR",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal) 17: Blaze of Glory",
+      "hash": "blaze%20of%20glory_cleric_thicc_zeal_thicc_17_thicc",
+      "category": "subclassFeature",
+      "source": "THICC",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal) 1: Bonus Proficiencies",
+      "hash": "bonus%20proficiencies_cleric_thicc_zeal_thicc_1_thicc",
+      "category": "subclassFeature",
+      "source": "THICC",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal) 1: Priest of Zeal",
+      "hash": "priest%20of%20zeal_cleric_thicc_zeal_thicc_1_thicc",
+      "category": "subclassFeature",
+      "source": "THICC",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal) 1: Zeal Domain (THICC)",
+      "hash": "zeal%20domain%20(thicc)_cleric_thicc_zeal_thicc_1_thicc",
+      "category": "subclassFeature",
+      "source": "THICC",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal) 2: Channel Divinity: Consuming Fervor",
+      "hash": "channel%20divinity%3a%20consuming%20fervor_cleric_thicc_zeal_thicc_2_thicc",
+      "category": "subclassFeature",
+      "source": "THICC",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal) 6: Resounding Strike",
+      "hash": "resounding%20strike_cleric_thicc_zeal_thicc_6_thicc",
+      "category": "subclassFeature",
+      "source": "THICC",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal) 8: Divine Strike",
+      "hash": "divine%20strike_cleric_thicc_zeal_thicc_8_thicc",
+      "category": "subclassFeature",
+      "source": "THICC",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 17: Supreme Healing",
+      "hash": "supreme%20healing_cleric_thicc-cleric_solidarity%20(psa)_thicc-cleric_17_thicc-cleric",
+      "category": "subclassFeature",
+      "source": "THICC-Cleric",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 1: Bonus Proficiency",
+      "hash": "bonus%20proficiency_cleric_thicc-cleric_solidarity%20(psa)_thicc-cleric_1_thicc-cleric",
+      "category": "subclassFeature",
+      "source": "THICC-Cleric",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 1: Solidarity Domain (THICC-Cleric)",
+      "hash": "solidarity%20domain%20(thicc-cleric)_cleric_thicc-cleric_solidarity%20(psa)_thicc-cleric_1_thicc-cleric",
+      "category": "subclassFeature",
+      "source": "THICC-Cleric",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 1: Solidarity's Action",
+      "hash": "solidarity's%20action_cleric_thicc-cleric_solidarity%20(psa)_thicc-cleric_1_thicc-cleric",
+      "category": "subclassFeature",
+      "source": "THICC-Cleric",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 2: Channel Divinity: Preserve Life",
+      "hash": "channel%20divinity%3a%20preserve%20life_cleric_thicc-cleric_solidarity%20(psa)_thicc-cleric_2_thicc-cleric",
+      "category": "subclassFeature",
+      "source": "THICC-Cleric",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 6: Oketra's Blessing",
+      "hash": "oketra's%20blessing_cleric_thicc-cleric_solidarity%20(psa)_thicc-cleric_6_thicc-cleric",
+      "category": "subclassFeature",
+      "source": "THICC-Cleric",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 8: Divine Strike",
+      "hash": "divine%20strike_cleric_thicc-cleric_solidarity%20(psa)_thicc-cleric_8_thicc-cleric",
+      "category": "subclassFeature",
+      "source": "THICC-Cleric",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "TLotRR",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "TalDoreiCampaignSettingReborn",
+      "isAuto": false
     },
     {
       "category": "baseitem",
       "displayName": "Yklwa",
       "hash": "yklwa_toa",
-      "source": "ToA"
+      "source": "ToA",
+      "isAuto": false
     },
     {
       "displayName": "*",
       "hash": "*",
       "category": "*",
-      "source": "UAArtificer"
+      "source": "ToB1-2023",
+      "isAuto": false
     },
     {
       "displayName": "*",
       "hash": "*",
       "category": "*",
-      "source": "UAArtificerRevisited"
+      "source": "UAArtificer",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "UAArtificerRevisited",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 12: Proficiency Versatility",
+      "hash": "proficiency%20versatility_cleric_phb_12_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 16: Proficiency Versatility",
+      "hash": "proficiency%20versatility_cleric_phb_16_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 19: Proficiency Versatility",
+      "hash": "proficiency%20versatility_cleric_phb_19_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 1: Cantrip Versatility",
+      "hash": "cantrip%20versatility_cleric_phb_1_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 2: Channel Divinity: Harness Divine Power",
+      "hash": "channel%20divinity%3a%20harness%20divine%20power_cleric_phb_2_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 4: Proficiency Versatility",
+      "hash": "proficiency%20versatility_cleric_phb_4_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric 8: Proficiency Versatility",
+      "hash": "proficiency%20versatility_cleric_phb_8_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 12: Proficiency Versatility",
+      "hash": "proficiency%20versatility_fighter_phb_12_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 14: Proficiency Versatility",
+      "hash": "proficiency%20versatility_fighter_phb_14_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 16: Proficiency Versatility",
+      "hash": "proficiency%20versatility_fighter_phb_16_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 19: Proficiency Versatility",
+      "hash": "proficiency%20versatility_fighter_phb_19_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 1: Maneuver Versatility",
+      "hash": "maneuver%20versatility_fighter_phb_1_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 1: Martial Versatility",
+      "hash": "martial%20versatility_fighter_phb_1_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 4: Proficiency Versatility",
+      "hash": "proficiency%20versatility_fighter_phb_4_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 6: Proficiency Versatility",
+      "hash": "proficiency%20versatility_fighter_phb_6_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Fighter 8: Proficiency Versatility",
+      "hash": "proficiency%20versatility_fighter_phb_8_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 10: Proficiency Versatility",
+      "hash": "proficiency%20versatility_rogue_phb_10_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 12: Proficiency Versatility",
+      "hash": "proficiency%20versatility_rogue_phb_12_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 16: Proficiency Versatility",
+      "hash": "proficiency%20versatility_rogue_phb_16_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 19: Proficiency Versatility",
+      "hash": "proficiency%20versatility_rogue_phb_19_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 2: Cunning Action: Aim",
+      "hash": "cunning%20action%3a%20aim_rogue_phb_2_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 4: Proficiency Versatility",
+      "hash": "proficiency%20versatility_rogue_phb_4_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Rogue 8: Proficiency Versatility",
+      "hash": "proficiency%20versatility_rogue_phb_8_uaclassfeaturevariants",
+      "category": "classFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "category": "optionalfeature",
+      "displayName": "Elemental Spell",
+      "hash": "elemental%20spell_uaclassfeaturevariants",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "category": "optionalfeature",
+      "displayName": "Seeking Spell",
+      "hash": "seeking%20spell_uaclassfeaturevariants",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "category": "optionalfeature",
+      "displayName": "Unerring Spell",
+      "hash": "unerring%20spell_uaclassfeaturevariants",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Solidarity (PSA)) 8: Blessed Strikes",
+      "hash": "blessed%20strikes_cleric_phb_solidarity%20(psa)_psa_8_uaclassfeaturevariants",
+      "category": "subclassFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
+    },
+    {
+      "displayName": "Cleric (Zeal (PSA)) 8: Blessed Strikes",
+      "hash": "blessed%20strikes_cleric_phb_zeal%20(psa)_psa_8_uaclassfeaturevariants",
+      "category": "subclassFeature",
+      "source": "UAClassFeatureVariants",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Alchemist",
       "hash": "alchemist_uafeats",
-      "source": "UAFeats"
+      "source": "UAFeats",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Burglar",
       "hash": "burglar_uafeats",
-      "source": "UAFeats"
+      "source": "UAFeats",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Fell Handed",
       "hash": "fell%20handed_uafeats",
-      "source": "UAFeats"
+      "source": "UAFeats",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Spear Mastery",
       "hash": "spear%20mastery_uafeats",
-      "source": "UAFeats"
+      "source": "UAFeats",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Warhammer Master",
       "hash": "warhammer%20master_uafeats",
-      "source": "UAFeats"
+      "source": "UAFeats",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Medic",
       "hash": "medic_uafeatsforskills",
-      "source": "UAFeatsForSkills"
+      "source": "UAFeatsForSkills",
+      "isAuto": false
     },
     {
       "displayName": "*",
       "hash": "*",
       "category": "*",
-      "source": "UATheMysticClass"
+      "source": "UATheMysticClass",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Aasimar",
       "hash": "aasimar_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Aasimar (Fallen)",
       "hash": "aasimar%20(fallen)_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Aasimar (Protector)",
       "hash": "aasimar%20(protector)_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Aasimar (Scourge)",
       "hash": "aasimar%20(scourge)_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Bugbear",
       "hash": "bugbear_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Firbolg",
       "hash": "firbolg_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Goblin",
       "hash": "goblin_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Goliath",
       "hash": "goliath_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Hobgoblin",
       "hash": "hobgoblin_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Kenku",
       "hash": "kenku_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Kobold",
       "hash": "kobold_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Lizardfolk",
       "hash": "lizardfolk_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Orc",
       "hash": "orc_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Tabaxi",
       "hash": "tabaxi_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Triton",
       "hash": "triton_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Yuan-ti Pureblood",
       "hash": "yuan-ti%20pureblood_vgm",
-      "source": "VGM"
+      "source": "VGM",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Dhampir",
       "hash": "dhampir_vrgr",
-      "source": "VRGR"
+      "source": "VRGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Hexblood",
       "hash": "hexblood_vrgr",
-      "source": "VRGR"
+      "source": "VRGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Reborn",
       "hash": "reborn_vrgr",
-      "source": "VRGR"
+      "source": "VRGR",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Fairy",
       "hash": "fairy_wbtw",
-      "source": "WBtW"
+      "source": "WBtW",
+      "isAuto": false
     },
     {
       "category": "race",
       "displayName": "Harengon",
       "hash": "harengon_wbtw",
-      "source": "WBtW"
+      "source": "WBtW",
+      "isAuto": false
     },
     {
       "displayName": "*",
       "hash": "*",
       "category": "*",
-      "source": "XDMG"
+      "source": "WhereEvilLives",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "XDMG",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Bountiful Luck",
       "hash": "bountiful%20luck_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Drow High Magic",
       "hash": "drow%20high%20magic_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Dwarven Fortitude",
       "hash": "dwarven%20fortitude_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Fade Away",
+      "hash": "fade%20away_xge",
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Fey Teleportation",
       "hash": "fey%20teleportation_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Infernal Constitution",
       "hash": "infernal%20constitution_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "feat",
       "displayName": "Wood Elf Magic",
       "hash": "wood%20elf%20magic_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "Adamantine Ammunition",
       "hash": "adamantine%20ammunition_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "magicvariant",
       "displayName": "Adamantine Weapon",
       "hash": "adamantine%20weapon_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Aganazzar's Scorcher",
       "hash": "aganazzar's%20scorcher_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Bones of the Earth",
       "hash": "bones%20of%20the%20earth_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Ceremony",
       "hash": "ceremony_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Control Flames",
       "hash": "control%20flames_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Create Bonfire",
       "hash": "create%20bonfire_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Dragon's Breath",
       "hash": "dragon's%20breath_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Dust Devil",
       "hash": "dust%20devil_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Gust",
       "hash": "gust_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Healing Spirit",
       "hash": "healing%20spirit_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Ice Knife",
+      "hash": "ice%20knife_xge",
+      "source": "XGE",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Immolation",
+      "hash": "immolation_xge",
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Life Transference",
       "hash": "life%20transference_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Mold Earth",
       "hash": "mold%20earth_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Shape Water",
       "hash": "shape%20water_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Skill Empowerment",
+      "hash": "skill%20empowerment_xge",
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Snare",
       "hash": "snare_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Snilloc's Snowball Swarm",
       "hash": "snilloc's%20snowball%20swarm_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Steel Wind Strike",
       "hash": "steel%20wind%20strike_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Summon Greater Demon",
       "hash": "summon%20greater%20demon_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "category": "spell",
       "displayName": "Summon Lesser Demons",
       "hash": "summon%20lesser%20demons_xge",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Wall of Sand",
       "hash": "wall%20of%20sand_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "Wall of Water",
       "hash": "wall%20of%20water_xge",
       "category": "spell",
-      "source": "XGE"
+      "source": "XGE",
+      "isAuto": false
     },
     {
       "displayName": "*",
       "hash": "*",
       "category": "*",
-      "source": "XPHB"
+      "source": "XPHB",
+      "isAuto": false
     }
   ]
 }
