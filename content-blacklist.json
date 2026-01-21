@@ -1343,6 +1343,13 @@
       "displayName": "*",
       "hash": "*",
       "category": "*",
+      "source": "GrimHollowLairsEtharis",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
       "source": "GrimHollowPlayerPack",
       "isAuto": false
     },
@@ -1575,6 +1582,13 @@
       "hash": "*",
       "category": "*",
       "source": "HumblewoodTales",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "IllriggerRevised",
       "isAuto": false
     },
     {
@@ -4448,6 +4462,13 @@
       "isAuto": false
     },
     {
+      "category": "spell",
+      "displayName": "Wall of Fire",
+      "hash": "wall%20of%20fire_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
       "displayName": "Wall of Force",
       "hash": "wall%20of%20force_phb",
       "category": "spell",
@@ -5316,6 +5337,13 @@
       "isAuto": false
     },
     {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "TalesFromTheShadows",
+      "isAuto": false
+    },
+    {
       "category": "baseitem",
       "displayName": "Yklwa",
       "hash": "yklwa_toa",
@@ -5795,6 +5823,13 @@
       "category": "feat",
       "displayName": "Prodigy",
       "hash": "prodigy_xge",
+      "source": "XGE",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Second Chance",
+      "hash": "second%20chance_xge",
       "source": "XGE",
       "isAuto": false
     },
