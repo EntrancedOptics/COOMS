@@ -1448,9 +1448,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with the herbalism kit. If you are already proficient with it, you add double your proficiency bonus to checks you make with them.",
+						"You gain proficiency with the {@item herbalism kit|owl}. If you are already proficient with it, you add double your proficiency bonus to checks you make with them.",
 						"As an action, you can identify one potion within 5 feet of you, as if you had felt its effects. You must see the liquid for this benefit to work.",
-						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a potion of healing, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have alchemist's supplies with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any generic recovery potion, such as a potion of healing, spirit, stamina, magic, etc, regardless of rarity. To use this benefit, you must have an {@item herbalism kit|owl} with you, and the potion must be within reach over the course of the short rest. The improved potion, referred to as a distilled potion, has advantage on any dice roll that it makes, such as rolls to restore health, spell slots, abilities, or otherwise, alongside increasing its value by 1.5 times its normal price."
 					]
 				}
 			]
@@ -3388,9 +3388,9 @@
 				{
 					"type": "list",
 					"items": [
-						"You gain proficiency with the {@item poisoner's kit|owl} if you don't already have it. If you are already proficient with it, you add double your proficiency bonus to checks you make with them.",
+						"You gain proficiency with the {@item poisoner's kit|phb} if you don't already have it. If you are already proficient with it, you add double your proficiency bonus to checks you make with them.",
 						"As an action, you can identify one poison or oil within 5 feet of you, as if you had felt its effects. You must smell the liquid for this benefit to work.",
-						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any poison or oil that has a damage roll associated with it, such as a vial of basic poison or an oil of lightning. To use this benefit, you must have a {@item poisoner's kit|owl} with you, and the item must be within reach over the course of the short rest. The improved item, referred to as a distilled item, has advantage on any damage roll that it makes, alongside increasing its value by 1.5 times its normal price."
+						"Over the course of any short rest as if you were concentrating on a spell, you may improve the potency of any poison or oil that has a damage roll associated with it, such as a vial of basic poison or an oil of lightning. To use this benefit, you must have a {@item poisoner's kit|phb} with you, and the item must be within reach over the course of the short rest. The improved item, referred to as a distilled item, has advantage on any damage roll that it makes, alongside increasing its value by 1.5 times its normal price."
 					]
 				}
 			]

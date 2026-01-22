@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\GMany\\source\\repos\\COOMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GMany\\source\\repos\\COOMS\\OOF.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:OOF.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\GMany\\source\\repos\\COOMS\\content-blacklist.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:content-blacklist.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OOF.json",
+              "DocumentMoniker": "C:\\Users\\GMany\\source\\repos\\COOMS\\OOF.json",
+              "RelativeDocumentMoniker": "OOF.json",
+              "ToolTip": "C:\\Users\\GMany\\source\\repos\\COOMS\\OOF.json",
+              "RelativeToolTip": "OOF.json",
+              "ViewState": "AgIAAKUGAAAAAAAAAAAAALwGAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-22T03:03:19.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "content-blacklist.json",
               "DocumentMoniker": "C:\\Users\\GMany\\source\\repos\\COOMS\\content-blacklist.json",
               "RelativeDocumentMoniker": "content-blacklist.json",
