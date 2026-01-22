@@ -1233,7 +1233,7 @@
 					"items": [
 						"You grow a pair of leathery, batlike wings from your back, giving you a flight speed equal to your walking speed. For Achaierai Tieflings, these wings are birdlike.",
 						"You gain an additional physical characteristic, choose one of the following features that you do not already have: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.",
-						"You don’t provoke {@action opportunity attack|phb|opportunity attacks} when you fly out of a creature’s reach."
+						"You don't provoke {@action opportunity attack|phb|opportunity attacks} when you fly out of a creature's reach."
 					]
 				}
 			]
@@ -1246,7 +1246,9 @@
 				{
 					"ability": [
 						{
-							"str": "13",
+							"str": "13"
+						},
+						{
 							"dex": "13"
 						}
 					]
@@ -1716,8 +1718,12 @@
 				{
 					"ability": [
 						{
-							"int": "13",
-							"wis": "13",
+							"int": "13"
+						},
+						{
+							"wis": "13"
+						},
+						{
 							"cha": "13"
 						}
 					]
