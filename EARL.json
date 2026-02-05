@@ -1697,7 +1697,7 @@
 						"{@b Abandoned.} You have retreated away from society altogether and become a shut-in. You may reduce your Charisma ability score by 2 to 5 points and redistribute those points as you see fit.",
 						"{@b Abused.} What doesn't kill you makes you stronger, and boy have you ever taken a beating while younger. It's a miracle you're still alive! Your hit point maximum increases by 1, and it increases by 1 every time you gain a level, though your Strength and Wisdom decrease by 1.",
 						"{@b Neglected.} Being shunned from your community, you were denied basic education and had to steal to survive, only furthering the bigotry towards your kind. Your movement speed increases to 35 feet, though your Intelligence ability score decreases by 2 and your Wisdom or Charisma (your choice) decreases by 1.",
-						"{@b Ridiculed.} You developed thick skin, and learned to shrug off what people say, though if pushed hard enough you will snap. You have a bonus to Wisdom saving throws equal to your proficiency bonus, though you have disadvantage on all saves regarding sanity."
+						"{@b Ridiculed.} You developed thick skin, and learned to shrug off what people say, though if pushed hard enough you will snap. You have a bonus to Wisdom saving throws equal to your proficiency bonus, though you have disadvantage on all saves regarding madness and against being {@condition frenzied|thicc}."
 					]
 				},
 				{
@@ -1979,7 +1979,7 @@
 			"source": "EARL",
 			"ability": [
 				{
-					"wis": 2,
+					"cha": 2,
 					"dex": 1
 				}
 			],
@@ -1994,17 +1994,34 @@
 				"fly": true
 			},
 			"traitTags": [
-				"Exotic"
+				"Exotic",
+				"Skill Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"nature",
+							"perception",
+							"performance",
+							"persuasion",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"sylvan": true
+				}
 			],
 			"additionalSpells": [
 				{
-					"ability": {
-						"choose": [
-							"int",
-							"wis",
-							"cha"
-						]
-					},
+					"ability": "con",
 					"known": {
 						"1": [
 							"druidcraft#c|cooms"
@@ -2012,7 +2029,7 @@
 					},
 					"innate": {
 						"3": {
-							"daily": {
+							"rest": {
 								"1": [
 									"faerie fire|cooms"
 								]
@@ -2038,6 +2055,13 @@
 				},
 				{
 					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most fairies tend towards being good-aligned, with a penchant for the natural world and good fun."
+					]
+				},
+				{
+					"type": "entries",
 					"name": "Flight",
 					"entries": [
 						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
@@ -2048,15 +2072,22 @@
 					"name": "Fairy Magic",
 					"entries": [
 						"You know the {@spell druidcraft|cooms} cantrip.",
-						"Starting at 3rd level, you can cast the {@spell faerie fire|cooms} spell with this trait. Starting at 5th level, you can also cast the {@spell enlarge/reduce|phb} spell with this trait. Once you cast {@spell faerie fire|cooms} or {@spell enlarge/reduce|phb} with this trait, you can't cast that spell with it again until you finish a long rest. You can also cast either of those spells using any spell slots you have of the appropriate level.",
-						"Intelligence, Wisdom, or Charisma is your spellcasting ability for these spells when you cast them with this trait (choose when you select this race)."
+						"When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell enlarge/reduce|phb} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest.",
+						"Constitution is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild and Free",
+					"entries": [
+						"You gain proficiency in one of the following skills: {@skill Animal Handling|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, or {@skill Survival|phb}."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+						"You can speak, read, and write {@language Common|phb}, {@language Elvish|phb}, and {@language Sylvan|phb}."
 					]
 				}
 			],
@@ -3612,6 +3643,407 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Half-Fairy (Human)",
+			"source": "EARL",
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2
+					}
+				}
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"traitTags": [
+				"Exotic",
+				"Skill Proficiency"
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"sylvan": true
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most half-fairies tend towards being good-aligned, with a penchant for the natural world. Those who descend from pixies tend to be more passively protective of the natural world, playing pranks and such. Those who descend from sprites tend to be more actively protective of the natural world, assailing trespassers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						"Choose one of the following options:",
+						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+						"{@b Fairy Magic.} You know the {@spell druidcraft|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell enlarge/reduce|phb} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Elvish|phb}, and {@language Sylvan|phb}."
+					]
+				}
+			],
+			"_versions": [
+				{
+					"name": "Half-Fairy (Human); Skill Versatility",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Variant Feature (Choose 1)",
+							"items": {
+								"name": "Variant Feature; Skill Versatility",
+								"type": "entries",
+								"entries": [
+									"You gain proficiency in two skills of your choice."
+								]
+							}
+						}
+					},
+					"skillProficiencies": [
+						{
+							"any": 2
+						}
+					]
+				},
+				{
+					"name": "Half-Fairy (Human); Fairy Magic",
+					"source": "EARL",
+					"_mod": {
+						"entries": {
+							"mode": "replaceArr",
+							"replace": "Variant Feature (Choose 1)",
+							"items": {
+								"name": "Variant Feature; Fairy Magic",
+								"type": "entries",
+								"entries": [
+									"You know the {@spell druidcraft|cooms} cantrip. When you reach 3rd level, you can cast the {@spell faerie fire|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell enlarge/reduce|phb} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+								]
+							}
+						}
+					},
+					"additionalSpells": [
+						{
+							"ability": "con",
+							"known": {
+								"1": [
+									"druidcraft#c|cooms"
+								]
+							},
+							"innate": {
+								"3": {
+									"rest": {
+										"1": [
+											"faerie fire|cooms"
+										]
+									}
+								},
+								"5": {
+									"daily": {
+										"1": [
+											"enlarge/reduce"
+										]
+									}
+								}
+							}
+						}
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Half-Fairy (Pixie)",
+			"source": "EARL",
+			"ability": [
+				{
+					"wis": 2,
+					"cha": 1
+				}
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"traitTags": [
+				"Exotic",
+				"Skill Proficiency"
+			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"insight",
+							"nature",
+							"perception",
+							"stealth",
+							"sleight of hand",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"sylvan": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"known": {
+						"1": [
+							"druidcraft#c|cooms"
+						]
+					},
+					"innate": {
+						"3": {
+							"rest": {
+								"1": [
+									"entangle|phb"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"invisibility|phb"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most half-fairies tend towards being good-aligned, with a penchant for the natural world. Those who descend from pixies tend to be more passively protective of the natural world, playing pranks and such. Those who descend from sprites tend to be more actively protective of the natural world, assailing trespassers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Pixie Magic",
+					"entries": [
+						"You know the {@spell druidcraft|cooms} cantrip.",
+						"When you reach 3rd level, you can cast the {@spell entangle|phb} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest.",
+						"Constitution is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Tiny Trickster",
+					"entries": [
+						"You gain proficiency in one of the following skills: {@skill Animal Handling|phb}, (@skill Insight|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Stealth|phb}, {@skill Sleight of Hand|phb}, or {@skill Survival|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Elvish|phb}, and {@language Sylvan|phb}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
+			"name": "Half-Fairy (Sprite)",
+			"source": "EARL",
+			"ability": [
+				{
+					"dex": 2,
+					"wis": 1
+				}
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"size": [
+				"S"
+			],
+			"speed": {
+				"walk": 30,
+				"fly": true
+			},
+			"traitTags": [
+				"Exotic",
+				"Skill Proficiency",
+				"Weapon Proficiency"
+			],
+			"skillToolProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"poisoner's kit",
+							"nature",
+							"perception",
+							"stealth",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
+			"weaponProficiencies": [
+				{
+					"katana|owl": true,
+					"longsword|owl": true,
+					"shortsword|owl": true,
+					"tanto|owl": true,
+					"wakizashi|owl": true,
+					"shortbow|owl": true,
+					"longbow|owl": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"elvish": true,
+					"sylvan": true
+				}
+			],
+			"additionalSpells": [
+				{
+					"ability": "con",
+					"innate": {
+						"3": {
+							"rest": {
+								"1": [
+									"sense emotion|cooms"
+								]
+							}
+						},
+						"5": {
+							"daily": {
+								"1": [
+									"invisibility|phb"
+								]
+							}
+						}
+					}
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Alignment",
+					"entries": [
+						"Most half-fairies tend towards being good-aligned, with a penchant for the natural world. Those who descend from pixies tend to be more passively protective of the natural world, playing pranks and such. Those who descend from sprites tend to be more actively protective of the natural world, assailing trespassers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Flight",
+					"entries": [
+						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"name": "Sprite Weapon Training",
+					"entries": [
+						"You have proficiency with the {@item katana|OWL}, {@item longsword|OWL}, {@item shortsword|OWL}, {@item tanto|OWL}, {@item wakizashi|OWL}, {@item shortbow|OWL}, and {@item longbow|OWL}."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Sprite Magic",
+					"entries": [
+						"When you reach 3rd level, you can cast the {@spell sense emotion|cooms} spell once with this trait and regain the ability to do so when you finish a short or long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell once with this trait, requiring no material component, and regain the ability to do so when you finish a long rest.",
+						"Constitution is your spellcasting ability for these spells."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Forest Protector",
+					"entries": [
+						"You gain proficiency in {@item poisoner's kit|phb} or one of the following skills: {@skill Nature|phb}, {@skill Perception|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb}, {@language Elvish|phb}, and {@language Sylvan|phb}."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
+		},
+		{
 			"name": "Half-Goblin",
 			"source": "EARL",
 			"page": 40,
@@ -3658,7 +4090,7 @@
 						"from": [
 							"animal handling",
 							"deception",
-							"slight of hand",
+							"sleight of hand",
 							"survival"
 						],
 						"count": 1
@@ -7281,7 +7713,7 @@
 							"intimidation",
 							"investigation",
 							"perception",
-							"slight of hand",
+							"sleight of hand",
 							"stealth",
 							"survival"
 						],
@@ -15324,8 +15756,11 @@
 			],
 			"weaponProficiencies": [
 				{
+					"katana|owl": true,
 					"longsword|owl": true,
 					"shortsword|owl": true,
+					"tanto|owl": true,
+					"wakizashi|owl": true,
 					"shortbow|owl": true,
 					"longbow|owl": true
 				}
@@ -15600,8 +16035,11 @@
 			},
 			"weaponProficiencies": [
 				{
+					"katana|owl": true,
 					"longsword|owl": true,
 					"shortsword|owl": true,
+					"tanto|owl": true,
+					"wakizashi|owl": true,
 					"shortbow|owl": true,
 					"longbow|owl": true
 				}
@@ -16011,32 +16449,6 @@
 					]
 				}
 			],
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"jump"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"misty step"
-								]
-							}
-						}
-					},
-					"ability": "int",
-					"known": {
-						"1": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
 			"entries": [
 				{
 					"name": "Alignment",
@@ -16062,9 +16474,9 @@
 				{
 					"name": "Githyanki Psionics",
 					"entries": [
-						"You know the {@spell mage hand|phb} cantrip, and the hand is {@condition invisible|phb} when you cast the cantrip with this trait.",
-						"When you reach 3rd level, you can cast {@spell jump|phb} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell misty step|phb} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
-						"Intelligence is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+						"You learn the Minor Telekinesis psionic talent from the Psion class.",
+						"When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to the Order of the Immortal or the Order of the Nomad. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging to the Order of the Immortal or the Order of the Nomad. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
+						"Intelligence is your discipline ability for these. If you have Psi points, you can also cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class."
 					],
 					"type": "entries"
 				}
@@ -16088,32 +16500,6 @@
 				"baseWeight": 90,
 				"weightMod": "1d4"
 			},
-			"additionalSpells": [
-				{
-					"innate": {
-						"3": {
-							"daily": {
-								"1": [
-									"shield|cooms"
-								]
-							}
-						},
-						"5": {
-							"daily": {
-								"1": [
-									"detect thoughts"
-								]
-							}
-						}
-					},
-					"ability": "wis",
-					"known": {
-						"1": [
-							"mage hand#c"
-						]
-					}
-				}
-			],
 			"entries": [
 				{
 					"name": "Alignment",
@@ -16132,9 +16518,9 @@
 				{
 					"name": "Githzerai Psionics",
 					"entries": [
-						"You know the {@spell mage hand|phb} cantrip, and the hand is {@condition invisible|phb} when you cast the cantrip with this trait.",
-						"When you reach 3rd level, you can cast {@spell shield|cooms} once with this trait, and you regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell detect thoughts|phb} spell once with this trait, and you regain the ability to do so when you finish a long rest.",
-						"Wisdom is your spellcasting ability for these spells. When you cast them with this trait, they don't require components."
+						"You learn the Minor Telekinesis psionic talent from the Psion class.",
+						"When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to the Order of the Awakened or the Order of the Wu Jen. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging to the Order of the Awakened or the Order of the Wu Jen. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
+						"Intelligence is your discipline ability for these. If you have Psi points, you can also cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class."
 					],
 					"type": "entries"
 				}
