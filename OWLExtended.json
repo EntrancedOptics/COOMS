@@ -882,7 +882,7 @@
 			"weight": 1,
 			"value": 1500000,
 			"entries": [
-				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 4d4 + 4} hit points, it cures any disease afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb} conditions."
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 4d4 + 4} hit points, it cures any disease and short-term madness afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, and {@condition poisoned|phb} conditions."
 			]
 		},
 		{
@@ -926,7 +926,7 @@
 			"weight": 1,
 			"value": 1275000,
 			"entries": [
-				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb} conditions."
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease and short-term madness afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, and {@condition poisoned|phb} conditions."
 			]
 		},
 		{
@@ -978,7 +978,7 @@
 			"weight": 0.5,
 			"value": 625000,
 			"entries": [
-				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 2d4 + 2} hit points, and it either cures any disease afflicting you, or it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb} conditions."
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 2d4 + 2} hit points, and it either cures any disease or any short-term madness afflicting you, or it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, and {@condition poisoned|phb} conditions."
 			]
 		},
 		{
@@ -1004,7 +1004,7 @@
 			"weight": 0.25,
 			"value": 157500,
 			"entries": [
-				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 1d4 + 1} hit points, and it can end either one disease or one condition afflicting you. The condition can be {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb}."
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 1d4 + 1} hit points, and it can end either one disease, one short-term madness, or one condition afflicting you. The condition can be {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb}."
 			]
 		},
 		{
@@ -1047,7 +1047,7 @@
 			"weight": 0.25,
 			"value": 150000,
 			"entries": [
-				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it can end either one disease or one condition afflicting you. The condition can be {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb}."
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it can end either one disease, one short-term madness, or one condition afflicting you. The condition can be {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb}."
 			]
 		},
 		{
@@ -1207,7 +1207,7 @@
 			"weight": 0.5,
 			"value": 550000,
 			"entries": [
-				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it either cures any disease afflicting you, or it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb} conditions."
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it either cures any disease or any short-term madness afflicting you, or it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, and {@condition poisoned|phb} conditions."
 			]
 		},
 		{
@@ -1259,11 +1259,12 @@
 			"weight": 1.5,
 			"value": 2000000,
 			"entries": [
-				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 8d4 + 8} hit points, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you can reduce your {@condition exhaustion} level by one, or end one of the following effects on yourself:",
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 8d4 + 8} hit points, it cures any disease and short-term madness afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, and {@condition poisoned} conditions. On top of this, you can reduce your {@condition exhaustion} level by one, or end one of the following effects on yourself:",
 				"One effect that {@condition charmed|phb} or {@condition petrified|phb} yourself.",
 				"One curse, including your attunement to a cursed magic item.",
 				"Any reduction to one of your ability scores.",
-				"One effect reducing your hit point maximum."
+				"One effect reducing your hit point maximum.",
+				"One long-term madness."
 			]
 		},
 		{
@@ -1307,11 +1308,12 @@
 			"weight": 1.5,
 			"value": 1575000,
 			"entries": [
-				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb} conditions. On top of this, you can reduce your {@condition exhaustion|phb} level by one, or end one of the following effects on yourself:",
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease and short-term madness afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, and {@condition poisoned|phb} conditions. On top of this, you can reduce your {@condition exhaustion|phb} level by one, or end one of the following effects on yourself:",
 				"One effect that {@condition charmed|phb} or {@condition petrified|phb} yourself.",
 				"One curse, including your attunement to a cursed magic item.",
 				"Any reduction to one of your ability scores.",
-				"One effect reducing your hit point maximum."
+				"One effect reducing your hit point maximum.",
+				"One long-term madness."
 			]
 		},
 		{
@@ -1363,11 +1365,12 @@
 			"weight": 2,
 			"value": 5500000,
 			"entries": [
-				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 10d4 + 20} hit points, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you can reduce your {@condition exhaustion} level by two, or end one of the following effects on yourself:",
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 10d4 + 20} hit points, it cures any disease and short-term madness afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, and {@condition poisoned} conditions. On top of this, you can halve your {@condition exhaustion} level (minimun reduction of 1 if you have any exhaustion) and end one of the following effects on yourself:",
 				"One effect that {@condition charmed|phb} or {@condition petrified|phb} yourself.",
 				"One curse, including your attunement to a cursed magic item.",
 				"Any reduction to one of your ability scores.",
-				"One effect reducing your hit point maximum."
+				"One effect reducing your hit point maximum.",
+				"Any long-term madness."
 			]
 		},
 		{
@@ -1411,11 +1414,12 @@
 			"weight": 2,
 			"value": 2875000,
 			"entries": [
-				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb} conditions. On top of this, you can reduce your {@condition exhaustion|phb} level by two, or end one of the following effects on yourself:",
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease and short-term madness afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, and {@condition poisoned|phb} conditions. On top of this, you can halve your {@condition exhaustion|phb} level (minimun reduction of 1 if you have any exhaustion) and end one of the following effects on yourself:",
 				"One effect that {@condition charmed|phb} or {@condition petrified|phb} yourself.",
 				"One curse, including your attunement to a cursed magic item.",
 				"Any reduction to one of your ability scores.",
-				"One effect reducing your hit point maximum."
+				"One effect reducing your hit point maximum.",
+				"Any long-term madness."
 			]
 		},
 		{
@@ -1480,11 +1484,12 @@
 			"weight": 2.5,
 			"value": 75000000,
 			"entries": [
-				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 20d4 + 50} hit points, it cures any disease afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, or {@condition poisoned} conditions. On top of this, you remove all {@condition exhaustion} affecting you and end any of the following effects on yourself:",
+				"The thick red liquid sticks to the side of the glass almost like a syrup. When you drink this potion, you regain {@dice 20d4 + 50} hit points, it cures any disease and short-term madness afflicting you, and it removes the {@condition blinded}, {@condition deafened}, {@condition paralyzed}, and {@condition poisoned} conditions. On top of this, you remove all {@condition exhaustion} affecting you and end any of the following effects on yourself:",
 				"One effect that {@condition charmed|phb} or {@condition petrified|phb} yourself.",
 				"One curse, including your attunement to a cursed magic item.",
 				"Any reduction to one of your ability scores.",
-				"One effect reducing your hit point maximum."
+				"One effect reducing your hit point maximum.",
+				"Any long-term madness."
 			]
 		},
 		{
@@ -1528,11 +1533,12 @@
 			"weight": 2.5,
 			"value": 45000000,
 			"entries": [
-				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, or {@condition poisoned|phb} conditions. On top of this, you remove all {@condition exhaustion|phb} affecting you and end any of the following effects on yourself:",
+				"The clear red liquid has tiny bubbles of light in it. When you drink this potion, it cures any disease and short-term madness afflicting you, and it removes the {@condition blinded|phb}, {@condition deafened|phb}, {@condition paralyzed|phb}, and {@condition poisoned|phb} conditions. On top of this, you remove all {@condition exhaustion|phb} affecting you and end any of the following effects on yourself:",
 				"One effect that {@condition charmed|phb} or {@condition petrified|phb} yourself.",
 				"One curse, including your attunement to a cursed magic item.",
 				"Any reduction to one of your ability scores.",
-				"One effect reducing your hit point maximum."
+				"One effect reducing your hit point maximum.",
+				"Any long-term madness."
 			]
 		},
 		{
