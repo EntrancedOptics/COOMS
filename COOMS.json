@@ -2232,6 +2232,80 @@
 			}
 	},
     {
+			"name": "Catnap",
+			"source": "COOMS",
+			"level": 3,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"s": true,
+				"m": "a pinch of sand"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					}
+				}
+			],
+			"entries": [
+				"You make a calming gesture, and up to three willing creatures of your choice that you can see within range fall unconscious for the spell's duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest.",
+                "Undead, constructs, and creatures immune to being charmed or that cannot sleep aren't affected by this feature."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd."
+					]
+				}
+			],
+			"conditionInflict": [
+				"unconscious"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "THICC"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "THICC"
+					},
+                    {
+						"name": "Witch",
+						"source": "THICC"
+					},
+					{
+						"name": "Wizard",
+						"source": "THICC"
+					}
+				]
+			}
+	},
+    {
       "name": "Ceremony",
       "source": "COOMS",
       "level": 1,
@@ -16851,7 +16925,7 @@
       "entries": [
         "This spell sends creatures into a magical slumber. Roll ({@dice 5d8}) plus your spellcasting ability modifier; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).",
         "Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.",
-        "Undead and creatures immune to being charmed aren't affected by this spell."
+        "Undead, constructs, and creatures immune to being charmed or that cannot sleep aren't affected by this feature."
       ],
       "entriesHigherLevel": [
         {
