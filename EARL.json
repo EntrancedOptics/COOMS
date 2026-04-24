@@ -4614,9 +4614,6 @@
 			"name": "Half-Orc",
 			"source": "EARL",
 			"page": 42,
-			"reprintedAs": [
-				"Half-Orc|EARL"
-			],
 			"size": [
 				"M"
 			],
@@ -4713,7 +4710,6 @@
 					"entries": [
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
-						"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.",
 						"{@b Aggressive.} As a bonus action, you can move up to your movement speed toward a hostile creature you can see or hear. You must end this move closer to the enemy than you started.",
 						"{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
 					]
@@ -8282,16 +8278,10 @@
 					]
 				},
 				{
-					"type": "inset",
-					"name": "Variant Resilience (Choose 1)",
+					"type": "entries",
+					"name": "Giant Toughtness",
 					"entries": [
-						{
-							"type": "list",
-							"items": [
-								"{@b Giant Toughness.} Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.",
-								"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
-							]
-						}
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
 					]
 				},
 				{
@@ -8428,13 +8418,6 @@
 					"name": "Savage Attacks",
 					"entries": [
 						"When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Relentless Endurance",
-					"entries": [
-						"When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
 					]
 				},
 				{
@@ -14037,7 +14020,7 @@
 				{
 					"name": "Yuan-ti Psionics",
 					"entries": [
-						"You learn the Minor Hypnosis psionic talent from the Psion class. When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to the Order of the Avatar or the Order of the Wu Jen. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging to the Order of the Avatar or the Order of the Wu Jen. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
+						"You learn the Minor Hypnosis psionic talent from the Psion class. When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to the Order of the Avatar or the Order of the Immortal. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging to the Order of the Avatar or the Order of the Immortal. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
 						"Intelligence is your discipline ability for these. If you have Psi points, you can also cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class."
 					],
 					"type": "entries"
@@ -17621,12 +17604,10 @@
 					"type": "entries"
 				},
 				{
-					"type": "inset",
-					"name": "Variant Resilience (Choose 1)",
+					"type": "entries",
+					"name": "Draconic Resilience",
 					"entries": [
-						"Choose one of the following options:",
-						"{@b Draconic Resilience.} You have resistance to the damage type associated with your draconic ancestry.",
-						"{@b Relentless Endurance.} When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest."
+						"You have resistance to the damage type associated with your draconic ancestry."
 					]
 				},
 				{
