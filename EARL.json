@@ -14020,7 +14020,7 @@
 				{
 					"name": "Yuan-ti Psionics",
 					"entries": [
-						"You learn the Minor Hypnosis psionic talent from the Psion class. When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to the Order of the Avatar or the Order of the Immortal. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging to the Order of the Avatar or the Order of the Immortal. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
+						"You learn the Minor Hypnosis psionic talent from the Psion class. When you reach 3rd level, you learn the Incite Fear ability from the Crown of Fear discipline, which you can manifest without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn the Favor ability from the Mantle of Awe discipline, which you can manifest without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
 						"Intelligence is your discipline ability for these. If you have Psi points, you can also cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class."
 					],
 					"type": "entries"

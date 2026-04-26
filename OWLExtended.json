@@ -35,6 +35,26 @@
 			]
 		},
 		{
+			"name": "Barrel o' Oil",
+			"source": "OWL",
+			"srd": false,
+			"type": "G",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 374,
+			"value": 2200,
+			"poison": true,
+			"property": [
+				"OIL",
+				"EX"
+			],
+			"entries": [
+				"A barrel can hold 40 gallons of liquid or 4 cubic feet of solids.",
+				"A full barrel o' oil can be used to fill up about 320 clay oil flasks.",
+				"If this barrel is ignited, it explodes. Each creature within a 30-foot radius of that point must succeed on a DC 18 Dexterity saving throw of take {@dice 6d8} fire damage and be covered in burning oil, with half as much damage on a success. That area then becomes engulfed in burning oil. A creature covered in burning oil takes {@dice 1d8} fire damage at the start of each of their turns for 1 minute. A creature can make a DC 16 Dexterity saving throw to attempt to cleanse themselves or another of the burning oil. The oil burns on the ground for 1 minute, during which time anything that enters or starts its turn in the oil must make a DC 14 Dexterity saving throw or suffer {@dice 1d8} fire damage if they have not already suffered the damage from being covered in burning oil. The explosion can be heard up to 50 feet away."
+			]
+		},
+		{
 			"name": "Bottle of Good-Vibes",
 			"source": "OWL",
 			"srd": false,
@@ -64,6 +84,26 @@
 				"This bitter, oily golden liquid warms the mouth wherever it touches. While under the effects of a Cannabis Tincture you gain {@dice 3d4} TempHP, you have a +1 to Constitution and Wisdom saving throws. Lasts 3 hours.",
 				"Used as a medium-strength painkiller. Has five doses, enough for 1 day of pain relief.",
 				"Addictive 2."
+			]
+		},
+		{
+			"name": "Cask o' Oil",
+			"source": "OWL",
+			"srd": false,
+			"type": "G",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 136,
+			"value": 900,
+			"poison": true,
+			"property": [
+				"OIL",
+				"EX"
+			],
+			"entries": [
+				"A cask can hold 15 gallons of liquid or 1.5 cubic feet of solids.",
+				"A full cask o' oil can be used to fill up about 120 clay oil flasks.",
+				"If this cask is ignited, it explodes. Each creature within 15 feet of that point must succeed on a DC 16 Dexterity saving throw of take {@dice 4d8} fire damage and be covered in burning oil, with half as much damage on a success. That area then becomes engulfed in burning oil. A creature covered in burning oil takes {@dice 1d8} fire damage at the start of each of their turns for 1 minute. A creature can make a DC 16 Dexterity saving throw to attempt to cleanse themselves or another of the burning oil. The oil burns on the ground for 1 minute, during which time anything that enters or starts its turn in the oil must make a DC 14 Dexterity saving throw or suffer {@dice 1d8} fire damage if they have not already suffered the damage from being covered in burning oil. The explosion can be heard up to 50 feet away."
 			]
 		},
 		{
@@ -97,6 +137,24 @@
 			"entries": [
 				"This kit is a metallic pack containing tools, wires, conductors, fixtures, fasteners, and other gadgets and gizmos used in repairs. The kit has 200 uses. As an action, you can expend one use of the kit to stabalize a construct that has 0 hit points, without needing to make a Intelligence ({@skill Arcana|phb}) check.",
 				"One or more uses of this kit may be used to repair weapons, equipment, or other contraptions with the use of a successful tool check related to the equipment being repaired and ten minutes of time."
+			]
+		},
+		{
+			"name": "Explosive Barrel",
+			"source": "OWL",
+			"srd": false,
+			"type": "A",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 444,
+			"value": 131000,
+			"property": [
+				"EX"
+			],
+			"entries": [
+				"A barrel can hold 40 gallons of liquid or 4 cubic feet of solids.",
+				"A full explosive barrel can be used to fill up about 187 powderhorns, filled with 374 lbs of black powder.",
+				"If this barrel is ignited, it explodes in a massive explosion. Each creature within 40-foot radius sphere centered on the powder keg must make a DC 18 Dexterity saving throw of take {@dice 12d6} fire damage and {@dice 12d6} thunder damage, with half as much damage on a successful save."
 			]
 		},
 		{
@@ -1591,6 +1649,24 @@
 			"value": 86700,
 			"entries": [
 				"You can breathe underwater for 1 hour after drinking this potion. Its cloudy green fluid smells of the sea and has a jellyfish-like bubble floating in it."
+			]
+		},
+		{
+			"name": "Powder Keg",
+			"source": "OWL",
+			"srd": false,
+			"type": "A",
+			"tier": "minor",
+			"rarity": "none",
+			"weight": 162,
+			"value": 49000,
+			"property": [
+				"EX"
+			],
+			"entries": [
+				"A cask can hold 15 gallons of liquid or 1.5 cubic feet of solids.",
+				"A full powder keg can be used to fill up about 70 powderhorns, filled with 140 lbs of black powder.",
+				"If this keg is ignited, it explodes in a massive explosion. Each creature within 20-foot radius sphere centered on the powder keg must make a DC 18 Dexterity saving throw of take {@dice 5d6} fire damage and {@dice 5d6} thunder damage, with half as much damage on a successful save."
 			]
 		},
 		{
@@ -8644,6 +8720,20 @@
 					"name": "Collar",
 					"entries": [
 						"This item is a collar, can be worn around the neck."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "EX",
+			"source": "OWL",
+			"page": 28,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ignitable",
+					"entries": [
+						"This item is ignitable and can explode if ignited, destroying the item and damaging the area around it."
 					]
 				}
 			]
