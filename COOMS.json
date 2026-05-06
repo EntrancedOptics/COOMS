@@ -3627,6 +3627,129 @@
       }
     },
     {
+      "name": "Conjure Minor Elementals",
+      "source": "COOMS",
+      "level": 4,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You summon monstrosities that appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:",
+        {
+          "type": "list",
+          "items": [
+            "One {@filter elemental of challenge rating 2 or lower|bestiary|challenge rating=[&0;&2]|type=elemental|miscellaneous=!swarm}",
+            "Two {@filter elementals of challenge rating 1 or lower|bestiary|challenge rating=[&0;&1]|type=elemental|miscellaneous=!swarm}",
+            "Four {@filter elementals of challenge rating 1/2 or lower|bestiary|challenge rating=[&0;&1/2]|type=elemental|miscellaneous=!swarm}",
+            "Eight {@filter elementals of challenge rating 1/4 or lower|bestiary|challenge rating=[&0;&1/4]|type=elemental|miscellaneous=!swarm}"
+          ]
+        },
+        "An elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends.",
+        "The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.",
+        "The DM has the creatures' statistics."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ],
+        "fromSubclass": [
+          {
+            "class": {
+              "name": "Fighter",
+              "source": "THICC"
+            },
+            "subclass": {
+              "name": "Eldritch Knight",
+              "shortName": "Eldritch Knight",
+              "source": "THICC"
+            }
+          },
+          {
+            "class": {
+              "name": "Monk",
+              "source": "THICC"
+            },
+            "subclass": {
+              "name": "Arcane Form",
+              "shortName": "Arcane Form",
+              "source": "THICC"
+            }
+          },
+          {
+            "class": {
+              "name": "Barbarian",
+              "source": "THICC"
+            },
+            "subclass": {
+              "name": "Eldritch Lord",
+              "shortName": "Eldritch Lord",
+              "source": "THICC"
+            }
+          },
+          {
+            "class": {
+              "name": "Rogue",
+              "source": "THICC"
+            },
+            "subclass": {
+              "name": "Arcane Trickster",
+              "shortName": "Arcane Trickster",
+              "source": "THICC"
+            }
+          }
+        ]
+      }
+    },
+    {
       "name": "Conjure Monsters",
       "source": "COOMS",
       "level": 4,
@@ -7343,6 +7466,132 @@
       }
     },
     {
+      "name": "Find Greater Steed",
+      "source": "COOMS",
+      "level": 4,
+      "school": "C",
+      "time": [
+        {
+          "number": 10,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You summon a spirit that assumes the form of a loyal, majestic mount. Appearing in an unoccupied space within range, the spirit takes on a form you choose: a griffon, a pegasus, a peryton, a dragonnel, a dire wolf, a rhinoceros, or a saber-toothed tiger. The creature has the statistics provided in the Monster Manual for the chosen form, though it is a celestial, a fey, or a fiend (your choice) instead of its normal creature type. Additionally, if it has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
+        "You control the mount in combat. While the mount is within 1 mile of you, you can communicate with it telepathically. While mounted on your steed, you act as though you have proficiency with land vehicles and you can make any spell you cast that targets only you also target your steed.",
+        "The mount disappears temporarily when it drops to 0 hit points or when you dismiss it as an action. Casting this spell again re-summons the bonded mount, with all its hit points restored and any conditions removed.",
+        "You can't have more than one mount bonded by this spell or find steed at the same time. As an action, you can release a mount from its bond, causing it to disappear permanently.",
+        "Whenever the mount disappears, it leaves behind any objects it was wearing or carrying."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Find Steed",
+      "source": "COOMS",
+      "level": 4,
+      "school": "C",
+      "time": [
+        {
+          "number": 10,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose: a warhorse, a pony, a camel, an elk, or a mastiff. (Your DM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.",
+        "Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you act as though you have proficiency with land vehicles and you can make any spell you cast that targets only you also target your steed.",
+        "When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, casting this spell again summons the same steed, restored to its hit point maximum.",
+        "While your steed is within 1 mile of you, you can communicate with each other telepathically.",
+        "You can't have more than one steed bonded by this spell at a time. As an action, you can release the steed from its bond at any time, causing it to disappear."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Finger of Death",
       "source": "COOMS",
       "level": 7,
@@ -8391,7 +8640,7 @@
       "time": [
         {
           "number": 1,
-          "unit": "action"
+          "unit": "bonus action"
         }
       ],
       "range": {
@@ -11086,7 +11335,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a mace made of magic either in your hand or over your focus, using it as its handle. As the mace slams in a 20-foot square within range, each creature within the area must make a Dexterity saving throw. A creature takes {dice 8d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
+        "You temporarily manifest a mace made of magic either in your hand or over your focus, using it as its handle. As the mace slams in a 20-foot square within range, each creature within the area must make a Dexterity saving throw. A creature takes {@dice 8d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -15679,7 +15928,7 @@
       "time": [
         {
           "number": 1,
-          "unit": "action"
+          "unit": "bonus action"
         }
       ],
       "range": {
@@ -19434,7 +19683,7 @@
       "time": [
         {
           "number": 1,
-          "unit": "action"
+          "unit": "bonus action"
         }
       ],
       "range": {
