@@ -1410,6 +1410,112 @@
 			"hasFluffImages": true
 		},
 		{
+			"name": "Dohwar",
+			"source": "EARL",
+			"ability": [
+				{
+					"wis": 2,
+					"cha": 1
+				}
+			],
+			"size": [
+				"S"
+			],
+			"creatureTypes": [
+				"fey"
+			],
+			"speed": {
+				"walk": 20,
+				"swim": true
+			},
+			"skillProficiencies": [
+				{
+					"deception": true,
+					"insight": true,
+					"persuasion": true
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"dohwar": true
+				}
+			],
+			"traitTags": [
+				"Animalistic",
+				"Natural Weapon"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Dohwar are between 3 and 4 feet tall. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 20 feet. You have a swimming speed equal to your walking speed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bite",
+					"entries": [
+						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Persistent Merchant",
+					"entries": [
+						"Though you waddle ungracefully, you and your kind have an innate knack for being pushy salespeople. You are proficient in {@skill Deception|phb}, {@skill Insight|phb}, and {@skill Persuasion|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dohwar Psionics",
+					"entries": [
+						"You learn the Minor Hypnosis psionic talent from the Psion class. When you reach 5th level, you learn the Read Thoughts ability from the Psychic Inquisition discipline, which you can manifest without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per short or long rest. Intelligence is your discipline ability for these. If you have Psi points, you can also cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mergin",
+					"entries": [
+						"Two dohwars can have a telepathic conversation with each other and, optionally, a third willing creature of their choice, provided all three are within 30 feet of one another."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Creature Type",
+					"entries": [
+						"You are a Fey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and Dohwar."
+					]
+				}
+			],
+			"fluff": {
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://i.pinimg.com/736x/4f/c3/3f/4fc33ff7c7e77b09da47406a85a01b5d.jpg"
+						}
+					}
+				]
+			}
+		},
+		{
 			"name": "Dragonborn",
 			"source": "EARL",
 			"size": [
@@ -4466,6 +4572,135 @@
 				"baseWeight": 35,
 				"weightMod": "1"
 			}
+		},
+		{
+			"name": "Half-Jerbeen",
+			"source": "EARL",
+			"ability": [
+				{
+					"cha": 2,
+					"choose": {
+						"from": [
+							"str",
+							"dex",
+							"con",
+							"int",
+							"wis"
+						],
+						"count": 2
+					}
+				}
+			],
+			"age": {
+				"mature": 12,
+				"max": 70
+			},
+			"size": [
+				"S"
+			],
+			"traitTags": [
+				"Skill Proficiency",
+				"Darkvision",
+				"Animalistic",
+				"Exotic"
+			],
+			"speed": 30,
+			"darkvision": 60,
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"acrobatics",
+							"insight",
+							"perception",
+							"persuasion",
+							"performance",
+							"stealth"
+						],
+						"count": 2
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Age",
+					"entries": [
+						"Half-Jerbeens mature at 12 years of age and can live to be about 70 years old."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Half-Jerbeens are between 3.5  and 4.5 feet tall and weigh between 65 and 110 pounds. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"Due to hunting at night you have superior vision in the dark. You can see dim light within 60 feet of you as bright light and in darkness as if it was in dim light. You can't discern color in darkness, only shades of grey."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Empathetic",
+					"entries": [
+						"You tend to sneak and squeak your way into people's hearts, allowing you to commune with or understand others easily. You are proficient in two of the following skills: {@skill Acrobatics|phb}, {@skill Insight|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, or {@skill Stealth|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Keen Hearing and Smell",
+					"entries": [
+						"You have advantage on Wisdom ({@skill Perception|phb}) checks that rely on hearing or smell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Scurry",
+					"entries": [
+						"When you take the dash action, your speed increases by 5 feet that turn, and your movement is not slowed by difficult terrain."
+					]
+				},
+				{
+					"type": "inset",
+					"name": "Variant Feature (Choose 1)",
+					"entries": [
+						{
+							"type": "list",
+							"items": [
+								"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
+								"{@b Scamper.} You can move through the space of any creature that is of a size larger than yours.",
+								"{@b Nimble Escape.} You can take the Disengage or Hide action as a bonus action on each of your turns."
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+					]
+				}
+			],
+			"hasFluff": true,
+			"hasFluffImages": true
 		},
 		{
 			"name": "Half-Ogre",
@@ -9619,93 +9854,13 @@
 			"hasFluffImages": true
 		},
 		{
-			"name": "Thri-kreen (Psionic)",
-			"source": "EARL",
-			"ability": [
-				{
-					"dex": 2,
-					"wis": 1
-				}
-			],
-			"creatureTypes": [
-				"monstrosity"
-			],
-			"size": [
-				"M"
-			],
-			"speed": 30,
-			"darkvision": 60,
-			"traitTags": [
-				"Improved Resting",
-				"Natural Armor",
-				"Monstrous Race",
-				"Outcast",
-				"Animalistic",
-				"Exotic"
-			],
-			"entries": [
-				{
-					"type": "entries",
-					"name": "Creature Type",
-					"entries": [
-						"You are a Monstrosity."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Size",
-					"entries": [
-						"Your size is Medium."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Chameleon Carapace",
-					"entries": [
-						"While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.",
-						"As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity ({@skill Stealth|phb}) checks made to {@action hide|phb} in those surroundings."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of yourself as if it were bright light, and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Secondary Arms",
-					"entries": [
-						"You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Sleepless",
-					"entries": [
-						"You do not require sleep and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Thri-kreen Telepathy",
-					"entries": [
-						"Without the assistance of magic, you can't speak the non-thri-kreen languages you know. Instead you use telepathy to convey your thoughts. You have the magical ability to transmit your thoughts mentally to willing creatures within 120 feet of yourself. A contacted creature doesn't need to share a language with you to understand your thoughts, but it must be able to understand at least one language. Your telepathic link to a creature is broken if you and the creature move more than 120 feet apart, if either of you is {@condition incapacitated|phb}, or if either of you mentally breaks the contact (no action required)."
-					]
-				}
-			],
-			"hasFluff": true,
-			"hasFluffImages": true
-		},
-		{
-			"name": "Thri-kreen (Tribal)",
+			"name": "Thri-kreen",
 			"source": "EARL",
 			"page": 75,
 			"size": [
 				"M"
 			],
-			"speed": 30,
+			"speed": 35,
 			"ability": [
 				{
 					"dex": 2,
@@ -9716,6 +9871,9 @@
 				"mature": 5,
 				"max": 35
 			},
+			"creatureTypes": [
+				"monstrosity"
+			],
 			"darkvision": 60,
 			"weaponProficiencies": [
 				{
@@ -9726,7 +9884,7 @@
 			"languageProficiencies": [
 				{
 					"common": true,
-					"anyStandard": 1
+					"thri-kreen": true
 				}
 			],
 			"traitTags": [
@@ -9741,10 +9899,17 @@
 			],
 			"entries": [
 				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Thri-kreen mature after their 5th or 6th summer, and can live to be around 35 years old."
+					]
+				},
+				{
 					"name": "Size",
 					"type": "entries",
 					"entries": [
-						"Your size is Medium."
+						"Thri-kreen vary in size, from 5 feet to 7 feet tall, and weigh anywhere from 100 to 375 lbs on average. Your size is Medium."
 					]
 				},
 				{
@@ -9756,10 +9921,24 @@
 				},
 				{
 					"type": "entries",
-					"name": "Chameleon Carapace",
+					"name": "Darkvision",
 					"entries": [
-						"While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier.",
-						"As an action, you can change the color of your carapace to match the color and texture of your surroundings, giving you advantage on Dexterity ({@skill Stealth|phb}) checks made to hide in those surroundings."
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Exoskeletal Carapace",
+					"entries": [
+						"While you aren't wearing armor, your carapace gives you a base Armor Class of 13 + your Dexterity modifier."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thri-kreen Psionics",
+					"entries": [
+						"You learn the Minor Telekinesis psionic talent from the Psion class. When you reach 3rd level, you learn the Chameleon ability from the Nomadic Chameleon discipline, which you can manifest without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn the Augmented Weapon ability from the Psionic Weapon discipline, which you can manifest without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest. Intelligence is your discipline ability for these.",
+						"If you have Psi points, you can also cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class."
 					]
 				},
 				{
@@ -9771,30 +9950,9 @@
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
-					"entries": [
-						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
-					]
-				},
-				{
-					"type": "entries",
 					"name": "Sleepless",
 					"entries": [
 						"You do not require sleep, are incapable of doing so, and can remain conscious during a long rest, though you must still refrain from strenuous activity to gain the benefit of the rest."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Secondary Arms",
-					"entries": [
-						"You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property. You may also use your primary and secondary arms to make an unarmed attack. When you do so, you roll twice the die you normally do, and the damage type is changed to slashing. For example, a regular thri-kreen may deal {@dice 2d2} slashing damage with their unarmed strike, but a monk may deal {@dice 2d4} or higher as their die increases."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "Insect Mouth",
-					"entries": [
-						"Without the assistance of magic, you can't speak the non-thri-kreen languages you know. However, your mouth enables you to make a special unarmed attack in which you use your poisonous bite. A creature hit by your bite takes {@dice 1d6} piercing damage and must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition Poisoned|phb} for 1 minute. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success. At level 5, your bite becomes so toxic that enemies {@condition Poisoned|phb} in this way are also {@condition Paralyzed|phb}."
 					]
 				},
 				{
@@ -9805,9 +9963,37 @@
 					"type": "entries"
 				},
 				{
+					"type": "entries",
+					"name": "Secondary Arms",
+					"entries": [
+						"You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms can manipulate an object, open or close a door or container, pick up or set down a Tiny object, or wield a weapon that has the light property. You may also use your primary arms' claws as natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them. At level 5, your secondary arms become strong enough to assist with these attacks. If the corresponding secondary arms are free to attack with your primary, you may add an extra {@dice d4} of damage when you hit."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Insect Mouth",
+					"entries": [
+						"Without the assistance of magic, you can't speak the non-thri-kreen languages you know. However, your mouth is a natural weapon that enables you to make a special unarmed attack that you are proficient with in which you use your poisonous bite. A creature hit by your bite takes {@dice 1d6} + your Strength modifier piercing damage. Additionally, once per long rest, you can cause a bite to be venomous when you hit with it. The target must succeed on a Constitution saving throw equal to 8 + your proficiency modifier + your Constitution modifier or become {@condition Poisoned|phb} for 1 minute. A creature can repeat the saving throw at the end of their turn, ending the effect on themselves as a success. At level 5, your bite becomes so toxic that enemies {@condition Poisoned|phb} in this way are also {@condition Paralyzed|phb}."
+					]
+				},
+				{
+					"name": "Fleet of Foot",
+					"entries": [
+						"Your base walking speed increases to 35 feet."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Creature Type",
+					"type": "entries",
+					"entries": [
+						"You are a Monstrosity."
+					]
+				},
+				{
 					"name": "Languages",
 					"entries": [
-						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
+						"You can speak, read, and write {@language Common|phb} and {@language Thri-kreen|mm}. You can only speak Thri-kreen, which only those with your race's mouth can speak."
 					],
 					"type": "entries"
 				}

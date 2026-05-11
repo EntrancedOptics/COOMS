@@ -1,0 +1,3711 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "TITS",
+                "full": "Tome of Increasingly Terrible Suffering",
+                "abbreviation": "TITS",
+                "authors": [ "Entranced Optics" ],
+                "url": "https://docs.google.com/document/d/1sANdRh8FOjg_4e7pu-2uApYnZaW_Kmn0wmT5VyNtEXg/edit?tab=t.0",
+                "color": "#18b300"
+            }
+        ]
+    },
+	"condition": [
+		{
+			"name": "Acid Burn Scars",
+			"source": "TITS",
+			"page": "3",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a minor acid burn scar on your body, located where you were burned the most."
+					]
+				}
+			]
+		},
+		{
+			"name": "Anmosia",
+			"source": "TITS",
+			"page": "5",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You lose your sense of smell and taste.",
+						"You automatically fail any ability checks that require your sense of smell or taste.",
+						"You are unable to benefit from food and drink.",
+						"You are able to ignore the requirements for eating any food or drink.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Arc Flash",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Roll on the {@table Fire Lingering Injury|TITS} table at advantage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Brain Injury",
+			"source": "TITS",
+			"page": "3",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have suffered a brain injury. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws.",
+						"If you are hit by a critical attack or fail a saving throw against taking bludgeoning, force, or psychic damage, you are also {@condition Stunned|phb} until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Broken Arm",
+			"source": "TITS",
+			"page": "3",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You can no longer hold anything with two hands.",
+						"You can hold only a single object at a time.",
+						"You have a -3 penalty on Strength ability checks.",
+						"If it is not splinted before it's healed or allowed to heal, the effects remain until it is rebroken and splinted.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 50 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Broken Leg",
+			"source": "TITS",
+			"page": "3",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move.",
+						"After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}.",
+						"You have a -3 penalty on Dexterity ability checks and saving throws.",
+						"If it is not splinted before it's healed or allowed to heal, the effects remain until it is rebroken and splinted.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 50 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Broken Ribs",
+			"source": "TITS",
+			"page": "3",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Strength and Dexterity ability checks.",
+						"You are immune to being {@condition Squeezed|THICC}.",
+						"You suffer {@dice 1d4} hit points of bludgeoning damage when you end your turn in a position that would normally make you {@condition Squeezed|THICC}.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 40 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Burn Scar",
+			"source": "TITS",
+			"page": "6",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a minor burn scar on your body, located where you were burned the most."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cancer",
+			"source": "TITS",
+			"page": "11",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Strength, Dexterity, and Constitution ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cardiac Injury",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"If you fail a saving throw against fear or fear effects, you gain a level of {@condition Exhaustion|THICC}.",
+						"If you forced march, you automatically fail the Constitution save to avoid {@condition Exhaustion|THICC}.",
+						"You gain a +2 bonus to Constitution saving throws when attempting to {@variantrule Bestir|TITS}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Cold Scars",
+			"source": "TITS",
+			"page": "5",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have numbing, web-like cold scars covering your torso.",
+						"You have a -3 penalty on Constitution saving throws.",
+						"You gain 1 temporary hit point after receiving cold damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deafness",
+			"source": "TITS",
+			"page": "13",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your eardrums have been destroyed; you become {@condition Deafened|phb}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Deep Hematoma",
+			"source": "TITS",
+			"page": "4",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Blood pools are stuck in your muscles as you suffer a -2 penalty to Strength and Dexterity ability checks.",
+						"All incoming bludgeoning damage is reduced by 1.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 30 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Destroyed Foot or Leg",
+			"source": "TITS",
+			"page": "2",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move.",
+						"After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}.",
+						"You have a -3 penalty on Dexterity ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Destroyed Hand",
+			"source": "TITS",
+			"page": "2",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You can no longer hold anything with two hands.",
+						"You can hold only a single object at a time.",
+						"You have a -3 penalty on Strength ability checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Disembowelment",
+			"source": "TITS",
+			"page": "13",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your organ's momentary vacation has left its toll.",
+						"You have a -2 penalty to Constitution saving throws.",
+						"You suffer a -3 penalty to your hit point maximum, if this reduces your hit point maximum to 0 hit points or less, you die.",
+						"You gain a +1 bonus to Wisdom saving throws.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 30 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Disfigurement",
+			"source": "TITS",
+			"page": "3",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have severe blister scars, appearing as splotches on your skin.",
+						"You suffer a -1 penalty on Charisma ({@skill Persuasion|phb}) checks.",
+						"You have a +1 bonus on Charisma ({@skill Intimidation|phb}) checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Explosive Grounding of the Foot",
+			"source": "TITS",
+			"page": "6",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You lose a foot.",
+						"Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move.",
+						"After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}.",
+						"You have a -3 penalty on Dexterity ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Explosive Grounding of the Hand",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You lose a hand.",
+						"You can no longer hold anything with two hands.",
+						"You can hold only a single object at a time.",
+						"You have a -3 penalty on Strength ability checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fibrotic Muscles",
+			"source": "TITS",
+			"page": "2",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your muscles have partially melted before scarring over, giving you a -3 penalty on Strength and Dexterity ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Fourth Degree Burns",
+			"source": "TITS",
+			"page": "5",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on ability checks and Strength, Dexterity, and Constitution saving throws.",
+						"If you take fire damage, you are {@condition Stunned|phb} until the end of your next turn.",
+						"If you already have Fourth Degree Burns, you must succeed at a DC 15 Constitution saving throw or die."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gangrenous Foot",
+			"source": "TITS",
+			"page": "4",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your speed on foot is reduced by 10 feet, and you must use a cane or crutch to move upright.",
+						"After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}.",
+						"You have a -3 penalty on Dexterity ability checks and saving throws.",
+						"Every day that the gangrenous foot is not debrided, you must make a DC 15 Constitution saving throw or suffer a number of {@dice d4} necrotic damage equal to the number of days that have passed since this injury was acquired, taking half damage on a success.",
+						"Debriding the foot requires a successful DC 15 Medicine check."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gangrenous Hand",
+			"source": "TITS",
+			"page": "4",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You can no longer hold anything with two hands.",
+						"You can hold only a single object at a time.",
+						"Every day that the gangrenous foot is not debrided, you must make a DC 15 Constitution saving throw or suffer a number of {@dice d4} necrotic damage equal to the number of days that have passed since this injury was acquired, taking half damage on a success.",
+						"Debriding the foot requires a successful DC 15 Medicine check."
+					]
+				}
+			]
+		},
+		{
+			"name": "Groin Injury",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move.",
+						"After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}.",
+						"You have a -3 penalty on Dexterity ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Horrible Disfigurement",
+			"source": "TITS",
+			"page": "3",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have burn scars to the extent that can't be easily concealed.",
+						"You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks.",
+						"You have a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Horrible Scar",
+			"source": "TITS",
+			"page": "9",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You are disfigured to the extent that the wound can't be easily concealed.",
+						"You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks.",
+						"You have a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Indefinite Madness",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Roll on the {@table Indefinite Madness|dmg} table in the Dungeon Masters Guide."
+					]
+				}
+			]
+		},
+		{
+			"name": "Inflammation",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your muscles are stuck irritated and inflamed.",
+						"You have a -2 penalty on Dexterity ability checks",
+						"You gain a +1 bonus to Strength saving throws.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 15 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Jagged Scar",
+			"source": "TITS",
+			"page": "4",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You were hit with enough force to tear the skin as opposed to shearing. You gain a jagged scar located where you were struck."
+					]
+				}
+			]
+		},
+		{
+			"name": "Large Skin Tumors",
+			"source": "TITS",
+			"page": "11",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You develop several large, painful, and benign skin tumors.",
+						"You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks.",
+						"You gain a +3 bonus on Charisma ({@skill Intimidation|phb}) checks.",
+						"If you already have large skin tumors, you develop {@condition Cancer|TITS}. If you already have {@condition Cancer|TITS}, you do not develop it again as a result of this injury."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lichtenberg Scar",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a branching electrical scar that originates from the point of impact and branches rapidly along your capillaries."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lose a Foot or Leg",
+			"source": "TITS",
+			"page": "12",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You lose a foot or leg.",
+						"Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move.",
+						"After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}.",
+						"You have a -3 penalty on Dexterity ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lose an Arm or a Hand",
+			"source": "TITS",
+			"page": "12",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You lose an arm or hand.",
+						"You can no longer hold anything with two hands.",
+						"You can hold only a single object at a time.",
+						"You have a -3 penalty on Strength ability checks."
+					]
+				}
+			]
+		},
+		{
+			"name": "Lose an Eye",
+			"source": "TITS",
+			"page": "5",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You lose an eye.",
+						"You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight.",
+						"You have disadvantage on ranged attack rolls.",
+						"If you have no eyes remaining after sustaining this injury, you're {@condition Blinded|phb}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Concussion",
+			"source": "TITS",
+			"page": "4",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Intelligence ability checks and saving throws.",
+						"You have a -3 penalty on Constitution saving throws to maintain concentration.",
+						"You gain a +1 bonus to Wisdom saving throws.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 25 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Internal Injury",
+			"source": "TITS",
+			"page": "3",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"On each of your turns in combat, you must choose between an action or a bonus action.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Kidney Failure",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty to Constitution saving throws.",
+						"Whenever you receive poison damage, take 2 more damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Liver Damage",
+			"source": "TITS",
+			"page": "9",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty to Constitution saving throws.",
+						"Whenever you take poison damage, you take an additional {@dice 1d6} poison damage and are {@condition Poisoned|phb} until the end of your next turn.",
+						"Anytime you drink alcohol or take any other sort of drug, you take {@dice 1d6} poison damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Mutation",
+			"source": "TITS",
+			"page": "12",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your being has fundamentally and significantly changed.",
+						"Roll on the {@table Reincarnation|TITS} table. You lose your racial ability bonuses and gain the racial ability bonuses from the race that you rolled (if the racial ability bonus allows you to choose between several options, it is decided randomly), along with a random ability determined by the DM from that race.",
+						"If you already have a Major Mutation, you lose the racial ability bonus from the previous Major Mutation, but still keep their random ability when you roll for your new racial ability bonus and random ability."
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Neuralgia",
+			"source": "TITS",
+			"page": "2",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have constant, painful nerve damage over a large portion of your body, keeping you unable to relax for even a second.",
+						"You gain a +2 bonus to initiative.",
+						"You are unable to take reactions.",
+						"You suffer a -2 penalty to saving throws.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 40 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Organ Necrosis",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"On each of your turns in combat, you must choose between an action or a bonus action."
+					]
+				}
+			]
+		},
+		{
+			"name": "Major Psychosis",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your mind has completely slipped away from you. You cannot tell the difference between your own memories or memories you have made up.",
+						"You have a -3 penalty to all Intelligence, Wisdom, and Charisma ability checks and saving throws.",
+						"If you take psychic damage, you become {@condition Frightened|phb} of the source of the damage until the creature is no longer a threat. If you do not know the source of the psychic damage, you become {@condition Frightened|phb} of all creatures until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Migraines",
+			"source": "TITS",
+			"page": "11",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You become prone to rancid, debilitating headaches.",
+						"If you are hit by a critical attack or take 5 or more psychic or thunder damage in a single turn, you gain the {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity} racial feature for 1 hour.",
+						"If you already have {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity}, you instead become {@condition Photosensitive|TITS} for 1 hour.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Concussion",
+			"source": "TITS",
+			"page": "4",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -2 penalty on Intelligence ability checks and saving throws.",
+						"If you already have a Minor Concussion, it is replaced with a {@condition Major Concussion|TITS}.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Internal Injury",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"On each of your turns in combat, you must choose between a bonus action or a reaction.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Kidney Failure",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty to Constitution saving throws related to poison or alcohol and drug consumption.",
+						"Whenever you receive poison damage, take 1 more damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Liver Damage",
+			"source": "TITS",
+			"page": "9",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty to Constitution saving throws.",
+						"Whenever you take poison damage, you take an additional {@dice 1d4} poison damage.",
+						"Anytime you drink alcohol or take any other sort of drug, you take {@dice 1d4} poison damage."
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Mutation",
+			"source": "TITS",
+			"page": "12",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your being has fundamentally changed.",
+						"Roll {@dice 4d6}, with each face of the {@dice d6} equating to an ability score (1 as Strength, 2 as Dexterity, etc.). The first two numbers you roll have their corresponding ability score increased by 1. The last two numbers you roll have their corresponding ability score decreased by 1."
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Neuralgia",
+			"source": "TITS",
+			"page": "2",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have sudden, sharp nerve pains, keeping you unable to relax for even a second.",
+						"You gain a +2 bonus to initiative.",
+						"You are unable to take reactions.",
+						"If you already have Minor Neuralgia, it is replaced with {@condition Major Neuralgia|TITS}.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Organ Necrosis",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"On each of your turns in combat, you must choose between a bonus action or a reaction."
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Psychosis",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You feel your mind slipping away from you. You are barely able to keep hold of your own memories.",
+						"You suffer a -2 penalty to all Intelligence, Wisdom, and Charisma ability checks and Intelligence saving throws.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 30 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Minor Scar",
+			"source": "TITS",
+			"page": "9",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a minor scar where you were pierced."
+					]
+				}
+			]
+		},
+		{
+			"name": "Muscle Spasms",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -2 penalty on Dexterity ability checks.",
+						"You gain a +1 bonus on Strength ability checks.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Nausea",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Charisma ability checks.",
+						"You gain a +1 bonus to Constitution saving throws.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 25 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Necrotic Discoloration",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a large amount of small white and gray spots on your skin dispersing from the point of impact."
+					]
+				}
+			]
+		},
+		{
+			"name": "Necrotic Stench",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You smell like rotting flesh.",
+						"You have a -3 penalty on Charisma ({@skill Persuasion|phb}) checks.",
+						"You automatically succeed any saving throws to avoid the effects of rancid stench."
+					]
+				}
+			]
+		},
+		{
+			"name": "Necrotic Wound",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your wound may heal, but the numbing necrotic energy failed to dissipate.",
+						"You suffer a -5 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die.",
+						"At the end of each long rest, gain {@dice 1d4} temporary hit points.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 15 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Ocular Damage",
+			"source": "TITS",
+			"page": "4",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"One of your corneas is damaged from frostbite.",
+						"You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight.",
+						"You have disadvantage on ranged attack rolls.",
+						"If you have no corneas that remain undamaged after sustaining this injury, you're {@condition Blinded|phb}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Overkilled",
+			"source": "TITS",
+			"page": "14",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have recieved excess damage more than your hit point maximum."
+					]
+				}
+			]
+		},
+		{
+			"name": "Paranoia",
+			"source": "TITS",
+			"page": "11",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You believe no one is your friend, and everyone is out to get you.",
+						"You have a -3 penalty to all Charisma ({@skill Persuasion|phb}) and Wisdom ({@skill Insight|phb}) checks",
+						"You have a +1 bonus to Charisma ({@skill Deception|phb}) and Charisma ({@skill Intimidation|phb}) checks.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 30 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Partial Blindness",
+			"source": "TITS",
+			"page": "2",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your eyes/retinas are damaged; you have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight.",
+						"You have disadvantage on ranged attack rolls.",
+						"If you have already suffered Partial Blindness, you're {@condition Blinded|phb}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Partial Deafness",
+			"source": "TITS",
+			"page": "13",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your eardrums have been damaged; you are hard of hearing.",
+						"You have a -3 penalty on any ability check that requires hearing.",
+						"If you have already suffered Partial Deafness, you're {@condition Deafened|phb}."
+					]
+				}
+			]
+		},
+		{
+			"name": "Phobia",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You develop a debilitating fear of something in the situation from which you gained your injury, decided by the DM. For example, if you were damaged by a Mind Flayer, you might have a fear of octopi.",
+						"You are always {@condition Frightened|phb} of the source of your fear."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pierced Stomach",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty to Constitution saving throws.",
+						"You have a -3 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die.",
+						"You gain a +1 bonus to Wisdom saving throws.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Photosensitive",
+			"source": "TITS",
+			"page": "0",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight."
+					]
+				}
+			]
+		},
+		{
+			"name": "Radiance Burns",
+			"source": "TITS",
+			"page": "11",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Strength and Dexterity ability checks and saving throws.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 30 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Radiance Scorched",
+			"source": "TITS",
+			"page": "11",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on ability checks and Constitution saving throws.",
+						"If you take 5 or more radiant damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Raynaud's Syndrome",
+			"source": "TITS",
+			"page": "5",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your extremities become extremely pale and tingle with light pain from the damage to the furthest ends of your nerves."
+					]
+				}
+			]
+		},
+		{
+			"name": "Scabbing Wound",
+			"source": "TITS",
+			"page": "9",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Your wound never quite finished healing.",
+						"You suffer a -5 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die.",
+						"At the end of each long rest, gain {@dice 1d4} temporary hit points.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 15 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Schizophrenia",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You see and hear things that aren't there, indistinguishable from reality.",
+						"You have a -3 penalty to all ability checks, as well as Intelligence saving throws and initiative rolls."
+					]
+				}
+			]
+		},
+		{
+			"name": "Second Degree Burns",
+			"source": "TITS",
+			"page": "6",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Strength and Dexterity ability checks and saving throws.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 30 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Severe Nerve Damage",
+			"source": "TITS",
+			"page": "5",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Strength and Dexterity ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Severe Migraines",
+			"source": "TITS",
+			"page": "13",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Wisdom ability checks and saving throws.",
+						"If you are hit by a critical attack or take 5 or more psychic or thunder damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Skeletal Muscle Breakdown",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -2 penalty on Strength ability checks and saving throws.",
+						"You gain a +1 bonus on Dexterity ability checks.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 40 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Skin Blotches",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have large sickly grey blotches of skin where you were struck with poison."
+					]
+				}
+			]
+		},
+		{
+			"name": "Small Skin Tumors",
+			"source": "TITS",
+			"page": "12",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You develop several small, painless, and benign skin tumors.",
+						"You suffer a -1 penalty on Charisma ({@skill Persuasion|phb}) checks.",
+						"You gain a +1 bonus on Charisma ({@skill Intimidation|phb}) checks.",
+						"If you already have Small Skin Tumors, they are replaced with {@condition Large Skin Tumors|TITS}.",
+						"Once per day, over the course of an hour working as if in concentration, a creature may attempt a DC 20 {@skill Medicine|phb} check to remove the tumors from your body. Regardless of if you succeed or fail, you must take {@dice 3d4} slashing damage. On a natural 20, you take no damage, and on a natural 1, you take twice this amount."
+					]
+				}
+			]
+		},
+		{
+			"name": "Spiritual Injury",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You are afflicted with intense apathy and depression.",
+						"You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws.",
+						"Magic such as the {@spell Heal|COOMS} or {@spell Regenerate|COOMS} spell can resolve your Spiritual Injury, but such spells must be cast by a {@class Cleric|THICC}, {@class Druid|THICC}, or other class that uses divine magic."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sunlight Sensitive",
+			"source": "TITS",
+			"page": "0",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have disadvantage on attack rolls and on Wisdom ({@skill Perception|phb}) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight."
+					]
+				}
+			]
+		},
+		{
+			"name": "Surface-level Damage",
+			"source": "TITS",
+			"page": "12",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"Visible hair on your body burns away, the follicles permanently damaged. Hair on your head is thinned and will stay extremely short.",
+						"If you have any exposed tattoos, they fade as if exposed to 10 years of sunlight."
+					]
+				}
+			]
+		},
+		{
+			"name": "Systemic Damage",
+			"source": "TITS",
+			"page": "9",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on Strength, Dexterity, and Constitution ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Third Degree Burns",
+			"source": "TITS",
+			"page": "6",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -3 penalty on ability checks and Constitution saving throws.",
+						"If you take 5 or more fire damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+					]
+				}
+			]
+		},
+		{
+			"name": "Throat Injury",
+			"source": "TITS",
+			"page": "8",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You gain a level of {@condition Exhaustion|THICC} which cannot be removed by normal means.",
+						"You have a -3 penalty on Constitution saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Twitching Eyes",
+			"source": "TITS",
+			"page": "11",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You can't keep your eyes still, it feels natural to move them rapidly in every direction."
+					]
+				}
+			]
+		},
+		{
+			"name": "Vertigo",
+			"source": "TITS",
+			"page": "10",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have a -2 penalty on Dexterity ability checks and saving throws.",
+						"You gain a +1 bonus to Constitution saving throws.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 50 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Vestibular Damage",
+			"source": "TITS",
+			"page": "14",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You are always somewhat dizzy.",
+						"You have a -2 penalty on Dexterity ability checks and saving throws",
+						"You gain a +1 bonus on Constitution saves.",
+						"{@b Recovery DC:} 15; {@b Recovery Length:} 30 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Weak Persona",
+			"source": "TITS",
+			"page": "11",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You have suffered damage to your confidence and personality, leading you to talk less and listen more.",
+						"You suffer a -2 penalty to Charisma ability checks and saving throws.",
+						"You gain a +1 bonus to Wisdom ({@skill Perception|phb}) and Wisdom ({@skill Insight|phb}) checks.",
+						"{@b Recovery DC:} 10; {@b Recovery Length:} 20 days"
+					]
+				}
+			]
+		},
+		{
+			"name": "Withered Foot",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You lose a foot.",
+						"Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move.",
+						"After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}.",
+						"You have a -3 penalty on Dexterity ability checks and saving throws."
+					]
+				}
+			]
+		},
+		{
+			"name": "Withered Hand",
+			"source": "TITS",
+			"page": "7",
+			"entries": [
+				{
+					"type": "list",
+					"items": [
+						"You lose a hand.",
+						"You can no longer hold anything with two hands.",
+						"You can hold only a single object at a time.",
+						"You have a -3 penalty on Strength ability checks."
+					]
+				}
+			]
+		}
+	],
+	"table": [
+		{
+			"name": "Acid Lingering Injuries",
+			"source": "TITS",
+			"page": "2",
+			"caption": "Acid Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Partial Blindness.} Your eyes are damaged; you have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have already suffered partial blindness, you're {@condition Blinded|phb}."
+				],
+				[
+					"2",
+					"{@b Destroyed Foot or Leg.} Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+				],
+				[
+					"3",
+					"{@b Destroyed Hand.} You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks."
+				],
+				[
+					"4",
+					"{@b Fibrotic Muscles.} Your muscles have partially melted before scarring over, giving you a -3 penalty on Strength and Dexterity ability checks and saving throws."
+				],
+				[
+					"5-7",
+					{
+						"entries": [
+							"{@b Major Neuralgia.} You have constant, painful nerve damage over a large portion of your body, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions, and suffer a -2 penalty to saving throws.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 40 days}"
+						]
+					}
+				],
+				[
+					"8-10",
+					{
+						"entries": [
+							"{@b Minor Neuralgia.} You have sudden, sharp nerve pains, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions. If you already have Minor Neuralgia, it is replaced with {@condition Major Neuralgia|TITS}.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"11-13",
+					"{@b Horrible Disfigurement.} You have acid burn scars to the extent that can't be easily concealed. You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+				],
+				[
+					"14-16",
+					"{@b Disfigurement.} You have severe blister scars, appearing as splotches on your skin. You suffer a -1 penalty on Charisma ({@skill Persuasion|phb}) checks and a +1 bonus on Charisma ({@skill Intimidation|phb}) checks."
+				],
+				[
+					"17-20",
+					"{@b Acid Burn Scars.} You have a minor acid burn scar on your body, located where you were burned the most."
+				]
+			]
+		},
+		{
+			"name": "Bludgeoning or Force Lingering Injuries",
+			"source": "TITS",
+			"page": "3",
+			"caption": "Bludgeoning or Force Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Brain Injry.} You have suffered a brain injury. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws. If you are hit by a critical attack or fail a saving throw against taking bludgeoning, force, or psychic damage, you are also {@condition Stunned|phb} until the end of your next turn."
+				],
+				[
+					"2",
+					{
+						"entries": [
+							"{@b Broken Leg.} Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws. If it is not splinted before it's healed or allowed to heal, the effects remain until it is rebroken and splinted.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 50 days}"
+						]
+					}
+				],
+				[
+					"3",
+					{
+						"entries": [
+							"{@b Broken Arm.} You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks. If it is not splinted before it's healed or allowed to heal, the effects remain until it is rebroken and splinted.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 50 days}"
+						]
+					}
+				],
+				[
+					"4",
+					{
+						"entries": [
+							"{@b Major Internal Injury.} On each of your turns in combat, you must choose between an action or a bonus action.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"5-7",
+					{
+						"entries": [
+							"{@b Broken Ribs.} You have a -3 penalty on Strength and Dexterity ability checks, and are immune to being {@condition Squeezed|THICC}, but you suffer {@dice 1d4} hit points of bludgeoning damage when you end your turn in a position that would normally make you {@condition Squeezed|THICC}.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 40 days}"
+						]
+					}
+				],
+				[
+					"8-10",
+					{
+						"entries": [
+							"{@b Major Concussion.} You have a -3 penalty on Intelligence ability checks and saving throws, as well as Constitution saving throws to maintain concentration. You gain a +1 bonus to Wisdom saving throws.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 25 days}"
+						]
+					}
+				],
+				[
+					"11-13",
+					{
+						"entries": [
+							"{@b Minor Concussion.} You have a -2 penalty on Intelligence ability checks and saving throws. If you already have a Minor Concussion, you suffer a {@condition Major Concussion|TITS}.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"14-16",
+					{
+						"entries": [
+							"{@b Deep Hematoma.} Blood pools are stuck in your muscles as you suffer a -2 penalty to Strength and Dexterity ability checks and reduce all incoming bludgeoning damage by 1.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 30 days}"
+						]
+					}
+				],
+				[
+					"17-20",
+					"{@b Jagged Scar.} You were hit with enough force to tear the skin as opposed to shearing. You gain a jagged scar located where you were struck."
+				]
+			]
+		},
+		{
+			"name": "Cold Lingering Injuries",
+			"source": "TITS",
+			"page": "4",
+			"caption": "Cold Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Ocular Damage.} One of your corneas is damaged from frostbite. You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have no corneas that remain undamaged after sustaining this injury, you're {@condition Blinded|phb}."
+				],
+				[
+					"2",
+					"{@b Gangrenous Foot.} Your speed on foot is reduced by 10 feet, and you must use a cane or crutch to move upright. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws. Every day that the gangrenous foot is not debrided, you must make a DC 15 Constitution saving throw or suffer a number of {@dice d4} necrotic damage equal to the number of days that have passed since this injury was acquired, taking half damage on a success. Debriding the foot requires a successful DC 15 {@skill Medicine|phb} check."
+				],
+				[
+					"3",
+					"{@b Gangrenous Hand.} You can no longer hold anything with two hands, and you can hold only a single object at a time. Every day that the gangrenous hand is not debrided, you must make a DC 15 Constitution saving throw or suffer a number of {@dice d4} necrotic damage equal to the number of days that have passed since this injury was acquired, taking half damage on a success. Debriding the hand requires a successful DC 15 {@skill Medicine|phb} check."
+				],
+				[
+					"4",
+					"{@b Severe Nerve Damage.} You have a -3 penalty on Strength and Dexterity ability checks and saving throws."
+				],
+				[
+					"5-7",
+					{
+						"entries": [
+							"{@b Major Neuralgia.} You have constant, painful nerve damage over a large portion of your body, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions, and suffer a -2 penalty to saving throws.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 40 days}"
+						]
+					}
+				],
+				[
+					"8-10",
+					{
+						"entries": [
+							"{@b Minor Neuralgia.} You have sudden, sharp nerve pains, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions. If you already have Minor Neuralgia, it is replaced with {@condition Major Neuralgia|TITS}.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"11-13",
+					"{@b Cold Scars.} You have numbing, web-like cold scars covering your torso. You have a -3 penalty on Constitution saving throws, but gain 1 temporary hit point after receiving cold damage."
+				],
+				[
+					"14-16",
+					{
+						"entries": [
+							"{@b Anosmia.} You lose your sense of smell and taste. You automatically fail any ability checks that require your sense of smell or taste, and are unable to benefit from food and drink. As a result of lacking taste, you are able to ignore the requirements for eating any food or drink.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"17-20",
+					"{@b Raynaud's Syndrome.} Your extremities become extremely pale and tingle with light pain from the damage to the furthest ends of your nerves."
+				]
+			]
+		},
+		{
+			"name": "Exhaustion Table",
+			"source": "TITS",
+			"page": "19",
+			"caption": "Exhaustions",
+			"colLabels": [
+				"Tier",
+				"Penalty to d20 Rolls & Save DC",
+				"Effect"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-2 text-center",
+				"col-9"
+			],
+			"rows": [
+				[
+					"1",
+					"-1",
+					"Creature's speed decreases by 10 feet"
+				],
+				[
+					"2",
+					"-2",
+					"Creature can't take reactions"
+				],
+				[
+					"3",
+					"-3",
+					"Creature has disadvantage on ability checks"
+				],
+				[
+					"4",
+					"-4",
+					"Creature's speed is halved"
+				],
+				[
+					"5",
+					"-5",
+					"Creature has disadvantage on attack rolls and saving throws"
+				],
+				[
+					"6",
+					"-6",
+					"Attacks against the creature have advantage"
+				],
+				[
+					"7",
+					"-7",
+					"Creature's hit point maximum is halved"
+				],
+				[
+					"8",
+					"-8",
+					"Creature must choose between action or bonus action, not both"
+				],
+				[
+					"9",
+					"-9",
+					"Creature can only take bonus actions and becomes {@condition Prone|phb}"
+				],
+				[
+					"10",
+					"-10",
+					"Creature becomes {@condition Stunned|phb}"
+				],
+				[
+					"11+",
+					"\u2014",
+					"Death"
+				]
+			]
+		},
+		{
+			"name": "Fire Lingering Injuries",
+			"source": "TITS",
+			"page": "5",
+			"caption": "Fire Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Lose an Eye.} You lose an eye. You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have no eyes remaining after sustaining this injury, you're {@condition Blinded|phb}."
+				],
+				[
+					"2",
+					"{@b Fourth Degree Burns.} You have a -3 penalty on ability checks and Strength, Dexterity, and Constitution saving throws. If you take fire damage, you are {@condition Stunned|phb} until the end of your next turn. If you already have fourth degree burns, you must succeed at a DC 15 Constitution saving throw or die."
+				],
+				[
+					"3",
+					"{@b Third Degree Burns.} You have a -3 penalty on ability checks and Constitution saving throws. If you take 5 or more fire damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+				],
+				[
+					"4",
+					{
+						"entries": [
+							"{@b Second Degree Burns.} You have a -3 penalty on Strength and Dexterity ability checks and saving throws.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 30 days}"
+						]
+					}
+				],
+				[
+					"5-7",
+					{
+						"entries": [
+							"{@b Major Neuralgia.} You have constant, painful nerve damage over a large portion of your body, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions, and suffer a -2 penalty to saving throws.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 40 days}"
+						]
+					}
+				],
+				[
+					"8-10",
+					{
+						"entries": [
+							"{@b Minor Neuralgia.} You have sudden, sharp nerve pains, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions. If you already have Minor Neuralgia, it is replaced with {@condition Major Neuralgia|TITS}.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"11-13",
+					"{@b Horrible Disfigurement.} You have burn scars to the extent that can't be easily concealed. You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+				],
+				[
+					"14-16",
+					"{@b Disfigurement.} You have severe blister scars, appearing as splotches on your skin. You suffer a -1 penalty on Charisma ({@skill Persuasion|phb}) checks and a +1 bonus on Charisma ({@skill Intimidation|phb}) checks."
+				],
+				[
+					"17-20",
+					"{@b Burn Scar.} You have a minor burn scar on your body, located where you were burned the most."
+				]
+			]
+		},
+		{
+			"name": "Fumble Table",
+			"source": "TITS",
+			"page":  "15",
+			"caption": "Fumbles",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"Roll of this table twice."
+				],
+				[
+					"2",
+					"You end up overexerting yourself during your attack. Suffer a level of {@condition Exhaustion|THICC}. Roll a DC 15 Constitution saving throw or suffer an additional level of {@condition Exhaustion|THICC}."
+				],
+				[
+					"3",
+					"Your attack leaves you {@condition Wide Open|THICC}, giving you -1 AC! Any enemy within 30 feet that has the ability to attack you also gets an attack of opportunity on you."
+				],
+				[
+					"4",
+					"Your strike accidentally leaves a gash in your armor or clothing. One piece of armor determined by the DM suffers a -1 penalty to its AC. Any armor reduced below an AC of 10 with this feature breaks apart and is unusable. {@spell Mending|COOMS} may be used to repair armor that is only at -1. Any further would require the usage of the {@spell Repair|COOMS} spell."
+				],
+				[
+					"5-6",
+					"You clang your weapon awkwardly against an opponent or surface, leaving it unstable. A weapon suffers a -1 penalty to its attack and damage rolls. If a weapon has a net of -1, it breaks. This means that {@item Masterwork Weapon|OWL|Masterwork} weapons may suffer one additional penalty before they are destroyed. If a weapon made of wood, iron, or any fracturable material is broken, a usage of the {@spell Repair|COOMS} spell is needed. Otherwise, if it is something simple like a bow's drawstring breaking, a {@spell Mending|COOMS} spell may be used."
+				],
+				[
+					"7",
+					"You sprain your leg or get otherwise trapped due to poor footwork, leaving you {@condition Restrained|phb} until the end of your next turn."
+				],
+				[
+					"8-9",
+					"One weapon or item that you are currently holding is flung in a direction and location chosen by the DM. It could be as simple as dropping the weapon at your feet or as horrible as off a cliff."
+				],
+				[
+					"10-11",
+					{
+						"entries": [
+							"You fall {@condition Prone|phb} and one container on your person spills.",
+							{
+								"type": "list",
+								"items": [
+									"In the case of your backpack, {@dice 1d4} items drop at your feet. This may include anything not currently equipped. Dropped items have a chance of breaking.",
+									"In the case of your pouch or purse, {@dice 4d10} coins spill to the floor beneath you.",
+									"In the case of an ammunition container such as a quiver, {@dice 1d10} pieces of ammunition fall to the floor.",
+									"In the case of a container filled with a consumable, {@dice 2d6} uses of the container spill to the floor."
+								]
+							}
+						]
+					}
+				],
+				[
+					"12-14",
+					"You fumble your weapon. Target yourself with the attack that triggered this Fumble and attempt to hit yourself."
+				],
+				[
+					"15-17",
+					"Your handling of your weapon is unsteady. Target an ally chosen by the DM with the attack that triggered this Fumble and attempt to hit them."
+				],
+				[
+					"18-19",
+					"You end your turn as you are disrupted from the incident."
+				],
+				[
+					"20",
+					"You trip and fall {@condition Prone|phb}."
+				]
+			]
+		},
+		{
+			"name": "Lightning Lingering Injuries",
+			"source": "TITS",
+			"page": "6",
+			"caption": "Lightning Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Brain Injry.} You have suffered a brain injury. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws. If you are hit by a critical attack or fail a saving throw against taking bludgeoning, force, or psychic damage, you are also {@condition Stunned|phb} until the end of your next turn."
+				],
+				[
+					"2",
+					"{@b Explosive Grounding of the Foot.} You lose a foot. Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+				],
+				[
+					"3",
+					"{@b Explosive Grounding of the Hand.} You lose a hand. You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks."
+				],
+				[
+					"4",
+					"{@b Major Kidney Failure.} You have a -3 penalty to Constitution saving throws. Whenever you receive poison damage, take 2 more damage."
+				],
+				[
+					"5-7",
+					"{@b Cardiac Injury.} If you fail a saving throw against fear or fear effects, you gain a level of {@condition Exhaustion|THICC}. If you forced march, you automatically fail the Constitution save to avoid {@condition Exhaustion|THICC}. You gain a +2 bonus to Constitution saving throws when attempting to {@variantrule Bestir|TITS}."
+				],
+				[
+					"8-10",
+					"{@b Arc Flash.} Roll on the {@table Fire Lingering Injuries|TITS|Fire Lingering Injury} table at advantage."
+				],
+				[
+					"11-13",
+					{
+						"entries": [
+							"{@b Skeletal Muscle Breakdown.} You have a -2 penalty on Strength ability checks and saving throws. You gain a +1 bonus on Dexterity ability checks.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 40 days}"
+						]
+					}
+				],
+				[
+					"14-16",
+					{
+						"entries": [
+							"{@b Muscle Spasms.} You have a -2 penalty on Dexterity ability checks. You gain a +1 bonus on Strength ability checks.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"17-20",
+					"{@b Lichtenberg Scar.} You have a branching electrical scar that originates from the point of impact and branches rapidly along your capillaries."
+				]
+			]
+		},
+		{
+			"name": "Necrotic Lingering Injuries",
+			"source": "TITS",
+			"page": "7",
+			"caption": "Necrotic Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Spiritual Injury.} You are afflicted with intense apathy and depression. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws. Magic such as the {@spell Heal|COOMS} or {@spell Regenerate|COOMS} spell can resolve your spiritual injury, but such spells must be cast by a {@class Cleric|THICC}, {@class Druid|THICC}, or other class that uses divine magic."
+				],
+				[
+					"2",
+					"{@b Withered Foot.} You lose a foot. Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+				],
+				[
+					"3",
+					"{@b Withered Hand.} You lose a hand. You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks."
+				],
+				[
+					"4",
+					"{@b Major Organ Necrosis.} On each of your turns in combat, you must choose between an action or a bonus action."
+				],
+				[
+					"5-7",
+					"{@b Minor Organ Necrosis.} On each of your turns in combat, you must choose between a bonus action or a reaction."
+				],
+				[
+					"8-10",
+					"{@b Necrotic Stench.} You smell like rotting flesh. You have a -3 penalty on Charisma ({@skill Persuasion|phb}) checks, and automatically succeed any saving throws to avoid the effects of rancid stench."
+				],
+				[
+					"11-13",
+					{
+						"entries": [
+							"{@b Necrotic Wound.} Your wound may heal, but the numbing necrotic energy failed to dissipate. You suffer a -5 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die. At the end of each long rest, gain {@dice 1d4} temporary hit points.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 15 days}"
+						]
+					}
+				],
+				[
+					"14-16",
+					{
+						"entries": [
+							"{@b Inflammation.} Your muscles are stuck irritated and inflamed. You have a -2 penalty on Dexterity ability checks, and gain a +1 bonus to Strength saving throws.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 15 days}"
+						]
+					}
+				],
+				[
+					"17-20",
+					"{@b Necrotic Discoloration.} You have a large amount of small white and gray spots on your skin dispersing from the point of impact."
+				]
+			]
+		},
+		{
+			"name": "Piercing Lingering Injuries",
+			"source": "TITS",
+			"page": "8",
+			"caption": "Piercing Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Lose an Eye.} You lose an eye. You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have no eyes remaining after sustaining this injury, you're {@condition Blinded|phb}."
+				],
+				[
+					"2",
+					"{@b Throat Injury.} You gain a level of {@condition Exhaustion|THICC} which cannot be removed by normal means. You also have a -3 penalty on Constitution saving throws."
+				],
+				[
+					"3",
+					"{@b Groin Injury.} Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+				],
+				[
+					"4",
+					{
+						"entries": [
+							"{@b Major Internal Injury.} On each of your turns in combat, you must choose between an action or a bonus action.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"5-7",
+					{
+						"entries": [
+							"{@b Minor Internal Injury.} On each of your turns in combat, you must choose between a bonus action or a reaction.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"8-10",
+					{
+						"entries": [
+							"{@b Pierced Stomach.} You have a -3 penalty to Constitution saving throws, a -3 penalty to your hit point maximum, and a +1 bonus to Wisdom saving throws. If this reduces your hit point maximum to 0 hit points or less, you die.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"11-13",
+					{
+						"entries": [
+							"{@b Scabbing Wound.} Your wound never quite finished healing. You suffer a -5 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die. At the end of each long rest, gain {@dice 1d4} temporary hit points.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 15 days}"
+						]
+					}
+				],
+				[
+					"14-16",
+					"{@b Horrible Scar.} You are disfigured to the extent that the wound can't be easily concealed. You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+				],
+				[
+					"17-20",
+					"{@b Minor Scar.} You have a minor scar where you were pierced."
+				]
+			]
+		},
+		{
+			"name": "Poison Lingering Injuries",
+			"source": "TITS",
+			"page": "9",
+			"caption": "Poison Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Systemic Damage.} You have a -3 penalty on Strength, Dexterity, and Constitution ability checks and saving throws."
+				],
+				[
+					"2",
+					"{@b Major Liver Damage.} You have a -3 penalty to Constitution saving throws. Additionally, whenever you take poison damage, you take an additional {@dice 1d6} poison damage and are {@condition Poisoned|phb} until the end of your next turn. Anytime you drink alcohol or take any other sort of drug, you take {@dice 1d6} poison damage."
+				],
+				[
+					"3",
+					"{@b Minor Liver Damage.} You have a -3 penalty to Constitution saving throws. Additionally, whenever you take poison damage, you take an additional {@dice 1d4} poison damage. Anytime you drink alcohol or take any other sort of drug, you take {@dice 1d4} poison damage."
+				],
+				[
+					"4",
+					"{@b Major Kidney Failure.} You have a -3 penalty to Constitution saving throws. Whenever you receive poison damage, take 2 more damage."
+				],
+				[
+					"5-7",
+					"{@b Cardiac Injury.} If you fail a saving throw against fear or fear effects, you gain a level of {@condition Exhaustion|THICC}. If you forced march, you automatically fail the Constitution save to avoid {@condition Exhaustion|THICC}. You gain a +2 bonus to Constitution saving throws when attempting to {@variantrule Bestir|TITS}."
+				],
+				[
+					"8-10",
+					"{@b Minor Kidney Failure.} You have a -3 penalty to Constitution saving throws related to poison or alcohol and drug consumption. Whenever you receive poison damage, take 1 more damage."
+				],
+				[
+					"11-13",
+					{
+						"entries": [
+							"{@b Vertigo.} You have a -2 penalty on Dexterity ability checks and saving throws, and a +1 bonus to Constitution saving throws.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 50 days}"
+						]
+					}
+				],
+				[
+					"14-16",
+					{
+						"entries": [
+							"{@b Nausea.} You have a -3 penalty on Charisma ability checks, and a +1 bonus to Constitution saving throws.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 25 days}"
+						]
+					}
+				],
+				[
+					"17-20",
+					"{@b Skin Blotches.} You have large sickly grey blotches of skin where you were struck with poison."
+				]
+			]
+		},
+		{
+			"name": "Psychic Lingering Injuries",
+			"source": "TITS",
+			"page": "10",
+			"caption": "Psychic Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Minor Psychosis.} Your mind has completely slipped away from you. You cannot tell the difference between your own memories or memories you have made up. You have a -3 penalty to all Intelligence, Wisdom, and Charisma ability checks and saving throws. If you take psychic damage, you become {@condition Frightened|phb} of the source of the damage until the creature is no longer a threat. If you do not know the source of the psychic damage, you become {@condition Frightened|phb} of all creatures until the end of your next turn."
+				],
+				[
+					"2",
+					"{@b Schizophrenia.} You see and hear things that aren't there, indistinguishable from reality. You have a -3 penalty to all ability checks, as well as Intelligence saving throws and initiative rolls."
+				],
+				[
+					"3",
+					"{@b Phobia.} You develop a debilitating fear of something in the situation from which you gained your injury, decided by the DM. For example, if you were damaged by a Mind Flayer, you might have a fear of octopi. You are always {@condition Frightened|phb} of the source of your fear."
+				],
+				[
+					"4",
+					"{@b Indefinite Madness.} Roll on the {@table Indefinite Madness|dmg} table in the Dungeon Masters Guide."
+				],
+				[
+					"5-7",
+					{
+						"entries": [
+							"{@b Minor Psychosis.} You feel your mind slipping away from you. You are barely able to keep hold of your own memories. You suffer a -2 penalty to all Intelligence, Wisdom, and Charisma ability checks and Intelligence saving throws.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 30 days}"
+						]
+					}
+				],
+				[
+					"8-10",
+					{
+						"entries": [
+							"{@b Paranoia.} You believe no one is your friend, and everyone is out to get you. You have a -3 penalty to all Charisma ({@skill Persuasion|phb}) and Wisdom ({@skill Insight|phb}) checks, and a +1 bonus to Charisma ({@skill Deception|phb}) and Charisma ({@skill Intimidation|phb}) checks.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 30 days}"
+						]
+					}
+				],
+				[
+					"11-13",
+					{
+						"entries": [
+							"{@b Migraines.} You become prone to rancid, debilitating headaches. If you are hit by a critical attack or take 5 or more psychic or thunder damage in a single turn, you gain the {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity} racial feature for 1 hour. If you already have {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity}, you instead become {@condition Photosensitive|TITS} for 1 hour.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"14-16",
+					{
+						"entries": [
+							"{@b Weak Persona.} You have suffered damage to your confidence and personality, leading you to talk less and listen more. You suffer a -2 penalty to Charisma ability checks and saving throws. You gain a +1 bonus to Wisdom ({@skill Perception|phb}) and Wisdom ({@skill Insight|phb}) checks.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"17-20",
+					"{@b Twitching Eyes.} You can't keep your eyes still, it feels natural to move them rapidly in every direction."
+				]
+			]
+		},
+		{
+			"name": "Radiant Lingering Injuries",
+			"source": "TITS",
+			"page": "11",
+			"caption": "Radiant Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Cancer.} You have a -3 penalty on Strength, Dexterity, and Constitution ability checks and saving throws."
+				],
+				[
+					"2",
+					"{@b Partial Blindness.} Your retinas are damaged; you have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have already suffered partial blindness, you're {@condition Blinded|phb}."
+				],
+				[
+					"3",
+					"{@b Radiance Scorched.} You have a -3 penalty on ability checks and Constitution saving throws. If you take 5 or more radiant damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+				],
+				[
+					"4",
+					{
+						"entries": [
+							"{@b Radiance Burns.} You have a -3 penalty on Strength and Dexterity ability checks and saving throws.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 30 days}"
+						]
+					}
+				],
+				[
+					"5-7",
+					"{@b Large Skin Tumors.} You develop several large, painful, and benign skin tumors. You suffer a -3 penalty on Charisma (@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks. If you already have Large Skin Tumors, you develop {@condition Cancer|TITS}. If you already have {@condition Cancer|TITS}, you do not develop it again as a result of this injury."
+				],
+				[
+					"8-10",
+					"{@b Small Skin Tumors.} You develop several small, painless, and benign skin tumors. You suffer a -1 penalty on Charisma ({@skill Persuasion|phb}) checks and a +1 bonus on Charisma ({@skill Intimidation|phb}) checks. If you already have Small Skin Tumors, they are replaced with {@condition Large Skin Tumors|TITS}. Once per day, over the course of an hour working as if in concentration, a creature may attempt a DC 20 {@skill Medicine|phb} check to remove the tumors from your body. Regardless of if you succeed or fail, you must take {@dice 3d4} slashing damage. On a natural 20, you take no damage, and on a natural 1, you take twice this amount."
+				],
+				[
+					"11-13",
+					"{@b Major Mutation.} Your being has fundamentally and significantly changed. Roll on the {@table Reincarnation|TITS} table. You lose your racial ability bonuses and gain the racial ability bonuses from the race that you rolled (if the racial ability bonus allows you to choose between several options, it is decided randomly), along with a random ability determined by the DM from that race. If you already have a major mutation, you lose the racial ability bonus from the previous major mutation, but still keep their random ability when you roll for your new racial ability bonus and random ability."
+				],
+				[
+					"14-16",
+					"{@b Minor Mutation.} Your being has fundamentally changed. Roll {@dice 4d6}, with each face of the {@dice d6} equating to an ability score (1 as Strength, 2 as Dexterity, etc.). The first two numbers you roll have their corresponding ability score increased by 1. The last two numbers you roll have their corresponding ability score decreased by 1."
+				],
+				[
+					"17-20",
+					"{@b Surface-level Damage.} Visible hair on your body burns away, the follicles permanently damaged. Hair on your head is thinned and will stay extremely short. If you have any exposed tattoos, they fade as if exposed to 10 years of sunlight."
+				]
+			]
+		},
+		{
+			"name": "Reincarnation",
+			"source": "COOMS",
+			"caption": "Reincarnation",
+			"colLabels": [
+				"{@dice d10000}",
+				"Race"
+			],
+			"colStyles": [
+				"col-1 text-center",
+				"col-1 text-center"
+			],
+			"rows": [
+[{"type": "cell", "roll": {"min": 1, "max": 95}},"{@race Aarakocra|EARL|Aarakocra}"],
+[{"type": "cell", "roll": {"min": 96, "max": 99}},"{@race Aasimar (Fallen)|EARL|Fallen Aasimar}"],
+[{"type": "cell", "roll": {"min": 100, "max": 194}},"{@race Aasimar (Protector)|EARL|Protector Aasimar}"],
+[{"type": "cell", "roll": {"min": 195, "max": 201}},"{@race Aasimar (Scourge)|EARL|Scourge Aasimar}"],
+[{"type": "cell", "roll": {"min": 202, "max": 301}},"{@race Axani|EARL|Axani}"],
+[{"type": "cell", "roll": {"min": 302, "max": 391}},"{@race Bugbear|EARL|Bugbear}"],
+[{"type": "cell", "roll": {"min": 392, "max": 413}},"{@race Bullywug|EARL|Bullywug}"],
+[{"type": "cell", "roll": {"min": 414, "max": 513}},"{@race Cansin|EARL|Cansin}"],
+[{"type": "cell", "roll": {"min": 514, "max": 551}},"{@race Centaur|EARL|Centaur}"],
+[{"type": "cell", "roll": {"min": 552, "max": 571}},"{@race Cervan (Grove)|EARL|Grove Cervine}"],
+[{"type": "cell", "roll": {"min": 572, "max": 591}},"{@race Cervan (Pronghorn)|EARL|Pronghorn Cervine}"],
+[{"type": "cell", "roll": {"min": 592, "max": 606}},"{@race Changeling|EARL|Changeling}"],
+[{"type": "cell", "roll": {"min": 607, "max": 610}},"{@race Dohwar|EARL|Dohwar}"],
+[{"type": "cell", "roll": {"min": 611, "max": 612}},"{@race Dragonborn (Gem)|EARL|Amethyst Dragonborn}"],
+[{"type": "cell", "roll": {"min": 613, "max": 642}},"{@race Dragonborn (Chromatic)|EARL|Black Dragonborn}"],
+[{"type": "cell", "roll": {"min": 643, "max": 672}},"{@race Dragonborn (Chromatic)|EARL|Blue Dragonborn}"],
+[{"type": "cell", "roll": {"min": 673, "max": 702}},"{@race Dragonborn (Metallic)|EARL|Brass Dragonborn}"],
+[{"type": "cell", "roll": {"min": 703, "max": 732}},"{@race Dragonborn (Metallic)|EARL|Bronze Dragonborn}"],
+[{"type": "cell", "roll": {"min": 733, "max": 762}},"{@race Dragonborn (Metallic)|EARL|Copper Dragonborn}"],
+[{"type": "cell", "roll": {"min": 763, "max": 764}},"{@race Dragonborn (Gem)|EARL|Crystal Dragonborn}"],
+[{"type": "cell", "roll": {"min": 765, "max": 766}},"{@race Dragonborn (Gem)|EARL|Emerald Dragonborn}"],
+[{"type": "cell", "roll": {"min": 767, "max": 796}},"{@race Dragonborn (Metallic)|EARL|Gold Dragonborn}"],
+[{"type": "cell", "roll": {"min": 797, "max": 826}},"{@race Dragonborn (Chromatic)|EARL|Green Dragonborn}"],
+[{"type": "cell", "roll": {"min": 827, "max": 856}},"{@race Dragonborn (Chromatic)|EARL|Red Dragonborn}"],
+[{"type": "cell", "roll": {"min": 857, "max": 858}},"{@race Dragonborn (Gem)|EARL|Sapphire Dragonborn}"],
+[{"type": "cell", "roll": {"min": 859, "max": 888}},"{@race Dragonborn (Metallic)|EARL|Silver Dragonborn}"],
+[{"type": "cell", "roll": {"min": 889, "max": 890}},"{@race Dragonborn (Gem)|EARL|Topaz Dragonborn}"],
+[{"type": "cell", "roll": {"min": 891, "max": 920}},"{@race Dragonborn (Chromatic)|EARL|White Dragonborn}"],
+[{"type": "cell", "roll": {"min": 921, "max": 1020}},"{@race Dwarf (Duergar)|EARL|Duergar}"],
+[{"type": "cell", "roll": {"min": 1021, "max": 1360}},"{@race Dwarf (Hill)|EARL|Hill Dwarf}"],
+[{"type": "cell", "roll": {"min": 1361, "max": 1690}},"{@race Dwarf (Mountain)|EARL|Mountain Dwarf}"],
+[{"type": "cell", "roll": {"min": 1691, "max": 1692}},"{@race Dwelf|EARL|Dwelf}"],
+[{"type": "cell", "roll": {"min": 1693, "max": 1696}},"{@race Elf (Astral)|EARL|Astral Elf}"],
+[{"type": "cell", "roll": {"min": 1697, "max": 1946}},"{@race Elf (Drow)|EARL|Drow}"],
+[{"type": "cell", "roll": {"min": 1947, "max": 1955}},"{@race Elf (Eladrin)|EARL|Eladrin}"],
+[{"type": "cell", "roll": {"min": 1956, "max": 2305}},"{@race Elf (High)|EARL|High Elf}"],
+[{"type": "cell", "roll": {"min": 2306, "max": 2306}},"{@race Elf (Pallid)|EARL|Moon Elf}"],
+[{"type": "cell", "roll": {"min": 2307, "max": 2333}},"{@race Elf (Sea)|EARL|Sea Elf}"],
+[{"type": "cell", "roll": {"min": 2334, "max": 2335}},"{@race Elf (Shadar-kai)|EARL|Shadar-kai}"],
+[{"type": "cell", "roll": {"min": 2336, "max": 2655}},"{@race Elf (Wood)|EARL|Wood Elf}"],
+[{"type": "cell", "roll": {"min": 2656, "max": 2690}},"{@race Erlidi|EARL|Erlidi}"],
+[{"type": "cell", "roll": {"min": 2691, "max": 2770}},"{@race Fairy|EARL|Fairy}"],
+[{"type": "cell", "roll": {"min": 2771, "max": 2820}},"{@race Firbolg|EARL|Firbolg}"],
+[{"type": "cell", "roll": {"min": 2821, "max": 2845}},"{@race Genasi (Air)|EARL|Air Genasi}"],
+[{"type": "cell", "roll": {"min": 2846, "max": 2870}},"{@race Genasi (Earth)|EARL|Earth Genasi}"],
+[{"type": "cell", "roll": {"min": 2871, "max": 2895}},"{@race Genasi (Fire)|EARL|Fire Genasi}"],
+[{"type": "cell", "roll": {"min": 2896, "max": 2920}},"{@race Genasi (Water)|EARL|Water Genasi}"],
+[{"type": "cell", "roll": {"min": 2921, "max": 2926}},"{@race Giff|EARL|Giff}"],
+[{"type": "cell", "roll": {"min": 2927, "max": 2951}},"{@race Gith (Githyanki)|EARL|Githyanki}"],
+[{"type": "cell", "roll": {"min": 2952, "max": 2976}},"{@race Gith (Githzerai)|EARL|Githzerai}"],
+[{"type": "cell", "roll": {"min": 2977, "max": 3086}},"{@race Gnoll|EARL|Gnoll}"],
+[{"type": "cell", "roll": {"min": 3087, "max": 3181}},"{@race Gnome (Deep)|EARL|Svirfneblin}"],
+[{"type": "cell", "roll": {"min": 3182, "max": 3301}},"{@race Gnome (Forest)|EARL|Forest Gnome}"],
+[{"type": "cell", "roll": {"min": 3302, "max": 3601}},"{@race Gnome (Rock)|EARL|Rock Gnome}"],
+[{"type": "cell", "roll": {"min": 3602, "max": 4106}},"{@race Goblin|EARL|Goblin}"],
+[{"type": "cell", "roll": {"min": 4107, "max": 4206}},"{@race Goliath|EARL|Goliath}"],
+[{"type": "cell", "roll": {"min": 4207, "max": 4224}},"{@race Grippli|EARL|Grippli}"],
+[{"type": "cell", "roll": {"min": 4225, "max": 4256}},"{@race Grung|EARL|Grung}"],
+[{"type": "cell", "roll": {"min": 4257, "max": 4261}},"{@race Hadozee|EARL|Hadozee}"],
+[{"type": "cell", "roll": {"min": 4262, "max": 4276}},"{@race Half-Bugbear|EARL|Half-Bugbear}"],
+[{"type": "cell", "roll": {"min": 4277, "max": 4278}},"{@race Half-Dragon (Drow)|EARL|Drow Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4279, "max": 4279}},"{@race Half-Dragon (Duergar)|EARL|Duergar Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4280, "max": 4283}},"{@race Half-Dragon (Dwarf)|EARL|Dwarf Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4284, "max": 4287}},"{@race Half-Dragon (Elf)|EARL|Elf Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4288, "max": 4288}},"{@race Half-Dragon (Gnome)|EARL|Gnome Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4289, "max": 4291}},"{@race Half-Dragon (Halfling)|EARL|Halfling Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4292, "max": 4296}},"{@race Half-Dragon (Human)|EARL|Human Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4297, "max": 4300}},"{@race Half-Dragon (Kobold)|EARL|Kobold Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4301, "max": 4301}},"{@race Half-Dragon (Orc)|EARL|Orc Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4302, "max": 4303}},"{@race Half-Dragon (Urd)|EARL|Urd Half-Dragon}"],
+[{"type": "cell", "roll": {"min": 4304, "max": 4304}},"{@race Half-Elf (Astral)|EARL|Astral Half-Elf}"],
+[{"type": "cell", "roll": {"min": 4305, "max": 4309}},"{@race Half-Elf (Drow)|EARL|Drow Half-Elf}"],
+[{"type": "cell", "roll": {"min": 4310, "max": 4311}},"{@race Half-Elf (Eladrin)|EARL|Eladrin Half-Elf}"],
+[{"type": "cell", "roll": {"min": 4312, "max": 4426}},"{@race Half-Elf (High)|EARL|High Half-Elf}"],
+[{"type": "cell", "roll": {"min": 4427, "max": 4427}},"{@race Half-Elf (Pallid)|EARL|Pallid Half-Elf}"],
+[{"type": "cell", "roll": {"min": 4428, "max": 4430}},"{@race Half-Elf (Sea)|EARL|Sea Half-Elf}"],
+[{"type": "cell", "roll": {"min": 4431, "max": 4431}},"{@race Half-Elf (Shadar-kai)|EARL|Shadar-kai Half-Elf}"],
+[{"type": "cell", "roll": {"min": 4432, "max": 4541}},"{@race Half-Elf (Wood)|EARL|Wood Half-Elf}"],
+[{"type": "cell", "roll": {"min": 4542, "max": 4542}},"{@race Half-Fairy (Human)|EARL|Human Half-Fairy}"],
+[{"type": "cell", "roll": {"min": 4543, "max": 4544}},"{@race Half-Fairy (Pixie)|EARL|Pixie Half-Fairy}"],
+[{"type": "cell", "roll": {"min": 4545, "max": 4546}},"{@race Half-Fairy (Sprite)|EARL|Sprite Half-Fairy}"],
+[{"type": "cell", "roll": {"min": 4547, "max": 4586}},"{@race Half-Goblin|EARL|Half-Goblin}"],
+[{"type": "cell", "roll": {"min": 4587, "max": 4626}},"{@race Half-Harengon|EARL|Half-Harengon}"],
+[{"type": "cell", "roll": {"min": 4627, "max": 4646}},"{@race Half-Hobgoblin|EARL|Half-Hobgoblin}"],
+[{"type": "cell", "roll": {"min": 4647, "max": 4650}},"{@race Half-Jerbeen|EARL|Half-Jerbeen}"],
+[{"type": "cell", "roll": {"min": 4651, "max": 4651}},"{@race Half-Ogre|EARL|Half-Ogre}"],
+[{"type": "cell", "roll": {"min": 4652, "max": 4736}},"{@race Half-Orc|EARL|Half-Orc}"],
+[{"type": "cell", "roll": {"min": 4737, "max": 4816}},"{@race Half-Tabaxi|EARL|Half-Tabaxi}"],
+[{"type": "cell", "roll": {"min": 4817, "max": 4817}},"{@race Half-Troll|EARL|Half-Troll}"],
+[{"type": "cell", "roll": {"min": 4818, "max": 4819}},"{@race Halfblood (Duergar)|EARL|Duergar Halfblood}"],
+[{"type": "cell", "roll": {"min": 4820, "max": 4899}},"{@race Halfblood (Hill)|EARL|Hill Halfblood}"],
+[{"type": "cell", "roll": {"min": 4900, "max": 4969}},"{@race Halfblood (Mountain)|EARL|Mountain Halfblood}"],
+[{"type": "cell", "roll": {"min": 4970, "max": 5069}},"{@race Halfling (Ghostwise)|EARL|Ghostwise Halfling}"],
+[{"type": "cell", "roll": {"min": 5070, "max": 5319}},"{@race Halfling (Lightfoot)|EARL|Lightfoot Halfling}"],
+[{"type": "cell", "roll": {"min": 5320, "max": 5369}},"{@race Halfling (Lotusden)|EARL|Lotusden Halfling}"],
+[{"type": "cell", "roll": {"min": 5370, "max": 5719}},"{@race Halfling (Stout)|EARL|Stout Halfling}"],
+[{"type": "cell", "roll": {"min": 5720, "max": 5802}},"{@race Harengon|EARL|Harengon}"],
+[{"type": "cell", "roll": {"min": 5803, "max": 5827}},"{@race Hedge (Hunker)|EARL|Hunker Hedge}"],
+[{"type": "cell", "roll": {"min": 5828, "max": 5840}},"{@race Hedge (Roller)|EARL|Roller Hedge}"],
+[{"type": "cell", "roll": {"min": 5841, "max": 5990}},"{@race Hobgoblin|EARL|Hobgoblin}"],
+[{"type": "cell", "roll": {"min": 5991, "max": 6790}},"{@race Human|EARL|Human}"],
+[{"type": "cell", "roll": {"min": 6791, "max": 6800}},"{@race Jerbeen|EARL|Jerbeen}"],
+[{"type": "cell", "roll": {"min": 6801, "max": 6801}},"{@race Kalashtar|EARL|Kalashtar}"],
+[{"type": "cell", "roll": {"min": 6802, "max": 6816}},"{@race Kender|EARL|Kender}"],
+[{"type": "cell", "roll": {"min": 6817, "max": 6886}},"{@race Kenku|EARL|Kenku}"],
+[{"type": "cell", "roll": {"min": 6887, "max": 6966}},"{@race Kitsune|EARL|Kitsune}"],
+[{"type": "cell", "roll": {"min": 6967, "max": 7386}},"{@race Kobold|EARL|Kobold}"],
+[{"type": "cell", "roll": {"min": 7387, "max": 7466}},"{@race Kobold (Winged)|EARL|Urd}"],
+[{"type": "cell", "roll": {"min": 7467, "max": 7544}},"{@race Kuo-toa|EARL|Kuo-toa}"],
+[{"type": "cell", "roll": {"min": 7545, "max": 7574}},"{@race Leonin|EARL|Leonin}"],
+[{"type": "cell", "roll": {"min": 7575, "max": 7604}},"{@race Leshy (Cactus)|EARL|Cactus Leshy}"],
+[{"type": "cell", "roll": {"min": 7605, "max": 7606}},"{@race Leshy (Flytrap)|EARL|Flytrap Leshy}"],
+[{"type": "cell", "roll": {"min": 7607, "max": 7666}},"{@race Leshy (Fruit)|EARL|Fruit Leshy}"],
+[{"type": "cell", "roll": {"min": 7667, "max": 7741}},"{@race Leshy (Fungus)|EARL|Fungus Leshy}"],
+[{"type": "cell", "roll": {"min": 7742, "max": 7761}},"{@race Leshy (Gourd)|EARL|Gourd Leshy}"],
+[{"type": "cell", "roll": {"min": 7762, "max": 7811}},"{@race Leshy (Leaf)|EARL|Leaf Leshy}"],
+[{"type": "cell", "roll": {"min": 7812, "max": 7819}},"{@race Leshy (Lotus)|EARL|Lotus Leshy}"],
+[{"type": "cell", "roll": {"min": 7820, "max": 7844}},"{@race Leshy (Pine)|EARL|Pine Leshy}"],
+[{"type": "cell", "roll": {"min": 7845, "max": 7879}},"{@race Leshy (Root)|EARL|Root Leshy}"],
+[{"type": "cell", "roll": {"min": 7880, "max": 7917}},"{@race Leshy (Seaweed)|EARL|Seaweed Leshy}"],
+[{"type": "cell", "roll": {"min": 7918, "max": 7920}},"{@race Leshy (Sunflower)|EARL|Sunflower Leshy}"],
+[{"type": "cell", "roll": {"min": 7921, "max": 7930}},"{@race Leshy (Vine)|EARL|Vine Leshy}"],
+[{"type": "cell", "roll": {"min": 7931, "max": 7992}},"{@race Lizardfolk|EARL|Lizardfolk}"],
+[{"type": "cell", "roll": {"min": 7993, "max": 7997}},"{@race Locathah|EARL|Locathah}"],
+[{"type": "cell", "roll": {"min": 7998, "max": 8020}},"{@race Loxodon|EARL|Loxodon}"],
+[{"type": "cell", "roll": {"min": 8021, "max": 8021}},"{@race M'jol (Duergar)|EARL|Duergar M'jol}"],
+[{"type": "cell", "roll": {"min": 8022, "max": 8023}},"{@race M'jol (Hill)|EARL|Hill M'jol}"],
+[{"type": "cell", "roll": {"min": 8024, "max": 8025}},"{@race M'jol (Mountain)|EARL|Mountain M'jol}"],
+[{"type": "cell", "roll": {"min": 8026, "max": 8065}},"{@race Mapach|EARL|Mapach}"],
+[{"type": "cell", "roll": {"min": 8066, "max": 8210}},"{@race Merfolk|EARL|Merfolk}"],
+[{"type": "cell", "roll": {"min": 8211, "max": 8258}},"{@race Minotaur|EARL|Minotaur}"],
+[{"type": "cell", "roll": {"min": 8259, "max": 8398}},"{@race Myconid|EARL|Myconid}"],
+[{"type": "cell", "roll": {"min": 8399, "max": 8406}},"{@race Ogrillon|EARL|Ogrillon}"],
+[{"type": "cell", "roll": {"min": 8407, "max": 8956}},"{@race Orc|EARL|Orc}"],
+[{"type": "cell", "roll": {"min": 8957, "max": 8961}},"{@race Owlin|EARL|Owlin}"],
+[{"type": "cell", "roll": {"min": 8962, "max": 8962}},"{@race Para-genasi (Ash)|EARL|Ash Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8963, "max": 8963}},"{@race Para-genasi (Dust)|EARL|Dust Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8964, "max": 8964}},"{@race Para-genasi (Ice)|EARL|Ice Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8965, "max": 8965}},"{@race Para-genasi (Lightning)|EARL|Lightning Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8966, "max": 8966}},"{@race Para-genasi (Magma)|EARL|Magma Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8967, "max": 8967}},"{@race Para-genasi (Mineral)|EARL|Mineral Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8968, "max": 8968}},"{@race Para-genasi (Ooze)|EARL|Ooze Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8969, "max": 8969}},"{@race Para-genasi (Radiance)|EARL|Radiance Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8970, "max": 8970}},"{@race Para-genasi (Salt)|EARL|Salt Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8971, "max": 8971}},"{@race Para-genasi (Smoke)|EARL|Smoke Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8972, "max": 8972}},"{@race Para-genasi (Steam)|EARL|Steam Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8973, "max": 8973}},"{@race Para-genasi (Vacuum)|EARL|Vacuum Para-genasi}"],
+[{"type": "cell", "roll": {"min": 8974, "max": 8983}},"{@race Plasmoid|EARL|Plasmoid}"],
+[{"type": "cell", "roll": {"min": 8984, "max": 9039}},"{@race Quaggoth|EARL|Quaggoth}"],
+[{"type": "cell", "roll": {"min": 9040, "max": 9104}},"{@race Satyr|EARL|Satyr}"],
+[{"type": "cell", "roll": {"min": 9105, "max": 9105}},"{@race Shadar-blaidd|EARL|Shadar-blaidd}"],
+[{"type": "cell", "roll": {"min": 9106, "max": 9125}},"{@race Shifter (Beasthide)|EARL|Beasthide Shifter}"],
+[{"type": "cell", "roll": {"min": 9126, "max": 9145}},"{@race Shifter (Longtooth)|EARL|Longtooth Shifter}"],
+[{"type": "cell", "roll": {"min": 9146, "max": 9165}},"{@race Shifter (Swiftstride)|EARL|Swiftstride Shifter}"],
+[{"type": "cell", "roll": {"min": 9166, "max": 9185}},"{@race Shifter (Wildhunt)|EARL|Wildhunt Shifter}"],
+[{"type": "cell", "roll": {"min": 9186, "max": 9265}},"{@race Skaven|EARL|Skaven}"],
+[{"type": "cell", "roll": {"min": 9266, "max": 9380}},"{@race Tabaxi|EARL|Tabaxi}"],
+[{"type": "cell", "roll": {"min": 9381, "max": 9413}},"{@race Thri-kreen|EARL|Thri-kreen}"],
+[{"type": "cell", "roll": {"min": 9414, "max": 9416}},"{@race Tiefling (Achaierai)|EARL|Achaierai Tiefling}"],
+[{"type": "cell", "roll": {"min": 9417, "max": 9433}},"{@race Tiefling (Asmodeus)|EARL|Asmodeus Tiefling}"],
+[{"type": "cell", "roll": {"min": 9434, "max": 9450}},"{@race Tiefling (Baalzebul)|EARL|Baalzebul Tiefling}"],
+[{"type": "cell", "roll": {"min": 9451, "max": 9454}},"{@race Tiefling (Barghest)|EARL|Barghest Tiefling}"],
+[{"type": "cell", "roll": {"min": 9455, "max": 9471}},"{@race Tiefling (Belial or Fierna)|EARL|Belial/Fierna Tiefling}"],
+[{"type": "cell", "roll": {"min": 9472, "max": 9481}},"{@race Tiefling (Demodand)|EARL|Demodand Tiefling}"],
+[{"type": "cell", "roll": {"min": 9482, "max": 9546}},"{@race Tiefling (Demon)|EARL|Demon Tiefling}"],
+[{"type": "cell", "roll": {"min": 9547, "max": 9563}},"{@race Tiefling (Dispater)|EARL|Dispater Tiefling}"],
+[{"type": "cell", "roll": {"min": 9564, "max": 9580}},"{@race Tiefling (Glasya)|EARL|Glasya Tiefling}"],
+[{"type": "cell", "roll": {"min": 9581, "max": 9583}},"{@race Tiefling (Howler)|EARL|Howler Tiefling}"],
+[{"type": "cell", "roll": {"min": 9584, "max": 9600}},"{@race Tiefling (Levistus)|EARL|Levistus Tiefling}"],
+[{"type": "cell", "roll": {"min": 9601, "max": 9617}},"{@race Tiefling (Mammon)|EARL|Mammon Tiefling}"],
+[{"type": "cell", "roll": {"min": 9618, "max": 9634}},"{@race Tiefling (Mephistopheles)|EARL|Mephistopheles Tiefling}"],
+[{"type": "cell", "roll": {"min": 9635, "max": 9641}},"{@race Tiefling (Scourge)|EARL|Scourge Tiefling}"],
+[{"type": "cell", "roll": {"min": 9642, "max": 9651}},"{@race Tiefling (Yugoloth)|EARL|Yugoloth Tiefling}"],
+[{"type": "cell", "roll": {"min": 9652, "max": 9668}},"{@race Tiefling (Zariel)|EARL|Zariel Tiefling}"],
+[{"type": "cell", "roll": {"min": 9669, "max": 9732}},"{@race Tortle|EARL|Tortle}"],
+[{"type": "cell", "roll": {"min": 9733, "max": 9857}},"{@race Triton|EARL|Triton}"],
+[{"type": "cell", "roll": {"min": 9858, "max": 9917}},"{@race Troglodyte|EARL|Troglodyte}"],
+[{"type": "cell", "roll": {"min": 9918, "max": 9918}},"{@race Ursalin|EARL|Ursalin}"],
+[{"type": "cell", "roll": {"min": 9919, "max": 9922}},"{@race Ursarth (Black)|EARL|Black Ursarth}"],
+[{"type": "cell", "roll": {"min": 9923, "max": 9927}},"{@race Ursarth (Brown)|EARL|Brown Ursarth}"],
+[{"type": "cell", "roll": {"min": 9928, "max": 9930}},"{@race Ursarth (Cave)|EARL|Cave Ursarth}"],
+[{"type": "cell", "roll": {"min": 9931, "max": 9931}},"{@race Ursarth (Panda)|EARL|Panda Ursarth}"],
+[{"type": "cell", "roll": {"min": 9932, "max": 9933}},"{@race Ursarth (Polar)|EARL|Polar Ursarth}"],
+[{"type": "cell", "roll": {"min": 9934, "max": 9936}},"{@race Verdan|EARL|Verdan}"],
+[{"type": "cell", "roll": {"min": 9937, "max": 9996}},"{@race Yuan-ti Pureblood|EARL|Yuan-ti Pureblood}"],
+[{"type": "cell", "roll": {"min": 9997, "max": 10000}},"{@race Wendigo|EARL|Wendigo}"]
+			]
+		},
+		{
+			"name": "Slashing Lingering Injuries",
+			"source": "TITS",
+			"page": "12",
+			"caption": "Slashing Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Lose an Eye.} You lose an eye. You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have no eyes remaining after sustaining this injury, you're {@condition Blinded|phb}."
+				],
+				[
+					"2",
+					"{@b Lose a Foot or Leg.} You lose a foot or leg. Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+				],
+				[
+					"3",
+					"{@b Lose an Arm or a Hand.} You lose an arm or hand. You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks."
+				],
+				[
+					"4",
+					{
+						"entries": [
+							"{@b Major Internal Injury.} On each of your turns in combat, you must choose between an action or a bonus action.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"5-7",
+					{
+						"entries": [
+							"{@b Minor Internal Injury.} On each of your turns in combat, you must choose between a bonus action or a reaction.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"8-10",
+					{
+						"entries": [
+							"{@b Disembowelment.} Your organ's momentary vacation has left its toll. You have a -2 penalty to Constitution saving throws, a -3 penalty to your hit point maximum, and a +1 bonus to Wisdom saving throws. If this reduces your hit point maximum to 0 hit points or less, you die.",
+							"{@b Recovery DC: 10}",
+							"{@b Recovery Length: 30 days}"
+						]
+					}
+				],
+				[
+					"11-13",
+					{
+						"entries": [
+							"{@b Scabbing Wound.} Your wound never quite finished healing. You suffer a -5 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die. At the end of each long rest, gain {@dice 1d4} temporary hit points.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 15 days}"
+						]
+					}
+				],
+				[
+					"14-16",
+					"{@b Horrible Scar.} You are disfigured to the extent that the wound can't be easily concealed. You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+				],
+				[
+					"17-20",
+					"{@b Minor Scar.} You have a minor scar where you were slashed."
+				]
+			]
+		},
+		{
+			"name": "System Shock Table",
+			"source": "TITS",
+			"page":  "1",
+			"caption": "System Shocks",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"The creature gains a level of {@condition Exhaustion|THICC} and drops to 0 hit points."
+				],
+				[
+					"2-3",
+					"The creature gains a level of {@condition Exhaustion|THICC} and drops to 0 hit points but is stable."
+				],
+				[
+					"4-5",
+					"The creature gains a level of {@condition Exhaustion|THICC} and falls {@condition Unconscious|phb}, remaking the DC 15 Constitution saving throw at the end of their turns for the next hour, ending the {@condition Unconscious|phb} effect early on a success or upon the creature receiving any healing."
+				],
+				[
+					"6-9",
+					"The creature can't take reactions, is {@condition Wide Open|THICC}, and is {@condition Stunned|phb} until the end of its next turn."
+				],
+				[
+					"10-13",
+					"The creature can't take reactions, is {@condition Wide Open|THICC}, and is {@condition Poisoned|phb} from being woozy until the end of its next turn."
+				],
+				[
+					"14-17",
+					"The creature can't take reactions and is {@condition Wide Open|THICC} until the end of its next turn."
+				],
+				[
+					"18-20",
+					"The creature can't take reactions until the end of its next turn."
+				]
+			]
+		},
+		{
+			"name": "Thunder Lingering Injuries",
+			"source": "TITS",
+			"page": "13",
+			"caption": "Thunder Lingering Injuries",
+			"colLabels": [
+				"d20",
+				"Effect"
+			],
+			"colStyles": [
+				"col-2 text-center",
+				"col-10"
+			],
+			"rows": [
+				[
+					"1",
+					"{@b Brain Injry.} You have suffered a brain injury. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws. If you are hit by a critical attack or fail a saving throw against taking bludgeoning, force, or psychic damage, you are also {@condition Stunned|phb} until the end of your next turn."
+				],
+				[
+					"2",
+					"{@b Deafness.} Your eardrums have been destroyed; you become {@condition Deafened|phb}."
+				],
+				[
+					"3",
+					"{@b Severe Migraines.} You have a -3 penalty on Wisdom ability checks and saving throws. If you are hit by a critical attack or take 5 or more psychic or thunder damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+				],
+				[
+					"4",
+					"{@b Partial Deafness.} Your eardrums have been damaged; you are hard of hearing. You have a -3 penalty on any ability check that requires hearing. If you have already suffered partial deafness, you're {@condition Deafened|phb}."
+				],
+				[
+					"5-7",
+					{
+						"entries": [
+							"{@b Major Internal Injury.} On each of your turns in combat, you must choose between an action or a bonus action.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"8-10",
+					{
+						"entries": [
+							"{@b Major Concussion.} You have a -3 penalty on Intelligence ability checks and saving throws, as well as Constitution saving throws to maintain {@status concentration|phb}. You gain a +1 bonus to Wisdom saving throws.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 25 days}"
+						]
+					}
+				],
+				[
+					"11-13",
+					{
+						"entries": [
+							"{@b Migraines.} You become prone to rancid, debilitating headaches. If you are hit by a critical attack or take 5 or more psychic or thunder damage in a single turn, you gain the {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity} racial feature for 1 hour. If you already have {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity}, you instead become {@condition Photosensitive|TITS} for 1 hour. ",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 20 days}"
+						]
+					}
+				],
+				[
+					"14-16",
+					{
+						"entries": [
+							"{@b Vestibular Damage.} You are always somewhat dizzy, as you have a -2 penalty on Dexterity ability checks and saving throws, and a +1 bonus on Constitution saves.",
+							"{@b Recovery DC: 15}",
+							"{@b Recovery Length: 30 days}"
+						]
+					}
+				],
+				[
+					"17-20",
+					"{@b Jagged Scar.} You were hit with enough force to tear the skin as opposed to shearing. You gain a jagged scar located where you were struck."
+				]
+			]
+		}
+	],
+	"variantrule": [
+		{
+			"name": "Bestir",
+			"source": "TITS",
+			"page": 19,
+			"ruleType": "O",
+			"entries": [
+				"A creature that is {@condition Unconscious|phb} but stable can attempt to force themselves awake by attempting to Bestir on their turn in combat. The creature must succeed a Constitution saving throw whose DC is equal to 22 minus the amount of rounds the creature has been stable in order to force themselves to 1 hit point, with -10 being the maximum amount you can reduce from the DC. A creature that successfully Bestirs is able to immediately act on their turn, but they must roll a {@dice d20} for a {@variantrule System Shock|TITS} as they might not awaken fully capable, with every roll of 9 or lower being treated as a 9.",
+				"A creature that successfully Bestirs also gains a special level of {@condition Exhaustion|THICC} that acts as a normal tier but will be referred to as Bestir {@condition Exhaustion|THICC}. Bestir {@condition Exhaustion|THICC} is removed before {@condition Exhaustion|THICC} gained from {@variantrule Lingering Injuries|TITS} or diseases but after {@condition Exhaustion|THICC} gained from any other source. The only way to remove a tier of Bestir {@condition Exhaustion|THICC} is by taking a long rest and succeeding on a DC 10 Constitution saving throw to use both {@condition Exhaustion|THICC} level reductions on a single level of Bestir {@condition Exhaustion|THICC}. Any effect that suppresses {@condition Exhaustion|THICC} gained by {@variantrule Lingering Injuries|TITS} or Diseases can be used to suppress Bestir {@condition Exhaustion|THICC}."
+			]
+		},
+		{
+			"name": "Exhaustion",
+			"source": "TITS",
+			"page": 18,
+			"ruleType": "C",
+			"entries": [
+				"Consecutive acts of nontrivial mental or physical labor, as well as some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called Exhaustion. Exhaustion is measured in more than ten levels. An effect can give a creature one or more levels of Exhaustion, as specified in the effect's description.",
+				{
+					"type": "table",
+					"colLabels": [
+						"Tier",
+						"Penalty to d20 Rolls & Save DC",
+						"Effect"
+					],
+					"colStyles": [
+						"col-1 text-center",
+						"col-2 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1",
+							"-1",
+							"Creature's speed decreases by 10 feet"
+						],
+						[
+							"2",
+							"-2",
+							"Creature can't take reactions"
+						],
+						[
+							"3",
+							"-3",
+							"Creature has disadvantage on ability checks"
+						],
+						[
+							"4",
+							"-4",
+							"Creature's speed is halved"
+						],
+						[
+							"5",
+							"-5",
+							"Creature has disadvantage on attack rolls and saving throws"
+						],
+						[
+							"6",
+							"-6",
+							"Attacks against the creature have advantage"
+						],
+						[
+							"7",
+							"-7",
+							"Creature's hit point maximum is halved"
+						],
+						[
+							"8",
+							"-8",
+							"Creature must choose between action or bonus action, not both"
+						],
+						[
+							"9",
+							"-9",
+							"Creature can only take bonus actions and becomes {@condition Prone|phb}"
+						],
+						[
+							"10",
+							"-10",
+							"Creature becomes {@condition Stunned|phb}"
+						],
+						[
+							"11+",
+							"\u2014",
+							"Death"
+						]
+					]
+				},
+				"An exhausted creature has a penalty to all {@dice d20} rolls and to their spell save DC equal to their level of Exhaustion.",
+				"If an already exhausted creature suffers another effect that causes Exhaustion, its current level of Exhaustion increases by the amount specified in the effect's description.",
+				"A creature suffers the effect of its current level of Exhaustion as well as all lower levels, however the {@dice d20} penalty is not compounded. For example, a creature suffering level 2 Exhaustion has its speed reduced by 10 feet and it can't take reactions, but only has a -2 penalty to all d20 rolls, not -3.",
+				"An effect that removes Exhaustion reduces its level as specified in the effect's description, with all Exhaustion effects ending if a creature's Exhaustion level is reduced below 1.",
+				"Finishing a long rest reduces a creature's Exhaustion level by 2, provided that the creature has also ingested some food and drink."
+			]
+		},
+		{
+			"name": "Fumbles",
+			"source": "TITS",
+			"page": 14,
+			"ruleType": "O",
+			"entries": [
+				"When a creature has the unfortunate luck of rolling a natural 1 on an attack roll, a Fumble occurs.",
+				"When a Fumble occurs, roll on the following table to determine what happens:",
+				{
+					"type": "table",
+					"caption": "Fumble Table",
+					"colLabels": [
+						"d20",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"Roll of this table twice."
+						],
+						[
+							"2",
+							"You end up overexerting yourself during your attack. Suffer a level of {@condition Exhaustion|THICC}. Roll a DC 15 Constitution saving throw or suffer an additional level of {@condition Exhaustion|THICC}."
+						],
+						[
+							"3",
+							"Your attack leaves you {@condition Wide Open|THICC}, giving you -1 AC! Any enemy within 30 feet that has the ability to attack you also gets an attack of opportunity on you."
+						],
+						[
+							"4",
+							"Your strike accidentally leaves a gash in your armor or clothing. One piece of armor determined by the DM suffers a -1 penalty to its AC. Any armor reduced below an AC of 10 with this feature breaks apart and is unusable. {@spell Mending|COOMS} may be used to repair armor that is only at -1. Any further would require the usage of the {@spell Repair|COOMS} spell."
+						],
+						[
+							"5-6",
+							"You clang your weapon awkwardly against an opponent or surface, leaving it unstable. A weapon suffers a -1 penalty to its attack and damage rolls. If a weapon has a net of -1, it breaks. This means that {@item Masterwork Weapon|OWL|Masterwork} weapons may suffer one additional penalty before they are destroyed. If a weapon made of wood, iron, or any fracturable material is broken, a usage of the {@spell Repair|COOMS} spell is needed. Otherwise, if it is something simple like a bow's drawstring breaking, a {@spell Mending|COOMS} spell may be used."
+						],
+						[
+							"7",
+							"You sprain your leg or get otherwise trapped due to poor footwork, leaving you {@condition Restrained|phb} until the end of your next turn."
+						],
+						[
+							"8-9",
+							"One weapon or item that you are currently holding is flung in a direction and location chosen by the DM. It could be as simple as dropping the weapon at your feet or as horrible as off a cliff."
+						],
+						[
+							"10-11",
+							{
+								"entries": [
+									"You fall {@condition Prone|phb} and one container on your person spills.",
+									{
+										"type": "list",
+										"items": [
+											"In the case of your backpack, {@dice 1d4} items drop at your feet. This may include anything not currently equipped. Dropped items have a chance of breaking.",
+											"In the case of your pouch or purse, {@dice 4d10} coins spill to the floor beneath you.",
+											"In the case of an ammunition container such as a quiver, {@dice 1d10} pieces of ammunition fall to the floor.",
+											"In the case of a container filled with a consumable, {@dice 2d6} uses of the container spill to the floor."
+										]
+									}
+								]
+							}
+						],
+						[
+							"12-14",
+							"You fumble your weapon. Target yourself with the attack that triggered this Fumble and attempt to hit yourself."
+						],
+						[
+							"15-17",
+							"Your handling of your weapon is unsteady. Target an ally chosen by the DM with the attack that triggered this Fumble and attempt to hit them."
+						],
+						[
+							"18-19",
+							"You end your turn as you are disrupted from the incident."
+						],
+						[
+							"20",
+							"You trip and fall {@condition Prone|phb}."
+						]
+					]
+				}
+			]
+		},
+		{
+			"name": "Lingering Injuries",
+			"source": "TITS",
+			"page": 1,
+			"ruleType": "O",
+			"entries": [
+				"When a creature receives damage from a single turn equal to or greater than half its hit point maximum and it is reduced to 0 hit points or lower afterwards, it gains a level of {@condition Exhaustion|THICC} and must succeed on a DC 20 Constitution saving throw or suffer a random effect determined by most prevalent damage type's Lingering Injury Table chosen at the discretion of the DM. If you roll a natural 1 on the Constitution saving throw, you roll the Lingering Injury at disadvantage.",
+				{
+					"type": "entries",
+					"name": "Recovery",
+					"entries": [
+						"There are several ways to recover from, or remove, a Lingering Injury from a character. The afflicted can be treated through rest or medical treatment over the course of a period of days, or, if all else fails, use the {@spell Regenerate|COOMS} spell to recover from their injury. These methods may be used in combination with one another independently to cure a given injury.",
+						"Rest may only be used to treat Lingering Injuries with a listed Recovery Time. A creature must spend the duration of the Recovery Time without performing any strenuous activity, identical to a prolonged short rest. Any activities that would break a short rest completely reset the time that they need to recover. This time may be additionally shortened through the usage of the {@spell Dote|COOMS} spell on a resting injured creature, as per the description of the spell, potentially leading to a quicker recovery time than the next avenue for treatment.",
+						"Medical treatment similarly requires a Lingering Injury with a listed Recovery Time and Recovery DC. Once a day, a {@skill Medicine|phb} check may be made over the course of an hour to treat the Lingering Injury, the DC of which is equal to the listed Recovery DC. This {@skill Medicine|phb} check can be made at advantage by expending a usage of a {@item Healer's Kit|OWL} when performing the medical treatment. Alternatively, you can perform a Constitution saving throw at disadvantage against the Recovery DC at the end of a long rest to instead leave the recovery for that day entirely up to your body's natural regeneration. The listed Recovery Time is the total amount of successes that are needed before the Lingering Injury is removed from the character. A character with multiple Lingering Injuries on themselves must have this done for each individual Lingering Injury. These successful checks do not reset upon strenuous activity, so this method is useful for a character that wants to push through their impairment to a natural recovery while still living their life."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Acid Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Partial Blindness.} Your eyes are damaged; you have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have already suffered partial blindness, you're {@condition Blinded|phb}."
+								],
+								[
+									"2",
+									"{@b Destroyed Foot or Leg.} Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+								],
+								[
+									"3",
+									"{@b Destroyed Hand.} You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks."
+								],
+								[
+									"4",
+									"{@b Fibrotic Muscles.} Your muscles have partially melted before scarring over, giving you a -3 penalty on Strength and Dexterity ability checks and saving throws."
+								],
+								[
+									"5-7",
+									{
+										"entries": [
+											"{@b Major Neuralgia.} You have constant, painful nerve damage over a large portion of your body, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions, and suffer a -2 penalty to saving throws.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 40 days}"
+										]
+									}
+								],
+								[
+									"8-10",
+									{
+										"entries": [
+											"{@b Minor Neuralgia.} You have sudden, sharp nerve pains, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions. If you already have Minor Neuralgia, it is replaced with {@condition Major Neuralgia|TITS}.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"11-13",
+									"{@b Horrible Disfigurement.} You have acid burn scars to the extent that can't be easily concealed. You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+								],
+								[
+									"14-16",
+									"{@b Disfigurement.} You have severe blister scars, appearing as splotches on your skin. You suffer a -1 penalty on Charisma ({@skill Persuasion|phb}) checks and a +1 bonus on Charisma ({@skill Intimidation|phb}) checks."
+								],
+								[
+									"17-20",
+									"{@b Acid Burn Scars.} You have a minor acid burn scar on your body, located where you were burned the most."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bludgeoning or Force Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Brain Injry.} You have suffered a brain injury. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws. If you are hit by a critical attack or fail a saving throw against taking bludgeoning, force, or psychic damage, you are also {@condition Stunned|phb} until the end of your next turn."
+								],
+								[
+									"2",
+									{
+										"entries": [
+											"{@b Broken Leg.} Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws. If it is not splinted before it's healed or allowed to heal, the effects remain until it is rebroken and splinted.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 50 days}"
+										]
+									}
+								],
+								[
+									"3",
+									{
+										"entries": [
+											"{@b Broken Arm.} You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks. If it is not splinted before it's healed or allowed to heal, the effects remain until it is rebroken and splinted.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 50 days}"
+										]
+									}
+								],
+								[
+									"4",
+									{
+										"entries": [
+											"{@b Major Internal Injury.} On each of your turns in combat, you must choose between an action or a bonus action.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"5-7",
+									{
+										"entries": [
+											"{@b Broken Ribs.} You have a -3 penalty on Strength and Dexterity ability checks, and are immune to being {@condition Squeezed|THICC}, but you suffer {@dice 1d4} hit points of bludgeoning damage when you end your turn in a position that would normally make you {@condition Squeezed|THICC}.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 40 days}"
+										]
+									}
+								],
+								[
+									"8-10",
+									{
+										"entries": [
+											"{@b Major Concussion.} You have a -3 penalty on Intelligence ability checks and saving throws, as well as Constitution saving throws to maintain concentration. You gain a +1 bonus to Wisdom saving throws.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 25 days}"
+										]
+									}
+								],
+								[
+									"11-13",
+									{
+										"entries": [
+											"{@b Minor Concussion.} You have a -2 penalty on Intelligence ability checks and saving throws. If you already have a Minor Concussion, you suffer a {@condition Major Concussion|TITS}.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"14-16",
+									{
+										"entries": [
+											"{@b Deep Hematoma.} Blood pools are stuck in your muscles as you suffer a -2 penalty to Strength and Dexterity ability checks and reduce all incoming bludgeoning damage by 1.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 30 days}"
+										]
+									}
+								],
+								[
+									"17-20",
+									"{@b Jagged Scar.} You were hit with enough force to tear the skin as opposed to shearing. You gain a jagged scar located where you were struck."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cold Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Ocular Damage.} One of your corneas is damaged from frostbite. You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have no corneas that remain undamaged after sustaining this injury, you're {@condition Blinded|phb}."
+								],
+								[
+									"2",
+									"{@b Gangrenous Foot.} Your speed on foot is reduced by 10 feet, and you must use a cane or crutch to move upright. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws. Every day that the gangrenous foot is not debrided, you must make a DC 15 Constitution saving throw or suffer a number of {@dice d4} necrotic damage equal to the number of days that have passed since this injury was acquired, taking half damage on a success. Debriding the foot requires a successful DC 15 {@skill Medicine|phb} check."
+								],
+								[
+									"3",
+									"{@b Gangrenous Hand.} You can no longer hold anything with two hands, and you can hold only a single object at a time. Every day that the gangrenous hand is not debrided, you must make a DC 15 Constitution saving throw or suffer a number of {@dice d4} necrotic damage equal to the number of days that have passed since this injury was acquired, taking half damage on a success. Debriding the hand requires a successful DC 15 {@skill Medicine|phb} check."
+								],
+								[
+									"4",
+									"{@b Severe Nerve Damage.} You have a -3 penalty on Strength and Dexterity ability checks and saving throws."
+								],
+								[
+									"5-7",
+									{
+										"entries": [
+											"{@b Major Neuralgia.} You have constant, painful nerve damage over a large portion of your body, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions, and suffer a -2 penalty to saving throws.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 40 days}"
+										]
+									}
+								],
+								[
+									"8-10",
+									{
+										"entries": [
+											"{@b Minor Neuralgia.} You have sudden, sharp nerve pains, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions. If you already have Minor Neuralgia, it is replaced with {@condition Major Neuralgia|TITS}.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"11-13",
+									"{@b Cold Scars.} You have numbing, web-like cold scars covering your torso. You have a -3 penalty on Constitution saving throws, but gain 1 temporary hit point after receiving cold damage."
+								],
+								[
+									"14-16",
+									{
+										"entries": [
+											"{@b Anosmia.} You lose your sense of smell and taste. You automatically fail any ability checks that require your sense of smell or taste, and are unable to benefit from food and drink. As a result of lacking taste, you are able to ignore the requirements for eating any food or drink.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"17-20",
+									"{@b Raynaud's Syndrome.} Your extremities become extremely pale and tingle with light pain from the damage to the furthest ends of your nerves."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Fire Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Lose an Eye.} You lose an eye. You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have no eyes remaining after sustaining this injury, you're {@condition Blinded|phb}."
+								],
+								[
+									"2",
+									"{@b Fourth Degree Burns.} You have a -3 penalty on ability checks and Strength, Dexterity, and Constitution saving throws. If you take fire damage, you are {@condition Stunned|phb} until the end of your next turn. If you already have fourth degree burns, you must succeed at a DC 15 Constitution saving throw or die."
+								],
+								[
+									"3",
+									"{@b Third Degree Burns.} You have a -3 penalty on ability checks and Constitution saving throws. If you take 5 or more fire damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+								],
+								[
+									"4",
+									{
+										"entries": [
+											"{@b Second Degree Burns.} You have a -3 penalty on Strength and Dexterity ability checks and saving throws.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 30 days}"
+										]
+									}
+								],
+								[
+									"5-7",
+									{
+										"entries": [
+											"{@b Major Neuralgia.} You have constant, painful nerve damage over a large portion of your body, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions, and suffer a -2 penalty to saving throws.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 40 days}"
+										]
+									}
+								],
+								[
+									"8-10",
+									{
+										"entries": [
+											"{@b Minor Neuralgia.} You have sudden, sharp nerve pains, keeping you unable to relax for even a second. You gain a +2 bonus to initiative, but are unable to take reactions. If you already have Minor Neuralgia, it is replaced with {@condition Major Neuralgia|TITS}.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"11-13",
+									"{@b Horrible Disfigurement.} You have burn scars to the extent that can't be easily concealed. You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+								],
+								[
+									"14-16",
+									"{@b Disfigurement.} You have severe blister scars, appearing as splotches on your skin. You suffer a -1 penalty on Charisma ({@skill Persuasion|phb}) checks and a +1 bonus on Charisma ({@skill Intimidation|phb}) checks."
+								],
+								[
+									"17-20",
+									"{@b Burn Scar.} You have a minor burn scar on your body, located where you were burned the most."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Lightning Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Brain Injry.} You have suffered a brain injury. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws. If you are hit by a critical attack or fail a saving throw against taking bludgeoning, force, or psychic damage, you are also {@condition Stunned|phb} until the end of your next turn."
+								],
+								[
+									"2",
+									"{@b Explosive Grounding of the Foot.} You lose a foot. Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+								],
+								[
+									"3",
+									"{@b Explosive Grounding of the Hand.} You lose a hand. You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks."
+								],
+								[
+									"4",
+									"{@b Major Kidney Failure.} You have a -3 penalty to Constitution saving throws. Whenever you receive poison damage, take 2 more damage."
+								],
+								[
+									"5-7",
+									"{@b Cardiac Injury.} If you fail a saving throw against fear or fear effects, you gain a level of {@condition Exhaustion|THICC}. If you forced march, you automatically fail the Constitution save to avoid {@condition Exhaustion|THICC}. You gain a +2 bonus to Constitution saving throws when attempting to {@variantrule Bestir|TITS}."
+								],
+								[
+									"8-10",
+									"{@b Arc Flash.} Roll on the {@table Fire Lingering Injuries|TITS|Fire Lingering Injury} table at advantage."
+								],
+								[
+									"11-13",
+									{
+										"entries": [
+											"{@b Skeletal Muscle Breakdown.} You have a -2 penalty on Strength ability checks and saving throws. You gain a +1 bonus on Dexterity ability checks.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 40 days}"
+										]
+									}
+								],
+								[
+									"14-16",
+									{
+										"entries": [
+											"{@b Muscle Spasms.} You have a -2 penalty on Dexterity ability checks. You gain a +1 bonus on Strength ability checks.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"17-20",
+									"{@b Lichtenberg Scar.} You have a branching electrical scar that originates from the point of impact and branches rapidly along your capillaries."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Necrotic Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Spiritual Injury.} You are afflicted with intense apathy and depression. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws. Magic such as the {@spell Heal|COOMS} or {@spell Regenerate|COOMS} spell can resolve your spiritual injury, but such spells must be cast by a {@class Cleric|THICC}, {@class Druid|THICC}, or other class that uses divine magic."
+								],
+								[
+									"2",
+									"{@b Withered Foot.} You lose a foot. Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+								],
+								[
+									"3",
+									"{@b Withered Hand.} You lose a hand. You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks."
+								],
+								[
+									"4",
+									"{@b Major Organ Necrosis.} On each of your turns in combat, you must choose between an action or a bonus action."
+								],
+								[
+									"5-7",
+									"{@b Minor Organ Necrosis.} On each of your turns in combat, you must choose between a bonus action or a reaction."
+								],
+								[
+									"8-10",
+									"{@b Necrotic Stench.} You smell like rotting flesh. You have a -3 penalty on Charisma ({@skill Persuasion|phb}) checks, and automatically succeed any saving throws to avoid the effects of rancid stench."
+								],
+								[
+									"11-13",
+									{
+										"entries": [
+											"{@b Necrotic Wound.} Your wound may heal, but the numbing necrotic energy failed to dissipate. You suffer a -5 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die. At the end of each long rest, gain {@dice 1d4} temporary hit points.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 15 days}"
+										]
+									}
+								],
+								[
+									"14-16",
+									{
+										"entries": [
+											"{@b Inflammation.} Your muscles are stuck irritated and inflamed. You have a -2 penalty on Dexterity ability checks, and gain a +1 bonus to Strength saving throws.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 15 days}"
+										]
+									}
+								],
+								[
+									"17-20",
+									"{@b Necrotic Discoloration.} You have a large amount of small white and gray spots on your skin dispersing from the point of impact."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Piercing Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Lose an Eye.} You lose an eye. You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have no eyes remaining after sustaining this injury, you're {@condition Blinded|phb}."
+								],
+								[
+									"2",
+									"{@b Throat Injury.} You gain a level of {@condition Exhaustion|THICC} which cannot be removed by normal means. You also have a -3 penalty on Constitution saving throws."
+								],
+								[
+									"3",
+									"{@b Groin Injury.} Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+								],
+								[
+									"4",
+									{
+										"entries": [
+											"{@b Major Internal Injury.} On each of your turns in combat, you must choose between an action or a bonus action.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"5-7",
+									{
+										"entries": [
+											"{@b Minor Internal Injury.} On each of your turns in combat, you must choose between a bonus action or a reaction.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"8-10",
+									{
+										"entries": [
+											"{@b Pierced Stomach.} You have a -3 penalty to Constitution saving throws, a -3 penalty to your hit point maximum, and a +1 bonus to Wisdom saving throws. If this reduces your hit point maximum to 0 hit points or less, you die.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"11-13",
+									{
+										"entries": [
+											"{@b Scabbing Wound.} Your wound never quite finished healing. You suffer a -5 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die. At the end of each long rest, gain {@dice 1d4} temporary hit points.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 15 days}"
+										]
+									}
+								],
+								[
+									"14-16",
+									"{@b Horrible Scar.} You are disfigured to the extent that the wound can't be easily concealed. You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+								],
+								[
+									"17-20",
+									"{@b Minor Scar.} You have a minor scar where you were pierced."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Poison Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Systemic Damage.} You have a -3 penalty on Strength, Dexterity, and Constitution ability checks and saving throws."
+								],
+								[
+									"2",
+									"{@b Major Liver Damage.} You have a -3 penalty to Constitution saving throws. Additionally, whenever you take poison damage, you take an additional {@dice 1d6} poison damage and are {@condition Poisoned|phb} until the end of your next turn. Anytime you drink alcohol or take any other sort of drug, you take {@dice 1d6} poison damage."
+								],
+								[
+									"3",
+									"{@b Minor Liver Damage.} You have a -3 penalty to Constitution saving throws. Additionally, whenever you take poison damage, you take an additional {@dice 1d4} poison damage. Anytime you drink alcohol or take any other sort of drug, you take {@dice 1d4} poison damage."
+								],
+								[
+									"4",
+									"{@b Major Kidney Failure.} You have a -3 penalty to Constitution saving throws. Whenever you receive poison damage, take 2 more damage."
+								],
+								[
+									"5-7",
+									"{@b Cardiac Injury.} If you fail a saving throw against fear or fear effects, you gain a level of {@condition Exhaustion|THICC}. If you forced march, you automatically fail the Constitution save to avoid {@condition Exhaustion|THICC}. You gain a +2 bonus to Constitution saving throws when attempting to {@variantrule Bestir|TITS}."
+								],
+								[
+									"8-10",
+									"{@b Minor Kidney Failure.} You have a -3 penalty to Constitution saving throws related to poison or alcohol and drug consumption. Whenever you receive poison damage, take 1 more damage."
+								],
+								[
+									"11-13",
+									{
+										"entries": [
+											"{@b Vertigo.} You have a -2 penalty on Dexterity ability checks and saving throws, and a +1 bonus to Constitution saving throws.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 50 days}"
+										]
+									}
+								],
+								[
+									"14-16",
+									{
+										"entries": [
+											"{@b Nausea.} You have a -3 penalty on Charisma ability checks, and a +1 bonus to Constitution saving throws.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 25 days}"
+										]
+									}
+								],
+								[
+									"17-20",
+									"{@b Skin Blotches.} You have large sickly grey blotches of skin where you were struck with poison."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Psychic Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Minor Psychosis.} Your mind has completely slipped away from you. You cannot tell the difference between your own memories or memories you have made up. You have a -3 penalty to all Intelligence, Wisdom, and Charisma ability checks and saving throws. If you take psychic damage, you become {@condition Frightened|phb} of the source of the damage until the creature is no longer a threat. If you do not know the source of the psychic damage, you become {@condition Frightened|phb} of all creatures until the end of your next turn."
+								],
+								[
+									"2",
+									"{@b Schizophrenia.} You see and hear things that aren't there, indistinguishable from reality. You have a -3 penalty to all ability checks, as well as Intelligence saving throws and initiative rolls."
+								],
+								[
+									"3",
+									"{@b Phobia.} You develop a debilitating fear of something in the situation from which you gained your injury, decided by the DM. For example, if you were damaged by a Mind Flayer, you might have a fear of octopi. You are always {@condition Frightened|phb} of the source of your fear."
+								],
+								[
+									"4",
+									"{@b Indefinite Madness.} Roll on the {@table Indefinite Madness|dmg} table in the Dungeon Masters Guide."
+								],
+								[
+									"5-7",
+									{
+										"entries": [
+											"{@b Minor Psychosis.} You feel your mind slipping away from you. You are barely able to keep hold of your own memories. You suffer a -2 penalty to all Intelligence, Wisdom, and Charisma ability checks and Intelligence saving throws.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 30 days}"
+										]
+									}
+								],
+								[
+									"8-10",
+									{
+										"entries": [
+											"{@b Paranoia.} You believe no one is your friend, and everyone is out to get you. You have a -3 penalty to all Charisma ({@skill Persuasion|phb}) and Wisdom ({@skill Insight|phb}) checks, and a +1 bonus to Charisma ({@skill Deception|phb}) and Charisma ({@skill Intimidation|phb}) checks.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 30 days}"
+										]
+									}
+								],
+								[
+									"11-13",
+									{
+										"entries": [
+											"{@b Migraines.} You become prone to rancid, debilitating headaches. If you are hit by a critical attack or take 5 or more psychic or thunder damage in a single turn, you gain the {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity} racial feature for 1 hour. If you already have {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity}, you instead become {@condition Photosensitive|TITS} for 1 hour.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"14-16",
+									{
+										"entries": [
+											"{@b Weak Persona.} You have suffered damage to your confidence and personality, leading you to talk less and listen more. You suffer a -2 penalty to Charisma ability checks and saving throws. You gain a +1 bonus to Wisdom ({@skill Perception|phb}) and Wisdom ({@skill Insight|phb}) checks.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"17-20",
+									"{@b Twitching Eyes.} You can't keep your eyes still, it feels natural to move them rapidly in every direction."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Radiant Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Cancer.} You have a -3 penalty on Strength, Dexterity, and Constitution ability checks and saving throws."
+								],
+								[
+									"2",
+									"{@b Partial Blindness.} Your retinas are damaged; you have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have already suffered partial blindness, you're {@condition Blinded|phb}."
+								],
+								[
+									"3",
+									"{@b Radiance Scorched.} You have a -3 penalty on ability checks and Constitution saving throws. If you take 5 or more radiant damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+								],
+								[
+									"4",
+									{
+										"entries": [
+											"{@b Radiance Burns.} You have a -3 penalty on Strength and Dexterity ability checks and saving throws.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 30 days}"
+										]
+									}
+								],
+								[
+									"5-7",
+									"{@b Large Skin Tumors.} You develop several large, painful, and benign skin tumors. You suffer a -3 penalty on Charisma (@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks. If you already have Large Skin Tumors, you develop {@condition Cancer|TITS}. If you already have {@condition Cancer|TITS}, you do not develop it again as a result of this injury."
+								],
+								[
+									"8-10",
+									"{@b Small Skin Tumors.} You develop several small, painless, and benign skin tumors. You suffer a -1 penalty on Charisma ({@skill Persuasion|phb}) checks and a +1 bonus on Charisma ({@skill Intimidation|phb}) checks. If you already have Small Skin Tumors, they are replaced with {@condition Large Skin Tumors|TITS}. Once per day, over the course of an hour working as if in concentration, a creature may attempt a DC 20 {@skill Medicine|phb} check to remove the tumors from your body. Regardless of if you succeed or fail, you must take {@dice 3d4} slashing damage. On a natural 20, you take no damage, and on a natural 1, you take twice this amount."
+								],
+								[
+									"11-13",
+									"{@b Major Mutation.} Your being has fundamentally and significantly changed. Roll on the {@table Reincarnation|TITS} table. You lose your racial ability bonuses and gain the racial ability bonuses from the race that you rolled (if the racial ability bonus allows you to choose between several options, it is decided randomly), along with a random ability determined by the DM from that race. If you already have a major mutation, you lose the racial ability bonus from the previous major mutation, but still keep their random ability when you roll for your new racial ability bonus and random ability."
+								],
+								[
+									"14-16",
+									"{@b Minor Mutation.} Your being has fundamentally changed. Roll {@dice 4d6}, with each face of the {@dice d6} equating to an ability score (1 as Strength, 2 as Dexterity, etc.). The first two numbers you roll have their corresponding ability score increased by 1. The last two numbers you roll have their corresponding ability score decreased by 1."
+								],
+								[
+									"17-20",
+									"{@b Surface-level Damage.} Visible hair on your body burns away, the follicles permanently damaged. Hair on your head is thinned and will stay extremely short. If you have any exposed tattoos, they fade as if exposed to 10 years of sunlight."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Slashing Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Lose an Eye.} You lose an eye. You have disadvantage on Wisdom ({@skill Perception|phb}) checks that rely on sight and on ranged attack rolls. If you have no eyes remaining after sustaining this injury, you're {@condition Blinded|phb}."
+								],
+								[
+									"2",
+									"{@b Lose a Foot or Leg.} You lose a foot or leg. Your speed on foot is reduced by 10 feet, and you must use a crutch or cane to move. After you use the Dash action, you must make a DC 10 Dexterity saving throw or fall {@condition Prone|phb}. You have a -3 penalty on Dexterity ability checks and saving throws."
+								],
+								[
+									"3",
+									"{@b Lose an Arm or a Hand.} You lose an arm or hand. You can no longer hold anything with two hands, and you can hold only a single object at a time. You have a -3 penalty on Strength ability checks."
+								],
+								[
+									"4",
+									{
+										"entries": [
+											"{@b Major Internal Injury.} On each of your turns in combat, you must choose between an action or a bonus action.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"5-7",
+									{
+										"entries": [
+											"{@b Minor Internal Injury.} On each of your turns in combat, you must choose between a bonus action or a reaction.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"8-10",
+									{
+										"entries": [
+											"{@b Disembowelment.} Your organ's momentary vacation has left its toll. You have a -2 penalty to Constitution saving throws, a -3 penalty to your hit point maximum, and a +1 bonus to Wisdom saving throws. If this reduces your hit point maximum to 0 hit points or less, you die.",
+											"{@b Recovery DC: 10}",
+											"{@b Recovery Length: 30 days}"
+										]
+									}
+								],
+								[
+									"11-13",
+									{
+										"entries": [
+											"{@b Scabbing Wound.} Your wound never quite finished healing. You suffer a -5 penalty to your hit point maximum. If this reduces your hit point maximum to 0 hit points or less, you die. At the end of each long rest, gain {@dice 1d4} temporary hit points.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 15 days}"
+										]
+									}
+								],
+								[
+									"14-16",
+									"{@b Horrible Scar.} You are disfigured to the extent that the wound can't be easily concealed. You suffer a -3 penalty on Charisma ({@skill Persuasion|phb}) checks and a +3 bonus on Charisma ({@skill Intimidation|phb}) checks."
+								],
+								[
+									"17-20",
+									"{@b Minor Scar.} You have a minor scar where you were slashed."
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Thunder Lingering Injury",
+					"entries": [
+						{
+							"type": "table",
+							"colLabels": [
+								"d20",
+								"Effect"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"1",
+									"{@b Brain Injry.} You have suffered a brain injury. You have a -3 penalty on Intelligence, Wisdom, and Charisma ability checks and saving throws. If you are hit by a critical attack or fail a saving throw against taking bludgeoning, force, or psychic damage, you are also {@condition Stunned|phb} until the end of your next turn."
+								],
+								[
+									"2",
+									"{@b Deafness.} Your eardrums have been destroyed; you become {@condition Deafened|phb}."
+								],
+								[
+									"3",
+									"{@b Severe Migraines.} You have a -3 penalty on Wisdom ability checks and saving throws. If you are hit by a critical attack or take 5 or more psychic or thunder damage in a single turn, you are {@condition Incapacitated|phb} until the end of your next turn."
+								],
+								[
+									"4",
+									"{@b Partial Deafness.} Your eardrums have been damaged; you are hard of hearing. You have a -3 penalty on any ability check that requires hearing. If you have already suffered partial deafness, you're {@condition Deafened|phb}."
+								],
+								[
+									"5-7",
+									{
+										"entries": [
+											"{@b Major Internal Injury.} On each of your turns in combat, you must choose between an action or a bonus action.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"8-10",
+									{
+										"entries": [
+											"{@b Major Concussion.} You have a -3 penalty on Intelligence ability checks and saving throws, as well as Constitution saving throws to maintain {@status concentration|phb}. You gain a +1 bonus to Wisdom saving throws.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 25 days}"
+										]
+									}
+								],
+								[
+									"11-13",
+									{
+										"entries": [
+											"{@b Migraines.} You become prone to rancid, debilitating headaches. If you are hit by a critical attack or take 5 or more psychic or thunder damage in a single turn, you gain the {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity} racial feature for 1 hour. If you already have {@condition Sunlight Sensitive|TITS|Sunlight Sensitivity}, you instead become {@condition Photosensitive|TITS} for 1 hour. ",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 20 days}"
+										]
+									}
+								],
+								[
+									"14-16",
+									{
+										"entries": [
+											"{@b Vestibular Damage.} You are always somewhat dizzy, as you have a -2 penalty on Dexterity ability checks and saving throws, and a +1 bonus on Constitution saves.",
+											"{@b Recovery DC: 15}",
+											"{@b Recovery Length: 30 days}"
+										]
+									}
+								],
+								[
+									"17-20",
+									"{@b Jagged Scar.} You were hit with enough force to tear the skin as opposed to shearing. You gain a jagged scar located where you were struck."
+								]
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Overkill",
+			"source": "TITS",
+			"page": 14,
+			"ruleType": "O",
+			"entries": [
+				"When a creature receives enough damage in one turn that would put it at negative their hit point maximum, they are {@condition Overkilled|TITS}. Overkilling makes it so that a creature's body is decapitated, split in half, torn asunder, shredded, or otherwise disintegrated making spells that require a body such as {@spell Revivify|COOMS} impotent. Overkilling does not prevent a potential {@variantrule Lingering Injuries|TITS|Lingering Injury} from the damage."
+			]
+		},
+		{
+			"name": "System Shock",
+			"source": "TITS",
+			"page": 1,
+			"ruleType": "O",
+			"entries": [
+				"When a creature receives damage from a single turn equal to or greater than half its hit point maximum and it is still conscious afterwards, it must succeed on a DC 15 Constitution saving throw or suffer a random effect determined by the System Shock table. If you roll a natural 1 on the Con Save, you roll a system shock at disadvantage.",
+				{
+					"type": "table",
+					"caption": "System Shock Table",
+					"colLabels": [
+						"d20",
+						"Effect"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							"1",
+							"The creature gains a level of {@condition Exhaustion|THICC} and drops to 0 hit points."
+						],
+						[
+							"2-3",
+							"The creature gains a level of {@condition Exhaustion|THICC} and drops to 0 hit points but is stable."
+						],
+						[
+							"4-5",
+							"The creature gains a level of {@condition Exhaustion|THICC} and falls {@condition Unconscious|phb}, remaking the DC 15 Constitution saving throw at the end of their turns for the next hour, ending the {@condition Unconscious|phb} effect early on a success or upon the creature receiving any healing."
+						],
+						[
+							"6-9",
+							"The creature can't take reactions, is {@condition Wide Open|THICC}, and is {@condition Stunned|phb} until the end of its next turn."
+						],
+						[
+							"10-13",
+							"The creature can't take reactions, is {@condition Wide Open|THICC}, and is {@condition Poisoned|phb} from being woozy until the end of its next turn."
+						],
+						[
+							"14-17",
+							"The creature can't take reactions and is {@condition Wide Open|THICC} until the end of its next turn."
+						],
+						[
+							"18-20",
+							"The creature can't take reactions until the end of its next turn."
+						]
+					]
+				}
+			]
+		}
+	]
+}
