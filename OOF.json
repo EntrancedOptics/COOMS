@@ -198,7 +198,7 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency in the {@skill Arcana|phb} skill. If you are already proficient in the skill, you gain expertise in the skill. If you are already an expert in the skill, you may gain proficiency in another skill of your choice. Your choice for this substitution must reflect your character and their adventures and accolades.",
-						"You learn the {@spell prestidigitation|phb} and {@spell detect magic|phb} spells, along with one other {@filter 1st-level spell|spells|level=1|class=wizard} from the Wizard spell list. If you already know {spell prestidigitation|phb}, you may instead learn any {@filter cantrip|spells|level=0|class=Wizard} from the Wizard's spell list. You can cast {@spell detect magic|phb} once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. You can cast the 1st-level spell you chose once without expending a spell slot, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability modifier for these spells."
+						"You learn the {@spell prestidigitation|phb} and {@spell detect magic|phb} spells, along with one other {@filter 1st-level spell|spells|level=1|class=wizard} from the Wizard spell list. If you already know {@spell prestidigitation|phb}, you may instead learn any {@filter cantrip|spells|level=0|class=Wizard} from the Wizard's spell list. You can cast {@spell detect magic|phb} once without expending a spell slot, and you regain the ability to do so when you finish a short or long rest. You can cast the 1st-level spell you chose once without expending a spell slot, and you regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability modifier for these spells."
 					]
 				}
 			]
@@ -747,7 +747,7 @@
 					"type": "list",
 					"items": [
 						"You have advantage on saving throws against spells.",
-						"You regain the ability to cast the spells given to you through your Duergar Magic feature without expending a spell slot on a short or long rest."
+						"You regain the ability to cast the spells given to you through your Duergar Magic feature without expending a spell slot on a short or long rest. Additionally, they no longer require {@condition concentration|phb} when cast innately."
 					]
 				}
 			]
@@ -3540,6 +3540,49 @@
 					"items": [
 						"Your claws now deal 1d6 slashing damage instead of 1d4.",
 						"Once per turn, while you are bloodied (at half your maximum hit points or fewer), you can give yourself advantage on an attack roll. If you hit, you deal an extra 2d6 damage to the target if the attack was a melee attack."
+					]
+				}
+			]
+		},
+		{
+			"name": "Yuan-ti Psionics",
+			"source": "EntrancedFeats",
+			"page": 22,
+			"prerequisite": [
+				{
+					"level": 8,
+					"race": [
+						{
+							"name": "Yuan-ti Pureblood"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"choose": {
+						"from": [
+							"con",
+							"int",
+							"cha"
+						],
+						"count": 1
+					}
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"Your body increases in its monstrousness as you prove your worth to the gods of the Yuan-Ti. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on saving throws against spells.",
+						"You can use an action to psionically sense the presence and location of poisons and poisonous creatures within 30 feet of you, though you are unable to identify them.",
+						"You can use an action to psionically transform your body into that of a Medium snake, or back into your true form. You retain your hit points between forms, and your equipment does not transform with you. While you are a snake, you are unable to attack with weapons or cast spells that require a Somatic or Material component. Additionally, you may only hold one object or grapple one creature at a time by wrapping your body around it. However, while your snake form, you gain a Bite attack that deals {@dice 1d4} plus your Strength modifier piercing damage and {@dice 2d6} poison damage on a hit."
 					]
 				}
 			]
