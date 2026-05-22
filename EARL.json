@@ -15502,7 +15502,7 @@
 					"type": "entries",
 					"name": "Duergar Magic",
 					"entries": [
-						"When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need verbal, somatic, or material components for either spell when cast this way. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+						"When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need verbal, somatic, or material components for either spell when cast this way. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells."
 					]
 				},
 				{
@@ -16908,7 +16908,7 @@
 						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
 						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
 						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
-						"{@b Duergar Magic.} When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need verbal, somatic, or material components for either spell when cast this way. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+						"{@b Duergar Magic.} When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need verbal, somatic, or material components for either spell when cast this way. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells."
 					]
 				},
 				{
@@ -17205,7 +17205,7 @@
 						"{@b Dwarven Combat Training.} You have proficiency with the {@item battleaxe|phb}, {@item handaxe|phb}, {@item light hammer|phb}, {@item warhammer|phb}, and {@item war pick|phb}.",
 						"{@b Tool Proficiency.} You gain proficiency with the artisan's tools of your choice: {@item smith's tools|phb}, {@item brewer's supplies|phb}, or {@item mason's tools|phb}.",
 						"{@b Talented Miner.} You dig twice as fast as other races, allowing you to tunnel and mine ore in half the time that it would take for members of another race. If you spend ten minutes planning a course for the next hour of spelunking, you can ensure that any tunnels that you make during that time will not collapse.",
-						"{@b Duergar Magic.} When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need verbal, somatic, or material components for either spell when cast this way. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells."
+						"{@b Duergar Magic.} When you reach 3rd level, you can cast the {@spell enlarge/reduce|phb} spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the {@spell invisibility|phb} spell on yourself once with this trait. You don't need verbal, somatic, or material components for either spell when cast this way. You regain the ability to cast these spells with this trait when you finish a long rest. Constitution is your spellcasting ability for these spells."
 					]
 				}
 			]
