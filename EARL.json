@@ -2114,7 +2114,7 @@
 							"persuasion",
 							"survival"
 						],
-						"count": 1
+						"count": 2
 					}
 				}
 			],
@@ -2186,7 +2186,7 @@
 					"type": "entries",
 					"name": "Wild and Free",
 					"entries": [
-						"You gain proficiency in one of the following skills: {@skill Animal Handling|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, or {@skill Survival|phb}."
+						"You gain proficiency in two of the following skills: {@skill Animal Handling|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, or {@skill Survival|phb}."
 					]
 				},
 				{
@@ -3780,6 +3780,21 @@
 				"Exotic",
 				"Skill Proficiency"
 			],
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"animal handling",
+							"nature",
+							"perception",
+							"performance",
+							"persuasion",
+							"survival"
+						],
+						"count": 1
+					}
+				}
+			],
 			"languageProficiencies": [
 				{
 					"common": true,
@@ -3807,6 +3822,13 @@
 					"name": "Flight",
 					"entries": [
 						"Because of your wings, you have a flying speed equal to your walking speed. You can't use this flying speed if you're wearing medium or heavy armor."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wild and Free",
+					"entries": [
+						"You gain proficiency in one of the following skills: {@skill Animal Handling|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Performance|phb}, {@skill Persuasion|phb}, or {@skill Survival|phb}."
 					]
 				},
 				{
@@ -3931,7 +3953,7 @@
 							"sleight of hand",
 							"survival"
 						],
-						"count": 1
+						"count": 2
 					}
 				}
 			],
@@ -4003,7 +4025,7 @@
 					"type": "entries",
 					"name": "Tiny Trickster",
 					"entries": [
-						"You gain proficiency in one of the following skills: {@skill Animal Handling|phb}, (@skill Insight|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Stealth|phb}, {@skill Sleight of Hand|phb}, or {@skill Survival|phb}."
+						"You gain proficiency in two of the following skills: {@skill Animal Handling|phb}, {@skill Insight|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Stealth|phb}, {@skill Sleight of Hand|phb}, or {@skill Survival|phb}."
 					]
 				},
 				{
@@ -4039,7 +4061,8 @@
 			"traitTags": [
 				"Exotic",
 				"Skill Proficiency",
-				"Weapon Proficiency"
+				"Weapon Proficiency",
+				"Tool Proficiency"
 			],
 			"skillToolProficiencies": [
 				{
@@ -4051,7 +4074,7 @@
 							"stealth",
 							"survival"
 						],
-						"count": 1
+						"count": 2
 					}
 				}
 			],
@@ -4135,7 +4158,7 @@
 					"type": "entries",
 					"name": "Forest Protector",
 					"entries": [
-						"You gain proficiency in {@item poisoner's kit|phb} or one of the following skills: {@skill Nature|phb}, {@skill Perception|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}."
+						"You gain proficiency in two of the following tools and/or skills: {@item poisoner's kit|phb}, {@skill Nature|phb}, {@skill Perception|phb}, {@skill Stealth|phb}, or {@skill Survival|phb}."
 					]
 				},
 				{
