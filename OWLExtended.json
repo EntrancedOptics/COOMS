@@ -954,10 +954,24 @@
 			"value": 25000,
 			"entries": [
 				"You can recover a total number of combined spell slot levels equal to or less than {@dice 1d4 + 1} when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The level of spell slots gained may not exceed 3. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
-				"Sorcerers may divy up the number rolled into sorcery points as well.",
-				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
 				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Paladins may divy up the number rolled into their Lay on Hands as well, recovering 5 hp for every 1 slot divvied.",
+				"Sorcerers may divy up the number rolled into sorcery points as well, recovering 2 sorcery points for every 1 slot divvied.",
 				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 2 spell slot for their pact magic back."
+			]
+		},
+		{
+			"name": "Potion of Greater Psionics",
+			"source": "OWL",
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "uncommon",
+			"weight": 1,
+			"value": 25000,
+			"entries": [
+				"You can recover {@dice 2d4 + 1} psi points when you drink this potion. Innate Psionics may be recovered by this potion by paying its base cost in psi points.",
+				"Fighters or Rogues with Psionic Energy dice may divvy up the number rolled into their Psionic Energy dice, recovering 1 die for every 2 points divvied."
 			]
 		},
 		{
@@ -1076,10 +1090,24 @@
 			"value": 1000,
 			"entries": [
 				"You can recover a level 1 spell slot when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
-				"Sorcerers may instead gain a sorcery point.",
-				"Paladins may instead gain 5 lay on hands points back.",
 				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Paladins may instead recover 5 lay on hands points.",
+				"Sorcerers may instead recover {@dice 1d2} sorcery points.",
 				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron. They must then roll a {@dice 1d2}, gaining a spell slot back on a 2."
+			]
+		},
+		{
+			"name": "Potion of Lesser Psionics",
+			"source": "OWL",
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.25,
+			"value": 1000,
+			"entries": [
+				"You can recover {@dice 1d2} psi points when you drink this potion. Innate Psionics may be recovered by this potion by paying its base cost in psi points.",
+				"Fighters or Rogues with Psionic Energy dice may instead regain the usage of 1 die."
 			]
 		},
 		{
@@ -1158,9 +1186,9 @@
 			"value": 5000,
 			"entries": [
 				"You can recover {@dice 1d2} level 1 spell slots when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
-				"Sorcerers may divy up the number rolled into sorcery points as well.",
-				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
 				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Paladins may divy up the number rolled into their Lay on Hands as well, recovering 5 hp for every 1 slot divvied.",
+				"Sorcerers may divy up the number rolled into sorcery points as well, recovering 2 sorcery points for every 1 slot divvied.",
 				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 1 spell slot for their pact magic back."
 			]
 		},
@@ -1214,6 +1242,20 @@
 			"value": 35000,
 			"entries": [
 				"When you drink this potion, you gain resistance to poison damage for 1 hour."
+			]
+		},
+		{
+			"name": "Potion of Psionics",
+			"source": "OWL",
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "common",
+			"weight": 0.5,
+			"value": 5000,
+			"entries": [
+				"You can recover {@dice 2d2} psi points when you drink this potion. Innate Psionics may be recovered by this potion by paying its base cost in psi points.",
+				"Fighters or Rogues with Psionic Energy dice may divvy up the number rolled into their Psionic Energy dice, recovering 1 die for every 2 points divvied."
 			]
 		},
 		{
@@ -1336,10 +1378,24 @@
 			"value": 250000,
 			"entries": [
 				"You can recover a total number of combined spell slot levels equal to or less than {@dice 1d8 + 2} when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The level of spell slots gained may not exceed 5. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
-				"Sorcerers may divy up the number rolled into sorcery points as well.",
-				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
 				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Paladins may divy up the number rolled into their Lay on Hands as well, recovering 5 hp for every 1 slot divvied.",
+				"Sorcerers may divy up the number rolled into sorcery points as well, recovering 2 sorcery points for every 1 slot divvied.",
 				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 3 spell slot for their pact magic back."
+			]
+		},
+		{
+			"name": "Potion of Superior Psionics",
+			"source": "OWL",
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "rare",
+			"weight": 1.5,
+			"value": 250000,
+			"entries": [
+				"You can recover {@dice 2d8 + 2} psi points when you drink this potion. Innate Psionics may be recovered by this potion by paying its base cost in psi points.",
+				"Fighters or Rogues with Psionic Energy dice may divvy up the number rolled into their Psionic Energy dice, recovering 1 die for every 2 points divvied."
 			]
 		},
 		{
@@ -1442,10 +1498,24 @@
 			"value": 2500000,
 			"entries": [
 				"You can recover a total number of combined spell slot levels equal to or less than {@dice 1d12 + 8} when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The level of spell slots gained may not exceed 7. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
-				"Sorcerers may divy up the number rolled into sorcery points as well.",
-				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
 				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Paladins may divy up the number rolled into their Lay on Hands as well, recovering 5 hp for every 1 slot divvied.",
+				"Sorcerers may divy up the number rolled into sorcery points as well, recovering 2 sorcery points for every 1 slot divvied.",
 				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 4 spell slot for their pact magic back."
+			]
+		},
+		{
+			"name": "Potion of Supreme Psionics",
+			"source": "OWL",
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "very rare",
+			"weight": 2,
+			"value": 2500000,
+			"entries": [
+				"You can recover {@dice 2d12 + 8} psi points when you drink this potion. Innate Psionics may be recovered by this potion by paying its base cost in psi points.",
+				"Fighters or Rogues with Psionic Energy dice may divvy up the number rolled into their Psionic Energy dice, recovering 1 die for every 2 points divvied."
 			]
 		},
 		{
@@ -1561,10 +1631,24 @@
 			"value": 25000000,
 			"entries": [
 				"You can recover a total number of combined spell slot levels equal to or less than {@dice 1d20 + 10} when you drink this potion. Innate Spellcating may be recovered by this potion as if it were a slot level equal to its spell level. The blue liquid constantly evaporates and condenses into a blue haze within the flask.",
-				"Sorcerers may divy up the number rolled into sorcery points as well.",
-				"Paladins may divy up the number rolled into their Lay on Hands, regaining 5 hp per point expended in this fashion.",
 				"Artificers pour this potion onto their tools of trade, rather than drink the potion.",
+				"Paladins may divy up the number rolled into their Lay on Hands as well, recovering 5 hp for every 1 slot divvied.",
+				"Sorcerers may divy up the number rolled into sorcery points as well, recovering 2 sorcery points for every 1 slot divvied.",
 				"Warlocks may pour this on the relic of their pact in order to transfer this magic to their patron, gaining 4 spell slot for their pact magic back as well as 1 use of an expent Mystic Arcanum."
+			]
+		},
+		{
+			"name": "Potion of Ultimate Psionics",
+			"source": "OWL",
+			"srd": false,
+			"type": "P",
+			"tier": "minor",
+			"rarity": "legendary",
+			"weight": 2.5,
+			"value": 25000000,
+			"entries": [
+				"You can recover {@dice 2d20 + 10} psi points when you drink this potion. Innate Psionics may be recovered by this potion by paying its base cost in psi points.",
+				"Fighters or Rogues with Psionic Energy dice may divvy up the number rolled into their Psionic Energy dice, recovering 1 die for every 2 points divvied."
 			]
 		},
 		{
@@ -9052,6 +9136,27 @@
 				"Potion of Superior Magic|OWL",
 				"Potion of Supreme Magic|OWL",
 				"Potion of Ultimate Magic|OWL"
+			],
+			"miscTags": [
+				"CNS"
+			]
+		},
+		{
+			"name": "Potion of Psionics (*)",
+			"source": "OWL",
+			"srd": true,
+			"type": "P",
+			"rarity": "varies",
+			"entries": [
+				"{@note * This item group has the same name and source as the item {@item potion of psionics|OWL}}."
+			],
+			"items": [
+				"Potion of Lesser Psionics|OWL",
+				"Potion of Psionics|OWL",
+				"Potion of Greater Psionics|OWL",
+				"Potion of Superior Psionics|OWL",
+				"Potion of Supreme Psionics|OWL",
+				"Potion of Ultimate Psionics|OWL"
 			],
 			"miscTags": [
 				"CNS"
