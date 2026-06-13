@@ -1342,6 +1342,109 @@
 			]
 		},
 		{
+			"name": "Githzerai Enlightened Psionics",
+			"source": "EntrancedFeats",
+			"page": 9,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Githzerai"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have mastered the psionic capabilities of the more dangerous members of your kind. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You are able to use the psionics granted to you by your Githzerai Psionics feature a number of times equal to your proficiency bonus per recovery period (as specified in the feature).",
+						"You learn another ability of your choice from a psionic discipline belonging to any order except the Order of the Nomad. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent a number of psi points to manifest it equal to 3 plus your proficiency bonus (maximum of 7) once per long rest. Intelligence is your discipline ability for it. If you have Psi points, you can also manifest it just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class. Whenever you reach a level that grants the Feat feature, you can replace the chosen ability from this feat with another one that is from a psionic discipline belonging to any order except the Order of the Nomad."
+					]
+				}
+			]
+		},
+		{
+			"name": "Githzerai Knightly Psionics",
+			"source": "EntrancedFeats",
+			"page": 9,
+			"prerequisite": [
+				{
+					"race": [
+						{
+							"name": "Githyanki"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have mastered the psionic capabilities of the more dangerous members of your kind. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You are able to use the psionics granted to you by your Githyanki Psionics feature a number of times equal to your proficiency bonus per recovery period (as specified in the feature).",
+						"You learn another ability of your choice from a psionic discipline belonging to any order except the Order of the Avatar. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent a number of psi points to manifest it equal to 3 plus your proficiency bonus (maximum of 7) once per long rest. Intelligence is your discipline ability for it. If you have Psi points, you can also manifest it just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class. Whenever you reach a level that grants the Feat feature, you can replace the chosen ability from this feat with another one that is from a psionic discipline belonging to any order except the Order of the Avatar."
+					]
+				}
+			]
+		},
+		{
+			"name": "Gith Planar Travel",
+			"source": "EntrancedFeats",
+			"page": 9,
+			"prerequisite": [
+				{
+					"level": 16,
+					"race": [
+						{
+							"name": "Githyanki or Githzerai"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have learned how to traverse the planes through thought alone, like others of your kind. You gain the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You have advantage on saving throws against spells.",
+						"Once per day, you can use an action to psionically transport yourself to a different plane of existence. If several willing creatures link hands in a circle when you manifest this ability, you may take up to eight others with you when you travel in this way. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach a specific destination on a plane, you appear 5d100 miles from your target destination, as particular arrival on the intended plane is nigh impossible."
+					]
+				}
+			]
+		},
+		{
 			"name": "Gunner",
 			"source": "EntrancedFeats",
 			"page": 10,
@@ -3260,6 +3363,56 @@
 						"As an action, you can spend one use of a technician's kit to tend to a Construct and restore {@dice 1d6} + your Intelligence modifier + your level hit points to it. The creature can't regain hit points from this feat again until it finishes a short or long rest.",
 						"Instead, as an action, you can spend one use of a technician's kit as well as one of the target's remaining hit die and have them roll it, regaining HP equal to the number rolled.",
 						"You learn the {@spell mending|cooms} cantrip. If you already knew this cantrip from a class, you may select another cantrip from that class to replace it as you gain it from this feat. Intelligence is your spellcasting ability for this spell."
+					]
+				}
+			]
+		},
+		{
+			"name": "Telekinetic",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You learn to move things with your mind, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You learn the Minor Telekinesis Psionic Talent, if you didn't already know it. If you already knew the talent, you may instead learn a different one from the psion class. The range for your Minor Telekinesis increases to 60 feet, and you gain the ability to stow or retrieve an object in a container worn or carried by another creature when you use it.",
+						"As a bonus action, you can try to telekinetically shove one creature you can see within 60 feet of you. When you do so, the target must succeed on a Strength saving throw against your Intelligence DC (8 + your proficiency bonus + your Intelligence modifier) or be moved 5 feet toward you or away from you. A creature can willingly fail this save. You can't use this feature to affect creatures that are more than one size larger than you."
+					]
+				}
+			]
+		},
+		{
+			"name": "Telepathic",
+			"source": "EntrancedFeats",
+			"page": 4,
+			"ability": [
+				{
+					"int": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You awaken the ability to mentally connect with others, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You can telepathically speak to any creature you can see within 120 feet of you. The creature understands you only if the two of you share a language. You can speak telepathically in this way to one creature at a time. In combat, you may do this as a free action once per turn. This may be used in conjunction with telepathy that you gained from other sources, allowing you the ability to potentially speak to an additional creature per turn.",
+						"You learn the Read Thoughts ability from the Psychic Inquisition discipline from the psion class. You may manifest it without expending any psi points once per short or long rest. Intelligence is your discipline ability"
 					]
 				}
 			]
