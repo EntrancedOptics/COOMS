@@ -1833,7 +1833,7 @@
 						"{@b High.} You know one {@filter cantrip of your choice from the wizard spell list|spells|class=wizard|level=0}. Intelligence is your spellcasting ability for it.",
 						"{@b Pallid.} You know the {@spell light|phb} cantrip. When you reach 3rd level, you can cast the {@spell sleep|phb} spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell invisibility|phb} spell (targeting yourself only) once with this trait and regain the ability to do so when you finish a long rest. Casting these spells with this trait doesn't require material components. Constitution is your spellcasting ability for these spells.",
 						"{@b Sea.} You have a swimming speed of 30 feet, and you can breathe air and water.",
-						"{@b Shadar-kai.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.",
+						"{@b Shadar-kai.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.",
 						"Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent.",
 						"{@b Wood.} You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena."
 					]
@@ -2516,7 +2516,7 @@
 					"name": "Size",
 					"type": "entries",
 					"entries": [
-						"Gith are taller and leaner than humans, with most a slender 6 feet in height."
+						"Gith are taller and leaner than humans, with most a slender 6 feet in height. Your size is Medium."
 					]
 				},
 				{
@@ -8190,11 +8190,13 @@
 				"baseWeight": 175,
 				"weightMod": "2d6"
 			},
+			"darkvision": 60,
 			"age": {
 				"mature": 17,
 				"max": 150
 			},
 			"traitTags": [
+				"Darkvision",
 				"Natural Weapon",
 				"Skill Proficiency",
 				"Monstrous Race",
@@ -8247,6 +8249,13 @@
 					"name": "Size",
 					"entries": [
 						"Minotaurs average over 6 feet in height, and they have stocky builds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
 					]
 				},
 				{
@@ -8719,6 +8728,10 @@
 					"int": 1
 				}
 			],
+			"age": {
+				"mature": 20,
+				"max": 100
+			},
 			"size": [
 				"M"
 			],
@@ -8734,22 +8747,49 @@
 			"darkvision": 120,
 			"skillProficiencies": [
 				{
-					"stealth": true
+					"choose": {
+						"from": [
+							"history",
+							"perception",
+							"stealth"
+						],
+						"count": 1
+					}
+				}
+			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
 				}
 			],
 			"entries": [
 				{
 					"type": "entries",
-					"name": "Size",
+					"name": "Age",
 					"entries": [
-						"You are Medium or Small. You choose the size when you select this race."
+						"Owlin tend to age and mature at the same rate as humans, with a similar lifespan."
 					]
 				},
 				{
 					"type": "entries",
-					"name": "Darkvision",
+					"name": "Alignment",
 					"entries": [
-						"You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+						"Most Owlin are lawful, tending to prefer living organized lives of gathering knowledge."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Owlin are about 5 feet tall. They have thin, lightweight bodies that weigh between 80 and 100 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
 					]
 				},
 				{
@@ -8761,9 +8801,30 @@
 				},
 				{
 					"type": "entries",
-					"name": "Silent Feathers",
+					"name": "Superior Darkvision",
 					"entries": [
-						"You have proficiency in the {@skill Stealth|phb} skill."
+						"You can see in dim light within 120 feet of yourself as if it were bright light and in darkness as if it were dim light. You discern colors in that darkness only as shades of gray."
+					]
+				},
+				{
+					"name": "Talons",
+					"entries": [
+						"Your talons are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@damage 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the talons in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					],
+					"type": "entries"
+				},
+				{
+					"type": "entries",
+					"name": "Silent and Wise",
+					"entries": [
+						"You gain proficiency in one of the following skills: {@skill History|phb}, {@skill Perception|phb}, or {@skill Stealth|phb}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one other language that you and your DM agree is appropriate for your character."
 					]
 				}
 			],
@@ -16178,7 +16239,7 @@
 				{
 					"name": "Blessing of the Raven Queen",
 					"entries": [
-						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.",
+						"As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.",
 						"Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent."
 					],
 					"type": "entries"
@@ -16647,7 +16708,7 @@
 					"name": "Githyanki Psionics",
 					"entries": [
 						"You learn the Minor Telekinesis psionic talent from the Psion class.",
-						"When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to the Order of the Immortal or the Order of the Nomad. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging to the Order of the Immortal or the Order of the Nomad. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
+						"When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to any order except the Order of the Avatar. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging to any order except the Order of the Avatar. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
 						"Intelligence is your discipline ability for these. If you have Psi points, you can also cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class."
 					],
 					"type": "entries"
@@ -16663,7 +16724,7 @@
 			"raceSource": "EARL",
 			"ability": [
 				{
-					"wis": 2
+					"dex": 2
 				}
 			],
 			"heightAndWeight": {
@@ -16672,6 +16733,18 @@
 				"baseWeight": 90,
 				"weightMod": "1d4"
 			},
+			"skillProficiencies": [
+				{
+					"choose": {
+						"from": [
+							"arcana",
+							"insight",
+							"perception"
+						],
+						"count": 1
+					}
+				}
+			],
 			"entries": [
 				{
 					"name": "Alignment",
@@ -16681,9 +16754,16 @@
 					]
 				},
 				{
+					"name": "Psychic Defense",
+					"type": "entries",
+					"entries": [
+						"While you aren't {@condition unconscious|phb} or wearing armor, your base AC equals 13 + your Dexterity modifier."
+					]
+				},
+				{
 					"name": "Mental Discipline",
 					"entries": [
-						"You have advantage on saving throws against the {@condition charmed|phb} and {@condition frightened|phb} conditions. Under the tutelage of monastic masters, githzerai learn to govern their own minds."
+						"Under the tutelage of monastic masters, githzerai learn to govern their own minds. You gain proficiency in one of the following skills of your choice: {@skill Arcana|phb}, {@skill Insight|phb}, or {@skill Perception|phb}."
 					],
 					"type": "entries"
 				},
@@ -16691,7 +16771,7 @@
 					"name": "Githzerai Psionics",
 					"entries": [
 						"You learn the Minor Telekinesis psionic talent from the Psion class.",
-						"When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to the Order of the Awakened or the Order of the Wu Jen. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging to the Order of the Awakened or the Order of the Wu Jen. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
+						"When you reach 3rd level, you learn an ability of your choice from a psionic discipline belonging to any order except the Order of the Nomad. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 2 psi points to manifest it once per short or long rest. When you reach 5th level, you learn another ability of your choice from a psionic discipline belonging any order except the Order of the Nomad. You can manifest the chosen ability without spending any psi points as if you were a Psion that had spent 3 psi points to manifest it once per long rest.",
 						"Intelligence is your discipline ability for these. If you have Psi points, you can also cast these just as a Psion would, following the rules for Psionics, Psionic Disciplines, and Psionic Talents found in the Psion class."
 					],
 					"type": "entries"
@@ -18106,7 +18186,7 @@
 						"Choose one of the following options:",
 						"{@b Skill Versatility.} You gain proficiency in two skills of your choice.",
 						"{@b Necrotic Resistance.} You have resistance to necrotic damage.",
-						"{@b Blessing of the Raven Queen.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a long rest.",
+						"{@b Blessing of the Raven Queen.} As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see. Once you use this trait, you can't do so again until you finish a short or long rest.",
 						"Starting at 3rd level, you also gain resistance to all damage when you teleport using this trait. The resistance lasts until the start of your next turn. During that time, you appear ghostly and translucent."
 					]
 				}
