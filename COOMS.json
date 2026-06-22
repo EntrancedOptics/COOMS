@@ -1609,7 +1609,7 @@
         }
       ],
       "entries": [
-        "You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects and must make a Constitution save. On a failed save, the target takes necrotic damage equal to your spellcasting ability modifier (minimum of 1) as blood (or some other life force, like an elemental's element, a construct's oil, an undead's ichor, etc) is forcefully drawn out. A creature immune to necrotic damage automatically succeeds this save. At the end of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes this damage again. On a successful save, or if the creature receives any sort of healing, the spell ends.",
+        "You brandish the weapon used in the spell's casting and make a melee attack with it against one creature within 5 feet of you. On a hit, the target suffers the weapon attack's normal effects. If it takes damage from the weapon, it must make a Constitution save. On a failed save, the target takes necrotic damage equal to your spellcasting ability modifier (minimum of 1) as blood (or some other life force, like an elemental's element, a construct's oil, an undead's ichor, etc) is forcefully drawn out from the wound. A creature immune to necrotic damage automatically succeeds this save. At the end of each of its turns until the spell ends, the target must make a Constitution saving throw. On a failed save, it takes this damage again. On a successful save, or if the creature receives any sort of healing, the spell ends.",
         "This spell's damage increases by {@dice 1d4} when you reach 5th level ({@dice 1d4} + mod), 11th level ({@dice 2d4} + mod), and 17th level ({@dice 3d4} + mod)."
       ],
       "damageInflict": [ "necrotic" ],
@@ -11343,7 +11343,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a lance made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 100-foot by 15-foot line must make a Dexterity saving throw. A creature takes {@damage 10d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
+        "You temporarily manifest a lance made of magic either in your hand or over your focus, using it as its handle. Each creature in a 100-foot by 15-foot line must make a Dexterity saving throw. A creature takes {@dice 10d4} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -11491,7 +11491,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a rapier made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 25-foot by 5-foot line must make a Dexterity saving throw. A creature takes {@damage 2d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
+        "You temporarily manifest a rapier made of magic either in your hand or over your focus, using it as its handle. Each creature in a 25-foot by 5-foot line must make a Dexterity saving throw. A creature takes {@dice 2d8} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -11725,7 +11725,7 @@
         }
       ],
       "entries": [
-        "You temporarily manifest a spear made of magic either in your hand or over your focus, using it as its handle. Make a melee spell attack against an enemy within range. Each creature in a 50-foot by 10-foot line must make a Dexterity saving throw. A creature takes {@damage 5d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
+        "You temporarily manifest a spear made of magic either in your hand or over your focus, using it as its handle. Each creature in a 50-foot by 10-foot line must make a Dexterity saving throw. A creature takes {@dice 5d6} force damage on a failed save, or half as much damage on a successful one. You may attack with this spell as many times as you can with a weapon in a given Attack action."
       ],
       "entriesHigherLevel": [
         {
@@ -13216,6 +13216,79 @@
       }
     },
     {
+      "name": "Overcharge",
+      "source": "COOMS",
+      "level": 5,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a focal stone worth at least 900 GP, which the spell consumes"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You momentarily enhance your connection to The Weave, allowing you to cast simpler magic with ease. For the duration, any cantrip you cast with a casting time of 1 action changes to 1 bonus action. When the spell ends, your connection to The Weave is momentarily disrupted, and you are not able to cast spells until after your next turn."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 6th level or higher, any cantrip with a casting time of 1 minute changes to 1 action. When you cast this spell using a spell slot of 7th level or higher, any cantrip with a casting time of 1 bonus action is able to be castable without expending any actions once per round. When you cast this spell using a spell slot of 8th level or higher, any cantrip with a casting time of 1 minute changes to 1 bonus action. When you cast this spell using a spell slot of 9th level or higher, this spell no longer requires concentration."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Palm",
       "source": "COOMS",
       "level": 0,
@@ -13430,6 +13503,75 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phantasmal killer",
+      "source": "COOMS",
+      "level": 4,
+      "school": "I",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make an Intelligence saving throw. On a failed save, the target takes {@dice 4d10} psychic damage and becomes frightened of an illusion that you manifest in any space for the duration. The illusion may occupy any space within the spell's range, including those occupied by another creature, as the illusion will justify its own existence there. While frightened in this way, the creature must remake the saving throw at the end of each of its turns. If they fail the saving throw, they once again take the damage and you may choose a new space for the illusion to occupy. On a successful save, the creature recognizes what it is seeing to be an illusion and the spell ends."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -16946,6 +17088,15 @@
         "When cast as a bonus action, designate a creature within range. Until the start of your next turn, they have a +5 bonus to AC, and they take no damage from {@spell magic missile|phb}.",
         "When cast as a reaction, you don't have time to place it on someone else, and thus it only has a range of self. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from {@spell magic missile|phb}."
       ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. When upcast as a reaction, it regains its normal range, but one of the creatures you target must be yourself."
+          ]
+        }
+      ],
       "classes": {
         "fromClassList": [
           {
@@ -17032,6 +17183,72 @@
               "shortName": "Battle Smith",
               "source": "TCE"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shield of Faith",
+      "source": "COOMS",
+      "level": 1,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a small parchment with a bit of holy text written on it"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "A shimmering field appears and surrounds a creature of your choice within range, granting it a +2 bonus to AC for the duration."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
           }
         ]
       }
@@ -18933,7 +19150,7 @@
         "type": "point",
         "distance": {
           "type": "feet",
-          "amount": 30
+          "amount": 60
         }
       },
       "components": {
@@ -20787,6 +21004,83 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Web",
+      "source": "COOMS",
+      "level": 2,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "hour"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a bit of spiderweb"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You conjure a mass of thick, sticky webbing at a point of your choice within range. The webs fill a 20-foot cube from that point for the duration. The webs are difficult terrain and lightly obscure their area.",
+        "If the webs aren't anchored between two solid masses (such as walls or trees) or layered across a floor, wall, or ceiling, the conjured web collapses on itself, and the spell ends at the start of your next turn. Webs layered over a flat surface have a depth of 5 feet.",
+        "When the webs appear, each creature standing in its area must succeed a Dexterity saving throw or be restrained by the webs until they leave its area or they break free. Any time a creature moves into or within the area, that creature must make the same save or they become restrained as they move into the new space.",
+        "A creature restrained by the webs can use its action to make an Athletics check against your spell save DC. If it succeeds, it is no longer restrained.",
+        "The webs are flammable. Any 5-foot cube of webs exposed to fire burns away in 1 round, dealing {@dice 2d4} fire damage to any creature that starts its turn in the fire."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
