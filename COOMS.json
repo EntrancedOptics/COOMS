@@ -362,6 +362,83 @@
       }
     },
     {
+      "name": "Analyze Dweomer",
+      "source": "COOMS",
+      "level": 6,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a small golden loop with a lens made of ruby or sapphire worth at least 1,500 gp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "You grant yourself the ability to gaze upon magical auras and understand them. For the duration of the spell, you can see all magic within 30 feet of yourself. You can tell an object or creature is magical or under the effects of magic just by looking at it, but you do not sense the presence of magic that is not within your field of view. Consequently, this spell has no effect while you are Blinded.",
+        "As a bonus action, you can focus your gaze to a specific creature, object, or otherwise aura (such as the aura of an Alarm spell's trigger) within 30 feet of yourself and instantly learn about the magic influencing it. For each active spell cast on it, you learn the spell's name, its effect, and what level the spell was cast at. You also learn any other types of magical effects, such as blessings or curses, that are active on it, and what they do. You do not learn any other information about their origin or how to remove the effects. Additionally, if the target of your focus is a magic item, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. If the item was created by a spell, you learn that it was and about the spell that created it. If the item is blessed or cursed, you learn the properties and triggers of the blessing or curse on the item. If the item is a juju, you learn that it is one, along with some basic information about it, as if you had Jujusense."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level, the duration becomes 10 minutes. When you cast this spell using a spell slot of 8th level, the duration becomes 1 hour. When you cast this spell using a spell slot of 9th level, the duration becomes 8 hours."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Antagonize",
       "source": "COOMS",
       "level": 3,
@@ -9790,6 +9867,76 @@
           {
             "name": "Sorcerer",
             "source": "PHB"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Identify",
+      "source": "COOMS",
+      "level": 1,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": {
+          "text": "a pearl worth at least 100 gp and an owl feather"
+        }
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "meta": {
+        "ritual": true
+      },
+      "entries": [
+        "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.",
+        "If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.",
+        "A cursed object or creature can have the spell bring false information, if any at all, as most curses foil the spell. Conversely, most blessed objects and effects are forthright and work with the spell."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
           },
           {
             "name": "Witch",
