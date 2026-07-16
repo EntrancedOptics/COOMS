@@ -554,7 +554,7 @@
         }
       ],
       "entries": [
-        "A 120-foot long magical torrent of raw destructive energy streams from your spellcasting focus and eradicates everything in its path. A creature in this spell’s path must make a Dexterity saving throw. On a failed save, the target takes {@dice 12d6} + 100 force damage. If this damage reduces the target to 0 hit points, it is annihilated. An annihilated creature and everything it is wearing and carrying are completely destroyed, leaving nothing behind. The creature can be restored to life only by means of a true resurrection or a wish spell. This spell automatically annihilates a Large or smaller object or a creation of magical force in its path. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it."
+        "A 120-foot long magical torrent of raw destructive energy streams from your spellcasting focus and eradicates everything in its path. A creature in this spell's path must make a Dexterity saving throw. On a failed save, the target takes {@dice 12d6} + 100 force damage. If this damage reduces the target to 0 hit points, it is annihilated. An annihilated creature and everything it is wearing and carrying are completely destroyed, leaving nothing behind. The creature can be restored to life only by means of a true resurrection or a wish spell. This spell automatically annihilates a Large or smaller object or a creation of magical force in its path. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it."
       ],
       "damageInflict": [ "force" ],
       "savingThrow": [ "dexterity" ],
