@@ -446,7 +446,7 @@
       "time": [
         {
           "number": 1,
-          "unit": "Hour"
+          "unit": "minute"
         }
       ],
       "range": {
@@ -465,7 +465,7 @@
         {
           "type": "timed",
           "duration": {
-            "type": "hour",
+            "type": "minute",
             "amount": 1
           },
           "concentration": true
