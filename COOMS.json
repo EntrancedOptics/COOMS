@@ -439,6 +439,147 @@
       }
     },
     {
+      "name": "Animate Equipment",
+      "source": "COOMS",
+      "level": 6,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "Hour"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "weapons, pieces of ammunition, shields, full suits of armor, or magic items worth at least 1 cp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Over the course of a minute, you bring up to 10 pieces of equipment within range to life. These pieces of equipment can be weapons, pieces of ammunition, shields, full suits of armor, or magic items, and must not be worn or carried by any other creature (see below for specifics and limitations for each). Suits of armor count as two pieces of equipment. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.",
+        "As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (If you control multiple creatures with this feature, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.",
+        "Armor targeted by this spell must be full suits, such as any heavy armor or scale mail. They act as Animated Armor (see its stat block), but the AC is replaced with that of the chosen item, and their Constitution is replaced with your spellcasting ability score. Additionally, their Slam attack uses your spellcasting ability modifier for its attack and damage rolls.",
+        "Anything else targeted by this spell acts as a Flying Sword (see its stat block), but the longsword is replaced with the chosen item, and their Constitution is replaced with your spellcasting ability score. Additionally, their attack (if they have one) uses your spellcasting ability modifier for its attack and damage rolls.",
+        "Melee weapons can make use of their properties while fighting, such as the finesse, versatile, and double properties. Melee weapons can’t throw themselves if they have the thrown property.",
+        "Ranged weapons that are thrown can only do so within 5 feet, ending up in an empty space behind the target, decided by the DM. They do not attack at disadvantage when attacking within 5 feet.",
+        "Ranged weapons that require ammunition can only fire if the ammunition is animated as well, and there is a nearby piece of animated ammunition also controlled by you. Pieces of animated ammunition can’t fire themselves.",
+        "Shields gain the AC and parrying capabilities of the shield, and will knock themselves wide open as normal if they are able to attack.",
+        "If the item is magical in nature, it can trigger its magical effect as long as the item does not require attunement or a trigger word, such as a Wand of Magic Missiles. If the magical effect casts a spell, it uses your spellcasting ability to do so unless the magic item specifies otherwise. If the item is not a weapon, shield, or suit of armor, this is the only thing it can do.",
+        "If a piece of equipment reaches 0 hit points, it receives a -1 penalty for every 10 excess damage it receives, potentially breaking it. Adamantine items only suffer this potential penalty when struck by an adamantine weapon. The spell ends early on a target if the item breaks."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 7th level or higher, you may target two additional pieces of equipment to be controlled by this feature for each slot level above 6th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Annihilate",
+      "source": "COOMS",
+      "level": 9,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "line",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a lodestone and a focus to channel the spell through worth at least 10,000 gp"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "A 120-foot long magical torrent of raw destructive energy streams from your spellcasting focus and eradicates everything in its path. A creature in this spell’s path must make a Dexterity saving throw. On a failed save, the target takes {@dice 12d6} + 100 force damage. If this damage reduces the target to 0 hit points, it is annihilated. An annihilated creature and everything it is wearing and carrying are completely destroyed, leaving nothing behind. The creature can be restored to life only by means of a true resurrection or a wish spell. This spell automatically annihilates a Large or smaller object or a creation of magical force in its path. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot-cube portion of it."
+      ],
+      "damageInflict": [ "force" ],
+      "savingThrow": [ "dexterity" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Antagonize",
       "source": "COOMS",
       "level": 3,
