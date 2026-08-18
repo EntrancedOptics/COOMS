@@ -5680,12 +5680,6 @@
 				"mature": 20,
 				"max": 100
 			},
-			"languageProficiencies": [
-				{
-					"common": true,
-					"anyStandard": 1
-				}
-			],
 			"soundClip": {
 				"type": "internal",
 				"path": "races/human.mp3"
@@ -5704,13 +5698,6 @@
 					"entries": [
 						"Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium."
 					]
-				},
-				{
-					"name": "Languages",
-					"entries": [
-						"You can speak, read, and write {@language Common|phb} and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
-					],
-					"type": "entries"
 				}
 			],
 			"hasFluff": true,
@@ -5921,6 +5908,13 @@
 					]
 				},
 				{
+					"name": "Draconic Toughness",
+					"entries": [
+						"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level."
+					],
+					"type": "entries"
+				},
+				{
 					"type": "entries",
 					"name": "Draconic Ability",
 					"entries": [
@@ -6092,6 +6086,7 @@
 					"choose": [
 						{
 							"from": [
+								"anySkill",
 								"anyTool",
 								"anyLanguage"
 							],
@@ -6126,7 +6121,7 @@
 					"type": "entries",
 					"name": "Human Versatility",
 					"entries": [
-						"You may choose either an additional proficiency in a tool or the ability to speak an additional language."
+						"You may choose either an additional proficiency in a skill, tool, or the ability to speak an additional language."
 					]
 				},
 				{
@@ -18429,6 +18424,12 @@
 					"cha": 1
 				}
 			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 2
+				}
+			],
 			"skillToolLanguageProficiencies": [
 				{
 					"choose": [
@@ -18447,6 +18448,13 @@
 					"name": "Human Versatility",
 					"entries": [
 						"You gain proficiency in three skills or tools of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and two extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
 					],
 					"type": "entries"
 				}
@@ -18475,6 +18483,12 @@
 					}
 				}
 			],
+			"languageProficiencies": [
+				{
+					"common": true,
+					"anyStandard": 1
+				}
+			],
 			"feats": [
 				{
 					"any": 1
@@ -18497,6 +18511,13 @@
 					"name": "Feat",
 					"entries": [
 						"You gain one {@5etools feat|feats.html} of your choice."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write {@language Common|phb} and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on."
 					],
 					"type": "entries"
 				}

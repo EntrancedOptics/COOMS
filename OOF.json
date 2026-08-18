@@ -2888,6 +2888,27 @@
 			]
 		},
 		{
+			"name": "Sentinel",
+			"source": "EntrancedFeats",
+			"page": 18,
+			"entries": [
+				{
+					"entries": [
+						"You have mastered techniques to take advantage of every drop in any enemy's guard, gaining the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"When you hit a creature with an opportunity attack, the creature's speed becomes 0 for the rest of the turn.",
+						"Creatures provoke opportunity attacks from you even if they take the {@action Disengage|phb} action or have features that prevent opportunity attacks before leaving your reach such as Flyby. You can use this feature a number of times per short or long rest equal to your proficiency bonus.",
+						"When a creature within 5 feet of you makes an attack against a target other than you (and their target doesn't have this feat), they provoke an opportunity attack from you. You can use this feature a number of times per short or long rest equal to your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
 			"name": "Shadow Touched",
 			"source": "EntrancedFeats",
 			"page": 18,
