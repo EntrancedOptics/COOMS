@@ -11126,6 +11126,72 @@
       }
     },
     {
+      "name": "Lightning Spear",
+      "source": "COOMS",
+      "level": 0,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "As you make a throwing motion, a bolt of lightning appears in your hand and is thrown towards a creature within range. Make a ranged spell attack against the target. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes {@dice 1d6} lightning damage. If there is a body of water in between you and your target, the bolt instead dissipates into the water, and any creature within that body of water in a 5-foot-radius sphere of where the bolt would strike the water must succeed on a Dexterity saving throw or take {@dice 1d6} lightning damage.",
+        "If this spell is cast while you are Submerged, instead of its normal effects, you and every other creature in the same body of water within 5 feet of you must succeed on a Dexterity saving throw or take {@dice 1d6} lightning damage.",
+        "This spell's damage increases by {@dice 1d6} when you reach 5th level ({@dice 2d6}), 11th level ({@dice 3d6}), and 17th level ({@dice 4d6})."
+      ],
+      "damageInflict": [ "force" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Magic Axe",
       "source": "COOMS",
       "level": 3,
@@ -18476,13 +18542,14 @@
           "duration": {
             "type": "minute",
             "amount": 1
-          }
+          },
+          "concentration": true
         }
       ],
       "entries": [
         "You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes damage equal to {@dice 1d8} + your spellcasting ability modifier. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil.",
         "As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.",
-        "While the weapon is active, it occupies its space but creatures can pass through its space. The first time a creature enters the weapon's space on a turn or if it starts its turn there, the weapon attacks them.",
+        "While the weapon is active, it occupies its space but creatures can pass through it as if it were difficult terrain. Creatures provoke opportunity attacks from you when they move into the weapon's space or out of the weapon's range without taking the Disengage action. Opportunity attacks provoked this way must be made using the spiritual weapon.",
         "The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell's effect resemble that weapon."
       ],
       "damageInflict": [
@@ -18494,7 +18561,7 @@
         {
           "name": "At Higher Levels",
           "entries": [
-            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d8|3-9|1d8} for each slot level above 2nd."
+            "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@dice 1d8} for every two slot levels above 2nd."
           ],
           "type": "entries"
         }
