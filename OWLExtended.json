@@ -1848,7 +1848,7 @@
 			"armor": true,
 			"property": [
 				"SPIDERSILK",
-				"MAG"
+				"MAGM"
 			],
 			"entries": [
 				"The basis of this armor is made of spidersilk that has been weaved to be both light and durable whilst offering ample protection. It can go to a net of 9 without breaking, whilst providing ample AC benefit.",
@@ -1875,7 +1875,7 @@
 				"WO",
 				"SPIDERSILK",
 				"PS",
-				"MAG"
+				"MAGM"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -1899,7 +1899,7 @@
 			"armor": true,
 			"property": [
 				"SPIDERSILK",
-				"MAG"
+				"MAGM"
 			],
 			"entries": [
 				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
@@ -1920,7 +1920,7 @@
 			"armor": true,
 			"property": [
 				"SPIDERSILK",
-				"MAG"
+				"MAGM"
 			],
 			"entries": [
 				"The basis of this armor is made of spidersilk that has been weaved to be both light and durable whilst offering ample protection. It can go to a net of 9 without breaking, whilst providing ample AC benefit.",
@@ -1946,7 +1946,7 @@
 				"WO",
 				"SPIDERSILK",
 				"PS",
-				"MAG"
+				"MAGM"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -1969,7 +1969,7 @@
 			"armor": true,
 			"property": [
 				"SPIDERSILK",
-				"MAG"
+				"MAGM"
 			],
 			"entries": [
 				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
@@ -1990,7 +1990,7 @@
 			"armor": true,
 			"property": [
 				"SPIDERSILK",
-				"MAG"
+				"MAGM"
 			],
 			"entries": [
 				"The basis of this armor is made of spidersilk that has been weaved to be both light and durable whilst offering ample protection. It can go to a net of 9 without breaking, whilst providing ample AC benefit.",
@@ -2016,7 +2016,7 @@
 				"WO",
 				"SPIDERSILK",
 				"PS",
-				"MAG"
+				"MAGM"
 			],
 			"dmg1": "1d4",
 			"dmgType": "B",
@@ -2039,7 +2039,7 @@
 			"armor": true,
 			"property": [
 				"SPIDERSILK",
-				"MAG"
+				"MAGM"
 			],
 			"entries": [
 				"Clothing made from spidersilk is light and durable, being able to go to a net of 9 without breaking. This clothing is able to be worn whilst sleeping and has an increased AC to regular clothing.",
@@ -2202,7 +2202,7 @@
 				"tier": "major",
 				"rarity": "uncommon",
 				"property": [
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
 				"bonusAbilityCheck": "+1",
@@ -2261,7 +2261,7 @@
 				"tier": "major",
 				"rarity": "uncommon",
 				"property": [
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "((([[baseItem.value]]/100)*11)+955)*100",
 				"bonusAbilityCheck": "+1",
@@ -2432,7 +2432,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"property": [
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
 				"bonusAbilityCheck": "+2",
@@ -2491,7 +2491,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"property": [
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*52)+10840)*100)",
 				"bonusAbilityCheck": "+2",
@@ -2659,7 +2659,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"property": [
-					"MAG"
+					"MAGM"
 				],
 				"bonusAbilityCheck": "+3",
 				"bonusSpellAttack": "+3",
@@ -2716,7 +2716,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"property": [
-					"MAG"
+					"MAGM"
 				],
 				"bonusAbilityCheck": "+3",
 				"bonusSpellAttack": "+3",
@@ -3233,7 +3233,7 @@
 				"rarity": "rare",
 				"property": [
 					"ADAMAN",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
 				"bonusWeapon": "+1",
@@ -3330,7 +3330,7 @@
 				"rarity": "rare",
 				"property": [
 					"ADAMAN",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*126)+2605)*100)",
 				"bonusAbilityCheck": "+1",
@@ -3553,7 +3553,7 @@
 				"rarity": "very rare",
 				"property": [
 					"ADAMAN",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
 				"bonusWeapon": "+2",
@@ -3650,7 +3650,7 @@
 				"rarity": "very rare",
 				"property": [
 					"ADAMAN",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*167)+12490)*100)",
 				"bonusAbilityCheck": "+2",
@@ -3870,7 +3870,7 @@
 				"rarity": "legendary",
 				"property": [
 					"ADAMAN",
-					"MAG"
+					"MAGM"
 				],
 				"bonusWeapon": "+3",
 				"bonusSpellAttack": "+3",
@@ -3965,7 +3965,7 @@
 				"rarity": "legendary",
 				"property": [
 					"ADAMAN",
-					"MAG"
+					"MAGM"
 				],
 				"bonusAbilityCheck": "+3",
 				"bonusSpellAttack": "+3",
@@ -5793,7 +5793,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"property": [
-					"MAG",
+					"MAGM",
 					"MITHRAL"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*49)+1940)*100)",
@@ -5868,7 +5868,7 @@
 				"tier": "major",
 				"rarity": "rare",
 				"property": [
-					"MAG",
+					"MAGM",
 					"MITHRAL"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*49)+1940)*100)",
@@ -6060,7 +6060,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"property": [
-					"MAG",
+					"MAGM",
 					"MITHRAL"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*90)+11825)*100)",
@@ -6135,7 +6135,7 @@
 				"tier": "major",
 				"rarity": "very rare",
 				"property": [
-					"MAG",
+					"MAGM",
 					"MITHRAL"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*90)+11825)*100)",
@@ -6324,7 +6324,7 @@
 				"tier": "major",
 				"rarity": "legendary",
 				"property": [
-					"MAG",
+					"MAGM",
 					"MITHRAL"
 				],
 				"weightExpression": "([[baseItem.weight]]/2)",
@@ -6397,7 +6397,7 @@
 				"tier": "major",
 				"rarity": "legendary",
 				"property": [
-					"MAG",
+					"MAGM",
 					"MITHRAL"
 				],
 				"weightExpression": "([[baseItem.weight]]/2)",
@@ -6808,7 +6808,7 @@
 				"rarity": "uncommon",
 				"property": [
 					"SILVER",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*11)+1055)*100)",
 				"bonusWeapon": "+1",
@@ -6881,7 +6881,7 @@
 				"rarity": "uncommon",
 				"property": [
 					"SILVER",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*11)+1055)*100)",
 				"bonusAbilityCheck": "+1",
@@ -7068,7 +7068,7 @@
 				"rarity": "rare",
 				"property": [
 					"SILVER",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*52)+10940)*100)",
 				"bonusWeapon": "+2",
@@ -7141,7 +7141,7 @@
 				"rarity": "rare",
 				"property": [
 					"SILVER",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*52)+10940)*100)",
 				"bonusAbilityCheck": "+2",
@@ -7325,7 +7325,7 @@
 				"rarity": "very rare",
 				"property": [
 					"SILVER",
-					"MAG"
+					"MAGM"
 				],
 				"bonusWeapon": "+3",
 				"bonusSpellAttack": "+3",
@@ -7396,7 +7396,7 @@
 				"rarity": "very rare",
 				"property": [
 					"SILVER",
-					"MAG"
+					"MAGM"
 				],
 				"bonusAbilityCheck": "+3",
 				"bonusSpellAttack": "+3",
@@ -8142,7 +8142,7 @@
 				"rarity": "uncommon",
 				"property": [
 					"TEMPS",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
 				"bonusWeapon": "+1",
@@ -8215,7 +8215,7 @@
 				"rarity": "uncommon",
 				"property": [
 					"TEMPS",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*17)+960)*100)",
 				"bonusAbilityCheck": "+1",
@@ -8402,7 +8402,7 @@
 				"rarity": "rare",
 				"property": [
 					"TEMPS",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
 				"bonusWeapon": "+2",
@@ -8475,7 +8475,7 @@
 				"rarity": "rare",
 				"property": [
 					"TEMPS",
-					"MAG"
+					"MAGM"
 				],
 				"valueExpression": "(((([[baseItem.value]]/100)*58)+10845)*100)",
 				"bonusAbilityCheck": "+2",
@@ -8659,7 +8659,7 @@
 				"rarity": "very rare",
 				"property": [
 					"TEMPS",
-					"MAG"
+					"MAGM"
 				],
 				"bonusWeapon": "+3",
 				"bonusSpellAttack": "+3",
@@ -8730,7 +8730,7 @@
 				"rarity": "very rare",
 				"property": [
 					"TEMPS",
-					"MAG"
+					"MAGM"
 				],
 				"bonusAbilityCheck": "+3",
 				"bonusSpellAttack": "+3",
@@ -8837,7 +8837,7 @@
 			]
 		},
 		{
-			"abbreviation": "MAG",
+			"abbreviation": "MAGM",
 			"source": "OWL",
 			"page": 11,
 			"entries": [
@@ -8977,6 +8977,7 @@
 			],
 			"items": [
 				"Crystal|OWL",
+				"Crystal Necklace|OWL"
 				"Orb|OWL",
 				"Rod|OWL",
 				"Staff|OWL",
@@ -9028,7 +9029,7 @@
 		},
 		{
 			"name": "Gaming Set",
-			"source": "EARL",
+			"source": "OWL",
 			"srd": true,
 			"basicRules": true,
 			"type": "GS",
@@ -9051,7 +9052,7 @@
 				"Paladin"
 			],
 			"items": [
-				"Amulet|phb",
+				"Amulet|OWL",
 				"Emblem|phb",
 				"Reliquary|OWL"
 			]

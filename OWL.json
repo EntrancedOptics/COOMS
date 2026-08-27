@@ -27,12 +27,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 79
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 8,
@@ -101,6 +95,22 @@
 						]
 					]
 				}
+			]
+		},
+		{
+			"name": "Amulet",
+			"source": "OWL",
+			"page": 7,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "holy",
+			"rarity": "none",
+			"weight": 1,
+			"value": 500,
+			"property": [
+				"METAL",
+				"WORNF"
 			]
 		},
 		{
@@ -408,12 +418,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 79
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 9,
@@ -536,12 +540,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 79
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 5,
@@ -664,12 +662,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 80
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 6,
@@ -763,12 +755,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 80
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 6,
@@ -969,12 +955,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 80
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 5,
@@ -1046,12 +1026,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 80
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 8,
@@ -1261,6 +1235,22 @@
 			]
 		},
 		{
+			"name": "Crystal Necklace",
+			"source": "OWL",
+			"page": 7,
+			"srd": true,
+			"basicRules": true,
+			"type": "SCF",
+			"scfType": "arcane",
+			"rarity": "none",
+			"weight": 1.5,
+			"value": 1500,
+			"property": [
+				"CRYSTAL",
+				"WORNF"
+			]
+		},
+		{
 			"name": "Curved Greatsword",
 			"source": "OWL",
 			"page": 3,
@@ -1364,6 +1354,92 @@
 			"dmg2": "1d4",
 			"dire flail": true,
 			"weapon": true
+		},
+		{
+			"name": "Disguise Kit",
+			"source": "OWL",
+			"page": 1,
+			"srd": true,
+			"basicRules": true,
+			"type": "T",
+			"rarity": "none",
+			"weight": 3,
+			"value": 2500,
+			"entries": [
+				"This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."
+			],
+			"additionalEntries": [
+				"The perfect tool for anyone who wants to engage in trickery, a disguise kit enables its owner to adopt a false identity.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"A disguise kit includes cosmetics, hair dye, small props, and a few pieces of clothing."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deception",
+					"entries": [
+						"In certain cases, a disguise can improve your ability to weave convincing lies."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Intimidation",
+					"entries": [
+						"The right disguise can make you look more fearsome, whether you want to scare someone away by posing as a plague victim or intimidate a gang of thugs by taking the appearance of a bully."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Performance",
+					"entries": [
+						"A cunning disguise can enhance an audience's enjoyment of a performance, provided the disguise is properly designed to evoke the desired reaction."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Persuasion",
+					"entries": [
+						"Folk tend to trust a person in uniform. If you disguise yourself as an authority figure, your efforts to persuade others are often more effective."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Create Disguise",
+					"entries": [
+						"As part of a long rest, you can create a disguise. It takes you 1 minute to don such a disguise once you have created it. You can carry only one such disguise on you at a time without drawing undue attention, unless you have a bag of holding or a similar method to keep them hidden. Each disguise weighs 1 pound.",
+						"At other times, it takes 10 minutes to craft a disguise that involves moderate changes to your appearance, and 30 minutes for one that requires more extensive changes."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Disguise Kit",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Cover injuries or distinguishing marks",
+							"10"
+						],
+						[
+							"Spot a disguise being used by someone else",
+							"15"
+						],
+						[
+							"Copy a humanoid's appearance",
+							"20"
+						]
+					]
+				}
+			]
 		},
 		{
 			"name": "Double Axe",
@@ -1556,12 +1632,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 82
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 5,
@@ -1942,6 +2012,87 @@
 			"ammoType": "crossbow bolt|owl"
 		},
 		{
+			"name": "Herbalism Kit",
+			"source": "OWL",
+			"page": 1,
+			"srd": true,
+			"basicRules": true,
+			"type": "T",
+			"rarity": "none",
+			"weight": 3,
+			"value": 500,
+			"entries": [
+				"This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."
+			],
+			"additionalEntries": [
+				"Proficiency with an herbalism kit allows you to identify plants and safely collect their useful elements.",
+				{
+					"type": "entries",
+					"name": "Components",
+					"entries": [
+						"An herbalism kit includes pouches to store herbs, clippers and leather gloves for collecting plants, a mortar and pestle, and several glass jars."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Arcana",
+					"entries": [
+						"Your knowledge of the nature and uses of herbs can add insight to your magical studies that deal with plants and your attempts to identify potions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Investigation",
+					"entries": [
+						"When you inspect an area overgrown with plants, your proficiency can help you pick out details and clues that others might miss."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Medicine",
+					"entries": [
+						"Your mastery of herbalism improves your ability to treat illnesses and wounds by augmenting your methods of care with medicinal plants."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Nature and Survival",
+					"entries": [
+						"When you travel in the wild, your skill in herbalism makes it easier to identify plants and spot sources of food that others might overlook."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Identify Plants",
+					"entries": [
+						"You can identify most plants with a quick inspection of their appearance and smell."
+					]
+				},
+				{
+					"type": "table",
+					"caption": "Herbalism Kit",
+					"colLabels": [
+						"Activity",
+						"DC"
+					],
+					"colStyles": [
+						"col-10",
+						"col-2 text-center"
+					],
+					"rows": [
+						[
+							"Find plants",
+							"15"
+						],
+						[
+							"Identify poison",
+							"20"
+						]
+					]
+				}
+			]
+		},
+		{
 			"name": "Hide Armor",
 			"source": "OWL",
 			"page": 8,
@@ -2072,12 +2223,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 82
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 2,
@@ -2399,12 +2544,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 82
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 5,
@@ -2664,12 +2803,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 83
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 8,
@@ -2922,12 +3055,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 83
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 5,
@@ -3153,12 +3280,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 84
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 3,
@@ -3736,12 +3857,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 84
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 8,
@@ -4072,12 +4187,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 84
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 10,
@@ -4410,12 +4519,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 85
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 5,
@@ -4537,12 +4640,6 @@
 			"page": 1,
 			"srd": true,
 			"basicRules": true,
-			"additionalSources": [
-				{
-					"source": "XGE",
-					"page": 85
-				}
-			],
 			"type": "AT",
 			"rarity": "none",
 			"weight": 5,
@@ -5105,6 +5202,20 @@
 					"name": "Wood",
 					"entries": [
 						"This item is made out of Wood."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "WORNF",
+			"source": "OWL",
+			"page": 14,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Worn Focus",
+					"entries": [
+						"This item may be used as a spellcasting focus if itis being worn and a hand is free to hold it while a spell is cast."
 					]
 				}
 			]
