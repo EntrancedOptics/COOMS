@@ -1,7 +1,21 @@
 {
-  "siteVersion": "1.213.3",
+  "siteVersion": "1.218.3",
   "fileType": "content-blocklist",
   "blocklist": [
+    {
+      "displayName": "Barbarian [PHB'14]",
+      "hash": "barbarian_phb",
+      "category": "class",
+      "source": "*",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard [PHB'14]",
+      "hash": "bard_phb",
+      "category": "class",
+      "source": "*",
+      "isAuto": false
+    },
     {
       "displayName": "Cleric [PHB]",
       "hash": "cleric_phb",
@@ -10,8 +24,22 @@
       "isAuto": false
     },
     {
+      "displayName": "Druid [PHB'14]",
+      "hash": "druid_phb",
+      "category": "class",
+      "source": "*",
+      "isAuto": false
+    },
+    {
       "displayName": "Fighter [PHB]",
       "hash": "fighter_phb",
+      "category": "class",
+      "source": "*",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin [PHB'14]",
+      "hash": "paladin_phb",
       "category": "class",
       "source": "*",
       "isAuto": false
@@ -872,6 +900,13 @@
     },
     {
       "category": "background",
+      "displayName": "Revelry Pirate (Sailor)",
+      "hash": "revelry%20pirate%20(sailor)_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "background",
       "displayName": "Volstrucker Agent",
       "hash": "volstrucker%20agent_egw",
       "source": "EGW",
@@ -893,8 +928,29 @@
     },
     {
       "category": "race",
+      "displayName": "Elf (Pallid)",
+      "hash": "elf%20(pallid)_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "race",
+      "displayName": "Halfling (Lotusden)",
+      "hash": "halfling%20(lotusden)_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "race",
       "displayName": "Orc",
       "hash": "orc_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Dark Star",
+      "hash": "dark%20star_egw",
       "source": "EGW",
       "isAuto": false
     },
@@ -942,6 +998,13 @@
     },
     {
       "category": "spell",
+      "displayName": "Reality Break",
+      "hash": "reality%20break_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
       "displayName": "Sapping Sting",
       "hash": "sapping%20sting_egw",
       "source": "EGW",
@@ -958,6 +1021,13 @@
       "category": "spell",
       "displayName": "Tether Essence",
       "hash": "tether%20essence_egw",
+      "source": "EGW",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Time Ravage",
+      "hash": "time%20ravage_egw",
       "source": "EGW",
       "isAuto": false
     },
@@ -1568,6 +1638,13 @@
       "displayName": "Vulpin",
       "hash": "vulpin_hwcs",
       "source": "HWCS",
+      "isAuto": false
+    },
+    {
+      "displayName": "*",
+      "hash": "*",
+      "category": "*",
+      "source": "HelianasGuidetoMonsterHunting",
       "isAuto": false
     },
     {
@@ -2446,6 +2523,349 @@
       "isAuto": false
     },
     {
+      "displayName": "Barbarian 10: Path feature",
+      "hash": "path%20feature_barbarian_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 11: Relentless Rage",
+      "hash": "relentless%20rage_barbarian_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_barbarian_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 13: Brutal Critical (2 dice)",
+      "hash": "brutal%20critical%20(2%20dice)_barbarian_phb_13_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 14: Path feature",
+      "hash": "path%20feature_barbarian_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 15: Persistent Rage",
+      "hash": "persistent%20rage_barbarian_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_barbarian_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 17: Brutal Critical (3 dice)",
+      "hash": "brutal%20critical%20(3%20dice)_barbarian_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 18: Indomitable Might",
+      "hash": "indomitable%20might_barbarian_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_barbarian_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 1: Rage",
+      "hash": "rage_barbarian_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 1: Unarmored Defense",
+      "hash": "unarmored%20defense_barbarian_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 20: Primal Champion",
+      "hash": "primal%20champion_barbarian_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 2: Danger Sense",
+      "hash": "danger%20sense_barbarian_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 2: Reckless Attack",
+      "hash": "reckless%20attack_barbarian_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 3: Primal Path",
+      "hash": "primal%20path_barbarian_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_barbarian_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 5: Extra Attack",
+      "hash": "extra%20attack_barbarian_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 5: Fast Movement",
+      "hash": "fast%20movement_barbarian_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 6: Path Feature",
+      "hash": "path%20feature_barbarian_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 7: Feral Instinct",
+      "hash": "feral%20instinct_barbarian_phb_7_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_barbarian_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 9: Brutal Critical (1 die)",
+      "hash": "brutal%20critical%20(1%20die)_barbarian_phb_9_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 10: Bardic Inspiration (d10)",
+      "hash": "bardic%20inspiration%20(d10)_bard_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 10: Expertise",
+      "hash": "expertise_bard_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 10: Magical Secrets",
+      "hash": "magical%20secrets_bard_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_bard_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 13: Song of Rest (d10)",
+      "hash": "song%20of%20rest%20(d10)_bard_phb_13_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 14: Bard College feature",
+      "hash": "bard%20college%20feature_bard_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 14: Magical Secrets",
+      "hash": "magical%20secrets_bard_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 15: Bardic Inspiration (d12)",
+      "hash": "bardic%20inspiration%20(d12)_bard_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_bard_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 17: Song of Rest (d12)",
+      "hash": "song%20of%20rest%20(d12)_bard_phb_17_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 18: Magical Secrets",
+      "hash": "magical%20secrets_bard_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_bard_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 1: Bardic Inspiration",
+      "hash": "bardic%20inspiration_bard_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 1: Spellcasting",
+      "hash": "spellcasting_bard_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 20: Superior Inspiration",
+      "hash": "superior%20inspiration_bard_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 2: Jack of All Trades",
+      "hash": "jack%20of%20all%20trades_bard_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 2: Song of Rest (d6)",
+      "hash": "song%20of%20rest%20(d6)_bard_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 3: Bard College",
+      "hash": "bard%20college_bard_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 3: Expertise",
+      "hash": "expertise_bard_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_bard_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 5: Bardic Inspiration (d8)",
+      "hash": "bardic%20inspiration%20(d8)_bard_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 5: Font of Inspiration",
+      "hash": "font%20of%20inspiration_bard_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 6: Bard College feature",
+      "hash": "bard%20college%20feature_bard_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 6: Countercharm",
+      "hash": "countercharm_bard_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_bard_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 9: Song of Rest (d8)",
+      "hash": "song%20of%20rest%20(d8)_bard_phb_9_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
       "displayName": "Cleric 10: Divine Intervention",
       "hash": "divine%20intervention_cleric_phb_10_phb",
       "category": "classFeature",
@@ -2595,6 +3015,125 @@
     {
       "displayName": "Cleric 8: Divine Domain feature",
       "hash": "divine%20domain%20feature_cleric_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 10: Druid Circle feature",
+      "hash": "druid%20circle%20feature_druid_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_druid_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 14: Druid Circle feature",
+      "hash": "druid%20circle%20feature_druid_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_druid_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 18: Beast Spells",
+      "hash": "beast%20spells_druid_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 18: Timeless Body",
+      "hash": "timeless%20body_druid_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_druid_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 1: Druidic",
+      "hash": "druidic_druid_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 1: Spellcasting",
+      "hash": "spellcasting_druid_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 20: Archdruid",
+      "hash": "archdruid_druid_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 2: Druid Circle",
+      "hash": "druid%20circle_druid_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 2: Wild Shape",
+      "hash": "wild%20shape_druid_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_druid_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 4: Wild Shape Improvement",
+      "hash": "wild%20shape%20improvement_druid_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 6: Druid Circle feature",
+      "hash": "druid%20circle%20feature_druid_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_druid_phb_8_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 8: Wild Shape Improvement",
+      "hash": "wild%20shape%20improvement_druid_phb_8_phb",
       "category": "classFeature",
       "source": "PHB",
       "isAuto": false
@@ -2959,6 +3498,160 @@
     {
       "displayName": "Monk 9: Unarmored Movement improvement",
       "hash": "unarmored%20movement%20improvement_monk_phb_9_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 10: Aura of Courage",
+      "hash": "aura%20of%20courage_paladin_phb_10_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 11: Improved Divine Smite",
+      "hash": "improved%20divine%20smite_paladin_phb_11_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 12: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_paladin_phb_12_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 14: Cleansing Touch",
+      "hash": "cleansing%20touch_paladin_phb_14_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 15: Sacred Oath feature",
+      "hash": "sacred%20oath%20feature_paladin_phb_15_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 16: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_paladin_phb_16_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 18: Aura improvements",
+      "hash": "aura%20improvements_paladin_phb_18_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 19: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_paladin_phb_19_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 1: Divine Sense",
+      "hash": "divine%20sense_paladin_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 1: Lay on Hands",
+      "hash": "lay%20on%20hands_paladin_phb_1_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 20: Sacred Oath feature",
+      "hash": "sacred%20oath%20feature_paladin_phb_20_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 2: Divine Smite",
+      "hash": "divine%20smite_paladin_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 2: Fighting Style",
+      "hash": "fighting%20style_paladin_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 2: Spellcasting",
+      "hash": "spellcasting_paladin_phb_2_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 3: Channel Divinity",
+      "hash": "channel%20divinity_paladin_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 3: Divine Health",
+      "hash": "divine%20health_paladin_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 3: Sacred Oath",
+      "hash": "sacred%20oath_paladin_phb_3_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 4: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_paladin_phb_4_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 5: Extra Attack",
+      "hash": "extra%20attack_paladin_phb_5_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 6: Aura of Protection",
+      "hash": "aura%20of%20protection_paladin_phb_6_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 7: Sacred Oath feature",
+      "hash": "sacred%20oath%20feature_paladin_phb_7_phb",
+      "category": "classFeature",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 8: Ability Score Improvement",
+      "hash": "ability%20score%20improvement_paladin_phb_8_phb",
       "category": "classFeature",
       "source": "PHB",
       "isAuto": false
@@ -4071,8 +4764,22 @@
     },
     {
       "category": "spell",
+      "displayName": "Color Spray",
+      "hash": "color%20spray_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
       "displayName": "Cone of Cold",
       "hash": "cone%20of%20cold_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Counterspell",
+      "hash": "counterspell_phb",
       "source": "PHB",
       "isAuto": false
     },
@@ -4080,6 +4787,13 @@
       "displayName": "Create or Destroy Water",
       "hash": "create%20or%20destroy%20water_phb",
       "category": "spell",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Crown of Madness",
+      "hash": "crown%20of%20madness_phb",
       "source": "PHB",
       "isAuto": false
     },
@@ -4094,6 +4808,20 @@
       "category": "spell",
       "displayName": "Dancing Lights",
       "hash": "dancing%20lights_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Detect Thoughts",
+      "hash": "detect%20thoughts_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Dispel Magic",
+      "hash": "dispel%20magic_phb",
       "source": "PHB",
       "isAuto": false
     },
@@ -4129,6 +4857,13 @@
       "category": "spell",
       "displayName": "Find Familiar",
       "hash": "find%20familiar_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Find Steed",
+      "hash": "find%20steed_phb",
       "source": "PHB",
       "isAuto": false
     },
@@ -4234,6 +4969,13 @@
       "category": "spell",
       "displayName": "Ice Storm",
       "hash": "ice%20storm_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Identify",
+      "hash": "identify_phb",
       "source": "PHB",
       "isAuto": false
     },
@@ -4344,6 +5086,13 @@
     },
     {
       "category": "spell",
+      "displayName": "Ray of Frost",
+      "hash": "ray%20of%20frost_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
       "displayName": "Ray of Sickness",
       "hash": "ray%20of%20sickness_phb",
       "source": "PHB",
@@ -4406,6 +5155,13 @@
       "isAuto": false
     },
     {
+      "category": "spell",
+      "displayName": "Sleep",
+      "hash": "sleep_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
       "displayName": "Sleet Storm",
       "hash": "sleet%20storm_phb",
       "category": "spell",
@@ -4448,6 +5204,13 @@
       "isAuto": false
     },
     {
+      "category": "spell",
+      "displayName": "True Resurrection",
+      "hash": "true%20resurrection_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
       "displayName": "True Strike",
       "hash": "true%20strike_phb",
       "category": "spell",
@@ -4472,6 +5235,13 @@
       "displayName": "Wall of Force",
       "hash": "wall%20of%20force_phb",
       "category": "spell",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Web",
+      "hash": "web_phb",
       "source": "PHB",
       "isAuto": false
     },
@@ -4917,6 +5687,34 @@
       "isAuto": false
     },
     {
+      "displayName": "Barbarian 3: Primal Knowledge",
+      "hash": "primal%20knowledge_barbarian_phb_3_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Barbarian 7: Instinctive Pounce",
+      "hash": "instinctive%20pounce_barbarian_phb_7_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 2: Magical Inspiration",
+      "hash": "magical%20inspiration_bard_phb_2_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Bard 4: Bardic Versatility",
+      "hash": "bardic%20versatility_bard_phb_4_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
       "displayName": "Cleric 2: Channel Divinity: Harness Divine Power",
       "hash": "channel%20divinity%3a%20harness%20divine%20power_cleric_phb_2_tce",
       "category": "classFeature",
@@ -4926,6 +5724,20 @@
     {
       "displayName": "Cleric 4: Cantrip Versatility",
       "hash": "cantrip%20versatility_cleric_phb_4_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 2: Wild Companion",
+      "hash": "wild%20companion_druid_phb_2_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Druid 4: Cantrip Versatility",
+      "hash": "cantrip%20versatility_druid_phb_4_tce",
       "category": "classFeature",
       "source": "TCE",
       "isAuto": false
@@ -4961,6 +5773,20 @@
     {
       "displayName": "Monk 5: Focused Aim",
       "hash": "focused%20aim_monk_phb_5_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 3: Channel Divinity: Harness Divine Power",
+      "hash": "channel%20divinity%3a%20harness%20divine%20power_paladin_phb_3_tce",
+      "category": "classFeature",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "displayName": "Paladin 4: Martial Versatility",
+      "hash": "martial%20versatility_paladin_phb_4_tce",
       "category": "classFeature",
       "source": "TCE",
       "isAuto": false
@@ -5081,6 +5907,20 @@
       "category": "feat",
       "displayName": "Skill Expert",
       "hash": "skill%20expert_tce",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Telekinetic",
+      "hash": "telekinetic_tce",
+      "source": "TCE",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Telepathic",
+      "hash": "telepathic_tce",
       "source": "TCE",
       "isAuto": false
     },
@@ -5327,6 +6167,13 @@
       "hash": "*",
       "category": "*",
       "source": "TLotRR",
+      "isAuto": false
+    },
+    {
+      "category": "race",
+      "displayName": "Tortle",
+      "hash": "tortle_ttp",
+      "source": "TTP",
       "isAuto": false
     },
     {
@@ -5865,6 +6712,20 @@
       "displayName": "Bones of the Earth",
       "hash": "bones%20of%20the%20earth_xge",
       "category": "spell",
+      "source": "XGE",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Catnap",
+      "hash": "catnap_xge",
+      "source": "XGE",
+      "isAuto": false
+    },
+    {
+      "category": "spell",
+      "displayName": "Cause Fear",
+      "hash": "cause%20fear_xge",
       "source": "XGE",
       "isAuto": false
     },
