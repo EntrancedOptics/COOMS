@@ -106,7 +106,7 @@
 					"type": "list",
 					"items": [
 						"Your healing hands now heals an additional amount equal to your Constitution modifier (minimum of 0).",
-						"You grow a pair of feathered, angelic wings from your back, giving you a flight speed equal to your walking speed. For Fallen Aasimar, these wings are batlike."
+						"You grow a pair of feathered, angelic wings from your back, giving you a flight speed equal to your walking speed. To use this speed, you can't be wearing medium or heavy armor. For Fallen Aasimar, these wings are batlike."
 					]
 				},
 				{
@@ -119,7 +119,7 @@
 					"type": "list",
 					"items": [
 						"{@b Fallen Aasimar's} Necrotic Shroud's frighten now lasts for 1 minute, and creatures can save at the end of their turns, ending the effect early on a success. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
-						"{@b Protector Aasimar's} Radiant Soul now increases your flight speed by 30 feet while it is active. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
+						"{@b Protector Aasimar's} Radiant Soul now gives you a hovering speed of 60 feet while it is active. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0).",
 						"{@b Scourge Aasimar's} Radiant Consumption no longer damages you. Additionally, the extra damage you can deal on a hit once per turn while it is active increases by an amount equal to your Constitution modifier (minimum of 0)."
 					]
 				}
@@ -1308,7 +1308,7 @@
 				{
 					"type": "list",
 					"items": [
-						"You grow a pair of leathery, batlike wings from your back, giving you a flight speed equal to your walking speed. For Achaierai Tieflings, these wings are birdlike.",
+						"You grow a pair of leathery, batlike wings from your back, giving you a flight speed equal to your walking speed. To use this speed, you can't be wearing medium or heavy armor. For Achaierai Tieflings, these wings are birdlike.",
 						"You gain an additional physical characteristic, choose one of the following features that you do not already have: small horns; fangs or sharp teeth; a forked tongue; catlike eyes; six fingers on each hand; goatlike legs; cloven hoofs; a forked tail; leathery or scaly skin; red or dark blue skin; cast no shadow or reflection; exude a smell of brimstone.",
 						"You don't provoke {@action opportunity attack|phb|opportunity attacks} when you fly out of a creature's reach."
 					]
@@ -3148,6 +3148,36 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency in any combination of three {@table skills|phb} or {@filter tools|items|type=tool;artisan's tools;instrument;gaming set;vehicle (land);vehicle (water)} of your choice. Your choices must reflect your character and their adventures and accolades."
+					]
+				}
+			]
+		},
+		{
+			"name": "Sky Warrior",
+			"source": "EntrancedFeats",
+			"page": 29,
+			"prerequisite": [
+				{
+					"other": "Non-hovering flight speed granted by race, racial feat, or likewise permanent feature inherent to your body"
+				}
+			],
+			"ability": [
+				{
+					"dex": 1
+				}
+			],
+			"entries": [
+				{
+					"entries": [
+						"You have become adept at using your wings in combat, granting you the following benefits:"
+					],
+					"type": "entries"
+				},
+				{
+					"type": "list",
+					"items": [
+						"You don't provoke {@action opportunity attack|phb|opportunity attacks} when you fly out of a creature's reach.",
+						"You can fly indoors as long as you have at least 3 feet above and below you."
 					]
 				}
 			]
