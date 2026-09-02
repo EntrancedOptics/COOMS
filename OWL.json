@@ -340,8 +340,8 @@
 			"srd": false,
 			"type": "M",
 			"rarity": "none",
-			"weight": 5,
-			"value": 50,
+			"weight": 2,
+			"value": 1500,
 			"weaponCategory": "simple",
 			"property": [
 				"F",
