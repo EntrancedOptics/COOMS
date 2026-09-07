@@ -1,5 +1,5 @@
 {
-  "siteVersion": "1.218.3",
+  "siteVersion": "1.219.2",
   "fileType": "content-blocklist",
   "blocklist": [
     {
@@ -4227,6 +4227,13 @@
       "category": "feat",
       "displayName": "Savage Attacker",
       "hash": "savage%20attacker_phb",
+      "source": "PHB",
+      "isAuto": false
+    },
+    {
+      "category": "feat",
+      "displayName": "Sentinel",
+      "hash": "sentinel_phb",
       "source": "PHB",
       "isAuto": false
     },
