@@ -1394,6 +1394,28 @@
 			]
 		},
 		{
+			"name": "Aerokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PD", "WJD" ],
+			"entries": [
+				"{@i Wu Jen Discipline}",
+				"You become one with the power of elemental air.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Psychic Focus.} While focused on this discipline, when you fall, you can use a reaction to cause air to push against your fall, slowing your descent to only fall 60 feet per round until you land. When you land, you take no damage from the fall and can choose to land on your feet.",
+						"{@b Wind Step (1\u20147 psi)} As part of your move on your turn, you can fly up to 20 feet for each psi point spent. You can not fly more than you have movement speed remaining this turn. If you end this flight in the air, you fall unless something else holds you aloft.",
+						"{@b Wind Stream (1\u20147 psi)} As an action, you create a line of focused air that is 30 feet long and 5 feet wide. Each creature in that area must make a Strength saving throw, taking 1d4 bludgeoning damage per psi point spent and being knocked prone on a failed save, or half as much damage on a successful one. The wind disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.",
+						"{@b Cloak of Wind (3 psi; conc., 10 min.)} As a bonus action, you seize control of the air around you to create a protective veil. Until your {@status concentration||concentration} ends, weapon attack rolls against you made by a creature further than 5 feet away have disadvantage, and when a creature you can see misses you with a ranged weapon attack, you can use your reaction to make a ranged spell attack against one creature within 30 feet of you as you throw the projectile away from yourself. On a hit, the target takes the damage that would have taken.",
+						"{@b Whirlwind (3 psi)} As an action, choose a point you can see within 60 feet of you. Winds howl in a 15-foot-radius sphere centered on that point. Each creature in the sphere must succeed on a Strength saving throw or take {@dice 1d6} bludgeoning damage and be moved 10 feet in any direction to an unoccupied space of your choice in the sphere. Creatures that succeed the saving throw instead take half damage and are not moved. Any loose object in the sphere is moved 10 feet to an unoccupied space of your choice within it if the object weighs no more than 100 pounds. The objects are not flung with enough force to deal damage.",
+						"{@b Wind Form (5 psi; conc., 10 min.)} As a bonus action, you gain a hovering speed of 60 feet, which lasts until your {@status concentration||concentration} ends.",
+						"{@b Misty Form (6 psi; conc., 1 min.)} As an action, your body becomes like a misty cloud until your {@status concentration||concentration} ends. In this form, you gain resistance to damage from nonmagical weapons, and you can’t take actions other than the {@action Dash} action. You can pass through openings that are no more than 1 inch wide without squeezing.",
+						"{@b Animate Air (7 psi; conc., 1 hr.)} As an action, you cause an air elemental to appear in an unoccupied space filled with air that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block."
+					]
+				}
+			]
+		},
+		{
 			"name": "Animation",
 			"source": "THICC-PSION",
 			"featureType": [
@@ -1482,6 +1504,43 @@
 					"type": "list",
 					"items": [
 						"{@b Awaken (7 psi)} Over the course of 8 hours, as if in {@status concentration||concentration}, you attempt to impart your sapience into a Huge or smaller beast or plant that has either no Intelligence score or an Intelligence of 3 or less. If you two become separated by more than 5 feet or you lose your {@status concentration||concentration} during the 8 hours for any reason, or if the creature has an Intelligence of 4 or more, the feature fails but the psi points are not wasted. You transfer points from your Intelligence score until the target reaches 10 Intelligence. If this would put your Intelligence score below 4, the feature fails and the psi points are wasted. Otherwise, the target gains the ability to speak one language you know. The target additionally gains your personality traits, ideals, bonds, and flaws. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human's. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the {@creature awakened shrub|MM} or the {@creature awakened tree|MM}. The awakened beast or plant is {@condition Charmed} by you for 30 days or until you or your companions do anything harmful to it. When the {@condition Charmed} condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was {@condition Charmed}. It will additionally modify its personality traits, ideals, bonds, and flaws based on its experiences during this time. At the end of every long rest, until you have regained every transferred point of Intelligence, you are able to make an Intelligence saving throw. The DC of the saving throw is 40 minus the amount of days that have passed. You regain one point of Intelligence on a success. The awakened creature does not lose the point of Intelligence when you regain it."
+					]
+				}
+			]
+		},
+		{
+			"name": "Atmokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PD", "WJD" ],
+			"entries": [
+				"{@i Wu Jen Discipline}",
+				"Your mind reaches into the sky, reshaping the stuff of storms to serve your needs.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Psychic Focus.} While focused on this discipline, any thunder damage you take is reduced by 3.",
+						"{@b Cloud Steps (1\u20147 psi; conc., 10 min.)} As an action, you conjure forth clouds to create a solid, translucent staircase within 60 feet of you that lasts until your {@status concentration||concentration} ends. The stairs form a spiral that fills a cylinder with a 5 foot radius that reaches upward 10 feet per psi point spent. If the stairs are created underneath yourself, you can decide to have the stairs immediately carry you to the stop as the staircase is being constructed.",
+						"{@b Thunderstrike (1\u20147 psi)} As an action, you encase your fist in thunderous energy before making a melee spell attack against one creature in your reach. On a hit, you deal {@dice 2d8} thunder damage per psi point spent. Additionally, the target must succeed on a Strength saving throw or be pushed 5 feet away from you per psi point spent and knocked {@condition Prone}.",
+						"{@b Wall of Clouds (2 psi; conc., 10 min.)} As an action, you create a wall of clouds, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your {@status concentration||concentration} ends. Creatures can pass through it without hindrance, but the wall blocks vision.",
+						"{@b Deafening Crack (5\u20147 psi)} As an action, choose a point you can see within 60 feet of you. A deafening blast erupts from that point. Each creature within a 10-foot radius from that point must make a Constitution saving throw. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw. On a failure, a target takes {@dice 4d8} thunder damage and is {@condition Deafened} for 10 minutes. On a success, a creature takes half as much damage and is not {@condition Deafened}. A creature {@condition Deafened} in this way may remake the saving throw at the end of each of their turns, ending the effect on themselves on a success. A nonmagical object that isn't being worn or carried also takes the damage if it's in the blast. You can increase this ability’s damage by {@dice 1d8} per additional psi point spent on it.",
+						"{@b Storm (5 psi; conc., 10 min.)} As a bonus action, choose a point above you that you can see within 120 feet of you in which a 10 foot tall, 60-foot radius cylinder could fit. A storm cloud then appears with those dimensions, centered on that point. The area beneath the cloud is no longer considered to be in direct sunlight. Additionally, on each of your turns until the ability ends, you can use psi points to affect creatures and objects under the cylinder, manifesting one of the following effects as an action:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Lightning Strike (1\u20147 psi)} A bolt of lightning strikes at a point you can see under the cloud. Each creature within a 5 foot radius of that point must make a Dexterity saving throw, taking {@dice 1d12} lightning damage per psi point spent or half as much on a success. If the creature is wearing armor made of metal, the creature makes this save at disadvantage.",
+								"{@b Rain (1 psi)} The cloud rains, extinguishing exposed flames in the area beneath the cloud."
+							]
+						},
+						"{@b Tempest (6 psi; conc., 1 min.)} As an action, choose a point you can see within 90 feet of you. A powerful storm cloud sweeps through the area in a 20-foot radius sphere centered on that point. The area becomes {@quickref difficult terrain||3}, and creatures inside the area are {@condition Deafened} and cannot see more than 5 feet in any direction. Creatures outside of the area cannot see more than 5 feet into the area, and have disadvantage on Wisdom ({@skill Perception}) checks made to listen while within 30 feet of the area. Additionally, on each of your turns until the ability ends, you can use psi points to affect creatures within the sphere, manifesting one of the following effects as an action:",
+						{
+							"type": "list",
+							"items": [
+								"{@b Lightning Surge (1\u20147 psi)} Each creature in the sphere must make a Dexterity saving throw, taking {@dice 1d6} lightning damage per psi point spent or half as much on a success. If the creature is wearing armor made of metal, the creature makes this save at disadvantage.",
+								"{@b Roaring Winds (1\u20147 psi)} Each creature in the sphere must make a Strength saving throw, taking {@dice 1d4} bludgeoning damage per psi point spent or half as much on a success. Additionally, for each creature that fails, the creature is pulled 5 feet towards the center of the sphere per psi point spent and knocked {@condition Prone}.",
+								"{@b Thunderous Crack (1\u20147 psi)} Each creature in the sphere must make a Constitution saving throw, taking {@dice 1d10} thunder damage per psi point spent or half as much on a success."
+							]
+						},
+						"{@b Roaring Thunder (7 psi)} As an action, choose a point you can see within 60 feet of you. Thunder energy erupts in a 20-foot-radius sphere centered on that point. Each creature in that area must make a Constitution saving throw. A creature made of inorganic material such as stone, crystal, or metal has disadvantage on this saving throw. On a failed save, a target takes {@dice 8d6} thunder damage, and it is {@condition Stunned} until the end of your next turn. On a successful save, a target takes half as much damage and is not {@condition Stunned}. A nonmagical object that isn't being worn or carried also takes the damage if it's in the blast."
 					]
 				}
 			]
@@ -1679,6 +1738,27 @@
 			]
 		},
 		{
+			"name": "Cryokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PD", "WJD" ],
+			"entries": [
+				"{@i Wu Jen Discipline}",
+				"You master the power of ice, shaping it to meet you demands.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Psychic Focus.} While focused on this discipline, any cold damage you take is reduced by 3.",
+						"{@b Ice Spike (1\u20147 psi)} As an action, you hurl a mote of ice at one creature you can see within 120 feet of you, making a ranged spell attack against the target. On a hit, the target takes {@dice 1d12} cold damage per psi point spent and has its speed halved until the start of your next turn.",
+						"{@b Frozen Sanctuary (1\u20147 psi)} As an action, you sheathe yourself with icy resilience. You encase yourself in a cocoon of ice that has 12 AC, 10 hit points of each psi spent on this ability, and vulnerability to fire. Whenever you take damage, the cocoon takes the damage instead. If this damage reduces the cocoon to 0 hit points, you take any remaining damage. While it is active you are {@condition Incapacitated} and your speed is reduced to zero. Once per turn on each of your turns, you may spend a free action to heal the cocoon with psi points (up to your psi limit) healing it 10 hit points per psi point spent. You can’t heal it more than the initial hit points it had at its creation. The cocoon disappears after 8 hours or when you dismiss it as a free action at the end of your turn.",
+						"{@b Ice Sheet (1\u20147 psi)} As an action, choose a point on the ground you can see within 60 feet of you. The ground in a 5-foot per psi point spent square centered on that point becomes covered in ice, becoming {@quickref difficult terrain||3} for 1 minute. When the ice sheet appears, each creature standing in its area must succeed on a Dexterity saving throw or fall {Condition Prone}. Any time a creature moves into or within the area, that creature must make the same save or they fall {@condition Prone} while they move. A creature trying to stand up must make the save or else they spend half their movement fumbling around. If the surface is sloped, a creature that fails a Dexterity saving throw against the ice sheet immediately slides in the direction of the bottom of the slope to the end of the ice sheet, if no creature or object prevents it from doing so by blocking the path of its forced movement.",
+						"{@b Snap Freeze (5\u20147 psi; conc., 1 min.)} As an action, choose a point you can see within 120 feet of you. The air in a 20-foot-radius sphere centered on that point becomes deathly cold and saturated with moisture. Each creature in that area must make a Constitution saving throw. On a failed save, a target takes {@dice 6d6} cold damage, and its speed is reduced to 0 until your {@status concentration||concentration} ends. On a successful save, a target takes half as much damage. As an action, a target that has its speed reduced can end the effect early if it succeeds on a Strength ({@skill Athletics}) check with a DC equal to this effect’s save DC. You can increase this effect’s damage by {@dice 1d6} per each additional psi point spent on it.",
+						"{@b Ice Barrier (6\u20147 psi; conc., 10 min.)} As an action, you create a wall of ice, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your {@status concentration||concentration} ends. Each 10-foot section of the wall has AC 12 and 10 hit points per psi point spent, and is vulnerable to fire damage. A creature that damages the wall with a melee attack within 5 feet of the wall takes {@dice 1d8} cold damage.",
+						"{@b Animate Ice (7 psi; conc., 1 hr.)} As an action, you cause an ice elemental to appear in an unoccupied space filled with ice that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block."
+					]
+				}
+			]
+		},
+		{
 			"name": "Diminution",
 			"source": "THICC-PSION",
 			"featureType": [ "PD", "ID" ],
@@ -1698,6 +1778,28 @@
 			]
 		},
 		{
+			"name": "Electrokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PD", "WJD" ],
+			"entries": [
+				"{@i Wu Jen Discipline}",
+				"You master your mind’s electricity, shaping it to meet your demands.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Psychic Focus.} While focused on this discipline, any lightning damage you take is reduced by 3.",
+						"{@b Hurl Lightning (1\u20147 psi)} As an action, you throw a bolt of lightning at one creature you can see within 60 feet of you. Make a ranged spell attack against the target. If the target is wearing armor made of metal, this attack roll is made at advantage. On a hit, the target takes {@dice 2d6} lightning damage per psi point spent.",
+						"{@b Nerve Spike (1\u20147 psi)} As an action, you cause electricity to flow from your mind to the minds of intelligent creatures around you. Choose a number of creatures per psi point spent within 30 feet of you. For each target, if the target has an Intelligence score of 4 or greater, they take {@dice 1d6} lightning damage.",
+						"{@b Channel Lightning (2\u20147 psi; conc., 1 min.)} As an action, a beam of crackling, blue energy lances out toward a creature you can see within the ability’s range, forming a sustained arc of lightning between you and the target. The range of this ability is 30 feet, but you can increase it by 10 feet per additional psi point spent. Make a ranged spell attack against that target. If the target is wearing armor made of metal, this attack roll is made at advantage. On a hit, the target takes {@dice 1d12} lightning damage, and on each of your turns until your {@status concentration||concentration} ends, you can use your action to deal {@dice 1d12} lightning damage to the target automatically. Your {@status concentration||concentration} ends if you use your action to do anything else. Your {@status concentration||concentration} also ends if the target is outside the ability’s range of it it has {@quickref cover|total cover|3} from you.",
+						"{@b Energy Torrent (5\u20147 psi)} As an action, you let loose a burning line of violent energy that is 100 feet long and 5 feet wide. Each creature in the line must make a Dexterity saving throw, taking {@dice 4d6} lightning damage, {@dice 2d6} fire damage, and {@dice 2d6} force damage on a failed save, or half as much damage on a successful one. You can increase the width of the line by 5 feet per additional psi point spent. The line ignites flammable objects in the area that aren't being worn or carried. Any creatures or objects Overkilled by this ability are disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust. Disintegrated creatures can be restored to life only by means of a {@spell True Resurrection|PHB} or a {@spell Wish|PHB} spell.",
+						"{@b Electric Current (6\u20147 psi)} As an action, you shoot a stream of lightning that flows from one target of your choice within 60 feet to another. The target must succeed on a Dexterity saving throw or else they take {@dice 5d8} lightning damage as electricity jolts through them. The stream then arcs to a different target of your choice within 30 feet of the most recent target. The new target must then succeed on a Dexterity saving throw or they suffer {@dice 5d8} lightning damage and trigger the same effect as the original target. You do not need to see the target for the stream to arc to them, but you need to know of their existence. Per manifestation of the ability, the stream of lightning may only hit a maximum of 5 creatures or objects in total, and may not target the same creature twice. You may spend an additional psi point to increase the maximum total number of targets to 6. If a creature ever succeeds the saving throw, they take half damage and the ability ends. If the ability ever deals no damage to a creature or targets a creature outside of the reach that the lightning can jump to, the ability ends.",
+						"{@b Volt Tackle (7 psi)} As an action, you transform yourself into pure neural electricity and hurl yourself at a foe. Choose a creature directly adjacent to an unoccupied space that you can see within 90 feet of yourself. You are immediately transported in a straight line to the target, making a melee spell attack and moving to the unoccupied space directly adjacent to them. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes {@dice 8d6} lightning damage and is {@condition Stunned} until the end of your next turn. Regardless of whether you hit or miss, every creature in a line to that space (including the target) must make a Dexterity saving throw, taking {@dice 4d6} lightning damage on a failed save, and half as much on a success.",
+						"{@b System Overload (7 psi; conc., 1 min.)} As an action, you attempt to grab a creature within 5 feet of yourself to overload them with electric energy. The target must make a Dexterity saving throw. If the target is wearing armor made of metal, this saving throw is made at disadvantage. On a failure, the target takes {@dice 12d6} lightning damage and is knocked {@condition Prone} and {@condition Stunned} until your {@status concentration||concentration} ends as their body starts to violently seize. On a success, the target takes half as much damage and is not {@condition Stunned} or knocked {@condition Prone}. At the end of each of the {@condition Stunned} target’s turns, they must make a Constitution saving throw, taking {@dice 2d6} lightning damage on a failed save and ending the effect on a success."
+					]
+				}
+			]
+		},
+		{
 			"name": "Giant Growth",
 			"source": "THICC-PSION",
 			"featureType": [ "PD", "ID" ],
@@ -1712,6 +1814,28 @@
 						"{@b Growth Spurt (2 psi)} As a reaction to when you fail a grapple, shove, or disarm contest, you can temporarily count as one size larger for the purposes of the contest, potentially turning the failure into a success.",
 						"{@b Ogre Form (3 psi; conc., 1 min.)} As a bonus action, you gain 10 temporary hit points. In addition, until your {@status concentration||concentration} ends, your melee weapon attacks deal an extra {@dice 1d4} damage on a hit, and your reach increases by 5 feet. If you’re smaller than Large, you also become Large for the duration.",
 						"{@b Giant Form (7 psi; conc., 1 min.} As a bonus action, you gain 30 temporary hit points. In addition, until your {@status concentration||concentration} ends, your melee weapon attacks deal an extra {@dice 2d6} damage die on a hit, and your reach increases by 10 feet. If you’re smaller than Huge, you also become Huge for the duration."
+					]
+				}
+			]
+		},
+		{
+			"name": "Hydrokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PD", "WJD" ],
+			"entries": [
+				"{@i Wu Jen Discipline}",
+				"Your mind becomes one with elemental water, attuning your thoughts to its ebb and flow.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Psychic Focus.} While focused on this discipline, you have advantage on checks made to {@action Swim|THICC}.",
+						"{@b Create Water (1\u20147 psi)} As an action, you create up to 10 gallons of clean water per psi point spent within 30 feet of yourself in an open container.",
+						"{@b Dessicate (1\u20147 psi)} As an action, choose one creature you can see within 60 feet of you. The target must make a Constitution saving throw, taking {@dice 1d10} necrotic damage per psi point spent on this ability, or half as much damage on a successful one. If you target a plant creature or a magical plant, it makes the saving throw with disadvantage.",
+						"{@b Tidal Grasp (2\u20147 psi)} As an action, you unleash a wave that surges forth and then retreats to you like the rising tide. You create a wave in a 20-foot-by-20-foot square. At least some portion of the square’s border must be within 5 feet of you. Any creature in that square must make a Strength saving throw. On a failed save, a target takes {@dice 1d6} bludgeoning damage, is knocked {@condition Prone}, and is pulled up to 10 feet closer to you. On a successful save, a target takes half as much damage. You can increase this ability’s damage by {@dice 1d6} per additional psi point spent on it.",
+						"{@b Water Jet (3\u20147 psi)} As an action, you unleash a jet of water in a line that is 60 feet long and 5 feet wide. Each creature in the line must make a Strength saving throw, taking {@dice 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, you can push each target that fails its saving throw up to 15 feet following the line. You can increase this ability’s damage by {@dice 1d6} per additional psi point spent on it.",
+						"{@b Water Breathing (5 psi)} As an action, you grant yourself and up to ten willing creatures you can see within 60 feet of you the ability to breathe underwater for the next 24 hours.",
+						"{@b Water Sphere (6 psi; conc., 1 min.)} As an action, you cause a sphere of water to form around a creature. Choose one creature you can see within 60 feet of you. The target must make a Dexterity saving throw. On a failed save, it becomes trapped in the sphere of water until your {@status concentration||concentration} ends. While the target is trapped, it is {@condition Submerged|THICC}, its speed is halved, it suffers the penalties of attacking with a weapon while underwater, and, if it can’t breathe underwater, it can’t see anything more than 10 feet away from it and it must hold its breath to avoid suffocation. However, attack rolls against it also suffer the penalties of attacking with a weapon while underwater. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful one.",
+						"{@b Animate Water (7 psi; conc., 1 hr.)} As an action, you cause a water elemental to appear in an unoccupied space filled with liquid water that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block."
 					]
 				}
 			]
@@ -1879,168 +2003,6 @@
 			]
 		},
 		{
-			"name": "Mastery of Air",
-			"source": "THICC-PSION",
-			"featureType": [ "PD", "WJD" ],
-			"entries": [
-				"{@i Wu Jen Discipline}",
-				"You become one with the power of elemental air.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, when you fall, you can use a reaction to cause air to push against your fall, slowing your descent to only fall 60 feet per round until you land. When you land, you take no damage from the fall and can choose to land on your feet.",
-						"{@b Wind Step (1\u20147 psi)} As part of your move on your turn, you can fly up to 20 feet for each psi point spent. You can not fly more than you have movement speed remaining this turn. If you end this flight in the air, you fall unless something else holds you aloft.",
-						"{@b Wind Stream (1\u20147 psi)} As an action, you create a line of focused air that is 30 feet long and 5 feet wide. Each creature in that area must make a Strength saving throw, taking 1d4 bludgeoning damage per psi point spent and being knocked prone on a failed save, or half as much damage on a successful one. The wind disperses gas or vapor, and it extinguishes candles, torches, and similar unprotected flames in the area. It causes protected flames, such as those of lanterns, to dance wildly and has a 50 percent chance to extinguish them.",
-						"{@b Cloak of Wind (3 psi; conc., 10 min.)} As a bonus action, you seize control of the air around you to create a protective veil. Until your {@status concentration||concentration} ends, weapon attack rolls against you made by a creature further than 5 feet away have disadvantage, and when a creature you can see misses you with a ranged weapon attack, you can use your reaction to make a ranged spell attack against one creature within 30 feet of you as you throw the projectile away from yourself. On a hit, the target takes the damage that would have taken.",
-						"{@b Whirlwind (3 psi)} As an action, choose a point you can see within 60 feet of you. Winds howl in a 15-foot-radius sphere centered on that point. Each creature in the sphere must succeed on a Strength saving throw or take {@dice 1d6} bludgeoning damage and be moved 10 feet in any direction to an unoccupied space of your choice in the sphere. Creatures that succeed the saving throw instead take half damage and are not moved. Any loose object in the sphere is moved 10 feet to an unoccupied space of your choice within it if the object weighs no more than 100 pounds. The objects are not flung with enough force to deal damage.",
-						"{@b Wind Form (5 psi; conc., 10 min.)} As a bonus action, you gain a hovering speed of 60 feet, which lasts until your {@status concentration||concentration} ends.",
-						"{@b Misty Form (6 psi; conc., 1 min.)} As an action, your body becomes like a misty cloud until your {@status concentration||concentration} ends. In this form, you gain resistance to damage from nonmagical weapons, and you can’t take actions other than the {@action Dash} action. You can pass through openings that are no more than 1 inch wide without squeezing.",
-						"{@b Animate Air (7 psi; conc., 1 hr.)} As an action, you cause an air elemental to appear in an unoccupied space filled with air that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block."
-					]
-				}
-			]
-		},
-		{
-			"name": "Mastery of Fire",
-			"source": "THICC-PSION",
-			"featureType": [ "PD", "WJD" ],
-			"entries": [
-				"{@i Wu Jen Discipline}",
-				"You align your mind with the energy of elemental fire.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, any fire damage you take is reduced by 3.",
-						"{@b Burning Ball (1\u20147 psi)} As an action, you project a big ball of fire in a 20-foot by 5-foot line in front of you. Any creature in the line must make a Dexterity saving throw, taking {@dice 1d10} fire damage per psi point spent, or half as much on a successful save.",
-						"{@b Fire Burst (1\u20147 psi)} As an action, you project a burst of flames in a 15-foot cone in front of you. Any creature in the cone must make a Dexterity saving throw, taking {@dice 1d8} fire damage per psi point spent, or half as much on a successful save.",
-						"{@b Spontaneous Combustion (1\u20147 psi; conc., 1 min.)} As an action, choose one creature or object you can see within 120 feet of you. The target must make a Charisma saving throw. On a failed save, the target takes {@dice 1d10} fire damage per psi point spent, and it catches on fire until your {@status concentration||concentration} ends or until it or a creature adjacent to it extinguishes the flames with water or as an action. On a successful save, the target takes half as much damage and doesn’t catch on fire. While aflame, the burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Additionally, the flaming target takes {@dice 1d6} fire damage at the end of each of its turns.",
-						"{@b Rolling Flame (3\u20147 psi; conc., 1 min.)} As an action, you create fire in a 20-foot-by-20-foot cube within 5 feet of you. The fire lasts until your {@status concentration||concentration} ends. Any creature in that area when you use this ability and any creature that ends its turn there must make a Dexterity saving throw, taking {@dice 1d8} fire damage on a failed save or half as much on a success. You can increase the size of the cube by 5 feet in each dimension per additional psi point spent on it. You can increase the damage by {@dice 1d6} per additional psi point spent on it.",
-						"{@b Detonation (5\u20147 psi)} As an action, you create a fiery explosion at a point you can see within 120 feet of you. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw, taking {@dice 4d6} fire damage, {@dice 3d6} thunder damage, and being knocked prone on a failed save, or half as much damage on a successful one. You can increase both the fire and thunder damage by {@dice 1d6} per additional psi point spent on it.",
-						"{@b Fire Form (6 psi; conc., 10 min.)} As a bonus action, you become wreathed in flames until your {@status concentration||concentration} ends, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Any creature that moves within 5 feet of you for the first time on a turn or starts its turn there must make a Dexterity saving throw, taking {@dice 3d6} fire damage on a failed save, or half as much damage on a successful one.",
-						"{@b Animate Fire (7 psi; conc., 1 hr.)} As an action, you cause a fire elemental to appear in an unoccupied space filled with fire that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block."
-					]
-				}
-			]
-		},
-		{
-			"name": "Mastery of Ice",
-			"source": "THICC-PSION",
-			"featureType": [ "PD", "WJD" ],
-			"entries": [
-				"{@i Wu Jen Discipline}",
-				"You master the power of ice, shaping it to meet you demands.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, any cold damage you take is reduced by 3.",
-						"{@b Ice Spike (1\u20147 psi)} As an action, you hurl a mote of ice at one creature you can see within 120 feet of you, making a ranged spell attack against the target. On a hit, the target takes {@dice 1d12} cold damage per psi point spent and has its speed halved until the start of your next turn.",
-						"{@b Frozen Sanctuary (1\u20147 psi)} As an action, you sheathe yourself with icy resilience. You encase yourself in a cocoon of ice that has 12 AC, 10 hit points of each psi spent on this ability, and vulnerability to fire. Whenever you take damage, the cocoon takes the damage instead. If this damage reduces the cocoon to 0 hit points, you take any remaining damage. While it is active you are {@condition Incapacitated} and your speed is reduced to zero. Once per turn on each of your turns, you may spend a free action to heal the cocoon with psi points (up to your psi limit) healing it 10 hit points per psi point spent. You can’t heal it more than the initial hit points it had at its creation. The cocoon disappears after 8 hours or when you dismiss it as a free action at the end of your turn.",
-						"{@b Ice Sheet (1\u20147 psi)} As an action, choose a point on the ground you can see within 60 feet of you. The ground in a 5-foot per psi point spent square centered on that point becomes covered in ice, becoming {@quickref difficult terrain||3} for 1 minute. When the ice sheet appears, each creature standing in its area must succeed on a Dexterity saving throw or fall {Condition Prone}. Any time a creature moves into or within the area, that creature must make the same save or they fall {@condition Prone} while they move. A creature trying to stand up must make the save or else they spend half their movement fumbling around. If the surface is sloped, a creature that fails a Dexterity saving throw against the ice sheet immediately slides in the direction of the bottom of the slope to the end of the ice sheet, if no creature or object prevents it from doing so by blocking the path of its forced movement.",
-						"{@b Snap Freeze (5\u20147 psi; conc., 1 min.)} As an action, choose a point you can see within 120 feet of you. The air in a 20-foot-radius sphere centered on that point becomes deathly cold and saturated with moisture. Each creature in that area must make a Constitution saving throw. On a failed save, a target takes {@dice 6d6} cold damage, and its speed is reduced to 0 until your {@status concentration||concentration} ends. On a successful save, a target takes half as much damage. As an action, a target that has its speed reduced can end the effect early if it succeeds on a Strength ({@skill Athletics}) check with a DC equal to this effect’s save DC. You can increase this effect’s damage by {@dice 1d6} per each additional psi point spent on it.",
-						"{@b Ice Barrier (6\u20147 psi; conc., 10 min.)} As an action, you create a wall of ice, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your {@status concentration||concentration} ends. Each 10-foot section of the wall has AC 12 and 10 hit points per psi point spent, and is vulnerable to fire damage. A creature that damages the wall with a melee attack within 5 feet of the wall takes {@dice 1d8} cold damage.",
-						"{@b Animate Ice (7 psi; conc., 1 hr.)} As an action, you cause an ice elemental to appear in an unoccupied space filled with ice that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block."
-					]
-				}
-			]
-		},
-		{
-			"name": "Mastery of Light and Darkness",
-			"source": "THICC-PSION",
-			"featureType": [ "PD", "WJD" ],
-			"entries": [
-				"{@i Wu Jen Discipline}",
-				"You claim dominion over light and darkness with your mind.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, areas in dim light do not count as lightly obscured areas for you.",
-						"{@b Darkness (1\u20147 psi)} As an action, you create an area of magical darkness, which foils darkvision. Choose a spot you can see within 60 feet of you. Magical darkness radiates from that point in a sphere with a 5-foot radius per psi point spent on this ability. The light produced by spells of 2nd level or less is suppressed in this area.",
-						"{@b Emit Light (1\u20147 psi)} As an action, an object you touch spent no larger than 10 feet in any dimension radiates light in a 20-foot radius and dim light for an additional 20 feet for 1 hour per psi point spent. The light can be colored as you like. Completely covering the object with something opaque blocks the light. If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid your touch.",
-						"{@b Revealing Glow (2 psi; conc., 1 min.)} As an action, each object in a 10-foot radius within 60 feet of you faintly glows. Any creature in the area must succeed a Charisma saving throw or also faintly glow. Any creature or object glowing sheds dim light in a 10-foot radius. The light lasts until your {@status concentration||concentration} ends. Creatures glowing in this way can’t benefit from being {@condition Invisible}, as creatures can see it by its glow, and any attack roll against any creature or object glowing in this way has advantage if the attacker can see it.",
-						"{@b Animate Shadows (3\u20147 psi; conc., 1 hr.)} As an action, you cause one to three shadows (one additional shadow for every 2 additional psi points spent) to appear in an unoccupied space you can see within 60 feet of you. The space must be an area of complete darkness created by you, or a space behind a creature or object casting a shadow from a light you create. The shadows last until your {@status concentration||concentration} ends, and they obey your verbal commands. In combat, roll for their initiatives, and choose their behavior during their turns. When this effect ends, the shadows disappear. The DM has their stat block.",
-						"{@b Radiant Beam (5\u20147 psi; conc., 1 min.)} As an action, you project a beam of light at one creature you can see within 60 feet of you. Make a ranged spell attack against the target. On a hit, it takes {@dice 6d10} radiant damage and is {@condition Blinded} until your {@status concentration||concentration} ends. A {@condition Blinded} target can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success. You can increase this effect’s damage by {@dice 1d10} per each additional psi point spent on it.",
-						"{@b Sunlight (5 psi)} A 30-foot-radius sphere of light spreads for one minute from a point you choose or an object that is not being worn or carried by anyone other than you. The sphere is bright light and sheds dim light for an additional 30 feet. This light is sunlight. If you chose an object, the light shines from and moves with the object. Completely covering the object with something opaque blocks the light. If any of this effects’ area overlaps with darkness made by a spell of 3rd level or lower, or by the Darkness feature of this discipline, the darkness is suppressed in this area.",
-						"{@b Animate Greater Shadow (7 psi; conc., 1 hr.)} As an action, you cause a greater shadow to appear in an unoccupied space you can see within 60 feet of you. The space must be an area of complete darkness, or a space behind a creature or object casting a shadow. The shadow lasts until your {@status concentration||concentration} ends, and they obey your verbal commands. In combat, roll for their initiative, and choose their behavior during their turns. When this effect ends, the greater shadow disappears. The DM has their stat block."
-					]
-				}
-			]
-		},
-		{
-			"name": "Mastery of Water",
-			"source": "THICC-PSION",
-			"featureType": [ "PD", "WJD" ],
-			"entries": [
-				"{@i Wu Jen Discipline}",
-				"Your mind becomes one with elemental water, attuning your thoughts to its ebb and flow.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, you have advantage on checks made to {@action Swim|THICC}.",
-						"{@b Dessicate (1\u20147 psi)} As an action, choose one creature you can see within 60 feet of you. The target must make a Constitution saving throw, taking {@dice 1d10} necrotic damage per psi point spent on this ability, or half as much damage on a successful one. If you target a plant creature or a magical plant, it makes the saving throw with disadvantage.",
-						"{@b Tidal Grasp (2\u20147 psi)} As an action, you unleash a wave that surges forth and then retreats to you like the rising tide. You create a wave in a 20-foot-by-20-foot square. At least some portion of the square’s border must be within 5 feet of you. Any creature in that square must make a Strength saving throw. On a failed save, a target takes {@dice 1d6} bludgeoning damage, is knocked {@condition Prone}, and is pulled up to 10 feet closer to you. On a successful save, a target takes half as much damage. You can increase this ability’s damage by {@dice 1d6} per additional psi point spent on it.",
-						"{@b Water Jet (3\u20147 psi)} As an action, you unleash a jet of water in a line that is 60 feet long and 5 feet wide. Each creature in the line must make a Strength saving throw, taking {@dice 3d6} bludgeoning damage on a failed save, or half as much damage on a successful one. In addition, you can push each target that fails its saving throw up to 15 feet following the line. You can increase this ability’s damage by {@dice 1d6} per additional psi point spent on it.",
-						"{@b Water Breathing (5 psi)} As an action, you grant yourself and up to ten willing creatures you can see within 60 feet of you the ability to breathe underwater for the next 24 hours.",
-						"{@b Water Sphere (6 psi; conc., 1 min.)} As an action, you cause a sphere of water to form around a creature. Choose one creature you can see within 60 feet of you. The target must make a Dexterity saving throw. On a failed save, it becomes trapped in the sphere of water until your {@status concentration||concentration} ends. While the target is trapped, it is {@condition Submerged|THICC}, its speed is halved, it suffers the penalties of attacking with a weapon while underwater, and, if it can’t breathe underwater, it can’t see anything more than 10 feet away from it and it must hold its breath to avoid suffocation. However, attack rolls against it also suffer the penalties of attacking with a weapon while underwater. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful one.",
-						"{@b Animate Water (7 psi; conc., 1 hr.)} As an action, you cause a water elemental to appear in an unoccupied space filled with liquid water that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block."
-					]
-				}
-			]
-		},
-		{
-			"name": "Mastery of Weather",
-			"source": "THICC-PSION",
-			"featureType": [ "PD", "WJD" ],
-			"entries": [
-				"{@i Wu Jen Discipline}",
-				"Your mind reaches into the sky, reshaping the stuff of storms to serve your needs.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, any lightning or thunder damage you take is reduced by 2.",
-						"{@b Cloud Steps (1\u20147 psi; conc., 10 min.)} As an action, you conjure forth clouds to create a solid, translucent staircase within 60 feet of you that lasts until your {@status concentration||concentration} ends. The stairs form a spiral that fills a cylinder with a 5 foot radius that reaches upward 10 feet per psi point spent. If the stairs are created underneath yourself, you can decide to have the stairs immediately carry you to the stop as the staircase is being constructed.",
-						"{@b Hurl Lightning (1\u20147 psi)} As an action, you throw a bolt of lightning at one creature you can see within 60 feet of you. Make a ranged spell attack against the target. If the target is wearing armor made of metal, this attack roll is made at advantage. On a hit, the target takes {@dice 2d6} lightning damage per psi point spent.",
-						"{@b Thunderstrike (1\u20147 psi)} As an action, you encase your fist in thunderous energy before making a melee spell attack against one creature in your reach. On a hit, you deal {@dice 2d8} thunder damage per psi point spent. Additionally, the target must succeed on a Strength saving throw or be pushed 5 feet away from you per psi point spent and knocked {@condition Prone}.",
-						"{@b Wall of Clouds (2 psi; conc., 10 min.)} As an action, you create a wall of clouds, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your {@status concentration||concentration} ends. Creatures can pass through it without hindrance, but the wall blocks vision.",
-						"{@b Deafening Crack (5\u20147 psi)} As an action, choose a point you can see within 60 feet of you. A deafening blast erupts from that point. Each creature within a 10-foot radius from that point must make a Constitution saving throw. On a failure, a target takes {@dice 4d8} thunder damage and is {@condition Deafened} for 10 minutes. On a success, a creature takes half as much damage and is not {@condition Deafened}. A creature {@condition Deafened} in this way may remake the saving throw at the end of each of their turns, ending the effect on themselves on a success. You can increase this ability’s damage by {@dice 1d8} per additional psi point spent on it.",
-						"{@b Lightning Leap (5\u20147 psi)} As an action, you let loose a line of lightning that is up to 60 feet long and 5 feet wide. Each creature in the line must make a Dexterity saving throw, taking {@dice 6d6} lightning damage on a failed save, or half as much damage on a successful one. You can then choose to teleport to an unoccupied space touched by the last space in the line, if one exists. You can increase this ability’s damage by {@dice 1d6} per additional psi point spent on it.",
-						"{@b Tempest (6 psi; conc., 1 min.)} As an action, choose a point you can see within 90 feet of you. A powerful storm cloud sweeps through the area in a 20-foot radius sphere centered on that point. The area becomes {@quickref difficult terrain||3}, and creatures inside the area are {@condition Deafened} and cannot see more than 5 feet in any direction. Creatures outside of the area cannot see more than 5 feet into the area, and have disadvantage on Wisdom ({@skill Perception}) checks made to listen while within 30 feet of the area. Additionally, on each of your turns until the ability ends, you can use psi points to affect creatures within the sphere, manifesting one of the following effects as an action:",
-						{
-							"type": "list",
-							"items": [
-								"{@b Lightning Strike (1\u20147 psi)} Each creature in the sphere must make a Dexterity saving throw, taking {@dice 1d6} lightning damage per psi point spent or half as much on a success. If the creature is wearing armor made of metal, the creature makes this save at disadvantage.",
-								"{@b Roaring Winds (1\u20147 psi)} Each creature in the sphere must make a Strength saving throw, taking {@dice 1d4} bludgeoning damage per psi point spent or half as much on a success. Additionally, for each creature that fails, the creature is pulled 5 feet towards the center of the sphere per psi point spent and knocked {@condition Prone}.",
-								"{@b Thunderous Crack (1\u20147 psi)} Each creature in the sphere must make a Constitution saving throw, taking {@dice 1d10} thunder damage per psi point spent or half as much on a success."
-							]
-						},
-						"{@b Roaring Thunder (7 psi)} As an action, choose a point you can see within 60 feet of you. Thunder energy erupts in a 20-foot-radius sphere centered on that point. Each creature in that area must make a Constitution saving throw. On a failed save, a target takes {@dice 8d6} thunder damage, and it is {@condition Stunned} until the end of your next turn. On a successful save, a target takes half as much damage and is not {@condition Stunned}."
-					]
-				}
-			]
-		},
-		{
-			"name": "Mastery of Wood and Earth",
-			"source": "THICC-PSION",
-			"featureType": [ "PD", "WJD" ],
-			"entries": [
-				"{@i Wu Jen Discipline}",
-				"You attune your mind to seize control of wood and earth.",
-				{
-					"type": "list",
-					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, you have advantage on checks made to {@action Climb|THICC}.",
-						"{@b Animate Light Weapon (1\u20147 psi)} As an action, your mind seizes control of a light melee weapon you’re holding. The weapon flies toward one creature you can see within 30 feet of you and makes a one-handed melee weapon attack against it, using your discipline attack modifier for the attack and damage rolls. On a hit, the weapon deals its normal damage, plus an extra {@dice 1d8} force damage per psi point spent on this ability. The weapon returns to your grasp after it attacks.",
-						"{@b Animate Heavy Weapon (2\u20147 psi)} As an action, your mind seizes control of a melee weapon you’re holding. The weapon flies toward one creature you can see within 30 feet of you but greater than 5 feet from you and makes a two-handed melee weapon attack against it, using your discipline attack modifier for the attack and damage rolls. On a hit, the weapon deals its normal damage, plus an extra {@dice 1d8} force damage. You can increase the damage by {@dice 1d8} per additional psi point spent on it. The weapon returns to your grasp after it attacks.",
-						"{@b Warp Weapon (2 psi; conc., 1 min.)} As an action, you reach for one weapon held by a creature within your reach. That creature must succeed on a Dexterity saving throw, or the chosen weapon has a penalty to attack and damage rolls equal to your Intelligence modifier until your {@status concentration||concentration} ends.",
-						"{@b Warp Armor (3 psi; conc., 1 min.)} As an action, you reach for a nonmagical suit of armor worn by one creature within your reach. That creature must succeed on a Dexterity saving throw, or the armor has a penalty to its AC equal to your Intelligence modifier until your {@status concentration||concentration} ends. An armor’s base AC cannot go below 10 as a result of this feature.",
-						"{@b Wall of Wood (3\u20147 psi; conc., 1 hr.)} As an action, you create a wall of wood, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your {@status concentration||concentration} ends. Each 5-foot wide section of the wall has AC 12 and 15 hit points per psi point spent, and vulnerability to fire damage. Breaking one section creates a 5-foot by 5-foot hole in it, but the wall otherwise remains intact.",
-						"{@b Armored Form (6 psi; conc., 1 min.)} As a bonus action, you gain resistance to bludgeoning, piercing, and slashing damage, which lasts until your {@status concentration||concentration} ends.",
-						"{@b Animate Earth (7 psi; conc., 1 hr.)} As an action, you cause an earth elemental to appear in an unoccupied space filled with earth that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block.",
-						"{@b Wall of Stone (7 psi; conc., 1 hr.)} A nonmagical wall of solid stone springs into existence at a point you choose within 120 feet of you. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall. The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on any firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this effect to bridge a chasm or create a ramp. If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create crenellations, battlements, and so on. The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 hit points per inch of thickness. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the DM's discretion. If you maintain your {@status concentration||concentration} on this effect for its whole duration, the wall becomes permanent and can't be dispelled by the Dispel Psionics feature. Otherwise, the wall disappears when your {@status concentration||concentration} is broken."
-					]
-				}
-			]
-		},
-		{
 			"name": "Nomadic Arrow",
 			"source": "THICC-PSION",
 			"featureType": [ "PD", "ND" ],
@@ -2053,8 +2015,8 @@
 						"{@b Psychic Focus.} While you are focused on this discipline, you can use a bonus action to ignore the penalties for attacking at long range with a ranged weapon attack until the end of your turn.",
 						"{@b Speed Projectile (1\u20147 psi)} As an action, you make a ranged weapon attack using a ranged weapon you are wielding, imbuing one projectile you shoot with psionic power. This ranged weapon attack has its normal range increased by 10 feet per psi point spent and its maximum range increased by 3 times as much, using your discipline attack modifier for the attack and damage rolls. On a hit, the weapon deals its normal damage, plus an extra {@dice 1d8} force damage per psi point spent on this ability.",
 						"{@b Seeking Missile (2 psi)} As a reaction when you miss with a ranged weapon attack, you can repeat the attack roll against the same target, using your discipline attack modifier for the attack and damage rolls.",
-						"{@b Curved Missile (3 psi)} As a reaction when you miss with a ranged weapon attack, you can repeat the attack roll against a different target that you know of within 30 feet of the original target, using your discipline attack modifier for the attack and damage rolls. This extra range does not count towards determining your distance from the creature. You treat the attack as originating from the original target’s space for the purposes of determining cover, allowing you to potentially shoot around corners. However, for the purposes of determining disadvantage from a hostile creature within 5 feet, the shot still originates from your space. If you cannot see the creature, you still make this attack at disadvantage.",
-						"{@b Nomadic Projectile (5\u20147 psi)} As an action, you make a ranged weapon attack using a thrown or ranged weapon you are holding, teleporting the missile mid-flight. This ranged weapon attack uses your discipline attack modifier for the attack and damage rolls. You treat the attack as originating from any space within 30 feet of you for the purposes of determining distance and cover, allowing you to potentially shoot around corners. However, for the purposes of determining disadvantage from a hostile creature within 5 feet, the shot still originates from your space. If you cannot see the creature, you still make this attack at disadvantage. You can increase the distance you can teleport the projectile by 15 feet per additional psi point spent on it. The weapon or ammunition teleports to your grasp or ammunition container respectively after it attacks.",
+						"{@b Curved Missile (3 psi)} As a reaction when you miss with a ranged weapon attack, you can repeat the attack roll against a different target that you know of within 30 feet of the original target, using your discipline attack modifier for the attack and damage rolls. This extra range does not count towards determining your distance from the creature. You treat the attack as originating from the original target’s space for the purposes of determining {@quickref cover||3}, allowing you to potentially shoot around corners. However, for the purposes of determining disadvantage from a hostile creature within 5 feet, the shot still originates from your space. If you cannot see the creature, you still make this attack at disadvantage.",
+						"{@b Nomadic Projectile (5\u20147 psi)} As an action, you make a ranged weapon attack using a thrown or ranged weapon you are holding, teleporting the missile mid-flight. This ranged weapon attack uses your discipline attack modifier for the attack and damage rolls. You treat the attack as originating from any space within 30 feet of you for the purposes of determining distance and {@quickref cover||3}, allowing you to potentially shoot around corners. However, for the purposes of determining disadvantage from a hostile creature within 5 feet, the shot still originates from your space. If you cannot see the creature, you still make this attack at disadvantage. You can increase the distance you can teleport the projectile by 15 feet per additional psi point spent on it. The weapon or ammunition teleports to your grasp or ammunition container respectively after it attacks.",
 						"{@b Faithful Archer (7 psi; conc., 1 min.)} As a bonus action, you imbue a ranged weapon with a limited sentience. Until your {@status concentration||concentration} ends, you can make an extra attack with the weapon when you choose to take the Attack action with that weapon, using your discipline attack modifier for the attack and damage rolls for that extra attack. If it is a thrown ranged weapon, it returns to your grasp each time you make any attack with it."
 					]
 				}
@@ -2120,6 +2082,28 @@
 						"{@b Defensive Step (6 psi)} As a reaction when you are hit by an attack, you teleport to an unoccupied space you can see within 10 feet of you, causing the attack to miss if it does not also target that space.",
 						"{@b Psychoportation (6 psi)} As an action, you teleport yourself from your current location to any other spot within 500 feet. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as \"200 feet straight downward\" or \"upward to the northwest at a 45-degree angle, 300 feet.\" You can bring along objects as long as their weight doesn't exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you create this effect. If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take {@dice 4d6} force damage, and the ability fails to teleport you.",
 						"{@b Nomad's Gate (7 psi; conc., 1 hr.)} As an action, you create a 5-foot cube of dim, gray light within 5 feet of you. You create an identical cube at any point of your choice within 1 mile that you have viewed within the past 24 hours. Until your {@status concentration||concentration} ends, anyone entering one of the cubes immediately teleports to the other one, appearing in an unoccupied space next to it. The teleportation fails if there is no space for the creature to appear in."
+					]
+				}
+			]
+		},
+		{
+			"name": "Photokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PD", "WJD" ],
+			"entries": [
+				"{@i Wu Jen Discipline}",
+				"You claim dominion over light and darkness with your mind.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Psychic Focus.} While focused on this discipline, areas in dim light do not count as lightly obscured areas for you.",
+						"{@b Darkness (1\u20147 psi)} As an action, you create an area of magical darkness, which foils darkvision. Choose a spot you can see within 60 feet of you. Magical darkness radiates from that point in a sphere with a 5-foot radius per psi point spent on this ability. The light produced by spells of 2nd level or less is suppressed in this area.",
+						"{@b Emit Light (1\u20147 psi)} As an action, an object you touch spent no larger than 10 feet in any dimension radiates light in a 20-foot radius and dim light for an additional 20 feet for 1 hour per psi point spent. The light can be colored as you like. Completely covering the object with something opaque blocks the light. If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid your touch.",
+						"{@b Revealing Glow (2 psi; conc., 1 min.)} As an action, each object in a 10-foot radius within 60 feet of you faintly glows. Any creature in the area must succeed a Charisma saving throw or also faintly glow. Any creature or object glowing sheds dim light in a 10-foot radius. The light lasts until your {@status concentration||concentration} ends. Creatures glowing in this way can’t benefit from being {@condition Invisible}, as creatures can see it by its glow, and any attack roll against any creature or object glowing in this way has advantage if the attacker can see it.",
+						"{@b Animate Shadows (3\u20147 psi; conc., 1 hr.)} As an action, you cause one to three shadows (one additional shadow for every 2 additional psi points spent) to appear in an unoccupied space you can see within 60 feet of you. The space must be an area of complete darkness created by you, or a space behind a creature or object casting a shadow from a light you create. The shadows last until your {@status concentration||concentration} ends, and they obey your verbal commands. In combat, roll for their initiatives, and choose their behavior during their turns. When this effect ends, the shadows disappear. The DM has their stat block.",
+						"{@b Radiant Beam (5\u20147 psi; conc., 1 min.)} As an action, you project a beam of light at one creature you can see within 60 feet of you. Make a ranged spell attack against the target. On a hit, it takes {@dice 6d10} radiant damage and is {@condition Blinded} until your {@status concentration||concentration} ends. A {@condition Blinded} target can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success. You can increase this effect’s damage by {@dice 1d10} per each additional psi point spent on it.",
+						"{@b Sunlight (5 psi)} A 30-foot-radius sphere of light spreads for one minute from a point you choose or an object that is not being worn or carried by anyone other than you. The sphere is bright light and sheds dim light for an additional 30 feet. This light is sunlight. If you chose an object, the light shines from and moves with the object. Completely covering the object with something opaque blocks the light. If any of this effects’ area overlaps with darkness made by a spell of 3rd level or lower, or by the Darkness feature of this discipline, the darkness is suppressed in this area.",
+						"{@b Animate Greater Shadow (7 psi; conc., 1 hr.)} As an action, you cause a greater shadow to appear in an unoccupied space you can see within 60 feet of you. The space must be an area of complete darkness, or a space behind a creature or object casting a shadow. The shadow lasts until your {@status concentration||concentration} ends, and they obey your verbal commands. In combat, roll for their initiative, and choose their behavior during their turns. When this effect ends, the greater shadow disappears. The DM has their stat block."
 					]
 				}
 			]
@@ -2264,6 +2248,28 @@
 						"{@b Phantom Foe (3\u20147 psi; conc., 1 min.)} As an action, choose one creature you can see within 60 feet of you. The target must make a Wisdom saving throw. On a failed save, it perceives a horrid creature adjacent to it until your {@status concentration||concentration} ends. A creature automatically succeeds if it is immune to being {@condition Frightened}. During this time, the target can’t take reactions, and it takes {@dice 1d8} psychic damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. You can increase the damage by {@dice 1d8} for each additional psi point spent on the ability.",
 						"{@b Phantom Betrayal (5 psi; conc., 1 min.)} As an action, you plant delusional paranoia in a creature’s mind. Choose one creature you can see within 60 feet of you. The target must succeed on a Wisdom saving throw, or until your {@status concentration||concentration} ends, it becomes {@condition Frenzied|THICC}. A target makes the saving throw at disadvantage if the creature has disadvantage on saving throws against being {@condition Frenzied|THICC}. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
 						"{@b Phantom Riches (7 psi; conc., 1 min.)} As an action, you plant the phantom of a greatly desired object in a creature’s mind. Choose one creature you can see within 60 feet of you. The target must make a Wisdom saving throw. On a failed save, you gain partial control over the target’s behavior until your {@status concentration||concentration} ends; the target moves as you wish on each of its turns, as it thinks it pursues the object of its deepest desires, just out of reach. If it hasn’t taken damage since its last turn, it can use its action only to admire the object you created in its perception. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+					]
+				}
+			]
+		},
+		{
+			"name": "Pyrokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PD", "WJD" ],
+			"entries": [
+				"{@i Wu Jen Discipline}",
+				"You align your mind with the energy of elemental fire.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Psychic Focus.} While focused on this discipline, any fire damage you take is reduced by 3.",
+						"{@b Burning Ball (1\u20147 psi)} As an action, you project a big ball of fire in a 20-foot by 5-foot line in front of you. Any creature in the line must make a Dexterity saving throw, taking {@dice 1d10} fire damage per psi point spent, or half as much on a successful save.",
+						"{@b Fire Burst (1\u20147 psi)} As an action, you project a burst of flames in a 15-foot cone in front of you. Any creature in the cone must make a Dexterity saving throw, taking {@dice 1d8} fire damage per psi point spent, or half as much on a successful save.",
+						"{@b Spontaneous Combustion (1\u20147 psi; conc., 1 min.)} As an action, choose one creature or object you can see within 120 feet of you. The target must make a Charisma saving throw. On a failed save, the target takes {@dice 1d10} fire damage per psi point spent, and it catches on fire until your {@status concentration||concentration} ends or until it or a creature adjacent to it extinguishes the flames with water or as an action. On a successful save, the target takes half as much damage and doesn’t catch on fire. While aflame, the burning target sheds bright light in a 30-foot radius and dim light for an additional 30 feet. Additionally, the flaming target takes {@dice 1d6} fire damage at the end of each of its turns.",
+						"{@b Rolling Flame (3\u20147 psi; conc., 1 min.)} As an action, you create fire in a 20-foot-by-20-foot cube within 5 feet of you. The fire lasts until your {@status concentration||concentration} ends. Any creature in that area when you use this ability and any creature that ends its turn there must make a Dexterity saving throw, taking {@dice 1d8} fire damage on a failed save or half as much on a success. You can increase the size of the cube by 5 feet in each dimension per additional psi point spent on it. You can increase the damage by {@dice 1d6} per additional psi point spent on it.",
+						"{@b Detonation (5\u20147 psi)} As an action, you create a fiery explosion at a point you can see within 120 feet of you. Each creature in a 20-foot-radius sphere centered on that point must make a Dexterity saving throw, taking {@dice 4d6} fire damage, {@dice 3d6} thunder damage, and being knocked prone on a failed save, or half as much damage on a successful one. You can increase both the fire and thunder damage by {@dice 1d6} per additional psi point spent on it.",
+						"{@b Fire Form (6 psi; conc., 10 min.)} As a bonus action, you become wreathed in flames until your {@status concentration||concentration} ends, shedding bright light in a 30-foot radius and dim light for an additional 30 feet. Any creature that moves within 5 feet of you for the first time on a turn or starts its turn there must make a Dexterity saving throw, taking {@dice 3d6} fire damage on a failed save, or half as much damage on a successful one.",
+						"{@b Animate Fire (7 psi; conc., 1 hr.)} As an action, you cause a fire elemental to appear in an unoccupied space filled with fire that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block."
 					]
 				}
 			]
@@ -2417,6 +2423,29 @@
 						"{@b Occluded Mind (3 psi)} As an action, you target one creature you can communicate with via telepathy. The target must make an Intelligence saving throw. On a failed save, the target believes one statement of your choice for the next 8 hours that you communicate to it via telepathy. The statement can be up to ten words long, cannot be directly harmful, and it must describe you or a creature or an object the target can see. On a successful save, the target is unaffected, and the creature is immune to the effects of this feature for 24 hours. Every time an affected creature witnesses a new piece of evidence that directly contradicts the statement, the creature remakes the save at advantage, ending the effect on a success. On a failure, the creature rationalizes the contradiction in a way that makes sense to them. A creature is immune to this ability if it is immune to being {@condition Charmed}.",
 						"{@b Broken Will (5 psi)} As an action, you target one creature you can communicate with via telepathy. The target must make a Wisdom saving throw. On a failed save, you choose the target’s movement and actions on its next turn. On a successful save, the target is unaffected, and the creature is immune to the effects of this feature for 24 hours. A creature is immune to this ability if it is immune to being {@condition Charmed}.",
 						"{@b Psychic Grip (7 psi; conc., 1 min.)} As an action, you target one creature you can communicate with via telepathy. The target must succeed on a Wisdom saving throw, or it is {@condition Paralyzed} until your {@status concentration||concentration} ends. At the end of each of its turns, it can repeat the saving throw. On a success, this effect ends. On a failure, you can use your reaction to force the target to move up to half its speed, even though it’s {@condition Paralyzed}. The effect immediately ends if the target is further than the range of your telepathy."
+					]
+				}
+			]
+		},
+		{
+			"name": "Terrakinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PD", "WJD" ],
+			"entries": [
+				"{@i Wu Jen Discipline}",
+				"You attune your mind to seize control of wood and earth.",
+				{
+					"type": "list",
+					"items": [
+						"{@b Psychic Focus.} While focused on this discipline, you have advantage on checks made to {@action Climb|THICC}.",
+						"{@b Animate Light Weapon (1\u20147 psi)} As an action, your mind seizes control of a light melee weapon you’re holding. The weapon flies toward one creature you can see within 30 feet of you and makes a one-handed melee weapon attack against it, using your discipline attack modifier for the attack and damage rolls. On a hit, the weapon deals its normal damage, plus an extra {@dice 1d8} force damage per psi point spent on this ability. The weapon returns to your grasp after it attacks.",
+						"{@b Animate Heavy Weapon (2\u20147 psi)} As an action, your mind seizes control of a melee weapon you’re holding. The weapon flies toward one creature you can see within 30 feet of you but greater than 5 feet from you and makes a two-handed melee weapon attack against it, using your discipline attack modifier for the attack and damage rolls. On a hit, the weapon deals its normal damage, plus an extra {@dice 1d8} force damage. You can increase the damage by {@dice 1d8} per additional psi point spent on it. The weapon returns to your grasp after it attacks.",
+						"{@b Warp Weapon (2 psi; conc., 1 min.)} As an action, you reach for one weapon held by a creature within your reach. That creature must succeed on a Dexterity saving throw, or the chosen weapon has a penalty to attack and damage rolls equal to your Intelligence modifier until your {@status concentration||concentration} ends.",
+						"{@b Warp Armor (3 psi; conc., 1 min.)} As an action, you reach for a nonmagical suit of armor worn by one creature within your reach. That creature must succeed on a Dexterity saving throw, or the armor has a penalty to its AC equal to your Intelligence modifier until your {@status concentration||concentration} ends. An armor’s base AC cannot go below 10 as a result of this feature.",
+						"{@b Wall of Wood (3\u20147 psi; conc., 1 hr.)} As an action, you create a wall of wood, at least one portion of which must be within 60 feet of you. The wall is 60 feet long, 15 feet high, and 1 foot thick. The wall lasts until your {@status concentration||concentration} ends. Each 5-foot wide section of the wall has AC 12 and 15 hit points per psi point spent, and vulnerability to fire damage. Breaking one section creates a 5-foot by 5-foot hole in it, but the wall otherwise remains intact.",
+						"{@b Armored Form (6 psi; conc., 1 min.)} As a bonus action, you gain resistance to bludgeoning, piercing, and slashing damage, which lasts until your {@status concentration||concentration} ends.",
+						"{@b Animate Earth (7 psi; conc., 1 hr.)} As an action, you cause an earth elemental to appear in an unoccupied space filled with earth that you can see within 120 feet of you. The elemental lasts until your {@status concentration||concentration} ends, and it obeys your verbal commands. In combat, roll for its initiative, and choose its behavior during its turns. When this effect ends, the elemental disappears. The DM has their stat block.",
+						"{@b Wall of Stone (7 psi; conc., 1 hr.)} A nonmagical wall of solid stone springs into existence at a point you choose within 120 feet of you. The wall is 6 inches thick and is composed of ten 10-foot-by-10-foot panels. Each panel must be contiguous with at least one other panel. Alternatively, you can create 10-foot-by-20-foot panels that are only 3 inches thick. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice). If a creature would be surrounded on all sides by the wall (or the wall and another solid surface), that creature can make a Dexterity saving throw. On a success, it can use its reaction to move up to its speed so that it is no longer enclosed by the wall. The wall can have any shape you desire, though it can't occupy the same space as a creature or object. The wall doesn't need to be vertical or rest on any firm foundation. It must, however, merge with and be solidly supported by existing stone. Thus, you can use this effect to bridge a chasm or create a ramp. If you create a span greater than 20 feet in length, you must halve the size of each panel to create supports. You can crudely shape the wall to create crenellations, battlements, and so on. The wall is an object made of stone that can be damaged and thus breached. Each panel has AC 15 and 30 hit points per inch of thickness. Reducing a panel to 0 hit points destroys it and might cause connected panels to collapse at the DM's discretion. If you maintain your {@status concentration||concentration} on this effect for its whole duration, the wall becomes permanent and can't be dispelled by the Dispel Psionics feature. Otherwise, the wall disappears when your {@status concentration||concentration} is broken."
 					]
 				}
 			]
