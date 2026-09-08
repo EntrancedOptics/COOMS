@@ -1578,7 +1578,7 @@
 		{
 			"name": "Heavily Armored",
 			"source": "EntrancedFeats",
-			"page": 10,
+			"page": 17,
 			"prerequisite": [
 				{
 					"other": "Proficiency with medium armor or medium shields"
@@ -1600,6 +1600,34 @@
 					"type": "list",
 					"items": [
 						"You gain proficiency with heavy armor and heavy shields."
+					]
+				}
+			]
+		},
+		{
+			"name": "Heavy Armor Master",
+			"source": "OOF",
+			"page": 17,
+			"prerequisite": [
+				{
+					"proficiency": [
+						{
+							"armor": "heavy"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"You can use your armor to deflect strikes that would kill others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical attacks is reduced by an amount equal to your proficiency bonus."
 					]
 				}
 			]
