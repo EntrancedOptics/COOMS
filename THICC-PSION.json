@@ -1346,6 +1346,43 @@
 			]
 		},
 		{
+			"name": "Minor Aerokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PT" ],
+			"entries": [
+				"As a bonus action, you seize the air and compel it to create one of the following effects at a point you can see within 30 feet of yourself:",
+				{
+					"type": "list",
+					"items": [
+						"One Medium or smaller creature that you choose must succeed on a Strength saving throw or be pushed up to 5 feet away from you.",
+						"You create a small blast of air capable of moving one object that is neither held nor carried and that weighs no more than 5 pounds. The object is pushed up to 10 feet away from you. It isn't pushed with enough force to cause damage.",
+						"You create a harmless sensory effect using air, such as causing leaves to rustle, wind to slam shutters closed, or your clothing to ripple in a breeze.",
+						"You can gently control the direction of airflow in a 5-foot cube, not enough to cause damage or blow away a {@spell Fog Cloud}."
+					]
+				},
+				"The talent's range increases by 30 feet when you reach 5th level (60 feet), 11th level (90 feet), and 17th level (120 feet)."
+			]
+		},
+		{
+			"name": "Minor Hydrokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PT" ],
+			"entries": [
+				"As a bonus action, choose an area of water that you can see within 30 feet of yourself and that fits within a 5-foot cube. You manipulate it in one of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"You instantaneously move or otherwise change the flow of the water as you direct, up to 5 feet in any direction. This movement doesn't have enough force to cause damage.",
+						"You cause the water to form into simple shapes and animate at your direction. This change lasts for 1 hour.",
+						"You change the water's color or opacity. The water must be changed in the same way throughout. This change lasts for 1 hour.",
+						"You freeze the water, provided that there are no creatures in it. The water unfreezes in 1 hour."
+					]
+				},
+				"If you manifest this talent multiple times, you can have no more than three of its non-instantaneous effects active at a time, and you can dismiss such an effect as a bonus action.",
+				"The talent's range increases by 30 feet when you reach 5th level (60 feet), 11th level (90 feet), and 17th level (120 feet)."
+			]
+		},
+		{
 			"name": "Minor Hypnosis",
 			"source": "THICC-PSION",
 			"featureType": [ "PT" ],
@@ -1354,11 +1391,49 @@
 			]
 		},
 		{
+			"name": "Minor Pyrokinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PT" ],
+			"entries": [
+				"As a bonus action, choose nonmagical flame that you can see within 30 feet of yourself and that fits within a 5-foot cube. You affect it in one of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"You instantaneously expand the flame 5 feet in one direction, provided that wood or other fuel is present in the new location.",
+						"You instantaneously extinguish the flames within the cube.",
+						"You double or halve the area of bright light and dim light cast by the flame, change its color, or both. The change lasts for 1 hour.",
+						"You cause simple shapes such as the vague form of a creature, an inanimate object, or a location to appear within the flames and animate as you like. The shapes last for 1 hour."
+					]
+				},
+				"If you manifest this talent multiple times, you can have up to three non-instantaneous effects created by it active at a time, and you can dismiss such an effect as a bonus action.",
+				"The talent's range increases by 30 feet when you reach 5th level (60 feet), 11th level (90 feet), and 17th level (120 feet)."
+			]
+		},
+		{
 			"name": "Minor Telekinesis",
 			"source": "THICC-PSION",
 			"featureType": [ "PT" ],
 			"entries": [
 				"You can use your action to manipulate or move one object within 30 feet of you. The object can’t weigh more than 10 pounds, and you can’t affect an object being worn or carried by another creature. If the object is loose, you can move it up to 30 feet in any direction. This talent allows you to open an unlocked door, pour out a beer stein, and so on. The object falls to the ground at the start of your next turn if you leave it suspended in midair and choose to not immediately use your action to use this talent."
+			]
+		},
+		{
+			"name": "Minor Terrakinesis",
+			"source": "THICC-PSION",
+			"featureType": [ "PT" ],
+			"entries": [
+				"As a bonus action, choose a portion of dirt or stone that you can see within 30 feet of yourself and that fits within a 5-foot cube. You manipulate it in one of the following ways:",
+				{
+					"type": "list",
+					"items": [
+						"If you target an area of loose earth in an unoccupied space such as dirt, sand, silt, gravel, or clay, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 feet away. This movement doesn't involve enough force to cause damage.",
+						"If you target an area of loose earth in an unoccupied space such as dirt, sand, silt, gravel, or clay, you can shape it to whatever form you desire, which it will retain for 1 hour. The individual pieces of loose earth that comprise the desired form must be touching, and are still affected by gravity. If the structure you create receives any damage, this effect ends.",
+						"You cause shapes, colors, or both to form in the dirt or stone, spelling out words, creating images, or shaping patterns within the existing design of the medium. The changes last for 1 hour.",
+						"If the dirt or stone you target is on the ground, you cause it to become difficult terrain. Alternatively, you can cause the ground to become normal terrain if it is already difficult terrain. This change lasts for 1 hour."
+					]
+				},
+				"If you manifest this talent multiple times, you can have no more than three of its non-instantaneous effects active at a time, and you can dismiss such an effect as a bonus action.",
+				"The talent's range increases by 30 feet when you reach 5th level (60 feet), 11th level (90 feet), and 17th level (120 feet)."
 			]
 		},
 		{
