@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "EntrancedFeats",
+				"json": "OOF",
 				"abbreviation": "OOF",
 				"full": "Optic's Official Feats",
 				"authors": [
@@ -21,7 +21,7 @@
 	"feat": [
 		{
 			"name": "Acrobat",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"Page": 1,
 			"ability": [
 				{
@@ -53,7 +53,7 @@
 		},
 		{
 			"name": "Alchemist",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"Page": 1,
 			"ability": [
 				{
@@ -84,7 +84,7 @@
 		},
 		{
 			"name": "Angelic Wings",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"Page": 1,
 			"prerequisite": [
 				{
@@ -127,7 +127,7 @@
 		},
 		{
 			"name": "Animal Handler",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"Page": 2,
 			"ability": [
 				{
@@ -157,7 +157,7 @@
 		},
 		{
 			"name": "Arcanist",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"Page": 2,
 			"additionalSpells": [
 				{
@@ -205,7 +205,7 @@
 		},
 		{
 			"name": "Artificer Initiate",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"Page": 3,
 			"prerequisite": [
 				{
@@ -259,7 +259,7 @@
 		},
 		{
 			"name": "Athlete",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"Page": 3,
 			"ability": [
 				{
@@ -295,7 +295,7 @@
 		},
 		{
 			"name": "Bountiful Luck",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 3,
 			"prerequisite": [
 				{
@@ -319,7 +319,7 @@
 		},
 		{
 			"name": "Bow Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"ability": [
 				{
@@ -344,7 +344,7 @@
 		},
 		{
 			"name": "Brawny",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"ability": [
 				{
@@ -374,7 +374,7 @@
 		},
 		{
 			"name": "Burglar",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"ability": [
 				{
@@ -404,7 +404,7 @@
 		},
 		{
 			"name": "Cleave",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"prerequisite": [
 				{
@@ -438,7 +438,7 @@
 		},
 		{
 			"name": "Close-Quarters Casting",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 5,
 			"prerequisite": [
 				{
@@ -464,7 +464,7 @@
 		},
 		{
 			"name": "Crossbow Expert",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 5,
 			"ability": [
 				{
@@ -491,7 +491,7 @@
 		},
 		{
 			"name": "Dagger Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 5,
 			"entries": [
 				{
@@ -512,7 +512,7 @@
 		},
 		{
 			"name": "Dart Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 6,
 			"entries": [
 				{
@@ -534,7 +534,7 @@
 		},
 		{
 			"name": "Defensive Duelist",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 6,
 			"prerequisite": [
 				{
@@ -556,7 +556,7 @@
 		},
 		{
 			"name": "Diplomat",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 6,
 			"ability": [
 				{
@@ -601,7 +601,7 @@
 		},
 		{
 			"name": "Double Weapon Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 7,
 			"entries": [
 				{
@@ -622,7 +622,7 @@
 		},
 		{
 			"name": "Draconic Maw",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 8,
 			"prerequisite": [
 				{
@@ -658,7 +658,7 @@
 		},
 		{
 			"name": "Dragon Breath",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 7,
 			"prerequisite": [
 				{
@@ -714,7 +714,7 @@
 		},
 		{
 			"name": "Dragon Hide",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 8,
 			"prerequisite": [
 				{
@@ -749,7 +749,7 @@
 		},
 		{
 			"name": "Drow High Magic",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 8,
 			"prerequisite": [
 				{
@@ -789,7 +789,7 @@
 		},
 		{
 			"name": "Duergar Dark Magic",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 8,
 			"prerequisite": [
 				{
@@ -831,7 +831,7 @@
 		},
 		{
 			"name": "Durable",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 8,
 			"ability": [
 				{
@@ -857,7 +857,7 @@
 		},
 		{
 			"name": "Dwarven Recovery",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 8,
 			"prerequisite": [
 				{
@@ -891,7 +891,7 @@
 		},
 		{
 			"name": "Elemental Adept",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 7,
 			"prerequisite": [
 				{
@@ -910,7 +910,7 @@
 		},
 		{
 			"name": "Elemental Affinity",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 7,
 			"prerequisite": [
 				{
@@ -929,7 +929,7 @@
 		},
 		{
 			"name": "Empathic",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 7,
 			"ability": [
 				{
@@ -959,7 +959,7 @@
 		},
 		{
 			"name": "Fade Away",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 7,
 			"prerequisite": [
 				{
@@ -1019,7 +1019,7 @@
 		},
 		{
 			"name": "Fell Handed",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 7,
 			"weaponProficiencies": [
 				{
@@ -1050,7 +1050,7 @@
 		},
 		{
 			"name": "Fey Teleportation",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 7,
 			"prerequisite": [
 				{
@@ -1112,7 +1112,7 @@
 		},
 		{
 			"name": "Fey Touched",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 8,
 			"ability": [
 				{
@@ -1156,7 +1156,7 @@
 		},
 		{
 			"name": "Feywild Frolicker",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 9,
 			"prerequisite": [
 				{
@@ -1202,7 +1202,7 @@
 		},
 		{
 			"name": "Fiendish Connection",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 8,
 			"prerequisite": [
 				{
@@ -1243,7 +1243,7 @@
 		},
 		{
 			"name": "Fiendish Constitution",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 9,
 			"prerequisite": [
 				{
@@ -1282,7 +1282,7 @@
 		},
 		{
 			"name": "Fiendish Wings",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 9,
 			"prerequisite": [
 				{
@@ -1317,7 +1317,7 @@
 		},
 		{
 			"name": "Fighting Initiate",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 10,
 			"prerequisite": [
 				{
@@ -1361,7 +1361,7 @@
 		},
 		{
 			"name": "Fortitude",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 10,
 			"ability": [
 				{
@@ -1386,7 +1386,7 @@
 		},
 		{
 			"name": "Grappler",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 10,
 			"prerequisite": [
 				{
@@ -1420,7 +1420,7 @@
 		},
 		{
 			"name": "Githzerai Enlightened Psionics",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 9,
 			"prerequisite": [
 				{
@@ -1454,7 +1454,7 @@
 		},
 		{
 			"name": "Githzerai Knightly Psionics",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 9,
 			"prerequisite": [
 				{
@@ -1488,7 +1488,7 @@
 		},
 		{
 			"name": "Gith Planar Travel",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 9,
 			"prerequisite": [
 				{
@@ -1523,7 +1523,7 @@
 		},
 		{
 			"name": "Gunner",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 10,
 			"ability": [
 				{
@@ -1555,7 +1555,7 @@
 		},
 		{
 			"name": "Healer",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 10,
 			"entries": [
 				{
@@ -1577,8 +1577,8 @@
 		},
 		{
 			"name": "Heavily Armored",
-			"source": "EntrancedFeats",
-			"page": 10,
+			"source": "OOF",
+			"page": 17,
 			"prerequisite": [
 				{
 					"other": "Proficiency with medium armor or medium shields"
@@ -1605,8 +1605,36 @@
 			]
 		},
 		{
+			"name": "Heavy Armor Master",
+			"source": "OOF",
+			"page": 17,
+			"prerequisite": [
+				{
+					"proficiency": [
+						{
+							"armor": "heavy"
+						}
+					]
+				}
+			],
+			"ability": [
+				{
+					"str": 1
+				}
+			],
+			"entries": [
+				"You can use your armor to deflect strikes that would kill others. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"While you are wearing heavy armor, bludgeoning, piercing, and slashing damage that you take from nonmagical attacks is reduced by an amount equal to your proficiency bonus."
+					]
+				}
+			]
+		},
+		{
 			"name": "Herbalist",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 11,
 			"ability": [
 				{
@@ -1637,7 +1665,7 @@
 		},
 		{
 			"name": "Historian",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 11,
 			"ability": [
 				{
@@ -1667,7 +1695,7 @@
 		},
 		{
 			"name": "Hybrid",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 11,
 			"prerequisite": [
 				{
@@ -1710,7 +1738,7 @@
 		},
 		{
 			"name": "Inspiring Leader",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 11,
 			"prerequisite": [
 				{
@@ -1733,7 +1761,7 @@
 		},
 		{
 			"name": "Inscriber",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 11,
 			"ability": [
 				{
@@ -1764,7 +1792,7 @@
 		},
 		{
 			"name": "Investigator",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 11,
 			"ability": [
 				{
@@ -1809,7 +1837,7 @@
 		},
 		{
 			"name": "Keen Mind",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 12,
 			"ability": [
 				{
@@ -1836,7 +1864,7 @@
 		},
 		{
 			"name": "Lightly Armored",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 12,
 			"ability": [
 				{
@@ -1860,7 +1888,7 @@
 		},
 		{
 			"name": "Lucky",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 12,
 			"entries": [
 				"You have inexplicable luck that seems to kick in at just the right moment.",
@@ -1871,7 +1899,7 @@
 		},
 		{
 			"name": "Mage Slayer",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 12,
 			"entries": [
 				{
@@ -1892,7 +1920,7 @@
 		},
 		{
 			"name": "Magic Initiate",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 12,
 			"prerequisite": [
 				{
@@ -2086,7 +2114,7 @@
 		},
 		{
 			"name": "Magic Resistance",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 6,
 			"prerequisite": [
 				{
@@ -2127,7 +2155,7 @@
 		},
 		{
 			"name": "Malleable Form",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 6,
 			"prerequisite": [
 				{
@@ -2158,7 +2186,7 @@
 		},
 		{
 			"name": "Martial Adept",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 12,
 			"prerequisite": [
 				{
@@ -2187,7 +2215,7 @@
 		},
 		{
 			"name": "Medic",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 13,
 			"ability": [
 				{
@@ -2231,7 +2259,7 @@
 		},
 		{
 			"name": "Medium Armor Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 13,
 			"prerequisite": [
 				{
@@ -2261,7 +2289,7 @@
 		},
 		{
 			"name": "Moderately Armored",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 13,
 			"prerequisite": [
 				{
@@ -2296,7 +2324,7 @@
 		},
 		{
 			"name": "Menacing",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 13,
 			"ability": [
 				{
@@ -2341,7 +2369,7 @@
 		},
 		{
 			"name": "Name-Brand Crafter",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 14,
 			"prerequisite": [
 				{
@@ -2367,7 +2395,7 @@
 		},
 		{
 			"name": "Naturalist",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 14,
 			"ability": [
 				{
@@ -2397,7 +2425,7 @@
 		},
 		{
 			"name": "Opportunist",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 15,
 			"entries": [
 				{
@@ -2418,7 +2446,7 @@
 		},
 		{
 			"name": "Parry Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 15,
 			"entries": [
 				{
@@ -2440,7 +2468,7 @@
 		},
 		{
 			"name": "Perceptive",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 15,
 			"ability": [
 				{
@@ -2471,7 +2499,7 @@
 		},
 		{
 			"name": "Performer",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 16,
 			"ability": [
 				{
@@ -2516,7 +2544,7 @@
 		},
 		{
 			"name": "Poisoner",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 15,
 			"ability": [
 				{
@@ -2552,7 +2580,7 @@
 		},
 		{
 			"name": "Polearm Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 16,
 			"entries": [
 				{
@@ -2574,7 +2602,7 @@
 		},
 		{
 			"name": "Potent Breath Weapon",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 16,
 			"prerequisite": [
 				{
@@ -2604,7 +2632,7 @@
 		},
 		{
 			"name": "Primordial Breath Weapon",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 17,
 			"prerequisite": [
 				{
@@ -2634,7 +2662,7 @@
 		},
 		{
 			"name": "Prodigy",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 25,
 			"prerequisite": [
 				{
@@ -2714,7 +2742,7 @@
 		},
 		{
 			"name": "Psionic Initiate",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"prerequisite": [
 				{
@@ -2744,7 +2772,7 @@
 		},
 		{
 			"name": "Punching Weapon Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"entries": [
 				{
@@ -2765,7 +2793,7 @@
 		},
 		{
 			"name": "Quick-Fingered",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 17,
 			"ability": [
 				{
@@ -2795,7 +2823,7 @@
 		},
 		{
 			"name": "Remarkable Recovery",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 17,
 			"ability": [
 				{
@@ -2820,7 +2848,7 @@
 		},
 		{
 			"name": "Savage Attacker",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 18,
 			"prerequisite": [
 				{
@@ -2854,7 +2882,7 @@
 		},
 		{
 			"name": "Second Chance",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 3,
 			"prerequisite": [
 				{
@@ -2889,7 +2917,7 @@
 		},
 		{
 			"name": "Sentinel",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 18,
 			"entries": [
 				{
@@ -2910,7 +2938,7 @@
 		},
 		{
 			"name": "Shadow Touched",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 18,
 			"ability": [
 				{
@@ -2954,7 +2982,7 @@
 		},
 		{
 			"name": "Shield Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 18,
 			"prerequisite": [
 				{
@@ -2985,7 +3013,7 @@
 		},
 		{
 			"name": "Sickle Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"entries": [
 				{
@@ -3006,7 +3034,7 @@
 		},
 		{
 			"name": "Silver-Tongued",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 18,
 			"ability": [
 				{
@@ -3051,7 +3079,7 @@
 		},
 		{
 			"name": "Skill Expert",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 28,
 			"ability": [
 				{
@@ -3112,7 +3140,7 @@
 		},
 		{
 			"name": "Skilled",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 29,
 			"ability": [
 				{
@@ -3154,7 +3182,7 @@
 		},
 		{
 			"name": "Sky Warrior",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 29,
 			"prerequisite": [
 				{
@@ -3184,7 +3212,7 @@
 		},
 		{
 			"name": "Sling Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 3,
 			"ability": [
 				{
@@ -3210,7 +3238,7 @@
 		},
 		{
 			"name": "Stealthy",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 19,
 			"ability": [
 				{
@@ -3240,7 +3268,7 @@
 		},
 		{
 			"name": "Survivalist",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 19,
 			"ability": [
 				{
@@ -3273,7 +3301,7 @@
 		},
 		{
 			"name": "Spell Sniper",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 24,
 			"prerequisite": [
 				{
@@ -3380,7 +3408,7 @@
 		},
 		{
 			"name": "Svirfneblin Magic",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 19,
 			"prerequisite": [
 				{
@@ -3422,7 +3450,7 @@
 		},
 		{
 			"name": "Synchronized",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 20,
 			"entries": [
 				{
@@ -3443,7 +3471,7 @@
 		},
 		{
 			"name": "Tactician",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 20,
 			"ability": [
 				{
@@ -3475,7 +3503,7 @@
 		},
 		{
 			"name": "Technician",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 20,
 			"entries": [
 				{
@@ -3497,7 +3525,7 @@
 		},
 		{
 			"name": "Telekinetic",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"ability": [
 				{
@@ -3522,7 +3550,7 @@
 		},
 		{
 			"name": "Telepathic",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"ability": [
 				{
@@ -3547,7 +3575,7 @@
 		},
 		{
 			"name": "Theologian",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 20,
 			"ability": [
 				{
@@ -3590,7 +3618,7 @@
 		},
 		{
 			"name": "Thrown Weapon Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 21,
 			"entries": [
 				{
@@ -3611,7 +3639,7 @@
 		},
 		{
 			"name": "Tough",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 21,
 			"ability": [
 				{
@@ -3647,7 +3675,7 @@
 		},
 		{
 			"name": "Toxicologist",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"Page": 21,
 			"ability": [
 				{
@@ -3678,7 +3706,7 @@
 		},
 		{
 			"name": "War Caster",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 21,
 			"prerequisite": [
 				{
@@ -3704,7 +3732,7 @@
 		},
 		{
 			"name": "Whip Master",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 4,
 			"entries": [
 				{
@@ -3726,7 +3754,7 @@
 		},
 		{
 			"name": "Wood Elf Magic",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 22,
 			"prerequisite": [
 				{
@@ -3792,7 +3820,7 @@
 		},
 		{
 			"name": "Wounded Fury",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 22,
 			"prerequisite": [
 				{
@@ -3827,7 +3855,7 @@
 		},
 		{
 			"name": "Yuan-ti Psionics",
-			"source": "EntrancedFeats",
+			"source": "OOF",
 			"page": 22,
 			"prerequisite": [
 				{
