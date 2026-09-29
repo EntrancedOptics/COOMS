@@ -1661,7 +1661,7 @@
 								"{@b Amphibious (1 psi)} You gain gills; you can breathe air and water.",
 								"{@b Claws (1 psi)} You temporarily manifest or sharpen your claws or talons to be used as effective weapons, allowing you to use them to make a special unarmed strike with which you are proficient, dealing slashing damage equal to {@dice 1d4} + your Strength modifier on a hit, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them.",
 								"{@b Climbing (2 psi)} You grow tiny hooked claws that give you gain a climbing speed equal to your walking speed.",
-								"{@b Flight (3 psi)} Wings sprout from your back. You gain a flying speed equal to your walking speed.",
+								"{@b Flight (3 psi)} Wings sprout from your back. You gain a flying speed equal to your walking speed. To use this speed, you can't be wearing medium or heavy armor.",
 								"{@b Keen Senses (2 psi)} Your eyes and ears become more sensitive. You gain advantage on Wisdom ({@skill Perception}) checks.",
 								"{@b Perfect Senses (3 psi)} You gain a keen sense of smell and an instinct to detect prey. You can see {@condition Invisible|phb} creatures and objects within 10 feet of you, even if you are {@condition Blinded|phb}.",
 								"{@b Swimming (2 psi)} You gain fins and webbing between your fingers and toes; you gain a swimming speed equal to your walking speed.",
@@ -1946,7 +1946,7 @@
 					"type": "list",
 					"items": [
 						"{@b Psychic Focus.} While focused on this discipline, any psychic damage you take is reduced by 3.",
-						"{@b Psionic Shield (1\u20147 psi)} As a bonus action on one creature within 30 feet of you or as a reaction on yourself when you are targeted by the Psionic Blast feature of the Psychic Assault discipline, the target takes {@dice 1d6} less psychic damage from the Psionic Blast feature per psi point spent. This effect lasts until the start of your next turn.",
+						"{@b Psionic Shield (1\u20147 psi)} As a bonus action on one creature within 30 feet of you or as a reaction on yourself when you are targeted by the Psionic Blast feature of the Psychic Assault discipline or the Nerve Spike feature of the Electrokinesis discipline, the target takes a {@dice d6} less damage from said features per psi point spent. This effect lasts until the start of your next turn.",
 						"{@b Psychic Backlash (1\u20147 psi)} When a creature you can see within 60 feet damages you or attempts to read your thoughts, as a reaction, you can force the creature to make an Intelligence saving throw. On a failed save, the attacker takes {@dice 1d10} psychic damage per psi point spent, taking half as much on a success.",
 						"{@b Psychic Parry (1\u20147 psi)} As a reaction when you make an Intelligence, a Wisdom, or a Charisma saving throw, you gain a +1 bonus to that saving throw for each psi point you spend on this ability.",
 						"{@b Telepathic Protection (5 psi; conc., 1 hr.)} As a bonus action, until your {@status concentration||concentration} ends, you or one willing creature you can see within 60 feet of you can’t have their mind read or detected. You may target another creature per additional psi point spent. Additionally, creatures can’t telepathically communicate with the target unless the target allows it, and the target has advantage on saving throws against any effect that would determine whether or not it is telling the truth.",
