@@ -737,7 +737,7 @@
 			"subclassSource": "THICC-PSION",
 			"level": 6,
 			"entries": [
-				"Starting at 6th level, you can overload yourself to batter down an opponent’s defenses. You can spend 2 psi points to impose disadvantage on a single target’s saving throw against a discipline or talent you use. You can use this feature multiple times on different targets if a given discipline or talent targets multiple creatures. You can’t spend these points if doing so would increase the discipline’s cost above your psi limit."
+				"Starting at 6th level, you can overload yourself to batter down an opponent’s defenses. You can spend 2 psi points to impose disadvantage on a single target’s saving throw against a discipline or talent you use. You can also spend 1 psi point to give yourself advantage on one attack roll with a discipline or talent you use. You can use this feature multiple times on different targets if a given discipline or talent targets multiple creatures. You can’t spend these points if doing so would increase the discipline’s cost above your psi limit."
 			]
 		},
 		{
