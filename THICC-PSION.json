@@ -1495,10 +1495,10 @@
 			"source": "THICC-PSION",
 			"featureType": [
 				"PD",
-				"AVD"
+				"AWD"
 			],
 			"entries": [
-				"{@i Avatar Discipline}",
+				"{@i Awakened Discipline}",
 				"You can use your psionic powers to bestow life and sentience onto objects and creatures.",
 				{
 					"type": "list",
