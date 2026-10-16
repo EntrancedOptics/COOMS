@@ -1659,6 +1659,7 @@
 							"type": "list",
 							"items": [
 								"{@b Amphibious (1 psi)} You gain gills; you can breathe air and water.",
+								"{@b Bloodsense (3 psi)} You gain the ability to pick up the scent of blood particularly well. If there is any creature within 60 feet of you missing HP that is not behind {@quickref Cover||3||total cover}, that creature cannot gain the benefits of being unseen by you. Constructs, Elementals, Oozes, Plants, and Undead are immune to the effects of this sense.",
 								"{@b Claws (1 psi)} You temporarily manifest or sharpen your claws or talons to be used as effective weapons, allowing you to use them to make a special unarmed strike with which you are proficient, dealing slashing damage equal to {@dice 1d4} + your Strength modifier on a hit, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them.",
 								"{@b Climbing (2 psi)} You grow tiny hooked claws that give you gain a climbing speed equal to your walking speed.",
 								"{@b Flight (3 psi)} Wings sprout from your back. You gain a flying speed equal to your walking speed. To use this speed, you can't be wearing medium or heavy armor.",
@@ -2541,8 +2542,9 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, you have {@sense darkvision} with a range of 30 feet. If you already have {@sense darkvision} with that range or greater, increase its range by 15 feet.",
-						"{@b Unwavering Eye (2 psi)} As a bonus action, you gain advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks for 1 minute.",
+						"{@b Psychic Focus.} While focused on this discipline, you have {@sense darkvision} with a range of 30 feet. If you already have {@sense darkvision}, instead increase its range by 15 feet.",
+						"{@b Darkvision (1 psi)} As a bonus action, you gain {@sense darkvision} with a range of 60 feet, or if you already have {@sense darkvision}, increase its range by 30 feet, which lasts for 1 hour.",
+						"{@b Unwavering Eye (2 psi)} As a bonus action, you gain advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks for 10 minutes.",
 						"{@b Tremorsense (3 psi; conc., 1 min.)} As a bonus action, you gain {@sense tremorsense} with a radius of 30 feet, which lasts until your {@status concentration||concentration} ends.",
 						"{@b Piercing Sight (5 psi; conc., 1 min.)} As a bonus action, you gain the ability to see through objects that are up to 1 foot thick within 30 feet of you. This sight lasts until your {@status concentration||concentration} ends",
 						"{@b Wandering Eye (6 psi; conc., 1 hr.)} As an action, you create a psychic sensor within 30 feet of you. The sensor lasts until your {@status concentration||concentration} ends. The sensor is {@condition Invisible} and hovers in the air. You mentally receive visual information from it, which has normal vision and darkvision with a range of 30 feet. The sensor can look in all directions. As an action, you can move the sensor up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can’t enter another plane of existence. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.",
