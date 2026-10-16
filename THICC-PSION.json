@@ -2542,7 +2542,7 @@
 				{
 					"type": "list",
 					"items": [
-						"{@b Psychic Focus.} While focused on this discipline, you have {@sense darkvision} with a range of 30 feet. If you already have {@sense darkvision}, instead increase its range by 15 feet.",
+						"{@b Psychic Focus.} While focused on this discipline, you have {@sense darkvision} with a range of 30 feet. If you have {@sense darkvision} from any other source (such as the Darkvision ability in this discipline), instead increase its range by 15 feet",
 						"{@b Darkvision (1 psi)} As a bonus action, you gain {@sense darkvision} with a range of 60 feet, or if you already have {@sense darkvision}, increase its range by 30 feet, which lasts for 1 hour.",
 						"{@b Unwavering Eye (2 psi)} As a bonus action, you gain advantage on Wisdom ({@skill Perception}) and Intelligence ({@skill Investigation}) checks for 10 minutes.",
 						"{@b Tremorsense (3 psi; conc., 1 min.)} As a bonus action, you gain {@sense tremorsense} with a radius of 30 feet, which lasts until your {@status concentration||concentration} ends.",
