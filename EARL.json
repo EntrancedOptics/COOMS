@@ -654,7 +654,7 @@
 					"type": "entries",
 					"name": "Surprise Attack",
 					"entries": [
-						"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra amount of {@dice d6} damage to it eqaul to your proficiency bonus. You can use this trait only once per combat."
+						"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra amount of {@dice d6} damage to it equal to your proficiency bonus. You can use this trait only once per combat."
 					]
 				},
 				{
