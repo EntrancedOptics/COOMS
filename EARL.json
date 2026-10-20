@@ -654,7 +654,7 @@
 					"type": "entries",
 					"name": "Surprise Attack",
 					"entries": [
-						"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra {@dice 2d6} damage to it. You can use this trait only once per combat."
+						"If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra amount of {@dice d6} damage to it equal to your proficiency bonus. You can use this trait only once per combat."
 					]
 				},
 				{
@@ -6577,6 +6577,7 @@
 				"Outcast",
 				"Animalistic",
 				"Monstrous Race",
+				"Natural Weapon",
 				"Exotic"
 			],
 			"skillProficiencies": [
@@ -6615,6 +6616,20 @@
 					"name": "Size",
 					"entries": [
 						"Kenku are around 5 feet tall and weigh between 90 and 120 pounds. Your size is Medium."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Claws",
+					"entries": [
+						"Your claws are natural weapons that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to {@dice 1d4} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. You may also attack with the claws in your offhand if it is free to do so as a bonus action, though you do not add your Strength modifier to the damage roll if you hit with them."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ambusher",
+					"entries": [
+						"If you surprise a creature, you have advantage on all attack rolls you make against it in the first round of combat, regardless of whether or not they are still Surprised."
 					]
 				},
 				{
