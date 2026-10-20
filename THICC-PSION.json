@@ -1414,7 +1414,8 @@
 			"source": "THICC-PSION",
 			"featureType": [ "PT" ],
 			"entries": [
-				"You can use your action to manipulate or move one object within 30 feet of you. The object can’t weigh more than 10 pounds, and you can’t affect an object being worn or carried by another creature. If the object is loose, you can move it up to 30 feet in any direction. This talent allows you to open an unlocked door, pour out a beer stein, and so on. The object falls to the ground at the start of your next turn if you leave it suspended in midair and choose to not immediately use your action to use this talent."
+				"You can use your action to manipulate or move one object within 30 feet of you. The object can’t weigh more than 10 pounds, and you can’t affect an object being worn or carried by another creature. If the object is loose, you can move it up to 30 feet in any direction. This talent allows you to open an unlocked door, pour out a beer stein, and so on. The object falls to the ground at the start of your next turn if you leave it suspended in midair and choose to not immediately use your action to use this talent.",
+				"You can move or manipulate more objects at once when you reach higher levels: two objects at 5th level, three objects at 11th level, and four objects at 17th level."
 			]
 		},
 		{
