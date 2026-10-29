@@ -1442,7 +1442,7 @@
 			"source": "THICC-PSION",
 			"featureType": [ "PT" ],
 			"entries": [
-				"As an action, you try to grasp one creature you can see within 60 feet of you, with a hand crafted from telekinetic energy. The target must succeed on a Strength saving throw or take 1d4 force damage. If it takes any of this damage and is Large or smaller, you can shove it 5 feet in a straight line in a direction of your choice. You can’t lift the target off the ground unless it is already airborne or underwater. Alternatively, if the creature is within 10 feet of you and grounded, you can instead choose to shove it Prone.",
+				"As an action, you try to telekinetically shove one creature you can see within 60 feet of you. The target must succeed on a Strength saving throw or take {@dice 1d4} force damage. If it takes any of this damage and is Large or smaller, you can shove it 5 feet in a straight line towards you. You can’t lift the target off the ground unless it is already airborne or underwater. Alternatively, if the creature is within 10 feet of you and grounded, you can instead choose to shove it {@condition Prone}.",
 				"The talent’s damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
 			]
 		},
@@ -2387,7 +2387,7 @@
 					"items": [
 						"{@b Psychic Focus.} While focused on this discipline, any time you use a psionic talent, discipline, or feature to knock or shove a target away from you, you can instead pull the creature towards you, and vice versa. This cannot be used to force a target behind you.",
 						"{@b Push (1\u20147 psi)} As an action, choose one creature you can see within 60 feet of you. The target must make a Strength saving throw. On a failed save, it takes {@dice 1d8} force damage per psi point spent and is pushed up to 5 feet per point spent in a straight line away from you. The length of the push is reduced by 5 feet for each size category larger the creature is than you. On a successful save, it takes half as much damage and is not pushed away from you.",
-						"{@b Move (2\u20147 psi; conc., 10 min.)} As an action, you awaken your telekinetic abilities. Immediately and as an action on subsequent turns until your {@status concentration||concentration} ends, you choose one object you can see within 60 feet of you that isn’t being worn or carried by another creature and that isn’t secured in place and move it up to 30 feet. You can also exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by this ability. The object's maximum weight depends on the psi points spent on this ability, as shown below. If the object is ever more than 60 feet from you or if lifting the object would exceed your maximum weight limit, the effect ends on that object. You can’t make an object travel fast enough or apply enough pressure to deal damage. If the object is in the air when this ability ends on it, it falls. If the object would fall on a creature, the creature must succeed on a DC 10 Dexterity saving throw or split the damage as listed on the table below. On a successful save or if there is no creature, the object entirely takes the damage instead. The bludgeoning damage corresponds with the weight of the object being dropped, rather than the Psi points spent. For example, if a jar weighing 5 lbs was dropped using 7 psi points on this feature, it will still only deal {@dice 1d6} bludgeoning damage as it is within 25 lbs of weight."
+						"{@b Telekinetic Manipulation (2\u20147 psi; conc., 10 min.)} As an action, you awaken your telekinetic abilities. Immediately and as an action on subsequent turns until your {@status concentration||concentration} ends, you choose one object you can see within 60 feet of you that isn’t being worn or carried by another creature and that isn’t secured in place and move it up to 30 feet. You can also exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.\nYou can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by this ability. The object's maximum weight depends on the psi points spent on this ability, as shown below. If the object is ever more than 60 feet from you or if lifting the object would exceed your maximum weight limit, the effect ends on that object. Additionally, if the object ever becomes worn or carried by another creature, the effect ends on that object. You can’t make an object travel fast enough or apply enough pressure to deal damage to a creature while it is affected by this ability.\nWhile an object is affected by this ability, you can use an action to fling it in a straight line at one creature within 30 feet of it. When the object is flung in this way, it is no longer affected by this ability. The creature must succeed on a Dexterity saving throw or split the damage listed on the table below as bludgeoning damage. If the object was sharp, the damage type given to the creature it shared damage with might change to slashing or piercing. On a successful save, the object entirely takes the damage instead.\nAdditionally, while an object is affected by this ability, you can use an action to deal an amount of force damage to it as listed on the table below based on the amount of psi points you spent manifesting this ability by bending, crushing, or otherwise deforming the object. To do so, the object must have an AC that equals or is less than the Crush AC for the amount of psi points you spent manifesting this ability (see Objects in the DMG). If the object snaps, you choose which part remains affected by this ability.\nIf the object is in the air when this ability ends on it, it falls. If the object would fall on a creature, the creature must succeed on a DC 10 Dexterity saving throw or split the damage as listed on the table below as bludgeoning damage. On a successful save or if there is no creature, the object entirely takes the damage instead. The bludgeoning damage corresponds with the weight of the object being dropped, rather than the psi points spent. For example, if a jar weighing 5 lbs was dropped using 7 psi points on this feature, it will still only deal {@dice 1d6} bludgeoning damage as it is within 25 lbs of weight.\nIf an object that took damage from this ability was a weapon or piece of armor, it receives a -1 penalty for every 10 damage dealt to it, potentially breaking it."
 					]
 				},
 				{
@@ -2396,9 +2396,10 @@
 					"items": [
 						{
 							"type": "table",
-							"caption": "Move",
-							"colLabels": [ "Psi Points Spent", "Maximum Weight", "Bludgeoning Damage" ],
+							"caption": "Telekinetic Manipulation",
+							"colLabels": [ "Psi Points Spent", "Maximum Weight", "Crush AC", "Maximum Damage" ],
 							"colStyles": [
+								"col-4 text-center",
 								"col-4 text-center",
 								"col-4 text-center",
 								"col-4 text-center"
@@ -2407,26 +2408,31 @@
 								[
 									"2",
 									"25 lbs.",
+									"13",
 									"{@dice 1d6}"
 								],
 								[
 									"3",
 									"50 lbs.",
+									"15",
 									"{@dice 2d6}"
 								],
 								[
 									"5",
 									"250 lbs.",
+									"17",
 									"{@dice 4d6}"
 								],
 								[
 									"6",
 									"500 lbs.",
+									"19",
 									"{@dice 6d6}"
 								],
 								[
 									"7",
 									"1000 lbs.",
+									"21",
 									"{@dice 8d6}"
 								]
 							]
@@ -2442,6 +2448,7 @@
 							"items": [
 								"{@b Move (1 psi)} You move the target up to 30 feet. You can move it in the air and hold it there. It falls if the grapple ends.",
 								"{@b Crush (1\u20147 psi)} The target must succeed a Strength saving throw or take {@dice 1d10} bludgeoning damage per psi point spent, with half as much on a success.",
+								"{@b Fling (1\u20147 psi)} You fling the target in a direction of your choice a number of feet equal to 10 times the psi points spent on this ability. The ability then ends on the target. This ability deals an amount of {@dice d6} bludgeoning damage equal to either the amount of psi points spent, or if the creature fell during the fling, the height of their fall divided by 10, whichever is greater. If it hits a creature that would prevent its movement, the creature must make a Dexterity saving throw (which it can choose to fail). On a failure, the target stops moving and both parties split the damage. On a success, the creature gets out of the target's way and does not prevent its movement. Objects that would block the target's movement automatically fail the saving throw. If nothing stops the target’s movement, the target alone takes the full amount of damage. If the target was aloft, it follows the standard rules for potentially becoming {@condition Prone} when it lands.",
 								"{@b Restrain (2 psi)} You deepen the grasp you hold on the target, causing them to be {@condition restrained|phb} while they are {@condition grappled|phb} in this way.",
 								"{@b Strangle (7 psi)} If the target has at least 1 neck, you tighten the telekinetic grip around it substantially. As long as the target does not have another neck that isn’t being strangled, the target begins suffocating while they are {@condition grappled|phb} in this way if they are a creature that normally requires breathing. A suffocating creature can't speak or perform verbal spell components, and can survive for a number of rounds equal to its Constitution modifier (minimum of 1 round), after which it drops to 0 hit points and is dying."
 							]
