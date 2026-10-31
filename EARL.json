@@ -11493,17 +11493,17 @@
 				},
 				{
 					"type": "entries",
-					"name": "Bite",
+					"name": "Rending Bite",
 					"entries": [
-						"Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike."
+						"You are able to taste and consume fear from creatures and their flesh, which you enjoy the taste of. Your bite is a natural weapon that you are proficient with, which you can use to make unarmed strikes. If you hit with them, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike. At level 5, your bite deals an additional {@dice 1d10} psychic damage to {@condition Frightened|phb} creatures as you consume their fear while they are still alive."
 					]
 				},
 				{
 					"name": "Mind-Breaking Howl",
 					"entries": [
 						"When you take the Attack action on your turn, you can replace one of your attacks with a keening howl.",
-						"When you use your Mind-Breaking Howl, each creature in a 15-foot cone must make a Wisdom saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature takes a number of d6 psychic damage equal to your Constitution modifier (minimum of 1). Additionally, the creature is {@condition Frightened|phb} of you until the end of your next turn. On a successful save, it takes half as much damage, and is immune to the effects of all Mind-Breaking Howls for the next 24 hours.",
-						"You can use your Breath Weapon a number of times equal to your proficiency bonus (minimum of 1), and you regain all expended uses when you finish a long rest."
+						"When you use your Mind-Breaking Howl, each creature in a 15-foot cone must make a Wisdom saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. On a failed save, the creature  is {@condition Frightened|phb} of you until the end of your next turn. On a successful save, it is immune to the effects of all Mind-Breaking Howls for the next 24 hours. At level 5, you gain better control of your howl, making it a 30-foot cone.",
+						"You can use your Mind-Breaking Howl a number of times equal to your Constitution modifier (minimum of 1), and you regain all expended uses when you finish a short or long rest."
 					],
 					"type": "entries"
 				},

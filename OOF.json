@@ -1236,7 +1236,7 @@
 						"If you have the Gehennic Resistance feature, you gain the ability to speak, read, and write in {@language goblin|phb}. In addition, you learn the {@spell Polymorph|phb} spell and can cast it innately with a range of self and without expending any components a number of times per long rest equal to your proficiency bonus. When cast in this way, you can only choose the form of a {@creature Wolf|mm} or, if there is space to grow, {@creature Dire Wolf|mm}.",
 						"If you have the Hellish Resistance feature, you may now cast the innate spellcasting given to you from your legacy feature at 3rd and 5th level a number of times per short or long rest equal to your proficiency modifier and a number of times per long rest equal to your proficiency modifier respectively.",
 						"If you have the Necrotic Consumption feature, you learn the Negative Energy Flood spell and can cast it innately without expending material components a number of times per long rest equal to your proficiency bonus.",
-						"If you have the Pandemonic Resistance feature, your Mind-Breaking Howl now extends to 30 feet and creatures {@condition frightened|phb} by it become {@condition incapacitated|phb} and have their speed halved"
+						"If you have the Pandemonic Resistance feature, your Mind-Breaking Howl howl becomes so fearsome that creatures {@condition Frightened|phb} in this way are also {@condition Incapacitated|phb} and have their speed halved. Additionally, your Rending Bite attack ignores damage resistance and deals an additional {@dice 1d10} ({@dice 2d10} total) psychic damage to {@condition Frightened|phb} creatures."
 					]
 				}
 			]
