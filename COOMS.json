@@ -5405,7 +5405,7 @@
         }
       ],
       "range": {
-        "type": "radiun",
+        "type": "radius",
         "distance": {
           "type": "feet",
           "amount": 30
