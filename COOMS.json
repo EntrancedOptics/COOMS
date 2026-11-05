@@ -9338,7 +9338,7 @@
       ],
       "entries": [
         "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.",
-        "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw as the guardian attempts to smite them. The creature takes {@dice 8d4)} damage on a failed save, or half as much damage on a successful one. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil. The guardian vanishes after it has made 5 attacks."
+        "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw as the guardian attempts to smite them. The creature takes {@dice 8d4} damage on a failed save, or half as much damage on a successful one. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil. The guardian vanishes after it has made 5 attacks."
       ],
       "damageInflict": [ "radiant" ],
       "savingThrow": [ "dexterity" ],
