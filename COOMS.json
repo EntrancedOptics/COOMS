@@ -3703,7 +3703,7 @@
         }
       ],
       "entries": [
-        "You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes ({@dice 3d8}) damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component."
+        "You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes {@dice 3d8} damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component."
       ],
       "entriesHigherLevel": [
         {
@@ -5139,9 +5139,9 @@
         }
       ],
       "entries": [
-        "You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature that starts its turn in the bonfire's space or moves into the bonfire's space for the first time on a turn must succeed on a Dexterity saving throw or take ({@dice 1d8}) fire damage.",
+        "You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature that starts its turn in the bonfire's space or moves into the bonfire's space for the first time on a turn must succeed on a Dexterity saving throw or take {@dice 1d8} fire damage.",
         "The bonfire ignites flammable objects in its area that aren't being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
-        "The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+        "The spell's damage increases by {@dice 1d8} when you reach 5th level {@dice 2d8}, 11th level {@dice 3d8}, and 17th level {@dice 4d8}."
       ],
       "damageInflict": [ "fire" ],
       "savingThrow": [ "dexterity" ],
@@ -5405,9 +5405,10 @@
         }
       ],
       "range": {
-        "type": "point",
+        "type": "radiun",
         "distance": {
-          "type": "self"
+          "type": "feet",
+          "amount": 30
         }
       },
       "components": {
@@ -5424,7 +5425,7 @@
         }
       ],
       "entries": [
-        "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra ({@dice 1d4}) damage when it hits with a weapon attack. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil."
+        "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra {@dice 1d4} damage when it hits with a weapon attack. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil."
       ],
       "classes": {
         "fromClassList": [
@@ -6169,7 +6170,7 @@
         }
       ],
       "entries": [
-        "You cause a great deal of lightning to surge through your body before releasing it in an area around you. You take 2d4 lightning damage. Afterwards, every creature within 15 feet of you must succeed on a Dexterity saving throw or take lightning damage equal to four times the number rolled, with no damage on a successful save."
+        "You cause a great deal of lightning to surge through your body before releasing it in an area around you. You take {@dice 2d4} lightning damage. Afterwards, every creature within 15 feet of you must succeed on a Dexterity saving throw or take lightning damage equal to four times the number rolled, with no damage on a successful save."
       ],
       "entriesHigherLevel": [
         {
@@ -6502,7 +6503,7 @@
         }
       ],
       "entries": [
-        "Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra ({@dice 1d4}) damage on a hit. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil."
+        "Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra {@dice 1d4} damage on a hit. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil."
       ],
       "classes": {
         "fromClassList": [
@@ -9337,7 +9338,7 @@
       ],
       "entries": [
         "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.",
-        "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw as the guardian attempts to smite them. The creature takes ({@dice 8d4)}) damage on a failed save, or half as much damage on a successful one. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil. The guardian vanishes after it has made 5 attacks."
+        "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw as the guardian attempts to smite them. The creature takes {@dice 8d4)} damage on a failed save, or half as much damage on a successful one. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil. The guardian vanishes after it has made 5 attacks."
       ],
       "damageInflict": [ "radiant" ],
       "savingThrow": [ "dexterity" ],
@@ -16098,7 +16099,7 @@
       "entries": [
         "This spell creates a sphere centered on a point you choose within range. The sphere can have a radius of up to 40 feet. The area within this sphere is filled with magical darkness and crushing gravitational force.",
         "For the duration, the spell's area is difficult terrain. A creature with darkvision can't see through the magical darkness, and nonmagical light can't illuminate it. No sound can be created within or pass through the area. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there.",
-        "Any creature or object that enters the spell's area for the first time on a turn or starts its turn there must make a Strength saving throw. The target takes ({@dice 8d10}) bludgeoning damage on a failed save and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). Until the spell ends or they next succeed the spell’s saving throw, they are also restrained. On a successful save, the target takes half as much damage and isn't pulled. A target reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust."
+        "Any creature or object that enters the spell's area for the first time on a turn or starts its turn there must make a Strength saving throw. The target takes {@dice 8d10} bludgeoning damage on a failed save and is pulled in a straight line toward the center of the sphere, ending in an unoccupied space as close to the center as possible (even if that space is in the air). Until the spell ends or they next succeed the spell’s saving throw, they are also restrained. On a successful save, the target takes half as much damage and isn't pulled. A target reduced to 0 hit points by this damage is disintegrated. A disintegrated creature and everything it is wearing and carrying, except magic items, are reduced to a pile of fine gray dust."
       ],
       "classes": {
         "fromClassList": [
@@ -18825,7 +18826,7 @@
       "components": {
         "v": true,
         "s": true,
-        "m": "a shaving of licorice root"
+        "m": "a drop of molasses"
       },
       "duration": [
         {
@@ -21430,7 +21431,7 @@
         }
       ],
       "entries": [
-        "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes ({@dice 3d6}) necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action."
+        "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes {@dice 3d6} necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action."
       ],
       "entriesHigherLevel": [
         {
@@ -21643,7 +21644,7 @@
         }
       ],
       "entries": [
-        "You transform yourself into a bolt of lightning and choose a creature within range that you can see directly adjacent to an unoccupied space that you can see to be your conductor. The target and every creature in a line to them must make a Dexterity saving throw, taking ({@dice 4d6}) lightning damage on a failed save, and half as much on a success. You then make a melee spell attack against the target as you approach them. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes ({@dice 8d6}) lightning damage and is stunned until the end of your next turn. Finally, you move to the previously chosen unoccupied space adjacent to your target as the transform ends."
+        "You transform yourself into a bolt of lightning and choose a creature within range that you can see directly adjacent to an unoccupied space that you can see to be your conductor. The target and every creature in a line to them must make a Dexterity saving throw, taking {@dice 4d6} lightning damage on a failed save, and half as much on a success. You then make a melee spell attack against the target as you approach them. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes {@dice 8d6} lightning damage and is stunned until the end of your next turn. Finally, you move to the previously chosen unoccupied space adjacent to your target as the transform ends."
       ],
       "entriesHigherLevel": [
         {
@@ -22296,7 +22297,7 @@
         }
       ],
       "entries": [
-        "You shoot a jet of pressurized water and make an attack roll at one enemy you can see within range. If the attack hits, the creature takes ({@dice 3d8}) piercing damage and they are pushed back up to 15 feet, but not past the spell's range, as the stream of water abruptly stops there. If it hits a creature that would prevent its movement, the creature must make a DC 15 Dexterity saving throw (which it can choose to fail). On a failure, the target stops moving and both parties share ({@dice 1d8}) bludgeoning damage. On a success, the creature gets out of the target's way and does not prevent its movement. Objects that would block the target's movement automatically fail the saving throw."
+        "You shoot a jet of pressurized water and make an attack roll at one enemy you can see within range. If the attack hits, the creature takes {@dice 3d8} piercing damage and they are pushed back up to 15 feet, but not past the spell's range, as the stream of water abruptly stops there. If it hits a creature that would prevent its movement, the creature must make a DC 15 Dexterity saving throw (which it can choose to fail). On a failure, the target stops moving and both parties share {@dice 1d8} bludgeoning damage. On a success, the creature gets out of the target's way and does not prevent its movement. Objects that would block the target's movement automatically fail the saving throw."
       ],
       "entriesHigherLevel": [
         {
@@ -22545,7 +22546,7 @@
         }
       ],
       "entries": [
-        "A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. If the target is wearing armor made of metal, this attack roll is made at advantage. On a hit, the target takes ({@dice 1d12}) lightning damage, and on each of your turns for the duration, you can use your action to deal ({@dice 1d12}) lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you."
+        "A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. If the target is wearing armor made of metal, this attack roll is made at advantage. On a hit, the target takes {@dice 1d12} lightning damage, and on each of your turns for the duration, you can use your action to deal {@dice 1d12} lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you."
       ],
       "entriesHigherLevel": [
         {
@@ -22618,7 +22619,7 @@
         }
       ],
       "entries": [
-        "You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking ({@dice 2d6}) necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.",
+        "You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking {@dice 2d6} necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.",
         "In addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier.."
       ],
       "entriesHigherLevel": [
