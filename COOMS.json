@@ -253,7 +253,7 @@
           "type": "entries",
           "name": "Aerial Wings",
           "entries": [
-            "You gain lungs and sprout two large animalistic wings out of your back, giving you a flying speed of 20 ft and allowing you to breathe air. These massive wings help stagger surrounding enemies when you take off, allowing you to disengage as a bonus action."
+            "You gain lungs and sprout two large animalistic wings out of your back, giving you a flying speed equal to your walking speed and allowing you to breathe air. To use the flying speed granted by this spell, you can't be wearing medium or heavy armor."
           ]
         },
         {
@@ -1203,6 +1203,75 @@
       }
     },
     {
+      "name": "Barkskin",
+      "source": "COOMS",
+      "level": 2,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a handful of oak bark"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, causing any natural armor or unarmored defense that the target is using to gain a +1 bonus to its AC. Additionally, the target's AC can't be less than 15, regardless of what kind of armor it is wearing."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the AC bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3. When you use a spell slot of 8th level or higher, the bonus increases to +4."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Bestow Curse",
       "source": "COOMS",
       "level": 4,
@@ -1791,6 +1860,66 @@
         ]
       }
     },
+    {
+      "name": "Blink",
+      "source": "COOMS",
+      "level": 3,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "Roll a {@dice d20} at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of your next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.",
+        "While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything there more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creatures that aren't there can't perceive you or interact with you, unless they have the ability to do so."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+
     {
       "name": "Bloodletting",
       "source": "COOMS",
@@ -3546,6 +3675,67 @@
       }
     },
     {
+      "name": "Conjure Barrage",
+      "source": "COOMS",
+      "level": 3,
+      "school": "C",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "cone",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "one piece of ammunition or a thrown weapon"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You throw a nonmagical weapon or fire a piece of nonmagical ammunition into the air to create a cone of identical weapons that shoot forward and then disappear. Each creature in a 60-foot cone must succeed on a Dexterity saving throw. A creature takes {@dice 3d8} damage on a failed save, or half as much damage on a successful one. The damage type is the same as that of the weapon or ammunition used as a component."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            " When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d8|4-9|1d8} for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Conjure Beast",
       "source": "COOMS",
       "level": 4,
@@ -4949,9 +5139,9 @@
         }
       ],
       "entries": [
-        "You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature that starts its turn in the bonfire's space or moves into the bonfire's space for the first time on a turn must succeed on a Dexterity saving throw or take {@damage 1d8} fire damage.",
-        "The bonfire ignites flammable objects in its area that aren't being worn or carried.",
-        "The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+        "You create a bonfire on ground that you can see within range. Until the spell ends, the magic bonfire fills a 5-foot cube. Any creature that starts its turn in the bonfire's space or moves into the bonfire's space for the first time on a turn must succeed on a Dexterity saving throw or take {@dice 1d8} fire damage.",
+        "The bonfire ignites flammable objects in its area that aren't being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+        "The spell's damage increases by {@dice 1d8} when you reach 5th level {@dice 2d8}, 11th level {@dice 3d8}, and 17th level {@dice 4d8}."
       ],
       "damageInflict": [ "fire" ],
       "savingThrow": [ "dexterity" ],
@@ -5058,14 +5248,14 @@
           "type": "entries",
           "name": "Create Water",
           "entries": [
-            "You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area."
+            "You create up to 10 gallons of clean water within range in an open container. Alternatively, the water falls as rain in a 30-foot cube within range, extinguishing exposed flames in the area. If the rain falls on one or more exposed magical flames, they may be dispelled and extinguished. If they were created by a spell cast at 1st-level, such as Searing Smite, you dispel it. If they were created by a spell cast at 2nd-level or higher, such as a Flaming Sphere, you must upcast the spell to dispel them. Magical fires not created by spells may have a required level set by the DM if they are possible to extinguish. Objects ignited as the result of a spell's instant effect do not need to be dispelled."
           ]
         },
         {
           "type": "entries",
           "name": "Destroy Water",
           "entries": [
-            "You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy nonmagical fog in a 30-foot cube within range. If you target a water-based spell cast at 1st-level with this, such as Fog Cloud or Wall of Water, you dispel it. For any water created by a spell of 2nd-level or higher, make an Arcana check. The DC to dispel the water equals 10 + the spell's level."
+            "You destroy up to 10 gallons of water in an open container within range. Alternatively, you destroy nonmagical fog in a 30-foot cube within range. Otherwise, you may target a single cloud-based or water-based spell cast at 1st-level with this, such as Fog Cloud or Wall of Water, and dispel it. For spells of 2nd-level or higher that meet the above criteria, such as Gaseous Form or Maelstrom, you must upcast the spell to dispel them. Magical fog and water not created by spells may have a required level set by the DM if they are possible to destroy."
           ]
         }
       ],
@@ -5073,7 +5263,7 @@
         {
           "name": "At Higher Levels",
           "entries": [
-            "When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 15 feet, for each slot level above 1st. Additionally, you may automatically dispel magical water if the spell's level is equal to or less than the level of the spell slot you used."
+            "When you cast this spell using a spell slot of 2nd level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 15 feet, for each slot level above 1st. Additionally, the level of spells that you can dispel following the spell’s dispelling criteria increases to the level that the spell was upcast to."
           ],
           "type": "entries"
         }
@@ -5198,6 +5388,53 @@
           },
           {
             "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crusader's Mantle",
+      "source": "COOMS",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra {@dice 1d4} damage when it hits with a weapon attack. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
             "source": "THICC"
           }
         ]
@@ -5933,7 +6170,7 @@
         }
       ],
       "entries": [
-        "You cause a great deal of lightning to surge through your body before releasing it in an area around you. You take {@damage 2d4} lightning damage. Afterwards, every creature within 15 feet of you must make a Dexterity saving throw or take lightning damage equal to four times the number rolled, with no damage on a successful save."
+        "You cause a great deal of lightning to surge through your body before releasing it in an area around you. You take {@dice 2d4} lightning damage. Afterwards, every creature within 15 feet of you must succeed on a Dexterity saving throw or take lightning damage equal to four times the number rolled, with no damage on a successful save."
       ],
       "entriesHigherLevel": [
         {
@@ -6230,6 +6467,53 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Divine Favor",
+      "source": "COOMS",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra {@dice 1d4} damage on a hit. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Paladin",
+            "source": "PHB"
+          },
+          {
+            "name": "Paladin",
+            "source": "THICC"
           }
         ]
       }
@@ -7089,10 +7373,13 @@
           "type": "timed",
           "duration": {
             "type": "hour",
-            "amount": 8
+            "amount": 24
           }
         }
       ],
+      "meta": {
+        "ritual": true
+      },
       "entries": [
         "You touch a creature and offer it a temperature ward, making it suffer no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit. On top of this, any acid, cold, fire, lightning, or thunder damage the warded creature takes is reduced by 1. Any non-creature being worn or carried is likewise protected.",
         "This spell doesn't protect against other environmental hazards such as smoke, lack of air, and so forth."
@@ -8131,6 +8418,75 @@
       }
     },
     {
+      "name": "Forcecage",
+      "source": "COOMS",
+      "level": 7,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 100
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "ruby dust worth 1,500 gp"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "An immobile, invisible, cube-shaped prison composed of magical force springs into existence around an area you choose within range. The prison can be a cage or a solid box as you choose.",
+        "A prison in the shape of a cage can be up to 20 feet on a side and is made from 1/2-inch diameter bars spaced 1/2 inch apart.",
+        "A prison in the shape of a box can be up to 10 feet on a side, creating a solid barrier that prevents any matter from passing through it and blocking any spells cast into or out from the area.",
+        "When you cast the spell, any creature that is completely inside the cage's area is trapped. Creatures only partially within the area, or those too large to fit inside the area, are pushed away from the center of the area until they are completely outside the area.",
+        "A creature inside the cage can't leave it by nonmagical means. If the creature tries to use teleportation or interplanar travel to leave the cage, it must first make a Charisma saving throw. On a success, the creature can use that magic to exit the cage. On a failure, the creature can't exit the cage and wastes the use of the spell or effect. The cage also extends into the Ethereal Plane, blocking ethereal travel.",
+        "This spell can't be dispelled by {@spell dispel magic|COOMS|dispel magic}."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Force Shield",
       "source": "COOMS",
       "level": 3,
@@ -8982,7 +9338,7 @@
       ],
       "entries": [
         "A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.",
-        "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw as the guardian attempts to smite them. The creature takes {@dice 8d4} radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes after it has made 5 attacks."
+        "Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there must succeed on a Dexterity saving throw as the guardian attempts to smite them. The creature takes {@dice 8d4} damage on a failed save, or half as much damage on a successful one. The damage type is based on the alignment of your deity: radiant for good, force for neutral, and necrotic for evil. The guardian vanishes after it has made 5 attacks."
       ],
       "damageInflict": [ "radiant" ],
       "savingThrow": [ "dexterity" ],
@@ -9347,6 +9703,85 @@
           },
           {
             "name": "Witch",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Haste",
+      "source": "COOMS",
+      "level": 3,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a shaving of licorice root"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "Choose a willing creature that you can see within range. Until the spell ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.",
+        "When the spell ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it. Additionally, the target must succeed on a DC 20 Constitution saving throw or gain a level of exhaustion, as the lethargy stays with them."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            " When you cast this spell using a spell slot of 4th level or higher, you may target one additional creature for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
             "source": "THICC"
           }
         ]
@@ -10916,6 +11351,67 @@
           },
           {
             "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leomund's Tiny Hut'",
+      "source": "COOMS",
+      "level": 3,
+      "school": "A",
+      "time": [
+        {
+          "number": 10,
+          "unit": "minute"
+        }
+      ],
+      "range": {
+        "type": "radius",
+        "distance": {
+          "type": "foot hemisphere",
+          "amount": 10
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a small crystal bead"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "hour",
+            "amount": 8
+          }
+        }
+      ],
+      "meta": {
+        "ritual": true
+      },
+      "entries": [
+        "A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration.",
+        "Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can leave freely; however, if any part of such a creature or object exits the sphere, the spell immediately ends. All other creatures and objects are barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.",
+        "Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
             "source": "THICC"
           },
           {
@@ -13735,6 +14231,66 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Otiluke's Resilient Sphere",
+      "source": "COOMS",
+      "level": 4,
+      "school": "A",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a hemispherical piece of clear crystal and a matching hemispherical piece of gum arabic"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+          "type": "minute",
+          "amount": 1
+        },
+        "concentration": true
+        }
+      ],
+      "entries": [
+        "A sphere of shimmering force encloses a creature or object of Large size or smaller within range. An unwilling creature must make a Dexterity saving throw. On a failed save, the creature is enclosed for the duration.",
+        "Nothing-not physical objects, energy, or other spell effects-can pass through the barrier, in or out, though a creature in the sphere can breathe there. The sphere is immune to all damage, and a creature or object inside can't be damaged by attacks or effects originating from outside, nor can a creature inside the sphere damage anything outside it.",
+        "The sphere is weightless and just large enough to contain the creature or object inside. An enclosed creature can use its action to push against the sphere's walls and thus roll the sphere at up to half the creature's speed. Similarly, the globe can be picked up and moved by other creatures.",
+        "A disintegrate spell targeting the globe destroys it without harming anything inside it."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Artificer",
+            "source": "TCE"
+          },
+          {
+            "name": "Artificer",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -17469,6 +18025,71 @@
       }
     },
     {
+      "name": "Sense Traps",
+      "source": "COOMS",
+      "level": 3,
+      "school": "D",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 10
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "For the duration, you sense the presence of any trap within 120 feet of you that is within line of sight. A trap, for the purpose of this spell, includes anything that would inflict a sudden or unexpected effect you consider harmful or undesirable, which was specifically intended as such by its creator. Thus, the spell would sense an area affected by the alarm spell, a glyph of warding, or a mechanical pit trap, but it would not reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole. Similarly, if a trap no longer functions due to degradation instead of disarming, the spell still warns you of its presence.",
+        "This spell merely reveals that a trap is present when it is sensed by you. You don't learn the location of each trap, but you do learn the general nature of the danger posed by a trap you sense.",
+        "You have advantage on the initial saving throw as well as any check made to find or determine the origin of any traps you are sensing with the spell."
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Cleric",
+            "source": "PHB"
+          },
+          {
+            "name": "Cleric",
+            "source": "THICC"
+          },
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Ranger",
+            "source": "PHB"
+          },
+          {
+            "name": "Ranger",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Shape Water",
       "source": "COOMS",
       "level": 0,
@@ -18185,6 +18806,87 @@
       }
     },
     {
+      "name": "Slow",
+      "source": "COOMS",
+      "level": 3,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 120
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a drop of molasses"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Charisma saving throw or be affected by this spell for the duration.",
+        "An affected target's speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can't use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature's abilities or magic items, it can't make more than one melee or ranged attack during its turn.",
+        "If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn't take effect until the creature's next turn, and the creature must use its action on that turn to complete the spell. If it can't, the spell is wasted.",
+        "A creature affected by this spell makes another Charisma saving throw at the end of each of its turns. On a successful save, the effect ends for it."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, you may target two additional creatures for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Bard",
+            "source": "PHB"
+          },
+          {
+            "name": "Bard",
+            "source": "THICC"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Smudge",
       "source": "COOMS",
       "level": 2,
@@ -18293,10 +18995,9 @@
         {
           "type": "timed",
           "duration": {
-          "type": "minute",
-          "amount": 1
-        },
-        "concentration": true
+           "type": "round",
+           "amount": 1
+          }
         }
       ],
       "entries": [
@@ -19234,7 +19935,7 @@
         }
       ],
       "entries": [
-        "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical non-adamantine bludgeoning, piercing, and slashing damage."
+        "This spell turns the flesh of a willing creature you touch as hard as stone. Until the spell ends, the target has resistance to nonmagical non-adamantine bludgeoning, piercing, and slashing damage. Additionally, the target's AC can't be less than 17, regardless of what kind of armor it is wearing."
       ],
       "classes": {
         "fromClassList": [
@@ -20699,6 +21400,74 @@
       }
     },
     {
+      "name": "Vampiric Touch",
+      "source": "COOMS",
+      "level": 3,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes {@dice 3d6} necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage 1d6|4-9|1d6} for each slot level above 3rd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
       "name": "Virtue",
       "source": "COOMS",
       "level": 0,
@@ -20842,6 +21611,74 @@
               "shortName": "Arcane Trickster",
               "source": "PHB"
             }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Volt Tackle",
+      "source": "COOMS",
+      "level": 5,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 90
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a length of copper wire"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You transform yourself into a bolt of lightning and choose a creature within range that you can see directly adjacent to an unoccupied space that you can see to be your conductor. The target and every creature in a line to them must make a Dexterity saving throw, taking {@dice 4d6} lightning damage on a failed save, and half as much on a success. You then make a melee spell attack against the target as you approach them. You have advantage on the attack roll if the target is wearing armor made of metal. On a hit, the target takes {@dice 8d6} lightning damage and is stunned until the end of your next turn. Finally, you move to the previously chosen unoccupied space adjacent to your target as the transform ends."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 6th level or higher, both damages increases by {@scaledamage 1d6|6-9|1d6} for each slot level above 5th."
+          ],
+          "type": "entries"
+        }
+      ],
+      "damageInflict": [ "lightning" ],
+      "savingThrow": [ "dexterity" ],
+      "areaTags": [ "L" ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
           }
         ]
       }
@@ -21460,7 +22297,7 @@
         }
       ],
       "entries": [
-        "You shoot a jet of pressurized water and make an attack roll at one enemy you can see within range. If the attack hits, the creature takes ({@dice 3d8}) piercing damage and they are pushed back up to 15 feet, but not past the spell's range, as the stream of water abruptly stops there. If it hits a creature that would prevent its movement, the creature must make a DC 15 Dexterity saving throw (which it can choose to fail). On a failure, the target stops moving and both parties share ({dice 1d8}) bludgeoning damage. On a success, the creature gets out of the target's way and does not prevent its movement. Objects that would block the target's movement automatically fail the saving throw."
+        "You shoot a jet of pressurized water and make an attack roll at one enemy you can see within range. If the attack hits, the creature takes {@dice 3d8} piercing damage and they are pushed back up to 15 feet, but not past the spell's range, as the stream of water abruptly stops there. If it hits a creature that would prevent its movement, the creature must make a DC 15 Dexterity saving throw (which it can choose to fail). On a failure, the target stops moving and both parties share {@dice 1d8} bludgeoning damage. On a success, the creature gets out of the target's way and does not prevent its movement. Objects that would block the target's movement automatically fail the saving throw."
       ],
       "entriesHigherLevel": [
         {
@@ -21670,6 +22507,150 @@
           },
           {
             "name": "Ranger",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Witch Bolt",
+      "source": "COOMS",
+      "level": 1,
+      "school": "V",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 30
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a twig from a tree that has been struck by lightning"
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          },
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. If the target is wearing armor made of metal, this attack roll is made at advantage. On a hit, the target takes {@dice 1d12} lightning damage, and on each of your turns for the duration, you can use your action to deal {@dice 1d12} lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell's range or if it has total cover from you."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            "When you cast this spell using a spell slot of 2nd level or higher, the range increases by 15 feet for each slot level above 1st."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Sorcerer",
+            "source": "PHB"
+          },
+          {
+            "name": "Sorcerer",
+            "source": "THICC"
+          },
+          {
+            "name": "Warlock",
+            "source": "PHB"
+          },
+          {
+            "name": "Warlock",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
+            "source": "THICC"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Wither and Bloom",
+      "source": "COOMS",
+      "level": 2,
+      "school": "N",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true,
+        "m": "a withered vine twisted into a loop"
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You invoke both death and life upon a 10-foot-radius sphere centered on a point within range. Each creature of your choice in that area must make a Constitution saving throw, taking {@dice 2d6} necrotic damage on a failed save, or half as much damage on a successful one. Nonmagical vegetation in that area withers.",
+        "In addition, one creature of your choice in that area can spend and roll one of its unspent Hit Dice and regain a number of hit points equal to the roll plus your spellcasting ability modifier.."
+      ],
+      "entriesHigherLevel": [
+        {
+          "name": "At Higher Levels",
+          "entries": [
+            " When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage 1d6|3-9|1d6} for each slot above the 2nd, and the number of Hit Dice that can be spent and added to the healing roll increases by one for each slot above 2nd."
+          ],
+          "type": "entries"
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Druid",
+            "source": "PHB"
+          },
+          {
+            "name": "Druid",
+            "source": "THICC"
+          },
+          {
+            "name": "Witch",
+            "source": "THICC"
+          },
+          {
+            "name": "Wizard",
+            "source": "PHB"
+          },
+          {
+            "name": "Wizard",
             "source": "THICC"
           }
         ]
